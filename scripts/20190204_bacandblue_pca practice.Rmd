@@ -1,0 +1,103 @@
+---
+title: "BACandBLUE PCA practice"
+author: "Brown, J.T."
+date: "February 4, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Reading in Libraries  
+```{r}
+library(readxl)
+library(ggplot2)
+library(nlme)
+library(lme4)
+library(lmerTest)
+library(ez)
+library(lsr)
+library(dplyr)
+library(tidyr)
+library(MASS)
+library(doBy)
+library(factoextra)
+library(devtools)
+library(ggbiplot)
+library(plyr)
+library(scales)
+library(grid)
+library(githubinstall)
+```
+## Loading and reshaping the dataframe
+```{r}
+#PC
+data=read_excel("/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandBLUE_GC DATAFRAMES/20181209_Frigirobactrium faeni.xlsx",sheet = "Frigirobactrium faeni")
+data=subset(data,Area!="NA")
+View(data)
+
+data.pca=prcomp(data[,c(8,9)],center=TRUE,scale.=TRUE)
+summary(data.pca)
+
+##Visualizing and grouping PCA components one and two
+ggbiplot(data.pca)
+ggbiplot(data.pca, labels=rownames(data))
+
+##Grouping the data by country of origin
+data.hour <- c(rep("Japan", 3), 
+                    rep("US",4), 
+                    rep("Europe", 7),
+                    rep("US",3), "Europe", 
+                    rep("Japan", 3), 
+                    rep("US",4), 
+                    rep("Europe", 3), "US", 
+                    rep("Europe", 3))
+ggbiplot(data.pca,ellipse=TRUE,  labels=rownames(data), groups=data.hour)
+```
+
+##Dataframe Reorganization
+```{r}
+##Setting up the data
+mtcars.pca=prcomp(mtcars[,c(1:7,10,11)],center = TRUE,scale. = TRUE)
+summary(mtcars.pca)
+str(mtcars.pca)
+
+##visualizig PCA components one and two
+ggbiplot(mtcars.pca)
+ggbiplot(mtcars.pca, labels=rownames(mtcars))
+
+##Grouping the data by country of origin
+mtcars.country <- c(rep("Japan", 3), 
+                    rep("US",4), 
+                    rep("Europe", 7),
+                    rep("US",3), "Europe", 
+                    rep("Japan", 3), 
+                    rep("US",4), 
+                    rep("Europe", 3), "US", 
+                    rep("Europe", 3))
+ggbiplot(mtcars.pca,ellipse=TRUE,  labels=rownames(mtcars), groups=mtcars.country)
+
+##Visualizing and grouping PCA components three and four
+ggbiplot(mtcars.pca,ellipse=TRUE,choices=c(3,4),   labels=rownames(mtcars), groups=mtcars.country)
+```
+
+##Cars Practice
+```{r}
+##Setting up the data
+mtcars.pca=prcomp(mtcars[,c(1:7,10,11)],center = TRUE,scale. = TRUE)
+View(mtcars)
+summary(mtcars.pca)
+str(mtcars.pca)
+
+##visualizig PCA components one and two
+ggbiplot(mtcars.pca)
+ggbiplot(mtcars.pca, labels=rownames(mtcars))
+
+##Grouping the data by country of origin
+mtcars.country <- c(rep("Japan", 3), rep("US",4), rep("Europe", 7),rep("US",3), "Europe", rep("Japan", 3), rep("US",4), rep("Europe", 3), "US", rep("Europe", 3))
+ggbiplot(mtcars.pca,ellipse=TRUE,  labels=rownames(mtcars), groups=mtcars.country)
+
+##Visualizing and grouping PCA components three and four
+ggbiplot(mtcars.pca,ellipse=TRUE,choices=c(3,4),   labels=rownames(mtcars), groups=mtcars.country)
+```
