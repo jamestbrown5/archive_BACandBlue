@@ -7,10 +7,19 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+##PACKAGES INSTALL
+install.packages(c("vegan", "ecodist", "labdsv", "ape", "ade4", "smacof"))
+
 ```
 
 ##Reading in Libraries  
 ```{r}
+library(vegan)
+library(ecodist)
+library(labdsv)
+library(ape)
+library(ade4)
+library(smacof)
 library(readxl)
 library(ggplot2)
 library(nlme)
@@ -33,53 +42,109 @@ library(githubinstall)
 ## Loading and reshaping the dataframe
 ```{r}
 #PC
-data=read_excel("/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandBLUE_GC DATAFRAMES/20181209_Frigirobactrium faeni.xlsx",sheet = "Frigirobactrium faeni")
-data=subset(data,Area!="NA")
-View(data)
+#=read_excel("/Users/jbrown/Documents/GitHub/BACandBlue/data/Frigirobactrium faeni.xlsx",sheet = "24H_Frigirobactrium faeni")
+#data1=apply(data[,c("Area_24REP01","Area_24REP02","Area_24REP03","Area_24REP04","Area_24REP05","Area_24CTRL01","Area_24BLANK01","Area_24EMPTY01","R.T.","R.T.__1","R.T.__2","R.T.__3","R.T.__4","R.T.__5","R.T.__6","R.T.__7")], 2, function(x){replace(x, is.na(x), 0)})
+#data1=data.frame(data1)
+#View(data1)
 
-data.pca=prcomp(data[,c(8,9)],center=TRUE,scale.=TRUE)
-summary(data.pca)
+data=read_excel("/Users/jbrown/Documents/GitHub/BACandBlue/data/20181209_Frigirobactrium faeni.xlsx",sheet = "Frigirobactrium faeni")
+data$number<-substr(data$sample_id,13,14)
+data=apply(data[,c("Library/ID","number","hour","Area","R.T.")], 2, function(x){replace(x, is.na(x), 0)})
 
-##Visualizing and grouping PCA components one and two
-ggbiplot(data.pca)
-ggbiplot(data.pca, labels=rownames(data))
-
-##Grouping the data by country of origin
-data.hour <- c(rep("Japan", 3), 
-                    rep("US",4), 
-                    rep("Europe", 7),
-                    rep("US",3), "Europe", 
-                    rep("Japan", 3), 
-                    rep("US",4), 
-                    rep("Europe", 3), "US", 
-                    rep("Europe", 3))
-ggbiplot(data.pca,ellipse=TRUE,  labels=rownames(data), groups=data.hour)
+str(data)
+#View(data)
 ```
 
 ##Dataframe Reorganization
 ```{r}
-##Setting up the data
-mtcars.pca=prcomp(mtcars[,c(1:7,10,11)],center = TRUE,scale. = TRUE)
-summary(mtcars.pca)
-str(mtcars.pca)
+pca <- prcomp(t(data), scale=TRUE, center=TRUE) 
+ 
+## calculate the percentage of variation that each PC accounts for...
+pca.var <- pca$sdev^2
+pca.var.per <- round(pca.var/sum(pca.var)*100, 1)
+pca.var.per
+ 
+## now make a fancy looking plot that shows the PCs and the variation:
+pca.data <- data.frame(Sample=rownames(pca$x),
+  X=pca$x[,1],
+  Y=pca$x[,2])
+pca.data
+ 
+ggplot(data=pca.data, aes(x=X, y=Y, label=Sample)) +
+  geom_text() +
+  xlab(paste("PC1 - ", pca.var.per[1], "%", sep="")) +
+  ylab(paste("PC2 - ", pca.var.per[2], "%", sep="")) +
+  theme_bw() +
+  ggtitle("PCA Graph")
 
-##visualizig PCA components one and two
-ggbiplot(mtcars.pca)
-ggbiplot(mtcars.pca, labels=rownames(mtcars))
+distance.matrix <- dist(scale(t(data1), center=TRUE, scale=TRUE),
+  method="euclidean")
+ 
+## do the MDS math (this is basically eigen value decomposition)
+mds.stuff <- cmdscale(distance.matrix, eig=TRUE, x.ret=TRUE)
+ 
+## calculate the percentage of variation that each MDS axis accounts for...
+mds.var.per <- round(mds.stuff$eig/sum(mds.stuff$eig)*100, 1)
+mds.var.per
+ 
+## now make a fancy looking plot that shows the MDS axes and the variation:
+mds.values <- mds.stuff$points
+mds.data <- data.frame(Sample=rownames(mds.values),
+  X=mds.values[,1],
+  Y=mds.values[,2])
+mds.data
+ 
+ggplot(data=mds.data, aes(x=X, y=Y, label=Sample)) +
+  geom_text() +
+  theme_bw() +
+  xlab(paste("MDS1 - ", mds.var.per[1], "%", sep="")) +
+  ylab(paste("MDS2 - ", mds.var.per[2], "%", sep="")) +
+  ggtitle("MDS plot using Euclidean distance")
 
-##Grouping the data by country of origin
-mtcars.country <- c(rep("Japan", 3), 
-                    rep("US",4), 
-                    rep("Europe", 7),
-                    rep("US",3), "Europe", 
-                    rep("Japan", 3), 
-                    rep("US",4), 
-                    rep("Europe", 3), "US", 
-                    rep("Europe", 3))
-ggbiplot(mtcars.pca,ellipse=TRUE,  labels=rownames(mtcars), groups=mtcars.country)
+log2.data.matrix <- log2(data1)
+ 
+## now create an empty distance matrix
+log2.distance.matrix <- matrix(0,
+  nrow=ncol(log2.data.matrix),
+  ncol=ncol(log2.data.matrix),
+  dimnames=list(colnames(log2.data.matrix),
+    colnames(log2.data.matrix)))
+ 
+log2.distance.matrix
+ 
+## now compute the distance matrix using avg(absolute value(log2(FC)))
+for(i in 1:ncol(log2.distance.matrix)) {
+  for(j in 1:i) {
+    log2.distance.matrix[i, j] <-
+      mean(abs(log2.data.matrix[,i] - log2.data.matrix[,j]))
+  }
+}
+log2.distance.matrix
+ 
+## do the MDS math (this is basically eigen value decomposition)
+## cmdscale() is the function for "Classical Multi-Dimensional Scalign"
+mds.stuff <- cmdscale(as.dist(log2.distance.matrix),
+  eig=TRUE,
+  x.ret=TRUE)
+ 
+## calculate the percentage of variation that each MDS axis accounts for...
+mds.var.per <- round(mds.stuff$eig/sum(mds.stuff$eig)*100, 1)
+mds.var.per
+ 
+## now make a fancy looking plot that shows the MDS axes and the variation:
+mds.values <- mds.stuff$points
+mds.data <- data.frame(Sample=rownames(mds.values),
+  X=mds.values[,1],
+  Y=mds.values[,2])
+mds.data
+ 
+ggplot(data=mds.data, aes(x=X, y=Y, label=Sample)) +
+  geom_text() +
+  theme_bw() +
+  xlab(paste("MDS1 - ", mds.var.per[1], "%", sep="")) +
+  ylab(paste("MDS2 - ", mds.var.per[2], "%", sep="")) +
+  ggtitle("MDS plot using avg(logFC) as the distance")
 
-##Visualizing and grouping PCA components three and four
-ggbiplot(mtcars.pca,ellipse=TRUE,choices=c(3,4),   labels=rownames(mtcars), groups=mtcars.country)
 ```
 
 ##Cars Practice
