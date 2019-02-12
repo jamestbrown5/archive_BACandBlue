@@ -1,0 +1,88 @@
+SampleName,DataFile,SampleID,microbe treatment,microbe treatment_num,nectar conc,nectar conc_num,day
+"M. reu & A ast, rep1, 15% nectar, 0 h, 18 mL",05-01-0.D,MrAaHd0r1,MrAa,1,normal,1,0
+"M reu & A ast, rep 1, 15% nectar, 24 h, 18 mL",05-01-1.D,MrAaHd1r1,MrAa,1,normal,1,1
+"M reu & A ast, rep 1, 15% nectar, 48 h, 16 mL",05-01-2.D,MrAaHd2r1,MrAa,1,normal,1,2
+"M. reu & A ast, rep2, 15% nectar, 0 h, 18 mL",05-02-0.D,MrAaHd0r2,MrAa,1,normal,1,0
+"M reu & A ast, rep 2, 15% nectar, 24 h, 18 mL",05-02-1.D,MrAaHd1r2,MrAa,1,normal,1,1
+"M reu & A ast, rep 2, 15% nectar, 48 h, 16 mL",05-02-2.D,MrAaHd2r2,MrAa,1,normal,1,2
+"M. reu & A ast, rep3, 15% nectar, 0 h, 18 mL",05-03-0.D,MrAaHd0r3,MrAa,1,normal,1,0
+"M reu & A ast, rep 3, 15% nectar, 24 h, 18 mL",05-03-1.D,MrAaHd1r3,MrAa,1,normal,1,1
+"M reu & A ast, rep 3, 15% nectar, 48 h, 16 mL",05-03-2.D,MrAaHd2r3,MrAa,1,normal,1,2
+"M reu & A ast 15% nectar, rep 4, 0 h, 18 mL",05-04-0.D,MrAaHd0r4,MrAa,1,normal,1,0
+"M reu + A ast 15% nectar, rep 4, 24 h, 18 mL",05-04-1.D,MrAaHd1r4,MrAa,1,normal,1,1
+"M reu + A ast 15% nectar, rep 4, 48 h, 16 mL",05-04-2.D,MrAaHd2r4,MrAa,1,normal,1,2
+"M reu & A ast 15% nectar, rep 5, 0 h, 18 mL",05-05-0.D,MrAaHd0r5,MrAa,1,normal,1,0
+"M reu + A ast 15% nectar, rep 5, 24 h, 18 mL",05-05-1.D,MrAaHd1r5,MrAa,1,normal,1,1
+"M reu + A ast 15% nectar, rep 5, 48 h, 16 mL",05-05-2.D,MrAaHd2r5,MrAa,1,normal,1,2
+"A. astilbes, 15% sugar nectar, 0 h, 18 mL",06-01-0.D,AaHd0r1,Aa,2,normal,1,0
+"A ast, rep 1, 15% nectar, 24 h, 18 mL",06-01-1.D,AaHd1r1,Aa,2,normal,1,1
+"A ast, rep 1, 15% nectar, 48 h, 16 mL",06-01-2.D,AaHd2r1,Aa,2,normal,1,2
+"A. astilbes, 15% sugar nectar, 0 h, 18 mL",06-02-0.D,AaHd0r2,Aa,2,normal,1,0
+"A ast, rep 2, 15% nectar, 24 h, 18 mL",06-02-1.D,AaHd1r2,Aa,2,normal,1,1
+"A ast, rep 2, 15% nectar, 48 h, 16 mL",06-02-2.D,AaHd2r2,Aa,2,normal,1,2
+"A ast 15% nectar, 0 h, 18 mL",06-03-0.D,AaHd0r3,Aa,2,normal,1,0
+"A ast 15% nectar, rep 3, 24 h, 18 mL",06-03-1.D,AaHd1r3,Aa,2,normal,1,1
+"A ast 15% nectar, rep 3, 48 h, 16 mL",06-03-2.D,AaHd2r3,Aa,2,normal,1,2
+"A ast 15% nectar, rep 4, 0 h, 18 mL",06-04-0.D,AaHd0r4,Aa,2,normal,1,0
+"A ast 15% nectar, rep 4, 24 h, 18 mL",06-04-1.D,AaHd1r4,Aa,2,normal,1,1
+"A ast 15% nectar, rep 4, 48 h, 16 mL",06-04-2.D,AaHd2r4,Aa,2,normal,1,2
+"A ast 15% nectar, rep 5, 0 h, 18 mL",06-05-0.D,AaHd0r5,Aa,2,normal,1,0
+"A ast 15% nectar, rep 5, 24 h, 18 mL",06-05-1.D,AaHd1r5,Aa,2,normal,1,1
+"A ast 15% nectar, rep 5, 48 h, 16 mL",06-05-2.D,AaHd2r5,Aa,2,normal,1,2
+"M. reu, rep 1, 15% sugar nectar, 0 h, 18 mL",07-01-0.D,MrHd0r1,Mr,3,normal,1,0
+"M reu, rep 2, 15% nectar, 24 h, 18 mL",07-01-1.D,MrHd1r1,Mr,3,normal,1,1
+"M reu, rep 1, 15% nectar, 48 h, 16 mL",07-01-2.D,MrHd2r1,Mr,3,normal,1,2
+"M. reu, rep 2, 15% sugar nectar, 0 h, 18 mL",07-02-0.D,MrHd0r2,Mr,3,normal,1,0
+"M reu, rep 2, 15% nectar, 24 h, 18 mL",07-02-1.D,MrHd1r2,Mr,3,normal,1,1
+"M reu, rep 2, 15% nectar, 48 h, 16 mL",07-02-2.D,MrHd2r2,Mr,3,normal,1,2
+"M reu 15% nectar, rep 3, 0 h, 18 mL",07-03-0.D,MrHd0r3,Mr,3,normal,1,0
+"M reu 15% nectar, rep 3, 24 h, 18 mL",07-03-1.D,MrHd1r3,Mr,3,normal,1,1
+"M reu 15% nectar, rep 3, 48 h, 16 mL",07-03-2.D,MrHd2r3,Mr,3,normal,1,2
+"M reu 15% nectar, rep 4, 0 h, 18 mL",07-04-0.D,MrHd0r4,Mr,3,normal,1,0
+"M reu 15% nectar, rep 4, 24 h, 18 mL",07-04-1.D,MrHd1r4,Mr,3,normal,1,1
+"M reu 15% nectar, rep 4, 48 h, 16 mL",07-04-2.D,MrHd2r4,Mr,3,normal,1,2
+"M reu 15% nectar, rep 5, 0 h, 18 mL",07-05-0.D,MrHd0r5,Mr,3,normal,1,0
+"M reu 15% nectar, rep 5, 24 h, 18 mL",07-05-1.D,MrHd1r5,Mr,3,normal,1,1
+"M reu 15% nectar, rep 5, 48 h, 16 mL",07-05-2.D,MrHd2r5,Mr,3,normal,1,2
+"M reu+A ast in1.5% nectar, rep 1, 0 h, 18 mL",N01-01-0.D,MrAaLd0r1,MrAa,1,low,0,0
+"M reu+A ast in 1.5% nectar, rep 2, 24h, 18 mL",N01-01-1.D,MrAaLd1r1,MrAa,1,low,0,1
+"M reu+A ast in 1.5% nectar, rep 1, 48h, 16 mL",N01-01-2.D,MrAaLd2r1,MrAa,1,low,0,2
+"M reu+A ast in1.5% nectar, rep 2, 0 h, 18 mL",N01-02-0.D,MrAaLd0r2,MrAa,1,low,0,0
+"M reu+A ast in 1.5% nectar, rep 2, 24h, 18 mL",N01-02-1.D,MrAaLd1r2,MrAa,1,low,0,1
+"M reu+A ast in 1.5% nectar, rep 2, 48h, 16 mL",N01-02-2.D,MrAaLd2r2,MrAa,1,low,0,2
+"M reu+A ast in1.5% nectar, rep 3, 0 h, 18 mL",N01-03-0.D,MrAaLd0r3,MrAa,1,low,0,0
+"M reu+A ast in 1.5% nectar, rep 3, 24h, 18 mL",N01-03-1.D,MrAaLd1r3,MrAa,1,low,0,1
+"M reu+A ast in 1.5% nectar, rep 3, 48h, 16 mL",N01-03-2.D,MrAaLd2r3,MrAa,1,low,0,2
+"M reu+A ast in 1.5% nectar, rep 4, 0 h, 18 mL",N01-04-0.D,MrAaLd0r4,MrAa,1,low,0,0
+"M reu+A ast in 1.5% nectar, rep 4, 24h, 18 mL",N01-04-1.D,MrAaLd1r4,MrAa,1,low,0,1
+"M reu+A ast in 1.5% nectar, rep 4, 48h, 16 mL",N01-04-2.D,MrAaLd2r4,MrAa,1,low,0,2
+"M reu+A ast in 1.5% nectar, rep 5, 0 h, 18 mL",N01-05-0.D,MrAaLd0r5,MrAa,1,low,0,0
+"M reu+A ast in 1.5% nectar, rep 5, 24h, 18 mL",N01-05-1.D,MrAaLd1r5,MrAa,1,low,0,1
+"M reu+A ast in 1.5% nectar, rep 5, 48h, 16 mL",N01-05-2.D,MrAaLd2r5,MrAa,1,low,0,2
+"A astilbers 1.5% nectar, rep 1, 0 h, 18 mL",N03-01-0.D,AaLd0r1,Aa,2,low,0,0
+"A ast in 1.5% nectar, rep 1, 24 h, 18 mL",N03-01-1.D,AaLd1r1,Aa,2,low,0,1
+"A ast in 1.5% nectar, rep 1, 48h, 16 mL",N03-01-2.D,AaLd2r1,Aa,2,low,0,2
+"A astilbers 1.5% nectar, rep 2, 0 h, 18 mL",N03-02-0.D,AaLd0r2,Aa,2,low,0,0
+"A ast in 1.5% nectar, rep 2, 24 h, 18 mL",N03-02-1.D,AaLd1r2,Aa,2,low,0,1
+"A ast in 1.5% nectar, rep 2, 48h, 16 mL",N03-02-2.D,AaLd2r2,Aa,2,low,0,2
+"A ast in 1.5% nectar, rep 3, 0 h, 18 mL",N03-03-0.D,AaLd0r3,Aa,2,low,0,0
+"A ast in 1.5% nectar, rep 3, 24h, 18 mL",N03-03-1.D,AaLd1r3,Aa,2,low,0,1
+"A ast in 1.5% nectar, rep 3, 48h, 16 mL",N03-03-2.D,AaLd2r3,Aa,2,low,0,2
+"A ast in 1.5% nectar, rep 4, 0 h, 18 mL",N03-04-0.D,AaLd0r4,Aa,2,low,0,0
+"A ast in 1.5% nectar, rep 4, 24h, 18 mL",N03-04-1.D,AaLd1r4,Aa,2,low,0,1
+"A ast in 1.5% nectar, rep 4, 48h, 16 mL",N03-04-2.D,AaLd2r4,Aa,2,low,0,2
+"M reukaufii in1.5% nectar, rep 2, 0 h, 18 mL",N04-01-0.D,MrLd0r1,Mr,3,low,0,0
+"M reu in 1.5% nectar, rep 1, 24 h, 18 mL",N04-01-1.D,MrLd1r1,Mr,3,low,0,1
+"M reu in 1.5% nectar, rep 1, 48h, 16 mL",N04-01-2.D,MrLd2r1,Mr,3,low,0,2
+"M reukaufii in1.5% nectar, rep 2, 0 h, 18 mL",N04-02-0.D,MrLd0r2,Mr,3,low,0,0
+"M reu in 1.5% nectar, rep 2, 24 h, 18 mL",N04-02-1.D,MrLd1r2,Mr,3,low,0,1
+"M reu in 1.5% nectar, rep 2, 48h, 16 mL",N04-02-2.D,MrLd2r2,Mr,3,low,0,2
+"M reu in 1.5% nectar, rep 3, 0 h, 18 mL",N04-03-0.D,MrLd0r3,Mr,3,low,0,0
+"M reu in 1.5% nectar, rep 3, 24h, 18 mL",N04-03-1.D,MrLd1r3,Mr,3,low,0,1
+"M reu in 1.5% nectar, rep 3, 48h, 16 mL",N04-03-2.D,MrLd2r3,Mr,3,low,0,2
+"M reu in 1.5% nectar, rep 4, 0 h, 18 mL",N04-04-0.D,MrLd0r4,Mr,3,low,0,0
+"M reu in 1.5% nectar, rep 4, 24h, 18 mL",N04-04-1.D,MrLd1r4,Mr,3,low,0,1
+"M reu in 1.5% nectar, rep 4, 48h, 16 mL",N04-04-2.D,MrLd2r4,Mr,3,low,0,2
+"M reu in 1.5% nectar, rep 5, 0 h, 18 mL",N04-05-0.D,MrLd0r5,Mr,3,low,0,0
+"M reu in 1.5% nectar, rep 5, 24h, 18 mL",N04-05-1.D,MrLd1r5,Mr,3,low,0,1
+"M reu in 1.5% nectar, rep 5, 48h, 16 mL",N04-05-2.D,MrLd2r5,Mr,3,low,0,2
