@@ -1,0 +1,280 @@
+Z:\data\JTB-E02\BACandBLUE\,JTB-E02-189-23.D,,,,JTB-E02-189-05.D,JTB-E02-189-018.D,JTB-E02-189-19.D,JTB-E02-189-20.D,JTB-E02-189-21.D,JTB-E02-189-22.D,JTB-E02-189-24.D
+Wed Dec 12 14:51:36 2018,BAC-01 REP4,,,,BAC-01 BLANK,BAC-01 CONTROL,BAC-01 EMPTY JAR,BAC-01 REP1,BAC-01 REP2,BAC-01 REP3,BAC-01 REP5
+PK,RT,Library/ID,Area Pct,Qual,R.T.,R.T.,R.T.,R.T.,R.T.,R.T.,R.T.
+,,,,,2.157,,,,,,
+1,2.2917,"Carbon dioxide (CAS) $$ Dry ice $$ R 744 $$ Carbonic acid gas $$ Carbonic anhydride $$ Carbon oxide (CO2) $$ Carbonic acid, gas $$ CO2 $$ Anhydride carbonique $$ Carbonice $$ Kohlendioxyd $$ Kohlensaure $$ UN 1013 $$ UN 1845 $$ UN 2187",0.1546,4,2.29,2.292,2.273,2.292,2.286,2.292,2.285
+2,2.4328,"Benzeneethanamine, .alpha.-methyl-, (.+-.)- (CAS) $$ .ALPHA.-METHYLPHENETHYLAMINE $$ Amphetamine $$ Finam $$ Adipan $$ Isomyn $$ Fenamin $$ Actedron $$ Percomon $$ Isoamyne $$ Mecodrin $$ Allodene $$ Oktedrin $$ Benzebar $$ Sympamin $$ Benzolone $$ Anorex",0.0213,59,2.435,2.439,2.413,,2.412,2.435,2.506
+,,,,,,,,,,2.475,
+3,2.5089,"R-(-)-Cyclohexylethylamine $$ Cyclohexanemethanamine, .alpha.-methyl-, (R)- $$ (R)-(-)-1-Cyclohexylethylamine",0.0142,50,2.573,2.509,,2.504,2.504,2.512,2.564
+4,2.57,Cyclobutanol (CAS) $$ Cyclobutyl hydroxide,0.0134,50,,2.569,,2.568,2.565,,2.624
+5,2.6284,"2-Butanamine (CAS) $$ sec-Butylamine $$ 2-AB $$ Tutane $$ Butafume $$ 2-Butylamine $$ 2-Aminobutane $$ 1-Methylpropylamine $$ 1-Methylpropanamine $$ Secondary butylamine $$ Propylamine, 1-methyl- $$ Sec-C4H9NH2 $$ sec-Butanamine $$ Deccotane $$ Frucote $$",0.0477,56,2.628,2.628,2.618,2.627,2.623,2.63,2.798
+6,2.8016,"Methane, thiobis- (CAS) $$ 2-Thiapropane $$ DMS $$ Methylthiomethane $$ Methyl sulfide $$ Dimethyl sulfide $$ Methyl monosulfide $$ Dimethyl thioether $$ Dimethyl monosulfide $$ 2-THIAPROPANE(DIMETHYL SULFIDE) $$ DIMETHYLSULFIDE $$ (METHYLTHIO)METHANE $$",1.2539,94,,2.801,,2.801,2.797,2.805,3.007
+7,3.0139,DMS $$ DIMETHYL SULFIDE $$ METHYL SULFIDE,0.0444,70,,3.017,,3.019,3.013,3.017,3.123
+8,3.1255,2-Propanone (CAS) $$ Acetone $$ propan-2-one $$ Propanone $$ Methyl ketone $$ Dimethyl ketone $$ Pyroacetic ether $$ .beta.-Ketopropane $$ Dimethylformaldehyde $$ ACETONE (2-PROPANONE) $$ (CH3)2CO $$ Allylic alcohol $$ Dimethylketal $$ Ketone propane $$ K,0.4705,72,3.127,3.126,,3.125,3.121,3.13,3.208
+9,3.211,"Acetic acid, methyl ester (CAS) $$ Methyl acetate $$ Devoton $$ Tereton $$ Acetic acid methyl ester $$ Methyl ester of acetic acid $$ methyl  acetate $$ CH3COOCH3 $$ Methyl ethanoate $$ Acetate de methyle $$ Methyl acetic ester $$ Methylacetaat $$ Methyla",1.2651,86,,3.211,,3.211,3.206,3.215,3.323
+,,,,,,,3.314,,,,
+10,3.3263,"N-ethyl-1,3-dithioisoindoline $$ 1H-Isoindole-1,3(2H)-dithione, 2-ethyl-",1.2901,83,3.328,3.327,,3.327,3.321,3.331,3.448
+11,3.45,"Cyclotrisiloxane, hexamethyl- (CAS) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOHEXASILOXANE $$ Hexamethylcyclotrisiloxane $$ HEXAMETHYL-CYCLOTRISILOXANE $$ Dimethylsiloxane cyclic trimer",0.065,64,,,,3.45,,,3.485
+12,3.4885,"N-ethyl-1,3-dithioisoindoline $$ 1H-Isoindole-1,3(2H)-dithione, 2-ethyl-",0.1747,83,,3.488,,3.488,3.483,3.492,3.552
+13,3.5553,"1H-Indole, 5-methyl-2-phenyl- (CAS) $$ 5-Methyl-2-phenylindole $$ 2-Phenyl-5-methylindole $$ Indole, 5-methyl-2-phenyl-",0.1156,64,,3.555,3.542,3.556,3.551,3.561,3.696
+,,,,,,,3.61,,,,
+,,,,,,,3.687,,,,
+14,3.6982,"Acetic acid, ethyl ester (CAS) $$ Acetic acid ethyl ester (CAS) $$ Ethyl acetate $$ Acetidin $$ Acetic ether $$ Acetoxyethane $$ Ethyl ethanoate $$ Ethyl acetic ester $$ Vinegar naphtha her $$ Vinegar naphtha $$ Ethyl ester of acetic acid $$ CH3COOC2H5 $$",11.9239,78,,3.698,,3.698,3.694,3.704,3.826
+,,,,,,,3.738,,3.826,,
+15,3.8292,"Acetic acid, ethyl ester (CAS) $$ Acetic acid ethyl ester (CAS) $$ Ethyl acetate $$ Acetidin $$ Acetic ether $$ Acetoxyethane $$ Ethyl ethanoate $$ Ethyl acetic ester $$ Vinegar naphtha her $$ Vinegar naphtha $$ Ethyl ester of acetic acid $$ CH3COOC2H5 $$",1.6126,64,3.707,3.829,,3.829,,3.835,3.942
+16,3.9446,ETHYL ACETATE,1.0146,43,3.941,3.945,,3.945,3.941,3.951,4.264
+17,4.0261,ETHYL ACETATE,0.8924,64,3.978,4.026,,4.028,4.022,4.034,4.383
+,,,,,4.17,4.269,4.239,,,,
+18,4.2667,Formic acid (CAS) $$ Bilorin $$ Myrmicyl $$ Formisoton $$ Aminic acid $$ Collo-Didax $$ Formylic acid $$ Methanoic acid $$ Collo-Bueglatt $$ Hydrogen carboxylic acid $$ Formira $$ Add-F $$ HCOOH $$ Acide formique $$ Acido formico $$ Ameisensaeure $$ Formi,7.3903,38,4.253,,,4.267,4.263,4.275,4.564
+19,4.3848,"Furfuryl alcohol, tetrahydro-5-methyl-, cis- (CAS) $$ 2-Furanmethanol, tetrahydro-5-methyl-, cis-",0.9497,35,,4.385,,4.386,4.381,4.392,4.659
+20,4.5652,3-D-4-METHYL-2-PENTANOL,0.2343,47,,4.564,,4.567,4.562,4.575,4.822
+21,4.6602,"Furan, 2-butyltetrahydro- (CAS) $$ Octane, 1,4-epoxy- $$ 2-Butyltetrahydrofuran $$ 2-N-BUTYLTETRAHYDROFURAN",0.9047,72,,4.66,,4.661,4.657,4.668,4.865
+22,4.8221,"Acetic acid, ethyl ester (CAS) $$ Acetic acid ethyl ester (CAS) $$ Ethyl acetate $$ Acetidin $$ Acetic ether $$ Acetoxyethane $$ Ethyl ethanoate $$ Ethyl acetic ester $$ Vinegar naphtha her $$ Vinegar naphtha $$ Ethyl ester of acetic acid $$ CH3COOC2H5 $$",0.1594,58,,4.822,,4.823,4.819,4.832,4.982
+23,4.8659,"2-Butenoic acid (CAS) $$ Crotonic acid $$ 3-Methylacrylic acid $$ .alpha.-Butenoic acid $$ CH3CH=CHCOOH $$ .alpha.-Crotonic acid $$ .beta.-Methylacrylic acid $$ Acrylic acid, 3-methyl- $$ Solid crotonic acid $$ Kyselina krotonova $$ UN 2823",0.2257,35,,4.867,,4.868,4.863,4.875,5.059
+24,4.9833,"Cyclotetrasiloxane, octamethyl- (CAS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-CYCLOOCTASILOXANE $$ OCTAMETHYL-(CYCLIC TETRAMER) CYCLOTETRASILOXANE $$ Octamethylcyclotetrasiloxane $$ NUC Silicone VS 7207 $$ Octamethyl-cyclotetrasiloxane $$ Oktamethylcyklotetrasiloxa",0.3474,91,4.985,4.983,4.978,4.986,4.978,4.992,5.184
+25,5.0593,"Carbonic acid, dimethyl ester (CAS) $$ Methyl carbonate $$ Dimethyl ester of carbonic acid $$ Dimethyl carbonate $$ Methyl carbonate ((MeO)2CO) $$ Carbonic acid dimethyl ester $$ CH3OCOOCH3 $$ UN 1161",0.6024,86,,5.059,,5.061,5.054,5.068,5.225
+26,5.1854,"1H-Pyrazole, 3-ethyl-4,5-dihydro- (CAS) $$ 3-Ethyl-.DELTA.[2]-pyrazoline",0.2983,49,,5.185,5.185,5.187,5.182,5.194,5.357
+27,5.2262,"4,4-DIMETHYL-4-SILACYCLOPENTENE $$ 1,1-Dimethyl-1-silacyclo-3-pentene $$ Silacyclopent-3-ene,1,1-dimethyl-",0.421,53,5.258,5.226,,5.227,5.222,5.235,5.417
+,,,,,,,5.248,,,,
+28,5.3567,N-Nitroso-N-(2-methoxyethyl)alanine,0.0942,16,5.396,5.358,,5.36,5.353,5.367,5.475
+29,5.4188,"Butanoic acid, 2-methyl-, methyl ester (CAS) $$ Methyl 2-methylbutyrate $$ Methyl ester of 2-methyl-butanoic acid $$ Methyl 2-methylbutanoate $$ Methyl .alpha.-methylbutyrate $$ Methyl .alpha.-methylbutanoate $$ 2-Methylbutanoic acid methyl ester $$ Butyr",0.135,62,,5.418,,5.42,5.415,5.428,5.592
+30,5.4752,"Acetic acid, 2-methylpropyl ester (CAS) $$ Isobutyl acetate $$ 2-Methylpropyl acetate $$ Acetic acid isobutyl ester $$ Acetic acid, isobutyl ester $$ .beta.-Methylpropyl ethanoate $$ 2-Methyl-1-propyl acetate $$ Isobutyl acetate fcc $$ Acetate d'isobutyle",0.1872,43,,5.475,,5.477,5.473,5.486,5.717
+31,5.5922,"Butanoic acid, 3-methyl-, methyl ester (CAS) $$ Methyl isovalerate $$ Methyl isopentanoate $$ Methyl iso-valerate $$ Methyl 3-methylbutyrate $$ Methyl 3-methylbutanoate $$ Isovaleric acid, methyl ester $$ ISOVALERIC ACID-METHYL ESTER $$ 3-Methylbutanoic a",0.6759,87,,5.592,,5.594,5.589,5.603,5.937
+32,5.7199,"1,4,7,10,13-pentaoxacyclononadecane-14,19-dione",0.2296,35,5.714,5.717,,5.72,5.715,5.726,6.007
+33,5.9375,"Butanoic acid, ethyl ester (CAS) $$ Ethyl butyrate $$ Butyric acid ethyl ester $$ Butyric ether $$ Ethyl butanoate $$ Ethyl n-butyrate $$ Butyric acid, ethyl ester $$ Ethyl ester of butanoic acid $$ Ethyl n-butanoate $$ n-Butyric acid ethyl ester $$ Butyr",0.0924,80,,5.938,,5.939,5.935,5.949,6.165
+34,6.0089,2-METHYL-3-BUTEN-2-OL,0.3063,72,,6.007,,6.01,6.005,6.019,6.279
+35,6.163,"Ethanol, 2-(2-methoxyethoxy)- (CAS) $$ Dowanol DM $$ 2-(2-Methoxyethoxy)ethanol $$ Diethylene glycol methyl ether $$ Methyl digol $$ Poly-Solv DM $$ Methyl Dioxitol $$ Methyl Carbitol $$ Diglycol monomethyl ether $$ Diethylene glycol monomethyl ether $$ E",0.4905,23,6.197,6.163,,6.166,6.161,6.175,6.396
+36,6.2786,"Butanoic acid, 2-methyl-, ethyl ester (CAS) $$ Ethyl 2-methylbutyrate $$ Ethyl 2-methylbutanoate $$ Ethyl .alpha.-methylbutyrate $$ Butyric acid, 2-methyl-, ethyl ester $$ 2-Methylbutanoic acid ethyl ester",0.1844,60,,6.279,,6.281,6.278,6.29,6.474
+,,,,,,,6.291,,,,
+37,6.3419,"Butanoic acid, 4-methoxy- (CAS) $$ Butyric acid, 4-methoxy-",0.0567,25,6.305,,,,6.351,,6.537
+38,6.3977,"2-Hydroxy-3-pentanone $$ 3-Pentanone, 2-hydroxy- (CAS)",0.0587,22,6.387,6.396,,6.408,6.4,,6.602
+,,,,,,,,,,6.412,
+39,6.4774,"N,N-Dimethyl-2-(1-(2-methoxybenzyl)-ethen-1-yl)-amine $$ Benzenemethanamine, 2-[1-[(2-methoxyphenyl)methyl]ethenyl]-N,N-dimethyl- (CAS)",0.0826,47,,6.473,,6.478,6.474,6.486,6.806
+,,,,,,,,,,,
+40,6.5394,7-exo-Methoxycarbonyl-7-endo-(dimethylaminomethyl)norcarane,0.0404,35,,,,6.54,,6.548,6.997
+41,6.5993,"Butanoic acid, 3-methyl-, ethyl ester (CAS) $$ Ethyl isovalerate $$ ethyl isopentanoate $$ Ethyl 3-methylbutyrate $$ Ethyl 3-methylbutanoate $$ Isovaleric acid, ethyl ester $$ 3-Methylbutanoic acid ethyl ester $$ (CH3)2CHCH2C(O)OC2H5 $$ Ethyl iso-pentanoa",0.7129,93,,6.599,,,6.598,,7.121
+,,,,,,,,6.602,,6.612,
+42,6.8905,Hexanal (CAS) $$ n-Hexanal $$ Hexaldehyde $$ Caproaldehyde $$ Capronaldehyde $$ n-Caproaldehyde $$ Caproic aldehyde $$ Hexylaldehyde $$ n-Capronaldehyde $$ cyclohexanol $$ 1-hexanal $$ n-C5H11CHO $$ n-Hexaldehyde $$ n-Caproylaldehyde $$ Aldehyde C-6 $$ Ka,0.0543,38,,6.887,,6.894,6.883,6.905,7.199
+43,7.0008,"2-Propenoic acid, 1,4-butanediyl ester (CAS) $$ Butylene diacrylate $$ 1,4-Butylene diacrylate $$ Tetramethylene acrylate $$ Tetramethylene diacrylate $$ 1,4-Butanediol diacrylate $$ 1,4-Butylene glycol diacrylate $$ Tetramethylene glycol diacrylate $$ Ac",0.0451,37,,6.999,,7.002,6.997,7.012,7.393
+44,7.0987,"5-(hydroxymethyl)spiro[2.4]heptane-5-ol $$ Spiro[2.4]heptane-5-methanol, 5-hydroxy-",0.2038,50,,7.103,,7.107,7.102,7.123,7.507
+45,7.2302,ISOBUTYL ALCOHOL,1.5244,90,,7.224,,7.226,7.223,7.226,7.616
+46,7.3671,"Pulegone $$ Cyclohexanone, 5-methyl-2-(1-methylethylidene)-, (R)- (CAS) $$ (+)-Pulegone $$ (+)-(R)-Pulegone $$ (R)-(+)-Pulegone $$ p-Menth-4(8)-en-3-one, (R)-(+)- $$ d-Pulegone $$ Pulegon $$ PULEGONE (IMPURITY) $$ d-p-Menth-4(8)-en-3-one $$ p-Menth-4(8)-e",0.1342,64,,7.371,,7.374,7.369,7.392,7.728
+47,7.486,2-Hexadecanol (CAS) $$ Hexadecanol-2,0.0299,43,,7.492,,7.491,7.485,7.504,7.837
+48,7.5933,"Phenol, 2-nitro- (CAS) $$ o-Nitrophenol $$ 2-Nitrophenol $$ Phenol, o-nitro- $$ o-Hydroxynitrobenzene $$ 2-Hydroxynitrobenzene $$ o-Nitrofenol $$ UN 1663",3.8428,64,,7.597,,7.601,7.596,7.618,7.923
+49,7.7634,"3-METHYL-2-METHYLAMINO-4-(3H)PYRIMIDINONE $$ 4(3H)-Pyrimidinone, 3-methyl-2-(methylamino)- (CAS)",0.1708,43,,7.757,,7.758,7.758,7.762,8.174
+50,7.8325,METHYL TIGLATE,0.1048,47,,7.832,,7.835,7.831,7.847,8.366
+51,7.9142,"1-Butanol, 3-methyl-, acetate (CAS) $$ Isoamyl acetate $$ 3-METHYL BUTYL ACETATE $$ ETHANOIC ACID, 3-METHYL BUTANOL ESTER $$ Pear oil $$ Banana oil $$ i-Amyl acetate $$ Isoamyl ethanoate $$ Isopentyl acetate $$ 3-Methylbutyl acetate $$ 3-Methyl-1-butyl ac",0.2996,87,,7.916,,7.919,7.914,7.931,8.539
+52,8.1714,"3-Penten-2-one, 4-methyl- (CAS) $$ Mesityl oxide $$ 2-METHYLPENT-2-EN-4-ONE $$ Isopropylideneacetone $$ Methyl isobutenyl ketone $$ Acetone, isopropylidene- $$ Isobutenyl methyl ketone $$ 4-Methyl-3-penten-2-one $$ Methyl 2-methyl-1-propenyl ketone $$ Met",0.117,74,,8.172,,8.175,8.171,8.185,8.669
+,,,,,,,8.827,,,,
+53,8.3491,"Benzene, 1,4-dimethyl- (CAS) $$ p-Xylene $$ p-Xylol $$ 1,4-Xylene $$ p-Dimethylbenzene $$ 1,4-Dimethylbenzene $$ p-Methyltoluene $$ 4-Methyltoluene $$ 1,4-Dimethyl-benzene $$ 1,4-DIMETHYLBENZENE(P-XYLENE) $$ 1,4-DIMETHYLBENZENE (P-XYLENE) $$ para-Xylene $",0.0579,91,,8.353,,8.356,8.35,8.369,8.824
+54,8.5542,1-Butanol (CAS) $$ n-Butanol $$ CCS 203 $$ n-Butyl alcohol $$ Hemostyp $$ n-Butan-1-ol $$ Butyl alcohol $$ Butanol $$ Butyl hydroxide $$ Methylolpropane $$ Propyl carbinol l $$ Propyl carbinol $$ 1-Butyl alcohol $$ Butanol (French $$ Propylcarbinol $$ 1-B,0.0459,72,,8.55,,8.553,8.551,8.559,8.946
+55,8.6417,"Cyclohexene, 1,5,5-trimethyl-1-methylene- $$ 3-Methylene-1,5,5-trimethylcyclohexene $$ Cyclohexene, 1,5,5-trimethyl-3-methylene- $$ 1,5,5-Trimethyl-3-methylenecyclohexene",0.0348,90,,8.646,,8.657,8.647,,9.013
+,,,,,,,,,,8.668,
+56,8.8161,"Cyclopentasiloxane, decamethyl- (CAS) $$ Dimethylsiloxane pentamer $$ DECAMETHYL-CYCLOPENTASILOXANE $$ Decamethylcyclopentasiloxane $$ Dekamethylcyklopentasiloxan $$ Union Carbide 7158 Silicone Fluid $$ Dow Corning 345 $$ NUC Silicone VS 7158 $$ Dow Corni",0.0895,72,8.83,8.815,,8.819,8.815,8.833,9.143
+57,8.9565,"Heptane, 2,5-dimethyl- (CAS) $$ 2,5-Dimethylheptane",0.0703,22,,8.952,,8.956,8.952,8.963,9.282
+,,,,,,,8.994,,,,
+58,9.0061,"2-Butenoic acid, ethyl ester, (E)- (CAS) $$ Ethyl (E)-crotonate $$ Ethyl trans-crotonate $$ Crotonic acid, ethyl ester, (E)- $$ trans-2-Butenoic acid ethyl ester $$ (E)-2-Butenoic acid ethyl ester $$ Ethyl crotonate $$ (E)-CH3CH=CHCOOC2H5 $$ Crotonic acid",0.1009,64,,9.009,,9.012,9.007,9.024,9.466
+,,,,,,,9.057,,,,
+59,9.1378,"2-Butenoic acid, 3-methyl-, methyl ester (CAS) $$ Methyl 3-methyl-2-butenoate $$ Methyl senecioate $$ Methyl 3-methylcrotonate $$ Methyl 3,3-dimethacrylate $$ Methyl 3,3-dimethylacrylate $$ Methyl .beta.-methylcrotonate $$ 3-Methylcrotonic acid methyl est",0.195,90,9.16,9.138,,9.142,9.139,9.154,9.55
+60,9.2563,"2-Butenoic acid, 3-methyl-, methyl ester (CAS) $$ Methyl 3-methyl-2-butenoate $$ Methyl senecioate $$ Methyl 3-methylcrotonate $$ Methyl 3,3-dimethacrylate $$ Methyl 3,3-dimethylacrylate $$ Methyl .beta.-methylcrotonate $$ 3-Methylcrotonic acid methyl est",0.0486,38,9.209,9.264,,9.267,9.258,9.286,10.001
+,,,,,9.319,,,,,,
+61,9.4573,"5-Formyl-4-nonene $$ 2-Hexenal, 2-butyl-, (Z)-",0.4011,56,,9.455,,9.462,9.458,9.472,10.059
+62,9.55,"1,4-DIMETHYLBENZENE $$ P-XYLENE",0.1346,52,,9.55,,9.553,9.551,9.564,10.362
+63,9.983,LIMONENE,0.292,97,,9.985,,9.989,9.986,,10.736
+,,,,,,,10.035,,,10.005,
+64,10.0831,l-LIMONENE,0.1007,98,10.063,10.082,,10.079,10.075,10.081,10.843
+,,,,,10.138,10.199,,,,,
+,,,,,10.262,10.37,,,,,
+,,,,,,10.469,,,,,
+65,10.3697,ISOAMYLALCOHOL,13.4304,72,10.343,,,10.369,10.366,10.378,11.048
+66,10.4721,5-ISOPRENYL-2-2METHYL-2VINYLTETRAHYDROFURAN $$ HERBOXIDE,0.8937,95,10.492,,,10.468,10.468,,11.123
+67,10.7285,"Cyclooctane, ethenyl- (CAS) $$ Vinylcyclooctane",0.1346,45,,10.73,,10.733,10.73,10.744,11.379
+68,10.837,"2-Butenoic acid, 3-methyl-, ethyl ester (CAS) $$ Ethyl senecioate $$ Ethyl dimethylacrylate $$ Ethyl 3-methylcrotonate $$ Ethyl 3-methyl-2-butenoate $$ Ethyl isopropylideneacetate $$ Ethyl .beta.,.beta.-dimethylacrylate $$ Crotonic acid, 3-methyl-, ethyl",0.162,87,,10.836,,10.843,10.838,10.853,11.547
+69,11.0347,PHYTOL,0.0802,35,,11.036,,11.04,11.036,11.055,11.631
+70,11.1108,".alpha.-terpinolene $$ Cyclohexene, 1-methyl-4-(1-methylethylidene)- (CAS) $$ 1,4(8)-P-MENTHADIENE $$ 1-METHYLENE-4-ISOPROPYLENECYCLOHEXANE $$ Terpinolene $$ .ALPHA.-TERPINOLEN $$ Terpinolen $$ p-Mentha-1,4(8)-diene $$ UN 2541 $$ 4-Isopropylidene-1-methyl",0.1753,45,,11.113,,11.116,11.112,11.131,12.17
+,,,,,11.232,,,,,,
+71,11.3676,HERBOXIDE SECOND ISOMER,3.745,96,,11.368,,11.372,11.369,11.385,12.441
+72,11.5304,CIS-DIHYDROCARVONE,0.2484,90,,11.531,,11.537,11.533,11.552,12.579
+73,11.5856,"Dihydrocarvone $$ Cyclohexanone, 2-methyl-5-(1-methylethenyl)-, trans- (CAS) $$ Carvone, dihydro- $$ trans-Dihydrocarvone $$ p-Menth-8-en-2-one, trans- $$ d-Dihydrocarvone $$ 4-[(1'-methyl)vinyl]-1-methylcyclohexan-2-one $$ p-Menth-8-en-2-one, E-",0.053,70,,,,,,,12.997
+74,11.6339,1-Pentanol (CAS) $$ Amylol $$ n-Pentanol $$ Amyl alcohol $$ n-Pentan-1-ol $$ Pentanol $$ n-Amyl alcohol $$ Pentyl alcohol $$ n-Butyl carbinol $$ n-Pentyl alcohol $$ 1-Pentyl alcoholther $$ n-Butylcarbinol $$ 1-Pentyl alcohol $$ n-C5H11OH $$ Pentan-1-ol $$,0.3026,72,,11.633,,11.638,11.634,11.644,13.262
+75,12.1577,"Benzene, 1-methyl-4-(1-methylethyl)- (CAS) $$ p-Cymene $$ 1-Methyl-4-isopropylbenzene $$ p-Cymol $$ p-Cimene $$ Camphogen $$ Dolcymene $$ 2-p-Tolylpropane $$ p-Isopropyltoluene $$ p-Methylisopropylbenzene $$ 1-Isopropyl-4-methylbenzene $$ 4-Isopropyl-1-me",1.9651,97,12.219,12.158,,12.163,12.159,12.175,13.505
+,,,,,12.301,,12.2,,,,
+,,,,,,,12.237,,,,
+76,12.4427,"Benzene, 1-methyl-4-(1-methylethyl)- (CAS) $$ p-Cymene $$ 1-Methyl-4-isopropylbenzene $$ p-Cymol $$ p-Cimene $$ Camphogen $$ Dolcymene $$ 2-p-Tolylpropane $$ p-Isopropyltoluene $$ p-Methylisopropylbenzene $$ 1-Isopropyl-4-methylbenzene $$ 4-Isopropyl-1-me",0.1849,89,,12.443,12.439,12.447,12.444,12.454,13.633
+77,12.5716,terpinolene,0.2502,90,,12.571,,12.577,12.575,12.586,13.866
+,,,,,12.779,,,,,,
+78,12.9926,"1-Butanamine, 4-(methylthio)- (CAS) $$ 1-methylthio-4-amino-butane $$ 4-(Methylthio)butylamine",0.017,10,,12.997,,13.002,12.996,13.008,14.023
+79,13.2647,"1,3-Dioxolane, 2-[1-(4-methyl-3-cyclohexen-1-yl)ethyl]- (CAS)",0.0358,38,13.229,13.253,,13.259,13.254,13.267,14.279
+80,13.4947,"dl-Limonene $$ Cyclohexene, 1-methyl-4-(1-methylethenyl)- (CAS) $$ 1-P-MENTHA-1,8-DIENE $$ Limonene $Cinen $$ Nesol $$ Cinene $$ Limonen $$ Eulimen $$ Dipenten $$ Cajeputen $$ Kautschin $$ Cajeputene $$ .alpha.-Limonene $$ p-Mentha-1,8-diene $$ 4-Isoprope",0.0147,87,,13.495,,13.502,13.491,13.509,14.443
+81,13.5369,"6,8-DIOXABICYCLO(3.2.1)OCTANE $$ 6,8-Dioxabicyclo[3.2.1]octane",0.007,27,,13.537,,13.544,,13.552,14.514
+82,13.6315,"Cyclohexanone, 2,2,6-trimethyl- (CAS) $$ 2,6,6-Trimethylcyclohexanone $$ 2,2,6-Trimethylcyclohexanone $$ 1,1,3-Trimethyl-2-cyclohexanone $$ 2,2,6-Trimethylcyclohexan-1-one",0.0488,45,,13.633,,13.636,13.635,13.645,14.866
+83,13.8593,"7,7-dimethylbicyclo[3.3.0]octan-2-one $$ 7,7-dimethyl-cis-bicyclo[3.3.0]octan-2-one $$ 1(2H)-Pentalenone, hexahydro-5,5-dimethyl-, cis-(.+-.)-",0.7806,83,13.969,13.859,,13.864,13.859,13.873,15.163
+84,14.0242,"Cyclopentane, 1,1,2-trimethyl- (CAS) $$ 1,1,2-Trimethylcyclopentane $$ Camphocean",0.0208,43,,14.024,,14.032,14.022,14.034,15.407
+85,14.1916,"Benzene, 1,3,5-trimethyl- (CAS) $$ 1,3,5-Trimethylbenzene $$ Mesitylene $$ sym-Trimethylbenzene $$ s-Trimethylbenzene $$ Fleet-X $$ Trimethylbenzol $$ TMB $$ Trimethyl benzene $$ UN 2325",0.0438,95,,14.197,,14.197,14.192,,15.536
+86,14.2754,"9S-Sebiferine $$ Morphinan-7-one, 5,6,8,14-tetradehydro-2,3,6-trimethoxy-17-methyl- (CAS) $$ O-Methylflavinantine $$ Sebiferine $$ (9R)-Sebiferine $$ (+)-O-Methylflavinantine",0.1449,59,14.244,14.273,14.263,14.278,14.275,14.285,15.812
+,,,,,,,14.36,,,,
+87,14.445,"2-Pentanol, 4-methyl- (CAS) $$ 4-Methyl-2-pentanol $$ MIC $$ MAOH $$ MIBC $$ 3-MIC $$ 2-Methyl-4-pentanol $$ Isobutylmethylmethanol $$ Isobutylmethylcarbinol $$ Methylisobutyl carbinol $$ 4-Methyl-2-pentyl alcohol $$ 1,3-Dimethyl-1-butanol $$ 4-methyl 2-p",0.0473,59,,14.444,,14.449,14.443,14.454,16.051
+88,14.5077,trans-chrysanthemal,0.0582,38,,14.505,,14.513,14.511,14.523,16.176
+89,14.8656,HEXYL FORMATE,5.516,83,14.877,14.864,14.886,14.867,14.864,14.875,16.332
+90,15.1665,"3-Hexen-1-ol (CAS) $$ 3-Hexen-1-ol (c,t)",0.1409,76,,15.165,15.118,15.169,15.167,15.173,16.508
+91,15.5272,"Cyclopropane, 1-methyl-2-(1-methylethyl)-3-(1-methylethylidene)-, cis- (CAS) $$ 1-METHYL-CIS-2-ISOPROPYL-3-ISOPROPYLIDENECYCLOPROPANE $$ Propane, 2-(2-isopropylidene-3-methylcyclopropyl)-, cis-",0.7294,47,,15.528,16.536,15.532,15.529,15.542,16.791
+92,15.8108,"3-Hexen-1-ol, (Z)- (CAS) $$ cis-3-Hexene-1-ol $$ Z-3-Hexenol $$ Leaf alcohol $$ 3-(Z)-Hexenol $$ cis-3-Hexenol $$ Blatteralkohol $$ cis-3-Hexen-1-ol $$ (Z)-Hex-3-en-1-ol $$ Blatteralkohol (German) $$ .beta.,.gamma.-Hexenol $$ HEXEN-30L-1 $$ 3-Hexen-1-ol $",0.4544,95,15.827,15.81,,15.814,15.812,15.821,17.08
+,,,,,,,,,15.958,,
+93,16.0479,"1,7-Octadiene, 2,7-dimethyl- (CAS) $$ 2,7-Dimethyl-1,7-octadiene",0.0319,25,16.061,16.047,,16.053,16.051,16.059,17.165
+94,16.174,Toluene,0.0553,45,,16.173,,16.177,16.175,16.185,17.376
+95,16.2373,"Butyric acid, 2-hydroxy-3-methyl-, methyl ester (CAS) $$ METHYL 2-HYDROXYISOVALERATE $$ Butanoic acid, 2-hydroxy-3-methyl-, methyl ester",0.0138,62,,16.327,,,,,17.451
+96,16.329,"2-Cyclohexen-1-one, 3,5,5-trimethyl- (CAS) $$ 3,5,5-Trimethyl-2-cyclohexenone $$ 1,5,5-TRIMETHYLCYCLOHEXEN-3-ONE $$ Isophorone $$ Isoforon $$ Isophoron $$ Isoacetophorone $$ .alpha.-Isophoron $$ .alpha.-Isophorone $$ 3,5,5-trimethyl-2-cyclohexen-1-one $$",0.0607,87,,,,16.333,16.331,16.339,17.631
+97,16.5066,"2-Hexen-1-ol, (E)- (CAS) $$ trans-2-Hexen-1-ol $$ (E)-2-Hexen-1-ol $$ trans-HEX-2-ENOL $$ trans-2-Hexenol $$ 2-Hexenol $$ 2-Hexen-1-ol, trans-",1.2921,91,16.53,16.505,,16.51,16.507,16.516,17.756
+98,16.7876,"2-Hexen-1-ol, (Z)- (CAS) $$ CIS-HEX-2-EN-1-OL $$ cis-HEX-2-ENOL $$ cis-2-Hexen-1-ol",0.0338,90,,16.785,,16.792,16.79,16.796,17.891
+99,17.0802,"Butanoic acid, 2-hydroxy-3-methyl-, ethyl ester (CAS) $$ ETHYL 2-HYDROXY ISOVALERATE $$ Ethyl 2-hydroxyisovalerate $$ Butyric acid, 2-hydroxy-3-methyl-, ethyl ester $$ Ethyl 2-hydroxy-3-methylbutanoate",0.0329,72,,17.078,,17.082,17.078,17.089,18.123
+100,17.1601,"3-Methyl-5-(2,2,4-trimethylcyclopent-3-en-1-yl)pent-3-en-2-ol",0.027,47,,17.164,,17.165,17.165,17.174,18.505
+101,17.3722,"Benzene, 1-methyl-4-(1-methylethenyl)- (CAS) $$ 1-Methyl-4-isopropenylbenzene $$ PARA CYMENYL $$ 4-Isopropenyl-1-methylbenzene $$ 2-p-Tolylpropene $$ Dehydro-p-cymene $$ p-Isopropenyltoluene $$ 4-Isopropenyltoluene $$ p,.alpha.-Dimethylstyrene $$ .alpha.,",0.0869,96,,17.372,,17.375,17.374,17.384,18.658
+,,,,,,,17.411,,,,
+102,17.4452,"4,8-DIMETHYL-2-OXABICYCLO(3.3.1)NON-3-ENE $$ Bicyclo[3.1.1]hept-2-ene-6-methanol, 2,6-dimethyl-, (1.alpha.,5.alpha.,6.beta.)-(.+-.)- (CAS)",0.0631,27,17.405,,,17.449,17.449,17.455,18.742
+,,,,,17.544,,,,,,
+103,17.6294,CIS-LINALOOL OXIDE,1.2088,91,17.644,17.629,,17.633,17.629,17.639,18.91
+104,17.7548,"Ethane, isothiocyanato- (CAS) $$ Ethyl isothiocyanate $$ Ethyl mustard oil $$ Isothiocyanic acid, ethyl ester $$ ethylisothiocyanate $$ Isothiocyanatoethane",0.0673,43,,17.753,,,17.751,17.759,18.98
+105,17.8886,1-OCTEN-3-OL,0.1098,64,,17.887,,17.892,17.889,17.897,19.133
+106,18.1181,2-Furancarboxaldehyde (CAS) $$ Furfural $$ 2-Furaldehyde $$ Fural $$ Furole $$ Furale $$ Furfurole $$ 2-Furfural $$ Furaldehyde $$ Furancarbonal $$ 2-Formylfuran $$ .alpha.-Furole $$ Furfuraldehyde $$ 2-Furancarbonal $$ 2-Furanaldehyde $$ Furfurylaldehyde,2.6102,86,18.139,18.118,18.149,18.121,18.119,18.128,19.33
+107,18.5032,TRANS-LINALOOL OXIDE,0.5931,91,18.4,18.503,,18.508,18.505,18.512,19.404
+108,18.651,"tricyclo[4.2.2,0(1,5)]decan-3-one $$ 1H-1,3a-Ethanopentalen-5(4H)-one, tetrahydro-",0.0696,49,18.512,18.647,,18.652,18.657,18.659,19.563
+109,18.7447,l-LIMONENE,0.0215,38,,,,,,,19.714
+110,18.9064,"Benzene, 1,2,3,5-tetramethyl- (CAS) $$ 1,2,3,5-Tetramethylbenzene $$ Isodurene $$ 1,3,4,5-Tetramethylbenzene",0.0496,94,,18.904,,18.91,18.904,18.916,19.83
+111,18.9756,"Benzene, 1,2,3,4-tetramethyl- (CAS) $$ Prehnitol $$ 1,2,3,4-Tetramethylbenzene $$ Prehnitene $$ 1,2,3,4-TETRAMETHYLBENZENE (PREHNITENE)",0.0479,60,,18.978,,18.982,18.978,18.984,19.928
+112,19.1304,"1-Hexanol, 2-ethyl- (CAS) $$ 2-Ethylhexanol $$ 2-Ethyl-1-hexanol $$ Ethylhexanol $$ 2-Ethylhexan-1-ol $$ 2-Ethylhexyl alcohol $$ 2-Ethyl-hexanol-1 $$ Ethylhexyl alcohol $$ Octyl alcohol $$ 2-Ethylhexanol-1",0.0843,91,19.139,19.13,,19.134,19.13,19.139,20.113
+113,19.3265,"2-Acetyl-4,5-dimethylphenol $$ Ethanone, 1-(2-hydroxy-4,5-dimethylphenyl)- (CAS) $$ 2-Hydroxy-4,5-dimethylacetophenone $$ 2'-Hydroxy-4',5'-dimethylacetophenone $$ 4',5'-Dimethyl-2'-hydroxyacetophenone $$ Acetophenone, 2'-hydroxy-4',5'-dimethyl-",0.0199,68,19.325,19.327,,19.327,19.326,19.335,20.22
+114,19.4006,"Ethanone, 1-(2-furanyl)- (CAS) $$ 2-Acetylfuran $$ 2-Furyl methyl ketone $$ Acetylfuran $$ Methyl 2-furyl ketone $$ Ketone, 2-furyl methyl $$ Furyl methyl ketone $$ Furan, 2-acetyl- $$ 1-(2-Furanyl)ethanone",0.094,90,19.418,19.401,,19.404,19.402,,20.302
+,,,,,19.479,,,,,19.41,
+115,19.5613,"Bicyclo[4.1.0]heptan-2-one, 3,5,5-trimethyl- (CAS) $$ 3,5,5-TRIMETHYL-BICYCLO(4.1.O)HEPTANE-2-ONE $$ 2-Norcaranone, 3,5,5-dimethyl- $$ 2-Norcaranone, 3,5,5-trimethyl-, stereoisomer",0.1023,50,19.548,19.562,19.549,19.557,19.559,19.567,20.485
+116,19.7135,"PIPERITONE SEMICARBAZONE $$ Hydrazinecarboxamide, 2-[3-methyl-6-(1-methylethyl)-2-cyclohexen-1-ylidene]- (CAS) $$ p-Menth-1-en-3-one, semicarbazone $$ Hydrazinecarboxamide, 2-[3-methyl-6-(1-methylethyl)-2-cyclohexen-1-ylidene]-, stereoisomer",0.2304,70,19.7,19.708,19.708,19.717,19.716,19.716,20.681
+117,19.8266,DILL ETHER,0.2624,93,,19.827,,19.831,19.828,19.836,20.845
+118,19.9246,Benzaldehyde (CAS) $$ Phenylmethanal $$ Benzenecarbonal $$ Benzaldehyde FFC $$ Benzoic aldehyde $$ Artificial Almond Oil $$ Benzenecarboxaldehyde $$ Almond artificial essential oil $$ Phenylmethanal benzenecarboxaldehyde $$ Benzadehyde $$ NCI-C56133 $$ Oi,0.2123,91,19.944,19.924,,19.927,19.925,19.933,20.963
+,,,,,,,19.947,,,20.12,
+119,20.1108,"Bicyclo[2.2.1]hept-2-ene, 2,7,7-trimethyl- $$ 2-Norbornene, 2,7,7-trimethyl- $$ .zeta.-Fenchene",0.4025,91,,20.112,,20.115,20.112,,21.061
+120,20.2173,"(+,-)-(2R,5R)-2,10,10-Trimethyl-6-methylidene-1-oxaspiro(4.5)dec-7-ene $$ 1-Oxaspiro[4.5]dec-7-ene, 2,10,10-trimethyl-6-methylene-, trans-(.+-.)- (CAS)",3.013,94,,20.216,,20.221,20.217,20.225,21.189
+121,20.2967,"(+,-)-(2R,5R)-2,10,10-Trimethyl-6-methylidene-1-oxaspiro(4.5)dec-7-ene $$ 1-Oxaspiro[4.5]dec-7-ene, 2,10,10-trimethyl-6-methylene-, trans-(.+-.)- (CAS)",2.0936,95,20.314,20.296,,20.3,20.299,20.308,21.445
+,,,,,,,20.325,,,,
+122,20.479,"Pentadecane, 2,6,10,14-tetramethyl- (CAS) $$ Pristane $$ PRISTANE (FIELD ION) $$ 2,6,10,14-Tetramethylpentadecane $$ Pristan $$ Norphytan $$ Norphytane $$ Bute hydrocarbon $$ 2,6,10,14-TETRAMETHYL PENTADECANE",0.0629,43,20.476,20.477,20.487,20.479,20.479,20.485,21.624
+123,20.6759,"2-Pentene, 3,4-dimethyl-, (E)- (CAS) $$ 3,4-Dimethyl-trans-2-pentene $$ (E)-3,4-Dimethyl-2-pentene $$ trans-3,4-Dimethyl-2-pentene $$ (E)-(CH3)2C=CHCH(CH3)2",0.0648,41,20.732,20.677,,20.678,20.678,20.685,21.705
+124,20.8418,LINALOOL L,0.945,97,20.863,20.843,,20.845,20.842,20.85,21.886
+125,20.9602,"CARYOPHYLL-4-EN-2,6-.BETA.-OXIDE $$ 12-Oxatricyclo[6.3.1.0(2,5)]dodec-9-ene, 1,4,4,8-tetramethyl-, (1.alpha.,2.beta.,5.alpha.,8.alpha.,9Z)- (CAS) $$ Caryophyll-4-en 2,6-.beta.-oxide $$ 12-Oxatricyclo[6.3.1.02,5]dodec-9-ene, 1,4,4,8-tetramethyl-, (1.alpha.",0.1446,81,,20.96,,20.961,20.96,20.968,22.072
+126,21.056,"Ethanol, 2-bromo- (CAS) $$ 2-Bromoethanol $$ Ethylene bromohydrin $$ 1-Bromo-2-ethanol $$ Glycol bromohydrin $$ 2-Hydroxyethyl bromide $$ CH2BrCH2OH(trans)",0.046,25,21.205,,,,,,22.321
+127,21.1877,1-Octanol (CAS) $$ Octilin $$ Alfol 8 $$ Sipol L8 $$ n-Octanol $$ n-Octan-1-ol $$ Octyl alcohol $$ Octanol $$ n-Octyl alcohol $$ Heptyl carbinol $$ Caprylic alcohol $$ 1-Hydroxyoctane $$ Octan-1-ol $$ Alcohol c-8 $$ Capryl alcohol $$ n-Heptyl carbinol $$,0.3382,90,,21.186,,21.191,21.189,21.195,22.448
+,,,,,,,21.206,,,,
+128,21.441,"2-Furancarboxaldehyde, 5-methyl- (CAS) $$ 5-Methyl-2-furfural $$ 5-METHYLFURAN-2-ALDEHYDE $$ 5-Methylfurfural $$ Furfural, 5-methyl- $$ 5-Methylfurfuraldehyde $$ 2-Methyl-5-formylfuran $$ 5-Methyl-2-furaldehyde $$ 2-Formyl-5-methylfuran $$ 2-Furaldehyde,",0.1305,64,21.45,21.438,,21.442,21.441,21.449,22.547
+129,21.6194,"1H-Imidazole-4-carboxylic acid, methyl ester (CAS) $$ 4(5)-METHOXY CARBONYLIMIDAZOLE $$ 4-Methoxycarbonylimidazole $$ Methyl imidazole-4-carboxylate $$ Imidazole-4-carboxylic acid, methyl ester",0.0413,72,21.679,21.619,21.682,21.62,21.621,21.629,22.745
+130,21.7012,TERPINENE 1-OL,0.1064,95,,21.701,,21.708,21.702,21.709,22.838
+131,21.8883,16-oxosalutaridine,0.0809,47,21.876,21.877,21.885,21.884,21.881,21.882,22.923
+132,22.0726,"Hastanecine $$ (-)-hastanecine $$ 1H-Pyrrolizine-1-methanol, hexahydro-7-hydroxy-, [1S-(1.alpha.,7.alpha.,7a.alpha.)]- $$ Hastanecin",0.0412,38,,22.067,,22.073,22.07,22.084,23.101
+,,,,,22.266,,,,,,
+133,22.3209,DILL ETHER,0.0618,91,,22.317,,22.32,22.319,22.329,23.296
+134,22.4461,TERPINEOL-4,0.2224,97,22.471,22.445,,22.449,22.447,22.453,23.393
+135,22.5426,"Dihydrocarvone $$ Cyclohexanone, 2-methyl-5-(1-methylethenyl)-, trans- (CAS) $$ Carvone, dihydro- $$ trans-Dihydrocarvone $$ p-Menth-8-en-2-one, trans- $$ d-Dihydrocarvone $$ 4-[(1'-methyl)vinyl]-1-methylcyclohexan-2-one $$ p-Menth-8-en-2-one, E-",0.1712,96,,22.54,,22.545,22.544,22.552,23.627
+136,22.7427,"3-Cyclohexene-1-acetaldehyde, .alpha.,4-dimethyl- (CAS) $$ 1-p-Menthen-9-al $$ .alpha.,4-Dimethyl-3-cyclohexene-1-acetaldehyde $$ p-Menth-1-en-9-al",0.1408,94,22.762,22.742,,22.745,22.742,22.749,23.824
+137,22.8341,"Bicyclo[2.2.1]hept-2-ene, 2,3-dimethyl- (CAS) $$ Santene $$ Santen $$ 2-Norbornene, 2,3-dimethyl-",0.1442,53,22.859,22.834,,22.84,22.838,22.843,23.945
+138,22.9188,".beta.-Cyclocitral $$ 1-Cyclohexene-1-carboxaldehyde, 2,6,6-trimethyl- (CAS) $$ 1-Formyl-2,6,6-trimethyl-1-cyclohexene",0.2673,86,22.966,22.92,22.975,22.925,22.92,22.928,24.049
+139,23.0996,TRANS-DIHYDROCARVONE,0.0397,90,,23.099,,23.103,23.101,23.112,24.188
+140,23.2947,.BETA. TERPINEOL,0.0404,98,,23.292,,23.296,23.294,23.3,24.348
+141,23.3911,"2-Methoxy-1,4-benzenediamine",0.1556,35,,23.39,,23.395,23.392,23.398,24.443
+142,23.6258,"1,3-Cyclohexadiene-1-carboxaldehyde, 2,6,6-trimethyl- (CAS) $$ Safranal",0.3302,96,23.616,23.625,,23.629,23.627,23.632,24.588
+143,23.8226,Methyl-d3 1-Dideuterio-2-propenyl Ether,0.3583,5,23.815,23.82,23.824,23.825,23.822,23.829,24.687
+144,23.9436,".ALPHA.-PINENE, (-)- $$ Bicyclo[3.1.1]hept-2-ene, 2,6,6-trimethyl- (CAS) $$ Pinene $$ 2-Pinene $$ .alpha.-Pinene $$ 2,6,6-Trimethylbicyclo[3.1.1]hept-2-ene $$ .alpha.-(+)-Pinene $$ ALPHA-PINENE $$ ALFA-PINENE $$ Pinene isomer $$ PINENE, .alpha. $$ 2,6,6-T",0.1572,76,,23.944,,23.947,23.944,23.948,24.918
+145,24.0574,"Butane, 2,3-dichloro-2-methyl- (CAS) $$ 2,3-Dichloro-2-methylbutane $$ Amylene dichloride",0.0284,25,,24.049,,24.049,24.049,24.059,25.175
+146,24.1878,1-NONANOL,0.1774,58,24.183,24.185,,24.189,24.188,24.193,25.297
+147,24.352,"endo-Borneol $$ Bicyclo[2.2.1]heptan-2-ol, 1,7,7-trimethyl-, endo- (CAS) $$ Borneol (CAS) $$ Camphol $$ endo-2-Hydroxy-1,7,7-trimethylnorbornane $$ Bicyclo[2.2.1]heptan-2-ol, 1,7,7-trimethyl- $$ 2-Bornanol, endo- $$ Baros camphor $$ Bhimsaim camphor $$ Bo",0.0313,95,24.259,24.351,,24.356,24.353,24.351,25.726
+,,,,,,,24.194,,,,
+148,24.4442,"2-phenyl-3,7-dimethyl-4-(4-chlorophenyl)-6,8-dioxo-2,3,7-triazabicyclo[3.3.0]octane $$ Pyrrolo[3,4-c]pyrazole-4,6(1H,5H)-dione, 3-(4-chlorophenyl)tetrahydro-2,5-dimethyl-1-phenyl-, (3.alpha.,3a.alpha.,6a.alpha.)-",0.021,45,24.444,24.44,24.44,24.446,24.441,24.445,25.923
+149,24.5856,"2-oxo-2,3,6,7,8,9-hexahydro-5H-pyrrolo[1,2-a]azepine",0.1679,43,24.559,24.583,24.57,24.589,24.584,24.594,25.986
+,,,,,24.693,,,,,,
+150,24.9177,"SANTENE $$ BICYCLO[2.2.1]HEPT-2-ENE, 2,3-DIMETHYL",0.8505,59,24.923,24.917,,24.919,24.918,24.922,26.124
+151,25.1744,.ALPHA. TERPINEOL,3.9751,91,25.181,25.174,,25.177,25.175,25.18,26.198
+152,25.295,"1,7,7-trimethyl-2-hydroxybicyclo[2.2.1]heptane",0.2785,90,25.317,25.295,24.925,25.298,25.297,25.301,26.423
+,,,,,25.344,,25.187,25.522,,,
+,,,,,25.524,,,,,,
+153,25.7235,"phellandral $$ p-menth-1-en-7-al $$ 1-Cyclohexene-1-carboxaldehyde, 4-(1-methylethyl)-, (S)- $$ 1-Cyclohexene-1-carboxaldehyde, 4-isopropyl-, (S)-(-)-",0.0437,93,,25.723,,25.727,25.722,25.731,26.616
+154,25.915,"4-METHYL-1,2,3,4,5,6-HEXAHYDRO-1,5-METHANO-4,1-BENZAZAPHOSPHOCINE $$ 2H-1,5-Methano-4,1-benzazaphosphocine, 3,4,5,6-tetrahydro-4-methyl- (CAS)",0.0163,50,,25.922,,,,25.903,26.647
+155,25.9819,"L-Aspartic acid, N-[(phenylmethoxy)carbonyl]- (CAS) $$ Carbobenzoxy-L-aspartic acid $$ N-Carbobenzoxy-L-aspartic acid $$ N-Benzyloxycarbonylaspartic acid $$ N-Benzyloxycarbonyl-L-aspartic acid $$ N-(Benzyloxycarbonyl)-L-aspartic acid $$ Aspartic acid, N-(",0.0151,53,,25.981,,,25.981,25.978,26.825
+156,26.1131,"2-Cyclohexen-1-one, 2-methyl-5-(1-methylethenyl)- (CAS) $$ 2-Methyl-5-isopropenyl-2-cyclohexenone $$ Carvol $$ Karvon $$ Carvone $$ 1-Carvone $$ p-Mentha-6,8-dien-2-one $$ .delta.(sup 6,8)-(9)-Terpadienone-2 $$ .delta.-1-Methyl-4-isopropenyl-6-cyclohexen-",0.0276,52,,26.122,,26.13,26.121,26.122,26.914
+157,26.198,"1H-Inden-1-one, 2,3-dihydro-3,3,4,5-tetramethyl- (CAS) $$ 3,3,4,5-TETRAMETHYL-1-INDANONE",0.0385,46,26.173,26.2,26.189,26.198,26.199,26.202,27.05
+158,26.4216,"Naphthalene, 1,2-dihydro-1,1,6-trimethyl- (CAS) $$ 1,1,6-trimethyl-1,2-dihydronaphthalene $$ 3,8,8-Trimethildihydronaphthalene",1.3447,96,26.433,26.421,,26.425,26.422,26.428,27.22
+159,26.5826,"Butanoic acid, 3-methyl- (CAS) $$ Isovaleric acid $$ Delphinic acid $$ 3-Methylbutyrate $$ Isopentanoic acid $$ Isopropylacetic acid $$ 3-Methylbutyric acid $$ 3-Methylbutanoic acid $$ Acetic acid, isopropyl- $$ .beta.-Methylbutyric acid $$ iso-C4H9COOH $",0.0304,62,,,26.437,,,26.582,27.364
+160,26.6386,"Pentanoic acid (CAS) $$ Valeric acid $$ n-Valeric acid $$ Valerianic acid $$ n-Pentanoic acid $$ Propylacetic acid $$ 1-Butanecarboxylic acid $$ n-C4H9COOH $$ Butanecarboxylic acid $$ Valeric acid, N- $$ Kyselina valerova $$ NA 1760",0.0823,59,,26.626,,,,,27.626
+,,,,,,,,,,26.661,
+161,26.72,"Pentanoic acid (CAS) $$ Valeric acid $$ n-Valeric acid $$ Valerianic acid $$ n-Pentanoic acid $$ Propylacetic acid $$ 1-Butanecarboxylic acid $$ n-C4H9COOH $$ Butanecarboxylic acid $$ Valeric acid, N- $$ Kyselina valerova $$ NA 1760",0.0199,72,,,,,,26.704,27.721
+162,26.7618,"Butanoic acid, 3-methyl- (CAS) $$ Isovaleric acid $$ Delphinic acid $$ 3-Methylbutyrate $$ Isopentanoic acid $$ Isopropylacetic acid $$ 3-Methylbutyric acid $$ 3-Methylbutanoic acid $$ Acetic acid, isopropyl- $$ .beta.-Methylbutyric acid $$ iso-C4H9COOH $",0.0333,78,,,,,,,27.814
+163,26.829,"Pentanoic acid (CAS) $$ Valeric acid $$ n-Valeric acid $$ Valerianic acid $$ n-Pentanoic acid $$ Propylacetic acid $$ 1-Butanecarboxylic acid $$ n-C4H9COOH $$ Butanecarboxylic acid $$ Valeric acid, N- $$ Kyselina valerova $$ NA 1760",0.0982,58,,26.823,,,,26.835,28.078
+164,26.9089,3 METHYL PENTANOIC ACID $$ 3 METHYL VALERIC ACID,0.0451,64,26.909,26.899,,26.921,26.921,26.922,28.249
+165,27.0487,"Thieno[2,3-b]pyridine 7-oxide $$ Thieno[2,3-b]pyridine, 7-oxide (CAS)",0.2676,43,27.034,27.044,27.056,27.048,27.051,27.053,28.35
+166,27.137,"Butanoic acid, 3-methyl- (CAS) $$ Isovaleric acid $$ Delphinic acid $$ 3-Methylbutyrate $$ Isopentanoic acid $$ Isopropylacetic acid $$ 3-Methylbutyric acid $$ 3-Methylbutanoic acid $$ Acetic acid, isopropyl- $$ .beta.-Methylbutyric acid $$ iso-C4H9COOH $",0.0298,38,,,,,,,28.424
+167,27.2163,"Benzoic acid, 2-hydroxy-, methyl ester (CAS) $$ Methyl salicylate $$ Salicylic acid methyl ester $$ Betula $$ Exagien $$ Analgit $$ Flucarmit $$ Betula oil $$ Betula lenta $$ Teaberry oil $$ Spicewood oil $$ Gaultheriaoel $$ Gaultheria oil $$ Wintergrueno",0.2258,90,27.218,27.215,27.239,27.221,27.221,27.223,28.534
+168,27.3741,"Butanoic acid, 3-methyl- (CAS) $$ Isovaleric acid $$ Delphinic acid $$ 3-Methylbutyrate $$ Isopentanoic acid $$ Isopropylacetic acid $$ 3-Methylbutyric acid $$ 3-Methylbutanoic acid $$ Acetic acid, isopropyl- $$ .beta.-Methylbutyric acid $$ iso-C4H9COOH $",0.1322,46,27.388,27.369,,27.376,27.377,27.37,28.663
+,,,,,,,,27.456,27.438,,
+169,27.625,"Bicyclo[2.2.1]hept-2-ene, 2,3-dimethyl- (CAS) $$ Santene $$ Santen $$ 2-Norbornene, 2,3-dimethyl-",0.1199,49,27.657,27.625,,27.627,27.627,27.632,28.837
+170,27.7172,1-(2-Methylbutyl)-2-formyl pyrrole,0.0611,95,,27.716,,27.721,27.72,27.72,28.927
+171,27.8144,"myrtenol $$ BICYCLO[3.1.1]HEPT-2-ENE-2-METHANOL, 6,6-DIMETHYL- $$ 2-hydroxymethyl-7,7-dimethylbicyclo[3.1.1]heptan-2-ene",0.0437,91,,27.819,,27.817,27.817,27.819,29.118
+172,28.0755,1-Isoamyl-2-formyl pyrrole,0.1694,91,28.086,28.073,28.09,28.078,28.078,28.08,29.247
+173,28.2497,"Spiro[2.4]heptane, 4-methylene- (CAS) $$ 4-Methylenespiro[2.4]heptane",0.0803,49,28.259,28.249,,28.251,28.252,28.254,29.445
+174,28.3506,B-PHENYLETHYL ACETATE,0.074,72,28.386,28.358,28.368,28.352,28.353,28.356,29.725
+175,28.4197,"Cyclotrisiloxane, hexamethyl- (CAS) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOHEXASILOXANE $$ Hexamethylcyclotrisiloxane $$ HEXAMETHYL-CYCLOTRISILOXANE $$ Dimethylsiloxane cyclic trimer",0.0418,53,,28.397,,28.425,28.417,28.42,29.928
+176,28.5338,".beta.-Damascenone $$ 2-Buten-1-one, 1-(2,6,6-trimethyl-1,3-cyclohexadien-1-yl)-, (E)- (CAS) $$ Damascenone $$ Damascenone, trans- $$ trans-.beta.-Damascenone $$ 2,6,6-Trimethyl-1-trans-crotonoyl-1,3-cyclohexadiene $$ (E)-1-(2,6,6-trimethylcyclohexa-1,3-d",0.0873,94,,28.533,,28.535,28.534,28.537,30.057
+177,28.6617,"trans-1,2,3,4,4a,5,6,7-Octahydro-4a-methyl-2-(1-methylethenyl)naphthalene",0.0434,53,28.686,28.663,,28.664,28.668,28.672,30.102
+178,28.8351,"Cyclopentene, 3-ethylidene-1-methyl- (CAS)",0.0322,64,28.819,28.83,,28.837,28.836,28.844,30.23
+179,28.9263,"trans-Carveol $$ 2-Cyclohexen-1-ol, 2-methyl-5-(1-methylethenyl)-, trans- (CAS) $$ p-Mentha-6,8-dien-2-ol, trans- $$ trans-Mentha-1,8-dien-6-ol",0.0598,95,28.937,28.925,,28.93,28.928,28.93,30.536
+180,29.1204,".alpha.-campholene aldehyde $$ Cyclopentanecarboxaldehyde, 1,2,2,3-tetramethyl- $$ Campholaldehyde",0.0185,46,,,,,,29.118,30.637
+181,29.2459,"1-methyladamantane $$ Tricyclo[3.3.1.13,7]decane, 1-methyl- $$ Adamantane, 1-methyl-",0.1186,83,29.248,29.245,,29.25,29.246,29.251,30.837
+182,29.4567,"Phenol, 2-methoxy- (CAS) $$ Guaiacol $$ o-Methoxyphenol $$ Guajol $$ Guasol $$ Anastil $$ Guaiastil $$ Guaicolina $$ o-Guaiacol $$ Pyroguaiac acid $$ o-Hydroxyanisole $$ 2-Hydroxyanisole $$ O-Methyl catechol $$ Phenol, o-methoxy- $$ 2-Methoxyphenol pionit",0.0127,43,,29.447,,,29.444,29.452,30.909
+,,,,,29.534,,,,,,
+183,29.7275,"cis-Carveol $$ 2-Cyclohexen-1-ol, 2-methyl-5-(1-methylethenyl)-, cis- (CAS) $$ p-Mentha-6,8-dien-2-ol, cis- $$ cis-Mentha-1,8-dien-6-ol",0.0184,86,,29.726,,29.73,29.724,29.729,31.134
+184,29.9279,Benzenemethanol (CAS) $$ Benzyl alcohol $$ Benzal alcohol $$ Phenylmethanol $$ Phenylcarbinol $$ Benzenecarbinol $$ .alpha.-Toluenol $$ .alpha.-Hydroxytoluene $$ (Hydroxymethyl)benzene $$ Phenylmethyl alcoholine $$ Phenylmethyl alcohol $$ Benzoyl alcohol,0.0411,96,,29.926,,29.931,29.929,29.931,31.25
+,,,,,,,,,30.044,30.044,
+185,30.0611,"Cyclotetrasiloxane, octamethyl- (CAS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-CYCLOOCTASILOXANE $$ OCTAMETHYL-(CYCLIC TETRAMER) CYCLOTETRASILOXANE $$ Octamethylcyclotetrasiloxane $$ NUC Silicone VS 7207 $$ Octamethyl-cyclotetrasiloxane $$ Oktamethylcyklotetrasiloxa",0.0147,68,30.054,30.075,,30.044,30.069,30.069,31.364
+186,30.0991,"Cyclotetrasiloxane, octamethyl- (CAS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-CYCLOOCTASILOXANE $$ OCTAMETHYL-(CYCLIC TETRAMER) CYCLOTETRASILOXANE $$ Octamethylcyclotetrasiloxane $$ NUC Silicone VS 7207 $$ Octamethyl-cyclotetrasiloxane $$ Oktamethylcyklotetrasiloxa",0.0193,47,,,,30.107,30.109,30.116,31.558
+187,30.2296,"1-(2-amino-phenyl)-3-methyl-1,3-pentadiene",0.0339,72,,30.228,,30.234,30.228,30.232,31.704
+,,,,,30.375,30.606,,,,,
+,,,,,30.411,,,,,,
+188,30.5271,"Silicic acid (H4SiO4), tetramethyl ester (CAS) $$ Tetramethoxysilane $$ Tetramethyl silicate $$ Methyl orthosilicate $$ Silane, tetramethoxy- $$ Methyl silicate ((MeO)4Si) $$ Tetra-methyl orthosilicate $$ Methyl silicate ((CH3)4SiO4) $$ Silicic acid, tetr",0.0065,46,,,,,,30.531,32.041
+189,30.5924,"Cyclotrisiloxane, hexamethyl- (CAS) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOHEXASILOXANE $$ Hexamethylcyclotrisiloxane $$ HEXAMETHYL-CYCLOTRISILOXANE $$ Dimethylsiloxane cyclic trimer",0.0041,64,,,,,,,32.707
+190,30.8378,"Benzeneethanol (CAS) $$ Phenethyl alcohol $$ PEA $$ PHENETHYL ALCOLHOL $$ Phenethanol $$ .beta.-PEA $$ Benzyl carbinol $$ 2-Phenylethanol $$ Ethanol, 2-phenyl- $$ 2-Phenethyl alcohol $$ .beta.-Phenylethanol $$ .beta.-Phenethyl alcohol $$ .beta.-Hydroxyeth",0.0697,94,30.838,30.837,30.84,30.84,30.836,30.842,32.926
+191,30.909,"Phenol, 2,6-bis(1,1-dimethylethyl)-4-methyl- (CAS) $$ 4-Methyl-2,6-di-tert-butylphenol $$ BHT $$ P 21 $$ CAO 3 $$ AO 29 $$ CAO 1 $$ AO 4K $$ DBPC $$ P 21 $ $$ 2,6-DI-TERT-4-METHYLPHENOL $$ Buks $$ Ional $$ Ionole $$ Deenax $$ Dalpac $$ Stavox $$ Vianol $$",0.021,93,,30.911,,30.909,30.915,30.919,33.032
+,,,,,,30.991,,,,,
+192,31.1363,"Indolizine (CAS) $$ Indolizin $$ Pyrrocolin $$ Pyrrocoline $$ Pyrrolo[1,2-a]pyridine",0.023,62,31.134,31.135,,31.137,31.138,31.139,33.13
+,,,,,,31.179,,,,,
+193,31.2489,"2,4,5-Tri-sec-butylphenol",0.0431,59,31.25,31.247,31.25,31.25,31.248,31.248,33.391
+194,31.3598,"Benzenamine, 2,3,4,5,6-pentamethyl- (CAS) $$ PENTAMETHYLAMINOBENZENE $$ 2,3,4,5,6-Pentamethylaniline",0.0162,64,,,,31.368,31.363,31.37,33.586
+195,31.5553,"edulan I $$ 2H-1-Benzopyran, 3,5,6,8a-tetrahydro-2,5,5,8a-tetramethyl-, trans- (CAS) $$ trans-Edulan",0.0441,56,,,,31.557,31.559,31.562,33.683
+,,,,,,31.367,,,,,
+,,,,,,31.557,,,,,
+196,31.7038,"Benzenamine, 2,3,4,5,6-pentamethyl- (CAS) $$ PENTAMETHYLAMINOBENZENE $$ 2,3,4,5,6-Pentamethylaniline",0.0228,58,,31.71,,31.707,31.699,31.707,34.593
+,,,,,,,,,31.909,,
+197,32.0403,"Benzenamine, 3-methoxy- (CAS) $$ 3-Methoxyaniline $$ m-Anisidine $$ m-Anisylamine $$ m-Aminoanisole $$ 3-Aminoanisole $$ m-Methoxyaniline $$ 1-Amino-3-methoxybenzene $$ 3-Methoxybenzenamine $$ 3-Anisidine",0.0502,58,32.004,32.034,,32.045,32.042,32.043,34.816
+,,,,,32.333,32.561,,32.392,32.383,,
+,,,,,32.367,,,,,,
+198,32.6013,"1H-Indole, 5-methyl-2-phenyl- (CAS) $$ 5-Methyl-2-phenylindole $$ 2-Phenyl-5-methylindole $$ Indole, 5-methyl-2-phenyl-",0.0134,35,,,,,,,35.001
+199,32.7155,"5,6,8,9-TETRAMETHOXY-2-METHYLPEPERO(3,4,5-JK)-9,10-DIHYDROPHENANTHRACENE $$ 4H-Dibenz[de,g]isoquinoline, 5,6,6a,7-tetrahydro-1,2,9,10-tetramethoxy-5-methyl- (CAS)",0.0106,50,32.716,32.711,32.709,32.722,,32.716,35.458
+200,32.9303,"Naphthalene, 2,7-dimethyl- (CAS) $$ 2,7-Dimethylnaphthalene",0.0196,95,,32.933,,32.934,32.927,32.933,35.534
+201,33.0321,"(+)-(R)-p-Mentha-1,8(10)-dien-9-ol",0.0697,78,33.033,33.031,,33.033,33.032,33.034,35.796
+202,33.1297,"5-methoxy-2,2-di-methylindan-1-one $$ 1H-Inden-1-one, 2,3-dihydro-4-methoxy-2,2-dimethyl-",0.1315,83,33.14,33.129,33.142,33.131,33.131,33.134,36.178
+203,33.388,"Benzene, 1,2-dimethoxy-4-(2-propenyl)- (CAS) $$ Methyleugenol $$ Methyl Eugenol $$ 1-Allyl-3,4-dimethoxybenzene $$ Ent 21040 $$ O-Methyleugenol $$ 4-Allylveratrole $$ Methyl eugenol ether $$ Eugenol methyl ether $$ Eugenyl methyl ether $$ Veratrole methyl",0.0292,98,,33.393,,33.391,33.39,33.395,36.349
+,,,,,33.262,,,,,,
+204,33.5837,1H-Pyrrole-2-carboxaldehyde (CAS) $$ 2-Formylpyrrole $$ Pyrrole-2-aldehyde $$ Pyrrole-2-carboxaldehyde $$ 2-Pyrrolylcarboxaldehyde $$ .alpha.-Pyrrolaldehyde $$ 2-Pyrrolecarbaldehyde $$ 2-Pyrrolecarboxaldehyde,0.0267,72,33.56,33.584,,33.583,33.588,33.586,36.429
+205,33.6774,"1,8-Naphthyridine, 2,4,7-trimethyl- (CAS)",0.0122,59,34.6,33.683,,33.687,33.688,33.675,36.999
+,,,,,,33.909,,33.818,,33.929,
+206,34.5909,2-Methyl-7-phenylindole,0.0165,40,,34.591,,34.593,34.593,34.603,37.121
+207,34.8119,CYCLOISOLONGIFOLENE,0.0096,43,,34.809,,34.811,34.812,34.814,
+,,,,,34.935,34.999,,,,,
+,,,,,34.997,,,,,,
+208,35.002,"Phenol, 4-methyl- (CAS) $$ p-Cresol $$ p-Toluol $$ 4-Cresol $$ p-Kresol $$ p-Oxytoluene $$ p-Methylphenol $$ p-Cresylic acid $$ p-Tolyl alcohol $$ 4-Hydroxytoluene $$ p-Hydroxytoluene $$ 4-Methylphenol $$ p-Methylhydroxybenzene $$ 1-Hydroxy-4-methylbenzen",0.0105,90,35.02,,,34.997,34.995,35.006,
+,,,,,35.192,35.19,,,,,
+,,,,,35.739,,,,,,
+209,35.4559,"Naphthalene, 1,2,3,4-tetrahydro-1,6-dimethyl-4-(1-methylethyl)-, (1S-cis)- (CAS) $$ Calamenene $$ l-Calamenene $$ (-)-Calamenene $$ Calamenene, (-)- $$ Cadina-1,3,5-triene $$ Cadina-1,3,5-triene, (-)-",0.0346,90,,35.459,,35.46,35.457,35.456,
+210,35.7985,"1H-Inden-1-one, 2,3-dihydro-3,3,5,7-tetramethyl- (CAS) $$ 3,3,5,7-TETRAMETHYL-1-INDANONE",0.0386,83,35.799,35.796,35.806,35.798,35.798,35.801,
+,,,,,,,,,,36.039,
+,,,,,,,,,,,
+211,36.1767,ETHYL CINNAMATE,0.0147,93,,36.18,,36.175,36.174,36.182,
+212,36.3673,"1,4,7,10,13,16-Hexaoxacyclooctadecane (CAS) $$ 18-Crown-6 ether $$ 18-CRONEN-6-ETHER $$ ETHYLENE OXIDE HEXAMER $$ Ethylene oxide cyclic hexamer $$ 18-Crown-6 $$ Crown ether 18-crown-6 $$ 1,4,7,10,13,16-Hexanoxacyclooctadecane",0.0072,46,36.368,36.351,36.362,36.357,36.367,36.369,
+,,,,,36.426,36.768,,36.762,,,
+213,36.9993,"Phenol, 2-methoxy-4-(2-propenyl)- (CAS) $$ Eugenol $$ 1-(2-PROPENYL)-4-HYDROXY-3-METHOXYBENZENE $$ Engenol $$ p-Eugenol $$ Eugenic acid $$ 4-Allylguaiacol $$ p-Allylguaiacol $$ Caryophyllic acid $$ 4-Allyl-2-methoxyphenol $$ 2-Methoxy-4-allylphenol $$ Phe",0.055,98,36.993,36.996,,,36.998,37,
+,,,,,37.093,,,37.002,,,
+214,37.1163,"Naphthalene, 2,3,6-trimethyl- (CAS) $$ 2,3,6-Trimethylnaphthalene",0.0116,87,37.12,37.121,,37.126,37.121,37.127,
+,,,,,37.287,,,37.279,,,
+,,,,,37.408,,,,,,
