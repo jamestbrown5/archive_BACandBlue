@@ -24,18 +24,18 @@ library(readr)
 library(ape)
 
 # read in data
-meta <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/stats help and prelim practice/meta.csv") 
+meta <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/20181219_FF AND PA IN BBJ/meta.csv") 
 meta$hour=as.factor(meta$hour)
 rownames(meta) <- meta$SampleID_merge 
 SAMP <- sample_data(meta)
 sample_names(SAMP)<-meta$SampleID
 
-peaks <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/stats help and prelim practice/peak.csv")
+peaks <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/20181219_FF AND PA IN BBJ/peak.csv")
 TAX <- tax_table(peaks) # gives a warning, don't freak out
 taxa_names(TAX)<-peaks$Peak_ID
 colnames(TAX)<- colnames(peaks)
 
-abund <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/stats help and prelim practice/otu.csv", colClasses = c("factor","factor", rep("numeric", times=48)))
+abund <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/20181219_FF AND PA IN BBJ/otu.csv", colClasses = c("factor","factor", rep("numeric", times=48)))
 # read in peak areas, assigning factors of diff classifications based on columns
 rownames(abund) <- abund$Peak_ID #give abund rows names according to "Peak_ID" in peak.csv table
 OTU <- otu_table(abund[,-c(1:2)], taxa_are_rows=T) #create a table with only peak areas, compounds are taxa
