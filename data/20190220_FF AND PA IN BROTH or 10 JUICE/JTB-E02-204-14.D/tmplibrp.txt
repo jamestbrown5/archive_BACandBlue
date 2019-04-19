@@ -1,0 +1,576 @@
+                                        Library Search Report
+
+  Data Path : Z:\data\JTB-E02\BACandBLUE\
+  Data File : JTB-E02-204-14.D                                    
+  Acq On    : 09 Mar 2019  12:19
+  Operator  : JTB
+  Sample    : REP01   BAC-02
+  Misc      :  
+  ALS Vial  : 1   Sample Multiplier: 1
+
+  Search Libraries:   C:\Database\NIST14.L              Minimum Quality:   0
+                      C:\Database\WILEY275.L            Minimum Quality:   0
+                      C:\Database\Adams2.L            
+
+  Unknown Spectrum:   Apex
+  Integration Events: ChemStation Integrator - events16.e
+
+Pk#     RT  Area%          Library/ID                 Ref#     CAS#   Qual
+_____________________________________________________________________________
+  1   2.284  0.63 C:\Database\NIST14.L
+                 Carbon dioxide                         81 000124-38-9  4
+                 Ethylene oxide                         75 000075-21-8  3
+                 Carbon dioxide                         82 000124-38-9  3
+ 
+  2   2.455  0.03 C:\Database\NIST14.L
+                 dl-3-Aminoisobutyric acid, N-methy  14233 1000332-87-9 45
+                 l-, methyl ester
+                 2-Pentanamine                        1926 063493-28-7 45
+                 Butanoic acid, 3-amino-              4634 000541-48-0 39
+ 
+  3   2.569  0.11 C:\Database\NIST14.L
+                 Methanethiol                          114 000074-93-1 80
+                 Methanethiol                          113 000074-93-1 72
+                 Ethyl oxamate                        8604 000617-36-7  9
+ 
+  4   2.618  0.47 C:\Database\NIST14.L
+                 Acetaldehyde                           72 000075-07-0 56
+                 Acetaldehyde                           71 000075-07-0 56
+                 Ethylene oxide                         75 000075-21-8  9
+ 
+  5   2.795  0.70 C:\Database\NIST14.L
+                 Dimethyl sulfide                      337 000075-18-3 91
+                 Dimethyl sulfide                      339 000075-18-3 91
+                 Dimethyl sulfide                      338 000075-18-3 91
+ 
+  6   3.117  3.30 C:\Database\NIST14.L
+                 Acetone                               216 000067-64-1 80
+                 Acetone                               217 000067-64-1 56
+                 Acetone                               218 000067-64-1  5
+ 
+  7   3.203  1.16 C:\Database\NIST14.L
+                 Acetic acid, methyl ester             829 000079-20-9 45
+                 Urea, methyl-                         779 000598-50-5  9
+                 Acetic acid, methyl ester             828 000079-20-9  9
+ 
+  8   3.320  3.95 C:\Database\NIST14.L
+                 Cyclotrisiloxane, hexamethyl-       85992 000541-05-9 90
+                 Cyclotrisiloxane, hexamethyl-       85994 000541-05-9 83
+                 Arsenous acid, tris(trimethylsilyl 199618 055429-29-3 78
+                 ) ester
+ 
+  9   3.476  0.33 C:\Database\NIST14.L
+                 Cyclotrisiloxane, hexamethyl-       85992 000541-05-9 78
+                 Cyclotrisiloxane, hexamethyl-       85993 000541-05-9 59
+                 1H-Indole, 5-methyl-2-phenyl-       71661 013228-36-9 50
+ 
+ 10   3.690  6.91 C:\Database\NIST14.L
+                 Ethyl Acetate                        2042 000141-78-6 78
+                 CH3C(O)CH2CH2OH                      2044 000590-90-9 59
+                 Ethyl Acetate                        2038 000141-78-6 58
+ 
+ 11   3.826  2.84 C:\Database\NIST14.L
+                 2-Butanone                            659 000078-93-3 59
+                 Propanal, 2-methyl-                   698 000078-84-2 42
+                 2-Propenoic acid, 3-phenyl-, 2-met  66741 054889-46-2 40
+                 hyl-2-propenyl ester
+ 
+ 12   3.976  2.22 C:\Database\NIST14.L
+                 Butanal, 2-methyl-                   1761 000096-17-3 72
+                 Cyclopropane, (methoxymethyl)-       1835 001003-13-0 50
+                 Butanal, 2-methyl-                   1764 000096-17-3 50
+ 
+ 13   4.024  6.96 C:\Database\NIST14.L
+                 Butanal, 3-methyl-                   1767 000590-86-3 91
+                 Butanal, 3-methyl-                   1762 000590-86-3 90
+                 Butanal, 3-methyl-                   1766 000590-86-3 64
+ 
+ 14   4.246 10.96 C:\Database\NIST14.L
+                 Ethanol                                94 000064-17-5 86
+                 Ethanol                                95 000064-17-5 78
+                 Ethanol                                96 000064-17-5 78
+ 
+ 15   4.653  0.68 C:\Database\NIST14.L
+                 Oxirane, 3-hydroxypropyl-            4366 021915-56-0 59
+                 4-Hexen-3-ol                         3850 004798-58-7 50
+                 2-Furanmethanol, tetrahydro-         4391 000097-99-4 45
+ 
+ 16   4.818  1.56 C:\Database\NIST14.L
+                 2-Pentanone                          1733 000107-87-9  9
+                 Oxalic acid, monoamide, n-propyl,   78762 1000309-64-5  9
+                 hexyl ester
+                 .alpha.-Acetobutyrolactone          12384 000517-23-7  9
+ 
+ 17   4.978  1.56 C:\Database\NIST14.L
+                 Cyclotetrasiloxane, octamethyl-    155951 000556-67-2 91
+                 Cyclotetrasiloxane, octamethyl-    155950 000556-67-2 83
+                 Cyclotetrasiloxane, octamethyl-    155949 000556-67-2 78
+ 
+ 18   5.050  0.81 C:\Database\NIST14.L
+                 Carbonic acid, dimethyl ester        2294 000616-38-6 46
+                 Carbonic acid, dimethyl ester        2296 000616-38-6 43
+                 Thiazole, 4,5-dimethyl-2-(4-methyl 141256 1000263-85-7 30
+                 phenylsulfonylamino)-
+ 
+ 19   5.177  0.33 C:\Database\NIST14.L
+                 Cyclotetrasiloxane, octamethyl-    155950 000556-67-2 46
+                 Cyclotetrasiloxane, octamethyl-    155949 000556-67-2 43
+                 trans-4-(2-(5-Nitro-2-furyl)vinyl) 140729 000847-10-9 32
+                 -2-quinolinamine
+ 
+ 20   5.220  0.49 C:\Database\NIST14.L
+                 2-Thiopheneacetic acid, decyl este 141794 1000278-91-5 38
+                 Cyclotetrasiloxane, octamethyl-    155951 000556-67-2 38
+                 2,6-Dihydroxyacetophenone, 2TMS de 155019 1000352-81-3 35
+                 rivative
+ 
+ 21   5.354  0.22 C:\Database\NIST14.L
+                 Cyclotetrasiloxane, octamethyl-    155949 000556-67-2 25
+                 3,6-Bis(N-dimethylamino)-9-ethylca 141018 057103-04-5 22
+                 rbazole
+                 7H-Dibenzo[b,g]carbazole, 7-methyl 141099 003557-49-1 22
+ 
+ 22   5.590  0.44 C:\Database\NIST14.L
+                 Methyl isovalerate                   8240 000556-24-1 46
+                 Methyl isovalerate                   8239 000556-24-1 38
+                 Methyl isovalerate                   8237 000556-24-1 38
+ 
+ 23   5.708  0.30 C:\Database\NIST14.L
+                 Butane, 2-ethoxy-                    4503 002679-87-0 43
+                 2-Propanol, 1,3-dimethoxy-           9429 000623-69-8 38
+                 2-Propanol, 1,3-dimethoxy-           9427 000623-69-8 38
+ 
+ 24   6.001  0.27 C:\Database\NIST14.L
+                 3-Buten-2-ol, 2-methyl-              1805 000115-18-4 47
+                 3-Buten-2-ol, 2-methyl-              1814 000115-18-4 47
+                 2-Pentanone, 1-phenyl-              33330 006683-92-7 43
+ 
+ 25   6.159  0.40 C:\Database\NIST14.L
+                 Ethanol, 2-methoxy-, carbonate (2:  46477 000626-84-6 17
+                 1)
+                 1-Butene, 4-methoxy                  1772 004696-30-4  9
+                 Diethyl carbonate                    8845 000105-58-8  9
+ 
+ 26   6.353  0.17 C:\Database\NIST14.L
+                 N-Isobutyl-sec-butylamine           13345 039190-88-0 38
+                 5H-1,4-Dioxepin, 2,3-dihydro-        3770 004040-81-7 37
+                 2,3-Dioxabicyclo[2.2.1]heptane       3780 000279-35-6 16
+ 
+ 27   6.596  0.23 C:\Database\NIST14.L
+                 1,2-Hydrazinedicarboxaldehyde        1969 000628-36-4 38
+                 Butanoic acid, 3-methyl-, ethyl es  13842 000108-64-5 38
+                 ter
+                 Butanoic acid, 2-methyl-, methyl e   8371 000868-57-5 35
+                 ster
+ 
+ 28   6.684  1.53 C:\Database\NIST14.L
+                 Disulfide, dimethyl                  2561 000624-92-0 96
+                 Disulfide, dimethyl                  2564 000624-92-0 94
+                 Disulfide, dimethyl                  2562 000624-92-0 91
+ 
+ 29   6.864  0.21 C:\Database\NIST14.L
+                 2-Dimethylaminomethyl-4-chloro-1-n  97355 167163-22-6 49
+                 aphthol
+                 3-Methyl-3,5--(cyanoethyl)tetrahyd  98072 1000140-32-3 35
+                 ro-4-thiopyranone
+                 N-Methyl-2-phenyl-1-propylamine     24026 1000379-96-9 30
+ 
+ 30   6.988  0.43 C:\Database\NIST14.L
+                 2-Dimethylaminomethyl-4-chloro-1-n  97355 167163-22-6 27
+                 aphthol
+                 Acetamide, N-2-propynyl-             3005 065881-41-6 22
+                 Spiro[tetrahydrofuran-3,5'-hydanto  29592 081866-98-0 22
+                 in]
+ 
+ 31   7.173  0.12 C:\Database\NIST14.L
+                 2-Butenal, 2-methyl-                 1436 001115-11-3 64
+                 2-Butenal, 2-methyl-                 1429 001115-11-3 59
+                 2-Butenal, 2-methyl-, (E)-           1459 000497-03-0 59
+ 
+ 32   7.335  1.33 C:\Database\NIST14.L
+                 1-Propanol, 2-methyl-                 865 000078-83-1 86
+                 1-Propanol, 2-methyl-                 864 000078-83-1 80
+                 1-Propanol, 2-methyl-                 863 000078-83-1 78
+ 
+ 33   7.510  0.79 C:\Database\NIST14.L
+                 Benzenesulfinothioic acid, 4-metho 124283 026974-29-8 74
+                 xy-, S-phenyl ester
+                 2H-Pyran, 2-ethenyltetrahydro-2,6,  27740 007392-19-0 64
+                 6-trimethyl-
+                 4N-Ethylcytosine                    18161 089711-97-7 38
+ 
+ 34   7.865  0.06 C:\Database\NIST14.L
+                 1-Butanol, 3-methyl-, acetate       13794 000123-92-2 59
+                 1-Butanol, 3-methyl-, acetate       13795 000123-92-2 59
+                 1-Butanol, 3-methyl-, acetate       13793 000123-92-2 58
+ 
+ 35   7.965  0.20 C:\Database\NIST14.L
+                 Butanenitrile, 3-methyl-             1311 000625-28-5 40
+                 2-Acetyl-2-methyl-succinonitrile    16540 082471-44-1 23
+                 Pentanenitrile                       1305 000110-59-8  9
+ 
+ 36   8.624  0.89 C:\Database\NIST14.L
+                 1-Butanol                             840 000071-36-3 90
+                 1-Butanol                             846 000071-36-3 90
+                 1-Butanol                             847 000071-36-3 83
+ 
+ 37   8.783  0.34 C:\Database\NIST14.L
+                 Cyclopentasiloxane, decamethyl-    220035 000541-02-6 94
+                 Cyclopentasiloxane, decamethyl-    220037 000541-02-6 87
+                 3,4-Dihydroxyphenylglycol, 4TMS de 258664 056114-62-6 47
+                 rivative
+ 
+ 38   8.913  0.07 C:\Database\NIST14.L
+                 Cyclopentasiloxane, decamethyl-    220037 000541-02-6 80
+                 3,4-Dihydroxyphenylglycol, 4TMS de 258663 056114-62-6 50
+                 rivative
+                 3,4-Dihydroxyphenylglycol, 4TMS de 258661 056114-62-6 49
+                 rivative
+ 
+ 39   9.000  0.14 C:\Database\NIST14.L
+                 1,1,3,3,5,5,7,7,9,9-Decamethyl-9-( 254933 1000364-61-3 43
+                 2-methylpropoxy)pentasiloxan-1-ol
+                 Diphenyl chlorophosphate           127890 002524-64-3 10
+                 Codeine-propionyl                  209573 065644-90-8  9
+ 
+ 40   9.115  0.16 C:\Database\NIST14.L
+                 2-Butenoic acid, 3-methyl-, methyl   7448 000924-50-5 55
+                  ester
+                 2-Butenoic acid, 3-methyl-, methyl   7447 000924-50-5 49
+                  ester
+                 But-2-enamide, N,N-dihexyl-3-methy 127628 1000308-23-7 47
+                 l-
+ 
+ 41   9.412  0.09 C:\Database\NIST14.L
+                 7-Oxabicyclo[2.2.1]heptane, 1-meth  27825 000470-67-7 64
+                 yl-4-(1-methylethyl)-
+                 7-Oxabicyclo[2.2.1]heptane, 1-meth  27814 000470-67-7 50
+                 yl-4-(1-methylethyl)-
+                 7-Oxabicyclo[2.2.1]heptane, 1-meth  27821 000470-67-7 46
+                 yl-4-(1-methylethyl)-
+ 
+ 42   9.899  0.04 C:\Database\NIST14.L
+                 Limonene                            16032 000138-86-3 93
+                 D-Limonene                          16046 005989-27-5 86
+                 Limonene                            16031 000138-86-3 60
+ 
+ 43  10.384 20.62 C:\Database\NIST14.L
+                 1-Butanol, 3-methyl-                 2148 000123-51-3 86
+                 1-Butanol, 3-methyl-                 2139 000123-51-3 83
+                 1-Butanol, 3-methyl-                 2146 000123-51-3 83
+ 
+ 44  10.549  0.31 C:\Database\NIST14.L
+                 2-Hexenal, (E)-                      3218 006728-26-3 60
+                 2-Hexenal                            3177 000505-57-7 53
+                 1-Decene, 8-methyl-                 27926 061142-79-8 52
+ 
+ 45  11.329  0.46 C:\Database\NIST14.L
+                 (2R,5S)-2-Methyl-5-(prop-1-en-2-yl  26137 054750-69-5 95
+                 )-2-vinyltetrahydrofuran
+                 (2R,5R)-2-Methyl-5-(prop-1-en-2-yl  26138 054750-70-8 74
+                 )-2-vinyltetrahydrofuran
+                 2-Methyl-2,5-divinyltetrahydrofura  18026 104188-15-0 59
+ 
+ 46  11.524  0.14 C:\Database\NIST14.L
+                 Thiazole                             1551 000288-47-1 87
+                 Thiazole                             1553 000288-47-1 78
+                 Thiazole                             1552 000288-47-1 78
+ 
+ 47  11.570  0.04 C:\Database\NIST14.L
+                 3-Buten-1-ol, 3-methyl-              1808 000763-32-6 27
+                 2H-Pyran, tetrahydro-2-methyl-       4008 010141-72-7 27
+                 10-Methylundecan-4-olide            63254 1000370-40-5 25
+ 
+ 48  11.654  0.10 C:\Database\NIST14.L
+                 1-Pentanol                           2114 000071-41-0 72
+                 Diaziridine,1,3,3-trimethyl-         1646 040711-15-7 53
+                 1-Butanol, 3-methyl-, formate        8321 000110-45-2 50
+ 
+ 49  12.114  0.08 C:\Database\NIST14.L
+                 Benzene, 1-methyl-3-(1-methylethyl  15245 000535-77-3 93
+                 )-
+                 p-Cymene                            15143 000099-87-6 93
+                 Benzene, 1-methyl-3-(1-methylethyl  15244 000535-77-3 93
+                 )-
+ 
+ 50  12.608  0.12 C:\Database\NIST14.L
+                 Acetoin                              2029 000513-86-0 72
+                 Ethyl 3-oxobutan-2-yl carbonate     32228 1000373-77-1 50
+                 2-Methoxyacetyl chloride             5309 1000411-49-1 42
+ 
+ 51  13.831  0.31 C:\Database\NIST14.L
+                 1,5-Cyclohexadiene-1-methanol, 4-(  26077 019876-45-0 35
+                 1-methylethyl)-
+                 Cyclopentane, 1,3-bis(methylene)-    2660 059219-48-6 30
+                 2-Pyridinamine, N-methyl-            5429 004597-87-9 27
+ 
+ 52  14.009  0.13 C:\Database\NIST14.L
+                 Pyrazine, 2,5-dimethyl-              5415 000123-32-0 72
+                 Pyrazine, 2,6-dimethyl-              5416 000108-50-9 58
+                 3-Amino-4-pyrazolecarbonitrile       5357 016617-46-2 53
+ 
+ 53  14.256  0.18 C:\Database\NIST14.L
+                 Phosphonoacetic Acid, 3TMS derivat 209743 053044-27-2 38
+                 ive
+                 10-[(4-Methyl phenyl)sulfanyl]-14- 198309 1000411-01-1 37
+                 azatetracyclo[7.6.1.0{2,7}.0{13,16
+                 }]hexadeca-1(15),2(7),3,5,9(16),10
+                 ,12-heptaen-8-one
+                 3-(6-Methyl-3-pyridyl)-1,5-di(p-to 198351 010040-66-1 35
+                 lyl)-2-pyrazoline
+ 
+ 54  14.855  2.97 C:\Database\NIST14.L
+                 1-Hexanol                            4487 000111-27-3 78
+                 Hexyl chloroformate                 35348 006092-54-2 78
+                 Formic acid, hexyl ester            13742 000629-33-4 78
+ 
+ 55  15.167  0.07 C:\Database\NIST14.L
+                 (E)-6-Methylhept-4-en-1-ol          12872 855901-81-4 47
+                 1,6-Octadiene, 2,5-dimethyl-, (E)-  17355 068702-25-0 43
+                 1-Hexene, 3-methyl-                  3377 003404-61-3 35
+ 
+ 56  15.504  0.05 C:\Database\NIST14.L
+                 Z,Z-10,12-Hexadecadienal            98684 1000130-86-6 45
+                 1,4-Dihydro-4-imino-1-methylaminop  10326 1000241-17-7 43
+                 yridine
+                 1,4-Pentadiene, 3-propyl-            6071 000996-83-8 38
+ 
+ 57  15.547  0.05 C:\Database\NIST14.L
+                 Dimethyl trisulfide                 11160 003658-80-8 83
+                 Dimethyl trisulfide                 11162 003658-80-8 81
+                 Dimethyl trisulfide                 11161 003658-80-8 70
+ 
+ 58  15.812  0.19 C:\Database\NIST14.L
+                 3-Hexen-1-ol, (E)-                   3891 000928-97-2 93
+                 3-Hexen-1-ol, (Z)-                   3876 000928-96-1 83
+                 3-Hexen-1-ol                         3851 000544-12-7 81
+ 
+ 59  16.022  0.05 C:\Database\NIST14.L
+                 morpholine, 4-[(4-methoxyphenyl)me  71472 1000400-54-8 47
+                 thyl]-
+                 .beta.-Methoxy-.alpha.-phenylphene  91535 058176-63-9 43
+                 thyl alcohol
+                 (3-Iodoprop-2-en-2-yl)(4-methoxybe 176218 1000284-39-5 38
+                 nzyl)ether
+ 
+ 60  16.503  0.41 C:\Database\NIST14.L
+                 2-Hexen-1-ol, (E)-                   3882 000928-95-0 90
+                 2-Hexen-1-ol, (E)-                   3881 000928-95-0 90
+                 2-Hexen-1-ol, (E)-                   3886 000928-95-0 87
+ 
+ 61  17.626  0.34 C:\Database\NIST14.L
+                 Ethyl 2-(5-methyl-5-vinyltetrahydr 103910 1000373-80-3 91
+                 ofuran-2-yl)propan-2-yl carbonate
+                 2-Furanmethanol, 5-ethenyltetrahyd  39796 005989-33-3 91
+                 ro-.alpha.,.alpha.,5-trimethyl-, c
+                 is-
+                 .alpha.-Methyl-.alpha.-[4-methyl-3  39785 1000132-13-0 90
+                 -pentenyl]oxiranemethanol
+ 
+ 62  17.684  0.14 C:\Database\NIST14.L
+                 Pyrazine, 3-ethyl-2,5-dimethyl-     16625 013360-65-1 87
+                 Pyrazine, 3-ethyl-2,5-dimethyl-     16619 013360-65-1 87
+                 Pyrazine, 2-ethyl-3,5-dimethyl-     16626 013925-07-0 86
+ 
+ 63  18.116  0.23 C:\Database\NIST14.L
+                 Furfural                             2769 000098-01-1 80
+                 Furfural                             2768 000098-01-1 78
+                 Furfural                             2767 000098-01-1 78
+ 
+ 64  18.500  0.12 C:\Database\NIST14.L
+                 Ethyl 2-(5-methyl-5-vinyltetrahydr 103910 1000373-80-3 91
+                 ofuran-2-yl)propan-2-yl carbonate
+                 trans-Linalool oxide (furanoid)     39617 034995-77-2 83
+                 2-Furanmethanol, 5-ethenyltetrahyd  39802 005989-33-3 83
+                 ro-.alpha.,.alpha.,5-trimethyl-, c
+                 is-
+ 
+ 65  18.784  0.27 C:\Database\NIST14.L
+                 Acetic acid                           264 000064-19-7 86
+                 Acetic acid                           263 000064-19-7 78
+                 Acetic acid                           262 000064-19-7 78
+ 
+ 66  18.863  0.22 C:\Database\NIST14.L
+                 Acetic acid                           264 000064-19-7 86
+                 Acetic acid                           263 000064-19-7 78
+                 Acetic acid                           261 000064-19-7 72
+ 
+ 67  18.912  0.11 C:\Database\NIST14.L
+                 Acetic acid                           264 000064-19-7 86
+                 Acetic acid                           261 000064-19-7 80
+                 Acetic acid                           265 000064-19-7 78
+ 
+ 68  18.973  0.26 C:\Database\NIST14.L
+                 Acetic acid                           264 000064-19-7 72
+                 Acetic acid                           262 000064-19-7 64
+                 Hydrazine, 1,2-dimethyl-              279 000540-73-8 59
+ 
+ 69  19.123  0.50 C:\Database\NIST14.L
+                 Acetic acid                           261 000064-19-7 64
+                 Acetic acid                           264 000064-19-7 59
+                 Cyclohexan-1,4,5-triol-3-one-1-car  56298 1000128-45-5 45
+                 boxylic acid
+ 
+ 70  19.391  0.23 C:\Database\NIST14.L
+                 Acetic acid                           263 000064-19-7 43
+                 Acetic acid                           264 000064-19-7 43
+                 Hydrazine, 1,2-dimethyl-              279 000540-73-8 38
+ 
+ 71  19.543  0.22 C:\Database\NIST14.L
+                 Hydrazine, 1,2-dimethyl-              277 000540-73-8 46
+                 Acetic acid                           264 000064-19-7 46
+                 Hydrazine, 1,2-dimethyl-              279 000540-73-8 43
+ 
+ 72  19.694  0.50 C:\Database\NIST14.L
+                 2-Mercapto-4-phenylthiazole         58962 002103-88-0 46
+                 1,3,5-Triethyl-1-oxycyclotrisiloxa 100678 018306-42-8 27
+                 ne
+                 Benzonitrile, 3-amino-4-(phenylami  73512 1000317-30-9 22
+                 no)-
+ 
+ 73  19.934  4.12 C:\Database\NIST14.L
+                 Benzaldehyde                         5151 000100-52-7 94
+                 Benzaldehyde                         5149 000100-52-7 91
+                 Benzaldehyde                         5150 000100-52-7 91
+ 
+ 74  20.189  0.32 C:\Database\NIST14.L
+                 Benzaldehyde                         5152 000100-52-7 46
+                 Benzaldehyde                         5151 000100-52-7 41
+                 Benzaldehyde                         5148 000100-52-7 41
+ 
+ 75  20.303  0.59 C:\Database\NIST14.L
+                 2-[(Trimethylsilyl)oxy]-2-{4-[(tri 156185 1000408-18-1 64
+                 methylsilyl)oxy]phenyl}ethanamine
+                 Propenone, 1-(4-nitrophenyl)-3-phe 128245 1000302-96-9 64
+                 nylamino-
+                 1,2,4-Triazol-4-amine, 5-ethyl-3-( 128118 325728-88-9 52
+                 3-methyl-5-phenylpyrazol-1-yl)-
+ 
+ 76  20.836  0.19 C:\Database\NIST14.L
+                 Linalool                            27451 000078-70-6 74
+                 .beta.-Ocimene                      16067 013877-91-3 55
+                 Tricyclo[2.2.1.0(2,6)]heptane, 1,3  16250 000488-97-1 52
+                 ,3-trimethyl-
+ 
+ 77  21.179  0.04 C:\Database\NIST14.L
+                 Octane, 1-methoxy-                  21678 000929-56-6 47
+                 1,2-Cyclopentanediol, trans-         4385 005057-99-8 46
+                 Formic acid, octyl ester            31262 000112-32-3 43
+ 
+ 78  22.354  0.14 C:\Database\NIST14.L
+                 Benzonitrile                         4704 000100-47-0 81
+                 Tricyclo[3.1.0.0(2,4)]hex-3-ene-3-   4709 103495-51-8 68
+                 carbonitrile
+                 Benzonitrile                         4705 000100-47-0 64
+ 
+ 79  22.431  0.12 C:\Database\NIST14.L
+                 Terpinen-4-ol                       27506 000562-74-3 83
+                 3-Cyclohexen-1-ol, 4-methyl-1-(1-m  27776 020126-76-5 46
+                 ethylethyl)-, (R)-
+                 Terpinen-4-ol                       27505 000562-74-3 46
+ 
+ 80  22.953  0.12 C:\Database\NIST14.L
+                 Butanoic acid, 4-hydroxy-            4772 000591-81-1 45
+                 Ethanamine, N-ethyl-N-[(1-methylet  22030 054699-21-7 45
+                 hoxy)methyl]-
+                 D-Arabino-Hexose, 2-deoxy-, 3,4,5, 189488 003891-61-0 40
+                 6-tetraacetate
+ 
+ 81  23.181  0.15 C:\Database\NIST14.L
+                 Acetic acid, diethyl-                8255 000088-09-5 50
+                 Propanoic acid, 2-methyl-            2086 000079-31-2 49
+                 Propanoic acid, 2-methyl-            2085 000079-31-2 38
+ 
+ 82  23.283  0.15 C:\Database\NIST14.L
+                 Hydrazine, 1,1-diethyl-              1994 000616-40-0 16
+                 Methyl-.alpha.-d-ribofuranoside     35234 1000129-83-1 12
+                 N-Acetyl-d-serine                   22977 1000126-44-0 12
+ 
+ 83  23.439  0.52 C:\Database\NIST14.L
+                 Benzeneacetaldehyde                  9553 000122-78-1 70
+                 Benzeneacetaldehyde                  9551 000122-78-1 70
+                 Benzeneacetaldehyde                  9552 000122-78-1 70
+ 
+ 84  23.684  0.75 C:\Database\NIST14.L
+                 Acetophenone                         9541 000098-86-2 90
+                 Acetophenone                         9543 000098-86-2 87
+                 Acetophenone                         9545 000098-86-2 87
+ 
+ 85  23.815  2.97 C:\Database\NIST14.L
+                 Silanediol, dimethyl-                2426 001066-42-8 49
+                 Propane, 2-chloro-2-nitro-          10266 000594-71-8  9
+                 Trimethylphosphine oxide             2456 000676-96-0  4
+ 
+ 86  24.054  0.34 C:\Database\NIST14.L
+                 3-Furanmethanol                      3123 004412-91-3 60
+                 2-Furanmethanol                      3122 000098-00-0 55
+                 2-Furanmethanol                      3127 000098-00-0 49
+ 
+ 87  24.909  0.97 C:\Database\NIST14.L
+                 3-(.alpha.-Hydroxyethyl)-aniline    17180 002454-37-7 43
+                 Santalol, E-cis,epi-.beta.-         83566 014490-17-6 38
+                 .alpha.-Santalol                    83512 000115-71-9 38
+ 
+ 88  25.164  1.95 C:\Database\NIST14.L
+                 Terpineol                           27454 1000411-59-6 87
+                 .alpha.-Terpineol                   27530 000098-55-5 86
+                 (+)-4-Carene                        16052 029050-33-7 64
+ 
+ 89  25.279  0.26 C:\Database\NIST14.L
+                 Butanoic acid                        2043 000107-92-6 38
+                 Butanoic acid                        2039 000107-92-6 38
+                 Pentanoic acid                       4317 000109-52-4 35
+ 
+ 90  25.763  0.21 C:\Database\NIST14.L
+                 Pentanoic acid, 3-methyl-            8285 000105-43-1 50
+                 Butanoic acid, 3-methyl-             4349 000503-74-2 50
+                 Pentanoic acid, 3-methyl-            8284 000105-43-1 42
+ 
+ 91  25.818  0.28 C:\Database\NIST14.L
+                 Butanoic acid, 3-methyl-             4349 000503-74-2 50
+                 Butanoic acid, 3-methyl-             4361 000503-74-2 47
+                 Butanoic acid, 3-methyl-             4360 000503-74-2 43
+ 
+ 92  25.974  0.05 C:\Database\NIST14.L
+                 Butanoic acid, 3-methyl-             4360 000503-74-2 43
+                 Butanoic acid, 3-methyl-             4361 000503-74-2 43
+                 Pentanoic acid, 3-methyl-            8277 000105-43-1 40
+ 
+ 93  27.045  0.74 C:\Database\NIST14.L
+                 Oxime-, methoxy-phenyl-_            25568 1000222-86-6 90
+                 2-Amino-5-methylbenzoic acid        25588 002941-78-8 64
+                 4-Ethylbenzoic acid, 2-butyl ester  70466 1000293-31-8 64
+ 
+ 94  28.406  0.12 C:\Database\NIST14.L
+                 Tris(tert-butyldimethylsilyloxy)ar 260810 1000366-57-5 83
+                 sane
+                 Methyltris(trimethylsiloxy)silane  168285 017928-28-8 78
+                 Cyclotrisiloxane, hexamethyl-       85994 000541-05-9 78
+ 
+ 95  29.919  0.63 C:\Database\NIST14.L
+                 Benzyl alcohol                       5466 000100-51-6 96
+                 Benzyl alcohol                       5465 000100-51-6 94
+                 Benzyl alcohol                       5467 000100-51-6 93
+ 
+ 96  30.828  0.08 C:\Database\NIST14.L
+                 Phenylethyl Alcohol                 10107 000060-12-8 90
+                 Phenylethyl Alcohol                 10109 000060-12-8 87
+                 Phenylethyl Alcohol                 10108 000060-12-8 72
+ 
+ 97  31.127  0.11 C:\Database\NIST14.L
+                 Benzyl nitrile                       8741 000140-29-4 91
+                 Benzene, 1-isocyano-2-methyl-        8759 010468-64-1 90
+                 Benzonitrile, 2-methyl-              8750 000529-19-1 90
+ 
+ 98  33.139  0.05 C:\Database\NIST14.L
+                 Phenol                               2619 000108-95-2 74
+                 Phenol                               2620 000108-95-2 74
+                 2-Vinylfuran                         2622 001487-18-9 72
+ 
+ 99  34.996  0.20 C:\Database\NIST14.L
+                 p-Cresol                             5464 000106-44-5 95
+                 p-Cresol                             5462 000106-44-5 94
+                 p-Cresol                             5463 000106-44-5 91
+ 
+
+Arwen_WAX_4...AKE METHOD.M Thu Apr 04 11:46:54 2019   
