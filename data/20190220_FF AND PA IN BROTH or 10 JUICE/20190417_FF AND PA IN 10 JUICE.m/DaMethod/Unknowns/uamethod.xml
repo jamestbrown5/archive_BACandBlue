@@ -1,4 +1,4 @@
-﻿<UnknownsAnalysisDataSet HashCode="082F7A5ED0D4D7DB7236CB213F0AC2C81C30C6D9E79A9F4AE0A85B5E36CCBBF5C81B22474D1A4966F78313EBF7976BF96AF8C05F6A317D04445D8F3280959625" xmlns="http://www.agilent.com/UnknownsAnalysis.xsd">
+﻿<UnknownsAnalysisDataSet HashCode="05B7A448B37D4DD4728DECF083F623AAFD0604EB8D298A00B52FC4167B4A93AC4A127BBC3E3A5F45CAE5F24A7CDC3B375C4A66FD17D57D8D49B7A8A98C061BB7" xmlns="http://www.agilent.com/UnknownsAnalysis.xsd">
   <Batch>
     <BatchID>0</BatchID>
   </Batch>
@@ -156,7 +156,7 @@
     <IdentificationMethodID>0</IdentificationMethodID>
     <LibrarySearchMethodID>0</LibrarySearchMethodID>
     <LibraryFile>NIST14.L</LibraryFile>
-    <LibraryPath>C:\Database</LibraryPath>
+    <LibraryPath>D:\Users\jbrown\Documents\GitHub\BACandBlue\data\Database</LibraryPath>
     <LibraryType>Compressed</LibraryType>
     <ScreeningEnabled>true</ScreeningEnabled>
     <ScreeningType>Normal</ScreeningType>
@@ -178,7 +178,7 @@
     <IdentificationMethodID>0</IdentificationMethodID>
     <LibrarySearchMethodID>-1</LibrarySearchMethodID>
     <LibraryFile>WILEY275.L</LibraryFile>
-    <LibraryPath>C:\Database</LibraryPath>
+    <LibraryPath>D:\Users\jbrown\Documents\GitHub\BACandBlue\data\Database</LibraryPath>
     <LibraryType>Compressed</LibraryType>
     <ScreeningEnabled>true</ScreeningEnabled>
     <ScreeningType>Normal</ScreeningType>
@@ -200,7 +200,7 @@
     <IdentificationMethodID>0</IdentificationMethodID>
     <LibrarySearchMethodID>-2</LibrarySearchMethodID>
     <LibraryFile>Adams2.L</LibraryFile>
-    <LibraryPath>C:\Database</LibraryPath>
+    <LibraryPath>D:\Users\jbrown\Documents\GitHub\BACandBlue\data\Database</LibraryPath>
     <LibraryType>Compressed</LibraryType>
     <ScreeningEnabled>true</ScreeningEnabled>
     <ScreeningType>Normal</ScreeningType>
