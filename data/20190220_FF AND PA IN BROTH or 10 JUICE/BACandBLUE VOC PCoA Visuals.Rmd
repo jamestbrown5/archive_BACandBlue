@@ -3,6 +3,8 @@ title: "BACandBLUE VOC PCoA Visuals"
 author: "Brown, J.T."
 date: "February 11, 2019"
 output: html_document
+editor_options: 
+  chunk_output_type: inline
 ---
 
 ```{r setup, include=FALSE}
@@ -12,7 +14,7 @@ output: html_document
 #biocLite('phyloseq')
 #install.packages("devtools")
 #install_github("vqv/ggbiplot")
-install.packages("gdata")
+#install.packages("gdata")
 ```
 # Libraries and Data Frames
 ```{r}
@@ -39,7 +41,7 @@ TAX <- tax_table(peaks) # gives a warning, don't freak out
 taxa_names(TAX)<-peaks$Peak_ID
 colnames(TAX)<- colnames(peaks)
 
-abund <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/20190220_FF AND PA IN BROTH or 10 JUICE/otu.csv", colClasses = c("factor","factor", rep("numeric", times=4)))
+abund <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/20190220_FF AND PA IN BROTH or 10 JUICE/otu.csv", colClasses = c("factor","factor", rep("numeric", times= 23)))
 # read in peak areas, assigning factors of diff classifications based on columns
 rownames(abund) <- abund$Peak_ID #give abund rows names according to "Peak_ID" in peak.csv table
 OTU <- otu_table(abund[,-c(1:2)], taxa_are_rows=T) #create a table with only peak areas, compounds are taxa
@@ -66,12 +68,14 @@ VOC <- phyloseq(OTU, TAX, SAMP) #IF YOU GET A "SAMPLE_NAMES()" ERROR MAKE SURE Y
 ##
 ###	#PCoA with Bray-Curtis Distances#	###
 ord <- ordinate(VOC, method = "PCoA", distance = "bray")
-plot_ordination(VOC, ord, color = "hour", shape = "microbe", label = "treat")
-plot_ordination(VOC, ord, type = "treat", color = "hour", shape = "microbe", label = "rep")
+plot_ordination(VOC, ord, color = "hour", shape = "microbe", label = "rep")+
+  theme_bw() + theme(text = element_text(size = 20)) + geom_point(size = 4)
+plot_ordination(VOC, ord, type = "juice", color = "hour", shape = "microbe", label = "rep")+
+  theme_bw() + theme(text = element_text(size = 20)) + geom_point(size = 4)
 
 PCs <- data.frame(scores(ord$vectors))
-new.dat <- cbind(PCs, sample_data(VOC)$microbe, sample_data(VOC)$treat, sample_data(VOC)$hour) # make a new matrix
-names(new.dat)[4:6] <- c("microbe","treat","hour")
+new.dat <- cbind(PCs, sample_data(VOC)$microbe, sample_data(VOC)$rep, sample_data(VOC)$hour) # make a new matrix
+names(new.dat)[49:51] <- c("microbe","treat","hour")
 library(gdata)
 new.dat$Microbe <- reorder.factor(new.dat$microbe, new.order = c("FF", "PA"))
 new.dat$Hour <- reorder.factor(new.dat$hour, new.order = c("2","24","48"))
