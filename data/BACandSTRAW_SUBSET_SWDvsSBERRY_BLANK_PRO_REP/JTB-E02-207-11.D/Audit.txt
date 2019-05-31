@@ -1,0 +1,17 @@
+D:\MassHunter\GCMS\1\data\JTB-E02\BACandSTRAW\JTB-E02-207-11.D\Audit.txt 
+Created Wed Mar 13 13:53:31 2019
+
+
+ Modified : Wed Mar 13 13:53:31 2019
+ Event    : Header Update
+ Message  : Changed sample name from BAC-2B  VENT:10S  P2M : E2M to PDMS  VENT:10S  P2M : E2M
+ QuantFile: Arwen_WAX_40_4_230inlet_AWAKE METHOD.RES
+ Severity : 1
+
+
+ Modified : Wed Mar 13 13:53:31 2019
+ Event    : Header Update
+ Message  : Changed misc info from  to 
+ QuantFile: Arwen_WAX_40_4_230inlet_AWAKE METHOD.RES
+ Severity : 1
+

@@ -1,19 +1,25 @@
 ---
 title: "BACandBLUE VOC PCoA Visuals"
 author: "Brown, J.T."
-date: "February 11, 2019"
+date: "MAy 14, 2019"
 output: html_document
+editor_options: 
+  chunk_output_type: inline
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
 
 ##what you need to install phyloseq
 #source('http://bioconductor.org/biocLite.R')
 #biocLite('phyloseq')
+#install.packages("devtools")
+#install_github("vqv/ggbiplot")
+#install.packages("gdata")
 ```
 # Libraries and Data Frames
 ```{r}
+library(gdata)
+library(devtools)
 library(ggplot2)
 library(beeswarm)
 library(phyloseq) #install via bioconductor
@@ -24,28 +30,33 @@ library(readr)
 library(ape)
 
 # read in data
-meta <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/20181219_FF AND PA IN BBJ/meta.csv") 
+meta <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandBLUE_SUBSET_FFvsPA_10BB_PROvsREP/meta.csv") 
 meta$hour=as.factor(meta$hour)
 rownames(meta) <- meta$SampleID_merge 
 SAMP <- sample_data(meta)
 sample_names(SAMP)<-meta$SampleID
 
-peaks <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/20181219_FF AND PA IN BBJ/peak.csv")
+peaks <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandBLUE_SUBSET_FFvsPA_10BB_PROvsREP/peak.csv")
 TAX <- tax_table(peaks) # gives a warning, don't freak out
 taxa_names(TAX)<-peaks$Peak_ID
 colnames(TAX)<- colnames(peaks)
 
-abund <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/20181219_FF AND PA IN BBJ/otu.csv", colClasses = c("factor","factor", rep("numeric", times=48)))
+abund <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandBLUE_SUBSET_FFvsPA_10BB_PROvsREP/otu.csv", colClasses = c("factor","factor", rep("numeric", times= 24)))
 # read in peak areas, assigning factors of diff classifications based on columns
 rownames(abund) <- abund$Peak_ID #give abund rows names according to "Peak_ID" in peak.csv table
 OTU <- otu_table(abund[,-c(1:2)], taxa_are_rows=T) #create a table with only peak areas, compounds are taxa
 
-VOC <- phyloseq(OTU, TAX, SAMP)
 
-# returns: "phyloseq-class experiment-level object
-#otu_table()   OTU Table:         [ 27 taxa and 75 samples ]
-#sample_data() Sample Data:       [ 75 samples by 8 sample variables ]
-#tax_table()   Taxonomy Table:    [ 27 taxa by 2 taxonomic ranks ]"
+VOC <- phyloseq(OTU, TAX, SAMP) #IF YOU GET A "SAMPLE_NAMES()" ERROR MAKE SURE YOUR NAMES DO NOT START WITH A NUMBER
+
+#returns: "phyloseq-class experiment-level object
+#otu_table()   OTU Table:       [ 110 taxa and 24 samples ] "taxa" = VOCs "samples" = VOC pulls
+#sample_data() Sample Data:     [ 24 samples by 8 sample variables ] "sample variable" = VOC jar
+#tax_table()   Taxonomy Table:  [ 110 taxa by 2 taxonomic ranks ] "taxonomic rank" = microbe species"
+
+
+p=plot_bar(VOC, "hour",fill="Peak_ID", facet_grid = ~microbe)
+p + geom_point(aes(x=microbe, y=Abundance), color="black", size=3)
 
 
 ###############################
@@ -61,22 +72,26 @@ VOC <- phyloseq(OTU, TAX, SAMP)
 ##
 ###	#PCoA with Bray-Curtis Distances#	###
 ord <- ordinate(VOC, method = "PCoA", distance = "bray")
-plot_ordination(VOC, ord, color = "hour", shape = "microbe", label = "rep")
-plot_ordination(VOC, ord, type = "samples", color = "hour", shape = "microbe", label = "rep")
+plot_ordination(VOC, ord, color = "hour", shape = "microbe", label = "rep")+
+  theme_bw() + theme(text = element_text(size = 20)) + geom_point(size = 4)
+plot_ordination(VOC, ord, type = "juice", color = "hour", shape = "microbe", label = "rep")+
+  theme_bw() + theme(text = element_text(size = 20)) + geom_point(size = 4)
 
 PCs <- data.frame(scores(ord$vectors))
 new.dat <- cbind(PCs, sample_data(VOC)$microbe, sample_data(VOC)$rep, sample_data(VOC)$hour) # make a new matrix
-names(new.dat)[32:34] <- c("microbe","rep","hour")
+names(new.dat)[15:17] <- c("microbe","juice","hour") #for the "must be the same length as vector" error make sure that the info inside the bracets matches empty columns in the dataframe your creating"
 library(gdata)
 new.dat$Microbe <- reorder.factor(new.dat$microbe, new.order = c("FF", "PA"))
 new.dat$Hour <- reorder.factor(new.dat$hour, new.order = c("2","24","48"))
+
+summary(new.dat)
 
 ggplot(new.dat, aes(x=Axis.1, y= Axis.2)) +
   geom_point(aes(color = Microbe, shape = Hour), position ="jitter") +
   facet_grid(~Hour)+
   theme_bw()+
-  xlab("PCoA1 (33.5% Var. Expl.)")+ 	## !don't forget to update these moving forward!
-  ylab("PCoA2 (25.4% Var. Expl.)")
+  xlab("PCoA1 (65.6% Var. Expl.)")+ 	## !don't forget to update these moving forward!
+  ylab("PCoA2 (21.2% Var. Expl.)")
 ###
 ##
 #
@@ -94,7 +109,7 @@ plot_ordination(VOC, ord, type = "samples", color = "hour", shape = "microbe", l
 ###
 PCs <- data.frame(scores(ord$vectors))
 new.dat <- cbind(PCs, sample_data(VOC)$microbe, sample_data(VOC)$hour, sample_data(VOC)$rep) # make a new matrix
-names(new.dat)[32:34] <- c("Microbe", "Hour", "Rep")
+names(new.dat)[4:6] <- c("Microbe", "Hour", "Rep")
 library(gdata)
 new.dat$Microbe <- reorder.factor(new.dat$Microbe, new.order = c("FF", "PA"))
 new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("2","24", "48"))
@@ -118,62 +133,64 @@ ggplot(new.dat, aes(x=Axis.1, y= Axis.2)) +
 ###
 ##
 # try co-ercing days as categorical variable so I can use TukeyHSD
-sample_data(VOC)$fday <- factor(sample_data(VOC)$day)
-sample_data(VOC)$fmicrobe <- factor(sample_data(VOC)$microbe.treatment)
-sample_data(VOC)$fnectar <- factor(sample_data(VOC)$nectar.conc)
+sample_data(VOC)$fhour <- factor(sample_data(VOC)$hour)
+sample_data(VOC)$fmicrobe <- factor(sample_data(VOC)$microbe)
+sample_data(VOC)$frep <- factor(sample_data(VOC)$rep)
 
-fit <- lm(sample_sums(VOC)~ sample_data(VOC)$fnectar+ sample_data(VOC)$fday+ 
+fit <- lm(sample_sums(VOC)~ sample_data(VOC)$frep+ sample_data(VOC)$fhour+ 
 	+ sample_data(VOC)$fmicrobe)
 # same results
 
-fit <- lm(sample_sums(VOC)~ sample_data(VOC)$fnectar * sample_data(VOC)$fday * sample_data(VOC)$fmicrobe)
+fit <- lm(sample_sums(VOC)~ sample_data(VOC)$frep * sample_data(VOC)$fhour * sample_data(VOC)$fmicrobe)
 
 
 
 
 
-fit <- lm(sample_sums(VOC)~ sample_data(VOC)$nectar.conc+ sample_data(VOC)$fday+ 
-	+ sample_data(VOC)$microbe.treatment)
+fit <- lm(sample_sums(VOC)~ sample_data(VOC)$rep+ sample_data(VOC)$fhour+ 
+	+ sample_data(VOC)$microbe)
 anova(fit)
 ###################################################################################
-#Analysis of Variance Table
-#
-#Response: sample_sums(VOC)
-#                                   Df     Sum Sq    Mean Sq F value    Pr(>F)    
-#sample_data(VOC)$nectar.conc        1 2.4626e+15 2.4626e+15  25.885 2.986e-06 ***
-#sample_data(VOC)$fday               2 3.9403e+15 1.9702e+15  20.708 9.028e-08 ***
-#sample_data(VOC)$microbe.treatment  2 4.0738e+15 2.0369e+15  21.410 5.840e-08 ***
-#Residuals                          69 6.5646e+15 9.5139e+13                                       
+Analysis of Variance Table
+
+Response: sample_sums(VOC)
+                         Df     Sum Sq    Mean Sq F value    Pr(>F)    
+sample_data(VOC)$rep      3 6.1934e+14 2.0645e+14  1.0593   0.39226    
+sample_data(VOC)$fhour    2 2.1685e+16 1.0842e+16 55.6344 3.466e-08 ***
+sample_data(VOC)$microbe  1 1.2037e+15 1.2037e+15  6.1764   0.02365 *  
+Residuals                17 3.3131e+15 1.9489e+14                      
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 ###################################################################################
 
-TukeyHSD(aov(fit), which="sample_data(VOC)$microbe.treatment")
+TukeyHSD(aov(fit), which="sample_data(VOC)$microbe")
 ################################################################
 #Tukey multiple comparisons of means
 #    95% family-wise confidence level
 #
 #Fit: aov(formula = fit)
 #
-#$`sample_data(VOC)$microbe.treatment`
+#$`sample_data(VOC)$microbe`
 #            diff      lwr      upr     p adj
 #Mr-Aa   12534704  5425360 19644047 0.0002112
 #MrAa-Aa 16353540 10155758 22551322 0.0000001
 #MrAa-Mr  3818837 -3146869 10784542 0.3927490
 #################################################################
 
-TukeyHSD(aov(fit), which="sample_data(VOC)$nectar.conc") 
+TukeyHSD(aov(fit), which="sample_data(VOC)$rep") 
 ##########################################################
 #  Tukey multiple comparisons of means
 #    95% family-wise confidence level
 #
 #Fit: aov(formula = fit)
 #
-#$`sample_data(VOC)$nectar.conc`
+#$`sample_data(VOC)$rep`
 #               diff     lwr      upr p adj
 #normal-low 11543802 7017335 16070269 3e-06
 #
 ############################################################
 
-TukeyHSD(aov(fit), which="sample_data(VOC)$fday")
+TukeyHSD(aov(fit), which="sample_data(VOC)$fhour")
 
 ###########################################################
 #  Tukey multiple comparisons of means
@@ -181,7 +198,7 @@ TukeyHSD(aov(fit), which="sample_data(VOC)$fday")
 #
 #Fit: aov(formula = fit)
 #
-#$`sample_data(VOC)$fday`
+#$`sample_data(VOC)$fhour`
 #        diff        lwr      upr     p adj
 #1-0 11374762  4766512.9 17983010 0.0002992
 #2-0 17493356 10885107.4 24101605 0.0000001
@@ -195,45 +212,45 @@ TukeyHSD(aov(fit), which="sample_data(VOC)$fday")
 ###
 # Try with interactions in model
 
-fit <- lm(sample_sums(VOC)~ sample_data(VOC)$nectar.conc * sample_data(VOC)$fday 
-	* sample_data(VOC)$microbe.treatment)
+fit <- lm(sample_sums(VOC)~ sample_data(VOC)$rep * sample_data(VOC)$fhour 
+	* sample_data(VOC)$microbe)
 ######################################################################################################################################
 Analysis of Variance Table
 
 Response: sample_sums(VOC)
                                                                                       Df     Sum Sq    Mean Sq F value    Pr(>F)    
-sample_data(VOC)$nectar.conc                                                           1 2.4626e+15 2.4626e+15 138.434 < 2.2e-16 ***
-sample_data(VOC)$fday                                                                  2 3.9403e+15 1.9702e+15 110.751 < 2.2e-16 ***
-sample_data(VOC)$microbe.treatment                                                     2 4.0738e+15 2.0369e+15 114.502 < 2.2e-16 ***
-sample_data(VOC)$nectar.conc:sample_data(VOC)$fday                                     2 1.6148e+15 8.0739e+14  45.386 1.618e-12 ***
-sample_data(VOC)$nectar.conc:sample_data(VOC)$microbe.treatment                        2 1.0694e+15 5.3468e+14  30.056 1.223e-09 ***
-sample_data(VOC)$fday:sample_data(VOC)$microbe.treatment                               4 2.0716e+15 5.1791e+14  29.114 3.385e-13 ***
-sample_data(VOC)$nectar.conc:sample_data(VOC)$fday:sample_data(VOC)$microbe.treatment  4 7.9485e+14 1.9871e+14  11.170 9.271e-07 ***
+sample_data(VOC)$rep                                                           1 2.4626e+15 2.4626e+15 138.434 < 2.2e-16 ***
+sample_data(VOC)$fhour                                                                  2 3.9403e+15 1.9702e+15 110.751 < 2.2e-16 ***
+sample_data(VOC)$microbe                                                     2 4.0738e+15 2.0369e+15 114.502 < 2.2e-16 ***
+sample_data(VOC)$rep:sample_data(VOC)$fhour                                     2 1.6148e+15 8.0739e+14  45.386 1.618e-12 ***
+sample_data(VOC)$rep:sample_data(VOC)$microbe                        2 1.0694e+15 5.3468e+14  30.056 1.223e-09 ***
+sample_data(VOC)$fhour:sample_data(VOC)$microbe                               4 2.0716e+15 5.1791e+14  29.114 3.385e-13 ***
+sample_data(VOC)$rep:sample_data(VOC)$fhour:sample_data(VOC)$microbe  4 7.9485e+14 1.9871e+14  11.170 9.271e-07 ***
 Residuals                                                                             57 1.0140e+15 1.7789e+13                      
 #######################################################################################################################################
 
-TukeyHSD(aov(fit), which="sample_data(VOC)$fday")
+TukeyHSD(aov(fit), which="sample_data(VOC)$fhour")
 #######################################################################################################################################
   Tukey multiple comparisons of means
     95% family-wise confidence level
 
 Fit: aov(formula = fit)
 
-$`sample_data(VOC)$fday`
+$`sample_data(VOC)$fhour`
         diff      lwr      upr    p adj
 1-0 11374762  8504020 14245503 0.00e+00
 2-0 17493356 14622615 20364097 0.00e+00
 2-1  6118594  3247853  8989336 1.08e-05
 #######################################################################################################################################
 
-TukeyHSD(aov(fit), which="sample_data(VOC)$nectar.conc")
+TukeyHSD(aov(fit), which="sample_data(VOC)$rep")
 #############################################################
   Tukey multiple comparisons of means
     95% family-wise confidence level
 
 Fit: aov(formula = fit)
 
-$`sample_data(VOC)$nectar.conc`
+$`sample_data(VOC)$rep`
                diff     lwr      upr p adj
 normal-low 11543802 9579121 13508483     0
 #############################################################
@@ -254,15 +271,15 @@ In qtukey(conf.level, length(means), x$df.residual) : NaNs produced
 
 DayTwo <- subset_samples(VOC, day=="2") 
 
-fit <- lm(sample_sums(DayTwo)~ sample_data(DayTwo)$nectar.conc * sample_data(DayTwo)$microbe.treatment)
+fit <- lm(sample_sums(DayTwo)~ sample_data(DayTwo)$rep * sample_data(DayTwo)$microbe)
 ##########################################################################################################
 Analysis of Variance Table
 
 Response: sample_sums(DayTwo)
                                                                       Df     Sum Sq    Mean Sq F value    Pr(>F)    
-sample_data(DayTwo)$nectar.conc                                        1 2.6684e+15 2.6684e+15  82.249 2.479e-08 ***
-sample_data(DayTwo)$microbe.treatment                                  2 4.5758e+15 2.2879e+15  70.521 1.614e-09 ***
-sample_data(DayTwo)$nectar.conc:sample_data(DayTwo)$microbe.treatment  2 1.3896e+15 6.9481e+14  21.416 1.354e-05 ***
+sample_data(DayTwo)$rep                                        1 2.6684e+15 2.6684e+15  82.249 2.479e-08 ***
+sample_data(DayTwo)$microbe                                  2 4.5758e+15 2.2879e+15  70.521 1.614e-09 ***
+sample_data(DayTwo)$rep:sample_data(DayTwo)$microbe  2 1.3896e+15 6.9481e+14  21.416 1.354e-05 ***
 Residuals                                                             19 6.1642e+14 3.2443e+13                      
 ########################################################################################################################
 
@@ -516,7 +533,7 @@ Total     74   26.9165                 1.00000
 ##
 ###
 
-Mrsonly <- subset_samples(VOC, microbe.treatment!="Aa") 
+Mrsonly <- subset_samples(VOC, microbe!="Aa") 
 
 df = as(sample_data(Mrsonly), "data.frame") # coerce to a data frame named df
 d = distance(Mrsonly, "bray") # make a dissimilarity matrix named d
@@ -594,39 +611,39 @@ OTU <- otu_table(abund, taxa_are_rows=T)
 VOC <- phyloseq(OTU, TAX, SAMP)
 VOC
 
-plot_richness(VOC, x = "microbe.treatment", measures = c("Observed", "Shannon", "Simpson"))
+plot_richness(VOC, x = "microbe", measures = c("Observed", "Shannon", "Simpson"))
 
-plot_richness(VOC, x = "nectar.conc", measures = c("Observed", "Shannon", "Simpson"))
+plot_richness(VOC, x = "rep", measures = c("Observed", "Shannon", "Simpson"))
 
-fit <- lm(estimate_richness(VOC)$Shannon ~ sample_data(VOC)$microbe.treatment)
+fit <- lm(estimate_richness(VOC)$Shannon ~ sample_data(VOC)$microbe)
 anova(fit)
 ####################################################################################
 #Analysis of Variance Table
 #
 #Response: estimate_richness(VOC)$Shannon
 #                                   Df Sum Sq Mean Sq F value Pr(>F)  
-#sample_data(VOC)$microbe.treatment  2 0.7583 0.37916  2.8838 0.0624 .
+#sample_data(VOC)$microbe  2 0.7583 0.37916  2.8838 0.0624 .
 #Residuals                          72 9.4665 0.13148                              
 ####################################################################################
 
 
-fit <- lm(estimate_richness(VOC)$Observed ~ sample_data(VOC)$microbe.treatment)
+fit <- lm(estimate_richness(VOC)$Observed ~ sample_data(VOC)$microbe)
 #####################################################################################
 #Analysis of Variance Table
 #
 #Response: estimate_richness(VOC)$Observed
 #                                   Df  Sum Sq Mean Sq F value    Pr(>F)    
-#sample_data(VOC)$microbe.treatment  2  477.02 238.510  9.2143 0.0002735 ***
+#sample_data(VOC)$microbe  2  477.02 238.510  9.2143 0.0002735 ***
 #Residuals                          72 1863.70  25.885                      
 ######################################################################################
 
-fit <- lm(estimate_richness(VOC)$Simpson ~ sample_data(VOC)$microbe.treatment)
+fit <- lm(estimate_richness(VOC)$Simpson ~ sample_data(VOC)$microbe)
 #####################################################################################
 #Analysis of Variance Table
 #
 #Response: estimate_richness(VOC)$Simpson
 #                                   Df  Sum Sq  Mean Sq F value  Pr(>F)  
-#sample_data(VOC)$microbe.treatment  2 0.16149 0.080744  3.5494 0.03387 *
+#sample_data(VOC)$microbe  2 0.16149 0.080744  3.5494 0.03387 *
 #Residuals                          72 1.63791 0.022749                               
 ######################################################################################
 
@@ -634,33 +651,33 @@ fit <- lm(estimate_richness(VOC)$Simpson ~ sample_data(VOC)$microbe.treatment)
 ##
 # just for fun, what differences exist in diversity of chemicals between nectar concentrations?
 
-fit <- lm(estimate_richness(VOC)$Shannon ~ sample_data(VOC)$nectar.conc)
+fit <- lm(estimate_richness(VOC)$Shannon ~ sample_data(VOC)$rep)
 #####################################################################################
 #Analysis of Variance Table
 #
 #Response: estimate_richness(VOC)$Shannon
 #                             Df  Sum Sq Mean Sq F value Pr(>F)
-#sample_data(VOC)$nectar.conc  1  0.1989 0.19886  1.4479 0.2327
+#sample_data(VOC)$rep  1  0.1989 0.19886  1.4479 0.2327
 #Residuals                    73 10.0259 0.13734               
 #####################################################################################
 
-fit <- lm(estimate_richness(VOC)$Observed ~ sample_data(VOC)$nectar.conc)
+fit <- lm(estimate_richness(VOC)$Observed ~ sample_data(VOC)$rep)
 #####################################################################################
 #Analysis of Variance Table
 #
 #Response: estimate_richness(VOC)$Observed
 #                             Df  Sum Sq Mean Sq F value   Pr(>F)   
-#sample_data(VOC)$nectar.conc  1  229.75 229.752  7.9451 0.006202 **
+#sample_data(VOC)$rep  1  229.75 229.752  7.9451 0.006202 **
 #Residuals                    73 2110.97  28.917                    
 #####################################################################################
 
-fit <- lm(estimate_richness(VOC)$Simpson ~ sample_data(VOC)$nectar.conc)
+fit <- lm(estimate_richness(VOC)$Simpson ~ sample_data(VOC)$rep)
 #####################################################################################
 #Analysis of Variance Table
 #
 #Response: estimate_richness(VOC)$Simpson
 #                             Df  Sum Sq  Mean Sq F value Pr(>F)
-#sample_data(VOC)$nectar.conc  1 0.01421 0.014206  0.5809 0.4484
+#sample_data(VOC)$rep  1 0.01421 0.014206  0.5809 0.4484
 #Residuals                    73 1.78519 0.024455               
 #####################################################################################
 ###
@@ -673,37 +690,37 @@ fit <- lm(estimate_richness(VOC)$Simpson ~ sample_data(VOC)$nectar.conc)
 
 NoZero <- subset_samples(VOC, day!="0") 
 
-plot_richness(NoZero, x = "microbe.treatment", measures = c("Observed", "Shannon", "Simpson"))
+plot_richness(NoZero, x = "microbe", measures = c("Observed", "Shannon", "Simpson"))
 
-plot_richness(NoZero, x = "nectar.conc", measures = c("Observed", "Shannon", "Simpson"))
+plot_richness(NoZero, x = "rep", measures = c("Observed", "Shannon", "Simpson"))
 
-fit <- lm(estimate_richness(NoZero)$Shannon ~ sample_data(NoZero)$microbe.treatment)
+fit <- lm(estimate_richness(NoZero)$Shannon ~ sample_data(NoZero)$microbe)
 #############################################################################################
 #Analysis of Variance Table
 #
 #Response: estimate_richness(NoZero)$Shannon
 #                                      Df Sum Sq  Mean Sq F value  Pr(>F)  
-#sample_data(NoZero)$microbe.treatment  2 0.4031 0.201558  2.5438 0.08934 .
+#sample_data(NoZero)$microbe  2 0.4031 0.201558  2.5438 0.08934 .
 #Residuals                             47 3.7241 0.079235                  
 ##############################################################################################
 
 
-fit <- lm(estimate_richness(NoZero)$Observed ~ sample_data(NoZero)$microbe.treatment)
+fit <- lm(estimate_richness(NoZero)$Observed ~ sample_data(NoZero)$microbe)
 ###############################################################################################
 #Analysis of Variance Table
 #
 #Response: estimate_richness(NoZero)$Observed
 #                                      Df Sum Sq Mean Sq F value    Pr(>F)    
-#sample_data(NoZero)$microbe.treatment  2 420.01 210.003  26.676 1.813e-08 ***
+#sample_data(NoZero)$microbe  2 420.01 210.003  26.676 1.813e-08 ***
 #Residuals                             47 369.99   7.872                                        
 ################################################################################################
 
-fit <- lm(estimate_richness(NoZero)$Simpson ~ sample_data(NoZero)$microbe.treatment)
+fit <- lm(estimate_richness(NoZero)$Simpson ~ sample_data(NoZero)$microbe)
 #################################################################################################
 #Analysis of Variance Table
 #Response: estimate_richness(NoZero)$Simpson
 #                                      Df  Sum Sq  Mean Sq F value   Pr(>F)   
-#sample_data(NoZero)$microbe.treatment  2 0.14082 0.070409  6.3029 0.003759 **
+#sample_data(NoZero)$microbe  2 0.14082 0.070409  6.3029 0.003759 **
 #Residuals                             47 0.52504 0.011171                          
 ##################################################################################################
 
@@ -711,30 +728,30 @@ fit <- lm(estimate_richness(NoZero)$Simpson ~ sample_data(NoZero)$microbe.treatm
 ##
 # again with nectar conc
 
-fit <- lm(estimate_richness(NoZero)$Shannon ~ sample_data(NoZero)$nectar.conc)
+fit <- lm(estimate_richness(NoZero)$Shannon ~ sample_data(NoZero)$rep)
 #################################################################################################
 #Analysis of Variance Table
 #Response: estimate_richness(NoZero)$Shannon
 #                                Df Sum Sq Mean Sq F value  Pr(>F)  
-#sample_data(NoZero)$nectar.conc  1 0.3487 0.34865  4.4291 0.04059 *
+#sample_data(NoZero)$rep  1 0.3487 0.34865  4.4291 0.04059 *
 #Residuals                       48 3.7785 0.07872                  
 #################################################################################################
 
-fit <- lm(estimate_richness(NoZero)$Observed ~ sample_data(NoZero)$nectar.conc)
+fit <- lm(estimate_richness(NoZero)$Observed ~ sample_data(NoZero)$rep)
 #################################################################################################
 #Analysis of Variance Table
 #Response: estimate_richness(NoZero)$Observed
 #                                Df Sum Sq Mean Sq F value    Pr(>F)    
-#sample_data(NoZero)$nectar.conc  1 165.83 165.831  12.753 0.0008204 ***
+#sample_data(NoZero)$rep  1 165.83 165.831  12.753 0.0008204 ***
 #Residuals                       48 624.17  13.004                   
 #################################################################################################
 
-fit <- lm(estimate_richness(NoZero)$Simpson ~ sample_data(NoZero)$nectar.conc)
+fit <- lm(estimate_richness(NoZero)$Simpson ~ sample_data(NoZero)$rep)
 #################################################################################################
 #Analysis of Variance Table
 #Response: estimate_richness(NoZero)$Simpson
 #                                Df  Sum Sq  Mean Sq F value   Pr(>F)   
-#sample_data(NoZero)$nectar.conc  1 0.10357 0.103566   8.841 0.004596 **
+#sample_data(NoZero)$rep  1 0.10357 0.103566   8.841 0.004596 **
 #Residuals                       48 0.56229 0.011714                    
 #################################################################################################
 
@@ -748,17 +765,17 @@ fit <- lm(estimate_richness(NoZero)$Simpson ~ sample_data(NoZero)$nectar.conc)
 
 library("DESeq2")
 NoZero <- subset_samples(VOC, day!="0") 
-deobj <- phyloseq_to_deseq2(NoZero, ~ nectar.conc + microbe.treatment)
+deobj <- phyloseq_to_deseq2(NoZero, ~ rep + microbe)
 diagdds = DESeq(deobj, test="Wald", fitType="local")
 
 
-res = results(diagdds, contrast = c("microbe.treatment", "Aa", "Mr"), cooksCutoff = FALSE)
+res = results(diagdds, contrast = c("microbe", "Aa", "Mr"), cooksCutoff = FALSE)
 
-res = results(diagdds, contrast = c("microbe.treatment", "Aa", "MrAa"), cooksCutoff = FALSE)
+res = results(diagdds, contrast = c("microbe", "Aa", "MrAa"), cooksCutoff = FALSE)
 
-res = results(diagdds, contrast = c("microbe.treatment", "Mr", "MrAa"), cooksCutoff = FALSE)
+res = results(diagdds, contrast = c("microbe", "Mr", "MrAa"), cooksCutoff = FALSE)
 
-res = results(diagdds, contrast = c("nectar.conc", "normal", "low"), cooksCutoff = FALSE)
+res = results(diagdds, contrast = c("rep", "normal", "low"), cooksCutoff = FALSE)
 
 alpha = 0.01
 sigtab = res[which(res$padj < alpha), ]
@@ -774,7 +791,7 @@ ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) +
   ggtitle("Compounds signficantly differentiating Mr and Aa samples")+
   theme_bw()
 
-res = results(diagdds, contrast = c("microbe.treatment", "Aa", "Mr"), cooksCutoff = FALSE)
+res = results(diagdds, contrast = c("microbe", "Aa", "Mr"), cooksCutoff = FALSE)
 ################################################################################
            baseMean log2FoldChange     lfcSE       stat        pvalue
 Peak_01  172970.710       8.547149 1.0585296   8.074549  6.772636e-16
@@ -823,7 +840,7 @@ Peak_34  2.090068e-21 Peak_34    2-phenethyl alcohol    2-phenethyl alcohol
 ############################################################################################
 
 
-res = results(diagdds, contrast = c("microbe.treatment", "Aa", "MrAa"), cooksCutoff = FALSE)
+res = results(diagdds, contrast = c("microbe", "Aa", "MrAa"), cooksCutoff = FALSE)
 
 sigtab = res[which(res$padj < alpha), ]
 sigtab = cbind(as(sigtab, "data.frame"), as(tax_table(NoZero)[rownames(sigtab), ], "matrix"))
@@ -831,7 +848,7 @@ x = tapply(sigtab$log2FoldChange, sigtab$Name, function(x) max(x))
 x = sort(x, TRUE)
 sigtab$Compound = factor(as.character(sigtab$Name), levels=names(x))
 
-res = results(diagdds, contrast = c("microbe.treatment", "Aa", "MrAa"), cooksCutoff = FALSE)
+res = results(diagdds, contrast = c("microbe", "Aa", "MrAa"), cooksCutoff = FALSE)
 #################################################################################################
            baseMean log2FoldChange     lfcSE       stat        pvalue
 Peak_01  172970.710       2.571465 0.8817382   2.916359  3.541429e-03
@@ -876,7 +893,7 @@ ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) +
   ggtitle("Compounds signficantly differentiating MrAa and Aa samples")+
   theme_bw()
 
-res = results(diagdds, contrast = c("microbe.treatment", "Mr", "MrAa"), cooksCutoff = FALSE)
+res = results(diagdds, contrast = c("microbe", "Mr", "MrAa"), cooksCutoff = FALSE)
 ....
 sigtab
 ######################################################################################
@@ -899,7 +916,7 @@ ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) +
   ggtitle("Compounds signficantly differentiating MrAa and Mr samples")+
   theme_bw()
 
-res = results(diagdds, contrast = c("nectar.conc", "normal", "low"), cooksCutoff = FALSE)
+res = results(diagdds, contrast = c("rep", "normal", "low"), cooksCutoff = FALSE)
 ....
 sigtab
 ########################################################################################
@@ -958,24 +975,24 @@ ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) +
 ##
 ###
 
-deobj <- phyloseq_to_deseq2(NoZero, ~ nectar.conc * microbe.treatment)
+deobj <- phyloseq_to_deseq2(NoZero, ~ rep * microbe)
 diagdds = DESeq(deobj, test="Wald", fitType="local")
 
 
-res = results(diagdds, contrast = c("microbe.treatment", "Aa", "Mr"), cooksCutoff = FALSE)
+res = results(diagdds, contrast = c("microbe", "Aa", "Mr"), cooksCutoff = FALSE)
 
-res = results(diagdds, contrast = c("microbe.treatment", "Aa", "MrAa"), cooksCutoff = FALSE)
+res = results(diagdds, contrast = c("microbe", "Aa", "MrAa"), cooksCutoff = FALSE)
 
-res = results(diagdds, contrast = c("microbe.treatment", "Mr", "MrAa"), cooksCutoff = FALSE)
+res = results(diagdds, contrast = c("microbe", "Mr", "MrAa"), cooksCutoff = FALSE)
 
-res = results(diagdds, contrast = c("nectar.conc", "normal", "low"), cooksCutoff = FALSE)
+res = results(diagdds, contrast = c("rep", "normal", "low"), cooksCutoff = FALSE)
 
 sigtab = res[which(res$padj < alpha), ]
 sigtab = cbind(as(sigtab, "data.frame"), as(tax_table(NoZero)[rownames(sigtab), ], "matrix"))
 x = tapply(sigtab$log2FoldChange, sigtab$Name, function(x) max(x))
 x = sort(x, TRUE)
 sigtab$Compound = factor(as.character(sigtab$Name), levels=names(x))
-sigtab #(res = results(diagdds, contrast = c("microbe.treatment", "Aa", "Mr"), cooksCutoff = FALSE))
+sigtab #(res = results(diagdds, contrast = c("microbe", "Aa", "Mr"), cooksCutoff = FALSE))
 #######################################################################################
            baseMean log2FoldChange     lfcSE       stat       pvalue
 Peak_01  172970.710       7.096023 1.1545505   6.146134 7.939409e-10
@@ -1027,7 +1044,7 @@ ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) +
   ggtitle("Compounds signficantly differentiating Mr and Aa samples")+
   theme_bw()
 
-res = results(diagdds, contrast = c("microbe.treatment", "Aa", "MrAa"), cooksCutoff = FALSE)
+res = results(diagdds, contrast = c("microbe", "Aa", "MrAa"), cooksCutoff = FALSE)
 ...
 sigtab # above
 ########################################################################################
@@ -1070,7 +1087,7 @@ ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) +
   ggtitle("Compounds signficantly differentiating MrAa and Aa samples")+
   theme_bw()
 
-res = results(diagdds, contrast = c("microbe.treatment", "Mr", "MrAa"), cooksCutoff = FALSE)
+res = results(diagdds, contrast = c("microbe", "Mr", "MrAa"), cooksCutoff = FALSE)
 ....
 sigtab # above
 ################################################################################################
@@ -1106,8 +1123,8 @@ ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) +
 
 
 
-sample_data(NoZero)$TreatNect <- paste(sample_data(NoZero)$microbe.treatment, 
-	sample_data(NoZero)$nectar.conc)
+sample_data(NoZero)$TreatNect <- paste(sample_data(NoZero)$microbe, 
+	sample_data(NoZero)$rep)
 
 deobj <- phyloseq_to_deseq2(NoZero, ~ TreatNect)
 diagdds = DESeq(deobj, test="Wald", fitType="local")
@@ -1219,7 +1236,7 @@ ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) +
 VOC_melt <-psmelt(VOC)
 
 # each compound over time
-ggplot(VOC_melt, aes(x=day, y=Abundance, color=microbe.treatment))+
+ggplot(VOC_melt, aes(x=day, y=Abundance, color=microbe))+
   geom_point()+
   geom_smooth()+
  facet_wrap(~Name, scales = "free")
@@ -1227,15 +1244,15 @@ ggplot(VOC_melt, aes(x=day, y=Abundance, color=microbe.treatment))+
 ##
 # Compound abundance mean over days 1-2 by group
 
-sample_data(NoZero)$TreatNect <- paste(sample_data(NoZero)$microbe.treatment, 
-	sample_data(NoZero)$nectar.conc)
+sample_data(NoZero)$TreatNect <- paste(sample_data(NoZero)$microbe, 
+	sample_data(NoZero)$rep)
 
 VOC_avg <- merge_samples(NoZero, group = "TreatNect", fun=mean)
 
 otu_melt <-  psmelt((VOC_avg))
 #
   
-ggplot(otu_melt, aes(x= microbe.treatment, y= Abundance, group = microbe.treatment))+
+ggplot(otu_melt, aes(x= microbe, y= Abundance, group = microbe))+
   geom_point()+
   geom_boxplot()+
   facet_wrap(~Name, scales= "free")
@@ -1248,14 +1265,14 @@ ggplot(otu_melt, aes(x= microbe.treatment, y= Abundance, group = microbe.treatme
 # 10 most abundant
 VOC_avg_top <- prune_taxa(taxa_sums(VOC_avg)>7500000,VOC_avg)
 avgtop_melt <-  psmelt((VOC_avg_top))
-ggplot(avgtop_melt, aes(x=microbe.treatment, y=Abundance, fill=Name))+
+ggplot(avgtop_melt, aes(x=microbe, y=Abundance, fill=Name))+
 	geom_bar(stat = "identity")+
 	theme_bw() 
 
 # 10 least abundant
 VOC_avg_rare <- prune_taxa(taxa_sums(VOC_avg)<700000,VOC_avg)
 avg_rare_melt <-  psmelt((VOC_avg_rare))
-ggplot(avg_rare_melt, aes(x=microbe.treatment, y=Abundance, fill=Name))+
+ggplot(avg_rare_melt, aes(x=microbe, y=Abundance, fill=Name))+
 	geom_bar(stat = "identity")+
 	theme_bw() 
 
@@ -1292,13 +1309,13 @@ Species: expanded scores based on 'wisconsin(sqrt(veganifyOTU(physeq)))'
 ###########################################################################
 
 
-plot_ordination(VOC, ord, color = "day", shape = "microbe.treatment", type = "samples")
+plot_ordination(VOC, ord, color = "day", shape = "microbe", type = "samples")
 
-plot_ordination(VOC, ord, color = "day", shape = "microbe.treatment", type = "samples")+
+plot_ordination(VOC, ord, color = "day", shape = "microbe", type = "samples")+
   theme_bw()+
   stat_ellipse(type="t")
 
-plot_ordination(VOC, ord, color = "day", shape = "microbe.treatment", type = "samples")+
+plot_ordination(VOC, ord, color = "day", shape = "microbe", type = "samples")+
   stat_ellipse(type="t")
 
 

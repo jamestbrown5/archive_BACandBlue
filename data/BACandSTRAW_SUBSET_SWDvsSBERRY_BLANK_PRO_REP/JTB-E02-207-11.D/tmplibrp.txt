@@ -1,0 +1,457 @@
+                                        Library Search Report
+
+  Data Path : C:\MassHunter\GCMS\1\data\JTB-E02\BACandSTRAW\
+  Data File : JTB-E02-207-11.D                                    
+  Acq On    : 13 Mar 2019  13:12
+  Operator  : JTB
+  Sample    : PDMS  VENT:10S  P2M : E2M
+  Misc      :  
+  ALS Vial  : 1   Sample Multiplier: 1
+
+  Search Libraries:   C:\MassHunter\...tabase\NIST14.L  Minimum Quality:   0
+                      C:\MassHunter\...base\WILEY275.L  Minimum Quality:   0
+                      C:\MassHunter\...tabase\Adams2.L
+
+  Unknown Spectrum:   Apex
+  Integration Events: ChemStation Integrator - events16.e
+
+Pk#     RT  Area%          Library/ID                 Ref#     CAS#   Qual
+_____________________________________________________________________________
+  1   2.407  4.19 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 l-Alanine ethylamide, (S)-           8148 071773-95-0  9
+                 1,2-Ethanediamine, N-(2-aminoethyl   4602 000111-40-0  7
+                 )-
+                 sec-Butylamine                        763 013952-84-6  5
+ 
+  2   2.541  0.32 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 n-Hexylmethylamine                   8029 035161-70-7 53
+                 1-Propanamine, N,2-dimethyl-         1954 000625-43-4 53
+                 Actinobolin                        159021 024397-89-5 53
+ 
+  3   2.585  0.62 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 1-Propanamine, N,2-dimethyl-         1957 000625-43-4 59
+                 Acetic acid, hydroxy[(1-oxo-2-prop  21889 006737-24-2 56
+                 enyl)amino]-
+                 Amphetamine                         15919 000300-62-9 53
+ 
+  4   2.643  0.52 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 n-Hexylmethylamine                   8030 035161-70-7 58
+                 2-Heptanamine, 5-methyl-            13342 053907-81-6 53
+                 1-Propanamine, N,2-dimethyl-         1954 000625-43-4 53
+ 
+  5   3.291  0.57 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 1,3-Dioxolane, 4-methyl-             2075 001072-47-5 64
+                 1,3-Dioxolane, 4-methyl-             2073 001072-47-5 50
+                 Benzeneethanamine, 2,5-difluoro-.b  82618 152434-78-1 43
+                 eta.,3,4-trihydroxy-N-methyl-
+ 
+  6   3.376  0.66 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 1,3-Dioxolane, 4-methyl-             2073 001072-47-5 58
+                 1,3-Dioxolane, 4-methyl-             2075 001072-47-5 53
+                 O-Methylisourea                       782 002440-60-0 47
+ 
+  7   3.485  2.02 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Cyclotrisiloxane, hexamethyl-       85994 000541-05-9 83
+                 Cyclotrisiloxane, hexamethyl-       85992 000541-05-9 72
+                 Cyclotrisiloxane, hexamethyl-       85993 000541-05-9 50
+ 
+  8   3.883  0.21 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 2-Hexanamine                         4201 005329-79-3 38
+                 1,6-Hexanediamine, N,N'-dimethyl-   21627 013093-04-4 38
+                 3,3-Dimethyl-4-methylamino-butan-2  13294 123528-99-4 38
+                 -one
+ 
+  9   4.003  0.25 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 1,3-Dioxolane, 4-methyl-             2073 001072-47-5 50
+                 Benzeneethanamine, 2,5-difluoro-.b  82618 152434-78-1 43
+                 eta.,3,4-trihydroxy-N-methyl-
+                 1,3-Dioxolane, 4-methyl-             2075 001072-47-5 42
+ 
+ 10   5.169  0.73 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Cyclotetrasiloxane, octamethyl-    155950 000556-67-2 90
+                 Pentasiloxane, dodecamethyl-       229154 000141-63-9 90
+                 1,1,3,3,5,5,7,7-Octamethyl-7-(2-me 220051 1000364-61-2 53
+                 thylpropoxy)tetrasiloxan-1-ol
+ 
+ 11   5.233  2.85 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Butanoic acid, methyl ester          4375 000623-42-7 83
+                 Butanoic acid, methyl ester          4382 000623-42-7 80
+                 Butanoic acid, methyl ester          4380 000623-42-7 72
+ 
+ 12   6.059  1.44 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Silanol, trimethyl-                  2270 001066-40-6 64
+                 Ethylene glycol, TMS derivative     15397 004403-13-8 64
+                 Silanol, trimethyl-                  2269 001066-40-6 59
+ 
+ 13   6.127  0.68 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Silanol, trimethyl-                  2269 001066-40-6 72
+                 Isopropyl alcohol, TMS derivative   14712 001825-64-5 72
+                 2-Butene-1,4-diol, TBDMS derivativ  66353 1000352-69-4 64
+ 
+ 14   6.202  2.21 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Butanoic acid, ethyl ester           8300 000105-54-4 50
+                 Butanoic acid, ethyl ester           8294 000105-54-4 50
+                 Acetic acid, TMS derivative         14520 002754-27-0 38
+ 
+ 15   6.290  2.47 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 1-Pyrrolidinecarboxylic acid, 2-me 148531 108782-11-2 50
+                 thoxy-4-(t-butyldimethylsilyloxy)-
+                 , methyl ester, (2R-trans)-
+                 Propanoic acid, ethyl(dimethyl)sil  32294 1000278-59-7 47
+                 yl ester
+                 Butanoic acid, dimethyl(dichlorome  91731 1000279-98-4 42
+                 thyl)silyl ester
+ 
+ 16   6.389  0.80 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Silanol, trimethyl-                  2269 001066-40-6 72
+                 Acetic acid, TMS derivative         14521 002754-27-0 72
+                 Isopropyl alcohol, TMS derivative   14712 001825-64-5 72
+ 
+ 17   6.551  2.79 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Ethylene glycol, TMS derivative     15396 004403-13-8 59
+                 Silanol, dimethyl(1,1,2-trimethylp  32499 055644-10-5 50
+                 ropyl)-
+                 Aminoacetaldehyde dimethyl acetal    5005 022483-09-6 50
+ 
+ 18   6.826  8.13 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Glycine                               879 000056-40-6 43
+                 tert-Butyldimethylsilanol           14706 018173-64-3 38
+                 Silanol, trimethyl-                  2271 001066-40-6 38
+ 
+ 19   6.880  1.61 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Formamide, N-methylthio               892 018952-41-5 53
+                 Silanol, trimethyl-                  2271 001066-40-6 52
+                 Acetic acid, TMS derivative         14521 002754-27-0 42
+ 
+ 20   6.979  2.10 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Acetic acid, TMS derivative         14521 002754-27-0 64
+                 Acetic acid, TMS derivative         14520 002754-27-0 64
+                 Butyric Acid, TMS derivative        32282 016844-99-8 59
+ 
+ 21   8.218  0.40 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 1-(2-Aminoethylamino)-2-propanol     8941 000123-84-2 38
+                 N-Methoxy-1-ribofuranosyl-4-imidaz 133184 1000129-57-7 27
+                 olecarboxylic amide
+                 Dimethyl-(6-methyl-2-thioxo-[1,3,2  75475 139575-19-2 27
+                 ]oxathiaphosphinan-2-yl)-amine
+ 
+ 22   9.053  0.82 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Cyclopentasiloxane, decamethyl-    220035 000541-02-6 93
+                 Cyclopentasiloxane, decamethyl-    220036 000541-02-6 74
+                 Cyclopentasiloxane, decamethyl-    220037 000541-02-6 60
+ 
+ 23   9.920  0.33 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Pentanamide, N-ethyl-               13229 054007-33-9 43
+                 Hydroperoxide, 1,4-dioxan-2-yl       9396 004722-59-2 38
+                 2-[2-[2-[2-[2-[2-[2-[2-[2-(2-Acety 270326 1000351-90-4 35
+                 loxyethoxy)ethoxy]ethoxy]ethoxy]et
+                 hoxy]ethoxy]ethoxy]ethoxy]ethoxy]e
+                 thyl acetate
+ 
+ 24  10.044  9.50 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Hexanoic acid, methyl ester         13784 000106-70-7 94
+                 Hexanoic acid, methyl ester         13783 000106-70-7 91
+                 Hexanoic acid, methyl ester         13772 000106-70-7 60
+ 
+ 25  10.989  0.36 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 N-Hydroxymethylacetamide             2201 000625-51-4 62
+                 Butanoic acid, butyl ester          21448 000109-21-7 59
+                 Butanoic acid, butyl ester          21449 000109-21-7 59
+ 
+ 26  11.462  5.40 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Hexanoic acid, ethyl ester          21453 000123-66-0 97
+                 Hexanoic acid, ethyl ester          21454 000123-66-0 97
+                 Hexanoic acid, ethyl ester          21450 000123-66-0 91
+ 
+ 27  12.455  0.21 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Isobutyl isopentyl carbonate        54104 1000372-76-3 43
+                 1-Butanol, 2,2-dimethyl-             4543 001185-33-7 38
+                 2,4,4-Trimethyl-1-hexene            11793 051174-12-0 35
+ 
+ 28  12.661  1.67 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Acetic acid, hexyl ester            21425 000142-92-7 80
+                 Acetic acid, hexyl ester            21419 000142-92-7 80
+                 Acetic acid, hexyl ester            21423 000142-92-7 72
+ 
+ 29  14.049  0.52 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 3-Hexen-1-ol, acetate, (Z)-         20206 003681-71-8 50
+                 3-Hexen-1-ol, acetate, (E)-         20188 003681-82-1 47
+                 2-Hexyne                             1201 000764-35-2 46
+ 
+ 30  14.584  0.46 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 2-Hexen-1-ol, acetate, (E)-         20201 002497-18-9 46
+                 2-Hexen-1-ol, acetate               20157 010094-40-3 46
+                 2-Hexen-1-ol, acetate, (E)-         20204 002497-18-9 41
+ 
+ 31  16.357  0.20 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Methyl 8-methyl-nonanoate           52751 1000336-43-6 59
+                 Octanoic acid, methyl ester         31284 000111-11-5 46
+                 Octanoic acid, methyl ester         31294 000111-11-5 43
+ 
+ 32  16.455  0.25 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Tetrahydro-4H-pyran-4-ol             4355 002081-44-9 59
+                 Azetidin-2-one 3,3-dimethyl-4-(1-a  20065 1000161-94-5 47
+                 minoethyl)-
+                 1,3-Dioxolane, 4-methyl-             2073 001072-47-5 47
+ 
+ 33  17.195  0.26 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Guanidine, N,N,N',N'-tetramethyl-    7866 000080-70-6 43
+                 Butanoic acid, hexyl ester          41268 002639-63-6 38
+                 1-Sec-butyldiaziridine               3691 033657-34-0 35
+ 
+ 34  18.710  0.21 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Acetic acid                           261 000064-19-7 49
+                 Acetic acid                           264 000064-19-7 47
+                 Thiirane                              270 000420-12-2 47
+ 
+ 35  18.764  0.17 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Cyclohexan-1,4,5-triol-3-one-1-car  56298 1000128-45-5 78
+                 boxylic acid
+                 Acetic acid                           263 000064-19-7 46
+                 Acetic acid                           264 000064-19-7 43
+ 
+ 36  19.052  0.20 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Tetrahydro-4H-pyran-4-ol             4355 002081-44-9 43
+                 Butanoic acid, 3-amino-              4634 000541-48-0 35
+                 4-Heptanone, dimethylhydrazone      30121 014090-58-5 27
+ 
+ 37  19.471  0.26 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Cyclotetrasiloxane, octamethyl-    155950 000556-67-2 59
+                 Cyclotetrasiloxane, octamethyl-    155952 000556-67-2 50
+                 trisiloxane, 1,1,1,5,5,5-hexamethy 155972 1000402-10-5 43
+                 l-3-[(trimethylsilyl)oxy]-
+ 
+ 38  19.742  0.23 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 N,N-Dimethylacetamide                1907 000127-19-5 59
+                 Asparagine, N-dl-alanyl-, l-        67650 020051-99-4 59
+                 Acetic acid, [(aminocarbonyl)amino  14446 000585-05-7 53
+                 ]oxo-
+ 
+ 39  20.068  0.31 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 2-Anthracenamine                    58739 000613-13-8 25
+                 1-Propanamine, N,2-dimethyl-         1956 000625-43-4 25
+                 3-Methyl-acridine                   58748 004740-12-9 25
+ 
+ 40  20.635  0.20 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 6-Chloromethyl-benzo[4,5]imidazo[1 127383 070371-92-5 49
+                 ,2-c]quinazoline
+                 2,5-Dihydroxybenzaldehyde, 2TMS de 141387 056114-69-3 42
+                 rivative
+                 4-Trimethylsilyl-9,9-dimethyl-9-si 141973 058263-56-2 32
+                 lafluorene
+ 
+ 41  21.277  1.73 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Linalool                            27447 000078-70-6 87
+                 Linalyl acetate                     61519 000115-95-7 53
+                 1,5-Dimethyl-1-vinyl-4-hexenyl but  87620 000078-36-4 52
+                 yrate
+ 
+ 42  24.288  2.21 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Silanediol, dimethyl-                2426 001066-42-8 46
+                 Silanediol, dimethyl-                2427 001066-42-8 43
+                 Isopropoxycarbamic acid, ethyl est  23007 1000305-90-0 40
+                 er
+ 
+ 43  24.770  0.46 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Heptylcyclohexane                   49699 005617-41-4 22
+                 Cyclohexane, octyl-                 61872 001795-15-9 14
+                 Cyclohexane, tetradecyl-           140282 001795-18-2 14
+ 
+ 44  25.931  0.25 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 N-Formyl-dl-alanine                  8611 005893-10-7 43
+                 Pterin-6-carboxylic acid            71717 000948-60-7 42
+                 Azetidin-2-one 3,3-dimethyl-4-(1-a  20065 1000161-94-5 40
+                 minoethyl)-
+ 
+ 45  26.369  0.58 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 .alpha.-Muurolene                   68581 031983-22-9 96
+                 .alpha.-Muurolene                   68564 031983-22-9 95
+                 .alpha.-Muurolene                   68583 031983-22-9 95
+ 
+ 46  26.440  0.19 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Azetidin-2-one 3,3-dimethyl-4-(1-a  20065 1000161-94-5 38
+                 minoethyl)-
+                 3-Propoxyamphetamine                58649 1000124-04-4 38
+                 Acetic acid, phenylmethyl ester     25190 000140-11-4 30
+ 
+ 47  26.887  0.18 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 2-Butanamine, N-(1-methylpropyl)-   13358 000626-23-3 64
+                 1-Pentanamine, N-pentyl-            30164 002050-92-2 59
+                 2-Butanamine, N-(1-methylpropyl)-   13357 000626-23-3 59
+ 
+ 48  27.010  0.30 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Pterin-6-carboxylic acid            71717 000948-60-7 50
+                 3-Chloro-N-methylpropylamine         5223 065232-62-4 35
+                 nor-Mephedrone                      34044 006941-17-9 32
+ 
+ 49  27.476  0.60 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Oxime-, methoxy-phenyl-_            25568 1000222-86-6 70
+                 1,1,3,3-Tetramethyl-1,3-di-n-propy  80950 018001-73-5 45
+                 ldisiloxane
+                 4-Ethylbenzoic acid, cyclopentyl e  81533 1000293-32-0 41
+                 ster
+ 
+ 50  28.784  0.03 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Atomoxetine                        116330 083015-26-3 38
+                 N-Methyl-3-(2-methylphenoxy)-3-phe 116353 063940-51-2 38
+                 nylpropan-1-amine
+                 Butanoic acid, 3-amino-              4634 000541-48-0 38
+ 
+ 51  30.385  0.51 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Bupropion                          101136 034911-55-2 43
+                 2-(Pentylamino)ethanol              14246 035161-67-2 43
+                 Bupropion                          101137 034911-55-2 37
+ 
+ 52  30.454  0.29 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 3-Propoxyamphetamine                58649 1000124-04-4 50
+                 2-Methylaminomethyl-1,3-dioxolane    8669 057366-77-5 35
+                 Urea, N,N-dimethyl-                  1980 000598-94-7 32
+ 
+ 53  30.622  0.34 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 2-Methylaminomethyl-1,3-dioxolane    8669 057366-77-5 43
+                 (Cyclohex-3-enylmethyl)[2-(2-methy 206996 1000310-76-1 43
+                 l-5-trifluoromethoxy-1H-indol-3-yl
+                 )ethyl]amine
+                 Atomoxetine                        116330 083015-26-3 41
+ 
+ 54  31.663 16.56 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 2,6-Bis(1,1-dimethylethyl)-4-(1-ox 123062 014035-34-8 90
+                 opropyl)phenol
+                 Phenol, 2,6-bis(1,1-dimethylethyl) 123155 017540-75-9 64
+                 -4-(1-methylpropyl)-
+                 Isophthalic acid, isohexyl 2,4,5-t 249941 1000356-61-2 50
+                 richlorophenyl ester
+ 
+ 55  32.119  0.46 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Acetamide, N-(aminocarbonyl)-2-chl  16308 004791-21-3 30
+                 oro-
+                 1,2-Ethanediamine, N,N'-dimethyl-    2014 000110-70-3 30
+                 Acetic acid, hydroxy[(1-oxo-2-prop  21889 006737-24-2 27
+                 enyl)amino]-
+ 
+ 56  32.178  0.27 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Azetidin-2-one 3,3-dimethyl-4-(1-a  20065 1000161-94-5 47
+                 minoethyl)-
+                 1,3-Dioxolane, 4-methyl-             2073 001072-47-5 47
+                 N-Desmethyltapentadol               71584 1246819-18-0 43
+ 
+ 57  32.561  2.89 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Diethylpropion                      69622 000090-84-6 64
+                 Diethylpropion                      69627 000090-84-6 59
+                 4-Morpholineethanol                 14198 000622-40-2 59
+ 
+ 58  33.591  1.18 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 9-Azabicyclo[6.1.0]non-4-en-9-amin  17902 066387-78-8 59
+                 e, (1.alpha.,4Z,8.alpha.)-
+                 1-Dodecanamine, N,N-dimethyl-       77301 000112-18-5 55
+                 N-Formylglycine                      4596 002491-15-8 47
+ 
+ 59  34.036  0.35 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 1,3-Dioxolane, 4-methyl-             2073 001072-47-5 50
+                 Ethyl N'-isopropylureidoacetate     54806 029346-49-4 30
+                 Acetamide, N-(aminocarbonyl)-2-chl  16309 004791-21-3 30
+                 oro-
+ 
+ 60  34.268  0.36 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Dimethylamine                          89 000124-40-3 47
+                 15-Crown-5                          82721 033100-27-5 38
+                 Acetamide, N-(aminocarbonyl)-2-chl  16308 004791-21-3 38
+                 oro-
+ 
+ 61  34.299  0.18 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 15-Crown-5                          82721 033100-27-5 43
+                 12-Crown-4                          44917 000294-93-9 43
+                 1,4,7,10,13,16-Hexaoxacyclooctadec 124224 017455-13-9 43
+                 ane
+ 
+ 62  34.405  0.38 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 15-Crown-5                          82721 033100-27-5 46
+                 12-Crown-4                          44920 000294-93-9 46
+                 12-Crown-4                          44919 000294-93-9 43
+ 
+ 63  34.589  2.38 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 1,6,10-Dodecatrien-3-ol, 3,7,11-tr  85758 040716-66-3 83
+                 imethyl-, (E)-
+                 1,6,10-Dodecatrien-3-ol, 3,7,11-tr  85751 007212-44-4 80
+                 imethyl-
+                 Nerolidol 2                         85689 1000285-43-6 72
+ 
+ 64  35.185  0.15 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 1,2-Ethanediamine, N,N'-dimethyl-    2014 000110-70-3 38
+                 Methylpent-4-enylamine               3601 005831-72-1 38
+                 Benzenemethanol, 2-(2-aminopropoxy  60584 053566-98-6 38
+                 )-3-methyl-
+ 
+ 65  35.680  2.94 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 (-)-R-Phenethanamine, 1-methyl-N-v 131710 1000127-90-4 38
+                 anillyl-
+                 Benzaldehyde, 3-hydroxy-, oxime     17086 022241-18-5 27
+                 3,7,11,Trimethyl-8,10- dodecedieny 126724 1000374-10-3 25
+                 lacetate
+ 
+ 66  35.814  0.51 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Pyrido[2,3-d]pyrimidine-2,4(1H,3H) 117980 1000362-82-6 64
+                 -dione, 1-ethyl-5-(2-furanyl)-
+                 2-Methylaminomethyl-1,3-dioxolane    8669 057366-77-5 43
+                 1,4,7,10,13,16-Hexaoxacyclooctadec 124225 017455-13-9 38
+                 ane
+ 
+ 67  36.126  0.23 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 12-Crown-4                          44918 000294-93-9 43
+                 12-Crown-4                          44919 000294-93-9 43
+                 1,4,7,10,13,16-Hexaoxacyclooctadec 124225 017455-13-9 43
+                 ane
+ 
+ 68  36.566  0.10 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 1,4,7,10,13,16-Hexaoxacyclooctadec 124224 017455-13-9 50
+                 ane
+                 15-Crown-5                          82721 033100-27-5 50
+                 1,4,7,10,13,16-Hexaoxacyclooctadec 124220 017455-13-9 47
+                 ane
+ 
+ 69  36.745  0.29 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 15-Crown-5                          82723 033100-27-5 43
+                 1,4,7,10,13,16-Hexaoxacyclooctadec 124225 017455-13-9 43
+                 ane
+                 12-Crown-4                          44919 000294-93-9 38
+ 
+ 70  36.821  0.51 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 12-Crown-4                          44919 000294-93-9 38
+                 1,4,7,10,13,16-Hexaoxacyclooctadec 124220 017455-13-9 38
+                 ane
+                 12-Crown-4                          44920 000294-93-9 38
+ 
+ 71  36.930  1.44 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Benzene, 1-(2-butenyl)-2,3-dimethy  32008 054340-85-1 35
+                 l-
+                 Benzene, 4-(2-butenyl)-1,2-dimethy  32041 054340-86-2 35
+                 l-, (E)-
+                 Benzene, 1,3,5-trimethyl-2-(1-meth  32053 014679-13-1 35
+                 ylethenyl)-
+ 
+ 72  36.995  2.50 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 2(3H)-Furanone, 5-hexyldihydro-     39635 000706-14-9 64
+                 2(3H)-Furanone, 5-hexyldihydro-     39633 000706-14-9 64
+                 2(3H)-Furanone, 5-hexyldihydro-     39619 000706-14-9 59
+ 
+ 73  37.099  0.44 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 15-Crown-5                          82721 033100-27-5 38
+                 3,6,9,12-Tetraoxatetradecan-1-ol    84801 005650-20-4 38
+                 1,4,7,10,13,16-Hexaoxacyclooctadec 124224 017455-13-9 35
+                 ane
+ 
+ 74  37.130  0.74 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 Cyclohexyl-15-crown-5              134301 017454-48-7 50
+                 15-Crown-5                          82720 033100-27-5 49
+                 1,4,7,10,13,16-Hexaoxacyclooctadec 124220 017455-13-9 47
+                 ane
+ 
+ 75  37.384  0.28 C:\MassHunter\GCMS\1\data\JTB-E02\Database\NIST14.L
+                 15-Crown-5                          82720 033100-27-5 50
+                 15-Crown-5                          82722 033100-27-5 50
+                 2-[2-[2-[2-[2-[2-[2-(2-Methoxyetho 229275 025990-96-9 43
+                 xy)ethoxy]ethoxy]ethoxy]ethoxy]eth
+                 oxy]ethoxy]ethanol
+ 
+
+Arwen Sleep.M Thu May 09 16:06:00 2019   

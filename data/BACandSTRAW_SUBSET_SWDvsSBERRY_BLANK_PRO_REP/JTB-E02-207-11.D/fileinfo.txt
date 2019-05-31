@@ -1,0 +1,22 @@
+
+           Data File Information
+
+     Data File     : D:\MassHunter\GCMS\1\data\JTB-E02\BACandSTRAW\JTB-E02-207-11.D\data.ms
+     Operator:     :  JTB
+     Acquired On   :  13 Mar 2019  13:12    
+     Instrument    :  Legolas GCMS3_258
+     Method File   :  Arwen_WAX_40_4_230inlet_AWAKE METHOD.M
+     Sample Name   :  BAC-2B  VENT:10S  P2M : E2M
+     Misc Info     :   
+     Vial Number   :  1
+     Sample Mult.  :  1.00
+     Sample Amount :  0.00
+     Exp. Barcode  :   
+     Act.  Barcode :   
+
+
+
+     Files in Data Directory
+
+
+     * = File time stamp is before latest quant update
