@@ -8,16 +8,16 @@ editor_options:
 ---
 
 ```{r setup, include=FALSE}
-
+# Libraries and Data Frames
 ##what you need to install phyloseq
 #source('http://bioconductor.org/biocLite.R')
 #biocLite('phyloseq')
 #install.packages("devtools")
 #install_github("vqv/ggbiplot")
 #install.packages("gdata")
-```
-# Libraries and Data Frames
-```{r}
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install()
 library(gdata)
 library(devtools)
 library(ggplot2)
@@ -28,7 +28,10 @@ library(ggbiplot)
 library(readxl)
 library(readr)
 library(ape)
+library("DESeq2")
+```
 
+```{r}
 # read in data
 meta <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandSTRAW_SUBSET_SWDvsSBERRY_BLANK_PRO_REP/meta.csv") 
 meta$hour=as.factor(meta$hour)
@@ -50,19 +53,14 @@ OTU <- otu_table(abund[,-c(1:2)], taxa_are_rows=T) #create a table with only pea
 VOC <- phyloseq(OTU, TAX, SAMP) #IF YOU GET A "SAMPLE_NAMES()" ERROR MAKE SURE YOUR NAMES DO NOT START WITH A NUMBER
 
 #returns: "phyloseq-class experiment-level object
-#otu_table()   OTU Table:       [ 110 taxa and 24 samples ] "taxa" = VOCs "samples" = VOC pulls
-#sample_data() Sample Data:     [ 24 samples by 8 sample variables ] "sample variable" = VOC jar
-#tax_table()   Taxonomy Table:  [ 110 taxa by 2 taxonomic ranks ] "taxonomic rank" = microbe species"
+#otu_table()   OTU Table:       [ 77 taxa and 14 samples ] "taxa" = VOCs "samples" = SPME-HS samples
+#sample_data() Sample Data:     [ 14 samples by 9 sample variables ] "sample variable" = categories
+#tax_table()   Taxonomy Table:  [ 77 taxa by 2 taxonomic ranks ] "taxonomic rank" = sample time/hour"
+
+```
 
 
-p=plot_bar(VOC, "hour",fill="Peak_ID", facet_grid = ~microbe)
-p + geom_point(aes(x=microbe, y=Abundance), color="black", size=3)
-
-
-###############################
-# Analysis and figures
-##############################
-
+```{r}
 ##############
 #    PCoAs   #
 ##############
@@ -77,10 +75,10 @@ plot_ordination(VOC, ord, type = "juice", color = "hour", shape = "microbe", lab
 
 PCs <- data.frame(scores(ord$vectors))
 new.dat <- cbind(PCs, sample_data(VOC)$microbe, sample_data(VOC)$rep, sample_data(VOC)$hour) # make a new matrix
-names(new.dat)[5:7] <- c("Microbe","Juice","Hour") #for the "must be the same length as vector" error make sure that the info inside the bracets matches empty columns in the dataframe your creating"
+names(new.dat)[12:14] <- c("Microbe","Rep","Hour") #for the "must be the same length as vector" error make sure that the info inside the bracets matches empty columns in the dataframe your creating"
 library(gdata)
 new.dat$Microbe <- reorder.factor(new.dat$Microbe, new.order = c("SWD"))
-new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("2","24","48"))
+new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("24","48"))
 
 summary(new.dat)
 
@@ -88,8 +86,8 @@ ggplot(new.dat, aes(x=Axis.1, y= Axis.2)) +
   geom_point(aes(color = Microbe, shape = Hour), position ="jitter") +
   facet_grid(~Hour)+
   theme_bw()+
-  xlab("PCoA1 (78.6% Var. Expl.)")+ 	## !don't forget to update these moving forward!
-  ylab("PCoA2 (13.8% Var. Expl.)")
+  xlab("PCoA1 (59.1% Var. Expl.)")+ 	## !don't forget to update these moving forward!
+  ylab("PCoA2 (32.6% Var. Expl.)")
 
 
 
@@ -102,55 +100,42 @@ plot_ordination(VOC, ord, type = "samples", color = "hour", shape = "microbe", l
 ###
 PCs <- data.frame(scores(ord$vectors))
 new.dat <- cbind(PCs, sample_data(VOC)$microbe, sample_data(VOC)$hour, sample_data(VOC)$rep) # make a new matrix
-names(new.dat)[6:8] <- c("Microbe", "Hour", "Rep")
+names(new.dat)[13:15] <- c("Microbe", "Hour", "Rep")
 library(gdata)
 new.dat$Microbe <- reorder.factor(new.dat$Microbe, new.order = c("SWD"))
-new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("2","24", "48"))
+new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("24", "48"))
 ###
 ###
 ggplot(new.dat, aes(x=Axis.1, y= Axis.2)) +
   geom_point(aes(color = Microbe, shape = Hour), position ="jitter") +
   facet_grid(~Hour)+
   theme_bw()+
-  xlab("PCoA1 (68.2% Var. Expl.)")+ 
-  ylab("PCoA2 (15.3% Var. Expl.)")
+  xlab("PCoA1 (78.6% Var. Expl.)")+ 
+  ylab("PCoA2 (13.8% Var. Expl.)")
 ```
 
 ```{r}
 ######################
 ##  Linear Models   ##
 ######################
-###
-##
+
 # try co-ercing days as categorical variable so I can use TukeyHSD
 sample_data(VOC)$fhour <- factor(sample_data(VOC)$hour)
-sample_data(VOC)$fmicrobe <- factor(sample_data(VOC)$microbe)
-sample_data(VOC)$fpeaks <- factor(sample_data(VOC)$peaks)
+sample_data(VOC)$frep <- factor(sample_data(VOC)$rep)
 
 str(sample_data(VOC))
 
-fit <- lm(sample_sums(VOC)~sample_data(VOC)$fhour+sample_data(VOC)$spme)
-summary(fit)
-# same results
-
-fit <- lm(sample_sums(VOC)~ sample_data(VOC)$fhour*sample_data(VOC)$fmicrobe)
+fit <- lm(sample_sums(VOC)~ sample_data(VOC)$rep+sample_data(VOC)$hour)
 anova(fit)
-fit <- lm(sample_sums(VOC)~ sample_data(VOC)$rep*sample_data(VOC)$hour*sample_data(VOC)$microbe)
-anova(fit)
-TukeyHSD(aov(fit), which="sample_data(VOC)$microbe")
 TukeyHSD(aov(fit), which="sample_data(VOC)$rep") 
 TukeyHSD(aov(fit), which="sample_data(VOC)$hour")
 ```
+
+
 ```{r}
-###
-##
-#
-#
-##
-###
 # Try with interactions in model
 
-fit <- lm(sample_sums(VOC)~ sample_data(VOC)$rep*sample_data(VOC)$fhour*sample_data(VOC)$microbe)
+fit <- lm(sample_sums(VOC)~ sample_data(VOC)$hour*sample_data(VOC)$rep*sample_data(VOC)$microbe)
 summary(fit)
 ######################################################################################################################################
 Analysis of Variance Table
@@ -167,7 +152,7 @@ sample_data(VOC)$rep:sample_data(VOC)$fhour:sample_data(VOC)$microbe  4 7.9485e+
 Residuals                                                                             57 1.0140e+15 1.7789e+13                      
 #######################################################################################################################################
 
-TukeyHSD(aov(fit), which="sample_data(VOC)$fhour")
+TukeyHSD(aov(fit), which="sample_data(VOC)$hour")
 #######################################################################################################################################
   Tukey multiple comparisons of means
     95% family-wise confidence level
@@ -532,14 +517,15 @@ Total     47   10.6139                 1.00000
 #
 ##
 ###
+```
 
 
 
 #####################
 # Diversity Indices #
 #####################
-
-# Is there a difference in peak diversity between treatments? Start with all days
+```{r}
+# Is there a difference in the number of different peaks (alpha-diversity) between treatments? Start with all days
 
 # Force all peak area to round integers. Re-import data
 
@@ -549,11 +535,11 @@ OTU <- otu_table(abund, taxa_are_rows=T)
 VOC <- phyloseq(OTU, TAX, SAMP)
 VOC
 
-plot_richness(VOC, x = "microbe", measures = c("Observed", "Shannon", "Simpson"))
+plot_richness(VOC, x = "hour", measures = c("Observed", "Shannon", "Simpson"))
 
 plot_richness(VOC, x = "rep", measures = c("Observed", "Shannon", "Simpson"))
 
-fit <- lm(estimate_richness(VOC)$Shannon ~ sample_data(VOC)$microbe)
+fit <- lm(estimate_richness(VOC)$Shannon ~ sample_data(VOC)$hour)
 anova(fit)
 ####################################################################################
 #Analysis of Variance Table
@@ -565,7 +551,8 @@ anova(fit)
 ####################################################################################
 
 
-fit <- lm(estimate_richness(VOC)$Observed ~ sample_data(VOC)$microbe)
+fit <- lm(estimate_richness(VOC)$Observed ~ sample_data(VOC)$hour)
+anova(fit)
 #####################################################################################
 #Analysis of Variance Table
 #
@@ -575,7 +562,8 @@ fit <- lm(estimate_richness(VOC)$Observed ~ sample_data(VOC)$microbe)
 #Residuals                          72 1863.70  25.885                      
 ######################################################################################
 
-fit <- lm(estimate_richness(VOC)$Simpson ~ sample_data(VOC)$microbe)
+fit <- lm(estimate_richness(VOC)$Simpson ~ sample_data(VOC)$hour)
+anova(fit)
 #####################################################################################
 #Analysis of Variance Table
 #
@@ -590,6 +578,7 @@ fit <- lm(estimate_richness(VOC)$Simpson ~ sample_data(VOC)$microbe)
 # just for fun, what differences exist in diversity of chemicals between nectar concentrations?
 
 fit <- lm(estimate_richness(VOC)$Shannon ~ sample_data(VOC)$rep)
+anova(fit)
 #####################################################################################
 #Analysis of Variance Table
 #
@@ -600,6 +589,7 @@ fit <- lm(estimate_richness(VOC)$Shannon ~ sample_data(VOC)$rep)
 #####################################################################################
 
 fit <- lm(estimate_richness(VOC)$Observed ~ sample_data(VOC)$rep)
+anova(fit)
 #####################################################################################
 #Analysis of Variance Table
 #
@@ -610,6 +600,7 @@ fit <- lm(estimate_richness(VOC)$Observed ~ sample_data(VOC)$rep)
 #####################################################################################
 
 fit <- lm(estimate_richness(VOC)$Simpson ~ sample_data(VOC)$rep)
+anova(fit)
 #####################################################################################
 #Analysis of Variance Table
 #
@@ -623,16 +614,18 @@ fit <- lm(estimate_richness(VOC)$Simpson ~ sample_data(VOC)$rep)
 # 
 ##
 ###
+```
 
-# repeat diversity indices calcs with day 0 excluded
+# repeat diversity indices calcs with controls and blanks excluded
+```{r}
+NoZero <- subset_samples(VOC, rep!="C01"& rep!="C02"& rep!="C03"& rep!="B01")
 
-NoZero <- subset_samples(VOC, day!="0") 
-
-plot_richness(NoZero, x = "microbe", measures = c("Observed", "Shannon", "Simpson"))
+plot_richness(NoZero, x = "hour", measures = c("Observed", "Shannon", "Simpson"))
 
 plot_richness(NoZero, x = "rep", measures = c("Observed", "Shannon", "Simpson"))
 
-fit <- lm(estimate_richness(NoZero)$Shannon ~ sample_data(NoZero)$microbe)
+fit <- lm(estimate_richness(NoZero)$Shannon ~ sample_data(NoZero)$hour)
+anova(fit)
 #############################################################################################
 #Analysis of Variance Table
 #
@@ -643,7 +636,8 @@ fit <- lm(estimate_richness(NoZero)$Shannon ~ sample_data(NoZero)$microbe)
 ##############################################################################################
 
 
-fit <- lm(estimate_richness(NoZero)$Observed ~ sample_data(NoZero)$microbe)
+fit <- lm(estimate_richness(NoZero)$Observed ~ sample_data(NoZero)$hour)
+anova(fit)
 ###############################################################################################
 #Analysis of Variance Table
 #
@@ -653,7 +647,8 @@ fit <- lm(estimate_richness(NoZero)$Observed ~ sample_data(NoZero)$microbe)
 #Residuals                             47 369.99   7.872                                        
 ################################################################################################
 
-fit <- lm(estimate_richness(NoZero)$Simpson ~ sample_data(NoZero)$microbe)
+fit <- lm(estimate_richness(NoZero)$Simpson ~ sample_data(NoZero)$hour)
+anova(fit)
 #################################################################################################
 #Analysis of Variance Table
 #Response: estimate_richness(NoZero)$Simpson
@@ -667,6 +662,7 @@ fit <- lm(estimate_richness(NoZero)$Simpson ~ sample_data(NoZero)$microbe)
 # again with nectar conc
 
 fit <- lm(estimate_richness(NoZero)$Shannon ~ sample_data(NoZero)$rep)
+anova(fit)
 #################################################################################################
 #Analysis of Variance Table
 #Response: estimate_richness(NoZero)$Shannon
@@ -676,6 +672,7 @@ fit <- lm(estimate_richness(NoZero)$Shannon ~ sample_data(NoZero)$rep)
 #################################################################################################
 
 fit <- lm(estimate_richness(NoZero)$Observed ~ sample_data(NoZero)$rep)
+anova(fit)
 #################################################################################################
 #Analysis of Variance Table
 #Response: estimate_richness(NoZero)$Observed
@@ -685,6 +682,7 @@ fit <- lm(estimate_richness(NoZero)$Observed ~ sample_data(NoZero)$rep)
 #################################################################################################
 
 fit <- lm(estimate_richness(NoZero)$Simpson ~ sample_data(NoZero)$rep)
+anova(fit)
 #################################################################################################
 #Analysis of Variance Table
 #Response: estimate_richness(NoZero)$Simpson
@@ -692,22 +690,30 @@ fit <- lm(estimate_richness(NoZero)$Simpson ~ sample_data(NoZero)$rep)
 #sample_data(NoZero)$rep  1 0.10357 0.103566   8.841 0.004596 **
 #Residuals                       48 0.56229 0.011714                    
 #################################################################################################
-
+```
 
 
 ############################
 # Neg Binomial Permutation #
 ############################
+```{r}
+# which compounds differentiate our groups? control and blanks.
+install.packages("XVector")
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install()
+BiocManager::install(c("GenomicFeatures", "AnnotationDbi"))
+BiocManager::install("DESeq2")
+BiocManager::valid()
+BiocManager::install("sessionInfo")
 
-# which compounds differentiate our groups? Exclude day 0.
+NoZero <- subset_samples(VOC, rep!="C01"& rep!="C02"& rep!="C03"& rep!="B01")
+deobj <- phyloseq_to_deseq2(NoZero, ~ hour + rep)
+diagdds <- DESeq(deobj, test="Wald", fitType="local")
+```
 
-library("DESeq2")
-NoZero <- subset_samples(VOC, day!="0") 
-deobj <- phyloseq_to_deseq2(NoZero, ~ rep + microbe)
-diagdds = DESeq(deobj, test="Wald", fitType="local")
-
-
-res = results(diagdds, contrast = c("microbe", "Aa", "Mr"), cooksCutoff = FALSE)
+```{r}
+res = results(diagdds, contrast = c("rep", "24", "48"), cooksCutoff = FALSE)
 
 res = results(diagdds, contrast = c("microbe", "Aa", "MrAa"), cooksCutoff = FALSE)
 

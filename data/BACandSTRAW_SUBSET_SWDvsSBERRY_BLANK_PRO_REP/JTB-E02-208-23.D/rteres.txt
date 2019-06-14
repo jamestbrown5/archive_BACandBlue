@@ -1,6 +1,6 @@
                                                    Area Percent Report
 
-  Data Path : C:\MassHunter\GCMS\1\data\JTB-E02\BACandSTRAW\
+  Data Path : D:\Users\jbrown\Documents\GitHub\BACandBlue\data\BACandSTRAW_SUBSET_SWDvsSBERRY_BLANK_PRO_REP\
   Data File : JTB-E02-208-23.D                                    
   Acq On    : 14 Mar 2019  11:49
   Operator  :  
@@ -11,7 +11,7 @@
   Integration Parameters: events16.e
   Integrator: ChemStation
 
-  Method    : C:\MassHunter\GCMS\1\methods\Arwen Sleep.M
+  Method    : D:\gcms\1\METHODS\DEFAULT.M
   Title     :  
 
   Signal     : TIC: JTB-E02-208-23.D\data.ms
@@ -225,4 +225,4 @@
  
                         Sum of corrected areas: 43565456955
 
-Arwen Sleep.M Thu May 09 15:57:41 2019   
+DEFAULT.M Mon Jun 03 09:54:26 2019   

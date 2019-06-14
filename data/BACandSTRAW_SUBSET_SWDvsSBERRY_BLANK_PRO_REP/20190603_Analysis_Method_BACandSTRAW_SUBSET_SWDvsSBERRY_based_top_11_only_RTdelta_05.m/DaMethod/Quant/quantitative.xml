@@ -1,0 +1,1958 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<QuantitationDataSet SchemaVersion="65586" DataVersion="9" BatchState="Processed" ReferenceWindow="80" ReferenceWindowPercentOrMinutes="Percent" NonReferenceWindow="200" NonReferenceWindowPercentOrMinutes="Percent" CorrelationWindow="0.5" ApplyMultiplierTarget="true" ApplyMultiplierSurrogate="true" ApplyMultiplierMatrixSpike="true" ApplyMultiplierISTD="false" IgnorePeaksNotFound="false" RelativeISTD="false" AuditTrail="false" LibraryPathFileName="C:/Database/NIST08.L" LibraryMethodPathFileName="D:\Users\jbrown\Documents\GitHub\BACandBlue\data\BACandSTRAW_SUBSET_SWDvsSBERRY_BLANK_PRO_REP\20190514_LibMeth_BACandSTRAW_SUBSET_SWDvsSBERRY_BLANK_PRO_REP.m" RefLibraryPathFileName="" RefLibraryPatternPathFileName="" CCMaximumElapsedTimeInHours="0" BracketingType="None" StandardAddition="false" DynamicBackgroundSubtraction="false" BatchName="20190417_FF AND PA IN 10 JUICE a .batch.bin" BatchDataPathFileName="\\Arsflgnv4141qqn\1\data\JTB-E02\BACandBLUE\20190220_FF AND PA IN BROTH or 10 JUICE\QuantResults\20190417_FF AND PA IN 10 JUICE a .batch.bin" DAMethodPathFileNameOrigin="D:\Users\jbrown\Documents\GitHub\BACandBlue\data\BACandSTRAW_SUBSET_SWDvsSBERRY_BLANK_PRO_REP\20190603_Analysis_Method_BACandSTRAW_SUBSET_SWDvsSBERRY_based_top_11_only_RTdelta_05.m" AnalystName="GAINESVILLE\jbrown" ReportGeneratorName="" AnalysisTimeStamp="2019-06-03T10:36:03.1698654-04:00" DAMethodLastAppliedTimeStamp="2019-06-03T10:35:50.8021429-04:00" CalibrationLastUpdatedTimeStamp="0001-01-01T00:00:00-05:00" ReportGenerationStartedTimeStamp="0001-01-01T00:00:00-05:00" ReportResultsDataPathFileName="" AnalyzeQuantVersion="B.08.00" ReportQuantVersion="" ComplianceName="None" ComplianceVersion="8.0.598.0" ComplianceServer="" HashCode="93B69F82930BDE9BA987111F658310B44C21766D4CEF1CC7A1D3F4F9D64FB3B1711751F0EA72693F4540C31B8ED018CFAF14419939783711C457F1FD20D3C095" xmlns="Quantitation">
+  <TargetCompound>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>3</CompoundID>
+    <AccuracyLimitMultiplierLOQ>1</AccuracyLimitMultiplierLOQ>
+    <AccuracyMaximumPercentDeviation>20</AccuracyMaximumPercentDeviation>
+    <CompoundName>Ethyl Acetate</CompoundName>
+    <CompoundType>Target</CompoundType>
+    <ConcentrationUnits>ng/ml</ConcentrationUnits>
+    <CurveFit>fitLinear</CurveFit>
+    <CurveFitOrigin>originIgnore</CurveFitOrigin>
+    <CurveFitWeight>weightEqual</CurveFitWeight>
+    <IntegrationParameters>&lt;ParameterSet usagekey="" assembly="" class="Agilent.MassSpectrometry.DataAnalysis.PSetRTEIntegrator"&gt;
+	&lt;Parameters&gt;
+		&lt;Parameter id="DataPointSampling"&gt;
+			&lt;DisplayName&gt;Data point sampling&lt;/DisplayName&gt;
+			&lt;Value&gt;1&lt;/Value&gt;
+			&lt;Default&gt;1&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;9&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="Smoothing"&gt;
+			&lt;DisplayName&gt;Smoothing&lt;/DisplayName&gt;
+			&lt;Value&gt;false&lt;/Value&gt;
+			&lt;Default&gt;false&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="DetectionFiltering"&gt;
+			&lt;DisplayName&gt;Detection filtering&lt;/DisplayName&gt;
+			&lt;Value&gt;FivePoint&lt;/Value&gt;
+			&lt;Default&gt;FivePoint&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StartThreshold"&gt;
+			&lt;DisplayName&gt;Start threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0.2&lt;/Value&gt;
+			&lt;Default&gt;0.2&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0.001&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StopThreshold"&gt;
+			&lt;DisplayName&gt;Stop threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0&lt;/Value&gt;
+			&lt;Default&gt;0&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="PeakLocation"&gt;
+			&lt;DisplayName&gt;Peak location&lt;/DisplayName&gt;
+			&lt;Value&gt;Top&lt;/Value&gt;
+			&lt;Default&gt;Top&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineReset"&gt;
+			&lt;DisplayName&gt;Baseline reset (# points) &amp;gt;&lt;/DisplayName&gt;
+			&lt;Value&gt;5&lt;/Value&gt;
+			&lt;Default&gt;5&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;500&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineValley"&gt;
+			&lt;DisplayName&gt;If leading or trailing edge &amp;lt;&lt;/DisplayName&gt;
+			&lt;Value&gt;100&lt;/Value&gt;
+			&lt;Default&gt;100&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselinePreference"&gt;
+			&lt;DisplayName&gt;Baseline Preference&lt;/DisplayName&gt;
+			&lt;Value&gt;Tangent&lt;/Value&gt;
+			&lt;Default&gt;Tangent&lt;/Default&gt;
+		&lt;/Parameter&gt;
+	&lt;/Parameters&gt;
+&lt;/ParameterSet&gt;
+</IntegrationParameters>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <Integrator>SpectralSummer</Integrator>
+    <IonPolarity>Positive</IonPolarity>
+    <ISTDFlag>false</ISTDFlag>
+    <LeftRetentionTimeDelta>0.05</LeftRetentionTimeDelta>
+    <MaximumNumberOfHits>9</MaximumNumberOfHits>
+    <Multiplier>1</Multiplier>
+    <MZ>43</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <NoiseAlgorithmType>RMS</NoiseAlgorithmType>
+    <NoiseOfRawSignal>0</NoiseOfRawSignal>
+    <NoiseStandardDeviationMultiplier>5</NoiseStandardDeviationMultiplier>
+    <PeakFilterThreshold>PeakAreaPctThreshold</PeakFilterThreshold>
+    <PeakFilterThresholdValue>5</PeakFilterThresholdValue>
+    <PeakSelectionCriterion>CloseRT</PeakSelectionCriterion>
+    <PrimaryHitPeakID>0</PrimaryHitPeakID>
+    <QuantitateByHeight>false</QuantitateByHeight>
+    <RetentionTime>3.8906333333333332</RetentionTime>
+    <RetentionTimeDeltaUnits>Minutes</RetentionTimeDeltaUnits>
+    <RetentionTimeWindow>10</RetentionTimeWindow>
+    <RetentionTimeWindowUnits>Percent</RetentionTimeWindowUnits>
+    <RightRetentionTimeDelta>0.05</RightRetentionTimeDelta>
+    <ScanType>Ms1Scan</ScanType>
+    <SelectedMZ>44</SelectedMZ>
+    <SignalType>MS</SignalType>
+    <Smoothing>None</Smoothing>
+    <SmoothingFunctionWidth>15</SmoothingFunctionWidth>
+    <SmoothingGaussianWidth>5</SmoothingGaussianWidth>
+    <SpectrumExtractionOverride>Default</SpectrumExtractionOverride>
+    <SpectrumScanInclusion>Average</SpectrumScanInclusion>
+    <ThresholdNumberOfPeaks>100</ThresholdNumberOfPeaks>
+    <TimeReferenceFlag>false</TimeReferenceFlag>
+    <TimeSegment>1</TimeSegment>
+    <Transition>43.0</Transition>
+    <UncertaintyRelativeOrAbsolute>Relative</UncertaintyRelativeOrAbsolute>
+  </TargetCompound>
+  <TargetCompound>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>5</CompoundID>
+    <AccuracyLimitMultiplierLOQ>1</AccuracyLimitMultiplierLOQ>
+    <AccuracyMaximumPercentDeviation>20</AccuracyMaximumPercentDeviation>
+    <CompoundName>Isopropyl acetate</CompoundName>
+    <CompoundType>Target</CompoundType>
+    <ConcentrationUnits>ng/ml</ConcentrationUnits>
+    <CurveFit>fitLinear</CurveFit>
+    <CurveFitOrigin>originIgnore</CurveFitOrigin>
+    <CurveFitWeight>weightEqual</CurveFitWeight>
+    <IntegrationParameters>&lt;ParameterSet usagekey="" assembly="" class="Agilent.MassSpectrometry.DataAnalysis.PSetRTEIntegrator"&gt;
+	&lt;Parameters&gt;
+		&lt;Parameter id="DataPointSampling"&gt;
+			&lt;DisplayName&gt;Data point sampling&lt;/DisplayName&gt;
+			&lt;Value&gt;1&lt;/Value&gt;
+			&lt;Default&gt;1&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;9&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="Smoothing"&gt;
+			&lt;DisplayName&gt;Smoothing&lt;/DisplayName&gt;
+			&lt;Value&gt;false&lt;/Value&gt;
+			&lt;Default&gt;false&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="DetectionFiltering"&gt;
+			&lt;DisplayName&gt;Detection filtering&lt;/DisplayName&gt;
+			&lt;Value&gt;FivePoint&lt;/Value&gt;
+			&lt;Default&gt;FivePoint&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StartThreshold"&gt;
+			&lt;DisplayName&gt;Start threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0.2&lt;/Value&gt;
+			&lt;Default&gt;0.2&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0.001&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StopThreshold"&gt;
+			&lt;DisplayName&gt;Stop threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0&lt;/Value&gt;
+			&lt;Default&gt;0&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="PeakLocation"&gt;
+			&lt;DisplayName&gt;Peak location&lt;/DisplayName&gt;
+			&lt;Value&gt;Top&lt;/Value&gt;
+			&lt;Default&gt;Top&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineReset"&gt;
+			&lt;DisplayName&gt;Baseline reset (# points) &amp;gt;&lt;/DisplayName&gt;
+			&lt;Value&gt;5&lt;/Value&gt;
+			&lt;Default&gt;5&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;500&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineValley"&gt;
+			&lt;DisplayName&gt;If leading or trailing edge &amp;lt;&lt;/DisplayName&gt;
+			&lt;Value&gt;100&lt;/Value&gt;
+			&lt;Default&gt;100&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselinePreference"&gt;
+			&lt;DisplayName&gt;Baseline Preference&lt;/DisplayName&gt;
+			&lt;Value&gt;Tangent&lt;/Value&gt;
+			&lt;Default&gt;Tangent&lt;/Default&gt;
+		&lt;/Parameter&gt;
+	&lt;/Parameters&gt;
+&lt;/ParameterSet&gt;
+</IntegrationParameters>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <Integrator>SpectralSummer</Integrator>
+    <IonPolarity>Positive</IonPolarity>
+    <ISTDFlag>false</ISTDFlag>
+    <LeftRetentionTimeDelta>0.05</LeftRetentionTimeDelta>
+    <MaximumNumberOfHits>9</MaximumNumberOfHits>
+    <Multiplier>1</Multiplier>
+    <MZ>61</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <NoiseAlgorithmType>RMS</NoiseAlgorithmType>
+    <NoiseOfRawSignal>0</NoiseOfRawSignal>
+    <NoiseStandardDeviationMultiplier>5</NoiseStandardDeviationMultiplier>
+    <PeakFilterThreshold>PeakAreaPctThreshold</PeakFilterThreshold>
+    <PeakFilterThresholdValue>5</PeakFilterThresholdValue>
+    <PeakSelectionCriterion>CloseRT</PeakSelectionCriterion>
+    <PrimaryHitPeakID>0</PrimaryHitPeakID>
+    <QuantitateByHeight>false</QuantitateByHeight>
+    <RetentionTime>4.012483333333333</RetentionTime>
+    <RetentionTimeDeltaUnits>Minutes</RetentionTimeDeltaUnits>
+    <RetentionTimeWindow>10</RetentionTimeWindow>
+    <RetentionTimeWindowUnits>Percent</RetentionTimeWindowUnits>
+    <RightRetentionTimeDelta>0.05</RightRetentionTimeDelta>
+    <ScanType>Ms1Scan</ScanType>
+    <SelectedMZ>60</SelectedMZ>
+    <SignalType>MS</SignalType>
+    <Smoothing>None</Smoothing>
+    <SmoothingFunctionWidth>15</SmoothingFunctionWidth>
+    <SmoothingGaussianWidth>5</SmoothingGaussianWidth>
+    <SpectrumExtractionOverride>Default</SpectrumExtractionOverride>
+    <SpectrumScanInclusion>Average</SpectrumScanInclusion>
+    <ThresholdNumberOfPeaks>100</ThresholdNumberOfPeaks>
+    <TimeReferenceFlag>false</TimeReferenceFlag>
+    <TimeSegment>1</TimeSegment>
+    <Transition>61.0</Transition>
+    <UncertaintyRelativeOrAbsolute>Relative</UncertaintyRelativeOrAbsolute>
+  </TargetCompound>
+  <TargetCompound>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>8</CompoundID>
+    <AccuracyLimitMultiplierLOQ>1</AccuracyLimitMultiplierLOQ>
+    <AccuracyMaximumPercentDeviation>20</AccuracyMaximumPercentDeviation>
+    <CompoundName>Methyl propionate</CompoundName>
+    <CompoundType>Target</CompoundType>
+    <ConcentrationUnits>ng/ml</ConcentrationUnits>
+    <CurveFit>fitLinear</CurveFit>
+    <CurveFitOrigin>originIgnore</CurveFitOrigin>
+    <CurveFitWeight>weightEqual</CurveFitWeight>
+    <IntegrationParameters>&lt;ParameterSet usagekey="" assembly="" class="Agilent.MassSpectrometry.DataAnalysis.PSetRTEIntegrator"&gt;
+	&lt;Parameters&gt;
+		&lt;Parameter id="DataPointSampling"&gt;
+			&lt;DisplayName&gt;Data point sampling&lt;/DisplayName&gt;
+			&lt;Value&gt;1&lt;/Value&gt;
+			&lt;Default&gt;1&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;9&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="Smoothing"&gt;
+			&lt;DisplayName&gt;Smoothing&lt;/DisplayName&gt;
+			&lt;Value&gt;false&lt;/Value&gt;
+			&lt;Default&gt;false&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="DetectionFiltering"&gt;
+			&lt;DisplayName&gt;Detection filtering&lt;/DisplayName&gt;
+			&lt;Value&gt;FivePoint&lt;/Value&gt;
+			&lt;Default&gt;FivePoint&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StartThreshold"&gt;
+			&lt;DisplayName&gt;Start threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0.2&lt;/Value&gt;
+			&lt;Default&gt;0.2&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0.001&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StopThreshold"&gt;
+			&lt;DisplayName&gt;Stop threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0&lt;/Value&gt;
+			&lt;Default&gt;0&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="PeakLocation"&gt;
+			&lt;DisplayName&gt;Peak location&lt;/DisplayName&gt;
+			&lt;Value&gt;Top&lt;/Value&gt;
+			&lt;Default&gt;Top&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineReset"&gt;
+			&lt;DisplayName&gt;Baseline reset (# points) &amp;gt;&lt;/DisplayName&gt;
+			&lt;Value&gt;5&lt;/Value&gt;
+			&lt;Default&gt;5&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;500&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineValley"&gt;
+			&lt;DisplayName&gt;If leading or trailing edge &amp;lt;&lt;/DisplayName&gt;
+			&lt;Value&gt;100&lt;/Value&gt;
+			&lt;Default&gt;100&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselinePreference"&gt;
+			&lt;DisplayName&gt;Baseline Preference&lt;/DisplayName&gt;
+			&lt;Value&gt;Tangent&lt;/Value&gt;
+			&lt;Default&gt;Tangent&lt;/Default&gt;
+		&lt;/Parameter&gt;
+	&lt;/Parameters&gt;
+&lt;/ParameterSet&gt;
+</IntegrationParameters>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <Integrator>SpectralSummer</Integrator>
+    <IonPolarity>Positive</IonPolarity>
+    <ISTDFlag>false</ISTDFlag>
+    <LeftRetentionTimeDelta>0.05</LeftRetentionTimeDelta>
+    <MaximumNumberOfHits>9</MaximumNumberOfHits>
+    <Multiplier>1</Multiplier>
+    <MZ>43</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <NoiseAlgorithmType>RMS</NoiseAlgorithmType>
+    <NoiseOfRawSignal>0</NoiseOfRawSignal>
+    <NoiseStandardDeviationMultiplier>5</NoiseStandardDeviationMultiplier>
+    <PeakFilterThreshold>PeakAreaPctThreshold</PeakFilterThreshold>
+    <PeakFilterThresholdValue>5</PeakFilterThresholdValue>
+    <PeakSelectionCriterion>CloseRT</PeakSelectionCriterion>
+    <PrimaryHitPeakID>0</PrimaryHitPeakID>
+    <QuantitateByHeight>false</QuantitateByHeight>
+    <RetentionTime>4.0612166666666667</RetentionTime>
+    <RetentionTimeDeltaUnits>Minutes</RetentionTimeDeltaUnits>
+    <RetentionTimeWindow>10</RetentionTimeWindow>
+    <RetentionTimeWindowUnits>Percent</RetentionTimeWindowUnits>
+    <RightRetentionTimeDelta>0.05</RightRetentionTimeDelta>
+    <ScanType>Ms1Scan</ScanType>
+    <SelectedMZ>85</SelectedMZ>
+    <SignalType>MS</SignalType>
+    <Smoothing>None</Smoothing>
+    <SmoothingFunctionWidth>15</SmoothingFunctionWidth>
+    <SmoothingGaussianWidth>5</SmoothingGaussianWidth>
+    <SpectrumExtractionOverride>Default</SpectrumExtractionOverride>
+    <SpectrumScanInclusion>Average</SpectrumScanInclusion>
+    <ThresholdNumberOfPeaks>100</ThresholdNumberOfPeaks>
+    <TimeReferenceFlag>false</TimeReferenceFlag>
+    <TimeSegment>1</TimeSegment>
+    <Transition>43.0</Transition>
+    <UncertaintyRelativeOrAbsolute>Relative</UncertaintyRelativeOrAbsolute>
+  </TargetCompound>
+  <TargetCompound>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>9</CompoundID>
+    <AccuracyLimitMultiplierLOQ>1</AccuracyLimitMultiplierLOQ>
+    <AccuracyMaximumPercentDeviation>20</AccuracyMaximumPercentDeviation>
+    <CompoundName>Propane, 2-ethoxy-</CompoundName>
+    <CompoundType>Target</CompoundType>
+    <ConcentrationUnits>ng/ml</ConcentrationUnits>
+    <CurveFit>fitLinear</CurveFit>
+    <CurveFitOrigin>originIgnore</CurveFitOrigin>
+    <CurveFitWeight>weightEqual</CurveFitWeight>
+    <IntegrationParameters>&lt;ParameterSet usagekey="" assembly="" class="Agilent.MassSpectrometry.DataAnalysis.PSetRTEIntegrator"&gt;
+	&lt;Parameters&gt;
+		&lt;Parameter id="DataPointSampling"&gt;
+			&lt;DisplayName&gt;Data point sampling&lt;/DisplayName&gt;
+			&lt;Value&gt;1&lt;/Value&gt;
+			&lt;Default&gt;1&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;9&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="Smoothing"&gt;
+			&lt;DisplayName&gt;Smoothing&lt;/DisplayName&gt;
+			&lt;Value&gt;false&lt;/Value&gt;
+			&lt;Default&gt;false&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="DetectionFiltering"&gt;
+			&lt;DisplayName&gt;Detection filtering&lt;/DisplayName&gt;
+			&lt;Value&gt;FivePoint&lt;/Value&gt;
+			&lt;Default&gt;FivePoint&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StartThreshold"&gt;
+			&lt;DisplayName&gt;Start threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0.2&lt;/Value&gt;
+			&lt;Default&gt;0.2&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0.001&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StopThreshold"&gt;
+			&lt;DisplayName&gt;Stop threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0&lt;/Value&gt;
+			&lt;Default&gt;0&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="PeakLocation"&gt;
+			&lt;DisplayName&gt;Peak location&lt;/DisplayName&gt;
+			&lt;Value&gt;Top&lt;/Value&gt;
+			&lt;Default&gt;Top&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineReset"&gt;
+			&lt;DisplayName&gt;Baseline reset (# points) &amp;gt;&lt;/DisplayName&gt;
+			&lt;Value&gt;5&lt;/Value&gt;
+			&lt;Default&gt;5&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;500&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineValley"&gt;
+			&lt;DisplayName&gt;If leading or trailing edge &amp;lt;&lt;/DisplayName&gt;
+			&lt;Value&gt;100&lt;/Value&gt;
+			&lt;Default&gt;100&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselinePreference"&gt;
+			&lt;DisplayName&gt;Baseline Preference&lt;/DisplayName&gt;
+			&lt;Value&gt;Tangent&lt;/Value&gt;
+			&lt;Default&gt;Tangent&lt;/Default&gt;
+		&lt;/Parameter&gt;
+	&lt;/Parameters&gt;
+&lt;/ParameterSet&gt;
+</IntegrationParameters>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <Integrator>SpectralSummer</Integrator>
+    <IonPolarity>Positive</IonPolarity>
+    <ISTDFlag>false</ISTDFlag>
+    <LeftRetentionTimeDelta>0.05</LeftRetentionTimeDelta>
+    <MaximumNumberOfHits>9</MaximumNumberOfHits>
+    <Multiplier>1</Multiplier>
+    <MZ>45.1</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <NoiseAlgorithmType>RMS</NoiseAlgorithmType>
+    <NoiseOfRawSignal>0</NoiseOfRawSignal>
+    <NoiseStandardDeviationMultiplier>5</NoiseStandardDeviationMultiplier>
+    <PeakFilterThreshold>PeakAreaPctThreshold</PeakFilterThreshold>
+    <PeakFilterThresholdValue>5</PeakFilterThresholdValue>
+    <PeakSelectionCriterion>CloseRT</PeakSelectionCriterion>
+    <PrimaryHitPeakID>0</PrimaryHitPeakID>
+    <QuantitateByHeight>false</QuantitateByHeight>
+    <RetentionTime>4.3942666666666668</RetentionTime>
+    <RetentionTimeDeltaUnits>Minutes</RetentionTimeDeltaUnits>
+    <RetentionTimeWindow>10</RetentionTimeWindow>
+    <RetentionTimeWindowUnits>Percent</RetentionTimeWindowUnits>
+    <RightRetentionTimeDelta>0.05</RightRetentionTimeDelta>
+    <ScanType>Ms1Scan</ScanType>
+    <SelectedMZ>72</SelectedMZ>
+    <SignalType>MS</SignalType>
+    <Smoothing>None</Smoothing>
+    <SmoothingFunctionWidth>15</SmoothingFunctionWidth>
+    <SmoothingGaussianWidth>5</SmoothingGaussianWidth>
+    <SpectrumExtractionOverride>Default</SpectrumExtractionOverride>
+    <SpectrumScanInclusion>Average</SpectrumScanInclusion>
+    <ThresholdNumberOfPeaks>100</ThresholdNumberOfPeaks>
+    <TimeReferenceFlag>false</TimeReferenceFlag>
+    <TimeSegment>1</TimeSegment>
+    <Transition>45.1</Transition>
+    <UncertaintyRelativeOrAbsolute>Relative</UncertaintyRelativeOrAbsolute>
+  </TargetCompound>
+  <TargetCompound>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>10</CompoundID>
+    <AccuracyLimitMultiplierLOQ>1</AccuracyLimitMultiplierLOQ>
+    <AccuracyMaximumPercentDeviation>20</AccuracyMaximumPercentDeviation>
+    <CompoundName>Ethanol</CompoundName>
+    <CompoundType>Target</CompoundType>
+    <ConcentrationUnits>ng/ml</ConcentrationUnits>
+    <CurveFit>fitLinear</CurveFit>
+    <CurveFitOrigin>originIgnore</CurveFitOrigin>
+    <CurveFitWeight>weightEqual</CurveFitWeight>
+    <IntegrationParameters>&lt;ParameterSet usagekey="" assembly="" class="Agilent.MassSpectrometry.DataAnalysis.PSetRTEIntegrator"&gt;
+	&lt;Parameters&gt;
+		&lt;Parameter id="DataPointSampling"&gt;
+			&lt;DisplayName&gt;Data point sampling&lt;/DisplayName&gt;
+			&lt;Value&gt;1&lt;/Value&gt;
+			&lt;Default&gt;1&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;9&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="Smoothing"&gt;
+			&lt;DisplayName&gt;Smoothing&lt;/DisplayName&gt;
+			&lt;Value&gt;false&lt;/Value&gt;
+			&lt;Default&gt;false&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="DetectionFiltering"&gt;
+			&lt;DisplayName&gt;Detection filtering&lt;/DisplayName&gt;
+			&lt;Value&gt;FivePoint&lt;/Value&gt;
+			&lt;Default&gt;FivePoint&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StartThreshold"&gt;
+			&lt;DisplayName&gt;Start threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0.2&lt;/Value&gt;
+			&lt;Default&gt;0.2&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0.001&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StopThreshold"&gt;
+			&lt;DisplayName&gt;Stop threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0&lt;/Value&gt;
+			&lt;Default&gt;0&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="PeakLocation"&gt;
+			&lt;DisplayName&gt;Peak location&lt;/DisplayName&gt;
+			&lt;Value&gt;Top&lt;/Value&gt;
+			&lt;Default&gt;Top&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineReset"&gt;
+			&lt;DisplayName&gt;Baseline reset (# points) &amp;gt;&lt;/DisplayName&gt;
+			&lt;Value&gt;5&lt;/Value&gt;
+			&lt;Default&gt;5&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;500&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineValley"&gt;
+			&lt;DisplayName&gt;If leading or trailing edge &amp;lt;&lt;/DisplayName&gt;
+			&lt;Value&gt;100&lt;/Value&gt;
+			&lt;Default&gt;100&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselinePreference"&gt;
+			&lt;DisplayName&gt;Baseline Preference&lt;/DisplayName&gt;
+			&lt;Value&gt;Tangent&lt;/Value&gt;
+			&lt;Default&gt;Tangent&lt;/Default&gt;
+		&lt;/Parameter&gt;
+	&lt;/Parameters&gt;
+&lt;/ParameterSet&gt;
+</IntegrationParameters>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <Integrator>SpectralSummer</Integrator>
+    <IonPolarity>Positive</IonPolarity>
+    <ISTDFlag>false</ISTDFlag>
+    <LeftRetentionTimeDelta>0.05</LeftRetentionTimeDelta>
+    <MaximumNumberOfHits>9</MaximumNumberOfHits>
+    <Multiplier>1</Multiplier>
+    <MZ>45.1</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <NoiseAlgorithmType>RMS</NoiseAlgorithmType>
+    <NoiseOfRawSignal>0</NoiseOfRawSignal>
+    <NoiseStandardDeviationMultiplier>5</NoiseStandardDeviationMultiplier>
+    <PeakFilterThreshold>PeakAreaPctThreshold</PeakFilterThreshold>
+    <PeakFilterThresholdValue>5</PeakFilterThresholdValue>
+    <PeakSelectionCriterion>CloseRT</PeakSelectionCriterion>
+    <PrimaryHitPeakID>0</PrimaryHitPeakID>
+    <QuantitateByHeight>false</QuantitateByHeight>
+    <RetentionTime>4.4836166666666664</RetentionTime>
+    <RetentionTimeDeltaUnits>Minutes</RetentionTimeDeltaUnits>
+    <RetentionTimeWindow>10</RetentionTimeWindow>
+    <RetentionTimeWindowUnits>Percent</RetentionTimeWindowUnits>
+    <RightRetentionTimeDelta>0.05</RightRetentionTimeDelta>
+    <ScanType>Ms1Scan</ScanType>
+    <SelectedMZ>42</SelectedMZ>
+    <SignalType>MS</SignalType>
+    <Smoothing>None</Smoothing>
+    <SmoothingFunctionWidth>15</SmoothingFunctionWidth>
+    <SmoothingGaussianWidth>5</SmoothingGaussianWidth>
+    <SpectrumExtractionOverride>Default</SpectrumExtractionOverride>
+    <SpectrumScanInclusion>Average</SpectrumScanInclusion>
+    <ThresholdNumberOfPeaks>100</ThresholdNumberOfPeaks>
+    <TimeReferenceFlag>false</TimeReferenceFlag>
+    <TimeSegment>1</TimeSegment>
+    <Transition>45.1</Transition>
+    <UncertaintyRelativeOrAbsolute>Relative</UncertaintyRelativeOrAbsolute>
+  </TargetCompound>
+  <TargetCompound>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>16</CompoundID>
+    <AccuracyLimitMultiplierLOQ>1</AccuracyLimitMultiplierLOQ>
+    <AccuracyMaximumPercentDeviation>20</AccuracyMaximumPercentDeviation>
+    <CompoundName>2-Pentanone</CompoundName>
+    <CompoundType>Target</CompoundType>
+    <ConcentrationUnits>ng/ml</ConcentrationUnits>
+    <CurveFit>fitLinear</CurveFit>
+    <CurveFitOrigin>originIgnore</CurveFitOrigin>
+    <CurveFitWeight>weightEqual</CurveFitWeight>
+    <IntegrationParameters>&lt;ParameterSet usagekey="" assembly="" class="Agilent.MassSpectrometry.DataAnalysis.PSetRTEIntegrator"&gt;
+	&lt;Parameters&gt;
+		&lt;Parameter id="DataPointSampling"&gt;
+			&lt;DisplayName&gt;Data point sampling&lt;/DisplayName&gt;
+			&lt;Value&gt;1&lt;/Value&gt;
+			&lt;Default&gt;1&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;9&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="Smoothing"&gt;
+			&lt;DisplayName&gt;Smoothing&lt;/DisplayName&gt;
+			&lt;Value&gt;false&lt;/Value&gt;
+			&lt;Default&gt;false&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="DetectionFiltering"&gt;
+			&lt;DisplayName&gt;Detection filtering&lt;/DisplayName&gt;
+			&lt;Value&gt;FivePoint&lt;/Value&gt;
+			&lt;Default&gt;FivePoint&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StartThreshold"&gt;
+			&lt;DisplayName&gt;Start threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0.2&lt;/Value&gt;
+			&lt;Default&gt;0.2&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0.001&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StopThreshold"&gt;
+			&lt;DisplayName&gt;Stop threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0&lt;/Value&gt;
+			&lt;Default&gt;0&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="PeakLocation"&gt;
+			&lt;DisplayName&gt;Peak location&lt;/DisplayName&gt;
+			&lt;Value&gt;Top&lt;/Value&gt;
+			&lt;Default&gt;Top&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineReset"&gt;
+			&lt;DisplayName&gt;Baseline reset (# points) &amp;gt;&lt;/DisplayName&gt;
+			&lt;Value&gt;5&lt;/Value&gt;
+			&lt;Default&gt;5&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;500&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineValley"&gt;
+			&lt;DisplayName&gt;If leading or trailing edge &amp;lt;&lt;/DisplayName&gt;
+			&lt;Value&gt;100&lt;/Value&gt;
+			&lt;Default&gt;100&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselinePreference"&gt;
+			&lt;DisplayName&gt;Baseline Preference&lt;/DisplayName&gt;
+			&lt;Value&gt;Tangent&lt;/Value&gt;
+			&lt;Default&gt;Tangent&lt;/Default&gt;
+		&lt;/Parameter&gt;
+	&lt;/Parameters&gt;
+&lt;/ParameterSet&gt;
+</IntegrationParameters>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <Integrator>SpectralSummer</Integrator>
+    <IonPolarity>Positive</IonPolarity>
+    <ISTDFlag>false</ISTDFlag>
+    <LeftRetentionTimeDelta>0.05</LeftRetentionTimeDelta>
+    <MaximumNumberOfHits>9</MaximumNumberOfHits>
+    <Multiplier>1</Multiplier>
+    <MZ>43.1</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <NoiseAlgorithmType>RMS</NoiseAlgorithmType>
+    <NoiseOfRawSignal>0</NoiseOfRawSignal>
+    <NoiseStandardDeviationMultiplier>5</NoiseStandardDeviationMultiplier>
+    <PeakFilterThreshold>PeakAreaPctThreshold</PeakFilterThreshold>
+    <PeakFilterThresholdValue>5</PeakFilterThresholdValue>
+    <PeakSelectionCriterion>CloseRT</PeakSelectionCriterion>
+    <PrimaryHitPeakID>0</PrimaryHitPeakID>
+    <QuantitateByHeight>false</QuantitateByHeight>
+    <RetentionTime>5.1334666666666671</RetentionTime>
+    <RetentionTimeDeltaUnits>Minutes</RetentionTimeDeltaUnits>
+    <RetentionTimeWindow>10</RetentionTimeWindow>
+    <RetentionTimeWindowUnits>Percent</RetentionTimeWindowUnits>
+    <RightRetentionTimeDelta>0.05</RightRetentionTimeDelta>
+    <ScanType>Ms1Scan</ScanType>
+    <SelectedMZ>133</SelectedMZ>
+    <SignalType>MS</SignalType>
+    <Smoothing>None</Smoothing>
+    <SmoothingFunctionWidth>15</SmoothingFunctionWidth>
+    <SmoothingGaussianWidth>5</SmoothingGaussianWidth>
+    <SpectrumExtractionOverride>Default</SpectrumExtractionOverride>
+    <SpectrumScanInclusion>Average</SpectrumScanInclusion>
+    <ThresholdNumberOfPeaks>100</ThresholdNumberOfPeaks>
+    <TimeReferenceFlag>false</TimeReferenceFlag>
+    <TimeSegment>1</TimeSegment>
+    <Transition>43.1</Transition>
+    <UncertaintyRelativeOrAbsolute>Relative</UncertaintyRelativeOrAbsolute>
+  </TargetCompound>
+  <TargetCompound>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>17</CompoundID>
+    <AccuracyLimitMultiplierLOQ>1</AccuracyLimitMultiplierLOQ>
+    <AccuracyMaximumPercentDeviation>20</AccuracyMaximumPercentDeviation>
+    <CompoundName>Isopropyl butyrate</CompoundName>
+    <CompoundType>Target</CompoundType>
+    <ConcentrationUnits>ng/ml</ConcentrationUnits>
+    <CurveFit>fitLinear</CurveFit>
+    <CurveFitOrigin>originIgnore</CurveFitOrigin>
+    <CurveFitWeight>weightEqual</CurveFitWeight>
+    <IntegrationParameters>&lt;ParameterSet usagekey="" assembly="" class="Agilent.MassSpectrometry.DataAnalysis.PSetRTEIntegrator"&gt;
+	&lt;Parameters&gt;
+		&lt;Parameter id="DataPointSampling"&gt;
+			&lt;DisplayName&gt;Data point sampling&lt;/DisplayName&gt;
+			&lt;Value&gt;1&lt;/Value&gt;
+			&lt;Default&gt;1&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;9&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="Smoothing"&gt;
+			&lt;DisplayName&gt;Smoothing&lt;/DisplayName&gt;
+			&lt;Value&gt;false&lt;/Value&gt;
+			&lt;Default&gt;false&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="DetectionFiltering"&gt;
+			&lt;DisplayName&gt;Detection filtering&lt;/DisplayName&gt;
+			&lt;Value&gt;FivePoint&lt;/Value&gt;
+			&lt;Default&gt;FivePoint&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StartThreshold"&gt;
+			&lt;DisplayName&gt;Start threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0.2&lt;/Value&gt;
+			&lt;Default&gt;0.2&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0.001&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StopThreshold"&gt;
+			&lt;DisplayName&gt;Stop threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0&lt;/Value&gt;
+			&lt;Default&gt;0&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="PeakLocation"&gt;
+			&lt;DisplayName&gt;Peak location&lt;/DisplayName&gt;
+			&lt;Value&gt;Top&lt;/Value&gt;
+			&lt;Default&gt;Top&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineReset"&gt;
+			&lt;DisplayName&gt;Baseline reset (# points) &amp;gt;&lt;/DisplayName&gt;
+			&lt;Value&gt;5&lt;/Value&gt;
+			&lt;Default&gt;5&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;500&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineValley"&gt;
+			&lt;DisplayName&gt;If leading or trailing edge &amp;lt;&lt;/DisplayName&gt;
+			&lt;Value&gt;100&lt;/Value&gt;
+			&lt;Default&gt;100&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselinePreference"&gt;
+			&lt;DisplayName&gt;Baseline Preference&lt;/DisplayName&gt;
+			&lt;Value&gt;Tangent&lt;/Value&gt;
+			&lt;Default&gt;Tangent&lt;/Default&gt;
+		&lt;/Parameter&gt;
+	&lt;/Parameters&gt;
+&lt;/ParameterSet&gt;
+</IntegrationParameters>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <Integrator>SpectralSummer</Integrator>
+    <IonPolarity>Positive</IonPolarity>
+    <ISTDFlag>false</ISTDFlag>
+    <LeftRetentionTimeDelta>0.05</LeftRetentionTimeDelta>
+    <MaximumNumberOfHits>9</MaximumNumberOfHits>
+    <Multiplier>1</Multiplier>
+    <MZ>43</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <NoiseAlgorithmType>RMS</NoiseAlgorithmType>
+    <NoiseOfRawSignal>0</NoiseOfRawSignal>
+    <NoiseStandardDeviationMultiplier>5</NoiseStandardDeviationMultiplier>
+    <PeakFilterThreshold>PeakAreaPctThreshold</PeakFilterThreshold>
+    <PeakFilterThresholdValue>5</PeakFilterThresholdValue>
+    <PeakSelectionCriterion>CloseRT</PeakSelectionCriterion>
+    <PrimaryHitPeakID>0</PrimaryHitPeakID>
+    <QuantitateByHeight>false</QuantitateByHeight>
+    <RetentionTime>6.3032</RetentionTime>
+    <RetentionTimeDeltaUnits>Minutes</RetentionTimeDeltaUnits>
+    <RetentionTimeWindow>10</RetentionTimeWindow>
+    <RetentionTimeWindowUnits>Percent</RetentionTimeWindowUnits>
+    <RightRetentionTimeDelta>0.05</RightRetentionTimeDelta>
+    <ScanType>Ms1Scan</ScanType>
+    <SelectedMZ>207</SelectedMZ>
+    <SignalType>MS</SignalType>
+    <Smoothing>None</Smoothing>
+    <SmoothingFunctionWidth>15</SmoothingFunctionWidth>
+    <SmoothingGaussianWidth>5</SmoothingGaussianWidth>
+    <SpectrumExtractionOverride>Default</SpectrumExtractionOverride>
+    <SpectrumScanInclusion>Average</SpectrumScanInclusion>
+    <ThresholdNumberOfPeaks>100</ThresholdNumberOfPeaks>
+    <TimeReferenceFlag>false</TimeReferenceFlag>
+    <TimeSegment>1</TimeSegment>
+    <Transition>43.0</Transition>
+    <UncertaintyRelativeOrAbsolute>Relative</UncertaintyRelativeOrAbsolute>
+  </TargetCompound>
+  <TargetCompound>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>24</CompoundID>
+    <AccuracyLimitMultiplierLOQ>1</AccuracyLimitMultiplierLOQ>
+    <AccuracyMaximumPercentDeviation>20</AccuracyMaximumPercentDeviation>
+    <CompoundName>Pentanoic acid, 1-methylethyl ester</CompoundName>
+    <CompoundType>Target</CompoundType>
+    <ConcentrationUnits>ng/ml</ConcentrationUnits>
+    <CurveFit>fitLinear</CurveFit>
+    <CurveFitOrigin>originIgnore</CurveFitOrigin>
+    <CurveFitWeight>weightEqual</CurveFitWeight>
+    <IntegrationParameters>&lt;ParameterSet usagekey="" assembly="" class="Agilent.MassSpectrometry.DataAnalysis.PSetRTEIntegrator"&gt;
+	&lt;Parameters&gt;
+		&lt;Parameter id="DataPointSampling"&gt;
+			&lt;DisplayName&gt;Data point sampling&lt;/DisplayName&gt;
+			&lt;Value&gt;1&lt;/Value&gt;
+			&lt;Default&gt;1&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;9&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="Smoothing"&gt;
+			&lt;DisplayName&gt;Smoothing&lt;/DisplayName&gt;
+			&lt;Value&gt;false&lt;/Value&gt;
+			&lt;Default&gt;false&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="DetectionFiltering"&gt;
+			&lt;DisplayName&gt;Detection filtering&lt;/DisplayName&gt;
+			&lt;Value&gt;FivePoint&lt;/Value&gt;
+			&lt;Default&gt;FivePoint&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StartThreshold"&gt;
+			&lt;DisplayName&gt;Start threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0.2&lt;/Value&gt;
+			&lt;Default&gt;0.2&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0.001&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StopThreshold"&gt;
+			&lt;DisplayName&gt;Stop threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0&lt;/Value&gt;
+			&lt;Default&gt;0&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="PeakLocation"&gt;
+			&lt;DisplayName&gt;Peak location&lt;/DisplayName&gt;
+			&lt;Value&gt;Top&lt;/Value&gt;
+			&lt;Default&gt;Top&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineReset"&gt;
+			&lt;DisplayName&gt;Baseline reset (# points) &amp;gt;&lt;/DisplayName&gt;
+			&lt;Value&gt;5&lt;/Value&gt;
+			&lt;Default&gt;5&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;500&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineValley"&gt;
+			&lt;DisplayName&gt;If leading or trailing edge &amp;lt;&lt;/DisplayName&gt;
+			&lt;Value&gt;100&lt;/Value&gt;
+			&lt;Default&gt;100&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselinePreference"&gt;
+			&lt;DisplayName&gt;Baseline Preference&lt;/DisplayName&gt;
+			&lt;Value&gt;Tangent&lt;/Value&gt;
+			&lt;Default&gt;Tangent&lt;/Default&gt;
+		&lt;/Parameter&gt;
+	&lt;/Parameters&gt;
+&lt;/ParameterSet&gt;
+</IntegrationParameters>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <Integrator>SpectralSummer</Integrator>
+    <IonPolarity>Positive</IonPolarity>
+    <ISTDFlag>false</ISTDFlag>
+    <LeftRetentionTimeDelta>0.05</LeftRetentionTimeDelta>
+    <MaximumNumberOfHits>9</MaximumNumberOfHits>
+    <Multiplier>1</Multiplier>
+    <MZ>85.1</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <NoiseAlgorithmType>RMS</NoiseAlgorithmType>
+    <NoiseOfRawSignal>0</NoiseOfRawSignal>
+    <NoiseStandardDeviationMultiplier>5</NoiseStandardDeviationMultiplier>
+    <PeakFilterThreshold>PeakAreaPctThreshold</PeakFilterThreshold>
+    <PeakFilterThresholdValue>5</PeakFilterThresholdValue>
+    <PeakSelectionCriterion>CloseRT</PeakSelectionCriterion>
+    <PrimaryHitPeakID>0</PrimaryHitPeakID>
+    <QuantitateByHeight>false</QuantitateByHeight>
+    <RetentionTime>6.5956333333333337</RetentionTime>
+    <RetentionTimeDeltaUnits>Minutes</RetentionTimeDeltaUnits>
+    <RetentionTimeWindow>10</RetentionTimeWindow>
+    <RetentionTimeWindowUnits>Percent</RetentionTimeWindowUnits>
+    <RightRetentionTimeDelta>0.05</RightRetentionTimeDelta>
+    <ScanType>Ms1Scan</ScanType>
+    <SelectedMZ>72</SelectedMZ>
+    <SignalType>MS</SignalType>
+    <Smoothing>None</Smoothing>
+    <SmoothingFunctionWidth>15</SmoothingFunctionWidth>
+    <SmoothingGaussianWidth>5</SmoothingGaussianWidth>
+    <SpectrumExtractionOverride>Default</SpectrumExtractionOverride>
+    <SpectrumScanInclusion>Average</SpectrumScanInclusion>
+    <ThresholdNumberOfPeaks>100</ThresholdNumberOfPeaks>
+    <TimeReferenceFlag>false</TimeReferenceFlag>
+    <TimeSegment>1</TimeSegment>
+    <Transition>85.1</Transition>
+    <UncertaintyRelativeOrAbsolute>Relative</UncertaintyRelativeOrAbsolute>
+  </TargetCompound>
+  <TargetCompound>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>44</CompoundID>
+    <AccuracyLimitMultiplierLOQ>1</AccuracyLimitMultiplierLOQ>
+    <AccuracyMaximumPercentDeviation>20</AccuracyMaximumPercentDeviation>
+    <CompoundName>Butanoic acid, butyl ester</CompoundName>
+    <CompoundType>Target</CompoundType>
+    <ConcentrationUnits>ng/ml</ConcentrationUnits>
+    <CurveFit>fitLinear</CurveFit>
+    <CurveFitOrigin>originIgnore</CurveFitOrigin>
+    <CurveFitWeight>weightEqual</CurveFitWeight>
+    <IntegrationParameters>&lt;ParameterSet usagekey="" assembly="" class="Agilent.MassSpectrometry.DataAnalysis.PSetRTEIntegrator"&gt;
+	&lt;Parameters&gt;
+		&lt;Parameter id="DataPointSampling"&gt;
+			&lt;DisplayName&gt;Data point sampling&lt;/DisplayName&gt;
+			&lt;Value&gt;1&lt;/Value&gt;
+			&lt;Default&gt;1&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;9&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="Smoothing"&gt;
+			&lt;DisplayName&gt;Smoothing&lt;/DisplayName&gt;
+			&lt;Value&gt;false&lt;/Value&gt;
+			&lt;Default&gt;false&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="DetectionFiltering"&gt;
+			&lt;DisplayName&gt;Detection filtering&lt;/DisplayName&gt;
+			&lt;Value&gt;FivePoint&lt;/Value&gt;
+			&lt;Default&gt;FivePoint&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StartThreshold"&gt;
+			&lt;DisplayName&gt;Start threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0.2&lt;/Value&gt;
+			&lt;Default&gt;0.2&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0.001&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StopThreshold"&gt;
+			&lt;DisplayName&gt;Stop threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0&lt;/Value&gt;
+			&lt;Default&gt;0&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="PeakLocation"&gt;
+			&lt;DisplayName&gt;Peak location&lt;/DisplayName&gt;
+			&lt;Value&gt;Top&lt;/Value&gt;
+			&lt;Default&gt;Top&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineReset"&gt;
+			&lt;DisplayName&gt;Baseline reset (# points) &amp;gt;&lt;/DisplayName&gt;
+			&lt;Value&gt;5&lt;/Value&gt;
+			&lt;Default&gt;5&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;500&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineValley"&gt;
+			&lt;DisplayName&gt;If leading or trailing edge &amp;lt;&lt;/DisplayName&gt;
+			&lt;Value&gt;100&lt;/Value&gt;
+			&lt;Default&gt;100&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselinePreference"&gt;
+			&lt;DisplayName&gt;Baseline Preference&lt;/DisplayName&gt;
+			&lt;Value&gt;Tangent&lt;/Value&gt;
+			&lt;Default&gt;Tangent&lt;/Default&gt;
+		&lt;/Parameter&gt;
+	&lt;/Parameters&gt;
+&lt;/ParameterSet&gt;
+</IntegrationParameters>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <Integrator>SpectralSummer</Integrator>
+    <IonPolarity>Positive</IonPolarity>
+    <ISTDFlag>false</ISTDFlag>
+    <LeftRetentionTimeDelta>0.05</LeftRetentionTimeDelta>
+    <MaximumNumberOfHits>9</MaximumNumberOfHits>
+    <Multiplier>1</Multiplier>
+    <MZ>71</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <NoiseAlgorithmType>RMS</NoiseAlgorithmType>
+    <NoiseOfRawSignal>0</NoiseOfRawSignal>
+    <NoiseStandardDeviationMultiplier>5</NoiseStandardDeviationMultiplier>
+    <PeakFilterThreshold>PeakAreaPctThreshold</PeakFilterThreshold>
+    <PeakFilterThresholdValue>5</PeakFilterThresholdValue>
+    <PeakSelectionCriterion>CloseRT</PeakSelectionCriterion>
+    <PrimaryHitPeakID>0</PrimaryHitPeakID>
+    <QuantitateByHeight>false</QuantitateByHeight>
+    <RetentionTime>9.2519</RetentionTime>
+    <RetentionTimeDeltaUnits>Minutes</RetentionTimeDeltaUnits>
+    <RetentionTimeWindow>10</RetentionTimeWindow>
+    <RetentionTimeWindowUnits>Percent</RetentionTimeWindowUnits>
+    <RightRetentionTimeDelta>0.05</RightRetentionTimeDelta>
+    <ScanType>Ms1Scan</ScanType>
+    <SelectedMZ>71</SelectedMZ>
+    <SignalType>MS</SignalType>
+    <Smoothing>None</Smoothing>
+    <SmoothingFunctionWidth>15</SmoothingFunctionWidth>
+    <SmoothingGaussianWidth>5</SmoothingGaussianWidth>
+    <SpectrumExtractionOverride>Default</SpectrumExtractionOverride>
+    <SpectrumScanInclusion>Average</SpectrumScanInclusion>
+    <ThresholdNumberOfPeaks>100</ThresholdNumberOfPeaks>
+    <TimeReferenceFlag>false</TimeReferenceFlag>
+    <TimeSegment>1</TimeSegment>
+    <Transition>71.0</Transition>
+    <UncertaintyRelativeOrAbsolute>Relative</UncertaintyRelativeOrAbsolute>
+  </TargetCompound>
+  <TargetCompound>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>57</CompoundID>
+    <AccuracyLimitMultiplierLOQ>1</AccuracyLimitMultiplierLOQ>
+    <AccuracyMaximumPercentDeviation>20</AccuracyMaximumPercentDeviation>
+    <CompoundName>Hexanoic acid, 1-methylethyl ester</CompoundName>
+    <CompoundType>Target</CompoundType>
+    <ConcentrationUnits>ng/ml</ConcentrationUnits>
+    <CurveFit>fitLinear</CurveFit>
+    <CurveFitOrigin>originIgnore</CurveFitOrigin>
+    <CurveFitWeight>weightEqual</CurveFitWeight>
+    <IntegrationParameters>&lt;ParameterSet usagekey="" assembly="" class="Agilent.MassSpectrometry.DataAnalysis.PSetRTEIntegrator"&gt;
+	&lt;Parameters&gt;
+		&lt;Parameter id="DataPointSampling"&gt;
+			&lt;DisplayName&gt;Data point sampling&lt;/DisplayName&gt;
+			&lt;Value&gt;1&lt;/Value&gt;
+			&lt;Default&gt;1&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;9&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="Smoothing"&gt;
+			&lt;DisplayName&gt;Smoothing&lt;/DisplayName&gt;
+			&lt;Value&gt;false&lt;/Value&gt;
+			&lt;Default&gt;false&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="DetectionFiltering"&gt;
+			&lt;DisplayName&gt;Detection filtering&lt;/DisplayName&gt;
+			&lt;Value&gt;FivePoint&lt;/Value&gt;
+			&lt;Default&gt;FivePoint&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StartThreshold"&gt;
+			&lt;DisplayName&gt;Start threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0.2&lt;/Value&gt;
+			&lt;Default&gt;0.2&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0.001&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StopThreshold"&gt;
+			&lt;DisplayName&gt;Stop threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0&lt;/Value&gt;
+			&lt;Default&gt;0&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="PeakLocation"&gt;
+			&lt;DisplayName&gt;Peak location&lt;/DisplayName&gt;
+			&lt;Value&gt;Top&lt;/Value&gt;
+			&lt;Default&gt;Top&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineReset"&gt;
+			&lt;DisplayName&gt;Baseline reset (# points) &amp;gt;&lt;/DisplayName&gt;
+			&lt;Value&gt;5&lt;/Value&gt;
+			&lt;Default&gt;5&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;500&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineValley"&gt;
+			&lt;DisplayName&gt;If leading or trailing edge &amp;lt;&lt;/DisplayName&gt;
+			&lt;Value&gt;100&lt;/Value&gt;
+			&lt;Default&gt;100&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselinePreference"&gt;
+			&lt;DisplayName&gt;Baseline Preference&lt;/DisplayName&gt;
+			&lt;Value&gt;Tangent&lt;/Value&gt;
+			&lt;Default&gt;Tangent&lt;/Default&gt;
+		&lt;/Parameter&gt;
+	&lt;/Parameters&gt;
+&lt;/ParameterSet&gt;
+</IntegrationParameters>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <Integrator>SpectralSummer</Integrator>
+    <IonPolarity>Positive</IonPolarity>
+    <ISTDFlag>false</ISTDFlag>
+    <LeftRetentionTimeDelta>0.05</LeftRetentionTimeDelta>
+    <MaximumNumberOfHits>9</MaximumNumberOfHits>
+    <Multiplier>1</Multiplier>
+    <MZ>99</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <NoiseAlgorithmType>RMS</NoiseAlgorithmType>
+    <NoiseOfRawSignal>0</NoiseOfRawSignal>
+    <NoiseStandardDeviationMultiplier>5</NoiseStandardDeviationMultiplier>
+    <PeakFilterThreshold>PeakAreaPctThreshold</PeakFilterThreshold>
+    <PeakFilterThresholdValue>5</PeakFilterThresholdValue>
+    <PeakSelectionCriterion>CloseRT</PeakSelectionCriterion>
+    <PrimaryHitPeakID>0</PrimaryHitPeakID>
+    <QuantitateByHeight>false</QuantitateByHeight>
+    <RetentionTime>11.485766666666667</RetentionTime>
+    <RetentionTimeDeltaUnits>Minutes</RetentionTimeDeltaUnits>
+    <RetentionTimeWindow>10</RetentionTimeWindow>
+    <RetentionTimeWindowUnits>Percent</RetentionTimeWindowUnits>
+    <RightRetentionTimeDelta>0.05</RightRetentionTimeDelta>
+    <ScanType>Ms1Scan</ScanType>
+    <SelectedMZ>88</SelectedMZ>
+    <SignalType>MS</SignalType>
+    <Smoothing>None</Smoothing>
+    <SmoothingFunctionWidth>15</SmoothingFunctionWidth>
+    <SmoothingGaussianWidth>5</SmoothingGaussianWidth>
+    <SpectrumExtractionOverride>Default</SpectrumExtractionOverride>
+    <SpectrumScanInclusion>Average</SpectrumScanInclusion>
+    <ThresholdNumberOfPeaks>100</ThresholdNumberOfPeaks>
+    <TimeReferenceFlag>false</TimeReferenceFlag>
+    <TimeSegment>1</TimeSegment>
+    <Transition>99.0</Transition>
+    <UncertaintyRelativeOrAbsolute>Relative</UncertaintyRelativeOrAbsolute>
+  </TargetCompound>
+  <TargetCompound>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>61</CompoundID>
+    <AccuracyLimitMultiplierLOQ>1</AccuracyLimitMultiplierLOQ>
+    <AccuracyMaximumPercentDeviation>20</AccuracyMaximumPercentDeviation>
+    <CompoundName>Butanoic acid, 3-methyl-, butyl ester</CompoundName>
+    <CompoundType>Target</CompoundType>
+    <ConcentrationUnits>ng/ml</ConcentrationUnits>
+    <CurveFit>fitLinear</CurveFit>
+    <CurveFitOrigin>originIgnore</CurveFitOrigin>
+    <CurveFitWeight>weightEqual</CurveFitWeight>
+    <IntegrationParameters>&lt;ParameterSet usagekey="" assembly="" class="Agilent.MassSpectrometry.DataAnalysis.PSetRTEIntegrator"&gt;
+	&lt;Parameters&gt;
+		&lt;Parameter id="DataPointSampling"&gt;
+			&lt;DisplayName&gt;Data point sampling&lt;/DisplayName&gt;
+			&lt;Value&gt;1&lt;/Value&gt;
+			&lt;Default&gt;1&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;9&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="Smoothing"&gt;
+			&lt;DisplayName&gt;Smoothing&lt;/DisplayName&gt;
+			&lt;Value&gt;false&lt;/Value&gt;
+			&lt;Default&gt;false&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="DetectionFiltering"&gt;
+			&lt;DisplayName&gt;Detection filtering&lt;/DisplayName&gt;
+			&lt;Value&gt;FivePoint&lt;/Value&gt;
+			&lt;Default&gt;FivePoint&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StartThreshold"&gt;
+			&lt;DisplayName&gt;Start threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0.2&lt;/Value&gt;
+			&lt;Default&gt;0.2&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0.001&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="StopThreshold"&gt;
+			&lt;DisplayName&gt;Stop threshold&lt;/DisplayName&gt;
+			&lt;Value&gt;0&lt;/Value&gt;
+			&lt;Default&gt;0&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="PeakLocation"&gt;
+			&lt;DisplayName&gt;Peak location&lt;/DisplayName&gt;
+			&lt;Value&gt;Top&lt;/Value&gt;
+			&lt;Default&gt;Top&lt;/Default&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineReset"&gt;
+			&lt;DisplayName&gt;Baseline reset (# points) &amp;gt;&lt;/DisplayName&gt;
+			&lt;Value&gt;5&lt;/Value&gt;
+			&lt;Default&gt;5&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;0&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;500&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselineValley"&gt;
+			&lt;DisplayName&gt;If leading or trailing edge &amp;lt;&lt;/DisplayName&gt;
+			&lt;Value&gt;100&lt;/Value&gt;
+			&lt;Default&gt;100&lt;/Default&gt;
+			&lt;Limits&gt;
+				&lt;Minimum type="Inclusive"&gt;1&lt;/Minimum&gt;
+				&lt;Maximum type="Inclusive"&gt;100&lt;/Maximum&gt;
+			&lt;/Limits&gt;
+			&lt;XUnits&gt;Unspecified&lt;/XUnits&gt;
+			&lt;DataValueType&gt;Unspecified&lt;/DataValueType&gt;
+			&lt;PrecisionType&gt;DigitsAfterDecimal&lt;/PrecisionType&gt;
+			&lt;PrecisionDigits&gt;2&lt;/PrecisionDigits&gt;
+			&lt;ConversionSupport&gt;None&lt;/ConversionSupport&gt;
+		&lt;/Parameter&gt;
+		&lt;Parameter id="BaselinePreference"&gt;
+			&lt;DisplayName&gt;Baseline Preference&lt;/DisplayName&gt;
+			&lt;Value&gt;Tangent&lt;/Value&gt;
+			&lt;Default&gt;Tangent&lt;/Default&gt;
+		&lt;/Parameter&gt;
+	&lt;/Parameters&gt;
+&lt;/ParameterSet&gt;
+</IntegrationParameters>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <Integrator>SpectralSummer</Integrator>
+    <IonPolarity>Positive</IonPolarity>
+    <ISTDFlag>false</ISTDFlag>
+    <LeftRetentionTimeDelta>0.05</LeftRetentionTimeDelta>
+    <MaximumNumberOfHits>9</MaximumNumberOfHits>
+    <Multiplier>1</Multiplier>
+    <MZ>85</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <NoiseAlgorithmType>RMS</NoiseAlgorithmType>
+    <NoiseOfRawSignal>0</NoiseOfRawSignal>
+    <NoiseStandardDeviationMultiplier>5</NoiseStandardDeviationMultiplier>
+    <PeakFilterThreshold>PeakAreaPctThreshold</PeakFilterThreshold>
+    <PeakFilterThresholdValue>5</PeakFilterThresholdValue>
+    <PeakSelectionCriterion>CloseRT</PeakSelectionCriterion>
+    <PrimaryHitPeakID>0</PrimaryHitPeakID>
+    <QuantitateByHeight>false</QuantitateByHeight>
+    <RetentionTime>11.965033333333333</RetentionTime>
+    <RetentionTimeDeltaUnits>Minutes</RetentionTimeDeltaUnits>
+    <RetentionTimeWindow>10</RetentionTimeWindow>
+    <RetentionTimeWindowUnits>Percent</RetentionTimeWindowUnits>
+    <RightRetentionTimeDelta>0.05</RightRetentionTimeDelta>
+    <ScanType>Ms1Scan</ScanType>
+    <SelectedMZ>74</SelectedMZ>
+    <SignalType>MS</SignalType>
+    <Smoothing>None</Smoothing>
+    <SmoothingFunctionWidth>15</SmoothingFunctionWidth>
+    <SmoothingGaussianWidth>5</SmoothingGaussianWidth>
+    <SpectrumExtractionOverride>Default</SpectrumExtractionOverride>
+    <SpectrumScanInclusion>Average</SpectrumScanInclusion>
+    <ThresholdNumberOfPeaks>100</ThresholdNumberOfPeaks>
+    <TimeReferenceFlag>false</TimeReferenceFlag>
+    <TimeSegment>1</TimeSegment>
+    <Transition>85.0</Transition>
+    <UncertaintyRelativeOrAbsolute>Relative</UncertaintyRelativeOrAbsolute>
+  </TargetCompound>
+  <TargetQualifier>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>3</CompoundID>
+    <QualifierID>0</QualifierID>
+    <AreaSum>false</AreaSum>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <MZ>45</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <QualifierRangeMaximum>360.76582984233772</QualifierRangeMaximum>
+    <QualifierRangeMinimum>240.51055322822518</QualifierRangeMinimum>
+    <RelativeResponse>300.63819153528146</RelativeResponse>
+    <SelectedMZ>44</SelectedMZ>
+    <Transition>45.0</Transition>
+    <Uncertainty>20</Uncertainty>
+  </TargetQualifier>
+  <TargetQualifier>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>3</CompoundID>
+    <QualifierID>1</QualifierID>
+    <AreaSum>false</AreaSum>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <MZ>70</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <QualifierRangeMaximum>132.1516993530565</QualifierRangeMaximum>
+    <QualifierRangeMinimum>88.101132902037676</QualifierRangeMinimum>
+    <RelativeResponse>110.12641612754709</RelativeResponse>
+    <SelectedMZ>44</SelectedMZ>
+    <Transition>70.0</Transition>
+    <Uncertainty>20</Uncertainty>
+  </TargetQualifier>
+  <TargetQualifier>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>5</CompoundID>
+    <QualifierID>0</QualifierID>
+    <AreaSum>false</AreaSum>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <MZ>43</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <QualifierRangeMaximum>1955.0151208728296</QualifierRangeMaximum>
+    <QualifierRangeMinimum>1303.3434139152198</QualifierRangeMinimum>
+    <RelativeResponse>1629.1792673940247</RelativeResponse>
+    <SelectedMZ>60</SelectedMZ>
+    <Transition>43.0</Transition>
+    <Uncertainty>20</Uncertainty>
+  </TargetQualifier>
+  <TargetQualifier>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>5</CompoundID>
+    <QualifierID>1</QualifierID>
+    <AreaSum>false</AreaSum>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <MZ>87</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <QualifierRangeMaximum>279.99084304102109</QualifierRangeMaximum>
+    <QualifierRangeMinimum>186.6605620273474</QualifierRangeMinimum>
+    <RelativeResponse>233.32570253418424</RelativeResponse>
+    <SelectedMZ>60</SelectedMZ>
+    <Transition>87.0</Transition>
+    <Uncertainty>20</Uncertainty>
+  </TargetQualifier>
+  <TargetQualifier>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>8</CompoundID>
+    <QualifierID>0</QualifierID>
+    <AreaSum>false</AreaSum>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <MZ>57</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <QualifierRangeMaximum>30.121401883699779</QualifierRangeMaximum>
+    <QualifierRangeMinimum>20.080934589133189</QualifierRangeMinimum>
+    <RelativeResponse>25.101168236416484</RelativeResponse>
+    <SelectedMZ>71</SelectedMZ>
+    <Transition>57.0</Transition>
+    <Uncertainty>20</Uncertainty>
+  </TargetQualifier>
+  <TargetQualifier>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>8</CompoundID>
+    <QualifierID>1</QualifierID>
+    <AreaSum>false</AreaSum>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <MZ>88</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <QualifierRangeMaximum>18.569812439793985</QualifierRangeMaximum>
+    <QualifierRangeMinimum>12.379874959862658</QualifierRangeMinimum>
+    <RelativeResponse>15.474843699828321</RelativeResponse>
+    <SelectedMZ>85</SelectedMZ>
+    <Transition>88.0</Transition>
+    <Uncertainty>20</Uncertainty>
+  </TargetQualifier>
+  <TargetQualifier>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>9</CompoundID>
+    <QualifierID>0</QualifierID>
+    <AreaSum>false</AreaSum>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <MZ>43</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <QualifierRangeMaximum>64.345307397454917</QualifierRangeMaximum>
+    <QualifierRangeMinimum>42.896871598303278</QualifierRangeMinimum>
+    <RelativeResponse>53.6210894978791</RelativeResponse>
+    <SelectedMZ>72</SelectedMZ>
+    <Transition>43.0</Transition>
+    <Uncertainty>20</Uncertainty>
+  </TargetQualifier>
+  <TargetQualifier>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>10</CompoundID>
+    <QualifierID>0</QualifierID>
+    <AreaSum>false</AreaSum>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <MZ>46</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <QualifierRangeMaximum>40.73433365606715</QualifierRangeMaximum>
+    <QualifierRangeMinimum>27.156222437378105</QualifierRangeMinimum>
+    <RelativeResponse>33.945278046722628</RelativeResponse>
+    <SelectedMZ>42</SelectedMZ>
+    <Transition>46.0</Transition>
+    <Uncertainty>20</Uncertainty>
+  </TargetQualifier>
+  <TargetQualifier>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>10</CompoundID>
+    <QualifierID>1</QualifierID>
+    <AreaSum>false</AreaSum>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <MZ>43</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <QualifierRangeMaximum>109.26055660075637</QualifierRangeMaximum>
+    <QualifierRangeMinimum>72.840371067170921</QualifierRangeMinimum>
+    <RelativeResponse>91.050463833963647</RelativeResponse>
+    <SelectedMZ>42</SelectedMZ>
+    <Transition>43.0</Transition>
+    <Uncertainty>20</Uncertainty>
+  </TargetQualifier>
+  <TargetQualifier>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>16</CompoundID>
+    <QualifierID>0</QualifierID>
+    <AreaSum>false</AreaSum>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <MZ>86</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <QualifierRangeMaximum>25.724018086239692</QualifierRangeMaximum>
+    <QualifierRangeMinimum>17.149345390826465</QualifierRangeMinimum>
+    <RelativeResponse>21.436681738533078</RelativeResponse>
+    <SelectedMZ>193</SelectedMZ>
+    <Transition>86.0</Transition>
+    <Uncertainty>20</Uncertainty>
+  </TargetQualifier>
+  <TargetQualifier>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>17</CompoundID>
+    <QualifierID>0</QualifierID>
+    <AreaSum>false</AreaSum>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <MZ>71</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <QualifierRangeMaximum>133.66760075205733</QualifierRangeMaximum>
+    <QualifierRangeMinimum>89.111733834704893</QualifierRangeMinimum>
+    <RelativeResponse>111.38966729338111</RelativeResponse>
+    <SelectedMZ>208</SelectedMZ>
+    <Transition>71.0</Transition>
+    <Uncertainty>20</Uncertainty>
+  </TargetQualifier>
+  <TargetQualifier>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>17</CompoundID>
+    <QualifierID>1</QualifierID>
+    <AreaSum>false</AreaSum>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <MZ>89</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <QualifierRangeMaximum>34.716874345675819</QualifierRangeMaximum>
+    <QualifierRangeMinimum>23.144582897117218</QualifierRangeMinimum>
+    <RelativeResponse>28.930728621396518</RelativeResponse>
+    <SelectedMZ>207</SelectedMZ>
+    <Transition>89.0</Transition>
+    <Uncertainty>20</Uncertainty>
+  </TargetQualifier>
+  <TargetQualifier>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>24</CompoundID>
+    <QualifierID>0</QualifierID>
+    <AreaSum>false</AreaSum>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <MZ>103</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <QualifierRangeMaximum>208.19619494286641</QualifierRangeMaximum>
+    <QualifierRangeMinimum>138.79746329524428</QualifierRangeMinimum>
+    <RelativeResponse>173.49682911905535</RelativeResponse>
+    <SelectedMZ>72</SelectedMZ>
+    <Transition>103.0</Transition>
+    <Uncertainty>20</Uncertainty>
+  </TargetQualifier>
+  <TargetQualifier>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>24</CompoundID>
+    <QualifierID>1</QualifierID>
+    <AreaSum>false</AreaSum>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <MZ>60</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <QualifierRangeMaximum>286.29897030468271</QualifierRangeMaximum>
+    <QualifierRangeMinimum>190.86598020312184</QualifierRangeMinimum>
+    <RelativeResponse>238.58247525390229</RelativeResponse>
+    <SelectedMZ>72</SelectedMZ>
+    <Transition>60.0</Transition>
+    <Uncertainty>20</Uncertainty>
+  </TargetQualifier>
+  <TargetQualifier>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>44</CompoundID>
+    <QualifierID>0</QualifierID>
+    <AreaSum>false</AreaSum>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <MZ>43</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <QualifierRangeMaximum>524.00545220624781</QualifierRangeMaximum>
+    <QualifierRangeMinimum>349.33696813749856</QualifierRangeMinimum>
+    <RelativeResponse>436.67121017187316</RelativeResponse>
+    <SelectedMZ>71</SelectedMZ>
+    <Transition>43.0</Transition>
+    <Uncertainty>20</Uncertainty>
+  </TargetQualifier>
+  <TargetQualifier>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>44</CompoundID>
+    <QualifierID>1</QualifierID>
+    <AreaSum>false</AreaSum>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <MZ>56</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <QualifierRangeMaximum>239.57853185706563</QualifierRangeMaximum>
+    <QualifierRangeMinimum>159.71902123804375</QualifierRangeMinimum>
+    <RelativeResponse>199.64877654755469</RelativeResponse>
+    <SelectedMZ>71</SelectedMZ>
+    <Transition>56.0</Transition>
+    <Uncertainty>20</Uncertainty>
+  </TargetQualifier>
+  <TargetQualifier>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>57</CompoundID>
+    <QualifierID>0</QualifierID>
+    <AreaSum>false</AreaSum>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <MZ>43</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <QualifierRangeMaximum>373.04391448719826</QualifierRangeMaximum>
+    <QualifierRangeMinimum>248.69594299146553</QualifierRangeMinimum>
+    <RelativeResponse>310.8699287393319</RelativeResponse>
+    <SelectedMZ>101</SelectedMZ>
+    <Transition>43.0</Transition>
+    <Uncertainty>20</Uncertainty>
+  </TargetQualifier>
+  <TargetQualifier>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>57</CompoundID>
+    <QualifierID>1</QualifierID>
+    <AreaSum>false</AreaSum>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <MZ>60</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <QualifierRangeMaximum>106.46096041247384</QualifierRangeMaximum>
+    <QualifierRangeMinimum>70.9739736083159</QualifierRangeMinimum>
+    <RelativeResponse>88.71746701039487</RelativeResponse>
+    <SelectedMZ>57</SelectedMZ>
+    <Transition>60.0</Transition>
+    <Uncertainty>20</Uncertainty>
+  </TargetQualifier>
+  <TargetQualifier>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>61</CompoundID>
+    <QualifierID>0</QualifierID>
+    <AreaSum>false</AreaSum>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <MZ>103</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <QualifierRangeMaximum>181.33569413869139</QualifierRangeMaximum>
+    <QualifierRangeMinimum>120.89046275912762</QualifierRangeMinimum>
+    <RelativeResponse>151.1130784489095</RelativeResponse>
+    <SelectedMZ>101</SelectedMZ>
+    <Transition>103.0</Transition>
+    <Uncertainty>20</Uncertainty>
+  </TargetQualifier>
+  <TargetQualifier>
+    <BatchID>-1</BatchID>
+    <SampleID>-1</SampleID>
+    <CompoundID>61</CompoundID>
+    <QualifierID>1</QualifierID>
+    <AreaSum>false</AreaSum>
+    <IntegrationParametersModified>false</IntegrationParametersModified>
+    <MZ>56</MZ>
+    <MZExtractionWindowFilterLeft>0.3</MZExtractionWindowFilterLeft>
+    <MZExtractionWindowFilterRight>0.7</MZExtractionWindowFilterRight>
+    <MZExtractionWindowUnits>Thomsons</MZExtractionWindowUnits>
+    <QualifierRangeMaximum>330.80528566317463</QualifierRangeMaximum>
+    <QualifierRangeMinimum>220.5368571087831</QualifierRangeMinimum>
+    <RelativeResponse>275.67107138597885</RelativeResponse>
+    <SelectedMZ>74</SelectedMZ>
+    <Transition>56.0</Transition>
+    <Uncertainty>20</Uncertainty>
+  </TargetQualifier>
+</QuantitationDataSet>
