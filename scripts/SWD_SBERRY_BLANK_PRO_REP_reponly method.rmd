@@ -10,30 +10,16 @@ editor_options:
 ```{r setup, include=FALSE}
 # Libraries and Data Frames
 ##what you need to install phyloseq
-
-source('http://bioconductor.org/biocLite.R')
-biocLite('phyloseq')
-install.packages("devtools")
-install.packages("processx")
-install.packages("fs")
-install_github("joey711/phyloseq")
-install_github("vqv/ggbiplot")
-install.packages("gdata")
-install.packages("digest")
-install.packages("ggplot2")
-if(!requireNamespace("BiocManager")){
-  install.packages("BiocManager")
-}
-
-BiocManager::install("phyloseq")
+#source('http://bioconductor.org/biocLite.R')
+#biocLite('phyloseq')
+#install.packages("devtools")
+#install_github("vqv/ggbiplot")
+#install.packages("gdata")
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
-
 BiocManager::install()
-
 library(gdata)
 library(devtools)
-library(digest)
 library(ggplot2)
 library(beeswarm)
 library(phyloseq) #install via bioconductor
@@ -58,7 +44,7 @@ TAX <- tax_table(peaks) # gives a warning, don't freak out
 taxa_names(TAX)<-peaks$Peak_ID
 colnames(TAX)<- colnames(peaks)
 
-abund <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandSTRAW_SUBSET_SWDvsSBERRY_BLANK_PRO_REP/otu.csv", colClasses = c("factor","factor", rep("numeric", times= 14)))
+abund <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandSTRAW_SUBSET_SWDvsSBERRY_BLANK_PRO_REP/otu.csv", colClasses = c("factor","factor", rep("numeric", times= 6)))
 # read in peak areas, assigning factors of diff classifications based on columns
 rownames(abund) <- abund$Peak_ID #give abund rows names according to "Peak_ID" in peak.csv table
 OTU <- otu_table(abund[,-c(1:2)], taxa_are_rows=T) #create a table with only peak areas, compounds are taxa
@@ -89,7 +75,7 @@ plot_ordination(VOC, ord, type = "juice", color = "hour", shape = "microbe", lab
 
 PCs <- data.frame(scores(ord$vectors))
 new.dat <- cbind(PCs, sample_data(VOC)$microbe, sample_data(VOC)$rep, sample_data(VOC)$hour) # make a new matrix
-names(new.dat)[12:14] <- c("Microbe","Rep","Hour") #for the "must be the same length as vector" error make sure that the info inside the bracets matches empty columns in the dataframe your creating"
+names(new.dat)[5:7] <- c("Microbe","Rep","Hour") #for the "must be the same length as vector" error make sure that the info inside the bracets matches empty columns in the dataframe your creating"
 library(gdata)
 new.dat$Microbe <- reorder.factor(new.dat$Microbe, new.order = c("SWD"))
 new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("24","48"))
@@ -114,7 +100,7 @@ plot_ordination(VOC, ord, type = "samples", color = "hour", shape = "microbe", l
 ###
 PCs <- data.frame(scores(ord$vectors))
 new.dat <- cbind(PCs, sample_data(VOC)$microbe, sample_data(VOC)$hour, sample_data(VOC)$rep) # make a new matrix
-names(new.dat)[13:15] <- c("Microbe", "Hour", "Rep")
+names(new.dat)[6:8] <- c("Microbe", "Hour", "Rep")
 library(gdata)
 new.dat$Microbe <- reorder.factor(new.dat$Microbe, new.order = c("SWD"))
 new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("24", "48"))
