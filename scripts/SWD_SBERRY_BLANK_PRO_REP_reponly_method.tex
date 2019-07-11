@@ -1,0 +1,2156 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={BACandSTRAW VOC PCoA Visuals},
+            pdfauthor={Brown, J.T.},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\providecommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{BACandSTRAW VOC PCoA Visuals}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{Brown, J.T.}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+      \predate{\centering\large\emph}
+  \postdate{\par}
+    \date{MAy 22, 2019}
+
+
+\begin{document}
+\maketitle
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# read in data}
+\NormalTok{meta <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandSTRAW_SUBSET_SWDvsSBERRY_BLANK_PRO_REP/meta.csv"}\NormalTok{) }
+\NormalTok{meta}\OperatorTok{$}\NormalTok{hour=}\KeywordTok{as.factor}\NormalTok{(meta}\OperatorTok{$}\NormalTok{hour)}
+\KeywordTok{rownames}\NormalTok{(meta) <-}\StringTok{ }\NormalTok{meta}\OperatorTok{$}\NormalTok{SampleID_merge }
+\NormalTok{SAMP <-}\StringTok{ }\KeywordTok{sample_data}\NormalTok{(meta)}
+\KeywordTok{sample_names}\NormalTok{(SAMP)<-meta}\OperatorTok{$}\NormalTok{SampleID}
+
+\NormalTok{peaks <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandSTRAW_SUBSET_SWDvsSBERRY_BLANK_PRO_REP/peak.csv"}\NormalTok{)}
+\NormalTok{TAX <-}\StringTok{ }\KeywordTok{tax_table}\NormalTok{(peaks) }\CommentTok{# gives a warning, don't freak out}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in .local(object): Coercing from data.frame class to character matrix 
+## prior to building taxonomyTable. 
+## This could introduce artifacts. 
+## Check your taxonomyTable, or coerce to matrix manually.
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{taxa_names}\NormalTok{(TAX)<-peaks}\OperatorTok{$}\NormalTok{Peak_ID}
+\KeywordTok{colnames}\NormalTok{(TAX)<-}\StringTok{ }\KeywordTok{colnames}\NormalTok{(peaks)}
+
+\NormalTok{abund <-}\StringTok{ }\KeywordTok{read.csv}\NormalTok{(}\StringTok{"/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandSTRAW_SUBSET_SWDvsSBERRY_BLANK_PRO_REP/otu.csv"}\NormalTok{, }\DataTypeTok{colClasses =} \KeywordTok{c}\NormalTok{(}\StringTok{"factor"}\NormalTok{,}\StringTok{"factor"}\NormalTok{, }\KeywordTok{rep}\NormalTok{(}\StringTok{"numeric"}\NormalTok{, }\DataTypeTok{times=} \DecValTok{6}\NormalTok{)))}
+\CommentTok{# read in peak areas, assigning factors of diff classifications based on columns}
+\KeywordTok{rownames}\NormalTok{(abund) <-}\StringTok{ }\NormalTok{abund}\OperatorTok{$}\NormalTok{Peak_ID }\CommentTok{#give abund rows names according to "Peak_ID" in peak.csv table}
+\NormalTok{OTU <-}\StringTok{ }\KeywordTok{otu_table}\NormalTok{(abund[,}\OperatorTok{-}\KeywordTok{c}\NormalTok{(}\DecValTok{1}\OperatorTok{:}\DecValTok{2}\NormalTok{)], }\DataTypeTok{taxa_are_rows=}\NormalTok{T) }\CommentTok{#create a table with only peak areas, compounds are taxa}
+
+
+\NormalTok{VOC <-}\StringTok{ }\KeywordTok{phyloseq}\NormalTok{(OTU, TAX, SAMP) }\CommentTok{#IF YOU GET A "SAMPLE_NAMES()" ERROR MAKE SURE YOUR NAMES DO NOT START WITH A NUMBER}
+
+\CommentTok{#returns: "phyloseq-class experiment-level object}
+\CommentTok{#otu_table()   OTU Table:       [ 77 taxa and 14 samples ] "taxa" = VOCs "samples" = SPME-HS samples}
+\CommentTok{#sample_data() Sample Data:     [ 14 samples by 9 sample variables ] "sample variable" = categories}
+\CommentTok{#tax_table()   Taxonomy Table:  [ 77 taxa by 2 taxonomic ranks ] "taxonomic rank" = sample time/hour"}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{##############}
+\CommentTok{#    PCoAs   #}
+\NormalTok{##############}
+
+
+\NormalTok{### #PCoA with Bray-Curtis Distances#   }\AlertTok{###}
+\NormalTok{ord <-}\StringTok{ }\KeywordTok{ordinate}\NormalTok{(VOC, }\DataTypeTok{method =} \StringTok{"PCoA"}\NormalTok{, }\DataTypeTok{distance =} \StringTok{"bray"}\NormalTok{)}
+\KeywordTok{plot_ordination}\NormalTok{(VOC, ord, }\DataTypeTok{color =} \StringTok{"hour"}\NormalTok{, }\DataTypeTok{shape =} \StringTok{"microbe"}\NormalTok{, }\DataTypeTok{label =} \StringTok{"rep"}\NormalTok{)}\OperatorTok{+}
+\StringTok{  }\KeywordTok{theme_bw}\NormalTok{() }\OperatorTok{+}\StringTok{ }\KeywordTok{theme}\NormalTok{(}\DataTypeTok{text =} \KeywordTok{element_text}\NormalTok{(}\DataTypeTok{size =} \DecValTok{20}\NormalTok{)) }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_point}\NormalTok{(}\DataTypeTok{size =} \DecValTok{4}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{SWD_SBERRY_BLANK_PRO_REP_reponly_method_files/figure-latex/unnamed-chunk-2-1.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{plot_ordination}\NormalTok{(VOC, ord, }\DataTypeTok{type =} \StringTok{"juice"}\NormalTok{, }\DataTypeTok{color =} \StringTok{"hour"}\NormalTok{, }\DataTypeTok{shape =} \StringTok{"microbe"}\NormalTok{, }\DataTypeTok{label =} \StringTok{"rep"}\NormalTok{)}\OperatorTok{+}
+\StringTok{  }\KeywordTok{theme_bw}\NormalTok{() }\OperatorTok{+}\StringTok{ }\KeywordTok{theme}\NormalTok{(}\DataTypeTok{text =} \KeywordTok{element_text}\NormalTok{(}\DataTypeTok{size =} \DecValTok{20}\NormalTok{)) }\OperatorTok{+}\StringTok{ }\KeywordTok{geom_point}\NormalTok{(}\DataTypeTok{size =} \DecValTok{4}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in plot_ordination(VOC, ord, type = "juice", color = "hour", shape = "microbe", : type argument not supported. `type` set to 'samples'.
+## See `plot_ordination('list')`
+\end{verbatim}
+
+\includegraphics{SWD_SBERRY_BLANK_PRO_REP_reponly_method_files/figure-latex/unnamed-chunk-2-2.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{PCs <-}\StringTok{ }\KeywordTok{data.frame}\NormalTok{(}\KeywordTok{scores}\NormalTok{(ord}\OperatorTok{$}\NormalTok{vectors))}
+\NormalTok{new.dat <-}\StringTok{ }\KeywordTok{cbind}\NormalTok{(PCs, }\KeywordTok{sample_data}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{microbe, }\KeywordTok{sample_data}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{rep, }\KeywordTok{sample_data}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{hour) }\CommentTok{# make a new matrix}
+\KeywordTok{names}\NormalTok{(new.dat)[}\DecValTok{5}\OperatorTok{:}\DecValTok{7}\NormalTok{] <-}\StringTok{ }\KeywordTok{c}\NormalTok{(}\StringTok{"Microbe"}\NormalTok{,}\StringTok{"Rep"}\NormalTok{,}\StringTok{"Hour"}\NormalTok{) }\CommentTok{#for the "must be the same length as vector" error make sure that the info inside the bracets matches empty columns in the dataframe your creating"}
+\KeywordTok{library}\NormalTok{(gdata)}
+\NormalTok{new.dat}\OperatorTok{$}\NormalTok{Microbe <-}\StringTok{ }\KeywordTok{reorder.factor}\NormalTok{(new.dat}\OperatorTok{$}\NormalTok{Microbe, }\DataTypeTok{new.order =} \KeywordTok{c}\NormalTok{(}\StringTok{"SWD"}\NormalTok{))}
+\NormalTok{new.dat}\OperatorTok{$}\NormalTok{Hour <-}\StringTok{ }\KeywordTok{reorder.factor}\NormalTok{(new.dat}\OperatorTok{$}\NormalTok{Hour, }\DataTypeTok{new.order =} \KeywordTok{c}\NormalTok{(}\StringTok{"24"}\NormalTok{,}\StringTok{"48"}\NormalTok{))}
+
+\KeywordTok{summary}\NormalTok{(new.dat)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##      Axis.1             Axis.2              Axis.3         
+##  Min.   :-0.26879   Min.   :-0.067043   Min.   :-0.067297  
+##  1st Qu.:-0.11730   1st Qu.:-0.047262   1st Qu.:-0.041526  
+##  Median : 0.03464   Median :-0.006617   Median : 0.009913  
+##  Mean   : 0.00000   Mean   : 0.000000   Mean   : 0.000000  
+##  3rd Qu.: 0.15375   3rd Qu.: 0.032955   3rd Qu.: 0.026798  
+##  Max.   : 0.17401   Max.   : 0.094943   Max.   : 0.073718  
+##      Axis.4          Microbe  Rep    Hour  
+##  Min.   :-0.023635   SWD:6   R01:2   24:3  
+##  1st Qu.:-0.011084           R02:2   48:3  
+##  Median :-0.002722           R03:2         
+##  Mean   : 0.000000                         
+##  3rd Qu.: 0.002481                         
+##  Max.   : 0.038735
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{ggplot}\NormalTok{(new.dat, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{Axis.}\DecValTok{1}\NormalTok{, }\DataTypeTok{y=}\NormalTok{ Axis.}\DecValTok{2}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_point}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color =}\NormalTok{ Microbe, }\DataTypeTok{shape =}\NormalTok{ Hour), }\DataTypeTok{position =}\StringTok{"jitter"}\NormalTok{) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{facet_grid}\NormalTok{(}\OperatorTok{~}\NormalTok{Hour)}\OperatorTok{+}
+\StringTok{  }\KeywordTok{theme_bw}\NormalTok{()}\OperatorTok{+}
+\StringTok{  }\KeywordTok{xlab}\NormalTok{(}\StringTok{"PCoA1 (59.1% Var. Expl.)"}\NormalTok{)}\OperatorTok{+}\StringTok{     }\NormalTok{## !don't forget to update these moving forward!}
+\StringTok{  }\KeywordTok{ylab}\NormalTok{(}\StringTok{"PCoA2 (32.6% Var. Expl.)"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{SWD_SBERRY_BLANK_PRO_REP_reponly_method_files/figure-latex/unnamed-chunk-2-3.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{### #PCoA with Jaccard distances#   }\AlertTok{###}
+\NormalTok{ord <-}\StringTok{ }\KeywordTok{ordinate}\NormalTok{(VOC, }\DataTypeTok{method =} \StringTok{"PCoA"}\NormalTok{, }\DataTypeTok{distance =} \StringTok{"jaccard"}\NormalTok{)}
+\KeywordTok{plot_ordination}\NormalTok{( VOC, ord, }\DataTypeTok{color =} \StringTok{"hour"}\NormalTok{, }\DataTypeTok{shape =} \StringTok{"microbe"}\NormalTok{, }\DataTypeTok{type =} \StringTok{"samples"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{SWD_SBERRY_BLANK_PRO_REP_reponly_method_files/figure-latex/unnamed-chunk-2-4.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# split plot of compounds driving separation and samples in PC1/PC2. }
+\KeywordTok{plot_ordination}\NormalTok{(VOC, ord, }\DataTypeTok{type =} \StringTok{"samples"}\NormalTok{, }\DataTypeTok{color =} \StringTok{"hour"}\NormalTok{, }\DataTypeTok{shape =} \StringTok{"microbe"}\NormalTok{, }\DataTypeTok{label =} \StringTok{"rep"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{SWD_SBERRY_BLANK_PRO_REP_reponly_method_files/figure-latex/unnamed-chunk-2-5.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{###}
+\NormalTok{###}
+\NormalTok{PCs <-}\StringTok{ }\KeywordTok{data.frame}\NormalTok{(}\KeywordTok{scores}\NormalTok{(ord}\OperatorTok{$}\NormalTok{vectors))}
+\NormalTok{new.dat <-}\StringTok{ }\KeywordTok{cbind}\NormalTok{(PCs, }\KeywordTok{sample_data}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{microbe, }\KeywordTok{sample_data}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{hour, }\KeywordTok{sample_data}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{rep) }\CommentTok{# make a new matrix}
+\KeywordTok{names}\NormalTok{(new.dat)[}\DecValTok{6}\OperatorTok{:}\DecValTok{8}\NormalTok{] <-}\StringTok{ }\KeywordTok{c}\NormalTok{(}\StringTok{"Microbe"}\NormalTok{, }\StringTok{"Hour"}\NormalTok{, }\StringTok{"Rep"}\NormalTok{)}
+\KeywordTok{library}\NormalTok{(gdata)}
+\NormalTok{new.dat}\OperatorTok{$}\NormalTok{Microbe <-}\StringTok{ }\KeywordTok{reorder.factor}\NormalTok{(new.dat}\OperatorTok{$}\NormalTok{Microbe, }\DataTypeTok{new.order =} \KeywordTok{c}\NormalTok{(}\StringTok{"SWD"}\NormalTok{))}
+\NormalTok{new.dat}\OperatorTok{$}\NormalTok{Hour <-}\StringTok{ }\KeywordTok{reorder.factor}\NormalTok{(new.dat}\OperatorTok{$}\NormalTok{Hour, }\DataTypeTok{new.order =} \KeywordTok{c}\NormalTok{(}\StringTok{"24"}\NormalTok{, }\StringTok{"48"}\NormalTok{))}
+\NormalTok{###}
+\NormalTok{###}
+\KeywordTok{ggplot}\NormalTok{(new.dat, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{Axis.}\DecValTok{1}\NormalTok{, }\DataTypeTok{y=}\NormalTok{ Axis.}\DecValTok{2}\NormalTok{)) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_point}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{color =}\NormalTok{ Microbe, }\DataTypeTok{shape =}\NormalTok{ Hour), }\DataTypeTok{position =}\StringTok{"jitter"}\NormalTok{) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{facet_grid}\NormalTok{(}\OperatorTok{~}\NormalTok{Hour)}\OperatorTok{+}
+\StringTok{  }\KeywordTok{theme_bw}\NormalTok{()}\OperatorTok{+}
+\StringTok{  }\KeywordTok{xlab}\NormalTok{(}\StringTok{"PCoA1 (78.6% Var. Expl.)"}\NormalTok{)}\OperatorTok{+}\StringTok{ }
+\StringTok{  }\KeywordTok{ylab}\NormalTok{(}\StringTok{"PCoA2 (13.8% Var. Expl.)"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{SWD_SBERRY_BLANK_PRO_REP_reponly_method_files/figure-latex/unnamed-chunk-2-6.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{######################}
+\NormalTok{##  Linear Models   ##}
+\NormalTok{######################}
+
+\CommentTok{# try co-ercing days as categorical variable so I can use TukeyHSD}
+\KeywordTok{sample_data}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{fhour <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(}\KeywordTok{sample_data}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{hour)}
+\KeywordTok{sample_data}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{frep <-}\StringTok{ }\KeywordTok{factor}\NormalTok{(}\KeywordTok{sample_data}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{rep)}
+
+\KeywordTok{str}\NormalTok{(}\KeywordTok{sample_data}\NormalTok{(VOC))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## 'data.frame':    6 obs. of  11 variables:
+## Formal class 'sample_data' [package "phyloseq"] with 4 slots
+##   ..@ .Data    :List of 11
+##   .. ..$ : Factor w/ 6 levels "JTB-E02-208-23.D",..: 1 2 3 4 5 6
+##   .. ..$ : Factor w/ 1 level "SWD": 1 1 1 1 1 1
+##   .. ..$ : Factor w/ 1 level "SB": 1 1 1 1 1 1
+##   .. ..$ : Factor w/ 2 levels "24","48": 1 1 1 2 2 2
+##   .. ..$ : Factor w/ 3 levels "REP01","REP02",..: 1 2 3 1 2 3
+##   .. ..$ : Factor w/ 3 levels "R01","R02","R03": 1 2 3 1 2 3
+##   .. ..$ : Factor w/ 6 levels "SWDSB24R01","SWDSB24R02",..: 1 2 3 4 5 6
+##   .. ..$ : Factor w/ 1 level "E-2": 1 1 1 1 1 1
+##   .. ..$ : Factor w/ 6 levels "REO02     E-2",..: 3 4 6 2 1 5
+##   .. ..$ : Factor w/ 2 levels "24","48": 1 1 1 2 2 2
+##   .. ..$ : Factor w/ 3 levels "R01","R02","R03": 1 2 3 1 2 3
+##   ..@ names    : chr  "Data.File" "microbe" "juice" "hour" ...
+##   ..@ row.names: chr  "SWDSB24R01" "SWDSB24R02" "SWDSB24R03" "SWDSB48R01" ...
+##   ..@ .S3Class : chr "data.frame"
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{fit <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(}\KeywordTok{sample_sums}\NormalTok{(VOC)}\OperatorTok{~}\StringTok{ }\KeywordTok{sample_data}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{rep}\OperatorTok{+}\KeywordTok{sample_data}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{hour)}
+\KeywordTok{anova}\NormalTok{(fit)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Analysis of Variance Table
+## 
+## Response: sample_sums(VOC)
+##                       Df     Sum Sq    Mean Sq F value  Pr(>F)  
+## sample_data(VOC)$rep   2 2.2916e+16 1.1458e+16  7.1767 0.12230  
+## sample_data(VOC)$hour  1 8.6131e+16 8.6131e+16 53.9495 0.01804 *
+## Residuals              2 3.1930e+15 1.5965e+15                  
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{TukeyHSD}\NormalTok{(}\KeywordTok{aov}\NormalTok{(fit), }\DataTypeTok{which=}\StringTok{"sample_data(VOC)$rep"}\NormalTok{) }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##   Tukey multiple comparisons of means
+##     95% family-wise confidence level
+## 
+## Fit: aov(formula = fit)
+## 
+## $`sample_data(VOC)$rep`
+##               diff        lwr       upr     p adj
+## R02-R01 -108744473 -344117649 126628704 0.1976384
+## R03-R01 -145573300 -380946476  89799876 0.1208991
+## R03-R02  -36828828 -272202004 198544349 0.6815355
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{TukeyHSD}\NormalTok{(}\KeywordTok{aov}\NormalTok{(fit), }\DataTypeTok{which=}\StringTok{"sample_data(VOC)$hour"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##   Tukey multiple comparisons of means
+##     95% family-wise confidence level
+## 
+## Fit: aov(formula = fit)
+## 
+## $`sample_data(VOC)$hour`
+##            diff      lwr       upr     p adj
+## 48-24 239626075 99375962 379876187 0.0178971
+\end{verbatim}
+
+\section{```\{r\}}\label{r}
+
+\section{Try with interactions in
+model}\label{try-with-interactions-in-model}
+
+fit \textless{}- lm(sample\_sums(VOC)\textasciitilde{}
+sample\_data(VOC)\(hour*sample_data(VOC)\)rep) summary(fit)
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+Analysis of Variance Table
+
+Response: sample\_sums(VOC) Df Sum Sq Mean Sq F value
+Pr(\textgreater{}F)\\
+sample\_data(VOC)\(rep 1 2.4626e+15 2.4626e+15 138.434 < 2.2e-16 *** sample_data(VOC)\)fhour
+2 3.9403e+15 1.9702e+15 110.751 \textless{} 2.2e-16 \textbf{\emph{
+sample\_data(VOC)\(microbe 2 4.0738e+15 2.0369e+15 114.502 < 2.2e-16 *** sample_data(VOC)\)rep:sample\_data(VOC)\(fhour 2 1.6148e+15 8.0739e+14 45.386 1.618e-12 *** sample_data(VOC)\)rep:sample\_data(VOC)\(microbe 2 1.0694e+15 5.3468e+14 30.056 1.223e-09 *** sample_data(VOC)\)fhour:sample\_data(VOC)\(microbe 4 2.0716e+15 5.1791e+14 29.114 3.385e-13 *** sample_data(VOC)\)rep:sample\_data(VOC)\(fhour:sample_data(VOC)\)microbe
+4 7.9485e+14 1.9871e+14 11.170 9.271e-07 }} Residuals 57 1.0140e+15
+1.7789e+13\\
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+TukeyHSD(aov(fit), which=``sample\_data(VOC)\$hour'')
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+Tukey multiple comparisons of means 95\% family-wise confidence level
+
+Fit: aov(formula = fit)
+
+\(`sample_data(VOC)\)fhour` diff lwr upr p adj 1-0 11374762 8504020
+14245503 0.00e+00 2-0 17493356 14622615 20364097 0.00e+00 2-1 6118594
+3247853 8989336 1.08e-05
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+TukeyHSD(aov(fit), which=``sample\_data(VOC)\$rep'')
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+Tukey multiple comparisons of means 95\% family-wise confidence level
+
+Fit: aov(formula = fit)
+
+\(`sample_data(VOC)\)rep` diff lwr upr p adj normal-low 11543802 9579121
+13508483 0
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+TukeyHSD(aov(fit), which=``sample\_data(VOC)\$microbe.treatmemt'')
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\# returns NaNs Fit:
+aov(formula = fit)
+
+\$ diff lwr upr p adj
+
+Warning message: In qtukey(conf.level, length(means), x\$df.residual) :
+NaNs produced
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+\section{Maybe if we remove day from the formula and reduce to only one
+sample day (2), it will
+work}\label{maybe-if-we-remove-day-from-the-formula-and-reduce-to-only-one-sample-day-2-it-will-work}
+
+DayTwo \textless{}- subset\_samples(VOC, day==``2'')
+
+fit \textless{}- lm(sample\_sums(DayTwo)\textasciitilde{}
+sample\_data(DayTwo)\(rep * sample_data(DayTwo)\)microbe)
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+Analysis of Variance Table
+
+Response: sample\_sums(DayTwo) Df Sum Sq Mean Sq F value
+Pr(\textgreater{}F)\\
+sample\_data(DayTwo)\(rep 1 2.6684e+15 2.6684e+15 82.249 2.479e-08 *** sample_data(DayTwo)\)microbe
+2 4.5758e+15 2.2879e+15 70.521 1.614e-09 \textbf{\emph{
+sample\_data(DayTwo)\(rep:sample_data(DayTwo)\)microbe 2 1.3896e+15
+6.9481e+14 21.416 1.354e-05 }} Residuals 19 6.1642e+14 3.2443e+13\\
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+TukeyHSD(aov(fit), which=``sample\_data(DayTwo)\$microbe.treatmemt'')
+\#\# NaNs again
+
+\section{PERMANOVA}\label{permanova}
+
+df = as(sample\_data(VOC), ``data.frame'') \# coerce to a data frame
+named df d = distance(VOC, ``bray'') \# make a dissimilarity matrix
+named d names(df){[}4{]} \textless{}- c(``Microbe'') names(df){[}6{]}
+\textless{}- c(``Nectar'') names(df){[}8{]} \textless{}- c(``Day'')
+library(gdata) df\(Microbe <- reorder.factor(df\)Microbe, new.order =
+c(``MrAa'', ``Aa'', ``Mr'')) df\(Nectar <- reorder.factor(df\)Nectar,
+new.order = c(``normal'', ``low'')) df\(Day <- reorder.factor(df\)Day,
+new.order = c(``0'', ``1'', ``2''))
+
+fit = adonis(d \textasciitilde{} Nectar * Day * Microbe, df) b\_test
+\textless{}-betadisper(d, group=df\$Microbe, type=``median'') b\_test
+
+\begin{verbatim}
+    Homogeneity of multivariate dispersions
+\end{verbatim}
+
+Call: betadisper(d = d, group = df\$Microbe, type = ``median'')
+
+No. of Positive Eigenvalues: 39 No. of Negative Eigenvalues: 35
+
+Average distance to median: MrAa Aa Mr 0.4380 0.5006 0.4530
+
+Eigenvalues for PCoA axes: (Showing 8 of 74 eigenvalues) PCoA1 PCoA2
+PCoA3 PCoA4 PCoA5 PCoA6 PCoA7 PCoA8 7.6596 5.8000 2.6695 2.3007 1.2038
+0.9516 0.7906 0.6088
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+TukeyHSD(b\_test)
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+Tukey multiple comparisons of means 95\% family-wise confidence level
+
+Fit: aov(formula = distances \textasciitilde{} group, data = df)
+
+\$\texttt{group} diff lwr upr p adj Mr-Aa -0.04755245 -0.1514047
+0.05629975 0.5197828 MrAa-Aa -0.06261575 -0.1531520 0.02792050 0.2295835
+MrAa-Mr -0.01506329 -0.1168173 0.08669066 0.9332236
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+Call: adonis(formula = d \textasciitilde{} Nectar * Day * Microbe, data
+= df)
+
+Permutation: free Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+\begin{verbatim}
+               Df SumsOfSqs MeanSqs F.Model      R2 Pr(>F)    
+\end{verbatim}
+
+Nectar 1 2.9074 2.9074 28.726 0.12710 0.001 \textbf{\emph{ Day 1 3.4325
+3.4325 33.914 0.15005 0.001 }} Microbe 2 5.1239 2.5620 25.313 0.22399
+0.001 \textbf{\emph{ Nectar:Day 1 1.1653 1.1653 11.514 0.05094 0.001 }}
+Nectar:Microbe 2 1.1420 0.5710 5.642 0.04992 0.001 \textbf{\emph{
+Day:Microbe 2 2.1837 1.0918 10.788 0.09546 0.001 }} Nectar:Day:Microbe 2
+0.5442 0.2721 2.689 0.02379 0.005 ** Residuals 63 6.3764 0.1012
+0.27874\\
+Total 74 22.8755 1.00000\\
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+fit = adonis(d \textasciitilde{} Nectar + Day + Microbe, df)
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+Call: adonis(formula = d \textasciitilde{} Nectar + Day + Microbe, data
+= df)
+
+Permutation: free Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+\begin{verbatim}
+      Df SumsOfSqs MeanSqs F.Model      R2 Pr(>F)    
+\end{verbatim}
+
+Nectar 1 2.9074 2.9074 17.834 0.12710 0.001 \textbf{\emph{ Day 1 3.4325
+3.4325 21.055 0.15005 0.001 }} Microbe 2 5.1239 2.5620 15.715 0.22399
+0.001 *** Residuals 70 11.4116 0.1630 0.49886\\
+Total 74 22.8755 1.00000\\
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+\section{}\label{section-3}
+
+\subsection{}\label{section-4}
+
+\subsubsection{}\label{section-5}
+
+\section{Now re-do with jaccard
+distances}\label{now-re-do-with-jaccard-distances}
+
+df = as(sample\_data(VOC), ``data.frame'') \# coerce to a data frame
+named df d = distance(VOC, ``jaccard'') \# make a dissimilarity matrix
+named d names(df){[}4{]} \textless{}- c(``Microbe'') names(df){[}6{]}
+\textless{}- c(``Nectar'') names(df){[}8{]} \textless{}- c(``Day'')
+library(gdata) df\(Microbe <- reorder.factor(df\)Microbe, new.order =
+c(``MrAa'', ``Aa'', ``Mr'')) df\(Nectar <- reorder.factor(df\)Nectar,
+new.order = c(``normal'', ``low'')) df\(Day <- reorder.factor(df\)Day,
+new.order = c(``0'', ``1'', ``2''))
+
+fit = adonis(d \textasciitilde{} Nectar * Day * Microbe, df) b\_test
+\textless{}-betadisper(d, group=df\$Microbe, type=``median'') b\_test
+
+\begin{verbatim}
+    Homogeneity of multivariate dispersions
+\end{verbatim}
+
+Call: betadisper(d = d, group = df\$Microbe, type = ``median'')
+
+No. of Positive Eigenvalues: 53 No. of Negative Eigenvalues: 21
+
+Average distance to median: Aa Mr MrAa 0.5556 0.5226 0.5081
+
+Eigenvalues for PCoA axes: (Showing 8 of 74 eigenvalues) PCoA1 PCoA2
+PCoA3 PCoA4 PCoA5 PCoA6 PCoA7 PCoA8 6.8959 5.2154 2.7848 2.4644 1.7195
+1.3511 0.8946 0.8039
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+TukeyHSD(b\_test)
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+Tukey multiple comparisons of means 95\% family-wise confidence level
+
+Fit: aov(formula = distances \textasciitilde{} group, data = df)
+
+\$\texttt{group} diff lwr upr p adj Mr-Aa -0.03299930 -0.11741041
+0.05141181 0.6197301 MrAa-Aa -0.04756155 -0.12114944 0.02602635
+0.2754873 MrAa-Mr -0.01456225 -0.09726791 0.06814341 0.9069053
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+b\_test \textless{}-betadisper(d, group=df\$Nectar, type=``median'')
+b\_test
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+Homogeneity of multivariate dispersions
+
+Call: betadisper(d = d, group = df\$Nectar, type = ``median'')
+
+No. of Positive Eigenvalues: 53 No. of Negative Eigenvalues: 21
+
+Average distance to median: low normal 0.5576 0.5624
+
+Eigenvalues for PCoA axes: (Showing 8 of 74 eigenvalues) PCoA1 PCoA2
+PCoA3 PCoA4 PCoA5 PCoA6 PCoA7 PCoA8 6.8959 5.2154 2.7848 2.4644 1.7195
+1.3511 0.8946 0.8039
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+TukeyHSD(b\_test)
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+Tukey multiple comparisons of means 95\% family-wise confidence level
+
+Fit: aov(formula = distances \textasciitilde{} group, data = df)
+
+\$\texttt{group} diff lwr upr p adj normal-low 0.004804244 -0.03892604
+0.04853453 0.8272983
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+b\_test \textless{}-betadisper(d, group=df\$Day, type=``median'')
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+Tukey multiple comparisons of means 95\% family-wise confidence level
+
+Fit: aov(formula = distances \textasciitilde{} group, data = df)
+
+\$\texttt{group} diff lwr upr p adj 1-0 0.02413893 -0.05659384
+0.10487170 0.7551262 2-0 0.02621599 -0.05451678 0.10694876 0.7182120 2-1
+0.00207706 -0.07865571 0.08280983 0.9979123
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+summary(fit)
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+Length Class Mode\\
+aov.tab 6 anova list\\
+call 3 -none- call\\
+coefficients 0 -none- NULL\\
+coef.sites 900 -none- numeric f.perms 6993 -none- numeric model.matrix
+900 -none- numeric terms 3 terms call\\
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+fit
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+Call: adonis(formula = d \textasciitilde{} Nectar * Day * Microbe, data
+= df)
+
+Permutation: free Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+\begin{verbatim}
+               Df SumsOfSqs MeanSqs F.Model      R2 Pr(>F)    
+\end{verbatim}
+
+Nectar 1 2.9068 2.90676 19.0040 0.10799 0.001 \textbf{\emph{ Day 1
+3.0846 3.08457 20.1665 0.11460 0.001 }} Microbe 2 4.7994 2.39969 15.6889
+0.17831 0.001 \textbf{\emph{ Nectar:Day 1 1.3590 1.35901 8.8850 0.05049
+0.001 }} Nectar:Microbe 2 1.7147 0.85735 5.6052 0.06370 0.001
+\textbf{\emph{ Day:Microbe 2 2.4705 1.23525 8.0759 0.09178 0.001 }}
+Nectar:Day:Microbe 2 0.9454 0.47271 3.0905 0.03512 0.001 *** Residuals
+63 9.6362 0.15295 0.35800\\
+Total 74 26.9165 1.00000\\
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+fit = adonis(d \textasciitilde{} Nectar + Day + Microbe, df)
+
+Call: adonis(formula = d \textasciitilde{} Nectar + Day + Microbe, data
+= df)
+
+Permutation: free Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+\begin{verbatim}
+      Df SumsOfSqs MeanSqs F.Model      R2 Pr(>F)    
+\end{verbatim}
+
+Nectar 1 2.9068 2.90676 12.618 0.10799 0.001 \textbf{\emph{ Day 1 3.0846
+3.08457 13.390 0.11460 0.001 }} Microbe 2 4.7994 2.39969 10.417 0.17831
+0.001 *** Residuals 70 16.1258 0.23037 0.59910\\
+Total 74 26.9165 1.00000\\
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#3
+
+\subsubsection{}\label{section-7}
+
+\subsection{}\label{section-8}
+
+\section{}\label{section-9}
+
+\section{}\label{section-10}
+
+\subsection{}\label{section-11}
+
+\subsubsection{}\label{section-12}
+
+Mrsonly \textless{}- subset\_samples(VOC, microbe!=``Aa'')
+
+df = as(sample\_data(Mrsonly), ``data.frame'') \# coerce to a data frame
+named df d = distance(Mrsonly, ``bray'') \# make a dissimilarity matrix
+named d names(df){[}4{]} \textless{}- c(``Microbe'') names(df){[}6{]}
+\textless{}- c(``Nectar'') names(df){[}8{]} \textless{}- c(``Day'')
+library(gdata) df\(Microbe <- reorder.factor(df\)Microbe, new.order =
+c(``MrAa'', ``Mr'')) df\(Nectar <- reorder.factor(df\)Nectar, new.order
+= c(``normal'', ``low'')) df\(Day <- reorder.factor(df\)Day, new.order =
+c(``0'', ``1'', ``2''))
+
+fit = adonis(d \textasciitilde{} Nectar * Day * Microbe, df)
+
+fit
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+Call: adonis(formula = d \textasciitilde{} Nectar * Day * Microbe, data
+= df)
+
+Permutation: free Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+\begin{verbatim}
+               Df SumsOfSqs MeanSqs F.Model      R2 Pr(>F)    
+\end{verbatim}
+
+Nectar 1 1.8002 1.80018 24.5420 0.16961 0.001 \textbf{\emph{ Day 2
+3.4257 1.71285 23.3515 0.32276 0.001 }} Microbe 1 0.2543 0.25426 3.4663
+0.02396 0.023 *\\
+Nectar:Day 2 1.3179 0.65895 8.9835 0.12417 0.001 \textbf{\emph{
+Nectar:Microbe 1 0.1589 0.15886 2.1658 0.01497 0.090 .\\
+Day:Microbe 2 0.7418 0.37088 5.0563 0.06989 0.001 }} Nectar:Day:Microbe
+2 0.2746 0.13729 1.8717 0.02587 0.096 .\\
+Residuals 36 2.6406 0.07335 0.24879\\
+Total 47 10.6139 1.00000\\
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+fit = adonis(d \textasciitilde{} Nectar + Day + Microbe, df)
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+Call: adonis(formula = d \textasciitilde{} Nectar + Day + Microbe, data
+= df)
+
+Permutation: free Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+\begin{verbatim}
+      Df SumsOfSqs MeanSqs F.Model      R2 Pr(>F)    
+\end{verbatim}
+
+Nectar 1 1.8002 1.80018 15.0783 0.16961 0.001 \textbf{\emph{ Day 2
+3.4257 1.71285 14.3468 0.32276 0.001 }} Microbe 1 0.2543 0.25426 2.1296
+0.02396 0.115\\
+Residuals 43 5.1337 0.11939 0.48368\\
+Total 47 10.6139 1.00000\\
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+\subsubsection{}\label{section-13}
+
+\subsection{}\label{section-14}
+
+\section{}\label{section-15}
+
+\section{}\label{section-16}
+
+\subsection{}\label{section-17}
+
+\subsubsection{}\label{section-18}
+
+```
+
+\section{Diversity Indices}\label{diversity-indices}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# Is there a difference in the number of different peaks (alpha-diversity) between treatments? Start with all days}
+
+\CommentTok{# Force all peak area to round integers. Re-import data}
+
+\NormalTok{abund <-}\StringTok{ }\KeywordTok{round}\NormalTok{(abund[,}\OperatorTok{-}\KeywordTok{c}\NormalTok{(}\DecValTok{1}\OperatorTok{:}\DecValTok{2}\NormalTok{)], }\DataTypeTok{digits =} \DecValTok{0}\NormalTok{)}
+\NormalTok{OTU <-}\StringTok{ }\KeywordTok{otu_table}\NormalTok{(abund, }\DataTypeTok{taxa_are_rows=}\NormalTok{T) }
+
+\NormalTok{VOC <-}\StringTok{ }\KeywordTok{phyloseq}\NormalTok{(OTU, TAX, SAMP)}
+\NormalTok{VOC}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## phyloseq-class experiment-level object
+## otu_table()   OTU Table:         [ 77 taxa and 6 samples ]
+## sample_data() Sample Data:       [ 6 samples by 9 sample variables ]
+## tax_table()   Taxonomy Table:    [ 77 taxa by 2 taxonomic ranks ]
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{plot_richness}\NormalTok{(VOC, }\DataTypeTok{x =} \StringTok{"hour"}\NormalTok{, }\DataTypeTok{measures =} \KeywordTok{c}\NormalTok{(}\StringTok{"Observed"}\NormalTok{, }\StringTok{"Shannon"}\NormalTok{, }\StringTok{"Simpson"}\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in estimate_richness(physeq, split = TRUE, measures = measures): The data you have provided does not have
+## any singletons. This is highly suspicious. Results of richness
+## estimates (for example) are probably unreliable, or wrong, if you have already
+## trimmed low-abundance taxa from the data.
+## 
+## We recommended that you find the un-trimmed data and retry.
+\end{verbatim}
+
+\includegraphics{SWD_SBERRY_BLANK_PRO_REP_reponly_method_files/figure-latex/unnamed-chunk-4-1.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{plot_richness}\NormalTok{(VOC, }\DataTypeTok{x =} \StringTok{"rep"}\NormalTok{, }\DataTypeTok{measures =} \KeywordTok{c}\NormalTok{(}\StringTok{"Observed"}\NormalTok{, }\StringTok{"Shannon"}\NormalTok{, }\StringTok{"Simpson"}\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in estimate_richness(physeq, split = TRUE, measures = measures): The data you have provided does not have
+## any singletons. This is highly suspicious. Results of richness
+## estimates (for example) are probably unreliable, or wrong, if you have already
+## trimmed low-abundance taxa from the data.
+## 
+## We recommended that you find the un-trimmed data and retry.
+\end{verbatim}
+
+\includegraphics{SWD_SBERRY_BLANK_PRO_REP_reponly_method_files/figure-latex/unnamed-chunk-4-2.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{fit <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(}\KeywordTok{estimate_richness}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{Shannon }\OperatorTok{~}\StringTok{ }\KeywordTok{sample_data}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{hour)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in estimate_richness(VOC): The data you have provided does not have
+## any singletons. This is highly suspicious. Results of richness
+## estimates (for example) are probably unreliable, or wrong, if you have already
+## trimmed low-abundance taxa from the data.
+## 
+## We recommended that you find the un-trimmed data and retry.
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{anova}\NormalTok{(fit)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Analysis of Variance Table
+## 
+## Response: estimate_richness(VOC)$Shannon
+##                       Df   Sum Sq   Mean Sq F value  Pr(>F)  
+## sample_data(VOC)$hour  1 0.014768 0.0147679  6.0234 0.07012 .
+## Residuals              4 0.009807 0.0024518                  
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{####################################################################################}
+\CommentTok{#Analysis of Variance Table}
+\CommentTok{#}
+\CommentTok{#Response: estimate_richness(VOC)$Shannon}
+\CommentTok{#                                   Df Sum Sq Mean Sq F value Pr(>F)  }
+\CommentTok{#sample_data(VOC)$microbe  2 0.7583 0.37916  2.8838 0.0624 .}
+\CommentTok{#Residuals                          72 9.4665 0.13148                              }
+\NormalTok{####################################################################################}
+
+
+\NormalTok{fit <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(}\KeywordTok{estimate_richness}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{Observed }\OperatorTok{~}\StringTok{ }\KeywordTok{sample_data}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{hour)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in estimate_richness(VOC): The data you have provided does not have
+## any singletons. This is highly suspicious. Results of richness
+## estimates (for example) are probably unreliable, or wrong, if you have already
+## trimmed low-abundance taxa from the data.
+## 
+## We recommended that you find the un-trimmed data and retry.
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{anova}\NormalTok{(fit)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Analysis of Variance Table
+## 
+## Response: estimate_richness(VOC)$Observed
+##                       Df  Sum Sq Mean Sq F value  Pr(>F)  
+## sample_data(VOC)$hour  1 2.66667 2.66667      16 0.01613 *
+## Residuals              4 0.66667 0.16667                  
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{#####################################################################################}
+\CommentTok{#Analysis of Variance Table}
+\CommentTok{#}
+\CommentTok{#Response: estimate_richness(VOC)$Observed}
+\CommentTok{#                                   Df  Sum Sq Mean Sq F value    Pr(>F)    }
+\CommentTok{#sample_data(VOC)$microbe  2  477.02 238.510  9.2143 0.0002735 ***}
+\CommentTok{#Residuals                          72 1863.70  25.885                      }
+\NormalTok{######################################################################################}
+
+\NormalTok{fit <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(}\KeywordTok{estimate_richness}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{Simpson }\OperatorTok{~}\StringTok{ }\KeywordTok{sample_data}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{hour)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in estimate_richness(VOC): The data you have provided does not have
+## any singletons. This is highly suspicious. Results of richness
+## estimates (for example) are probably unreliable, or wrong, if you have already
+## trimmed low-abundance taxa from the data.
+## 
+## We recommended that you find the un-trimmed data and retry.
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{anova}\NormalTok{(fit)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Analysis of Variance Table
+## 
+## Response: estimate_richness(VOC)$Simpson
+##                       Df     Sum Sq    Mean Sq F value  Pr(>F)  
+## sample_data(VOC)$hour  1 4.7908e-05 4.7908e-05  6.1545 0.06815 .
+## Residuals              4 3.1137e-05 7.7840e-06                  
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{#####################################################################################}
+\CommentTok{#Analysis of Variance Table}
+\CommentTok{#}
+\CommentTok{#Response: estimate_richness(VOC)$Simpson}
+\CommentTok{#                                   Df  Sum Sq  Mean Sq F value  Pr(>F)  }
+\CommentTok{#sample_data(VOC)$microbe  2 0.16149 0.080744  3.5494 0.03387 *}
+\CommentTok{#Residuals                          72 1.63791 0.022749                               }
+\NormalTok{######################################################################################}
+
+\NormalTok{###}
+\NormalTok{##}
+\CommentTok{# just for fun, what differences exist in diversity of chemicals between nectar concentrations?}
+
+\NormalTok{fit <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(}\KeywordTok{estimate_richness}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{Shannon }\OperatorTok{~}\StringTok{ }\KeywordTok{sample_data}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{rep)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in estimate_richness(VOC): The data you have provided does not have
+## any singletons. This is highly suspicious. Results of richness
+## estimates (for example) are probably unreliable, or wrong, if you have already
+## trimmed low-abundance taxa from the data.
+## 
+## We recommended that you find the un-trimmed data and retry.
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{anova}\NormalTok{(fit)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Analysis of Variance Table
+## 
+## Response: estimate_richness(VOC)$Shannon
+##                      Df    Sum Sq   Mean Sq F value Pr(>F)
+## sample_data(VOC)$rep  2 0.0091389 0.0045694  0.8881 0.4978
+## Residuals             3 0.0154360 0.0051453
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{#####################################################################################}
+\CommentTok{#Analysis of Variance Table}
+\CommentTok{#}
+\CommentTok{#Response: estimate_richness(VOC)$Shannon}
+\CommentTok{#                             Df  Sum Sq Mean Sq F value Pr(>F)}
+\CommentTok{#sample_data(VOC)$rep  1  0.1989 0.19886  1.4479 0.2327}
+\CommentTok{#Residuals                    73 10.0259 0.13734               }
+\NormalTok{#####################################################################################}
+
+\NormalTok{fit <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(}\KeywordTok{estimate_richness}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{Observed }\OperatorTok{~}\StringTok{ }\KeywordTok{sample_data}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{rep)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in estimate_richness(VOC): The data you have provided does not have
+## any singletons. This is highly suspicious. Results of richness
+## estimates (for example) are probably unreliable, or wrong, if you have already
+## trimmed low-abundance taxa from the data.
+## 
+## We recommended that you find the un-trimmed data and retry.
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{anova}\NormalTok{(fit)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Analysis of Variance Table
+## 
+## Response: estimate_richness(VOC)$Observed
+##                      Df  Sum Sq Mean Sq F value Pr(>F)
+## sample_data(VOC)$rep  2 0.33333 0.16667  0.1667 0.8538
+## Residuals             3 3.00000 1.00000
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{#####################################################################################}
+\CommentTok{#Analysis of Variance Table}
+\CommentTok{#}
+\CommentTok{#Response: estimate_richness(VOC)$Observed}
+\CommentTok{#                             Df  Sum Sq Mean Sq F value   Pr(>F)   }
+\CommentTok{#sample_data(VOC)$rep  1  229.75 229.752  7.9451 0.006202 **}
+\CommentTok{#Residuals                    73 2110.97  28.917                    }
+\NormalTok{#####################################################################################}
+
+\NormalTok{fit <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(}\KeywordTok{estimate_richness}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{Simpson }\OperatorTok{~}\StringTok{ }\KeywordTok{sample_data}\NormalTok{(VOC)}\OperatorTok{$}\NormalTok{rep)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in estimate_richness(VOC): The data you have provided does not have
+## any singletons. This is highly suspicious. Results of richness
+## estimates (for example) are probably unreliable, or wrong, if you have already
+## trimmed low-abundance taxa from the data.
+## 
+## We recommended that you find the un-trimmed data and retry.
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{anova}\NormalTok{(fit)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Analysis of Variance Table
+## 
+## Response: estimate_richness(VOC)$Simpson
+##                      Df     Sum Sq    Mean Sq F value Pr(>F)
+## sample_data(VOC)$rep  2 2.8553e-05 1.4277e-05  0.8482 0.5105
+## Residuals             3 5.0492e-05 1.6831e-05
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{#####################################################################################}
+\CommentTok{#Analysis of Variance Table}
+\CommentTok{#}
+\CommentTok{#Response: estimate_richness(VOC)$Simpson}
+\CommentTok{#                             Df  Sum Sq  Mean Sq F value Pr(>F)}
+\CommentTok{#sample_data(VOC)$rep  1 0.01421 0.014206  0.5809 0.4484}
+\CommentTok{#Residuals                    73 1.78519 0.024455               }
+\NormalTok{#####################################################################################}
+\NormalTok{###}
+\NormalTok{##}
+\CommentTok{# }
+\NormalTok{##}
+\NormalTok{###}
+\end{Highlighting}
+\end{Shaded}
+
+\section{repeat diversity indices calcs with controls and blanks
+excluded}\label{repeat-diversity-indices-calcs-with-controls-and-blanks-excluded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{NoZero <-}\StringTok{ }\KeywordTok{subset_samples}\NormalTok{(VOC, rep}\OperatorTok{!=}\StringTok{"C01"}\OperatorTok{&}\StringTok{ }\NormalTok{rep}\OperatorTok{!=}\StringTok{"C02"}\OperatorTok{&}\StringTok{ }\NormalTok{rep}\OperatorTok{!=}\StringTok{"C03"}\OperatorTok{&}\StringTok{ }\NormalTok{rep}\OperatorTok{!=}\StringTok{"B01"}\NormalTok{)}
+
+\KeywordTok{plot_richness}\NormalTok{(NoZero, }\DataTypeTok{x =} \StringTok{"hour"}\NormalTok{, }\DataTypeTok{measures =} \KeywordTok{c}\NormalTok{(}\StringTok{"Observed"}\NormalTok{, }\StringTok{"Shannon"}\NormalTok{, }\StringTok{"Simpson"}\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in estimate_richness(physeq, split = TRUE, measures = measures): The data you have provided does not have
+## any singletons. This is highly suspicious. Results of richness
+## estimates (for example) are probably unreliable, or wrong, if you have already
+## trimmed low-abundance taxa from the data.
+## 
+## We recommended that you find the un-trimmed data and retry.
+\end{verbatim}
+
+\includegraphics{SWD_SBERRY_BLANK_PRO_REP_reponly_method_files/figure-latex/unnamed-chunk-5-1.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{plot_richness}\NormalTok{(NoZero, }\DataTypeTok{x =} \StringTok{"rep"}\NormalTok{, }\DataTypeTok{measures =} \KeywordTok{c}\NormalTok{(}\StringTok{"Observed"}\NormalTok{, }\StringTok{"Shannon"}\NormalTok{, }\StringTok{"Simpson"}\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in estimate_richness(physeq, split = TRUE, measures = measures): The data you have provided does not have
+## any singletons. This is highly suspicious. Results of richness
+## estimates (for example) are probably unreliable, or wrong, if you have already
+## trimmed low-abundance taxa from the data.
+## 
+## We recommended that you find the un-trimmed data and retry.
+\end{verbatim}
+
+\includegraphics{SWD_SBERRY_BLANK_PRO_REP_reponly_method_files/figure-latex/unnamed-chunk-5-2.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{fit <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(}\KeywordTok{estimate_richness}\NormalTok{(NoZero)}\OperatorTok{$}\NormalTok{Shannon }\OperatorTok{~}\StringTok{ }\KeywordTok{sample_data}\NormalTok{(NoZero)}\OperatorTok{$}\NormalTok{hour)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in estimate_richness(NoZero): The data you have provided does not have
+## any singletons. This is highly suspicious. Results of richness
+## estimates (for example) are probably unreliable, or wrong, if you have already
+## trimmed low-abundance taxa from the data.
+## 
+## We recommended that you find the un-trimmed data and retry.
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{anova}\NormalTok{(fit)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Analysis of Variance Table
+## 
+## Response: estimate_richness(NoZero)$Shannon
+##                          Df   Sum Sq   Mean Sq F value  Pr(>F)  
+## sample_data(NoZero)$hour  1 0.014768 0.0147679  6.0234 0.07012 .
+## Residuals                 4 0.009807 0.0024518                  
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{#############################################################################################}
+\CommentTok{#Analysis of Variance Table}
+\CommentTok{#}
+\CommentTok{#Response: estimate_richness(NoZero)$Shannon}
+\CommentTok{#                                      Df Sum Sq  Mean Sq F value  Pr(>F)  }
+\CommentTok{#sample_data(NoZero)$microbe  2 0.4031 0.201558  2.5438 0.08934 .}
+\CommentTok{#Residuals                             47 3.7241 0.079235                  }
+\NormalTok{##############################################################################################}
+
+
+\NormalTok{fit <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(}\KeywordTok{estimate_richness}\NormalTok{(NoZero)}\OperatorTok{$}\NormalTok{Observed }\OperatorTok{~}\StringTok{ }\KeywordTok{sample_data}\NormalTok{(NoZero)}\OperatorTok{$}\NormalTok{hour)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in estimate_richness(NoZero): The data you have provided does not have
+## any singletons. This is highly suspicious. Results of richness
+## estimates (for example) are probably unreliable, or wrong, if you have already
+## trimmed low-abundance taxa from the data.
+## 
+## We recommended that you find the un-trimmed data and retry.
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{anova}\NormalTok{(fit)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Analysis of Variance Table
+## 
+## Response: estimate_richness(NoZero)$Observed
+##                          Df  Sum Sq Mean Sq F value  Pr(>F)  
+## sample_data(NoZero)$hour  1 2.66667 2.66667      16 0.01613 *
+## Residuals                 4 0.66667 0.16667                  
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{###############################################################################################}
+\CommentTok{#Analysis of Variance Table}
+\CommentTok{#}
+\CommentTok{#Response: estimate_richness(NoZero)$Observed}
+\CommentTok{#                                      Df Sum Sq Mean Sq F value    Pr(>F)    }
+\CommentTok{#sample_data(NoZero)$microbe  2 420.01 210.003  26.676 1.813e-08 ***}
+\CommentTok{#Residuals                             47 369.99   7.872                                        }
+\NormalTok{################################################################################################}
+
+\NormalTok{fit <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(}\KeywordTok{estimate_richness}\NormalTok{(NoZero)}\OperatorTok{$}\NormalTok{Simpson }\OperatorTok{~}\StringTok{ }\KeywordTok{sample_data}\NormalTok{(NoZero)}\OperatorTok{$}\NormalTok{hour)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in estimate_richness(NoZero): The data you have provided does not have
+## any singletons. This is highly suspicious. Results of richness
+## estimates (for example) are probably unreliable, or wrong, if you have already
+## trimmed low-abundance taxa from the data.
+## 
+## We recommended that you find the un-trimmed data and retry.
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{anova}\NormalTok{(fit)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Analysis of Variance Table
+## 
+## Response: estimate_richness(NoZero)$Simpson
+##                          Df     Sum Sq    Mean Sq F value  Pr(>F)  
+## sample_data(NoZero)$hour  1 4.7908e-05 4.7908e-05  6.1545 0.06815 .
+## Residuals                 4 3.1137e-05 7.7840e-06                  
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{#################################################################################################}
+\CommentTok{#Analysis of Variance Table}
+\CommentTok{#Response: estimate_richness(NoZero)$Simpson}
+\CommentTok{#                                      Df  Sum Sq  Mean Sq F value   Pr(>F)   }
+\CommentTok{#sample_data(NoZero)$microbe  2 0.14082 0.070409  6.3029 0.003759 **}
+\CommentTok{#Residuals                             47 0.52504 0.011171                          }
+\NormalTok{##################################################################################################}
+
+\NormalTok{###}
+\NormalTok{##}
+\CommentTok{# again with nectar conc}
+
+\NormalTok{fit <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(}\KeywordTok{estimate_richness}\NormalTok{(NoZero)}\OperatorTok{$}\NormalTok{Shannon }\OperatorTok{~}\StringTok{ }\KeywordTok{sample_data}\NormalTok{(NoZero)}\OperatorTok{$}\NormalTok{rep)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in estimate_richness(NoZero): The data you have provided does not have
+## any singletons. This is highly suspicious. Results of richness
+## estimates (for example) are probably unreliable, or wrong, if you have already
+## trimmed low-abundance taxa from the data.
+## 
+## We recommended that you find the un-trimmed data and retry.
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{anova}\NormalTok{(fit)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Analysis of Variance Table
+## 
+## Response: estimate_richness(NoZero)$Shannon
+##                         Df    Sum Sq   Mean Sq F value Pr(>F)
+## sample_data(NoZero)$rep  2 0.0091389 0.0045694  0.8881 0.4978
+## Residuals                3 0.0154360 0.0051453
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{#################################################################################################}
+\CommentTok{#Analysis of Variance Table}
+\CommentTok{#Response: estimate_richness(NoZero)$Shannon}
+\CommentTok{#                                Df Sum Sq Mean Sq F value  Pr(>F)  }
+\CommentTok{#sample_data(NoZero)$rep  1 0.3487 0.34865  4.4291 0.04059 *}
+\CommentTok{#Residuals                       48 3.7785 0.07872                  }
+\NormalTok{#################################################################################################}
+
+\NormalTok{fit <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(}\KeywordTok{estimate_richness}\NormalTok{(NoZero)}\OperatorTok{$}\NormalTok{Observed }\OperatorTok{~}\StringTok{ }\KeywordTok{sample_data}\NormalTok{(NoZero)}\OperatorTok{$}\NormalTok{rep)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in estimate_richness(NoZero): The data you have provided does not have
+## any singletons. This is highly suspicious. Results of richness
+## estimates (for example) are probably unreliable, or wrong, if you have already
+## trimmed low-abundance taxa from the data.
+## 
+## We recommended that you find the un-trimmed data and retry.
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{anova}\NormalTok{(fit)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Analysis of Variance Table
+## 
+## Response: estimate_richness(NoZero)$Observed
+##                         Df  Sum Sq Mean Sq F value Pr(>F)
+## sample_data(NoZero)$rep  2 0.33333 0.16667  0.1667 0.8538
+## Residuals                3 3.00000 1.00000
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{#################################################################################################}
+\CommentTok{#Analysis of Variance Table}
+\CommentTok{#Response: estimate_richness(NoZero)$Observed}
+\CommentTok{#                                Df Sum Sq Mean Sq F value    Pr(>F)    }
+\CommentTok{#sample_data(NoZero)$rep  1 165.83 165.831  12.753 0.0008204 ***}
+\CommentTok{#Residuals                       48 624.17  13.004                   }
+\NormalTok{#################################################################################################}
+
+\NormalTok{fit <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(}\KeywordTok{estimate_richness}\NormalTok{(NoZero)}\OperatorTok{$}\NormalTok{Simpson }\OperatorTok{~}\StringTok{ }\KeywordTok{sample_data}\NormalTok{(NoZero)}\OperatorTok{$}\NormalTok{rep)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in estimate_richness(NoZero): The data you have provided does not have
+## any singletons. This is highly suspicious. Results of richness
+## estimates (for example) are probably unreliable, or wrong, if you have already
+## trimmed low-abundance taxa from the data.
+## 
+## We recommended that you find the un-trimmed data and retry.
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{anova}\NormalTok{(fit)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Analysis of Variance Table
+## 
+## Response: estimate_richness(NoZero)$Simpson
+##                         Df     Sum Sq    Mean Sq F value Pr(>F)
+## sample_data(NoZero)$rep  2 2.8553e-05 1.4277e-05  0.8482 0.5105
+## Residuals                3 5.0492e-05 1.6831e-05
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{#################################################################################################}
+\CommentTok{#Analysis of Variance Table}
+\CommentTok{#Response: estimate_richness(NoZero)$Simpson}
+\CommentTok{#                                Df  Sum Sq  Mean Sq F value   Pr(>F)   }
+\CommentTok{#sample_data(NoZero)$rep  1 0.10357 0.103566   8.841 0.004596 **}
+\CommentTok{#Residuals                       48 0.56229 0.011714                    }
+\NormalTok{#################################################################################################}
+\end{Highlighting}
+\end{Shaded}
+
+\section{Neg Binomial Permutation}\label{neg-binomial-permutation}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# which compounds differentiate our groups? control and blanks.}
+\ControlFlowTok{if}\NormalTok{ (}\OperatorTok{!}\KeywordTok{requireNamespace}\NormalTok{(}\StringTok{"BiocManager"}\NormalTok{, }\DataTypeTok{quietly =} \OtherTok{TRUE}\NormalTok{))}
+    \KeywordTok{install.packages}\NormalTok{(}\StringTok{"BiocManager"}\NormalTok{)}
+\NormalTok{BiocManager}\OperatorTok{::}\KeywordTok{install}\NormalTok{()}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Bioconductor version 3.8 (BiocManager 1.30.4), R 3.5.1 (2018-07-02)
+\end{verbatim}
+
+\begin{verbatim}
+## installation path not writeable, unable to update packages: boot, class,
+##   cluster, codetools, foreign, lattice, MASS, Matrix, mgcv, nlme, rpart,
+##   survival
+\end{verbatim}
+
+\begin{verbatim}
+## Update old packages: 'ellipsis', 'git2r', 'pillar', 'processx',
+##   'quantreg', 'remotes', 'rlang', 'tinytex', 'xfun', 'zip'
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{BiocManager}\OperatorTok{::}\KeywordTok{install}\NormalTok{(}\KeywordTok{c}\NormalTok{(}\StringTok{"GenomicFeatures"}\NormalTok{, }\StringTok{"AnnotationDbi"}\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Bioconductor version 3.8 (BiocManager 1.30.4), R 3.5.1 (2018-07-02)
+\end{verbatim}
+
+\begin{verbatim}
+## Installing package(s) 'GenomicFeatures', 'AnnotationDbi'
+\end{verbatim}
+
+\begin{verbatim}
+## package 'GenomicFeatures' successfully unpacked and MD5 sums checked
+## package 'AnnotationDbi' successfully unpacked and MD5 sums checked
+## 
+## The downloaded binary packages are in
+##  D:\Users\jbrown\AppData\Local\Temp\RtmpqeozZd\downloaded_packages
+\end{verbatim}
+
+\begin{verbatim}
+## installation path not writeable, unable to update packages: boot, class,
+##   cluster, codetools, foreign, lattice, MASS, Matrix, mgcv, nlme, rpart,
+##   survival
+\end{verbatim}
+
+\begin{verbatim}
+## Update old packages: 'ellipsis', 'git2r', 'pillar', 'processx',
+##   'quantreg', 'remotes', 'rlang', 'tinytex', 'xfun', 'zip'
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{BiocManager}\OperatorTok{::}\KeywordTok{install}\NormalTok{(}\StringTok{"DESeq2"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Bioconductor version 3.8 (BiocManager 1.30.4), R 3.5.1 (2018-07-02)
+\end{verbatim}
+
+\begin{verbatim}
+## Installing package(s) 'DESeq2'
+\end{verbatim}
+
+\begin{verbatim}
+## Warning: package 'DESeq2' is in use and will not be installed
+\end{verbatim}
+
+\begin{verbatim}
+## installation path not writeable, unable to update packages: boot, class,
+##   cluster, codetools, foreign, lattice, MASS, Matrix, mgcv, nlme, rpart,
+##   survival
+\end{verbatim}
+
+\begin{verbatim}
+## Update old packages: 'ellipsis', 'git2r', 'pillar', 'processx',
+##   'quantreg', 'remotes', 'rlang', 'tinytex', 'xfun', 'zip'
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{BiocManager}\OperatorTok{::}\KeywordTok{valid}\NormalTok{()}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning: 10 packages out-of-date; 0 packages too new
+\end{verbatim}
+
+\begin{verbatim}
+## 
+## * sessionInfo()
+## 
+## R version 3.5.1 (2018-07-02)
+## Platform: x86_64-w64-mingw32/x64 (64-bit)
+## Running under: Windows 10 x64 (build 17763)
+## 
+## Matrix products: default
+## 
+## locale:
+## [1] LC_COLLATE=English_United States.1252 
+## [2] LC_CTYPE=English_United States.1252   
+## [3] LC_MONETARY=English_United States.1252
+## [4] LC_NUMERIC=C                          
+## [5] LC_TIME=English_United States.1252    
+## 
+## attached base packages:
+##  [1] parallel  stats4    grid      stats     graphics  grDevices utils    
+##  [8] datasets  methods   base     
+## 
+## other attached packages:
+##  [1] DESeq2_1.22.2               SummarizedExperiment_1.12.0
+##  [3] DelayedArray_0.8.0          BiocParallel_1.16.6        
+##  [5] matrixStats_0.54.0          Biobase_2.42.0             
+##  [7] GenomicRanges_1.34.0        GenomeInfoDb_1.18.2        
+##  [9] IRanges_2.16.0              S4Vectors_0.20.1           
+## [11] BiocGenerics_0.28.0         ape_5.3                    
+## [13] readr_1.3.1                 readxl_1.3.1               
+## [15] ggbiplot_0.55               scales_1.0.0               
+## [17] plyr_1.8.4                  vegan_2.5-5                
+## [19] lattice_0.20-35             permute_0.9-5              
+## [21] phyloseq_1.26.1             beeswarm_0.2.3             
+## [23] ggplot2_3.2.0               usethis_1.5.0              
+## [25] devtools_2.0.2              gdata_2.18.0               
+## 
+## loaded via a namespace (and not attached):
+##  [1] colorspace_1.4-1       rprojroot_1.3-2        htmlTable_1.13.1      
+##  [4] XVector_0.22.0         base64enc_0.1-3        fs_1.3.1              
+##  [7] rstudioapi_0.10        remotes_2.0.4          bit64_0.9-7           
+## [10] AnnotationDbi_1.44.0   codetools_0.2-15       splines_3.5.1         
+## [13] geneplotter_1.60.0     knitr_1.23             pkgload_1.0.2         
+## [16] ade4_1.7-13            Formula_1.2-3          jsonlite_1.6          
+## [19] annotate_1.60.1        cluster_2.0.7-1        BiocManager_1.30.4    
+## [22] compiler_3.5.1         backports_1.1.4        assertthat_0.2.1      
+## [25] Matrix_1.2-14          lazyeval_0.2.2         cli_1.1.0             
+## [28] acepack_1.4.1          htmltools_0.3.6        prettyunits_1.0.2     
+## [31] tools_3.5.1            igraph_1.2.4.1         gtable_0.3.0          
+## [34] glue_1.3.1             GenomeInfoDbData_1.2.0 reshape2_1.4.3        
+## [37] Rcpp_1.0.1             cellranger_1.1.0       Biostrings_2.50.2     
+## [40] multtest_2.38.0        nlme_3.1-137           iterators_1.0.10      
+## [43] xfun_0.7               stringr_1.4.0          ps_1.3.0              
+## [46] gtools_3.8.1           XML_3.98-1.20          zlibbioc_1.28.0       
+## [49] MASS_7.3-50            hms_0.4.2              biomformat_1.10.1     
+## [52] rhdf5_2.26.2           RColorBrewer_1.1-2     yaml_2.2.0            
+## [55] memoise_1.1.0          gridExtra_2.3          rpart_4.1-13          
+## [58] latticeExtra_0.6-28    stringi_1.4.3          RSQLite_2.1.1         
+## [61] genefilter_1.64.0      desc_1.2.0             foreach_1.4.4         
+## [64] checkmate_1.9.3        pkgbuild_1.0.3         rlang_0.3.4           
+## [67] pkgconfig_2.0.2        bitops_1.0-6           evaluate_0.14         
+## [70] Rhdf5lib_1.4.3         labeling_0.3           htmlwidgets_1.3       
+## [73] bit_1.1-14             processx_3.3.1         magrittr_1.5          
+## [76] R6_2.4.0               Hmisc_4.2-0            DBI_1.0.0             
+## [79] pillar_1.4.1           foreign_0.8-70         withr_2.1.2           
+## [82] mgcv_1.8-24            survival_2.42-3        RCurl_1.95-4.12       
+## [85] nnet_7.3-12            tibble_2.1.3           crayon_1.3.4          
+## [88] rmarkdown_1.13         locfit_1.5-9.1         data.table_1.12.2     
+## [91] blob_1.1.1             callr_3.2.0            digest_0.6.19         
+## [94] xtable_1.8-4           munsell_0.5.0          sessioninfo_1.1.1     
+## 
+## Bioconductor version '3.8'
+## 
+##   * 10 packages out-of-date
+##   * 0 packages too new
+## 
+## create a valid installation with
+## 
+##   BiocManager::install(c(
+##     "ellipsis", "git2r", "pillar", "processx", "quantreg", "remotes",
+##     "rlang", "tinytex", "xfun", "zip"
+##   ), update = TRUE, ask = FALSE)
+## 
+## more details: BiocManager::valid()$too_new, BiocManager::valid()$out_of_date
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{NoZero <-}\StringTok{ }\KeywordTok{subset_samples}\NormalTok{(VOC, rep}\OperatorTok{!=}\StringTok{"C01"}\OperatorTok{&}\StringTok{ }\NormalTok{rep}\OperatorTok{!=}\StringTok{"C02"}\OperatorTok{&}\StringTok{ }\NormalTok{rep}\OperatorTok{!=}\StringTok{"C03"}\OperatorTok{&}\StringTok{ }\NormalTok{rep}\OperatorTok{!=}\StringTok{"B01"}\NormalTok{)}
+\NormalTok{deobj <-}\StringTok{ }\KeywordTok{phyloseq_to_deseq2}\NormalTok{(NoZero, }\OperatorTok{~}\StringTok{ }\NormalTok{hour }\OperatorTok{+}\StringTok{ }\NormalTok{rep)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## converting counts to integer mode
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{diagdds <-}\StringTok{ }\KeywordTok{DESeq}\NormalTok{(deobj, }\DataTypeTok{test=}\StringTok{"Wald"}\NormalTok{, }\DataTypeTok{fitType=}\StringTok{"local"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## estimating size factors
+\end{verbatim}
+
+\begin{verbatim}
+## estimating dispersions
+\end{verbatim}
+
+\begin{verbatim}
+## gene-wise dispersion estimates
+\end{verbatim}
+
+\begin{verbatim}
+## mean-dispersion relationship
+\end{verbatim}
+
+\begin{verbatim}
+## final dispersion estimates
+\end{verbatim}
+
+\begin{verbatim}
+## fitting model and testing
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{res =}\StringTok{ }\KeywordTok{results}\NormalTok{(diagdds, }\DataTypeTok{contrast =} \KeywordTok{c}\NormalTok{(}\StringTok{"hour"}\NormalTok{, }\StringTok{"24"}\NormalTok{, }\StringTok{"48"}\NormalTok{), }\DataTypeTok{cooksCutoff =} \OtherTok{FALSE}\NormalTok{)}
+\NormalTok{res}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## log2 fold change (MLE): hour 24 vs 48 
+## Wald test p-value: hour 24 vs 48 
+## DataFrame with 77 rows and 6 columns
+##                  baseMean      log2FoldChange             lfcSE
+##                 <numeric>           <numeric>         <numeric>
+## Peak_001 15851085.6623256   0.543354368585692 0.480040198162254
+## Peak_002 2886553.44628232   0.352018613499702  0.18414149590225
+## Peak_003 54608.6594684493    3.27696316841489 0.522023508911975
+## Peak_004 6678514.44975874   -1.26544849235227 0.298272898154012
+## Peak_005 42803.0086954009    1.51280253498947  0.81362978230075
+## ...                   ...                 ...               ...
+## Peak_073 674801.549832384   0.288494574347266 0.621869051824051
+## Peak_074  406391.90422691 -0.0964002729073593 0.312288658239894
+## Peak_075 11112399.0974818     1.4886595852321 0.373000659871069
+## Peak_076 11492198.0140652   -2.45870963784208  0.54292670784579
+## Peak_077 2487334.09080069  -0.773751613159392 0.306128752645805
+##                        stat               pvalue                 padj
+##                   <numeric>            <numeric>            <numeric>
+## Peak_001   1.13189347614184    0.257679221773973    0.320020968977353
+## Peak_002   1.91167456186284   0.0559179490926978   0.0828015784641871
+## Peak_003   6.27742450765271 3.44227305091768e-10 1.76703349947107e-09
+## Peak_004  -4.24258623624215  2.2095859220332e-05 6.30141170357617e-05
+## Peak_005   1.85932541789661    0.062981026261759   0.0898062781880638
+## ...                     ...                  ...                  ...
+## Peak_073  0.463915310628597    0.642708422976588    0.717225341582569
+## Peak_074 -0.308689638140193    0.757557626713601    0.799067633656812
+## Peak_075   3.99103740391952 6.57849030238893e-05 0.000163401210736757
+## Peak_076  -4.52862163955368 5.93696999422225e-06 1.90477787314631e-05
+## Peak_077   -2.5275365560145   0.0114865865220969   0.0192275470043796
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{plotMA}\NormalTok{(res, }\DataTypeTok{ylim=}\KeywordTok{c}\NormalTok{(}\OperatorTok{-}\DecValTok{2}\NormalTok{,}\DecValTok{2}\NormalTok{))}
+\NormalTok{idx <-}\StringTok{ }\KeywordTok{identify}\NormalTok{(res}\OperatorTok{$}\NormalTok{baseMean, res}\OperatorTok{$}\NormalTok{log2FoldChange)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{SWD_SBERRY_BLANK_PRO_REP_reponly_method_files/figure-latex/unnamed-chunk-7-1.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{rownames}\NormalTok{(res)[idx]}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## character(0)
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{#res = results(diagdds, contrast = c("rep", "C01", "R01"), cooksCutoff = FALSE)}
+\CommentTok{#res}
+\CommentTok{#res = results(diagdds, contrast = c("rep", "C01", "R02"), cooksCutoff = FALSE)}
+\CommentTok{#res}
+\CommentTok{#res = results(diagdds, contrast = c("rep", "C01", "R03"), cooksCutoff = FALSE)}
+\CommentTok{#res}
+
+\NormalTok{alpha =}\StringTok{ }\FloatTok{0.01}
+\NormalTok{sigtab =}\StringTok{ }\NormalTok{res[}\KeywordTok{which}\NormalTok{(res}\OperatorTok{$}\NormalTok{padj }\OperatorTok{<}\StringTok{ }\NormalTok{alpha), ]}
+\NormalTok{sigtab =}\StringTok{ }\KeywordTok{cbind}\NormalTok{(}\KeywordTok{as}\NormalTok{(sigtab, }\StringTok{"data.frame"}\NormalTok{), }\KeywordTok{as}\NormalTok{(}\KeywordTok{tax_table}\NormalTok{(NoZero)[}\KeywordTok{rownames}\NormalTok{(sigtab), ], }\StringTok{"matrix"}\NormalTok{))}
+\NormalTok{x =}\StringTok{ }\KeywordTok{tapply}\NormalTok{(sigtab}\OperatorTok{$}\NormalTok{log2FoldChange, sigtab}\OperatorTok{$}\NormalTok{Peak_ID, }\ControlFlowTok{function}\NormalTok{(x) }\KeywordTok{max}\NormalTok{(x))}
+\NormalTok{x =}\StringTok{ }\KeywordTok{sort}\NormalTok{(x, }\OtherTok{TRUE}\NormalTok{)}
+\NormalTok{sigtab}\OperatorTok{$}\NormalTok{Compound =}\StringTok{ }\KeywordTok{factor}\NormalTok{(}\KeywordTok{as.character}\NormalTok{(sigtab}\OperatorTok{$}\NormalTok{Peak_ID), }\DataTypeTok{levels=}\KeywordTok{names}\NormalTok{(x))}
+
+\KeywordTok{ggplot}\NormalTok{(sigtab, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{y=}\NormalTok{Compound, }\DataTypeTok{x=}\NormalTok{log2FoldChange)) }\OperatorTok{+}\StringTok{ }
+\StringTok{  }\KeywordTok{geom_vline}\NormalTok{(}\DataTypeTok{xintercept =} \FloatTok{0.0}\NormalTok{, }\DataTypeTok{color =} \StringTok{"gray"}\NormalTok{, }\DataTypeTok{size =} \FloatTok{0.5}\NormalTok{) }\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_point}\NormalTok{(}\DataTypeTok{size=}\DecValTok{3}\NormalTok{) }\OperatorTok{+}\StringTok{ }
+\StringTok{  }\KeywordTok{theme}\NormalTok{(}\DataTypeTok{axis.text.x =} \KeywordTok{element_text}\NormalTok{(}\DataTypeTok{angle =} \OperatorTok{-}\DecValTok{90}\NormalTok{, }\DataTypeTok{hjust =} \DecValTok{0}\NormalTok{, }\DataTypeTok{vjust=}\FloatTok{0.5}\NormalTok{))}\OperatorTok{+}
+\StringTok{  }\KeywordTok{ggtitle}\NormalTok{(}\StringTok{"Compounds signficantly differentiating 24H and 48H VOC collections"}\NormalTok{)}\OperatorTok{+}
+\StringTok{  }\KeywordTok{theme_bw}\NormalTok{()}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{SWD_SBERRY_BLANK_PRO_REP_reponly_method_files/figure-latex/unnamed-chunk-7-2.pdf}
+
+\subsection{RESULTS}\label{results}
+
+\section{\texorpdfstring{\texttt{\{r\}\ \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\ \ \ \ \ \ \ \ \ \ \ \ baseMean\ log2FoldChange\ \ \ \ \ lfcSE\ \ \ \ \ \ \ stat\ \ \ \ \ \ \ \ pvalue\ Peak\_01\ \ 172970.710\ \ \ \ \ \ \ 8.547149\ 1.0585296\ \ \ 8.074549\ \ 6.772636e-16\ Peak\_02\ \ 229723.715\ \ \ \ \ \ -3.975209\ 0.9038066\ \ -4.398296\ \ 1.091039e-05\ Peak\_03\ \ 108640.735\ \ \ \ \ \ -4.842292\ 1.7052150\ \ -2.839696\ \ 4.515656e-03\ Peak\_04\ \ 114300.257\ \ \ \ \ \ -2.401561\ 0.2646517\ \ -9.074420\ \ 1.142848e-19\ Peak\_05\ \ \ \ 6429.938\ \ \ \ \ \ -5.176677\ 1.5285077\ \ -3.386752\ \ 7.072519e-04\ Peak\_06\ 3723194.815\ \ \ \ \ \ -4.673254\ 0.7784913\ \ -6.002963\ \ 1.937489e-09\ Peak\_08\ \ \ 27411.692\ \ \ \ \ \ -5.753289\ 1.3866688\ \ -4.149000\ \ 3.339305e-05\ Peak\_10\ \ 290087.858\ \ \ \ \ \ -6.341055\ 0.7407218\ \ -8.560643\ \ 1.122396e-17\ Peak\_11\ \ \ \ 9144.101\ \ \ \ \ -30.000000\ 1.5551940\ -19.290198\ \ 6.492447e-83\ Peak\_13\ 3876312.995\ \ \ \ \ \ -7.289726\ 0.6633077\ -10.989962\ \ 4.271072e-28\ Peak\_14\ \ \ 16839.414\ \ \ \ \ \ -2.005219\ 0.7378130\ \ -2.717787\ \ 6.572010e-03\ Peak\_16\ \ 567316.293\ \ \ \ \ \ \ 2.522966\ 0.3722113\ \ \ 6.778318\ \ 1.215830e-11\ Peak\_17\ \ \ 41154.421\ \ \ \ \ -18.705320\ 0.6259842\ -29.881458\ 3.427297e-196\ Peak\_20\ \ 129072.733\ \ \ \ \ \ -1.733230\ 0.4030592\ \ -4.300188\ \ 1.706533e-05\ Peak\_21\ \ \ 22035.125\ \ \ \ \ \ \ 2.314304\ 0.8011196\ \ \ 2.888837\ \ 3.866699e-03\ Peak\_22\ \ \ \ 5097.497\ \ \ \ \ \ \ 4.715515\ 1.7487425\ \ \ 2.696518\ \ 7.006866e-03\ Peak\_25\ \ \ \ 4103.271\ \ \ \ \ \ \ 7.378659\ 1.7758910\ \ \ 4.154906\ \ 3.254217e-05\ Peak\_28\ 1345142.579\ \ \ \ \ \ \ 2.110005\ 0.7666845\ \ \ 2.752117\ \ 5.921139e-03\ Peak\_32\ \ 145114.357\ \ \ \ \ \ \ 1.366084\ 0.2527009\ \ \ 5.405933\ \ 6.447198e-08\ Peak\_33\ \ \ \ 7609.200\ \ \ \ \ \ -4.781830\ 1.2156448\ \ -3.933575\ \ 8.369170e-05\ Peak\_34\ \ 292863.350\ \ \ \ \ \ -8.815999\ 0.9091207\ \ -9.697281\ \ 3.096397e-22\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ padj\ Peak\_ID\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Name\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Compound\ Peak\_01\ \ 2.612303e-15\ Peak\_01\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ isoprene\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ isoprene\ Peak\_02\ \ 2.678006e-05\ Peak\_02\ \ \ \ \ \ \ \ \ \ \ acetaldehyde\ \ \ \ \ \ \ \ \ \ \ acetaldehyde\ Peak\_03\ \ 6.773484e-03\ Peak\_03\ \ \ \ \ \ \ isobutylaldehyde\ \ \ \ \ \ \ isobutylaldehyde\ Peak\_04\ \ 6.171378e-19\ Peak\_04\ \ \ \ \ \ \ \ \ \ 2-methylfuran\ \ \ \ \ \ \ \ \ \ 2-methylfuran\ Peak\_05\ \ 1.193488e-03\ Peak\_05\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ EtAc\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ EtAc\ Peak\_06\ \ 5.812468e-09\ Peak\_06\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ethanol\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ethanol\ Peak\_08\ \ 6.440088e-05\ Peak\_08\ \ \ \ \ \ \ \ \ \ \ \ \ 1-propanol\ \ \ \ \ \ \ \ \ \ \ \ \ 1-propanol\ Peak\_10\ \ 5.050780e-17\ Peak\_10\ \ \ \ \ \ \ \ \ \ \ \ \ isobutanol\ \ \ \ \ \ \ \ \ \ \ \ \ isobutanol\ Peak\_11\ \ 8.764804e-82\ Peak\_11\ \ \ \ \ \ \ \ isoamyl\ acetate\ \ \ \ \ \ \ \ isoamyl\ acetate\ Peak\_13\ \ 3.843964e-27\ Peak\_13\ 2and3-methyl-1-butanol\ 2and3-methyl-1-butanol\ Peak\_14\ \ 8.872214e-03\ Peak\_14\ \ 3-methyl-3-buten-1-ol\ \ 3-methyl-3-buten-1-ol\ Peak\_16\ \ 4.103427e-11\ Peak\_16\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ acetoin\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ acetoin\ Peak\_17\ 9.253702e-195\ Peak\_17\ \ \ \ \ \ \ \ \ \ 4-penten-1-ol\ \ \ \ \ \ \ \ \ \ 4-penten-1-ol\ Peak\_20\ \ 3.839699e-05\ Peak\_20\ \ \ \ \ \ \ \ \ \ \ \ \ \ 1-hexanol\ \ \ \ \ \ \ \ \ \ \ \ \ \ 1-hexanol\ Peak\_21\ \ 6.141227e-03\ Peak\_21\ \ \ \ \ \ \ \ \ \ \ \ \ \ unknown\ 2\ \ \ \ \ \ \ \ \ \ \ \ \ \ unknown\ 2\ Peak\_22\ \ 9.008827e-03\ Peak\_22\ \ \ \ \ \ \ \ \ \ \ \ \ \ unknown\ 3\ \ \ \ \ \ \ \ \ \ \ \ \ \ unknown\ 3\ Peak\_25\ \ 6.440088e-05\ Peak\_25\ \ \ \ \ \ \ \ \ \ \ \ \ \ 3-octanol\ \ \ \ \ \ \ \ \ \ \ \ \ \ 3-octanol\ Peak\_28\ \ 8.414250e-03\ Peak\_28\ \ \ \ \ \ 2-ethyl-1-hexanol\ \ \ \ \ \ 2-ethyl-1-hexanol\ Peak\_32\ \ 1.740743e-07\ Peak\_32\ \ \ \ \ \ \ \ 2-furanmethanol\ \ \ \ \ \ \ \ 2-furanmethanol\ Peak\_33\ \ 1.506451e-04\ Peak\_33\ \ \ \ \ \ \ \ \ \ \ \ \ \ 1-nonanol\ \ \ \ \ \ \ \ \ \ \ \ \ \ 1-nonanol\ Peak\_34\ \ 2.090068e-21\ Peak\_34\ \ \ \ 2-phenethyl\ alcohol\ \ \ \ 2-phenethyl\ alcohol\ \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#}}{\{r\} \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#            baseMean log2FoldChange     lfcSE       stat        pvalue Peak\_01  172970.710       8.547149 1.0585296   8.074549  6.772636e-16 Peak\_02  229723.715      -3.975209 0.9038066  -4.398296  1.091039e-05 Peak\_03  108640.735      -4.842292 1.7052150  -2.839696  4.515656e-03 Peak\_04  114300.257      -2.401561 0.2646517  -9.074420  1.142848e-19 Peak\_05    6429.938      -5.176677 1.5285077  -3.386752  7.072519e-04 Peak\_06 3723194.815      -4.673254 0.7784913  -6.002963  1.937489e-09 Peak\_08   27411.692      -5.753289 1.3866688  -4.149000  3.339305e-05 Peak\_10  290087.858      -6.341055 0.7407218  -8.560643  1.122396e-17 Peak\_11    9144.101     -30.000000 1.5551940 -19.290198  6.492447e-83 Peak\_13 3876312.995      -7.289726 0.6633077 -10.989962  4.271072e-28 Peak\_14   16839.414      -2.005219 0.7378130  -2.717787  6.572010e-03 Peak\_16  567316.293       2.522966 0.3722113   6.778318  1.215830e-11 Peak\_17   41154.421     -18.705320 0.6259842 -29.881458 3.427297e-196 Peak\_20  129072.733      -1.733230 0.4030592  -4.300188  1.706533e-05 Peak\_21   22035.125       2.314304 0.8011196   2.888837  3.866699e-03 Peak\_22    5097.497       4.715515 1.7487425   2.696518  7.006866e-03 Peak\_25    4103.271       7.378659 1.7758910   4.154906  3.254217e-05 Peak\_28 1345142.579       2.110005 0.7666845   2.752117  5.921139e-03 Peak\_32  145114.357       1.366084 0.2527009   5.405933  6.447198e-08 Peak\_33    7609.200      -4.781830 1.2156448  -3.933575  8.369170e-05 Peak\_34  292863.350      -8.815999 0.9091207  -9.697281  3.096397e-22                  padj Peak\_ID                   Name               Compound Peak\_01  2.612303e-15 Peak\_01               isoprene               isoprene Peak\_02  2.678006e-05 Peak\_02           acetaldehyde           acetaldehyde Peak\_03  6.773484e-03 Peak\_03       isobutylaldehyde       isobutylaldehyde Peak\_04  6.171378e-19 Peak\_04          2-methylfuran          2-methylfuran Peak\_05  1.193488e-03 Peak\_05                   EtAc                   EtAc Peak\_06  5.812468e-09 Peak\_06                ethanol                ethanol Peak\_08  6.440088e-05 Peak\_08             1-propanol             1-propanol Peak\_10  5.050780e-17 Peak\_10             isobutanol             isobutanol Peak\_11  8.764804e-82 Peak\_11        isoamyl acetate        isoamyl acetate Peak\_13  3.843964e-27 Peak\_13 2and3-methyl-1-butanol 2and3-methyl-1-butanol Peak\_14  8.872214e-03 Peak\_14  3-methyl-3-buten-1-ol  3-methyl-3-buten-1-ol Peak\_16  4.103427e-11 Peak\_16                acetoin                acetoin Peak\_17 9.253702e-195 Peak\_17          4-penten-1-ol          4-penten-1-ol Peak\_20  3.839699e-05 Peak\_20              1-hexanol              1-hexanol Peak\_21  6.141227e-03 Peak\_21              unknown 2              unknown 2 Peak\_22  9.008827e-03 Peak\_22              unknown 3              unknown 3 Peak\_25  6.440088e-05 Peak\_25              3-octanol              3-octanol Peak\_28  8.414250e-03 Peak\_28      2-ethyl-1-hexanol      2-ethyl-1-hexanol Peak\_32  1.740743e-07 Peak\_32        2-furanmethanol        2-furanmethanol Peak\_33  1.506451e-04 Peak\_33              1-nonanol              1-nonanol Peak\_34  2.090068e-21 Peak\_34    2-phenethyl alcohol    2-phenethyl alcohol \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#}}\label{r-basemean-log2foldchange-lfcse-stat-pvalue-peak_01-172970.710-8.547149-1.0585296-8.074549-6.772636e-16-peak_02-229723.715--3.975209-0.9038066--4.398296-1.091039e-05-peak_03-108640.735--4.842292-1.7052150--2.839696-4.515656e-03-peak_04-114300.257--2.401561-0.2646517--9.074420-1.142848e-19-peak_05-6429.938--5.176677-1.5285077--3.386752-7.072519e-04-peak_06-3723194.815--4.673254-0.7784913--6.002963-1.937489e-09-peak_08-27411.692--5.753289-1.3866688--4.149000-3.339305e-05-peak_10-290087.858--6.341055-0.7407218--8.560643-1.122396e-17-peak_11-9144.101--30.000000-1.5551940--19.290198-6.492447e-83-peak_13-3876312.995--7.289726-0.6633077--10.989962-4.271072e-28-peak_14-16839.414--2.005219-0.7378130--2.717787-6.572010e-03-peak_16-567316.293-2.522966-0.3722113-6.778318-1.215830e-11-peak_17-41154.421--18.705320-0.6259842--29.881458-3.427297e-196-peak_20-129072.733--1.733230-0.4030592--4.300188-1.706533e-05-peak_21-22035.125-2.314304-0.8011196-2.888837-3.866699e-03-peak_22-5097.497-4.715515-1.7487425-2.696518-7.006866e-03-peak_25-4103.271-7.378659-1.7758910-4.154906-3.254217e-05-peak_28-1345142.579-2.110005-0.7666845-2.752117-5.921139e-03-peak_32-145114.357-1.366084-0.2527009-5.405933-6.447198e-08-peak_33-7609.200--4.781830-1.2156448--3.933575-8.369170e-05-peak_34-292863.350--8.815999-0.9091207--9.697281-3.096397e-22-padj-peak_id-name-compound-peak_01-2.612303e-15-peak_01-isoprene-isoprene-peak_02-2.678006e-05-peak_02-acetaldehyde-acetaldehyde-peak_03-6.773484e-03-peak_03-isobutylaldehyde-isobutylaldehyde-peak_04-6.171378e-19-peak_04-2-methylfuran-2-methylfuran-peak_05-1.193488e-03-peak_05-etac-etac-peak_06-5.812468e-09-peak_06-ethanol-ethanol-peak_08-6.440088e-05-peak_08-1-propanol-1-propanol-peak_10-5.050780e-17-peak_10-isobutanol-isobutanol-peak_11-8.764804e-82-peak_11-isoamyl-acetate-isoamyl-acetate-peak_13-3.843964e-27-peak_13-2and3-methyl-1-butanol-2and3-methyl-1-butanol-peak_14-8.872214e-03-peak_14-3-methyl-3-buten-1-ol-3-methyl-3-buten-1-ol-peak_16-4.103427e-11-peak_16-acetoin-acetoin-peak_17-9.253702e-195-peak_17-4-penten-1-ol-4-penten-1-ol-peak_20-3.839699e-05-peak_20-1-hexanol-1-hexanol-peak_21-6.141227e-03-peak_21-unknown-2-unknown-2-peak_22-9.008827e-03-peak_22-unknown-3-unknown-3-peak_25-6.440088e-05-peak_25-3-octanol-3-octanol-peak_28-8.414250e-03-peak_28-2-ethyl-1-hexanol-2-ethyl-1-hexanol-peak_32-1.740743e-07-peak_32-2-furanmethanol-2-furanmethanol-peak_33-1.506451e-04-peak_33-1-nonanol-1-nonanol-peak_34-2.090068e-21-peak_34-2-phenethyl-alcohol-2-phenethyl-alcohol}
+
+\section{```\{r\}}\label{r-1}
+
+res = results(diagdds, contrast = c(``microbe'', ``Aa'', ``MrAa''),
+cooksCutoff = FALSE)
+
+sigtab = res{[}which(res\$padj \textless{} alpha), {]} sigtab =
+cbind(as(sigtab, ``data.frame''),
+as(tax\_table(NoZero){[}rownames(sigtab), {]}, ``matrix'')) x =
+tapply(sigtab\(log2FoldChange, sigtab\)Name, function(x) max(x)) x =
+sort(x, TRUE) sigtab\(Compound = factor(as.character(sigtab\)Name),
+levels=names(x))
+
+res = results(diagdds, contrast = c(``microbe'', ``Aa'', ``MrAa''),
+cooksCutoff = FALSE)
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+baseMean log2FoldChange lfcSE stat pvalue Peak\_01 172970.710 2.571465
+0.8817382 2.916359 3.541429e-03 Peak\_02 229723.715 -3.665710 0.7529259
+-4.868620 1.123805e-06 Peak\_03 108640.735 -5.588084 1.4205535 -3.933737
+8.363530e-05 Peak\_04 114300.257 -1.954784 0.2204682 -8.866513
+7.547219e-19 Peak\_05 6429.938 -5.568559 1.2732440 -4.373521
+1.222586e-05 Peak\_06 3723194.815 -4.858056 0.6485301 -7.490871
+6.841797e-14 Peak\_08 27411.692 -6.119115 1.1551846 -5.297089
+1.176636e-07 Peak\_10 290087.858 -6.411193 0.6170658 -10.389805
+2.759179e-25 Peak\_11 9144.101 -29.958661 1.3176789 -22.735935
+1.977173e-114 Peak\_12 24965.215 2.084710 0.7391396 2.820455
+4.795563e-03 Peak\_13 3876312.995 -7.070071 0.5525753 -12.794764
+1.753838e-37 Peak\_17 41154.421 -16.979344 0.5759060 -29.482839
+4.778429e-191 Peak\_22 5097.497 7.400060 1.4572996 5.077926 3.815765e-07
+Peak\_32 145114.357 2.013536 0.2105093 9.565068 1.121272e-21 Peak\_33
+7609.200 -3.809031 1.0126839 -3.761323 1.690170e-04 Peak\_34 292863.350
+-7.024164 0.7573479 -9.274685 1.781448e-20 padj Peak\_ID Name Compound
+Peak\_01 6.374572e-03 Peak\_01 isoprene isoprene Peak\_02 2.758430e-06
+Peak\_02 acetaldehyde acetaldehyde Peak\_03 1.737041e-04 Peak\_03
+isobutylaldehyde isobutylaldehyde Peak\_04 2.911070e-18 Peak\_04
+2-methylfuran 2-methylfuran Peak\_05 2.750818e-05 Peak\_05 EtAc EtAc
+Peak\_06 2.309106e-13 Peak\_06 ethanol ethanol Peak\_08 3.529909e-07
+Peak\_08 1-propanol 1-propanol Peak\_10 1.862446e-24 Peak\_10 isobutanol
+isobutanol Peak\_11 2.669183e-113 Peak\_11 isoamyl acetate isoamyl
+acetate Peak\_12 8.092513e-03 Peak\_12 3-methyl-2-heptanone
+3-methyl-2-heptanone Peak\_13 1.578454e-36 Peak\_13
+2and3-methyl-1-butanol 2and3-methyl-1-butanol Peak\_17 1.290176e-189
+Peak\_17 4-penten-1-ol 4-penten-1-ol Peak\_22 1.030257e-06 Peak\_22
+unknown 3 unknown 3 Peak\_32 6.054871e-21 Peak\_32 2-furanmethanol
+2-furanmethanol Peak\_33 3.259613e-04 Peak\_33 1-nonanol 1-nonanol
+Peak\_34 8.016517e-20 Peak\_34 2-phenethyl alcohol 2-phenethyl alcohol
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) +
+geom\_vline(xintercept = 0.0, color = ``gray'', size = 0.5) +
+geom\_point(size=6) + theme(axis.text.x = element\_text(angle = -90,
+hjust = 0, vjust=0.5))+ ggtitle(``Compounds signficantly differentiating
+MrAa and Aa samples'')+ theme\_bw()
+
+res = results(diagdds, contrast = c(``microbe'', ``Mr'', ``MrAa''),
+cooksCutoff = FALSE) \ldots{}. sigtab
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+baseMean log2FoldChange lfcSE stat pvalue padj Peak\_01 172970.71
+-5.975684 1.0262266 -5.822967 5.781184e-09 1.560920e-07 Peak\_16
+567316.29 -1.942773 0.3608512 -5.383860 7.290533e-08 9.842219e-07
+Peak\_17 41154.42 1.725977 0.4026773 4.286252 1.817125e-05 1.635413e-04
+Peak\_20 129072.73 1.564386 0.3907546 4.003500 6.241208e-05 4.212815e-04
+Peak\_ID Name Compound Peak\_01 Peak\_01 isoprene isoprene Peak\_16
+Peak\_16 acetoin acetoin Peak\_17 Peak\_17 4-penten-1-ol 4-penten-1-ol
+Peak\_20 Peak\_20 1-hexanol 1-hexanol
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) +
+geom\_vline(xintercept = 0.0, color = ``gray'', size = 0.5) +
+geom\_point(size=6) + theme(axis.text.x = element\_text(angle = -90,
+hjust = 0, vjust=0.5))+ ggtitle(``Compounds signficantly differentiating
+MrAa and Mr samples'')+ theme\_bw()
+
+res = results(diagdds, contrast = c(``rep'', ``normal'', ``low''),
+cooksCutoff = FALSE) \ldots{}. sigtab
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+baseMean log2FoldChange lfcSE stat pvalue Peak\_01 172970.710 -3.8740203
+0.8131465 -4.764234 1.895721e-06 Peak\_04 114300.257 0.6093800 0.2033063
+2.997349 2.723389e-03 Peak\_07 114857.656 0.5512379 0.1542863 3.572824
+3.531528e-04 Peak\_16 567316.293 -1.3049309 0.2859393 -4.563665
+5.026836e-06 Peak\_17 41154.421 1.1060167 0.3789650 2.918520
+3.516979e-03 Peak\_20 129072.733 -2.2140437 0.3096392 -7.150398
+8.652659e-13 Peak\_22 5097.497 5.5012743 1.3439470 4.093371 4.251460e-05
+Peak\_23 3259.009 13.8798951 1.2563398 11.047883 2.244455e-28 Peak\_25
+4103.271 5.2195171 1.3586300 3.841750 1.221601e-04 Peak\_27 11562.826
+-3.3162389 0.8531968 -3.886839 1.015579e-04 Peak\_28 1345142.579
+1.9853791 0.5889831 3.370859 7.493414e-04 Peak\_32 145114.357 1.9812350
+0.1941255 10.205950 1.864863e-24 padj Peak\_ID Name Peak\_01
+1.279612e-05 Peak\_01 isoprene Peak\_04 6.684682e-03 Peak\_04
+2-methylfuran Peak\_07 1.059458e-03 Peak\_07 2,5-dimethylfuran Peak\_16
+2.714491e-05 Peak\_16 acetoin Peak\_17 7.913202e-03 Peak\_17
+4-penten-1-ol Peak\_20 7.787393e-12 Peak\_20 1-hexanol Peak\_22
+1.913157e-04 Peak\_22 unknown 3 Peak\_23 6.060028e-27 Peak\_23
+2-ethylhexyl ester acetic acid Peak\_25 4.122904e-04 Peak\_25 3-octanol
+Peak\_27 3.917234e-04 Peak\_27 1-heptanol Peak\_28 2.023222e-03 Peak\_28
+2-ethyl-1-hexanol Peak\_32 2.517565e-23 Peak\_32 2-furanmethanol
+Compound Peak\_01 isoprene Peak\_04 2-methylfuran Peak\_07
+2,5-dimethylfuran Peak\_16 acetoin Peak\_17 4-penten-1-ol Peak\_20
+1-hexanol Peak\_22 unknown 3 Peak\_23 2-ethylhexyl ester acetic acid
+Peak\_25 3-octanol Peak\_27 1-heptanol Peak\_28 2-ethyl-1-hexanol
+Peak\_32 2-furanmethanol
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) +
+geom\_vline(xintercept = 0.0, color = ``gray'', size = 0.5) +
+geom\_point(size=6) + theme(axis.text.x = element\_text(angle = -90,
+hjust = 0, vjust=0.5))+ ggtitle(``Compounds signficantly differentiating
+1.5 and 15\% samples'')+ theme\_bw() \#\#\# \#\# \#
+
+\section{}\label{section-23}
+
+\subsection{}\label{section-24}
+
+\subsubsection{}\label{section-25}
+
+\begin{verbatim}
+
+#```{r}
+deobj <- phyloseq_to_deseq2(NoZero, ~ rep + hour)
+diagdds = DESeq(deobj, test="Wald", fitType="local")
+
+
+res = results(diagdds, contrast = c("microbe", "Aa", "Mr"), cooksCutoff = FALSE)
+
+res = results(diagdds, contrast = c("microbe", "Aa", "MrAa"), cooksCutoff = FALSE)
+
+res = results(diagdds, contrast = c("microbe", "Mr", "MrAa"), cooksCutoff = FALSE)
+
+res = results(diagdds, contrast = c("rep", "normal", "low"), cooksCutoff = FALSE)
+
+sigtab = res[which(res$padj < alpha), ]
+sigtab = cbind(as(sigtab, "data.frame"), as(tax_table(NoZero)[rownames(sigtab), ], "matrix"))
+x = tapply(sigtab$log2FoldChange, sigtab$Name, function(x) max(x))
+x = sort(x, TRUE)
+sigtab$Compound = factor(as.character(sigtab$Name), levels=names(x))
+sigtab #(res = results(diagdds, contrast = c("microbe", "Aa", "Mr"), cooksCutoff = FALSE))
+#######################################################################################
+           baseMean log2FoldChange     lfcSE       stat       pvalue
+Peak_01  172970.710       7.096023 1.1545505   6.146134 7.939409e-10
+Peak_02  229723.715      -3.065363 1.1195108  -2.738127 6.179021e-03
+Peak_04  114300.257      -2.340912 0.2664793  -8.784594 1.569303e-18
+Peak_05    6429.938     -25.779765 1.8217390 -14.151185 1.836371e-45
+Peak_06 3723194.815      -3.935595 0.9402285  -4.185785 2.841819e-05
+Peak_08   27411.692      -4.667917 1.7005505  -2.744945 6.052106e-03
+Peak_10  290087.858      -5.949781 0.8952180  -6.646181 3.007955e-11
+Peak_11    9144.101     -27.910717 2.0154424 -13.848432 1.300201e-43
+Peak_13 3876312.995      -7.187288 0.7899597  -9.098297 9.175920e-20
+Peak_16  567316.293       3.844822 0.3023751  12.715406 4.855814e-37
+Peak_17   41154.421     -16.312931 0.8026720 -20.323284 8.003947e-92
+Peak_20  129072.733      -2.086494 0.4767748  -4.376268 1.207285e-05
+Peak_21   22035.125       2.650081 0.9777067   2.710507 6.718035e-03
+Peak_22    5097.497       5.745642 1.8583159   3.091854 1.989105e-03
+Peak_23    3259.009       5.806242 2.0681328   2.807480 4.993078e-03
+Peak_25    4103.271      27.856223 2.0552502  13.553689 7.534581e-42
+Peak_28 1345142.579       2.801856 0.9128899   3.069216 2.146211e-03
+Peak_32  145114.357       1.086914 0.2667270   4.075004 4.601353e-05
+Peak_33    7609.200     -14.585211 1.3573799 -10.745121 6.248010e-27
+Peak_34  292863.350      -9.855555 1.1127010  -8.857326 8.195693e-19
+                padj Peak_ID                           Name
+Peak_01 1.948764e-09 Peak_01                       isoprene
+Peak_02 8.780714e-03 Peak_02                   acetaldehyde
+Peak_04 4.707908e-18 Peak_04                  2-methylfuran
+Peak_05 2.479101e-44 Peak_05                           EtAc
+Peak_06 5.902240e-05 Peak_06                        ethanol
+Peak_08 8.780714e-03 Peak_08                     1-propanol
+Peak_10 8.121479e-11 Peak_10                     isobutanol
+Peak_11 1.170181e-42 Peak_11                isoamyl acetate
+Peak_13 3.539284e-19 Peak_13         2and3-methyl-1-butanol
+Peak_16 2.622140e-36 Peak_16                        acetoin
+Peak_17 2.161066e-90 Peak_17                  4-penten-1-ol
+Peak_20 2.716392e-05 Peak_20                      1-hexanol
+Peak_21 9.069347e-03 Peak_21                      unknown 2
+Peak_22 3.580388e-03 Peak_22                      unknown 3
+Peak_23 7.930182e-03 Peak_23 2-ethylhexyl ester acetic acid
+Peak_25 5.085842e-41 Peak_25                      3-octanol
+Peak_28 3.621731e-03 Peak_28              2-ethyl-1-hexanol
+Peak_32 8.874039e-05 Peak_32                2-furanmethanol
+Peak_33 2.811605e-26 Peak_33                      1-nonanol
+Peak_34 2.766046e-18 Peak_34            2-phenethyl alcohol
+#####################################################################################
+ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) + 
+  geom_vline(xintercept = 0.0, color = "gray", size = 0.5) +
+  geom_point(size=6) + 
+  theme(axis.text.x = element_text(angle = -90, hjust = 0, vjust=0.5))+
+  ggtitle("Compounds signficantly differentiating Mr and Aa samples")+
+  theme_bw()
+
+res = results(diagdds, contrast = c("microbe", "Aa", "MrAa"), cooksCutoff = FALSE)
+...
+sigtab # above
+########################################################################################
+           baseMean log2FoldChange     lfcSE       stat       pvalue
+Peak_02  229723.715      -3.331702 1.1195106  -2.976034 2.920022e-03
+Peak_04  114300.257      -1.369638 0.2664813  -5.139715 2.751561e-07
+Peak_05    6429.938     -26.884550 1.8217212 -14.757774 2.741807e-49
+Peak_06 3723194.815      -4.712543 0.9402285  -5.012126 5.383196e-07
+Peak_08   27411.692      -5.750044 1.7005472  -3.381290 7.214625e-04
+Peak_10  290087.858      -6.878734 0.8952175  -7.683868 1.543552e-14
+Peak_11    9144.101     -28.126256 2.0154385 -13.955402 2.916506e-44
+Peak_13 3876312.995      -7.630838 0.7899597  -9.659782 4.468138e-22
+Peak_17   41154.421     -15.192101 0.8026751 -18.926838 6.855649e-80
+Peak_22    5097.497      29.644245 1.9664691  15.074859 2.370199e-51
+Peak_23    3259.009       6.260053 2.0681328   3.026911 2.470671e-03
+Peak_32  145114.357       1.977423 0.2667332   7.413484 1.230238e-13
+Peak_33    7609.200     -14.125086 1.3573797 -10.406142 2.324515e-25
+Peak_34  292863.350      -8.497808 1.1127012  -7.637098 2.221728e-14
+                padj Peak_ID                           Name
+Peak_02 5.631472e-03 Peak_02                   acetaldehyde
+Peak_04 7.429215e-07 Peak_04                  2-methylfuran
+Peak_05 2.467626e-48 Peak_05                           EtAc
+Peak_06 1.321330e-06 Peak_06                        ethanol
+Peak_08 1.623291e-03 Peak_08                     1-propanol
+Peak_10 5.953699e-14 Peak_10                     isobutanol
+Peak_11 1.968641e-43 Peak_11                isoamyl acetate
+Peak_13 2.010662e-21 Peak_13         2and3-methyl-1-butanol
+Peak_17 1.851025e-78 Peak_17                  4-penten-1-ol
+Peak_22 3.199768e-50 Peak_22                      unknown 3
+Peak_23 5.131393e-03 Peak_23 2-ethylhexyl ester acetic acid
+Peak_32 3.690713e-13 Peak_32                2-furanmethanol
+Peak_33 1.255238e-24 Peak_33                      1-nonanol
+Peak_34 7.498332e-14 Peak_34            2-phenethyl alcohol
+###########################################################################################
+
+ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) + 
+  geom_vline(xintercept = 0.0, color = "gray", size = 0.5) +
+  geom_point(size=6) + 
+  theme(axis.text.x = element_text(angle = -90, hjust = 0, vjust=0.5))+
+  ggtitle("Compounds signficantly differentiating MrAa and Aa samples")+
+  theme_bw()
+
+res = results(diagdds, contrast = c("microbe", "Mr", "MrAa"), cooksCutoff = FALSE)
+....
+sigtab # above
+################################################################################################
+          baseMean log2FoldChange     lfcSE       stat       pvalue
+Peak_01 172970.710     -6.0328197 1.0885299  -5.542172 2.987430e-08
+Peak_04 114300.257      0.9712743 0.2511971   3.866583 1.103710e-04
+Peak_16 567316.293     -3.1554548 0.2850826 -11.068564 1.782342e-28
+Peak_17  41154.421      1.1208304 0.3319453   3.376551 7.340077e-04
+Peak_20 129072.733      1.7197295 0.4495007   3.825866 1.303133e-04
+Peak_22   5097.497     23.8986036 1.8671240  12.799687 1.646129e-37
+Peak_25   4103.271    -24.2355019 1.9498674 -12.429308 1.811971e-35
+Peak_32 145114.357      0.8905089 0.2514846   3.541008 3.986008e-04
+                padj Peak_ID            Name        Compound
+Peak_01 2.016515e-07 Peak_01        isoprene        isoprene
+Peak_04 5.864098e-04 Peak_04   2-methylfuran   2-methylfuran
+Peak_16 1.604108e-27 Peak_16         acetoin         acetoin
+Peak_17 2.477276e-03 Peak_17   4-penten-1-ol   4-penten-1-ol
+Peak_20 5.864098e-04 Peak_20       1-hexanol       1-hexanol
+Peak_22 4.444549e-36 Peak_22       unknown 3       unknown 3
+Peak_25 2.446161e-34 Peak_25       3-octanol       3-octanol
+Peak_32 1.537460e-03 Peak_32 2-furanmethanol 2-furanmethanol
+####################################################################################################
+
+ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) + 
+  geom_vline(xintercept = 0.0, color = "gray", size = 0.5) +
+  geom_point(size=6) + 
+  theme(axis.text.x = element_text(angle = -90, hjust = 0, vjust=0.5))+
+  ggtitle("Compounds signficantly differentiating MrAa and Mr samples")+
+  theme_bw()
+
+
+
+
+
+
+sample_data(NoZero)$TreatNect <- paste(sample_data(NoZero)$microbe, 
+    sample_data(NoZero)$rep)
+
+deobj <- phyloseq_to_deseq2(NoZero, ~ TreatNect)
+diagdds = DESeq(deobj, test="Wald", fitType="local")
+
+
+res = results(diagdds, contrast = c("TreatNect", "MrAa normal", "MrAa low"), cooksCutoff = FALSE)
+
+sigtab = res[which(res$padj < alpha), ]
+sigtab = cbind(as(sigtab, "data.frame"), as(tax_table(NoZero)[rownames(sigtab), ], "matrix"))
+x = tapply(sigtab$log2FoldChange, sigtab$Name, function(x) max(x))
+x = sort(x, TRUE)
+sigtab$Compound = factor(as.character(sigtab$Name), levels=names(x))
+sigtab
+######################################################################################################
+          baseMean log2FoldChange     lfcSE      stat       pvalue
+Peak_01 172970.710      -4.608430 1.0884792 -4.233824 2.297505e-05
+Peak_04 114300.257       1.286420 0.2511921  5.121262 3.034979e-07
+Peak_16 567316.293      -1.951653 0.2850748 -6.846108 7.588645e-12
+Peak_20 129072.733      -2.202685 0.4495016 -4.900283 9.569858e-07
+Peak_22   5097.497      27.978724 1.8664369 14.990447 8.478010e-51
+Peak_23   3259.009      31.417225 1.8400424 17.074185 2.310273e-65
+Peak_32 145114.357       2.140776 0.2514650  8.513217 1.691735e-17
+                padj Peak_ID                           Name
+Peak_01 8.861806e-05 Peak_01                       isoprene
+Peak_04 1.638889e-06 Peak_04                  2-methylfuran
+Peak_16 5.122335e-11 Peak_16                        acetoin
+Peak_20 4.306436e-06 Peak_20                      1-hexanol
+Peak_22 1.144531e-49 Peak_22                      unknown 3
+Peak_23 6.237737e-64 Peak_23 2-ethylhexyl ester acetic acid
+Peak_32 1.522562e-16 Peak_32                2-furanmethanol
+#####################################################################################################
+
+ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) + 
+  geom_vline(xintercept = 0.0, color = "gray", size = 0.5) +
+  geom_point(size=6) + 
+  theme(axis.text.x = element_text(angle = -90, hjust = 0, vjust=0.5))+
+  ggtitle("Compounds signficantly differentiating MrAa samples in 1.5 vs 15% nectar")+
+  theme_bw()
+
+
+res = results(diagdds, contrast = c("TreatNect", "Mr normal", "Mr low"), cooksCutoff = FALSE)
+...
+sigtab
+######################################################################################
+          baseMean log2FoldChange     lfcSE      stat       pvalue
+Peak_01 172970.710     -22.905266 2.3739801 -9.648466 4.989656e-22
+Peak_17  41154.421       2.909908 0.5748958  5.061627 4.156946e-07
+Peak_20 129072.733      -3.504705 0.7785615 -4.501513 6.747147e-06
+Peak_23   3259.009      32.650270 3.0536306 10.692279 1.106190e-26
+Peak_25   4103.271      28.182886 3.2511537  8.668580 4.375421e-18
+                padj Peak_ID                           Name
+Peak_01 6.736035e-21 Peak_01                       isoprene
+Peak_17 2.805938e-06 Peak_17                  4-penten-1-ol
+Peak_20 3.643459e-05 Peak_20                      1-hexanol
+Peak_23 2.986713e-25 Peak_23 2-ethylhexyl ester acetic acid
+Peak_25 3.937879e-17 Peak_25                      3-octanol
+########################################################################################
+
+ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) + 
+  geom_vline(xintercept = 0.0, color = "gray", size = 0.5) +
+  geom_point(size=6) + 
+  theme(axis.text.x = element_text(angle = -90, hjust = 0, vjust=0.5))+
+  ggtitle("Compounds signficantly differentiating Mr samples in 1.5 vs 15% nectar")+
+  theme_bw()
+
+res = results(diagdds, contrast = c("TreatNect", "Aa normal", "Aa low"), cooksCutoff = FALSE)
+################################################################################################3
+          baseMean log2FoldChange     lfcSE      stat       pvalue
+Peak_05   6429.938      24.011186 1.8217433 13.180335 1.138846e-39
+Peak_16 567316.293      -2.122503 0.3023682 -7.019598 2.225081e-12
+Peak_20 129072.733      -1.865983 0.4767799 -3.913720 9.088513e-05
+Peak_23   3259.009      24.226971 1.9649649 12.329468 6.286066e-35
+Peak_27  11562.826      -4.370947 1.3565890 -3.222013 1.272934e-03
+Peak_32 145114.357       2.187298 0.2667083  8.201085 2.382267e-16
+Peak_33   7609.200      11.707649 1.3573957  8.625082 6.404697e-18
+                padj Peak_ID                           Name
+Peak_05 3.074885e-38 Peak_05                           EtAc
+Peak_16 1.201544e-11 Peak_16                        acetoin
+Peak_20 4.089831e-04 Peak_20                      1-hexanol
+Peak_23 8.486189e-34 Peak_23 2-ethylhexyl ester acetic acid
+Peak_27 4.909888e-03 Peak_27                     1-heptanol
+Peak_32 1.608030e-15 Peak_32                2-furanmethanol
+Peak_33 5.764227e-17 Peak_33                      1-nonanol
+##################################################################################################
+
+ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) + 
+  geom_vline(xintercept = 0.0, color = "gray", size = 0.5) +
+  geom_point(size=6) + 
+  theme(axis.text.x = element_text(angle = -90, hjust = 0, vjust=0.5))+
+  ggtitle("Compounds signficantly differentiating Aa samples in 1.5 vs 15% nectar")+
+  theme_bw()
+
+
+
+
+#############################################################################################
+###
+##
+#
+# stopped here. will revist these followimg plots after auth 
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{################## }
+\CommentTok{# Non-PCoA Plots #}
+\NormalTok{##################}
+\NormalTok{###}
+\NormalTok{##}
+\CommentTok{# look at compound abundance over time by group}
+
+\CommentTok{# melt and plot}
+\NormalTok{VOC_melt <-}\KeywordTok{psmelt}\NormalTok{(VOC)}
+
+\CommentTok{# each compound over time}
+\KeywordTok{ggplot}\NormalTok{(VOC_melt, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{rep, }\DataTypeTok{y=}\NormalTok{Abundance, }\DataTypeTok{color=}\NormalTok{hour))}\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_point}\NormalTok{()}\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_smooth}\NormalTok{()}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## `geom_smooth()` using method = 'loess' and formula 'y ~ x'
+\end{verbatim}
+
+\includegraphics{SWD_SBERRY_BLANK_PRO_REP_reponly_method_files/figure-latex/unnamed-chunk-8-1.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{###}
+\NormalTok{##}
+\CommentTok{# Compound abundance mean over days 1-2 by group}
+
+\KeywordTok{sample_data}\NormalTok{(NoZero)}\OperatorTok{$}\NormalTok{TreatNect <-}\StringTok{ }\KeywordTok{paste}\NormalTok{(}\KeywordTok{sample_data}\NormalTok{(NoZero)}\OperatorTok{$}\NormalTok{Peak_ID, }
+    \KeywordTok{sample_data}\NormalTok{(NoZero)}\OperatorTok{$}\NormalTok{rep)}
+
+\NormalTok{VOC_avg <-}\StringTok{ }\KeywordTok{merge_samples}\NormalTok{(NoZero, }\DataTypeTok{group =} \StringTok{"TreatNect"}\NormalTok{, }\DataTypeTok{fun=}\NormalTok{mean)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Warning in asMethod(object): NAs introduced by coercion
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{otu_melt <-}\StringTok{  }\KeywordTok{psmelt}\NormalTok{((VOC_avg))}
+\CommentTok{#}
+  
+\KeywordTok{ggplot}\NormalTok{(otu_melt, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{ rep, }\DataTypeTok{y=}\NormalTok{ Abundance, }\DataTypeTok{group =}\NormalTok{ hour))}\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_point}\NormalTok{()}\OperatorTok{+}
+\StringTok{  }\KeywordTok{geom_boxplot}\NormalTok{()}\OperatorTok{+}
+\StringTok{  }\KeywordTok{facet_wrap}\NormalTok{(}\OperatorTok{~}\NormalTok{Name, }\DataTypeTok{scales=} \StringTok{"free"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{SWD_SBERRY_BLANK_PRO_REP_reponly_method_files/figure-latex/unnamed-chunk-8-2.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{###}
+\NormalTok{##}
+\CommentTok{# Histogram of compound abundance }
+
+\CommentTok{# 10 most abundant}
+\NormalTok{VOC_avg_top <-}\StringTok{ }\KeywordTok{prune_taxa}\NormalTok{(}\KeywordTok{taxa_sums}\NormalTok{(VOC_avg)}\OperatorTok{>}\DecValTok{10000000}\NormalTok{,VOC_avg)}
+\NormalTok{avgtop_melt <-}\StringTok{  }\KeywordTok{psmelt}\NormalTok{((VOC_avg_top))}
+\KeywordTok{ggplot}\NormalTok{(avgtop_melt, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{rep, }\DataTypeTok{y=}\NormalTok{Abundance, }\DataTypeTok{fill=}\NormalTok{Peak_ID))}\OperatorTok{+}
+\StringTok{    }\KeywordTok{geom_bar}\NormalTok{(}\DataTypeTok{stat =} \StringTok{"identity"}\NormalTok{)}\OperatorTok{+}
+\StringTok{    }\KeywordTok{theme_bw}\NormalTok{() }
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{SWD_SBERRY_BLANK_PRO_REP_reponly_method_files/figure-latex/unnamed-chunk-8-3.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# 10 least abundant}
+\NormalTok{VOC_avg_rare <-}\StringTok{ }\KeywordTok{prune_taxa}\NormalTok{(}\KeywordTok{taxa_sums}\NormalTok{(VOC_avg)}\OperatorTok{<}\DecValTok{700000}\NormalTok{,VOC_avg)}
+\NormalTok{avg_rare_melt <-}\StringTok{  }\KeywordTok{psmelt}\NormalTok{((VOC_avg_rare))}
+\KeywordTok{ggplot}\NormalTok{(avg_rare_melt, }\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{microbe, }\DataTypeTok{y=}\NormalTok{Abundance, }\DataTypeTok{fill=}\NormalTok{Name))}\OperatorTok{+}
+\StringTok{    }\KeywordTok{geom_bar}\NormalTok{(}\DataTypeTok{stat =} \StringTok{"identity"}\NormalTok{)}\OperatorTok{+}
+\StringTok{    }\KeywordTok{theme_bw}\NormalTok{() }
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{SWD_SBERRY_BLANK_PRO_REP_reponly_method_files/figure-latex/unnamed-chunk-8-4.pdf}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{###}
+\NormalTok{##}
+\CommentTok{#}
+\CommentTok{#}
+\NormalTok{##}
+\NormalTok{###}
+\end{Highlighting}
+\end{Shaded}
+
+\section{```\{r\}}\label{r-2}
+
+\section{NMDS}\label{nmds}
+
+ord \textless{}- ordinate(VOC, method = ``NMDS'', distance = ``bray'')
+
+ord
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+Call: metaMDS(comm = veganifyOTU(physeq), distance = distance)
+
+global Multidimensional Scaling using monoMDS
+
+Data: wisconsin(sqrt(veganifyOTU(physeq))) Distance: bray
+
+Dimensions: 2 Stress: 0.1452752 Stress type 1, weak ties Two convergent
+solutions found after 20 tries Scaling: centring, PC rotation,
+halfchange scaling Species: expanded scores based on
+`wisconsin(sqrt(veganifyOTU(physeq)))'
+\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+plot\_ordination(VOC, ord, color = ``rep'', shape = ``hour'', type =
+``rep'')
+
+plot\_ordination(VOC, ord, color = ``rep'', shape = ``hour'', type =
+``rep'')+ theme\_bw()+ stat\_ellipse(type=``t'')
+
+plot\_ordination(VOC, ord, color = ``rep'', shape = ``hour'', type =
+``rep'')+ stat\_ellipse(type=``t'')
+
+```
+
+
+\end{document}

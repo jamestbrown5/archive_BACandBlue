@@ -2,8 +2,10 @@
 title: "BACandSTRAW VOC PCoA Visuals"
 author: "Brown, J.T."
 date: "MAy 22, 2019"
-output: html_document
-editor_options: 
+output:
+  pdf_document: default
+  html_document: default
+editor_options:
   chunk_output_type: inline
 ---
 
@@ -132,7 +134,7 @@ TukeyHSD(aov(fit), which="sample_data(VOC)$hour")
 ```
 
 
-```{r}
+#```{r}
 # Try with interactions in model
 
 fit <- lm(sample_sums(VOC)~ sample_data(VOC)$hour*sample_data(VOC)$rep)
@@ -743,7 +745,7 @@ ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) +
 ```
 
 ##RESULTS
-```{r}
+#```{r}
 ################################################################################
            baseMean log2FoldChange     lfcSE       stat        pvalue
 Peak_01  172970.710       8.547149 1.0585296   8.074549  6.772636e-16
@@ -793,7 +795,7 @@ Peak_34  2.090068e-21 Peak_34    2-phenethyl alcohol    2-phenethyl alcohol
 ```
 
 
-```{r}
+#```{r}
 res = results(diagdds, contrast = c("microbe", "Aa", "MrAa"), cooksCutoff = FALSE)
 
 sigtab = res[which(res$padj < alpha), ]
@@ -930,7 +932,7 @@ ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) +
 ###
 ```
 
-```{r}
+#```{r}
 deobj <- phyloseq_to_deseq2(NoZero, ~ rep + hour)
 diagdds = DESeq(deobj, test="Wald", fitType="local")
 
@@ -1244,7 +1246,7 @@ ggplot(avg_rare_melt, aes(x=microbe, y=Abundance, fill=Name))+
 ```
 
 
-```{r}
+#```{r}
 ##########
 #  NMDS  #
 ##########
