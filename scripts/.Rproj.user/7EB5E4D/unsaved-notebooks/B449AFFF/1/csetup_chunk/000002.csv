@@ -1,0 +1,20 @@
+"0","# Libraries and Data Frames"
+"0","##what you need to install phyloseq"
+"0","#source('http://bioconductor.org/biocLite.R')"
+"0","#biocLite('phyloseq')"
+"0","#install.packages(""devtools"")"
+"0","#install_github(""vqv/ggbiplot"")"
+"0","#install.packages(""gdata"")"
+"0","if (!requireNamespace(""BiocManager"", quietly = TRUE))"
+"0","    install.packages(""BiocManager"")"
+"0","BiocManager::install()"
+"2","Bioconductor version 3.8 (BiocManager 1.30.4), R 3.5.1 (2018-07-02)
+"
+"2","installation path not writeable, unable to update packages: boot, class, cluster, codetools, foreign,
+  lattice, MASS, Matrix, mgcv, nlme, rpart, survival
+"
+"2","Update old packages: 'blob', 'callr', 'checkmate', 'devtools', 'digest', 'ellipsis', 'git2r', 'haven',
+  'hms', 'pillar', 'processx', 'quantreg', 'remotes', 'rlang', 'tinytex', 'usethis', 'vctrs', 'xfun',
+  'zip'
+"
+"1","Update all/some/none? [a/s/n]: "
