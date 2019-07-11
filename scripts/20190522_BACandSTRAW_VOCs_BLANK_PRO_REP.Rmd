@@ -1,13 +1,13 @@
 ---
 title: "BACandSTRAW VOC PCoA Visuals"
 author: "Brown, J.T."
-date: "MAy 22, 2019"
-output:
-  html_document: default
-  pdf_document: default
-editor_options:
-  chunk_output_type: console
+date: "May 22, 2019"
+output: html_notebook
 ---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*.
 
 ```{r setup, include=FALSE}
 # Libraries and Data Frames
@@ -25,7 +25,7 @@ library(devtools)
 library(ggplot2)
 library(beeswarm)
 library(phyloseq) #install via bioconductor
-library(vegan)
+library(vegan) 
 library(ggbiplot)
 library(readxl)
 library(readr)
@@ -1185,7 +1185,7 @@ ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) +
 # stopped here. will revist these followimg plots after auth 
 ```
 
-```{r}
+
 ################## 
 # Non-PCoA Plots #
 ##################
@@ -1280,6 +1280,4 @@ plot_ordination(VOC, ord, color = "rep", shape = "hour", type = "rep")+
 
 plot_ordination(VOC, ord, color = "rep", shape = "hour", type = "rep")+
   stat_ellipse(type="t")
-
-
 ```
