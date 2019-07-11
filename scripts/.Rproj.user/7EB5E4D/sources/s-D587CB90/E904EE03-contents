@@ -2,9 +2,11 @@
 title: "BACandSTRAW VOC PCoA Visuals"
 author: "Brown, J.T."
 date: "MAy 22, 2019"
-output: html_document
-editor_options: 
-  chunk_output_type: inline
+output:
+  html_document: default
+  pdf_document: default
+editor_options:
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -28,7 +30,7 @@ library(ggbiplot)
 library(readxl)
 library(readr)
 library(ape)
-library("DESeq2")
+library(DESeq2)
 ```
 
 ```{r}
@@ -44,7 +46,7 @@ TAX <- tax_table(peaks) # gives a warning, don't freak out
 taxa_names(TAX)<-peaks$Peak_ID
 colnames(TAX)<- colnames(peaks)
 
-abund <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandSTRAW_SUBSET_SWDvsSBERRY_BLANK_PRO_REP/otu.csv", colClasses = c("factor","factor", rep("numeric", times= 14)))
+abund <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandSTRAW_SUBSET_SWDvsSBERRY_BLANK_PRO_REP/otu.csv", colClasses = c("factor","factor", rep("numeric", times= 6)))
 # read in peak areas, assigning factors of diff classifications based on columns
 rownames(abund) <- abund$Peak_ID #give abund rows names according to "Peak_ID" in peak.csv table
 OTU <- otu_table(abund[,-c(1:2)], taxa_are_rows=T) #create a table with only peak areas, compounds are taxa
@@ -75,7 +77,7 @@ plot_ordination(VOC, ord, type = "juice", color = "hour", shape = "microbe", lab
 
 PCs <- data.frame(scores(ord$vectors))
 new.dat <- cbind(PCs, sample_data(VOC)$microbe, sample_data(VOC)$rep, sample_data(VOC)$hour) # make a new matrix
-names(new.dat)[12:14] <- c("Microbe","Rep","Hour") #for the "must be the same length as vector" error make sure that the info inside the bracets matches empty columns in the dataframe your creating"
+names(new.dat)[5:7] <- c("Microbe","Rep","Hour") #for the "must be the same length as vector" error make sure that the info inside the bracets matches empty columns in the dataframe your creating"
 library(gdata)
 new.dat$Microbe <- reorder.factor(new.dat$Microbe, new.order = c("SWD"))
 new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("24","48"))
@@ -100,7 +102,7 @@ plot_ordination(VOC, ord, type = "samples", color = "hour", shape = "microbe", l
 ###
 PCs <- data.frame(scores(ord$vectors))
 new.dat <- cbind(PCs, sample_data(VOC)$microbe, sample_data(VOC)$hour, sample_data(VOC)$rep) # make a new matrix
-names(new.dat)[13:15] <- c("Microbe", "Hour", "Rep")
+names(new.dat)[6:8] <- c("Microbe", "Hour", "Rep")
 library(gdata)
 new.dat$Microbe <- reorder.factor(new.dat$Microbe, new.order = c("SWD"))
 new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("24", "48"))
@@ -132,10 +134,10 @@ TukeyHSD(aov(fit), which="sample_data(VOC)$hour")
 ```
 
 
-```{r}
+#```{r}
 # Try with interactions in model
 
-fit <- lm(sample_sums(VOC)~ sample_data(VOC)$hour*sample_data(VOC)$rep*sample_data(VOC)$microbe)
+fit <- lm(sample_sums(VOC)~ sample_data(VOC)$hour*sample_data(VOC)$rep)
 summary(fit)
 ######################################################################################################################################
 Analysis of Variance Table
@@ -150,10 +152,13 @@ sample_data(VOC)$rep:sample_data(VOC)$microbe                        2 1.0694e+1
 sample_data(VOC)$fhour:sample_data(VOC)$microbe                               4 2.0716e+15 5.1791e+14  29.114 3.385e-13 ***
 sample_data(VOC)$rep:sample_data(VOC)$fhour:sample_data(VOC)$microbe  4 7.9485e+14 1.9871e+14  11.170 9.271e-07 ***
 Residuals                                                                             57 1.0140e+15 1.7789e+13                      
-#######################################################################################################################################
+##################################################################################################
+#####################################
 
 TukeyHSD(aov(fit), which="sample_data(VOC)$hour")
-#######################################################################################################################################
+#####################################
+#####################################
+#############################################################
   Tukey multiple comparisons of means
     95% family-wise confidence level
 
@@ -698,44 +703,49 @@ anova(fit)
 ############################
 ```{r}
 # which compounds differentiate our groups? control and blanks.
-install.packages("XVector")
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 BiocManager::install()
 BiocManager::install(c("GenomicFeatures", "AnnotationDbi"))
 BiocManager::install("DESeq2")
 BiocManager::valid()
-BiocManager::install("sessionInfo")
 
 NoZero <- subset_samples(VOC, rep!="C01"& rep!="C02"& rep!="C03"& rep!="B01")
 deobj <- phyloseq_to_deseq2(NoZero, ~ hour + rep)
 diagdds <- DESeq(deobj, test="Wald", fitType="local")
+
 ```
 
 ```{r}
-res = results(diagdds, contrast = c("rep", "24", "48"), cooksCutoff = FALSE)
-
-res = results(diagdds, contrast = c("microbe", "Aa", "MrAa"), cooksCutoff = FALSE)
-
-res = results(diagdds, contrast = c("microbe", "Mr", "MrAa"), cooksCutoff = FALSE)
-
-res = results(diagdds, contrast = c("rep", "normal", "low"), cooksCutoff = FALSE)
+res = results(diagdds, contrast = c("hour", "24", "48"), cooksCutoff = FALSE)
+res
+plotMA(res, ylim=c(-2,2))
+idx <- identify(res$baseMean, res$log2FoldChange)
+rownames(res)[idx]
+#res = results(diagdds, contrast = c("rep", "C01", "R01"), cooksCutoff = FALSE)
+#res
+#res = results(diagdds, contrast = c("rep", "C01", "R02"), cooksCutoff = FALSE)
+#res
+#res = results(diagdds, contrast = c("rep", "C01", "R03"), cooksCutoff = FALSE)
+#res
 
 alpha = 0.01
 sigtab = res[which(res$padj < alpha), ]
 sigtab = cbind(as(sigtab, "data.frame"), as(tax_table(NoZero)[rownames(sigtab), ], "matrix"))
-x = tapply(sigtab$log2FoldChange, sigtab$Name, function(x) max(x))
+x = tapply(sigtab$log2FoldChange, sigtab$Peak_ID, function(x) max(x))
 x = sort(x, TRUE)
-sigtab$Compound = factor(as.character(sigtab$Name), levels=names(x))
+sigtab$Compound = factor(as.character(sigtab$Peak_ID), levels=names(x))
 
 ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) + 
   geom_vline(xintercept = 0.0, color = "gray", size = 0.5) +
-  geom_point(size=6) + 
+  geom_point(size=3) + 
   theme(axis.text.x = element_text(angle = -90, hjust = 0, vjust=0.5))+
-  ggtitle("Compounds signficantly differentiating Mr and Aa samples")+
+  ggtitle("Compounds signficantly differentiating 24H and 48H VOC collections")+
   theme_bw()
+```
 
-res = results(diagdds, contrast = c("microbe", "Aa", "Mr"), cooksCutoff = FALSE)
+##RESULTS
+#```{r}
 ################################################################################
            baseMean log2FoldChange     lfcSE       stat        pvalue
 Peak_01  172970.710       8.547149 1.0585296   8.074549  6.772636e-16
@@ -782,8 +792,10 @@ Peak_32  1.740743e-07 Peak_32        2-furanmethanol        2-furanmethanol
 Peak_33  1.506451e-04 Peak_33              1-nonanol              1-nonanol
 Peak_34  2.090068e-21 Peak_34    2-phenethyl alcohol    2-phenethyl alcohol
 ############################################################################################
+```
 
 
+#```{r}
 res = results(diagdds, contrast = c("microbe", "Aa", "MrAa"), cooksCutoff = FALSE)
 
 sigtab = res[which(res$padj < alpha), ]
@@ -918,8 +930,10 @@ ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) +
 # 
 ##
 ###
+```
 
-deobj <- phyloseq_to_deseq2(NoZero, ~ rep * microbe)
+#```{r}
+deobj <- phyloseq_to_deseq2(NoZero, ~ rep + hour)
 diagdds = DESeq(deobj, test="Wald", fitType="local")
 
 
@@ -1169,6 +1183,9 @@ ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) +
 ##
 #
 # stopped here. will revist these followimg plots after auth 
+```
+
+```{r}
 ################## 
 # Non-PCoA Plots #
 ##################
@@ -1180,15 +1197,14 @@ ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) +
 VOC_melt <-psmelt(VOC)
 
 # each compound over time
-ggplot(VOC_melt, aes(x=day, y=Abundance, color=microbe))+
+ggplot(VOC_melt, aes(x=rep, y=Abundance, color=hour))+
   geom_point()+
-  geom_smooth()+
- facet_wrap(~Name, scales = "free")
+  geom_smooth()
 ###
 ##
 # Compound abundance mean over days 1-2 by group
 
-sample_data(NoZero)$TreatNect <- paste(sample_data(NoZero)$microbe, 
+sample_data(NoZero)$TreatNect <- paste(sample_data(NoZero)$Peak_ID, 
 	sample_data(NoZero)$rep)
 
 VOC_avg <- merge_samples(NoZero, group = "TreatNect", fun=mean)
@@ -1196,7 +1212,7 @@ VOC_avg <- merge_samples(NoZero, group = "TreatNect", fun=mean)
 otu_melt <-  psmelt((VOC_avg))
 #
   
-ggplot(otu_melt, aes(x= microbe, y= Abundance, group = microbe))+
+ggplot(otu_melt, aes(x= rep, y= Abundance, group = hour))+
   geom_point()+
   geom_boxplot()+
   facet_wrap(~Name, scales= "free")
@@ -1207,9 +1223,9 @@ ggplot(otu_melt, aes(x= microbe, y= Abundance, group = microbe))+
 # Histogram of compound abundance 
 
 # 10 most abundant
-VOC_avg_top <- prune_taxa(taxa_sums(VOC_avg)>7500000,VOC_avg)
+VOC_avg_top <- prune_taxa(taxa_sums(VOC_avg)>10000000,VOC_avg)
 avgtop_melt <-  psmelt((VOC_avg_top))
-ggplot(avgtop_melt, aes(x=microbe, y=Abundance, fill=Name))+
+ggplot(avgtop_melt, aes(x=rep, y=Abundance, fill=Peak_ID))+
 	geom_bar(stat = "identity")+
 	theme_bw() 
 
@@ -1227,7 +1243,10 @@ ggplot(avg_rare_melt, aes(x=microbe, y=Abundance, fill=Name))+
 #
 ##
 ###
+```
 
+
+#```{r}
 ##########
 #  NMDS  #
 ##########
@@ -1253,13 +1272,13 @@ Species: expanded scores based on 'wisconsin(sqrt(veganifyOTU(physeq)))'
 ###########################################################################
 
 
-plot_ordination(VOC, ord, color = "day", shape = "microbe", type = "samples")
+plot_ordination(VOC, ord, color = "rep", shape = "hour", type = "rep")
 
-plot_ordination(VOC, ord, color = "day", shape = "microbe", type = "samples")+
+plot_ordination(VOC, ord, color = "rep", shape = "hour", type = "rep")+
   theme_bw()+
   stat_ellipse(type="t")
 
-plot_ordination(VOC, ord, color = "day", shape = "microbe", type = "samples")+
+plot_ordination(VOC, ord, color = "rep", shape = "hour", type = "rep")+
   stat_ellipse(type="t")
 
 
