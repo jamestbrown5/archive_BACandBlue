@@ -42,20 +42,22 @@ library(DESeq2)
 
 
 ## Organizing the datatables to be compatiable with the phyloseq. These data are exported from MassHunter Quantitate B.07 and the arrangment of the rows and columns have been formatted in excel. 
-```{r }
-# read in data
-meta <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandSTRAW_SUBSET_SWDvsSBERRY_BLANK_PRO_REP/meta.csv") 
+
+### Group 1 Dataset includes all of the samples from the VOC collections
+
+```{r}
+meta <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandSTRAW_SUBSET_SWDvsSBERRY_BLANK_PRO_REP/meta1.csv") 
 meta$hour=as.factor(meta$hour)
 rownames(meta) <- meta$SampleID_merge 
 SAMP <- sample_data(meta)
 sample_names(SAMP)<-meta$SampleID
 
-peaks <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandSTRAW_SUBSET_SWDvsSBERRY_BLANK_PRO_REP/peak.csv")
+peaks <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandSTRAW_SUBSET_SWDvsSBERRY_BLANK_PRO_REP/peak1.csv")
 TAX <- tax_table(peaks) # gives a warning, don't freak out
 taxa_names(TAX)<-peaks$Peak_ID
 colnames(TAX)<- colnames(peaks)
 
-abund <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandSTRAW_SUBSET_SWDvsSBERRY_BLANK_PRO_REP/otu.csv", colClasses = c("factor","factor", rep("numeric", times= 6)))
+abund <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandSTRAW_SUBSET_SWDvsSBERRY_BLANK_PRO_REP/otu1.csv", colClasses = c("factor","factor", rep("numeric", times= 6)))
 # read in peak areas, assigning factors of diff classifications based on columns
 rownames(abund) <- abund$Peak_ID #give abund rows names according to "Peak_ID" in peak.csv table
 OTU <- otu_table(abund[,-c(1:2)], taxa_are_rows=T) #create a table with only peak areas, compounds are taxa
@@ -67,7 +69,6 @@ VOC <- phyloseq(OTU, TAX, SAMP) #IF YOU GET A "SAMPLE_NAMES()" ERROR MAKE SURE Y
 #otu_table()   OTU Table:       [ 77 taxa and 14 samples ] "taxa" = VOCs "samples" = SPME-HS samples
 #sample_data() Sample Data:     [ 14 samples by 9 sample variables ] "sample variable" = categories
 #tax_table()   Taxonomy Table:  [ 77 taxa by 2 taxonomic ranks ] "taxonomic rank" = sample time/hour"
-
 ```
 
 

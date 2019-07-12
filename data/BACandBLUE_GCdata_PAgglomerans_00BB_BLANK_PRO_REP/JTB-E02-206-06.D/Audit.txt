@@ -1,0 +1,17 @@
+Z:\data\JTB-E02\BACandBLUE\JTB-E02-205-18.D\Audit.txt 
+Created Mon Mar 18 14:31:45 2019
+
+
+ Modified : Mon Mar 18 14:31:46 2019
+ Event    : Header Update
+ Message  : Changed sample name from REP04   BAC-03 to BLANK    BAC-01
+ QuantFile: Arwen_WAX_40_4_230inlet_AWAKE METHOD.RES
+ Severity : 1
+
+
+ Modified : Mon Mar 18 14:31:46 2019
+ Event    : Header Update
+ Message  : Changed misc info from  to 
+ QuantFile: Arwen_WAX_40_4_230inlet_AWAKE METHOD.RES
+ Severity : 1
+

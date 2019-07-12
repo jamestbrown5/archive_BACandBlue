@@ -1,0 +1,189 @@
+"Path","File","Date Acquired","Sample","Misc"
+"Z:\data\JTB-E02\BACandBLUE\","JTB-E02-194-17.D","20 Dec 2018  15:11    ","48H_REP04","P10:E5  BAC-03"
+"PBM Apex"
+"Tue Jan 29 15:24:36 2019"
+"PK","RT","Area Pct","Library/ID","Ref","CAS","Qual"
+  1,  2.2909, 0.3187,"C 2.7 D 4.1    Acetaldehyde (CAS) $$ Ethanal $$ Acetaldeyde $$ Ethyl aldehyde $$ Acetic aldehyde $$ CH3CHO $$ Acetaldehyd $$ Aldehyde acetique $$ Aldeide acetica $$ NCI-C56326 $$ Octowy aldehyd $$ Acetylaldehyde $$ Rcra waste number U001 $$ UN 1089	
+  2,  2.4318, 0.0288,"Cyclobutanol",   663,"002919-23-5",59
+  3,  2.5121, 0.0180,"2-Butanamine, 3-methyl-",  1936,"000598-74-3",59
+  4,  2.5694, 0.0193,"1,3-Dioxolane-4-methanol",  4769,"005464-28-8",53
+  5,  2.6248, 0.1216,"Acetaldehyde",    71,"000075-07-0",56
+  6,  2.7991, 0.2668,"Dimethyl sulfide",   339,"000075-18-3",91
+  7,  2.9762, 0.0188,"Pentanal (CAS) $$ n-Pentanal $$ n-Valeraldehyde $$ Valeral $$ Valeraldehyde $$ Valeric aldehyde $$ Valerianic aldehyde $$ Valerylaldehyde yde $$ Valeric acid aldehyde $$ 1-pentanal $$ Valeryl aldehyde $$ n-C4H9CHO $$ Amyl aldehyde $$ Butyl formal $$ UN 20",  3281,"000110-62-3",38
+  8,  3.1229, 1.1800,"Acetone",   216,"000067-64-1",80
+  9,  3.2084, 1.2772,"Acetic acid, methyl ester",   828,"000079-20-9",45
+ 10,  3.3273, 1.6161,"Cyclotrisiloxane, hexamethyl-", 85994,"000541-05-9",90
+ 11,  3.4863, 0.2488,"Arsenous acid, tris(trimethylsilyl) ester",199618,"055429-29-3",47
+ 12,  3.5511, 0.1718,"Arsenous acid, tris(trimethylsilyl) ester",199618,"055429-29-3",50
+ 13,  3.6958,10.7142,"CH3C(O)CH2CH2OH",  2045,"000590-90-9",45
+ 14,  3.8287, 1.8882,"Ethyl Acetate",  2038,"000141-78-6",68
+ 15,  3.9426, 0.6260,"Acetic acid, heptyl ester", 31271,"000112-06-1",33
+ 16,  3.9790, 0.5741,"1-Butoxy-2-propanol acetate", 43540,"085409-76-3",35
+ 17,  4.0284, 1.3384,"Butanal, 3-methyl-",  1765,"000590-86-3",64
+ 18,  4.1616, 0.2767,"Ethyl Acetate",  2040,"000141-78-6",53
+ 19,  4.2656,12.2776,"Formic acid (CAS) $$ Bilorin $$ Myrmicyl $$ Formisoton $$ Aminic acid $$ Collo-Didax $$ Formylic acid $$ Methanoic acid $$ Collo-Bueglatt $$ Hydrogen carboxylic acid $$ Formira $$ Add-F $$ HCOOH $$ Acide formique $$ Acido formico $$ Ameisensaeure $$ Formi",   249,"000064-18-6",38
+ 20,  4.6593, 0.7860,"Furan, tetrahydro-2-(methoxymethyl)-",  8361,"019354-27-9",64
+ 21,  4.8234, 0.2033,"Ethyl Acetate",  2041,"000141-78-6",43
+ 22,  4.8668, 0.2882,"2H-Pyran-2-methanol, 3,6-dihydro-3-hydroxy-6-(1-methylethoxy)-", 54984,"056196-34-0",38
+ 23,  4.9842, 0.8577,"Cyclotetrasiloxane, octamethyl-",155951,"000556-67-2",91
+ 24,  5.0591, 0.8420,"Carbonic acid, dimethyl ester",  2296,"000616-38-6",53
+ 25,  5.1845, 0.3219,"1H-Pyrazole, 3-ethyl-4,5-dihydro-",  3105,"005920-29-6",30
+ 26,  5.2248, 0.4351,"Divinyldimethylsilane",  6450,"010519-87-6",49
+ 27,  5.3561, 0.1435,"Carbonic acid, dimethyl ester",  2294,"000616-38-6",38
+ 28,  5.4180, 0.1224,"1-Propene, 1-(methylthio)-, (Z)-",  2109,"052195-40-1",38
+ 29,  5.4733, 0.1612,"C 6.7 D15.2 Acetic acid, butyl ester (CAS) $$ n-Butyl acetate $$ ETHANOIC ACID, BUTANOL ESTER $$ Butyl acetate $$ Butyl ethanoate $$ 1-Butyl acetate $$ Acetic acid butyl ester $$ Butyl ester of acetic acid $$ CH3COO(CH2)3CH3 $$ Acetic acid n-butyl ester",   115,"000123-86-4",10
+ 30,  5.5910, 0.3065,"Methyl isovalerate",  8237,"000556-24-1",70
+ 31,  5.7128, 0.2570,"Carbonic acid, ethyl-, methyl ester",  4787,"000623-53-0",50
+ 32,  6.0078, 0.4524,"3-Buten-2-ol, 2-methyl-",  1805,"000115-18-4",81
+ 33,  6.1646, 0.5214,"C 5.60 D 12.72  S(+)-2-Butanol (CAS) $$ sec-Butanol $$ CCS 301 $$ sec-Butyl alcohol $$ 2-Hydroxybutane $$ Methylethylcarbinol $$ 1-Methyl-1-propanol $$ Ethylmethylcarbinol $$ 1-Methylpropyl alcohol $$ s-Butanol $$ 1-Methyl propanol $$ s-Butyl alcohol",  2335,"000787-92-2",23
+ 34,  6.2747, 0.1202,"Acetamide, 2-methoxy-N-(2-methoxyethyl)-", 23009,"055956-18-8",32
+ 35,  6.3621, 0.1544,"A 14.3 B 6.5   2-Pentanol, 3-methyl- (CAS)  # 1  $$ 3-Methyl-2-pentanol $$ 3-Methyl-4-pentanol
+ 36,  6.6005, 0.2463,"Butanoic acid, 3-methyl-, ethyl ester", 13841,"000108-64-5",74
+ 37,  6.8920, 0.0745,"Hexanal",  3830,"000066-25-1",47
+ 38,  7.0036, 0.0289,"Acetamide, N-2-propynyl-",  3007,"065881-41-6",30
+ 39,  7.1025, 0.0452,"cis-2-Methyl-2-vinyl-5-isopropyl-tetrahydrofuran", 40111,"071635-17-1",38
+ 40,  7.2249, 2.0690,"1-Propanol, 2-methyl-",   864,"000078-83-1",86
+ 41,  7.3689, 0.1204,"Fenchone", 25804,"001195-79-5",52
+ 42,  7.5968, 0.9561,"2H-Pyran, 2-ethenyltetrahydro-2,6,6-trimethyl-", 27742,"007392-19-0",83
+ 43,  7.7627, 0.0430,"2H-Pyran, 2-ethenyltetrahydro-2,6,6-trimethyl-", 27740,"007392-19-0",46
+ 44,  7.8344, 0.0409,"2,5-Piperazinedione",  7206,"000106-57-0",43
+ 45,  7.9185, 0.0500,"1-Butanol, 3-methyl-, acetate", 13793,"000123-92-2",53
+ 46,  7.9742, 0.0722,"2-Pentene, 3-methyl-, (E)-",  1529,"000616-12-6",38
+ 47,  8.1729, 0.0869,"Furan, 2-methoxy-",  3133,"025414-22-6",86
+ 48,  8.5527, 0.0475,"1-Butanol",   846,"000071-36-3",64
+ 49,  8.6503, 0.0362,"2,4,6-Octatriene, 3,4-dimethyl-", 16134,"057396-75-5",93
+ 50,  8.8197, 0.2500,"Cyclopentasiloxane, decamethyl-",220035,"000541-02-6",91
+ 52,  9.0107, 0.0385,"Methacrylamide, N-(3-methylbutyl)-", 29087,"1000407-96-6",43
+ 53,  9.1414, 0.0484,"2-Butenoic acid, 3-methyl-, methyl ester",  7447,"000924-50-5",70
+ 54,  9.4656, 0.0858,"7-Oxabicyclo[2.2.1]heptane, 1-methyl-4-(1-methylethyl)-", 27825,"000470-67-7",59
+ 55,  9.5504, 0.0262,"4-Acetamido-1-hexanol", 31726,"1000213-28-5",41
+ 56,  9.9888, 0.0824,"D-Limonene", 16046,"005989-27-5",97
+ 57, 10.0869, 0.0654,"D-Limonene", 16046,"005989-27-5",96
+ 58, 10.3702,16.8288,"1-Butanol, 3-methyl-",  2146,"000123-51-3",83
+ 59, 10.5634, 0.2841,"1-Butanol, 3-methyl-",  2147,"000123-51-3",59
+ 60, 10.7096, 0.1187,"1-Pentanol",  2115,"000071-41-0",59
+ 61, 11.1093, 0.0542,"Butane, 2-cyclopropyl-",  3398,"005750-02-7",47
+ 62, 11.3698, 0.7803,"(2R,5S)-2-Methyl-5-(prop-1-en-2-yl)-2-vinyltetrahydrofuran", 26137,"054750-69-5",96
+ 63, 11.5374, 0.1871,"Cyclohexanone, 2-methyl-5-(1-methylethenyl)-, trans-", 26103,"005948-04-9",58
+ 64, 11.6371, 0.3048,"1-Pentanol",  2116,"000071-41-0",86
+ 65, 11.9502, 0.0196,"3(2H)-Furanone, dihydro-2-methyl-",  3793,"003188-00-9",64
+ 66, 12.1610, 0.2065,"Benzene, 1-methyl-3-(1-methylethyl)-", 15243,"000535-77-3",93
+ 67, 12.4453, 0.1189,"Ethanone, 2-bromo-1-phenyl-", 63952,"000070-11-1",47
+ 68, 12.5787, 0.1281,"Propanoic acid, 3-methoxy-, methyl ester",  8897,"003852-09-3",50
+ 69, 13.0019, 0.0129,"1-Propyne, 3-chloro-",   809,"000624-65-7",38
+ 70, 13.2791, 0.0278,"C  11.9   D 27.4  Thiocyanic acid, methyl ester (CAS) $$ Methyl thiocyanate $$ Methyl sulfocyanate $$ METHYLTHIOCYANATE $$ CH3SCN $$ Methane, thiocyanato- $$ Methylrhodanid $$ Methylthiokyanat	
+ 71, 13.5440, 0.0103,"2-Penten-1-ol, (E)-",  1781,"001576-96-1",46
+ 72, 13.6405, 0.0345,"2-Hexanol",  4480,"000626-93-7",64
+ 73, 13.8609, 0.5253,"Bicyclo[2.2.1]hept-2-ene, 2,3-dimethyl-", 10248,"000529-16-8",35
+ 74, 14.0231, 0.0163,"3-Undecene, 8-methyl-", 38302,"1000061-84-4",35
+ 75, 14.2534, 0.1529,"2-Chloro-4-(4-methoxyphenyl)-6-(4-nitrophenyl)pyrimidine",197930,"063673-76-7",43
+ 76, 14.4443, 0.1096,"Threo-3-bromo-2-pentanol", 36726,"1000288-18-1",45
+ 77, 14.8654, 7.8685,"1-Hexanol",  4487,"000111-27-3",83
+ 78, 15.1660, 0.2240,"3-Hexen-1-ol, (E)-",  3869,"000928-97-2",76
+ 79, 15.5336, 0.1635,"3-Nonyne", 10815,"020184-89-8",49
+ 80, 15.8122, 0.6874,"3-Hexen-1-ol, (E)-",  3891,"000928-97-2",94
+ 81, 16.0447, 0.0590,"thiazolo[5,4-b]pyridin-2-amine, N-ethyl-", 47217,"1000404-81-8",38
+ 82, 16.1752, 0.0347,"Benzene, hexyl-", 33432,"001077-16-3",53
+ 83, 16.2316, 0.0166,"Butyric acid, 2-hydroxy-3-methyl-, methyl ester", 14653,"017417-00-4",35
+ 84, 16.3360, 0.0347,"Isophorone", 17941,"000078-59-1",81
+ 85, 16.5077, 1.9285,"2-Hexen-1-ol, (E)-",  3881,"000928-95-0",91
+ 86, 16.7894, 0.0495,"2-Hexen-1-ol, (Z)-",  3884,"000928-94-9",87
+ 87, 17.0815, 0.0406,"Butanoic acid, 2-hydroxy-3-methyl-, ethyl ester", 22591,"002441-06-7",59
+ 88, 17.1531, 0.0130,"4-hydroxy-3-(3-methyl-2-butenyl)nitrobenzene $$ Phenol, 2-(3-methyl-2-butenyl)-4-nitro-", 92317,"104550-38-1",83
+ 89, 17.3765, 0.1183,"Benzene, 1-methyl-4-(1-methylethenyl)-", 14415,"001195-32-0",95
+ 90, 17.6297, 2.1535,"Ethyl 2-(5-methyl-5-vinyltetrahydrofuran-2-yl)propan-2-yl carbonate",103910,"1000373-80-3",91
+ 91, 17.8896, 0.0582,"1-Octen-3-ol", 12717,"003391-86-4",64
+ 92, 18.1215, 4.6265,"Furfural",  2768,"000098-01-1",78
+ 93, 18.5054, 0.7753,"Ethyl 2-(5-methyl-5-vinyltetrahydrofuran-2-yl)propan-2-yl carbonate",103910,"1000373-80-3",95
+ 94, 18.7335, 0.1519,"Acetic acid",   264,"000064-19-7",90
+ 95, 18.7737, 0.1287,"Acetic acid",   262,"000064-19-7",78
+ 96, 18.8838, 0.0595,"Acetic acid",   264,"000064-19-7",86
+ 97, 18.9172, 0.0336,"Acetic acid",   261,"000064-19-7",72
+ 98, 18.9836, 0.2002,"Acetic acid",   264,"000064-19-7",58
+ 99, 19.1304, 0.2340,"Acetic acid",   263,"000064-19-7",50
+100, 19.3175, 0.0660,"Acetic acid",   264,"000064-19-7",72
+101, 19.4022, 0.2480,"Ethanone, 1-(1H-pyrazol-4-yl)-",  5814,"025016-16-4",58
+102, 19.5471, 0.1680,"1-(3-Hydroxy-4-methylphenyl)-1,3,3,6-tetramethylindan-5-ol",155824,"107535-11-5",40
+103, 19.7048, 0.3339,"Acridine, 9-methyl-", 58761,"000611-64-3",43
+104, 19.8303, 0.1213,"3,7-Dimethyl-2,3,3a,4,5,6-hexahydro-1-benzofuran", 26096,"1000099-60-6",78
+105, 19.9267, 0.4801,"Benzaldehyde",  5150,"000100-52-7",91
+106, 20.1112, 0.0995,"Bicyclo[2.2.1]hept-2-ene, 1,7,7-trimethyl-", 16214,"000464-17-5",89
+107, 20.2184, 0.3776,"Phenol, 2-(1-methyl-2-buthenyl)-4-methoxy-", 57609,"095414-66-7",47
+108, 20.3070, 0.4865,"2,5-Dihydroxybenzaldehyde, 2TMS derivative",141387,"056114-69-3",43
+109, 20.4688, 0.0625,"4-Trimethylsilyl-9,9-dimethyl-9-silafluorene",141973,"058263-56-2",74
+110, 20.6822, 0.0131,"Propionic acid, 3-tetrazol-1-yl-", 19794,"1000304-09-3",53
+111, 20.8434, 0.5297,"Linalool", 27447,"000078-70-6",97
+112, 20.9668, 0.0277,"Hydrazine, 1,2-dimethyl-",   277,"000540-73-8",49
+113, 21.1902, 0.1250,"1-Octanol", 13945,"000111-87-5",72
+114, 21.4394, 0.1052,"2-Furancarboxaldehyde, 5-methyl-",  5881,"000620-02-0",80
+115, 21.6200, 0.0302,"2-Furancarboxylic acid, hydrazide", 11267,"003326-71-4",64
+116, 21.7010, 0.1228,"3-Cyclohexen-1-ol, 1-methyl-4-(1-methylethyl)-", 27747,"000586-82-3",64
+117, 21.8780, 0.0567,"Silane, trimethyl-[[(17.alpha.)-19-norpregn-4-en-20-yn-17-yl]oxy]-",210759,"056771-62-1",53
+118, 22.0779, 0.0157,"Pentylenetetrazol", 17527,"000054-95-5",35
+119, 22.3235, 0.0337,"3,6-Dimethyl-2,3,3a,4,5,7a-hexahydrobenzofuran", 26043,"070786-44-6",91
+120, 22.4470, 0.1930,"Terpinen-4-ol", 27505,"000562-74-3",95
+121, 22.5319, 0.0887,"Phenol, 4-amino-2-methyl-", 10378,"002835-96-3",58
+122, 22.7429, 0.1414,"3-Cyclohexene-1-acetaldehyde, .alpha.,4-dimethyl-", 26078,"029548-14-9",90
+123, 22.8366, 0.3125,"1,3-Cycloheptadiene",  2632,"004054-38-0",58
+124, 22.9560, 0.2289,"Butanoic acid, 4-hydroxy-",  4775,"000591-81-1",72
+125, 23.2936, 0.0416,"Tricyclo[2.2.1.0(2,6)]heptane, 1,3,3-trimethyl-", 16250,"000488-97-1",50
+126, 23.3933, 0.1596,"1,3-Benzenediol, 4,5-dimethyl-", 17785,"000527-55-9",45
+127, 23.6244, 0.1102,"1,3-Cyclohexadiene-1-carboxaldehyde, 2,6,6-trimethyl-", 24591,"000116-26-7",91
+128, 23.8248, 0.4592,"Silanediol, dimethyl-",  2426,"001066-42-8",49
+129, 23.9433, 0.1423,".gamma.-Terpinene", 16074,"000099-85-4",50
+130, 24.0597, 0.0851,"2-Furanmethanol",  3122,"000098-00-0",68
+131, 24.1955, 0.0762,"Pentafluoro-1-propanol,  TBDMS derivative",125124,"1000376-28-7",38
+132, 24.4404, 0.0246,"2,4-Dihydroxybenzoic acid, 3TMS derivative",220196,"010586-16-0",38
+133, 24.5916, 0.1382,"4-Methoxyformanilide", 25549,"005470-34-8",43
+134, 24.8116, 0.0405,"2-Penten-1-ol, 2-methyl-5-(2-methyl-3-methylenebicyclo[2.2.1]hept-2-yl)-, [1S-[1.alpha.,2.alpha.(E),4.alpha.]]-", 83698,"037172-32-0",59
+135, 24.9189, 1.2268,"Bicyclo[2.2.1]hept-2-ene, 2,3-dimethyl-", 10247,"000529-16-8",64
+136, 25.1734, 5.3070,"L-.alpha.-Terpineol", 27531,"010482-56-1",90
+137, 25.2952, 0.2706,"Isoborneol", 27471,"000124-76-5",64
+138, 25.7408, 0.0927,"Butanoic acid, 3-methyl-",  4349,"000503-74-2",53
+139, 25.7777, 0.1910,"Pentanoic acid, 3-methyl-",  8285,"000105-43-1",53
+140, 25.8446, 0.1074,"Butanoic acid, 3-methyl-",  4360,"000503-74-2",64
+141, 25.8940, 0.1083,"Butanoic acid, 3-methyl-",  4361,"000503-74-2",58
+142, 25.9719, 0.2460,"Butanoic acid, 3-methyl-",  4349,"000503-74-2",64
+143, 26.0625, 0.0580,"Butanoic acid, 3-methyl-",  4361,"000503-74-2",52
+144, 26.1116, 0.1505,"Pentanoic acid, 3-methyl-",  8285,"000105-43-1",59
+145, 26.1771, 0.2499,"Butanoic acid, 3-methyl-",  4361,"000503-74-2",53
+146, 26.4233, 0.5180,"Naphthalene, 1,2-dihydro-1,1,6-trimethyl-", 41676,"030364-38-6",95
+147, 27.0481, 0.6348,"Oxime-, methoxy-phenyl-_", 25568,"1000222-86-6",86
+148, 27.2107, 0.1936,"Methyl salicylate", 26602,"000119-36-8",64
+149, 27.6230, 0.1347,"Disulfide, dimethyl",  2561,"000624-92-0",53
+150, 27.8204, 0.0328,"1,3-trans,5-cis-Octatriene",  5553,"040087-61-4",38
+151, 28.0753, 0.0484,"1H-Indene, octahydro-2,3a,4-trimethyl-2-(1-methylethyl)-, (2.alpha.,3a.beta.,4.beta.,7a.beta.)-(+)-", 72761,"031230-13-4",51
+152, 28.2480, 0.0986,"3-(3-Oxo-2-prop-2-ynyl-cyclopentyl)-propionic acid, methyl ester", 72345,"344885-14-9",55
+153, 28.4161, 0.1779,"Cyclotrisiloxane, hexamethyl-", 85994,"000541-05-9",86
+154, 28.5301, 0.0424,"Tris(tert-butyldimethylsilyloxy)arsane",260810,"1000366-57-5",53
+155, 28.6827, 0.0322,"3,4-Dimethylbenzoic acid, TBDMS derivative",124690,"1000373-23-5",47
+156, 28.8311, 0.0415,"1-Acetyl-4-amino-5-isobutyl-2,5-dihydro-1H-pyrrole-3-carbonitrile", 71410,"329202-51-9",47
+157, 28.9250, 0.0728,"2-Cyclohexen-1-ol, 2-methyl-5-(1-methylethenyl)-, cis-", 26121,"001197-06-4",96
+158, 29.1163, 0.0219,"(1R)-2,6,6-Trimethylbicyclo[3.1.1]hept-2-ene", 16226,"007785-70-8",41
+159, 29.2420, 0.1349,"Phenol, 2-methyl-5-(1-methylethyl)-", 24485,"000499-75-2",64
+160, 29.7224, 0.0219,"2-Cyclohexen-1-ol, 2-methyl-5-(1-methylethenyl)-, cis-", 26118,"001197-06-4",64
+161, 29.9260, 0.0590,"Benzyl alcohol",  5465,"000100-51-6",96
+162, 30.0680, 0.0944,"1,1,3,3,5,5,7,7-Octamethyl-7-(2-methylpropoxy)tetrasiloxan-1-ol",220051,"1000364-61-2",72
+163, 30.2203, 0.0215,"2-Ethylacridine", 71643,"055751-83-2",35
+164, 30.8344, 0.1181,"Phenylethyl Alcohol", 10108,"000060-12-8",90
+165, 31.1326, 0.0213,"Benzonitrile, 4-methyl-",  8754,"000104-85-8",58
+166, 31.2497, 0.1201,"2,6-Bis(1,1-dimethylethyl)-4-(1-oxopropyl)phenol",123062,"014035-34-8",94
+167, 31.3646, 0.0272,"Hydratropamide, .alpha.-methyl-", 34098,"000826-54-0",58
+168, 31.7033, 0.0331,"Silane, (4-ethylphenyl)trimethyl-", 46083,"017988-50-0",72
+169, 32.0244, 0.0743,"2-(4-Fluoro-phenyl)-4-(3-methyl-benzylidene)-4H-oxazol-5-one",140918,"1000296-71-2",44
+170, 32.7165, 0.0118,"5,6,8,9-TETRAMETHOXY-2-METHYLPEPERO(3,4,5-JK)-9,10-DIHYDROPHENANTHRACENE $$ 4H-Dibenz[de,g]isoquinoline, 5,6,6a,7-tetrahydro-1,2,9,10-tetramethoxy-5-methyl- (CAS)",214259,"074199-94-3",72
+171, 32.9347, 0.0113,"Naphthalene, 2,7-dimethyl-", 29414,"000582-16-1",95
+172, 33.0312, 0.0601,"p-Mentha-1(7),8(10)-dien-9-ol", 25921,"029548-13-8",49
+173, 33.1296, 0.0695,"Benzene, 1-ethyl-3,5-diisopropyl-", 56142,"015181-13-2",90
+174, 33.3910, 0.0101,"Methyleugenol", 45823,"000093-15-2",96
+175, 33.5826, 0.0309,"1H-Pyrrole-2-carboxaldehyde",  2700,"001003-29-8",78
+176, 33.6927, 0.0105,"3-Hydroxy-N,N-dimethylpropanamide",  8668,"029164-29-2",38
+177, 34.5952, 0.0304,"3H-indole, 2-methyl-3-phenyl-", 71658,"1000400-55-3",38
+178, 35.0038, 0.0139,"p-Cresol",  5463,"000106-44-5",55
+179, 35.7965, 0.0229,"Pyridine, 1,2,3,6-tetrahydro-1-methyl-4-phenyl-", 42460,"028289-54-5",81
+180, 36.9986, 0.0472,"Eugenol", 34526,"000097-53-0",97
+181, 37.4173, 0.0026,"1-(2-trimethylsiloxy-1,1-dideuteriovinyl)-4-trimethylsiloxy-benzene $$ Silane, trimethyl[4-[1-[(trimethylsilyl)oxy]ethenyl-2,2-d2]phenoxy]-",161523,"126210-55-7",35
+	
+,   379,"000556-64-9", 9
+,   873,"000565-60-0", 9
+,   355,"000075-07-0", 2

@@ -1,0 +1,22 @@
+
+           Data File Information
+
+     Data File     : Z:\data\JTB-E02\BACandBLUE\JTB-E02-205-18.D\data.ms
+     Operator:     :  JTB
+     Acquired On   :  13 Mar 2019  07:40    
+     Instrument    :  Arwen
+     Method File   :  Arwen_WAX_40_4_230inlet_AWAKE METHOD.M
+     Sample Name   :  REP04   BAC-03
+     Misc Info     :   
+     Vial Number   :  1
+     Sample Mult.  :  1.00
+     Sample Amount :  0.00
+     Exp. Barcode  :   
+     Act.  Barcode :   
+
+
+
+     Files in Data Directory
+
+
+     * = File time stamp is before latest quant update

@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<AuditTrailDataSet xmlns="http://tempuri.org/AuditTrailDataSet.xsd">
+  <AuditTrailEntry>
+    <ID>0</ID>
+    <ComputerName>ARSFLGNV4141QQN</ComputerName>
+    <User>system</User>
+    <TimeStamp>2019-06-26T08:06:31.9991248-04:00</TimeStamp>
+    <Comment>Data collection has been initiated.</Comment>
+  </AuditTrailEntry>
+  <AuditTrailEntry>
+    <ID>1</ID>
+    <ComputerName>ARSFLGNV4141QQN</ComputerName>
+    <User>system</User>
+    <TimeStamp>2019-06-26T08:48:49.7683897-04:00</TimeStamp>
+    <Comment>Data has been collected and saved.</Comment>
+  </AuditTrailEntry>
+</AuditTrailDataSet>

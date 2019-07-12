@@ -1,0 +1,2807 @@
+                                        Library Search Report
+
+  Data Path : Z:\data\JTB-E02\BACandBLUE\
+  Data File : JTB-E02-196-07.D                                    
+  Acq On    : 20 Feb 2019  09:51
+  Operator  : JTB
+  Sample    : BAC-02 BLANK
+  Misc      :  
+  ALS Vial  : 1   Sample Multiplier: 1
+
+  Search Libraries:   C:\Database\WILEY275.L            Minimum Quality:   0
+                      C:\Database\PMR1124.L             Minimum Quality:   0
+                      C:\Database\NIST14.L            
+
+  Unknown Spectrum:   Apex
+  Integration Events: ChemStation Integrator - events16.e
+
+Pk#     RT  Area%          Library/ID                 Ref#     CAS#   Qual
+_____________________________________________________________________________
+  1   2.281  0.38 C:\Database\WILEY275.L
+                 Carbon dioxide (CAS) $$ Dry ice $$    179 000124-38-9  4
+                  R 744 $$ Carbonic acid gas $$ Car
+                 bonic anhydride $$ Carbon oxide (C
+                 O2) $$ Carbonic acid, gas $$ CO2 $
+                 $ Anhydride carbonique $$ Carbonic
+                 e $$ Kohlendioxyd $$ Kohlensaure $
+                 $ UN 1013 $$ UN 1845 $$ UN 2187
+                 Carbon dioxide (CAS) $$ Dry ice $$    180 000124-38-9  4
+                  R 744 $$ Carbonic acid gas $$ Car
+                 bonic anhydride $$ Carbon oxide (C
+                 O2) $$ Carbonic acid, gas $$ CO2 $
+                 $ Anhydride carbonique $$ Carbonic
+                 e $$ Kohlendioxyd $$ Kohlensaure $
+                 $ UN 1013 $$ UN 1845 $$ UN 2187
+                 Carbon dioxide (CAS) $$ Dry ice $$    178 000124-38-9  4
+                  R 744 $$ Carbonic acid gas $$ Car
+                 bonic anhydride $$ Carbon oxide (C
+                 O2) $$ Carbonic acid, gas $$ CO2 $
+                 $ Anhydride carbonique $$ Carbonic
+                 e $$ Kohlendioxyd $$ Kohlensaure $
+                 $ UN 1013 $$ UN 1845 $$ UN 2187
+ 
+  2   2.427  0.29 C:\Database\WILEY275.L
+                 Hexane (CAS) $$ n-Hexane $$ Skelly   3551 000110-54-3 60
+                 solve B $$ n-C6H14 $$ Esani $$ Hek
+                 san $$ Hexanen $$ Hexyl hydride $$
+                  Gettysolve-B $$ NCI-C60571 $$ UN 
+                 1208
+                 HEXANE, 3-(DEUTEROMETHYL)-4-METHYL  12491 000000-00-0 59
+                 Hexane (CAS) $$ n-Hexane $$ Skelly   3559 000110-54-3 58
+                 solve B $$ n-C6H14 $$ Esani $$ Hek
+                 san $$ Hexanen $$ Hexyl hydride $$
+                  Gettysolve-B $$ NCI-C60571 $$ UN 
+                 1208
+ 
+  3   2.557  0.11 C:\Database\WILEY275.L
+                 2-Butanamine, hydrochloride (CAS)    1596 010049-60-2 43
+                 $$ sec-Butylamine hydrochloride $$
+                  2-AB hydrochloride $$ Tutane hydr
+                 ochloride $$ Butafume hydrochlorid
+                 e $$ 2-Butylamine hydrochloride $$
+                  2-Aminobutane hydrochloride $$ 1-
+                 Methylpropylamine hydrochloride
+                 Pentane, 2,3-dimethyl- (CAS) $$ 2,   7082 000565-59-3 41
+                 3-Dimethylpentane $$ 3,4-Dimethylp
+                 entane
+                 Pentane, 2,3-dimethyl- (CAS) $$ 2,   7087 000565-59-3 38
+                 3-Dimethylpentane $$ 3,4-Dimethylp
+                 entane
+ 
+  4   2.614  0.11 C:\Database\WILEY275.L
+                 2,2-dimethyl-4-methylaminobutanone  20143 123528-99-4 59
+                  $$ 2-Butanone, 3,3-dimethyl-4-(me
+                 thylamino)-
+                 Propane, 2-isocyanato- (CAS) $$ Is   3027 001795-48-8 53
+                 opropyl isocyanate $$ 2-Isocyanato
+                 propane $$ Isocyanic acid, isoprop
+                 yl ester $$ (CH3)2CHNCO $$ UN 2483
+                 Piperazine, 2-methyl- (CAS) $$ 2-M   6587 000109-07-9 47
+                 ethylpiperazine $$ 2-METHYL PIPERA
+                 ZINE
+ 
+  5   2.814  0.03 C:\Database\WILEY275.L
+                 1,2-Propanediamine, N(1)-(2-aminop  21439 007356-00-5 38
+                 ropyl)- $$ Bis(2-aminopropyl)amine
+                 2-Butanamine (CAS) $$ sec-Butylami   1593 013952-84-6 38
+                 ne $$ 2-AB $$ Tutane $$ Butafume $
+                 $ 2-Butylamine $$ 2-Aminobutane $$
+                  1-Methylpropylamine $$ 1-Methylpr
+                 opanamine $$ Secondary butylamine 
+                 $$ Propylamine, 1-methyl- $$ Sec-C
+                 4H9NH2 $$ sec-Butanamine $$ Deccot
+                 ane $$ Frucote $$
+                 1,3-Butanediamine $$ 1,3-Diaminobu   4017 000590-88-5 38
+                 tane
+ 
+  6   2.870  0.05 C:\Database\WILEY275.L
+                 2,2-dimethyl-4-methylaminobutanone  20143 123528-99-4 59
+                  $$ 2-Butanone, 3,3-dimethyl-4-(me
+                 thylamino)-
+                 2-Butanamine (CAS) $$ sec-Butylami   1593 013952-84-6 43
+                 ne $$ 2-AB $$ Tutane $$ Butafume $
+                 $ 2-Butylamine $$ 2-Aminobutane $$
+                  1-Methylpropylamine $$ 1-Methylpr
+                 opanamine $$ Secondary butylamine 
+                 $$ Propylamine, 1-methyl- $$ Sec-C
+                 4H9NH2 $$ sec-Butanamine $$ Deccot
+                 ane $$ Frucote $$
+                 1,2-Propanediamine, N(1)-(2-aminop  21439 007356-00-5 43
+                 ropyl)- $$ Bis(2-aminopropyl)amine
+ 
+  7   3.016  0.02 C:\Database\WILEY275.L
+                 METHYL ESTER OF N-VALERYL-ALANINE   71664 000000-00-0 64
+                 N-(3-METHYLBUTYRYL)-ALANINE         71666 000000-00-0 64
+                 2-Propanamine (CAS) $$ Isopropylam    612 000075-31-0 58
+                 ine $$ 2-Propylamine $$ 2-Aminopro
+                 pane $$ sec-Propylamine $$ 1-Methy
+                 lethylamine $$ Monoisopropylamine 
+                 $$ ISO-PROPYL AMINE $$ N-iso-propy
+                 lamine $$ Iso-C3H7NH2 $$ MIPA $$ P
+                 ropylamine mono $$ Isopropilamina 
+                 $$ Propane, 2-ami
+ 
+  8   3.128  0.05 C:\Database\WILEY275.L
+                 Pentanal (CAS) $$ n-Pentanal $$ n-   3280 000110-62-3 50
+                 Valeraldehyde $$ Valeral $$ Valera
+                 ldehyde $$ Valeric aldehyde $$ Val
+                 erianic aldehyde $$ Valerylaldehyd
+                 e yde $$ Valeric acid aldehyde $$ 
+                 1-pentanal $$ Valeryl aldehyde $$ 
+                 n-C4H9CHO $$ Amyl aldehyde $$ Buty
+                 l formal $$ UN 20
+                 Pentanal (CAS) $$ n-Pentanal $$ n-   3281 000110-62-3 50
+                 Valeraldehyde $$ Valeral $$ Valera
+                 ldehyde $$ Valeric aldehyde $$ Val
+                 erianic aldehyde $$ Valerylaldehyd
+                 e yde $$ Valeric acid aldehyde $$ 
+                 1-pentanal $$ Valeryl aldehyde $$ 
+                 n-C4H9CHO $$ Amyl aldehyde $$ Buty
+                 l formal $$ UN 20
+                 Butanal, 3-methyl- (CAS) $$ 3-Meth   3309 000590-86-3 47
+                 ylbutanal $$ Isovaleraldehyde $$ I
+                 sovaleral $$ Isopentanal $$ 3-Meth
+                 ylbutan-1-al $$ Isovalerylaldehyde
+                  $$ Isovaleric aldehyde $$ .beta.-
+                 Methylbutanal $$ 3-Methylbutyralde
+                 hyde $$ Isoamylaldehyde $$ iso-Val
+                 eraldehyde $$ 3-M
+ 
+  9   3.319 14.89 C:\Database\WILEY275.L
+                 Cyclotrisiloxane, hexamethyl- (CAS 106848 000541-05-9 46
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 Acetone phenylthiosemicarbazone     92219 000000-00-0 30
+                 7-Hydroxy-7,8,9,10-tetramethyl-7,8 137603 000000-00-0 27
+                 -dihydrocyclohepta[d,e]naphthalene
+ 
+ 10   3.671  0.57 C:\Database\WILEY275.L
+                 N-ethyl-1,3-dithioisoindoline $$ 1  92199 035373-06-9 86
+                 H-Isoindole-1,3(2H)-dithione, 2-et
+                 hyl-
+                 Cyclotrisiloxane, hexamethyl- (CAS 106845 000541-05-9 83
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 Cyclotrisiloxane, hexamethyl- (CAS 106848 000541-05-9 83
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+ 
+ 11   3.835  0.44 C:\Database\WILEY275.L
+                 N-ethyl-1,3-dithioisoindoline $$ 1  92199 035373-06-9 86
+                 H-Isoindole-1,3(2H)-dithione, 2-et
+                 hyl-
+                 Cyclotrisiloxane, hexamethyl- (CAS 106848 000541-05-9 83
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 Cyclotrisiloxane, hexamethyl- (CAS 106844 000541-05-9 78
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+ 
+ 12   4.020  0.21 C:\Database\WILEY275.L
+                 Cyclotrisiloxane, hexamethyl- (CAS 106848 000541-05-9 83
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 Cyclotrisiloxane, hexamethyl- (CAS 106844 000541-05-9 78
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 Cyclotrisiloxane, hexamethyl- (CAS 106846 000541-05-9 76
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+ 
+ 13   4.174  0.26 C:\Database\WILEY275.L
+                 Cyclotrisiloxane, hexamethyl- (CAS 106849 000541-05-9 53
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 8-Methylisothiazolo[4,5-c]-2,1,3-b  92115 074801-78-8 53
+                 enzothiadiazole $$ Isothiazolo[3,4
+                 -e]-2,1,3-benzothiadiazole, 4-meth
+                 yl- (CAS)
+                 6 METHYL-2 PHENYLINDOLE             92604 000000-00-0 50
+ 
+ 14   4.385  0.36 C:\Database\WILEY275.L
+                 1-METHYLALLYL(CYCLOOCTATETRAENE)TI  92376 000000-00-0 64
+                 TANIUM
+                 2-[(trimethylsilyl)oxy]-4-methylac 107540 097389-70-3 58
+                 etophenone $$ Ethanone, 1-[4-methy
+                 l-2-[(trimethylsilyl)oxy]phenyl]- 
+                 $$ 4'-Methyl-2'-(trimethylsiloxy)a
+                 cetophenone
+                 Cyclotrisiloxane, hexamethyl- (CAS 106846 000541-05-9 53
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+ 
+ 15   4.891  0.06 C:\Database\WILEY275.L
+                 N-ethyl-1,3-dithioisoindoline $$ 1  92199 035373-06-9 86
+                 H-Isoindole-1,3(2H)-dithione, 2-et
+                 hyl-
+                 Cyclotrisiloxane, hexamethyl- (CAS 106844 000541-05-9 53
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 Cyclotrisiloxane, hexamethyl- (CAS 106845 000541-05-9 53
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+ 
+ 16   4.984 11.62 C:\Database\WILEY275.L
+                 1-(2-trimethylsiloxy-1,1-dideuteri 161523 126210-55-7 64
+                 ovinyl)-4-trimethylsiloxy-benzene 
+                 $$ Silane, trimethyl[4-[1-[(trimet
+                 hylsilyl)oxy]ethenyl-2,2-d2]phenox
+                 y]-
+                 1-(2-trimethylsiloxyvinyl)-4-trime 161526 126210-58-0 38
+                 thylsiloxy-2,3,5,6-tetradeuteriobe
+                 nzene $$ Silane, trimethyl[4-[1-[(
+                 trimethylsilyl)oxy]ethenyl]phenoxy
+                 -2,3,5,6-d4]-
+                 6-AMINO-2,5-DICHLORO-3-HYDROXYBENZ 162364 069936-45-4 35
+                 OPHENONE $$ Methanone, (2-amino-3,
+                 6-dichloro-5-hydroxyphenyl)phenyl-
+                  (CAS) $$ 2-Amino-3,6-dichloro-5-h
+                 ydroxybenzophenone
+ 
+ 17   5.202  1.00 C:\Database\WILEY275.L
+                 Cyclotetrasiloxane, octamethyl- (C 174364 000556-67-2 87
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 Cyclotetrasiloxane, octamethyl- (C 174366 000556-67-2 64
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 3,6-Bis(N-dimethylamino)-9-ethylca 162703 057103-04-5 45
+                 rbazole
+ 
+ 18   5.656  0.19 C:\Database\WILEY275.L
+                 .ALPHA.-PINENE, (-)- $$ Bicyclo[3.  25201 000080-56-8 47
+                 1.1]hept-2-ene, 2,6,6-trimethyl- (
+                 CAS) $$ Pinene $$ 2-Pinene $$ .alp
+                 ha.-Pinene $$ 2,6,6-Trimethylbicyc
+                 lo[3.1.1]hept-2-ene $$ .alpha.-(+)
+                 -Pinene $$ ALPHA-PINENE $$ ALFA-PI
+                 NENE $$ Pinene isomer $$ PINENE, .
+                 alpha. $$ 2,6,6-T
+                 .alpha.-pipene $$ .alpha.-pinene    25313 000080-56-8 43
+                 .alpha.-PINENE                      25392 000080-56-8 43
+ 
+ 19   6.009  0.17 C:\Database\WILEY275.L
+                 6-methylthio[1]benzothieno[2,3-c]q 162555 115172-84-4 64
+                 uinoline $$ 5-methyl[1]benzothieno
+                 [2,3-c]quinolin-6(5H)thione $$ [1]
+                 Benzothieno[2,3-c]quinoline, 6-(me
+                 thylthio)-
+                 Benzene, methyl- (CAS) $$ Toluene    4560 000108-88-3 42
+                 $$ CP 25 $$ Methylbenzene $$ Toluo
+                 l $$ Methacide $$ Antisal 1a $$ Me
+                 thylbenzol $$ Phenylmethane $$ MET
+                 HYLBENZENE(TOLUENE) $$ Benzene, me
+                 thyl $$ Methane, phenyl- $$ NCI-C0
+                 7272 $$ Tolueen $$ Toluen $$ Toluo
+                 lo $$ Rcra waste
+                 Toluene                              4599 000108-88-3 42
+ 
+ 20   6.118  0.05 C:\Database\WILEY275.L
+                 Cyclotetrasiloxane, octamethyl- (C 174361 000556-67-2 80
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 Cyclotetrasiloxane, octamethyl- (C 174362 000556-67-2 64
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 Cyclotetrasiloxane, octamethyl- (C 174364 000556-67-2 64
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+ 
+ 21   6.474  0.11 C:\Database\WILEY275.L
+                 Cyclotetrasiloxane, octamethyl- (C 174360 000556-67-2 64
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 Cyclotetrasiloxane, octamethyl- (C 174364 000556-67-2 52
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 Cyclotetrasiloxane, octamethyl- (C 174361 000556-67-2 52
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+ 
+ 22   6.909  0.09 C:\Database\WILEY275.L
+                 Hexanal (CAS) $$ n-Hexanal $$ Hexa   6634 000066-25-1 93
+                 ldehyde $$ Caproaldehyde $$ Capron
+                 aldehyde $$ n-Caproaldehyde $$ Cap
+                 roic aldehyde $$ Hexylaldehyde $$ 
+                 n-Capronaldehyde $$ cyclohexanol $
+                 $ 1-hexanal $$ n-C5H11CHO $$ n-Hex
+                 aldehyde $$ n-Caproylaldehyde $$ A
+                 ldehyde C-6 $$ Ka
+                 Hexanal (CAS) $$ n-Hexanal $$ Hexa   6630 000066-25-1 87
+                 ldehyde $$ Caproaldehyde $$ Capron
+                 aldehyde $$ n-Caproaldehyde $$ Cap
+                 roic aldehyde $$ Hexylaldehyde $$ 
+                 n-Capronaldehyde $$ cyclohexanol $
+                 $ 1-hexanal $$ n-C5H11CHO $$ n-Hex
+                 aldehyde $$ n-Caproylaldehyde $$ A
+                 ldehyde C-6 $$ Ka
+                 Hexanal (CAS) $$ n-Hexanal $$ Hexa   6629 000066-25-1 83
+                 ldehyde $$ Caproaldehyde $$ Capron
+                 aldehyde $$ n-Caproaldehyde $$ Cap
+                 roic aldehyde $$ Hexylaldehyde $$ 
+                 n-Capronaldehyde $$ cyclohexanol $
+                 $ 1-hexanal $$ n-C5H11CHO $$ n-Hex
+                 aldehyde $$ n-Caproylaldehyde $$ A
+                 ldehyde C-6 $$ Ka
+ 
+ 23   7.232  0.02 C:\Database\WILEY275.L
+                 cis-5,5a,6,10b-Tetrahydroindeno[2,  92624 000000-00-0 35
+                 1-b]indole
+                 Cyclotetrasiloxane, octamethyl- (C 174362 000556-67-2 25
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 Cyclotrisiloxane, hexamethyl- (CAS 106848 000541-05-9 25
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+ 
+ 24   7.436  0.01 C:\Database\WILEY275.L
+                 N,N'-Dimethylpiperazine $$ Piperaz  12005 000106-58-1 58
+                 ine, 1,4-dimethyl- $$ Lupetazine $
+                 $ 1,4-Dimethylpiperazine
+                 N,N'-Dimethylpiperazine $$ Piperaz  12004 000106-58-1 52
+                 ine, 1,4-dimethyl- $$ Lupetazine $
+                 $ 1,4-Dimethylpiperazine
+                 2,4(1H,3H)-Pyrimidinedione, dihydr  11567 000504-07-4 47
+                 o- (CAS) $$ Hydrouracil $$ Dihydro
+                 uracil $$ 5,6-Dihydrouracil $$ 5,6
+                 -Dihydro-2,4-dihydroxypyrimidine $
+                 $ Dihydro-2,4(1H,3H)-pyrimidinedio
+                 ne $$ 5,6-dihydropyrimidine-2,4-(1
+                 H,3H)-dione
+ 
+ 25   7.471  0.02 C:\Database\WILEY275.L
+                 2-.BETA.-PINENE $$ Bicyclo[3.1.1]h  25224 000127-91-3 95
+                 eptane, 6,6-dimethyl-2-methylene- 
+                 (CAS) $$ .beta.-Pinene $$ Nopinen 
+                 $$ Nopinene $$ Pseudopinen $$ Pseu
+                 dopinene $$ 2(10)-Pinene $$ Terebe
+                 nthene $$ BETA-PINENE $$ 6,6-Dimet
+                 hyl-2-methylene-bicyclo[3.1.1]hept
+                 ane $$ Pinene $$
+                 2-.BETA.-PINENE $$ Bicyclo[3.1.1]h  25229 000127-91-3 89
+                 eptane, 6,6-dimethyl-2-methylene- 
+                 (CAS) $$ .beta.-Pinene $$ Nopinen 
+                 $$ Nopinene $$ Pseudopinen $$ Pseu
+                 dopinene $$ 2(10)-Pinene $$ Terebe
+                 nthene $$ BETA-PINENE $$ 6,6-Dimet
+                 hyl-2-methylene-bicyclo[3.1.1]hept
+                 ane $$ Pinene $$
+                 2-.BETA.-PINENE $$ Bicyclo[3.1.1]h  25219 000127-91-3 89
+                 eptane, 6,6-dimethyl-2-methylene- 
+                 (CAS) $$ .beta.-Pinene $$ Nopinen 
+                 $$ Nopinene $$ Pseudopinen $$ Pseu
+                 dopinene $$ 2(10)-Pinene $$ Terebe
+                 nthene $$ BETA-PINENE $$ 6,6-Dimet
+                 hyl-2-methylene-bicyclo[3.1.1]hept
+                 ane $$ Pinene $$
+ 
+ 26   8.006  0.01 C:\Database\WILEY275.L
+                 Benzene, ethyl- (CAS) $$ EB $$ Eth   8631 000100-41-4 70
+                 ylbenzene $$ Phenylethane $$ Ethyl
+                 benzol $$ .alpha.-Methyltoluene $$
+                  Aethylbenzol $$ Ethylbenzeen $$ E
+                 tilbenzene $$ Etylobenzen $$ NCI-C
+                 56393 $$ UN 1175
+                 Benzene, ethyl- (CAS) $$ EB $$ Eth   8626 000100-41-4 70
+                 ylbenzene $$ Phenylethane $$ Ethyl
+                 benzol $$ .alpha.-Methyltoluene $$
+                  Aethylbenzol $$ Ethylbenzeen $$ E
+                 tilbenzene $$ Etylobenzen $$ NCI-C
+                 56393 $$ UN 1175
+                 Benzene, ethyl- (CAS) $$ EB $$ Eth   8624 000100-41-4 70
+                 ylbenzene $$ Phenylethane $$ Ethyl
+                 benzol $$ .alpha.-Methyltoluene $$
+                  Aethylbenzol $$ Ethylbenzeen $$ E
+                 tilbenzene $$ Etylobenzen $$ NCI-C
+                 56393 $$ UN 1175
+ 
+ 27   8.203  0.01 C:\Database\WILEY275.L
+                 p-Xylene                             8705 000106-42-3 92
+                 Benzene, 1,2-dimethyl- (CAS) $$ o-   8641 000095-47-6 91
+                 Xylene $$ o-Xylol $$ 3,4-Xylene $$
+                  1,2-Xylene $$ o-Methyltoluene $$ 
+                 o-Dimethylbenzene $$ 1,2-Dimethylb
+                 enzene $$ ortho-Xylene $$ 1,2-Dime
+                 thyl-benzene $$ 0-Xylene $$ 1,2-DI
+                 METHYLBENZENE (O-XYLENE) $$ 1,2-DI
+                 METHYLBENZENE(O-X
+                 Benzene, 1,4-dimethyl- (CAS) $$ p-   8674 000106-42-3 91
+                 Xylene $$ p-Xylol $$ 1,4-Xylene $$
+                  p-Dimethylbenzene $$ 1,4-Dimethyl
+                 benzene $$ p-Methyltoluene $$ 4-Me
+                 thyltoluene $$ 1,4-Dimethyl-benzen
+                 e $$ 1,4-DIMETHYLBENZENE(P-XYLENE)
+                  $$ 1,4-DIMETHYLBENZENE (P-XYLENE)
+                  $$ para-Xylene $
+ 
+ 28   8.378  0.03 C:\Database\WILEY275.L
+                 Benzene, 1,2-dimethyl- (CAS) $$ o-   8642 000095-47-6 93
+                 Xylene $$ o-Xylol $$ 3,4-Xylene $$
+                  1,2-Xylene $$ o-Methyltoluene $$ 
+                 o-Dimethylbenzene $$ 1,2-Dimethylb
+                 enzene $$ ortho-Xylene $$ 1,2-Dime
+                 thyl-benzene $$ 0-Xylene $$ 1,2-DI
+                 METHYLBENZENE (O-XYLENE) $$ 1,2-DI
+                 METHYLBENZENE(O-X
+                 Benzene, 1,4-dimethyl- (CAS) $$ p-   8678 000106-42-3 90
+                 Xylene $$ p-Xylol $$ 1,4-Xylene $$
+                  p-Dimethylbenzene $$ 1,4-Dimethyl
+                 benzene $$ p-Methyltoluene $$ 4-Me
+                 thyltoluene $$ 1,4-Dimethyl-benzen
+                 e $$ 1,4-DIMETHYLBENZENE(P-XYLENE)
+                  $$ 1,4-DIMETHYLBENZENE (P-XYLENE)
+                  $$ para-Xylene $
+                 Benzene, 1,4-dimethyl- (CAS) $$ p-   8672 000106-42-3 90
+                 Xylene $$ p-Xylol $$ 1,4-Xylene $$
+                  p-Dimethylbenzene $$ 1,4-Dimethyl
+                 benzene $$ p-Methyltoluene $$ 4-Me
+                 thyltoluene $$ 1,4-Dimethyl-benzen
+                 e $$ 1,4-DIMETHYLBENZENE(P-XYLENE)
+                  $$ 1,4-DIMETHYLBENZENE (P-XYLENE)
+                  $$ para-Xylene $
+ 
+ 29   8.454  0.01 C:\Database\WILEY275.L
+                 1,4-DIMETHYLBENZENE $$ P-XYLENE      8720 000000-00-0 86
+                 Benzene, 1,4-dimethyl- (CAS) $$ p-   8686 000106-42-3 86
+                 Xylene $$ p-Xylol $$ 1,4-Xylene $$
+                  p-Dimethylbenzene $$ 1,4-Dimethyl
+                 benzene $$ p-Methyltoluene $$ 4-Me
+                 thyltoluene $$ 1,4-Dimethyl-benzen
+                 e $$ 1,4-DIMETHYLBENZENE(P-XYLENE)
+                  $$ 1,4-DIMETHYLBENZENE (P-XYLENE)
+                  $$ para-Xylene $
+                 Benzene, 1,2-dimethyl- (CAS) $$ o-   8641 000095-47-6 86
+                 Xylene $$ o-Xylol $$ 3,4-Xylene $$
+                  1,2-Xylene $$ o-Methyltoluene $$ 
+                 o-Dimethylbenzene $$ 1,2-Dimethylb
+                 enzene $$ ortho-Xylene $$ 1,2-Dime
+                 thyl-benzene $$ 0-Xylene $$ 1,2-DI
+                 METHYLBENZENE (O-XYLENE) $$ 1,2-DI
+                 METHYLBENZENE(O-X
+ 
+ 30   8.551  0.01 C:\Database\WILEY275.L
+                 1-Butanol (CAS) $$ n-Butanol $$ CC   1791 000071-36-3 47
+                 S 203 $$ n-Butyl alcohol $$ Hemost
+                 yp $$ n-Butan-1-ol $$ Butyl alcoho
+                 l $$ Butanol $$ Butyl hydroxide $$
+                  Methylolpropane $$ Propyl carbino
+                 l l $$ Propyl carbinol $$ 1-Butyl 
+                 alcohol $$ Butanol (French $$ Prop
+                 ylcarbinol $$ 1-B
+                 Methylamine, N-(1-methylbutylidene   6238 022431-09-0 47
+                 )- (CAS) $$ Methanamine, N-(1-meth
+                 ylbutylidene)-
+                 1-Butanol (CAS) $$ n-Butanol $$ CC   1797 000071-36-3 47
+                 S 203 $$ n-Butyl alcohol $$ Hemost
+                 yp $$ n-Butan-1-ol $$ Butyl alcoho
+                 l $$ Butanol $$ Butyl hydroxide $$
+                  Methylolpropane $$ Propyl carbino
+                 l l $$ Propyl carbinol $$ 1-Butyl 
+                 alcohol $$ Butanol (French $$ Prop
+                 ylcarbinol $$ 1-B
+ 
+ 31   8.822  5.09 C:\Database\WILEY275.L
+                 Cyclopentasiloxane, decamethyl- (C 221486 000541-02-6 52
+                 AS) $$ Dimethylsiloxane pentamer $
+                 $ DECAMETHYL-CYCLOPENTASILOXANE $$
+                  Decamethylcyclopentasiloxane $$ D
+                 ekamethylcyklopentasiloxan $$ Unio
+                 n Carbide 7158 Silicone Fluid $$ D
+                 ow Corning 345 $$ NUC Silicone VS 
+                 7158 $$ Dow Corni
+                 (+,-)-6,7,8,14-tetradehydro-4,5.al 214215 113948-35-9 23
+                 pha.-epoxy-3,6-dimethoxymorphinan-
+                 17-carboxylic acid methyl ester $$
+                  Morphinan-17-carboxylic acid, 6,7
+                 ,8,14-tetradehydro-4,5-epoxy-3,6-d
+                 imethoxy-, methyl ester, (5.alpha.
+                 )-(.+-.)-
+                 1-Methyl-4-nitro-5-phenylsulfonyli 150325 080348-54-5 22
+                 midazole $$ 1H-Imidazole, 1-methyl
+                 -4-nitro-5-(phenylsulfonyl)- $$ RS
+                 U 3046 $$ NSC 321271 $$ Imidazole,
+                  1-methyl-4-nitro-5-(phenylsulfony
+                 l)-
+ 
+ 32   9.209  0.13 C:\Database\WILEY275.L
+                 12-METHYLQUINOXALINO[2,3-B][1,4]BE 162473 064329-60-8 35
+                 NZOTHIAZINE-S-OXIDE $$ 12H-Quinoxa
+                 lino[2,3-b][1,4]benzothiazine, 12-
+                 methyl-, 5-oxide (CAS)
+                 Aristolochin $$ Phenanthro[3,4-d]- 206241 000313-67-7 27
+                 1,3-dioxole-5-carboxylic acid, 8-m
+                 ethoxy-6-nitro- (CAS) $$ 1-CARBOXY
+                 -3,4-METHYLENEDIOXY-8-METHOXY-10-N
+                 ITRO-PHENANTHRENE $$ TR 1736 $$ Ta
+                 rdolyt $$ Aristolochic acid $$ Ari
+                 stolochic acid I $$ Aristolochic a
+                 cid A
+                 N-methyl-d3-N-phenyl-4-toluene-d3- 145035 115562-36-2 25
+                 sulfonamide
+ 
+ 33   9.360  0.05 C:\Database\WILEY275.L
+                 Silane, [[4-[1,2-bis[(trimethylsil 251988 056114-62-6 43
+                 yl)oxy]ethyl]-1,2-phenylene]bis(ox
+                 y)]bis[trimethyl- (CAS) $$ 3,4-DIH
+                 YDROXYPHENYLGLYCOL-TETRATMS $$ DL-
+                 3,4-DIHYDROXYPHENYLGLYCOL (TRIMETH
+                 YLSILYL DERIVATIVE) $$ Silane, [[4
+                 -[1,2-bis[(trimethylsilyl)oxy]ethy
+                 l]-1,2-phenylene]
+                 Silane, [[4-[1,2-bis[(trimethylsil 251985 056114-62-6 38
+                 yl)oxy]ethyl]-1,2-phenylene]bis(ox
+                 y)]bis[trimethyl- (CAS) $$ 3,4-DIH
+                 YDROXYPHENYLGLYCOL-TETRATMS $$ DL-
+                 3,4-DIHYDROXYPHENYLGLYCOL (TRIMETH
+                 YLSILYL DERIVATIVE) $$ Silane, [[4
+                 -[1,2-bis[(trimethylsilyl)oxy]ethy
+                 l]-1,2-phenylene]
+                 Benzoic acid, 2,4-bis[(trimethylsi 221598 010586-16-0 38
+                 lyl)oxy]-, trimethylsilyl ester (C
+                 AS) $$ TRISTRIMETHYLSILYL 2,4-DIHY
+                 DROXYBENZOIC ACID $$ 2,4-DIHYDROXY
+                 BENZOIC ACID 3TMS $$ trimethylsily
+                 l [(2,4-di(trimethylsiloxy)phenyl]
+                 -methanoate $$ .beta.-Resorcylic a
+                 cid (tms) $$ 2,4-
+ 
+ 34   9.575  0.04 C:\Database\WILEY275.L
+                 1,4-DIMETHYLBENZENE $$ P-XYLENE      8720 000000-00-0 60
+                 M-XYLENE                             8722 000000-00-0 60
+                 Benzene, 1,4-dimethyl- (CAS) $$ p-   8676 000106-42-3 60
+                 Xylene $$ p-Xylol $$ 1,4-Xylene $$
+                  p-Dimethylbenzene $$ 1,4-Dimethyl
+                 benzene $$ p-Methyltoluene $$ 4-Me
+                 thyltoluene $$ 1,4-Dimethyl-benzen
+                 e $$ 1,4-DIMETHYLBENZENE(P-XYLENE)
+                  $$ 1,4-DIMETHYLBENZENE (P-XYLENE)
+                  $$ para-Xylene $
+ 
+ 35   9.633  0.12 C:\Database\WILEY275.L
+                 N HEPTANAL                          12343 000111-71-7 95
+                 Heptanal (CAS) $$ n-Heptanal $$ 20  12075 000111-71-7 94
+                 77204001 HEPTANA $$ Heptaldehyde $
+                 $ n-Heptaldehyde $$ Enanthal $$ Oe
+                 nanthal $$ Oenanthol $$ Enanthole 
+                 $$ Enanthaldehyde $$ Heptanaldehyd
+                 e $$ Heptyl aldehyde $$ Oenanthald
+                 ehyde $$ n-Heptylaldehyde $$ Enant
+                 hic aldehyde $$ O
+                 Heptanal (CAS) $$ n-Heptanal $$ 20  12069 000111-71-7 93
+                 77204001 HEPTANA $$ Heptaldehyde $
+                 $ n-Heptaldehyde $$ Enanthal $$ Oe
+                 nanthal $$ Oenanthol $$ Enanthole 
+                 $$ Enanthaldehyde $$ Heptanaldehyd
+                 e $$ Heptyl aldehyde $$ Oenanthald
+                 ehyde $$ n-Heptylaldehyde $$ Enant
+                 hic aldehyde $$ O
+ 
+ 36  10.060  0.21 C:\Database\WILEY275.L
+                 (E)-2-[(N-hydroxy-N-phenyl)-amino] 206467 127744-55-2 50
+                 -3-[N-(phenylimino)]-indole $$ 1H-
+                 Indol-2-amine, N-hydroxy-1-methyl-
+                 N-phenyl-3-[(phenylimino)methyl]-,
+                  (E)-
+                 4H-1-Benzopyran-4-one, 3,5,7-trime 206819 016692-52-7 16
+                 thoxy-2-(4-methoxyphenyl)- (CAS) $
+                 $ TETRAMETHYL KAMPFEROL $$ Flavone
+                 , 3,4',5,7-tetramethoxy- $$ 3,5,7,
+                 4'-TETRAMETHOXYFLAVONE $$ 3,5,7,4'
+                 -tetra-O-methylkaempferol $$ 3,5,7
+                 -trimethoxy-2-(4'-methoxyphenyl)-4
+                 H-1-benzopyran-4-
+                 (+,-)-O-METHYLSALUTARIDINE         206366 000000-00-0  9
+ 
+ 37  10.271  0.04 C:\Database\WILEY275.L
+                 Benzene, 1,1'-(oxydi-2,1-ethanediy 163856 055044-09-2 50
+                 l)bis[3-ethyl- (CAS) $$ BIS-(2-(3-
+                 ETHYLPHENYL)ETHYL)ETHER $$ Benzene
+                 , 1,1'-(oxydi-2,1-ethanediyl)bis@3
+                 -ethyl-
+                 Disiloxane, pentamethyl- (CAS) $$   33441 001438-82-0 27
+                 Pentamethyldisiloxane $$ 1,1,1,3,3
+                 -Pentamethyldisiloxane
+                 M-TOLYL-DIMETHYLACETALDEHYDE        47322 000000-00-0 27
+ 
+ 38  10.348  0.03 C:\Database\WILEY275.L
+                 Furan, 2,5-dihydro- (CAS) $$ 2,5-D   1189 001708-29-8 43
+                 ihydrofuran $$ 1-Oxa-3-cyclopenten
+                 e $$ 3-Oxolene
+                 ISOAMYLALCOHOL                       4128 000000-00-0 38
+                 Filicinic acid $$ 2,5-Cyclohexadie  39459 002065-00-1 38
+                 n-1-one, 3,5-dihydroxy-4,4-dimethy
+                 l-
+ 
+ 39  10.590  0.01 C:\Database\WILEY275.L
+                 2-(3,4-DICHLOROPHENYL)-BENZOTHIAZO 160757 000000-00-0 35
+                 LE
+                 (R)-[8-methyl-5-(phosphonooxy)meth 200452 097611-95-5 15
+                 yl-3,4-dihydro[4,3-e]-1,3-oxazin-3
+                 -yl]propanoic acid $$ 2H-Pyrido[4,
+                 3-e]-1,3-oxazine-3(4H)-acetic acid
+                 , .alpha.,8-dimethyl-5-[(phosphono
+                 oxy)methyl]-, (R)-
+                 2-(1,3-Benzodioxol-5-yl)-1-methyl- 160996 000485-61-0 14
+                 4(1H)-quinolinone (graveoline)
+ 
+ 40  10.728  0.01 C:\Database\WILEY275.L
+                 C3-BENZENE                          15077 000000-00-0 53
+                 Benzene, 1-ethyl-4-methyl- (CAS) $  14968 000622-96-8 25
+                 $ p-Ethyltoluene $$ 1-Methyl-4-eth
+                 ylbenzene $$ 4-Ethyltoluene $$ Tol
+                 uene, p-ethyl- $$ p-Ethylmethylben
+                 zene $$ p-Methylethylbenzene $$ 4-
+                 Methylethylbenzene $$ 1-Ethyl-4-me
+                 thylbenzene $$ para-Ethyltoluene
+                 o-Ethyl toluene $$ 1-Ethyl-2-methy  15054 000611-14-3 25
+                 lbenzene
+ 
+ 41  10.801  0.03 C:\Database\WILEY275.L
+                 3-ETHYLTOLUENE                      15081 000000-00-0 90
+                 Benzene, 1-ethyl-3-methyl- (CAS) $  14956 000620-14-4 90
+                 $ m-Ethyltoluene $$ 1-Methyl-3-eth
+                 ylbenzene $$ 3-Ethyltoluene $$ Tol
+                 uene, m-ethyl- $$ m-Ethylmethylben
+                 zene $$ m-Methylethylbenzene $$ 1-
+                 Ethyl-3-methylbenzene $$ meta-Ethy
+                 ltoluene
+                 1,3,5-Trimethylbenzene              15051 000108-67-8 70
+ 
+ 42  10.990  0.02 C:\Database\WILEY275.L
+                 1,3,5,7,9-Pentaethylcyclopentasilo 221488 017995-44-7 22
+                 xane $$ Cyclopentasiloxane, 2,4,6,
+                 8,10-pentaethyl-
+                 BIS(PHENYLCYCLOPENTADIENYL)-COBALT 206463 000000-00-0 11
+                 2,4-Cyclohexadien-1-one, 3,5-bis(1 107918 054965-43-4 10
+                 ,1-dimethylethyl)-4-hydroxy- (CAS)
+                  $$ 3,5-DI-T-BUTYL-1,2-DIHYDROBENZ
+                 OQUINONE
+ 
+ 43  11.234  0.11 C:\Database\WILEY275.L
+                 Isoquinoline, 6,7-dimethoxy-1-meth 205208 000000-00-0 52
+                 yl-4-(3,4-dimethoxyphenyl)-
+                 2,4-Di(4-aminophenyl)-6-phenyl-S-t 205233 000000-00-0 38
+                 riazine
+                 6-methyl-2-(4-methylphenyl)-7-3,4- 205329 000000-00-0 28
+                 dimethylbenzyl)indolizine
+ 
+ 44  11.352  0.02 C:\Database\WILEY275.L
+                 1,3,5-TRIMETHYLBENZENE $$ MESITYLE  15078 000000-00-0 56
+                 NE
+                 Benzene, 1,3,5-trimethyl- (CAS) $$  15002 000108-67-8 53
+                  1,3,5-Trimethylbenzene $$ Mesityl
+                 ene $$ sym-Trimethylbenzene $$ s-T
+                 rimethylbenzene $$ Fleet-X $$ Trim
+                 ethylbenzol $$ TMB $$ Trimethyl be
+                 nzene $$ UN 2325
+                 Benzene, 1,3,5-trimethyl- (CAS) $$  15004 000108-67-8 53
+                  1,3,5-Trimethylbenzene $$ Mesityl
+                 ene $$ sym-Trimethylbenzene $$ s-T
+                 rimethylbenzene $$ Fleet-X $$ Trim
+                 ethylbenzol $$ TMB $$ Trimethyl be
+                 nzene $$ UN 2325
+ 
+ 45  11.804  0.04 C:\Database\WILEY275.L
+                 TETRAMETHYL ESTER 2,2',3,3'-BIPHEN 228821 000000-00-0 43
+                 YLTETRACARBOXYLIC ACID
+                 6,7-bis(trimethylsilyl)-4-methoxy- 197484 096246-02-5 42
+                 1-azabiphenylene
+                 OCTADECAN-1-OL TRIMETHYLSILYL ETHE 207133 018748-98-6 32
+ 
+ 46  11.887  0.01 C:\Database\WILEY275.L
+                 Benzene, 1,2,3-trimethyl- (CAS) $$  14981 000526-73-8 15
+                  1,2,3-Trimethylbenzene $$ 1,2,3 T
+                 RIMETHYLBENZENE $$ Hemimellitene $
+                 $ Hemellitol
+                 Benzene, 1-ethyl-2-methyl- (CAS) $  14951 000611-14-3 15
+                 $ o-Ethyltoluene $$ 1-Methyl-2-eth
+                 ylbenzene $$ 2-Ethyltoluene $$ Tol
+                 uene, o-ethyl- $$ o-Methylethylben
+                 zene $$ o-Ethyl methyl benzene $$ 
+                 1-Ethyl-2-methylbenzene $$ o-Ethyl
+                 methylbenzene $$ ortho-Ethyltoluen
+                 Benzene, 1,2,3-trimethyl- (CAS) $$  14982 000526-73-8 15
+                  1,2,3-Trimethylbenzene $$ 1,2,3 T
+                 RIMETHYLBENZENE $$ Hemimellitene $
+                 $ Hemellitol
+ 
+ 47  12.199  0.02 C:\Database\WILEY275.L
+                 Benzene, 1-methyl-3-(1-methylethyl  23302 000535-77-3 53
+                 )- (CAS) $$ m-Cymene $$ 1-Methyl-3
+                 -isopropylbenzene $$ m-Cymol $$ .b
+                 eta.-Cymene $$ m-Isopropyltoluene 
+                 $$ m-Methylisopropylbenzene $$ 1-I
+                 sopropyl-3-methylbenzene $$ M CYME
+                 NE $$ 1-Methyl-3-(1-methylethyl)-b
+                 enzene $$ UN 2046
+                 Benzene, methyl(1-methylethyl)- (C  23293 025155-15-1 53
+                 AS) $$ Cymol $$ Cymene $$ Thymene 
+                 $$ Isopropyltoluene $$ (Methylisop
+                 ropyl)benzene $$ Methylisopropylbe
+                 nzene
+                 Benzene, 1-methyl-4-(1-methylethyl  23314 000099-87-6 53
+                 )- (CAS) $$ p-Cymene $$ 1-Methyl-4
+                 -isopropylbenzene $$ p-Cymol $$ p-
+                 Cimene $$ Camphogen $$ Dolcymene $
+                 $ 2-p-Tolylpropane $$ p-Isopropylt
+                 oluene $$ p-Methylisopropylbenzene
+                  $$ 1-Isopropyl-4-methylbenzene $$
+                  4-Isopropyl-1-me
+ 
+ 48  12.495  0.05 C:\Database\WILEY275.L
+                 Benzene, 1,3,5-trimethyl- (CAS) $$  15000 000108-67-8 91
+                  1,3,5-Trimethylbenzene $$ Mesityl
+                 ene $$ sym-Trimethylbenzene $$ s-T
+                 rimethylbenzene $$ Fleet-X $$ Trim
+                 ethylbenzol $$ TMB $$ Trimethyl be
+                 nzene $$ UN 2325
+                 Benzene, 1,2,4-trimethyl- (CAS) $$  14992 000095-63-6 91
+                  1,2,4-Trimethylbenzene $$ 1,2,4 T
+                 RIMETHYLBENZENE $$ Pseudocumol $$ 
+                 Pseudocumene $$ .psi.-Cumene $$ 1,
+                 3,4-Trimethylbenzene $$ 1,2,5-Trim
+                 ethylbenzene $$ Asymmetrical trime
+                 thylbenzene $$ As-Trimethylbenzene
+                  $$ Psi-cumene $$
+                 Benzene, 1,3,5-trimethyl- (CAS) $$  15004 000108-67-8 90
+                  1,3,5-Trimethylbenzene $$ Mesityl
+                 ene $$ sym-Trimethylbenzene $$ s-T
+                 rimethylbenzene $$ Fleet-X $$ Trim
+                 ethylbenzol $$ TMB $$ Trimethyl be
+                 nzene $$ UN 2325
+ 
+ 49  12.779  0.13 C:\Database\WILEY275.L
+                 OCTANAL                             19697 000124-13-0 93
+                 Octanal (CAS) $$ n-Octanal $$ n-Oc  19432 000124-13-0 93
+                 tylal $$ Antifoam-LF $$ Octaldehyd
+                 e $$ n-Octaldehyde $$ Octanaldehyd
+                 e $$ Octylaldehyde $$ Caprylaldehy
+                 de $$ n-Caprylaldehyde $$ 1-Octana
+                 l $$ Caprylic aldehyde $$ Octanoic
+                  aldehyde $$ Antifoam LF $$ n-Octy
+                 l aldehyde $$ Ald
+                 OCTANAL                             19724 000000-00-0 91
+ 
+ 50  13.017  0.01 C:\Database\WILEY275.L
+                 Cyclotetrasiloxane, octamethyl- (C 174360 000556-67-2 45
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 Cyclotetrasiloxane, octamethyl- (C 174361 000556-67-2 43
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 Cyclotetrasiloxane, octamethyl- (C 174364 000556-67-2 43
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+ 
+ 51  13.139  0.01 C:\Database\WILEY275.L
+                 2-(6,7-Dimethoxy-1-isquinolinyl)ph 162601 078632-08-3 47
+                 enol $$ Phenol, 2-(6,7-dimethoxy-1
+                 -isoquinolinyl)- (CAS)
+                 2-amino-3-carbethoxy-6-(3-indolyl) 162563 000000-00-0 32
+                 pyridine
+                 1-[(2-trimethylsiloxy)vinyl]-4-tri 161524 126210-57-9 30
+                 methylsiloxy-2,6-dideuteriobenzene
+                  $$ Silane, trimethyl[4-[1-[(trime
+                 thylsilyl)oxy]ethenyl]phenoxy-2,6-
+                 d2]-
+ 
+ 52  13.237  0.08 C:\Database\WILEY275.L
+                 6,7-bis(trimethylsilyl)-1-methoxy- 197485 096246-05-8 42
+                 2-azabiphenylene
+                 OCTADECAN-1-OL TRIMETHYLSILYL ETHE 207133 018748-98-6 40
+                 naphtho[2',3':7,8]cyclodeca[1,2,3, 198649 100229-98-9 37
+                 4-def]biphenylene
+ 
+ 53  13.891  0.01 C:\Database\WILEY275.L
+                 Benzene, 1-ethyl-3,5-dimethyl- (CA  23386 000934-74-7 60
+                 S) $$ 5-Ethyl-m-xylene $$ 1,3-Dime
+                 thyl-5-ethylbenzene $$ m-Xylene, 5
+                 -ethyl- $$ 1-Ethyl-3,5-dimethylben
+                 zene $$ 3,5-Dimethylethylbenzene
+                 Benzene, 1-methyl-3-(1-methylethyl  23302 000535-77-3 35
+                 )- (CAS) $$ m-Cymene $$ 1-Methyl-3
+                 -isopropylbenzene $$ m-Cymol $$ .b
+                 eta.-Cymene $$ m-Isopropyltoluene 
+                 $$ m-Methylisopropylbenzene $$ 1-I
+                 sopropyl-3-methylbenzene $$ M CYME
+                 NE $$ 1-Methyl-3-(1-methylethyl)-b
+                 enzene $$ UN 2046
+                 Benzene, 1-methyl-2-(1-methylethyl  23296 000527-84-4 35
+                 )- (CAS) $$ 1-Methyl-2-isopropylbe
+                 nzene $$ o-Cymene $$ o-Cymol $$ o-
+                 Isopropyltoluene $$ 2-Isopropyltol
+                 uene $$ 1-Isopropyl-2-methylbenzen
+                 e $$ 1-Methyl-2-(1-methylethyl)-be
+                 nzene $$ Cymene, ortho $$ UN 2046
+ 
+ 54  13.963  0.04 C:\Database\WILEY275.L
+                 1-Propylpentachlorotriphosphazene  212947 075132-80-8 38
+                 6-MONOACETYLMORPHINE $$ 6-ACETYL-M 197530 059833-14-6 32
+                 ORPHINE $$ MORPHINE-6-ACETATE
+                 ACETYLMORPHIN                      197555 000000-00-0 25
+ 
+ 55  14.101  0.05 C:\Database\WILEY275.L
+                 Silane, dimethyl(octadecyloxy)prop 222095 065597-99-1 47
+                 yl-
+                 6,7-bis(trimethylsilyl)-1-methoxy- 197485 096246-05-8 45
+                 2-azabiphenylene
+                 6,7-bis(trimethylsilyl)-4-methoxy- 197484 096246-02-5 38
+                 1-azabiphenylene
+ 
+ 56  14.231  1.64 C:\Database\WILEY275.L
+                 2,4-di(trimethylsiloxy)-6,7-(methy 221163 000000-00-0 74
+                 lenedioxy)-2H-1,4-benzoxazin-3-one
+                 (E)-2-[(N-hydroxy-N-phenyl)-amino] 206467 127744-55-2 50
+                 -3-[N-(phenylimino)]-indole $$ 1H-
+                 Indol-2-amine, N-hydroxy-1-methyl-
+                 N-phenyl-3-[(phenylimino)methyl]-,
+                  (E)-
+                 N-Formylnorisosalutaridine         206321 088996-27-4 47
+ 
+ 57  14.567  0.02 C:\Database\WILEY275.L
+                 essigsaure-{1-[10-(n,N-diethylcarb 196269 106820-42-2 20
+                 amoyl)bicyclo[4.4.1]undeca-1(10),2
+                 ,4,6,8-pentaen-2-yl]vinyl}ester $$
+                  Bicyclo[4.4.1]undeca-1,3,5,7,9-pe
+                 ntaene-2-carboxamide, 10-[1-(acety
+                 loxy)ethenyl]-N,N-diethyl-, (.+-.)
+                 3,9-dihydroxy-1,2-dimethoxy-6a,7-d 196186 121949-75-5 16
+                 ehydroaporphine $$ 4H-Dibenzo[de,g
+                 ]quinoline-3,9-diol, 5,6-dihydro-1
+                 ,2-dimethoxy-6-methyl-
+                 3-Ethoxy-1,1,1,5,5,5-hexamethyl-3- 205384 000000-00-0 14
+                 (trimethylsilyloxy)trisiloxane
+ 
+ 58  14.761  0.01 C:\Database\WILEY275.L
+                 2-amino-3-carbethoxy-6-(3-indolyl) 162563 000000-00-0 38
+                 pyridine
+                 Cyclotetrasiloxane, octamethyl- (C 174362 000556-67-2 25
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 Cyclotetrasiloxane, octamethyl- (C 174360 000556-67-2 25
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+ 
+ 59  14.873  0.07 C:\Database\WILEY275.L
+                 1-Pentanol, 4-methyl- (CAS) $$ 4-M   7790 000626-89-1 38
+                 ethyl-1-pentanol $$ Isohexanol $$ 
+                 iso-Hexanol $$ Isohexyl alcohol $$
+                  2-Methyl-5-pentanol $$ 4-methyl 1
+                 -pentanol
+                 1-Hexanol (CAS) $$ n-Hexanol $$ Am   7728 000111-27-3 38
+                 ylcarbinol $$ n-Hexan-1-ol $$ Hexy
+                 l alcohol $$ Hexanol $$ Pentylcarb
+                 inol $$ Caproyl alcohol $$ n-Hexyl
+                  alcohol $$ 1-Hexyl alcohol $$ 1-H
+                 ydroxyhexane $$ n-C6H13OH $$ Hexan
+                 -1-ol $$ Hexanol-(1) $$ Epal 6 $$ 
+                 UN 2282
+                 Cyclopropane, propyl- (CAS) $$ Pro   2962 002415-72-7 38
+                 pylcyclopropane $$ Propane, 1-cycl
+                 opropyl-
+ 
+ 60  15.215  0.01 C:\Database\WILEY275.L
+                 Benzene, 1-ethyl-2,3-dimethyl- (CA  23351 000933-98-2 74
+                 S) $$ 3-Ethyl-o-xylene $$ 1,2-Dime
+                 thyl-3-ethylbenzene $$ o-Xylene, 3
+                 -ethyl- $$ 1-Ethyl-2,3-dimethylben
+                 zene $$ 3-Ethyl-1,2-dimethylbenzen
+                 Benzene, 1,2,4,5-tetramethyl- (CAS  23400 000095-93-2 70
+                 ) $$ 1,2,4,5-Tetramethylbenzene $$
+                  Durol $$ Durene $$ p-Xylene, 2,5-
+                 dimethyl-
+                 Benzene, 1-ethyl-2,3-dimethyl- (CA  23352 000933-98-2 38
+                 S) $$ 3-Ethyl-o-xylene $$ 1,2-Dime
+                 thyl-3-ethylbenzene $$ o-Xylene, 3
+                 -ethyl- $$ 1-Ethyl-2,3-dimethylben
+                 zene $$ 3-Ethyl-1,2-dimethylbenzen
+ 
+ 61  15.536  0.02 C:\Database\WILEY275.L
+                 2,3-diphenyl-5-(4-methoxyphenyl)py 196363 069141-52-2 59
+                 rrole $$ 1H-Pyrrole, 5-(4-methoxyp
+                 henyl)-2,3-diphenyl- $$ Pyrrole, 5
+                 -(p-methoxyphenyl)-2,3-diphenyl-
+                 3,9-dihydroxy-1,2-dimethoxy-6a,7-d 196186 121949-75-5 38
+                 ehydroaporphine $$ 4H-Dibenzo[de,g
+                 ]quinoline-3,9-diol, 5,6-dihydro-1
+                 ,2-dimethoxy-6-methyl-
+                 BIS(PENTAMETHYLCYCLOPENTADIENYL)-M 196289 000000-00-0 27
+                 ANGANESE
+ 
+ 62  15.802  0.01 C:\Database\WILEY275.L
+                 Arsenous acid, tris(trimethylsilyl 206537 055429-29-3 38
+                 ) ester (CAS) $$ TRIMETHYLSILYL AR
+                 SINATE
+                 Cyclotrisiloxane, hexamethyl- (CAS 106845 000541-05-9 38
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 Tetrasiloxane, decamethyl- (CAS) $ 185153 000141-62-8 38
+                 $ Decamethyltetrasiloxane $$ [(CH3
+                 )3SiOSi(CH3)2]2O $$ KF 96L1.5
+ 
+ 63  16.067  0.76 C:\Database\WILEY275.L
+                 NONYL ALDEHYDE                      29954 000124-19-6 91
+                 NONANAL                             29971 000000-00-0 90
+                 Nonanal (CAS) $$ n-Nonanal $$ n-No  29788 000124-19-6 90
+                 nylaldehyde $$ Nonaldehyde $$ n-No
+                 naldehyde $$ Nonanaldehyde $$ Nony
+                 laldehyde $$ Pelargonaldehyde $$ N
+                 onylic aldehyde $$ Nonanoic aldehy
+                 de $$ Pelargonic aldehyde $$ n-Non
+                 an-1-al $$ 1-nonanal $$ Aldehyde c
+                 -9 $$ Nci-c61018
+ 
+ 64  16.275  0.05 C:\Database\WILEY275.L
+                 Eicosane (CAS) $$ n-Eicosane       163881 000112-95-8 62
+                 Tetradecane (CAS) $$ n-Tetradecane  83542 000629-59-4 60
+                  $$ Isotetradecane
+                 Nonadecane (CAS) $$ n-Nonadecane   151981 000629-92-5 60
+ 
+ 65  16.370  0.02 C:\Database\WILEY275.L
+                 N-ethyl-1,3-dithioisoindoline $$ 1  92199 035373-06-9 35
+                 H-Isoindole-1,3(2H)-dithione, 2-et
+                 hyl-
+                 Cyclotrisiloxane, hexamethyl- (CAS 106844 000541-05-9 30
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 Cyclotrisiloxane, hexamethyl- (CAS 106848 000541-05-9 30
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+ 
+ 66  16.528  0.01 C:\Database\WILEY275.L
+                 Cyclotrisiloxane, hexamethyl- (CAS 106844 000541-05-9 43
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 BENZENE, 1,4-BIS(TRIMETHYLSILYL)-  107558 000000-00-0 38
+                 Tetrasiloxane, decamethyl- (CAS) $ 185153 000141-62-8 38
+                 $ Decamethyltetrasiloxane $$ [(CH3
+                 )3SiOSi(CH3)2]2O $$ KF 96L1.5
+ 
+ 67  17.046  0.00 C:\Database\WILEY275.L
+                 1,1,3,3,5,5,7,7,9,9,11,11,13,13-TE 260039 000000-00-0 38
+                 TRADECAMETHYL-HEPTASILOXANE
+                 Arsenous acid, tris(trimethylsilyl 206537 055429-29-3 38
+                 ) ester (CAS) $$ TRIMETHYLSILYL AR
+                 SINATE
+                 Spiro[cyclopenta[c]pyran-7(1H),2'- 149325 103384-82-3 35
+                 [1,3]dioxane]-7a(4aH)-carboxylic a
+                 cid, 1-oxo-, methyl ester, cis-
+ 
+ 68  17.141  0.01 C:\Database\WILEY275.L
+                 [4-(dimethoxyboryl)phenyl]trimethy 107233 107134-80-5 43
+                 lsilane
+                 N-ethyl-1,3-dithioisoindoline $$ 1  92199 035373-06-9 38
+                 H-Isoindole-1,3(2H)-dithione, 2-et
+                 hyl-
+                 BENZENE, 1,4-BIS(TRIMETHYLSILYL)-  107558 000000-00-0 35
+ 
+ 69  17.304  0.00 C:\Database\WILEY275.L
+                 Benzene, 1,2,3,4-tetramethyl- (CAS  23393 000488-23-3 78
+                 ) $$ Prehnitol $$ 1,2,3,4-Tetramet
+                 hylbenzene $$ Prehnitene $$ 1,2,3,
+                 4-TETRAMETHYLBENZENE (PREHNITENE)
+                 Benzene, 1,2,4,5-tetramethyl- (CAS  23400 000095-93-2 76
+                 ) $$ 1,2,4,5-Tetramethylbenzene $$
+                  Durol $$ Durene $$ p-Xylene, 2,5-
+                 dimethyl-
+                 Benzene, 1,2,3,4-tetramethyl- (CAS  23394 000488-23-3 70
+                 ) $$ Prehnitol $$ 1,2,3,4-Tetramet
+                 hylbenzene $$ Prehnitene $$ 1,2,3,
+                 4-TETRAMETHYLBENZENE (PREHNITENE)
+ 
+ 70  17.402  0.03 C:\Database\WILEY275.L
+                 Trisiloxane, 1,1,1,5,5,5-hexamethy 227725 003555-47-3 22
+                 l-3,3-bis[(trimethylsilyl)oxy]- (C
+                 AS) $$ Tetrakis(trimethylsiloxy)si
+                 lane $$ Trisiloxane, 1,1,1,5,5,5-h
+                 examethyl-3,3-bis(trimethylsiloxy)
+                 - $$ Tetrakis(trimethylsilyloxy)si
+                 lane
+                 1,1,3,3,5,5,7,7,9,9,11,11,13,13-TE 260039 000000-00-0 14
+                 TRADECAMETHYL-HEPTASILOXANE
+                 GLYCEROL-1,2,3-D3, TRIS-O-(TRIMETH 183794 000000-00-0 12
+                 YLSILYL)-
+ 
+ 71  17.565  0.01 C:\Database\WILEY275.L
+                 N-ethyl-1,3-dithioisoindoline $$ 1  92199 035373-06-9 38
+                 H-Isoindole-1,3(2H)-dithione, 2-et
+                 hyl-
+                 3,5-Dimethyl-2,6-bis(trimethylsilo 164133 000000-00-0 38
+                 xy)pyridine
+                 2-[(trimethylsilyl)oxy]-5-methylac 107539 097389-69-0 25
+                 etophenone $$ Ethanone, 1-[5-methy
+                 l-2-[(trimethylsilyl)oxy]phenyl]- 
+                 $$ 5'-Methyl-2'-(trimethylsiloxy)a
+                 cetophenone
+ 
+ 72  17.751  0.02 C:\Database\WILEY275.L
+                 GLYCEROL-1,2,3-D3, TRIS-O-(TRIMETH 183794 000000-00-0 25
+                 YLSILYL)-
+                 Pentasiloxane, dodecamethyl- (CAS) 227727 000141-63-9 22
+                  $$ Dodecamethylpentasiloxane $$ D
+                 ODECAMETHYL-PENTASILOXANE
+                 Tetrasiloxane, decamethyl- (CAS) $ 185151 000141-62-8 22
+                 $ Decamethyltetrasiloxane $$ [(CH3
+                 )3SiOSi(CH3)2]2O $$ KF 96L1.5
+ 
+ 73  17.879  0.01 C:\Database\WILEY275.L
+                 Cyclotrisiloxane, hexamethyl- (CAS 106848 000541-05-9 46
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 Cyclotrisiloxane, hexamethyl- (CAS 106845 000541-05-9 46
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 3,3-Diethoxy-1,1,1,5,5,5-hexamethy 174413 000000-00-0 45
+                 ltrisiloxane
+ 
+ 74  18.124  0.76 C:\Database\WILEY275.L
+                 Acetic acid (CAS) $$ Ethylic acid     656 000064-19-7 43
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     650 000064-19-7 43
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     657 000064-19-7 43
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+ 
+ 75  18.504  0.07 C:\Database\WILEY275.L
+                 Acetic acid (CAS) $$ Ethylic acid     656 000064-19-7 64
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     650 000064-19-7 64
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     657 000064-19-7 64
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+ 
+ 76  18.616  0.02 C:\Database\WILEY275.L
+                 Acetic acid (CAS) $$ Ethylic acid     650 000064-19-7 52
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     656 000064-19-7 52
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 ACETIC ACID                           675 000000-00-0 50
+ 
+ 77  18.641  0.02 C:\Database\WILEY275.L
+                 Acetic acid (CAS) $$ Ethylic acid     656 000064-19-7 58
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     651 000064-19-7 53
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     658 000064-19-7 53
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+ 
+ 78  18.686  0.12 C:\Database\WILEY275.L
+                 Acetic acid (CAS) $$ Ethylic acid     656 000064-19-7 49
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     657 000064-19-7 49
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     659 000064-19-7 49
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+ 
+ 79  19.013  0.03 C:\Database\WILEY275.L
+                 Acetic acid (CAS) $$ Ethylic acid     656 000064-19-7 49
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     649 000064-19-7 49
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     651 000064-19-7 49
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+ 
+ 80  19.136  0.12 C:\Database\WILEY275.L
+                 1-Hexanol, 2-ethyl- (CAS) $$ 2-Eth  21137 000104-76-7 49
+                 ylhexanol $$ 2-Ethyl-1-hexanol $$ 
+                 Ethylhexanol $$ 2-Ethylhexan-1-ol 
+                 $$ 2-Ethylhexyl alcohol $$ 2-Ethyl
+                 -hexanol-1 $$ Ethylhexyl alcohol $
+                 $ Octyl alcohol $$ 2-Ethylhexanol-
+                 1-Hexanol, 2-ethyl- (CAS) $$ 2-Eth  21126 000104-76-7 47
+                 ylhexanol $$ 2-Ethyl-1-hexanol $$ 
+                 Ethylhexanol $$ 2-Ethylhexan-1-ol 
+                 $$ 2-Ethylhexyl alcohol $$ 2-Ethyl
+                 -hexanol-1 $$ Ethylhexyl alcohol $
+                 $ Octyl alcohol $$ 2-Ethylhexanol-
+                 1-Hexanol, 2-ethyl- (CAS) $$ 2-Eth  21136 000104-76-7 47
+                 ylhexanol $$ 2-Ethyl-1-hexanol $$ 
+                 Ethylhexanol $$ 2-Ethylhexan-1-ol 
+                 $$ 2-Ethylhexyl alcohol $$ 2-Ethyl
+                 -hexanol-1 $$ Ethylhexyl alcohol $
+                 $ Octyl alcohol $$ 2-Ethylhexanol-
+ 
+ 81  19.330  0.29 C:\Database\WILEY275.L
+                 Decanal (CAS) $$ n-Decanal $$ Decy  42445 000112-31-2 93
+                 l aldehyde $$ Decaldehyde $$ Capra
+                 ldehyde $$ Aldehyde C10 $$ Decanal
+                 dehyde $$ n-Decaldehyde $$ Caprina
+                 ldehyde $$ Capric aldehyde $$ Decy
+                 lic aldehyde $$ n-Decyl aldehyde $
+                 $ Caprinic aldehyde $$ 1-Decanal $
+                 $ C-10 Aldehyde $
+                 Decanal (CAS) $$ n-Decanal $$ Decy  42446 000112-31-2 93
+                 l aldehyde $$ Decaldehyde $$ Capra
+                 ldehyde $$ Aldehyde C10 $$ Decanal
+                 dehyde $$ n-Decaldehyde $$ Caprina
+                 ldehyde $$ Capric aldehyde $$ Decy
+                 lic aldehyde $$ n-Decyl aldehyde $
+                 $ Caprinic aldehyde $$ 1-Decanal $
+                 $ C-10 Aldehyde $
+                 DECYL ALDEHYDE                      42667 000112-31-2 91
+ 
+ 82  19.526  2.23 C:\Database\WILEY275.L
+                 4-Morpholineethanamine $$ Morpholi  20600 002038-03-1 43
+                 ne, 4-(2-aminoethyl)- $$ .beta.-Mo
+                 rpholinoethylamine $$ Morpholinoet
+                 hylamine $$ N-(.beta.-Aminoethyl)m
+                 orpholine $$ N-(Aminoethyl)morphol
+                 ine $$ N-(2-Aminoethyl)morpholine 
+                 $$ 1-Amino-2-morpholinoethane $$ 2
+                 -(4-Morpholinyl)e
+                 Methyl 2-Methyl-2-butenyl Ether      7015 000000-00-0 43
+                 2,4-Imidazolidinedione (CAS) $$ Hy   6327 000461-72-3 32
+                 dantoin $$ Glycolylurea $$ 2,4(3H,
+                 5H)-Imidazoledione $$ Imidazole-2,
+                 4(3H,5H)-dione $$ 2-Imidazolin-4(o
+                 r 5)-one, 2-hydroxy-
+ 
+ 83  19.698  2.00 C:\Database\WILEY275.L
+                 2,3,5,6-TETRAHYDRO-1,4-THIAZINO(4,  94475 015994-50-0 43
+                 3,2-de)-(1,4)-BENZOTHIAZINE $$ [1,
+                 4]Thiazino[4,3,2-de]-1,4-benzothia
+                 zine, 2,3,5,6-tetrahydro-
+                 Trimethylsilyl derivative of 4-Nit  94492 059973-87-4 43
+                 roso-3-methylphenol $$ Silane, tri
+                 methyl(3-methyl-4-nitrosophenoxy)-
+                 5-METHYLDIBENZ(B,F)AZAPINE          94798 000000-00-0 38
+ 
+ 84  19.937  0.15 C:\Database\WILEY275.L
+                 BENZALDEHYDE                         8615 000100-52-7 93
+                 BENZALDEHYDE                         8616 000000-00-0 92
+                 Benzaldehyde (CAS) $$ Phenylmethan   8595 000100-52-7 86
+                 al $$ Benzenecarbonal $$ Benzaldeh
+                 yde FFC $$ Benzoic aldehyde $$ Art
+                 ificial Almond Oil $$ Benzenecarbo
+                 xaldehyde $$ Almond artificial ess
+                 ential oil $$ Phenylmethanal benze
+                 necarboxaldehyde $$ Benzadehyde $$
+                  NCI-C56133 $$ Oi
+ 
+ 85  20.040  0.06 C:\Database\WILEY275.L
+                 (METHYLTHIO)ACETIC ACID $$ 2-(meth   8444 000000-00-0 38
+                 ylthio)acetic acid
+                 4,4,5,5-tetrafluoro-2-methyl-1,3,2  76847 097820-04-7 17
+                 -dithiazolidin $$ 1,3,2-Dithiazoli
+                 dine, 4,4,5,5-tetrafluoro-2-methyl
+                 Methane, tris(methylthio)- (CAS) $  39154 005418-86-0 17
+                 $ 1,1 BIS(METHYLMERCAPTO)METHYL SU
+                 LPHIDE $$ Trithiomethoxymethane $$
+                  Tris(methylthio)methane $$ Methyl
+                  orthotrithioformate $$ Trimethyl 
+                 trithioorthoformate $$ Orthoformic
+                  acid, trithio-, trimethyl ester $
+                 $ Tris(methythio)
+ 
+ 86  20.302  2.69 C:\Database\WILEY275.L
+                 trendione $$ 3,17-dioxoestra-4,9,1 151879 000000-00-0 90
+                 1-triene
+                 2-ETHYL-6-(3,5-DIMETHYLPYRIDIN-2-Y 151596 070118-61-5 64
+                 L)BENZOTHIAZOLE $$ Benzothiazole, 
+                 6-(3,5-dimethyl-2-pyridinyl)-2-eth
+                 yl- (CAS)
+                 3,4-Epoxy-4a-ethyl-2,3,4,4a,5,6-he 151714 080249-75-8 35
+                 xahydro-1H-pyrido[3,2-C]carbazole
+ 
+ 87  20.470  0.80 C:\Database\WILEY275.L
+                 4-Trimethylsilyl-9,9-dimethyl-9-si 163577 058263-56-2 64
+                 lafluorene
+                 4-Trimethylsilyl-9,9-dimethyl-9-si 163576 058263-56-2 64
+                 lafluorene
+                 6-methoxy-1-methyl-5-phenyl-4,7-in 150646 112597-44-1 53
+                 doloquinone
+ 
+ 88  20.662  0.08 C:\Database\WILEY275.L
+                 1-METHYL-5-AMINO-D2-1,2,4-TRIAZOLE   5476 053778-60-2 43
+                 Imidazole, 5-fluoro-4-methyl-        6352 000000-00-0 43
+                 2,4-Imidazolidinedione (CAS) $$ Hy   6329 000461-72-3 43
+                 dantoin $$ Glycolylurea $$ 2,4(3H,
+                 5H)-Imidazoledione $$ Imidazole-2,
+                 4(3H,5H)-dione $$ 2-Imidazolin-4(o
+                 r 5)-one, 2-hydroxy-
+ 
+ 89  21.197  0.04 C:\Database\WILEY275.L
+                 3,3-Diethoxy-1,1,1,5,5,5-hexamethy 174413 000000-00-0 53
+                 ltrisiloxane
+                 Cyclotrisiloxane, hexamethyl- (CAS 106848 000541-05-9 47
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 Cyclotrisiloxane, hexamethyl- (CAS 106844 000541-05-9 47
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+ 
+ 90  21.312  0.02 C:\Database\WILEY275.L
+                 1,2-Benzenediol, 3,5-bis(1,1-dimet 107900 001020-31-1 43
+                 hylethyl)- (CAS) $$ 3,5-DITERTBUTY
+                 L-1,2 DIHYDROXYBENZENE $$ 1,2-Benz
+                 enediol, 3,5-di(1,1-dimethylethyl)
+                 - $$ Pyrocatechol, 3,5-di-tert-but
+                 yl- $$ 3,5-Di-tert-butylcatechol $
+                 $ 4,6-Di-tert-butylpyrocatechol $$
+                  3,5-Di-tert-buty
+                 Cyclotrisiloxane, hexamethyl- (CAS 106849 000541-05-9 43
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 1,2-Benzenediol, 3,5-bis(1,1-dimet 107899 001020-31-1 43
+                 hylethyl)- (CAS) $$ 3,5-DITERTBUTY
+                 L-1,2 DIHYDROXYBENZENE $$ 1,2-Benz
+                 enediol, 3,5-di(1,1-dimethylethyl)
+                 - $$ Pyrocatechol, 3,5-di-tert-but
+                 yl- $$ 3,5-Di-tert-butylcatechol $
+                 $ 4,6-Di-tert-butylpyrocatechol $$
+                  3,5-Di-tert-buty
+ 
+ 91  21.433  0.05 C:\Database\WILEY275.L
+                 2-Methyl-7-phenylindole             92625 000000-00-0 43
+                 2-[(trimethylsilyl)oxy]-4-methylac 107540 097389-70-3 38
+                 etophenone $$ Ethanone, 1-[4-methy
+                 l-2-[(trimethylsilyl)oxy]phenyl]- 
+                 $$ 4'-Methyl-2'-(trimethylsiloxy)a
+                 cetophenone
+                 cis-4-Ethoxy-.beta.-methyl-.beta.-  92342 000000-00-0 38
+                 nitrostyrene
+ 
+ 92  21.578  0.02 C:\Database\WILEY275.L
+                 1,1,1,3,5,5,5-Heptamethyltrisiloxa 106885 001873-88-7 49
+                 ne $$ Bis(trimethylsiloxy)methylsi
+                 lane $$ Hydromethylsiloxane $$ Tri
+                 siloxane, 1,1,1,3,5,5,5-heptamethy
+                 l-
+                 Tetrasiloxane, decamethyl- (CAS) $ 185153 000141-62-8 43
+                 $ Decamethyltetrasiloxane $$ [(CH3
+                 )3SiOSi(CH3)2]2O $$ KF 96L1.5
+                 BENZENE, 1,4-BIS(TRIMETHYLSILYL)-  107558 000000-00-0 43
+ 
+ 93  21.663  0.96 C:\Database\WILEY275.L
+                 16-oxosalutaridine                 206326 094707-61-6 45
+                 (+,-)-O-METHYLSALUTARIDINE         206366 000000-00-0 38
+                 Morphinan-6-ol, 6,7-didehydro-4,5- 206390 000466-90-0 37
+                 epoxy-3-methoxy-17-methyl-, acetat
+                 e (ester), (5.alpha.)- (CAS) $$ Mo
+                 rphinan-6-ol, 6,7-didehydro-4,5.al
+                 pha.-epoxy-3-methoxy-17-methyl-, a
+                 cetate (ester) $$ Acetyldihydrocod
+                 einone $$ Dihydrocodeinone enol ac
+                 etate $$ Tebacon
+ 
+ 94  21.859  0.60 C:\Database\WILEY275.L
+                 16-oxosalutaridine                 206326 094707-61-6 45
+                 Morphinan-6-ol, 6,7-didehydro-4,5- 206390 000466-90-0 37
+                 epoxy-3-methoxy-17-methyl-, acetat
+                 e (ester), (5.alpha.)- (CAS) $$ Mo
+                 rphinan-6-ol, 6,7-didehydro-4,5.al
+                 pha.-epoxy-3-methoxy-17-methyl-, a
+                 cetate (ester) $$ Acetyldihydrocod
+                 einone $$ Dihydrocodeinone enol ac
+                 etate $$ Tebacon
+                 Silane, trimethyl-[[(17.alpha.)-19 214980 056771-62-1 30
+                 -norpregn-4-en-20-yn-17-yl]oxy]- (
+                 CAS) $$ 17.ALPHA.-ETHYNYL-17-.BETA
+                 .-TMS-OXY-ESTR-4-ENE
+ 
+ 95  21.967  0.04 C:\Database\WILEY275.L
+                 Cyclotrisiloxane, hexamethyl- (CAS 106844 000541-05-9 27
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 Tetrasiloxane, decamethyl- (CAS) $ 185152 000141-62-8 27
+                 $ Decamethyltetrasiloxane $$ [(CH3
+                 )3SiOSi(CH3)2]2O $$ KF 96L1.5
+                 BENZENE, 1,4-BIS(TRIMETHYLSILYL)-  107558 000000-00-0 27
+ 
+ 96  22.131  0.02 C:\Database\WILEY275.L
+                 Cyclotrisiloxane, hexamethyl- (CAS 106848 000541-05-9 46
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 2-Oxo-4-nitrosomethyl-6-trifluoro-  92085 000000-00-0 43
+                 methyl-1,2-dihydropyrimidine
+                 N-METHYLDEACETYLCOLCHICINE $$ Benz 222417 000477-30-5 42
+                 o[a]heptalen-9(5H)-one, 6,7-dihydr
+                 o-1,2,3,10-tetramethoxy-7-(methyla
+                 mino)-, (S)- (CAS) $$ NSC-3096 $$ 
+                 NSC 3096 $$ Omain $$ Omaine $$ Kol
+                 kamin $$ Colcemid $$ Colchamin $$ 
+                 Kolchamin $$ Colchamine $$ Demecol
+                 cine $$ Ciba 1266
+ 
+ 97  22.257  0.19 C:\Database\WILEY275.L
+                 (+,-)-O-METHYLSALUTARIDINE         206366 000000-00-0 47
+                 16-oxosalutaridine                 206326 094707-61-6 45
+                 Morphinan-6-ol, 6,7-didehydro-4,5- 206390 000466-90-0 37
+                 epoxy-3-methoxy-17-methyl-, acetat
+                 e (ester), (5.alpha.)- (CAS) $$ Mo
+                 rphinan-6-ol, 6,7-didehydro-4,5.al
+                 pha.-epoxy-3-methoxy-17-methyl-, a
+                 cetate (ester) $$ Acetyldihydrocod
+                 einone $$ Dihydrocodeinone enol ac
+                 etate $$ Tebacon
+ 
+ 98  22.384  0.02 C:\Database\WILEY275.L
+                 3,3-Diethoxy-1,1,1,5,5,5-hexamethy 174413 000000-00-0 50
+                 ltrisiloxane
+                 Cyclotrisiloxane, hexamethyl- (CAS 106845 000541-05-9 38
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 1,1,1,3,5,5,5-Heptamethyltrisiloxa 106884 001873-88-7 37
+                 ne $$ Bis(trimethylsiloxy)methylsi
+                 lane $$ Hydromethylsiloxane $$ Tri
+                 siloxane, 1,1,1,3,5,5,5-heptamethy
+                 l-
+ 
+ 99  22.490  0.13 C:\Database\WILEY275.L
+                 Undecanal (CAS) $$ Hendecanal $$ n  55739 000112-44-7 95
+                 -Undecanal $$ Undecyl aldehyde $$ 
+                 Hendecanaldehyde $$ n-Undecyl alde
+                 hyde $$ Undecylic aldehyde $$ 1-Un
+                 decanal $$ Aldehyde C-11 $$ Aldehy
+                 de C-11, undecylic $$ C-11 Aldehyd
+                 e, undecylic $$ Hendecenal $$ Unde
+                 canaldehyde
+                 Tetradecanal (CAS) $$ Myristaldehy  98176 000124-25-4 86
+                 de $$ Myristylaldehyde $$ Tetradec
+                 ylaldehyde $$ n-Tetradecanal $$ Al
+                 dehyde C-14 $$ Aldehyde C-14, myri
+                 stic $$ C-14 Aldehyde, myristic $$
+                  Myristic aldehyde $$ 1-Tetradecan
+                 al $$ 1-Tetradecyl aldehyde
+                 Tetradecanal (CAS) $$ Myristaldehy  98182 000124-25-4 80
+                 de $$ Myristylaldehyde $$ Tetradec
+                 ylaldehyde $$ n-Tetradecanal $$ Al
+                 dehyde C-14 $$ Aldehyde C-14, myri
+                 stic $$ C-14 Aldehyde, myristic $$
+                  Myristic aldehyde $$ 1-Tetradecan
+                 al $$ 1-Tetradecyl aldehyde
+ 
+100  22.603  0.03 C:\Database\WILEY275.L
+                 1,1,3,3,5,5,7,7,9,9-DECAMETHYL-PEN 214377 000995-83-5 35
+                 TASILOXANE $$ 1,1,3,3,5,5,7,7,9,9-
+                 decamethylpentasiloxane $$ Pentasi
+                 loxane, 1,1,3,3,5,5,7,7,9,9-decame
+                 thyl- $$ 1,9-Dihydrodecamethylpent
+                 asiloxane
+                 3,3-Diisopropoxy-1,1,1,5,5,5-hexam 195153 018082-56-9 30
+                 ethyltrisiloxane
+                 Cyclotrisiloxane, hexamethyl- (CAS 106848 000541-05-9 25
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+ 
+101  22.677  0.02 C:\Database\WILEY275.L
+                 3,3-Diisopropoxy-1,1,1,5,5,5-hexam 195153 018082-56-9 49
+                 ethyltrisiloxane
+                 2,3-dimethyl-4-azaphenanthrene      92617 000000-00-0 35
+                 3,3-Diethoxy-1,1,1,5,5,5-hexamethy 174413 000000-00-0 35
+                 ltrisiloxane
+ 
+102  22.877  0.03 C:\Database\WILEY275.L
+                 1,1,3,3,5,5,7,7,9,9-DECAMETHYL-PEN 214377 000995-83-5 46
+                 TASILOXANE $$ 1,1,3,3,5,5,7,7,9,9-
+                 decamethylpentasiloxane $$ Pentasi
+                 loxane, 1,1,3,3,5,5,7,7,9,9-decame
+                 thyl- $$ 1,9-Dihydrodecamethylpent
+                 asiloxane
+                 3,3-Diethoxy-1,1,1,5,5,5-hexamethy 174413 000000-00-0 43
+                 ltrisiloxane
+                 Trisiloxane, 1,1,1,5,5,5-hexamethy 227725 003555-47-3 25
+                 l-3,3-bis[(trimethylsilyl)oxy]- (C
+                 AS) $$ Tetrakis(trimethylsiloxy)si
+                 lane $$ Trisiloxane, 1,1,1,5,5,5-h
+                 examethyl-3,3-bis(trimethylsiloxy)
+                 - $$ Tetrakis(trimethylsilyloxy)si
+                 lane
+ 
+103  22.969  0.07 C:\Database\WILEY275.L
+                 .GAMMA. BUTYROLACTONE $$ 1,2-BUTAN   3219 000096-48-0 53
+                 OLIDE
+                 BUTAN-4-OLIDE                        3223 000000-00-0 49
+                 2(3H)-Furanone, dihydro- (CAS) $$    3202 000096-48-0 49
+                 Butyrolactone $$ 6480 $$ .gamma.-B
+                 utyrolactone $$ .gamma.-BL $$ 4-Bu
+                 tanolide $$ 1,4-Butanolide $$ 4-Bu
+                 tyrolactone $$ Butyryl lactone $$ 
+                 Butyric acid lactone $$ 4-Deoxytet
+                 ronic acid $$ Tetrahydro-2-furanon
+                 e $$ Dihydro-2(3H
+ 
+104  23.109  0.02 C:\Database\WILEY275.L
+                 1,1,3,3,5,5,7,7,9,9-DECAMETHYL-PEN 214377 000995-83-5 52
+                 TASILOXANE $$ 1,1,3,3,5,5,7,7,9,9-
+                 decamethylpentasiloxane $$ Pentasi
+                 loxane, 1,1,3,3,5,5,7,7,9,9-decame
+                 thyl- $$ 1,9-Dihydrodecamethylpent
+                 asiloxane
+                 1,1,1,3,5,5,5-Heptamethyltrisiloxa 106885 001873-88-7 25
+                 ne $$ Bis(trimethylsiloxy)methylsi
+                 lane $$ Hydromethylsiloxane $$ Tri
+                 siloxane, 1,1,1,3,5,5,5-heptamethy
+                 l-
+                 Cyclotrisiloxane, hexamethyl- (CAS 106848 000541-05-9 22
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+ 
+105  23.203  0.02 C:\Database\WILEY275.L
+                 Cyclotrisiloxane, hexamethyl- (CAS 106844 000541-05-9 43
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 Cyclotrisiloxane, hexamethyl- (CAS 106849 000541-05-9 38
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 3,3-Diethoxy-1,1,1,5,5,5-hexamethy 174413 000000-00-0 38
+                 ltrisiloxane
+ 
+106  23.390  0.02 C:\Database\WILEY275.L
+                 2,4-Cyclohexadien-1-one, 3,5-bis(1 107918 054965-43-4 38
+                 ,1-dimethylethyl)-4-hydroxy- (CAS)
+                  $$ 3,5-DI-T-BUTYL-1,2-DIHYDROBENZ
+                 OQUINONE
+                 Cyclotrisiloxane, hexamethyl- (CAS 106845 000541-05-9 38
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 2-[(trimethylsilyl)oxy]-5-methylac 107539 097389-69-0 38
+                 etophenone $$ Ethanone, 1-[5-methy
+                 l-2-[(trimethylsilyl)oxy]phenyl]- 
+                 $$ 5'-Methyl-2'-(trimethylsiloxy)a
+                 cetophenone
+ 
+107  23.705  0.02 C:\Database\WILEY275.L
+                 3,3-Diethoxy-1,1,1,5,5,5-hexamethy 174413 000000-00-0 37
+                 ltrisiloxane
+                 Merochlorophaeic Acid $$ Benzoic a 249284 002879-80-3 35
+                 cid, 3-[(2,4-dimethoxy-6-propylben
+                 zoyl)oxy]-2,4-dihydroxy-6-pentyl- 
+                 (CAS) $$ Benzoic acid, 2,3,4-trihy
+                 droxy-6-pentyl-, 3-(2,4-dimethoxy-
+                 6-propylbenzoate) $$ Benzoic acid,
+                  2,4-dimethoxy-6-propyl-, 3-ester 
+                 with 2,3,4-trihyd
+                 [2-(dimethoxyboryl)phenyl]trimethy 107231 107134-78-1 35
+                 lsilane
+ 
+108  23.814  0.70 C:\Database\WILEY275.L
+                 Propane, 2-chloro-2-nitro- (CAS) $  16050 000594-71-8  9
+                 $ 2-Chloro-2-nitropropane
+                 PHOSPHANOXYD, TRIMETHYL-             4515 000000-00-0  9
+                 Methyl-d3 1-Dideuterio-2-propenyl    1498 000000-00-0  5
+                 Ether
+ 
+109  24.025  0.02 C:\Database\WILEY275.L
+                 6-[(2-propenyl)imino]-3-methyl-1,5 206442 115437-29-1  7
+                 -diphenyl-5,6-dihydro-1H-pyrazolo[
+                 3,4-d]pyrimidine
+                 2-spirocyclohexyl-3-oxa-4-phenyl-5 162745 105983-34-4  4
+                 -azabicyclo[4.4.0]deca-1(6),4-dien
+                 e $$ Spiro[4H-3,1-benzoxazine-4,1'
+                 -cyclohexane], 5,6,7,8-tetrahydro-
+                 2-phenyl-
+                 Silanamine, N-phenyl- (CAS) $$ N-P  16121 005578-85-8  3
+                 HENYLSILYLAMINE $$ N-Phenylsilanam
+                 ine $$ Silylamine, N-phenyl- $$ Be
+                 nzenamine, N-silyl-
+ 
+110  24.073  0.03 C:\Database\WILEY275.L
+                 Arsenous acid, tris(trimethylsilyl 206537 055429-29-3 14
+                 ) ester (CAS) $$ TRIMETHYLSILYL AR
+                 SINATE
+                 2-Oxo-4-nitrosomethyl-6-trifluoro-  92085 000000-00-0 11
+                 methyl-1,2-dihydropyrimidine
+                 2,3-dimethyl-4-azaphenanthrene      92617 000000-00-0 10
+ 
+111  24.167  0.17 C:\Database\WILEY275.L
+                 6,7-bis(trimethylsilyl)-1-methoxy- 197485 096246-05-8 40
+                 2-azabiphenylene
+                 Tecleaverdoornine $$ 1,3-Dioxolo[4 197458 065847-03-2 28
+                 ,5-g]furo[2,3-b]quinolin-4-ol, 9-m
+                 ethoxy-10-(3-methyl-2-butenyl)- (C
+                 AS)
+                 12-Acetyl-13-methoxytotara-8,11,13 207256 084104-90-5 28
+                 -triene $$ Ethanone, 1-[4b,5,6,7,8
+                 ,8a,9,10-octahydro-2-methoxy-4b,8,
+                 8-trimethyl-1-(1-methylethyl)-3-ph
+                 enanthrenyl]-, (4bS-trans)- (CAS)
+ 
+112  24.245  0.26 C:\Database\WILEY275.L
+                 6-MONOACETYLMORPHINE $$ 6-ACETYL-M 197530 059833-14-6 37
+                 ORPHINE $$ MORPHINE-6-ACETATE
+                 12-Acetyl-13-methoxytotara-8,11,13 207256 084104-90-5 28
+                 -triene $$ Ethanone, 1-[4b,5,6,7,8
+                 ,8a,9,10-octahydro-2-methoxy-4b,8,
+                 8-trimethyl-1-(1-methylethyl)-3-ph
+                 enanthrenyl]-, (4bS-trans)- (CAS)
+                 Tecleaverdoornine $$ 1,3-Dioxolo[4 197458 065847-03-2  9
+                 ,5-g]furo[2,3-b]quinolin-4-ol, 9-m
+                 ethoxy-10-(3-methyl-2-butenyl)- (C
+                 AS)
+ 
+113  24.419  0.59 C:\Database\WILEY275.L
+                 2-phenyl-3,7-dimethyl-4-(4-chlorop 214165 118205-67-7 53
+                 henyl)-6,8-dioxo-2,3,7-triazabicyc
+                 lo[3.3.0]octane $$ Pyrrolo[3,4-c]p
+                 yrazole-4,6(1H,5H)-dione, 3-(4-chl
+                 orophenyl)tetrahydro-2,5-dimethyl-
+                 1-phenyl-, (3.alpha.,3a.alpha.,6a.
+                 alpha.)-
+                 1,3,5,7-Tetraethyl-1-ethylbutoxysi 248081 073420-30-1 46
+                 loxycyclotetrasiloxane
+                 Silane, [[4-[1,2-bis[(trimethylsil 251988 056114-62-6 45
+                 yl)oxy]ethyl]-1,2-phenylene]bis(ox
+                 y)]bis[trimethyl- (CAS) $$ 3,4-DIH
+                 YDROXYPHENYLGLYCOL-TETRATMS $$ DL-
+                 3,4-DIHYDROXYPHENYLGLYCOL (TRIMETH
+                 YLSILYL DERIVATIVE) $$ Silane, [[4
+                 -[1,2-bis[(trimethylsilyl)oxy]ethy
+                 l]-1,2-phenylene]
+ 
+114  24.538  0.38 C:\Database\WILEY275.L
+                 6-MONOACETYLMORPHINE $$ 6-ACETYL-M 197530 059833-14-6 38
+                 ORPHINE $$ MORPHINE-6-ACETATE
+                 12-Acetyl-13-methoxytotara-8,11,13 207256 084104-90-5 28
+                 -triene $$ Ethanone, 1-[4b,5,6,7,8
+                 ,8a,9,10-octahydro-2-methoxy-4b,8,
+                 8-trimethyl-1-(1-methylethyl)-3-ph
+                 enanthrenyl]-, (4bS-trans)- (CAS)
+                 Corynan-17-ol, 10-methoxy- (CAS) $ 198382 015266-55-4  9
+                 $ 10-Methoxydihydrocorynantheol $$
+                  17,18-Secoyohimban-17-ol, 10-meth
+                 oxy-
+ 
+115  24.688  0.06 C:\Database\WILEY275.L
+                 3,5-Dimethyl-2,6-bis(trimethylsilo 164133 000000-00-0 35
+                 xy)pyridine
+                 2-Oxo-4-nitrosomethyl-6-trifluoro-  92085 000000-00-0 18
+                 methyl-1,2-dihydropyrimidine
+                 Cyclotrisiloxane, hexamethyl- (CAS 106849 000541-05-9 16
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+ 
+116  24.927  0.09 C:\Database\WILEY275.L
+                 N-benzenesulphonyl-pyrrole          92171 000000-00-0 35
+                 Merochlorophaeic Acid $$ Benzoic a 249284 002879-80-3 22
+                 cid, 3-[(2,4-dimethoxy-6-propylben
+                 zoyl)oxy]-2,4-dihydroxy-6-pentyl- 
+                 (CAS) $$ Benzoic acid, 2,3,4-trihy
+                 droxy-6-pentyl-, 3-(2,4-dimethoxy-
+                 6-propylbenzoate) $$ Benzoic acid,
+                  2,4-dimethoxy-6-propyl-, 3-ester 
+                 with 2,3,4-trihyd
+                 Pentanoic acid (CAS) $$ Valeric ac   7416 000109-52-4 18
+                 id $$ n-Valeric acid $$ Valerianic
+                  acid $$ n-Pentanoic acid $$ Propy
+                 lacetic acid $$ 1-Butanecarboxylic
+                  acid $$ n-C4H9COOH $$ Butanecarbo
+                 xylic acid $$ Valeric acid, N- $$ 
+                 Kyselina valerova $$ NA 1760
+ 
+117  25.071  0.05 C:\Database\WILEY275.L
+                 2-Oxo-4-nitrosomethyl-6-trifluoro-  92085 000000-00-0 35
+                 methyl-1,2-dihydropyrimidine
+                 6 METHYL-2 PHENYLINDOLE             92604 000000-00-0 22
+                 1,1,1,3,5,5,5-Heptamethyltrisiloxa 106885 001873-88-7 18
+                 ne $$ Bis(trimethylsiloxy)methylsi
+                 lane $$ Hydromethylsiloxane $$ Tri
+                 siloxane, 1,1,1,3,5,5,5-heptamethy
+                 l-
+ 
+118  25.178  0.12 C:\Database\WILEY275.L
+                 3,5-Dimethyl-2,6-bis(trimethylsilo 164133 000000-00-0 43
+                 xy)pyridine
+                 Cyclotrisiloxane, hexamethyl- (CAS 106848 000541-05-9 38
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 1,1,1,3,5,5,5-Heptamethyltrisiloxa 106884 001873-88-7 27
+                 ne $$ Bis(trimethylsiloxy)methylsi
+                 lane $$ Hydromethylsiloxane $$ Tri
+                 siloxane, 1,1,1,3,5,5,5-heptamethy
+                 l-
+ 
+119  25.349  0.02 C:\Database\WILEY275.L
+                 Tetrasiloxane, decamethyl- (CAS) $ 185153 000141-62-8 35
+                 $ Decamethyltetrasiloxane $$ [(CH3
+                 )3SiOSi(CH3)2]2O $$ KF 96L1.5
+                 Cyclotrisiloxane, hexamethyl- (CAS 106848 000541-05-9 27
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 3,4-di(4-trimethylsiloxyphenyl)hex 239950 000000-00-0 27
+                 ane
+ 
+120  25.386  0.03 C:\Database\WILEY275.L
+                 3,5-Dimethyl-2,6-bis(trimethylsilo 164133 000000-00-0 35
+                 xy)pyridine
+                 Cyclotrisiloxane, hexamethyl- (CAS 106848 000541-05-9 30
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 Cyclotrisiloxane, hexamethyl- (CAS 106844 000541-05-9 25
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+ 
+121  25.518  0.20 C:\Database\WILEY275.L
+                 2-benzoyl-6,7-dimethoxy-4-methylid 197447 000000-00-0 80
+                 ene-2H-1,3-benzothiazine
+                 1,3-Dioxane, 5-(hexadecyloxy)-2-pe 264113 034315-34-9 38
+                 ntadecyl-, trans- (CAS) $$ TRANS-2
+                 -PENTADECYL-5-HEXADECYLOXY-1,3-DIO
+                 XANE $$ m-Dioxane, 5-(hexadecyloxy
+                 )-2-pentadecyl-, trans-
+                 1,3-Dioxolane-4-methanol, 2-pentad 214833 056599-54-3 35
+                 ecyl-, acetate (CAS) $$ 2-PENTADEC
+                 YL-4-ACETOXY METHYL 1,3-DIOXOLANE
+ 
+122  25.824  0.02 C:\Database\WILEY275.L
+                 2-(3',5'-Ditrifluoromethylphenyl)- 197318 121648-79-1 46
+                 1,1,3,3-tetramethylguanidine $$ Gu
+                 anidine, N''-[3,5-bis(trifluoromet
+                 hyl)phenyl]-N,N,N',N'-tetramethyl-
+                 1,4-diphenylbut-3-ene-2-ol         110834 000000-00-0 35
+                 Silane, trimethyl[5-methyl-2-(1-me 107823 055012-80-1 30
+                 thylethyl)phenoxy]- (CAS) $$ THYMO
+                 L-MONOTMS $$ Thymol-TMS
+ 
+123  26.127  0.20 C:\Database\WILEY275.L
+                 1H-Imidazole, 1,2-dimethyl- (CAS)    5078 001739-84-0 78
+                 $$ 1,2-Dimethylimidazole $$ Imidaz
+                 ole, 1,2-dimethyl-
+                 1H-Imidazole, 1,2-dimethyl- (CAS)    5079 001739-84-0 72
+                 $$ 1,2-Dimethylimidazole $$ Imidaz
+                 ole, 1,2-dimethyl-
+                 1,4-Dioxane, 2-(2-furanyl)- (CAS)   39460 056666-97-8 59
+                 $$ 2-FURYL-CYCLOHEXYL-1,4-DIOXIDE
+ 
+124  26.291  0.03 C:\Database\WILEY275.L
+                 1,1,1,3,5,5,5-Heptamethyltrisiloxa 106885 001873-88-7 42
+                 ne $$ Bis(trimethylsiloxy)methylsi
+                 lane $$ Hydromethylsiloxane $$ Tri
+                 siloxane, 1,1,1,3,5,5,5-heptamethy
+                 l-
+                 Cyclotrisiloxane, hexamethyl- (CAS 106848 000541-05-9 30
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 BENZENE, 1,4-BIS(TRIMETHYLSILYL)-  107558 000000-00-0 30
+ 
+125  26.436  0.03 C:\Database\WILEY275.L
+                 2-(3',5'-Ditrifluoromethylphenyl)- 197318 121648-79-1 46
+                 1,1,3,3-tetramethylguanidine $$ Gu
+                 anidine, N''-[3,5-bis(trifluoromet
+                 hyl)phenyl]-N,N,N',N'-tetramethyl-
+                 Cyclotrisiloxane, hexamethyl- (CAS 106844 000541-05-9 38
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 1,4-diphenylbut-3-ene-2-ol         110834 000000-00-0 38
+ 
+126  26.699  0.10 C:\Database\WILEY275.L
+                 1H-Imidazole, 1,2-dimethyl- (CAS)    5079 001739-84-0 53
+                 $$ 1,2-Dimethylimidazole $$ Imidaz
+                 ole, 1,2-dimethyl-
+                 1H-Imidazole, 2,4-dimethyl- (CAS)    5081 000930-62-1 53
+                 $$ 2,4-Dimethylimidazole $$ Imidaz
+                 ole, 2,4-dimethyl-
+                 1H-Imidazole, 1,2-dimethyl- (CAS)    5078 001739-84-0 53
+                 $$ 1,2-Dimethylimidazole $$ Imidaz
+                 ole, 1,2-dimethyl-
+ 
+127  26.749  0.05 C:\Database\WILEY275.L
+                 1H-Pyrazole, 1,5-dimethyl- $$ Pyra   5065 000694-31-5 43
+                 zole, 1,5-dimethyl- $$ 1,5-Dimethy
+                 lpyrazole
+                 1H-Imidazole, 1,2-dimethyl- (CAS)    5079 001739-84-0 43
+                 $$ 1,2-Dimethylimidazole $$ Imidaz
+                 ole, 1,2-dimethyl-
+                 1H-Imidazole, 1,2-dimethyl- (CAS)    5078 001739-84-0 43
+                 $$ 1,2-Dimethylimidazole $$ Imidaz
+                 ole, 1,2-dimethyl-
+ 
+128  26.887  0.05 C:\Database\WILEY275.L
+                 2-(6,7-Dimethoxy-1-isquinolinyl)ph 162601 078632-08-3 16
+                 enol $$ Phenol, 2-(6,7-dimethoxy-1
+                 -isoquinolinyl)- (CAS)
+                 Cyclotetrasiloxane, octamethyl- (C 174361 000556-67-2 10
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 Tetrasiloxane, decamethyl- (CAS) $ 185151 000141-62-8 10
+                 $ Decamethyltetrasiloxane $$ [(CH3
+                 )3SiOSi(CH3)2]2O $$ KF 96L1.5
+ 
+129  27.013 10.52 C:\Database\WILEY275.L
+                 5-EXO-HYDROXYPROTOADAMANTANE $$ 2,  38461 031610-91-0 30
+                 5-Methano-1H-inden-6-ol, octahydro
+                 -, (2.alpha.,3a.beta.,5.alpha.,6.b
+                 eta.,7a.beta.)- (CAS) $$ exo-5-Pro
+                 toadamantanol $$ 2,5-Methanoindan-
+                 6-ol, hexahydro-, stereoisomer
+                 4-ETHYLBENZALDEHYDE                 23079 000000-00-0 25
+                 Benzaldehyde, ethyl- (CAS) $$ AR-E  23117 053951-50-1 25
+                 THYLBENZALDEHYDE $$ P-ETHYLBENZALD
+                 EHYDE $$ Ethylbenzaldehyde
+ 
+130  27.394  0.19 C:\Database\WILEY275.L
+                 9-Borabicyclo[3.3.1]nonan-9-amine,  36783 063366-66-5 42
+                  N-methyl- (CAS) $$ 9-BORABICYCLO[
+                 3.3.1]NONANE, B-METHYLAMINO-
+                 p-Tolylthioamide                    36637 002362-62-1 38
+                 p-Tolylthioamide                    36638 002362-62-1 38
+ 
+131  27.554  0.17 C:\Database\WILEY275.L
+                 1H-Benzocyclohepten-7-ol, 2,3,4,4a 108352 006892-80-4 38
+                 ,5,6,7,8-octahydro-1,1,4a,7-tetram
+                 ethyl-, cis- (CAS) $$ Widdrol $$ 1
+                 H-Benzocyclohepten-7-ol, 2,3,4,4a,
+                 5,6,7,8-octahydro-1,1,4a.alpha.,7.
+                 beta.-tetramethyl-
+                 9-Borabicyclo[3.3.1]nonan-9-amine,  36783 063366-66-5 35
+                  N-methyl- (CAS) $$ 9-BORABICYCLO[
+                 3.3.1]NONANE, B-METHYLAMINO-
+                 Thieno[2,3-b]pyridine 7-oxide $$ T  36404 025557-50-0 25
+                 hieno[2,3-b]pyridine, 7-oxide (CAS
+ 
+132  27.633  0.19 C:\Database\WILEY275.L
+                 9-Borabicyclo[3.3.1]nonan-9-amine,  36783 063366-66-5 35
+                  N-methyl- (CAS) $$ 9-BORABICYCLO[
+                 3.3.1]NONANE, B-METHYLAMINO-
+                 Thieno[2,3-b]pyridine 7-oxide $$ T  36404 025557-50-0 22
+                 hieno[2,3-b]pyridine, 7-oxide (CAS
+                 2-EXO-DEUTERIOTRICYCLO(5.3.1.0**3,  36274 000000-00-0 18
+                 8)UNDECANE
+ 
+133  27.785  0.09 C:\Database\WILEY275.L
+                 9-Borabicyclo[3.3.1]nonan-9-amine,  36783 063366-66-5 38
+                  N-methyl- (CAS) $$ 9-BORABICYCLO[
+                 3.3.1]NONANE, B-METHYLAMINO-
+                 Thieno[3,2-c]pyridine 5-Oxide Hemi  36403 086344-82-3 35
+                 hydrate $$ Thieno[3,2-c]pyridine, 
+                 5-oxide (CAS)
+                 Thieno[2,3-c]pyridine 6-Oxide       36406 000000-00-0 35
+ 
+134  27.899  0.12 C:\Database\WILEY275.L
+                 4-HYDROXY-5,9-DIMETHYL-TRICYCLO[6.  93712 000000-00-0 56
+                 3.0.0(1,5)]UNDECAN-10-ONE
+                 1a,9b-dihydro-4-methyl-1H-phenanth  92618 111005-47-1 25
+                 ro[9,10-b]azirine
+                 9-Borabicyclo[3.3.1]nonan-9-amine,  36783 063366-66-5 25
+                  N-methyl- (CAS) $$ 9-BORABICYCLO[
+                 3.3.1]NONANE, B-METHYLAMINO-
+ 
+135  28.011  0.12 C:\Database\WILEY275.L
+                 2-Methyl-2-isbutyl-1,3-benzoxathio  93255 000000-00-0 30
+                 le
+                 Pyridine, 4-butyl-, 1-oxide (CAS)   36661 031396-34-6 25
+                 $$ 4-N-BUTYLPYRIDINE N-OXIDE
+                 Thieno[2,3-b]pyridine 7-oxide $$ T  36404 025557-50-0 25
+                 hieno[2,3-b]pyridine, 7-oxide (CAS
+ 
+136  28.232  0.14 C:\Database\WILEY275.L
+                 methyl 5-acetyl-2,3-dihydro-4,7-di 228972 104875-37-8 30
+                 methoxy-2,3,3,9-tetramehylnaphtho[
+                 1,2-b]furan-6-carboxylate
+                 6-Cyanomethoxy-N,N-diethyl-N'-meth 149170 000000-00-0 15
+                 oxymethyl-1,3,5-triazine-2,4-diami
+                 ne
+                 Cyclotetrasiloxane, octamethyl- (C 174363 000556-67-2 14
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+ 
+137  28.327  9.90 C:\Database\WILEY275.L
+                 1-Methyl-2-phenylbenzimidazole $$   93921 002622-63-1 80
+                 1-methyl-2-phenyl-benzimidazole $$
+                  1H-Benzimidazole, 1-methyl-2-phen
+                 yl-
+                 9-(1,1-(2)H(2)-ethyl)anthracene $$  92065 122875-86-9 38
+                  Anthracene, 9-(ethyl-2,2-d2)-
+                 1-(1 or 2-propenyl)-3,4,5-trimetho  93373 000000-00-0 38
+                 xybenzene
+ 
+138  28.672  0.17 C:\Database\WILEY275.L
+                 Cyclotrisiloxane, hexamethyl- (CAS 106845 000541-05-9 59
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 Cyclotrisiloxane, hexamethyl- (CAS 106849 000541-05-9 59
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 Tetrasiloxane, decamethyl- (CAS) $ 185153 000141-62-8 59
+                 $ Decamethyltetrasiloxane $$ [(CH3
+                 )3SiOSi(CH3)2]2O $$ KF 96L1.5
+ 
+139  28.788  0.58 C:\Database\WILEY275.L
+                 Cholest-1-en-19-ol, (5.alpha.)- (C 229334 030950-89-1 72
+                 AS) $$ 19-HYDROXYMETHYL-5.ALPHA.-C
+                 HOLEST-1-ENE $$ 5.alpha.-Cholest-1
+                 -en-19-ol
+                 5-Dimethylamino-6,6-dimethyl-3,4,6 107080 077864-08-5 25
+                 ,7-tetrahydro-2H-pyrrolo[2,3-d]pyr
+                 imidine-2,4-dione $$ 1H-Pyrrolo[2,
+                 3-d]pyrimidine-2,4(3H,6H)-dione, 5
+                 -(dimethylamino)-6,6-dimethyl- (CA
+                 S)
+                 TRANS-3-PROPOXY-B-METHYL-B-NITROST 106502 000000-00-0 15
+                 YRENE
+ 
+140  29.286  0.16 C:\Database\WILEY275.L
+                 Cyclotrisiloxane, hexamethyl- (CAS 106849 000541-05-9 53
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 (-)-18-noramborx                   108517 105561-28-2 43
+                 Anthranilic acid, N-methyl-, butyl  92384 015236-34-7 42
+                  ester (CAS) $$ N-BUTYL O-METHYLAM
+                 INOBENZOATE
+ 
+141  29.438  0.13 C:\Database\WILEY275.L
+                 Cyclotrisiloxane, hexamethyl- (CAS 106849 000541-05-9 37
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 Cyclotrisiloxane, hexamethyl- (CAS 106844 000541-05-9 37
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 Cyclotrisiloxane, hexamethyl- (CAS 106848 000541-05-9 37
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+ 
+142  29.527  0.12 C:\Database\WILEY275.L
+                 BENZENE, 1,4-BIS(TRIMETHYLSILYL)-  107558 000000-00-0 43
+                 3,3-Diethoxy-1,1,1,5,5,5-hexamethy 174413 000000-00-0 42
+                 ltrisiloxane
+                 1,4-diphenylbut-3-ene-2-ol         110834 000000-00-0 40
+ 
+143  29.675  0.06 C:\Database\WILEY275.L
+                 Cyclotrisiloxane, hexamethyl- (CAS 106849 000541-05-9 42
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 (Z)-3-phenyl-3-(4'-pyridazinyl) pr  92517 000000-00-0 38
+                 openenitrile
+                 Cyclotrisiloxane, hexamethyl- (CAS 106845 000541-05-9 38
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+ 
+144  29.760  0.07 C:\Database\WILEY275.L
+                 Cyclotrisiloxane, hexamethyl- (CAS 106849 000541-05-9 45
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 Tetrasiloxane, decamethyl- (CAS) $ 185153 000141-62-8 43
+                 $ Decamethyltetrasiloxane $$ [(CH3
+                 )3SiOSi(CH3)2]2O $$ KF 96L1.5
+                 Cyclotrisiloxane, hexamethyl- (CAS 106845 000541-05-9 43
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+ 
+145  30.019  4.45 C:\Database\WILEY275.L
+                 Cyclotetrasiloxane, octamethyl- (C 174360 000556-67-2 89
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 Cyclotetrasiloxane, octamethyl- (C 174364 000556-67-2 59
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 Cyclotetrasiloxane, octamethyl- (C 174362 000556-67-2 59
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+ 
+146  30.363  0.06 C:\Database\WILEY275.L
+                 Cyclotetrasiloxane, octamethyl- (C 174362 000556-67-2 43
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 Cyclotetrasiloxane, octamethyl- (C 174361 000556-67-2 38
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 Cyclotetrasiloxane, octamethyl- (C 174364 000556-67-2 38
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+ 
+147  30.447  0.12 C:\Database\WILEY275.L
+                 Phenol, 2,4,6-tris(1,1-dimethyleth 146576 000732-26-3 80
+                 yl)- (CAS) $$ 2,4,6-Tri-tert-butyl
+                 phenol $$ P 23 $$ TM 02 $$ 2,4,6-T
+                 RIS(TERT-BUTYL)-PHENOL $$ Alkofen 
+                 B $$ 2,4,6-Tri-t-butylphenol $$ Ph
+                 enol, 2,4,6-tri-tert-butyl- $$ 2,4
+                 ,6-Tri-tert-butyl-1-hydroxybenzene
+                  $$ 2,4,6-Tri-ter
+                 Phenol, 2,4,6-tris(1,1-dimethyleth 146575 000732-26-3 42
+                 yl)- (CAS) $$ 2,4,6-Tri-tert-butyl
+                 phenol $$ P 23 $$ TM 02 $$ 2,4,6-T
+                 RIS(TERT-BUTYL)-PHENOL $$ Alkofen 
+                 B $$ 2,4,6-Tri-t-butylphenol $$ Ph
+                 enol, 2,4,6-tri-tert-butyl- $$ 2,4
+                 ,6-Tri-tert-butyl-1-hydroxybenzene
+                  $$ 2,4,6-Tri-ter
+                 Phenol, 2,4,6-tris(1,1-dimethyleth 146578 000732-26-3 42
+                 yl)- (CAS) $$ 2,4,6-Tri-tert-butyl
+                 phenol $$ P 23 $$ TM 02 $$ 2,4,6-T
+                 RIS(TERT-BUTYL)-PHENOL $$ Alkofen 
+                 B $$ 2,4,6-Tri-t-butylphenol $$ Ph
+                 enol, 2,4,6-tri-tert-butyl- $$ 2,4
+                 ,6-Tri-tert-butyl-1-hydroxybenzene
+                  $$ 2,4,6-Tri-ter
+ 
+148  30.562  0.18 C:\Database\WILEY275.L
+                 2-Oxo-4-nitrosomethyl-6-trifluoro-  92085 000000-00-0 56
+                 methyl-1,2-dihydropyrimidine
+                 Cyclotetrasiloxane, octamethyl- (C 174363 000556-67-2 30
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 4-methyl-8-methoxy-9-nitro-dihydro 133770 000000-00-0 27
+                 benzodiazepin-2-one
+ 
+149  30.833  0.05 C:\Database\WILEY275.L
+                 Cyclotetrasiloxane, octamethyl- (C 174362 000556-67-2 37
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 Cyclotetrasiloxane, octamethyl- (C 174363 000556-67-2 27
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 1,1,1,3,5,5,5-Heptamethyltrisiloxa 106885 001873-88-7 25
+                 ne $$ Bis(trimethylsiloxy)methylsi
+                 lane $$ Hydromethylsiloxane $$ Tri
+                 siloxane, 1,1,1,3,5,5,5-heptamethy
+                 l-
+ 
+150  31.253  7.79 C:\Database\WILEY275.L
+                 cyercene A $$ 3,5-Dimethyl-2-metho 146323 000000-00-0 58
+                 xy-6-(1',3'-dimethyl-1',3'-hexadie
+                 nyl)-4H-pyran-4-one
+                 8,9,10,11-Tetrahydrocyclohepta[a]p 146517 000000-00-0 52
+                 henalene-6,12-dione
+                 9-phenyl-1,2,3,4,5,6,7,8-octahydro 146673 125379-29-5 47
+                 anthracene
+ 
+151  31.448  0.09 C:\Database\WILEY275.L
+                 1,1,3,3,5,5,7,7,9,9,11,11,13,13-TE 260039 000000-00-0 59
+                 TRADECAMETHYL-HEPTASILOXANE
+                 1,1,1,3,5,5,5-Heptamethyltrisiloxa 106885 001873-88-7 30
+                 ne $$ Bis(trimethylsiloxy)methylsi
+                 lane $$ Hydromethylsiloxane $$ Tri
+                 siloxane, 1,1,1,3,5,5,5-heptamethy
+                 l-
+                 2-(3',5'-Ditrifluoromethylphenyl)- 197318 121648-79-1 25
+                 1,1,3,3-tetramethylguanidine $$ Gu
+                 anidine, N''-[3,5-bis(trifluoromet
+                 hyl)phenyl]-N,N,N',N'-tetramethyl-
+ 
+152  31.697  0.12 C:\Database\WILEY275.L
+                 (2-DIMETHYLAMINOPHENOLATO-O,N)BORA  34559 083210-23-5 35
+                 NE
+                 Phosphonous dichloride, (1,7,7-tri 123298 074630-16-3 32
+                 methylbicyclo[2.2.1]hept-2-yl)- (C
+                 AS) $$ PHOSPHINE, BORNYLDICHLORO-
+                 (3R*,4S*)-2-Ethyl-1-methylenespiro  51656 000000-00-0 27
+                 [2.5]octan-4-ol
+ 
+153  31.991  2.42 C:\Database\WILEY275.L
+                 Cyclopentasiloxane, decamethyl- (C 221487 000541-02-6 47
+                 AS) $$ Dimethylsiloxane pentamer $
+                 $ DECAMETHYL-CYCLOPENTASILOXANE $$
+                  Decamethylcyclopentasiloxane $$ D
+                 ekamethylcyklopentasiloxan $$ Unio
+                 n Carbide 7158 Silicone Fluid $$ D
+                 ow Corning 345 $$ NUC Silicone VS 
+                 7158 $$ Dow Corni
+                 O,O,O-TRIS-TRIMETHYLSILYL-EPINEPHR 234319 010538-85-9 42
+                 INE $$ Phenethylamine, N-methyl-.b
+                 eta.,3,4-tris(trimethylsiloxy)- (C
+                 AS) $$ N-METHYL 2-TRIMETHYLSILOXY-
+                 2-(3,4-BIS(TRIMETHYLSILOXY)PHENYL)
+                 ETHYLAMINE
+                 Silane, [[4-[1,2-bis[(trimethylsil 251987 056114-62-6 35
+                 yl)oxy]ethyl]-1,2-phenylene]bis(ox
+                 y)]bis[trimethyl- (CAS) $$ 3,4-DIH
+                 YDROXYPHENYLGLYCOL-TETRATMS $$ DL-
+                 3,4-DIHYDROXYPHENYLGLYCOL (TRIMETH
+                 YLSILYL DERIVATIVE) $$ Silane, [[4
+                 -[1,2-bis[(trimethylsilyl)oxy]ethy
+                 l]-1,2-phenylene]
+ 
+154  32.099  0.49 C:\Database\WILEY275.L
+                 Benzoic acid, 2,4-bis[(trimethylsi 221598 010586-16-0 60
+                 lyl)oxy]-, trimethylsilyl ester (C
+                 AS) $$ TRISTRIMETHYLSILYL 2,4-DIHY
+                 DROXYBENZOIC ACID $$ 2,4-DIHYDROXY
+                 BENZOIC ACID 3TMS $$ trimethylsily
+                 l [(2,4-di(trimethylsiloxy)phenyl]
+                 -methanoate $$ .beta.-Resorcylic a
+                 cid (tms) $$ 2,4-
+                 Cyclopentasiloxane, decamethyl- (C 221486 000541-02-6 49
+                 AS) $$ Dimethylsiloxane pentamer $
+                 $ DECAMETHYL-CYCLOPENTASILOXANE $$
+                  Decamethylcyclopentasiloxane $$ D
+                 ekamethylcyklopentasiloxan $$ Unio
+                 n Carbide 7158 Silicone Fluid $$ D
+                 ow Corning 345 $$ NUC Silicone VS 
+                 7158 $$ Dow Corni
+                 2-phenyl-3,7-dimethyl-4-(4-chlorop 214165 118205-67-7 35
+                 henyl)-6,8-dioxo-2,3,7-triazabicyc
+                 lo[3.3.0]octane $$ Pyrrolo[3,4-c]p
+                 yrazole-4,6(1H,5H)-dione, 3-(4-chl
+                 orophenyl)tetrahydro-2,5-dimethyl-
+                 1-phenyl-, (3.alpha.,3a.alpha.,6a.
+                 alpha.)-
+ 
+155  32.681  0.29 C:\Database\WILEY275.L
+                 13-o-acetyl-7-thioepiallogibberic  206932 115260-38-3 43
+                 S-acid $$ Gibba-1,3,4a(10a)-triene
+                 -10-carbothioic acid, 7-(acetyloxy
+                 )-1-methyl-8-methylene-, (4b.beta.
+                 ,10.beta.)- $$ 5H-7,9a-Methanobenz
+                 [a]azulene, gibba-1,3,4a(10a)-trie
+                 ne-10-carbothioic acid deriv.
+                 3,6-Dioxa-2,4,5,7-tetrasilaoctane, 172798 004342-25-0 35
+                  2,2,4,4,5,5,7,7-octamethyl- (CAS)
+                  $$ SILANE, DIMETHYL(TRIMETHYLSILY
+                 LOXY)BIS- $$ 3,6-Dioxa-2,4,5,7-tet
+                 rasilaoctane, octamethyl-
+                 Morphinan, 7,8-didehydro-3-methoxy 162720 001816-06-4 27
+                 -17-methyl-6-methylene-, (-)- (CAS
+                 ) $$ 7,8-DIDEHYDRO-3-METHOXY-17-ME
+                 THYL-6-METHYLENEMORPHINAN
+ 
+156  32.942  0.02 C:\Database\WILEY275.L
+                 3,5-Dimethyl-2,6-bis(trimethylsilo 164133 000000-00-0 30
+                 xy)pyridine
+                 Cyclotrisiloxane, hexamethyl- (CAS 106844 000541-05-9 22
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 1,1,1,3,5,5,5-Heptamethyltrisiloxa 106885 001873-88-7 15
+                 ne $$ Bis(trimethylsiloxy)methylsi
+                 lane $$ Hydromethylsiloxane $$ Tri
+                 siloxane, 1,1,1,3,5,5,5-heptamethy
+                 l-
+ 
+157  33.141  0.11 C:\Database\WILEY275.L
+                 Phenol (CAS) $$ Izal $$ ENT 1814 $   4822 000108-95-2 90
+                 $ PhOH $$ Benzenol $$ Oxybenzene $
+                 $ Monophenol $$ Phenic acid $$ Car
+                 bolic acid $$ Phenylic acid $$ Hyd
+                 roxybenzene $$ Phenyl hydrate $$ P
+                 henyl alcohol $$ Phenylic alcohol 
+                 $$ Phenyl hydroxide $$ Monohydroxy
+                 benzene $$ Baker'
+                 Phenol (CAS) $$ Izal $$ ENT 1814 $   4813 000108-95-2 90
+                 $ PhOH $$ Benzenol $$ Oxybenzene $
+                 $ Monophenol $$ Phenic acid $$ Car
+                 bolic acid $$ Phenylic acid $$ Hyd
+                 roxybenzene $$ Phenyl hydrate $$ P
+                 henyl alcohol $$ Phenylic alcohol 
+                 $$ Phenyl hydroxide $$ Monohydroxy
+                 benzene $$ Baker'
+                 Phenol (CAS) $$ Izal $$ ENT 1814 $   4812 000108-95-2 90
+                 $ PhOH $$ Benzenol $$ Oxybenzene $
+                 $ Monophenol $$ Phenic acid $$ Car
+                 bolic acid $$ Phenylic acid $$ Hyd
+                 roxybenzene $$ Phenyl hydrate $$ P
+                 henyl alcohol $$ Phenylic alcohol 
+                 $$ Phenyl hydroxide $$ Monohydroxy
+                 benzene $$ Baker'
+ 
+158  33.242  0.04 C:\Database\WILEY275.L
+                 1,1,1,3,5,5,5-Heptamethyltrisiloxa 106885 001873-88-7 38
+                 ne $$ Bis(trimethylsiloxy)methylsi
+                 lane $$ Hydromethylsiloxane $$ Tri
+                 siloxane, 1,1,1,3,5,5,5-heptamethy
+                 l-
+                 Cyclotrisiloxane, hexamethyl- (CAS 106849 000541-05-9 27
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 1,3,5,7-Tetraethyl-1-ethylbutoxysi 248081 073420-30-1 22
+                 loxycyclotetrasiloxane
+ 
+159  33.327  0.02 C:\Database\WILEY275.L
+                 3,3-Diethoxy-1,1,1,5,5,5-hexamethy 174413 000000-00-0 38
+                 ltrisiloxane
+                 5-NITROBENZOFURAN-2-CARBOXYLIC ACI  92132 000000-00-0 25
+                 Cyclotrisiloxane, hexamethyl- (CAS 106848 000541-05-9 22
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+ 
+160  33.591  0.01 C:\Database\WILEY275.L
+                 1,1,1,3,5,5,5-Heptamethyltrisiloxa 106885 001873-88-7 45
+                 ne $$ Bis(trimethylsiloxy)methylsi
+                 lane $$ Hydromethylsiloxane $$ Tri
+                 siloxane, 1,1,1,3,5,5,5-heptamethy
+                 l-
+                 1,2-Bis(trimethylsilyl)benzene     107559 017151-09-6 25
+                 P-TRIMETHYLSILYLACETANILIDE $$ Ace  92350 017983-71-0 22
+                 tamide, N-[4-(trimethylsilyl)pheny
+                 l]- (CAS)
+ 
+161  33.822  0.09 C:\Database\WILEY275.L
+                 6-ACETYL-5,8-DIMETHOXY-2,2-DIMETHY 146031 062458-48-4 53
+                 L-2H-CHROMENE $$ Ethanone, 1-(5,8-
+                 dimethoxy-2,2-dimethyl-2H-1-benzop
+                 yran-6-yl)- (CAS)
+                 Phenol, 2,4,6-tris(1,1-dimethyleth 146575 000732-26-3 47
+                 yl)- (CAS) $$ 2,4,6-Tri-tert-butyl
+                 phenol $$ P 23 $$ TM 02 $$ 2,4,6-T
+                 RIS(TERT-BUTYL)-PHENOL $$ Alkofen 
+                 B $$ 2,4,6-Tri-t-butylphenol $$ Ph
+                 enol, 2,4,6-tri-tert-butyl- $$ 2,4
+                 ,6-Tri-tert-butyl-1-hydroxybenzene
+                  $$ 2,4,6-Tri-ter
+                 1-(4-chlorophenyl)-1-(4-methoxyphe 145984 000000-00-0 38
+                 nyl)ethanol
+ 
+162  33.945  0.09 C:\Database\WILEY275.L
+                 5-carboxy-2,2-dimethyl-2'(H)-5',6' 144281 121389-52-4 83
+                 -dihydropyrano[3',4'-g]indan-1-one
+                  $$ Cyclopenta[h]-2-benzopyran-5-c
+                 arboxylic acid, 1,3,4,7,8,9-hexahy
+                 dro-8,8-dimethyl-9-oxo-
+                 1'-Hydroxy-6',8'dimethoxy-3'-methy 144259 022649-07-6 80
+                 l-2'-acetonaphthone $$ Ethanone, 1
+                 -(1-hydroxy-6,8-dimethoxy-3-methyl
+                 -2-naphthalenyl)- (CAS) $$ 2'-Acet
+                 onaphthone, 1'-hydroxy-6',8'-dimet
+                 hoxy-3'-methyl-
+                 Benz[a]anthracene, 8,9,10,11-tetra 144770 025486-91-3 72
+                 hydro-7,12-dimethyl- (CAS) $$ 8,9,
+                 10,11-Tetrahydro-7,12-dimethylbenz
+                 [a]anthracene
+ 
+163  34.200  0.03 C:\Database\WILEY275.L
+                 1,1,1,3,5,5,5-Heptamethyltrisiloxa 106884 001873-88-7 35
+                 ne $$ Bis(trimethylsiloxy)methylsi
+                 lane $$ Hydromethylsiloxane $$ Tri
+                 siloxane, 1,1,1,3,5,5,5-heptamethy
+                 l-
+                 1,1,1,3,5,5,5-Heptamethyltrisiloxa 106885 001873-88-7 35
+                 ne $$ Bis(trimethylsiloxy)methylsi
+                 lane $$ Hydromethylsiloxane $$ Tri
+                 siloxane, 1,1,1,3,5,5,5-heptamethy
+                 l-
+                 1,3-dimethyl-4-azaphenanthrene      92616 000000-00-0 27
+ 
+164  34.319  0.05 C:\Database\WILEY275.L
+                 1,1,1,3,5,5,5-Heptamethyltrisiloxa 106885 001873-88-7 45
+                 ne $$ Bis(trimethylsiloxy)methylsi
+                 lane $$ Hydromethylsiloxane $$ Tri
+                 siloxane, 1,1,1,3,5,5,5-heptamethy
+                 l-
+                 6 METHYL-2 PHENYLINDOLE             92604 000000-00-0 35
+                 Arsenous acid, tris(trimethylsilyl 206537 055429-29-3 32
+                 ) ester (CAS) $$ TRIMETHYLSILYL AR
+                 SINATE
+ 
+165  34.369  0.06 C:\Database\WILEY275.L
+                 1,1,1,3,5,5,5-Heptamethyltrisiloxa 106885 001873-88-7 49
+                 ne $$ Bis(trimethylsiloxy)methylsi
+                 lane $$ Hydromethylsiloxane $$ Tri
+                 siloxane, 1,1,1,3,5,5,5-heptamethy
+                 l-
+                 1,1,1,3,5,5,5-Heptamethyltrisiloxa 106884 001873-88-7 43
+                 ne $$ Bis(trimethylsiloxy)methylsi
+                 lane $$ Hydromethylsiloxane $$ Tri
+                 siloxane, 1,1,1,3,5,5,5-heptamethy
+                 l-
+                 3,3-Diethoxy-1,1,1,5,5,5-hexamethy 174413 000000-00-0 38
+                 ltrisiloxane
+ 
+166  34.586  1.70 C:\Database\WILEY275.L
+                 (E)-2-[(N-hydroxy-N-phenyl)-amino] 206467 127744-55-2 42
+                 -3-[N-(phenylimino)]-indole $$ 1H-
+                 Indol-2-amine, N-hydroxy-1-methyl-
+                 N-phenyl-3-[(phenylimino)methyl]-,
+                  (E)-
+                 1,1,3,3,5,5,7,7,9,9-DECAMETHYL-PEN 214377 000995-83-5 25
+                 TASILOXANE $$ 1,1,3,3,5,5,7,7,9,9-
+                 decamethylpentasiloxane $$ Pentasi
+                 loxane, 1,1,3,3,5,5,7,7,9,9-decame
+                 thyl- $$ 1,9-Dihydrodecamethylpent
+                 asiloxane
+                 BISTRIMETHYLSILYL BUTETHAL $$ 2,4, 214485 052988-92-8 25
+                 6(1H,3H,5H)-Pyrimidinetrione, 5-bu
+                 tyl-5-ethyl-1,3-bis(trimethylsilyl
+                 )- (CAS)
+ 
+167  34.745  0.17 C:\Database\WILEY275.L
+                 1,1,3,3,5,5,7,7,9,9,11,11,13,13-TE 260039 000000-00-0 70
+                 TRADECAMETHYL-HEPTASILOXANE
+                 1,1,1,3,5,5,5-Heptamethyltrisiloxa 106885 001873-88-7 30
+                 ne $$ Bis(trimethylsiloxy)methylsi
+                 lane $$ Hydromethylsiloxane $$ Tri
+                 siloxane, 1,1,1,3,5,5,5-heptamethy
+                 l-
+                 Propiophenone, 2'-(trimethylsiloxy 107526 033342-87-9 25
+                 )- (CAS) $$ TRIMETHYLISILYL ETHER 
+                 OF O-HYDROXYPROPIOPHENONE $$ Trime
+                 thylsilyl ether of o-hydroxypropio
+                 phenone
+ 
+168  34.994  0.13 C:\Database\WILEY275.L
+                 1,1,3,3,5,5,7,7,9,9,11,11,13,13-TE 260039 000000-00-0 64
+                 TRADECAMETHYL-HEPTASILOXANE
+                 2,6-DIHYDROXYBENZOIC ACID 3TMS $$  221610 003782-85-2 42
+                 trimethylsilyl [2,6-di(trimethylsi
+                 loxy)phenyl]-methanoate $$ Benzoic
+                  acid, 2,6-bis[(trimethylsilyl)oxy
+                 ]-, trimethylsilyl ester $$ Benzoi
+                 c acid, 2,6-bis(trimethylsiloxy)-,
+                  trimethylsilyl ester
+                 BENZENE, 1,4-BIS(TRIMETHYLSILYL)-  107558 000000-00-0 25
+ 
+169  35.179  0.36 C:\Database\WILEY275.L
+                 Benzaldehyde, 4-hydroxy-, oxime (C  25598 000699-06-9 35
+                 AS) $$ p-Hydroxybenzaldoxime $$ p-
+                 Hydroxybenzaldehyde oxime $$ 4-Hyd
+                 roxybenzaldoxime $$ 4-Hydroxybenza
+                 ldehyde oxime $$ Benzaldehyde, p-h
+                 ydroxy-, oxime
+                 Benzaldehyde, 4-hydroxy-, oxime (C  25599 000699-06-9 35
+                 AS) $$ p-Hydroxybenzaldoxime $$ p-
+                 Hydroxybenzaldehyde oxime $$ 4-Hyd
+                 roxybenzaldoxime $$ 4-Hydroxybenza
+                 ldehyde oxime $$ Benzaldehyde, p-h
+                 ydroxy-, oxime
+                 Benzeneacetic acid, 4-hydroxy-3-me  66325 000306-08-1 22
+                 thoxy- (CAS) $$ Homovanillic acid 
+                 $$ HVA $$ HMPA $$ 3-Methoxy-4-hydr
+                 oxyphenylacetic acid $$ Homovanili
+                 c acid $$ Vanilacetic acid $$ 4-Hy
+                 droxy-3-methoxyphenylacetic acid $
+                 $ 4-Hydroxy-3-methoxybenzeneacetic
+                  acid $$ (4-Hydro
+ 
+170  35.610  0.05 C:\Database\WILEY275.L
+                 1,1,3,3,5,5,7,7,9,9-DECAMETHYL-PEN 214378 000995-83-5 47
+                 TASILOXANE $$ 1,1,3,3,5,5,7,7,9,9-
+                 decamethylpentasiloxane $$ Pentasi
+                 loxane, 1,1,3,3,5,5,7,7,9,9-decame
+                 thyl- $$ 1,9-Dihydrodecamethylpent
+                 asiloxane
+                 4-Dehydroxy-N-(4,5-methylenedioxy- 176336 000000-00-0 45
+                 2-nitrobenzylidene)tyramine
+                 Phenylpropylamine, N-acetyl-3,4,5- 150552 000000-00-0 30
+                 trimethoxy-
+ 
+171  35.635  0.01 C:\Database\WILEY275.L
+                 1,1,1,3,5,5,5-Heptamethyltrisiloxa 106885 001873-88-7 30
+                 ne $$ Bis(trimethylsiloxy)methylsi
+                 lane $$ Hydromethylsiloxane $$ Tri
+                 siloxane, 1,1,1,3,5,5,5-heptamethy
+                 l-
+                 1,3-dimethyl-4-azaphenanthrene      92616 000000-00-0 30
+                 2,4-Cyclohexadien-1-one, 3,5-bis(1 107918 054965-43-4 27
+                 ,1-dimethylethyl)-4-hydroxy- (CAS)
+                  $$ 3,5-DI-T-BUTYL-1,2-DIHYDROBENZ
+                 OQUINONE
+ 
+172  35.706  0.12 C:\Database\WILEY275.L
+                 6-Cyanomethoxy-N,N-diethyl-N'-meth 149170 000000-00-0 25
+                 oxymethyl-1,3,5-triazine-2,4-diami
+                 ne
+                 1,3,5,7-Tetraethyl-1-ethylbutoxysi 248081 073420-30-1 22
+                 loxycyclotetrasiloxane
+                 3,4-DIHYDROXYMANDELIC ACID-TETRATM 254875 000000-00-0 16
+ 
+173  35.861  0.05 C:\Database\WILEY275.L
+                 6-HYDROXY-5,8,9-TRIMETHOXY-2-METHY 206367 074199-91-0 43
+                 LPIPERO(3,4,5-JK)-9,10-DIHYDROPHEN
+                 ANTHRANCENE $$ 4H-Dibenz[de,g]isoq
+                 uinolin-1-ol, 5,6,6a,7-tetrahydro-
+                 2,9,10-trimethoxy-5-methyl- (CAS)
+                 1H-1-Benzazepine-2,5-dione, 4-brom 150316 052280-66-7 25
+                 o-3-hydroxy- (CAS) $$ 4-BROMO-2,5-
+                 DIHYDRO-3-HYDROXY-2,5-DIOXO-1-BENZ
+                 AZEPINE
+                 N-(5-CHLORO-2,4-DIMETHOXYPHENYL)MA 150416 000000-00-0 22
+                 LEIMIDE
+ 
+174  36.096  0.80 C:\Database\WILEY275.L
+                 1'-Hydroxy-6',8'dimethoxy-3'-methy 144259 022649-07-6 86
+                 l-2'-acetonaphthone $$ Ethanone, 1
+                 -(1-hydroxy-6,8-dimethoxy-3-methyl
+                 -2-naphthalenyl)- (CAS) $$ 2'-Acet
+                 onaphthone, 1'-hydroxy-6',8'-dimet
+                 hoxy-3'-methyl-
+                 1,1-di(2)(1'-benzazolyl)-ethane $$ 144646 005030-91-1 86
+                  1H-Indole, 3,3'-ethylidenebis- $$
+                  Indole, 3,3'-ethylidenedi-
+                 Benzene, 1,1'-(1,4-dimethyl-2,5-cy 144753 074421-24-2 86
+                 clohexadiene-1,4-diyl)bis- (CAS) $
+                 $ 2,5-CYCLOHEXADIENE, 1,4-DIMETHYL
+                 -1,4-DIPHENYL-
+ 
+175  36.225  0.29 C:\Database\WILEY275.L
+                 1'-Hydroxy-6',8'dimethoxy-3'-methy 144259 022649-07-6 91
+                 l-2'-acetonaphthone $$ Ethanone, 1
+                 -(1-hydroxy-6,8-dimethoxy-3-methyl
+                 -2-naphthalenyl)- (CAS) $$ 2'-Acet
+                 onaphthone, 1'-hydroxy-6',8'-dimet
+                 hoxy-3'-methyl-
+                 Benzene, 1,1'-(1,4-dimethyl-2,5-cy 144753 074421-24-2 60
+                 clohexadiene-1,4-diyl)bis- (CAS) $
+                 $ 2,5-CYCLOHEXADIENE, 1,4-DIMETHYL
+                 -1,4-DIPHENYL-
+                 7,8-Dihydroxy-4,5-dimethyl-6-(1-me 144421 062192-90-9 52
+                 thylallyl)-3,4-dihydronaphthalen-1
+                 (2H)-one $$ 1(2H)-Naphthalenone, 3
+                 ,4-dihydro-7,8-dihydroxy-4,5-dimet
+                 hyl-6-(1-methyl-2-propenyl)- (CAS)
+ 
+176  36.335  0.44 C:\Database\WILEY275.L
+                 Benzoic acid, 2,4-bis[(trimethylsi 221598 010586-16-0 38
+                 lyl)oxy]-, trimethylsilyl ester (C
+                 AS) $$ TRISTRIMETHYLSILYL 2,4-DIHY
+                 DROXYBENZOIC ACID $$ 2,4-DIHYDROXY
+                 BENZOIC ACID 3TMS $$ trimethylsily
+                 l [(2,4-di(trimethylsiloxy)phenyl]
+                 -methanoate $$ .beta.-Resorcylic a
+                 cid (tms) $$ 2,4-
+                 1,3,5,7,9-Pentaethylbicyclo[5.3.1] 227706 073420-26-5 35
+                 pentasiloxane $$ Bicyclo[5.3.1]pen
+                 tasiloxane, 1,3,5,7,9-pentaethyl-
+                 1,3,5,7-Tetraethyl-1-ethylbutoxysi 248081 073420-30-1 27
+                 loxycyclotetrasiloxane
+ 
+177  36.404  0.52 C:\Database\WILEY275.L
+                 2-Acetoxy-.alpha.-(trifluoromethyl 115674 136476-27-2 64
+                 )styrene
+                 2-(2-Methoxycarbonylethyl)-3,3-dim 130114 089902-91-0 59
+                 ethyl-4- and 5-methoxycarbonylisox
+                 azolidine $$ 2-Isoxazolidinepropan
+                 oic acid, 4-(methoxycarbonyl)-3,3-
+                 dimethyl-, methyl ester (CAS)
+                 2,2,5-trimethyl-2'(H)-5',6'-dihydr 116377 127115-99-5 59
+                 opyrano[3',4'-g]indan-1-one $$ Cyc
+                 lopenta[h]-2-benzopyran-9(1H)-one,
+                  3,4,7,8-tetrahydro-5,8,8-trimethy
+                 l-
+ 
+178  36.559  0.04 C:\Database\WILEY275.L
+                 1,2-Benzenediol, 3,5-bis(1,1-dimet 107899 001020-31-1 25
+                 hylethyl)- (CAS) $$ 3,5-DITERTBUTY
+                 L-1,2 DIHYDROXYBENZENE $$ 1,2-Benz
+                 enediol, 3,5-di(1,1-dimethylethyl)
+                 - $$ Pyrocatechol, 3,5-di-tert-but
+                 yl- $$ 3,5-Di-tert-butylcatechol $
+                 $ 4,6-Di-tert-butylpyrocatechol $$
+                  3,5-Di-tert-buty
+                 4-Dehydroxy-N-(4,5-methylenedioxy- 176336 000000-00-0 18
+                 2-nitrobenzylidene)tyramine
+                 3,3-Diethoxy-1,1,1,5,5,5-hexamethy 174413 000000-00-0 18
+                 ltrisiloxane
+ 
+179  36.677  0.08 C:\Database\WILEY275.L
+                 1,1,3,3,5,5,7,7,9,9,11,11,13,13-TE 260039 000000-00-0 60
+                 TRADECAMETHYL-HEPTASILOXANE
+                 2,4-Cyclohexadien-1-one, 3,5-bis(1 107918 054965-43-4 20
+                 ,1-dimethylethyl)-4-hydroxy- (CAS)
+                  $$ 3,5-DI-T-BUTYL-1,2-DIHYDROBENZ
+                 OQUINONE
+                 1,3-dimethyl-4-azaphenanthrene      92616 000000-00-0 18
+ 
+180  36.846  0.02 C:\Database\WILEY275.L
+                 3,3-Diethoxy-1,1,1,5,5,5-hexamethy 174413 000000-00-0 27
+                 ltrisiloxane
+                 Phenol, 2-(2-propenyl)- (CAS) $$ o  23179 001745-81-9 25
+                 -Allylphenol $$ 2-Allylphenol $$ P
+                 henol, o-allyl-
+                 2,4-Cyclohexadien-1-one, 3,5-bis(1 107918 054965-43-4 18
+                 ,1-dimethylethyl)-4-hydroxy- (CAS)
+                  $$ 3,5-DI-T-BUTYL-1,2-DIHYDROBENZ
+                 OQUINONE
+ 
+181  37.102  0.00 C:\Database\WILEY275.L
+                 Cyclotrisiloxane, hexamethyl- (CAS 106848 000541-05-9 49
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 1-(1',1'-dimethylethyl)-6-methoxy- 148261 116102-10-4 49
+                 2,2-dimethyl-1,2,3,4,5,8-hexahydro
+                 naphthalen-1-ol $$ 1-Naphthalenol,
+                  1-(1,1-dimethylethyl)-1,2,3,4,5,8
+                 -hexahydro-6-methoxy-2,2-dimethyl-
+                 Cyclotrisiloxane, hexamethyl- (CAS 106844 000541-05-9 47
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+ 
+182  37.225  0.01 C:\Database\WILEY275.L
+                 2,4-Cyclohexadien-1-one, 3,5-bis(1 107918 054965-43-4 35
+                 ,1-dimethylethyl)-4-hydroxy- (CAS)
+                  $$ 3,5-DI-T-BUTYL-1,2-DIHYDROBENZ
+                 OQUINONE
+                 Methyl 3,5-bis(ethylamino)benzoate 107490 000000-00-0 27
+                 Propiophenone, 2'-(trimethylsiloxy 107526 033342-87-9 20
+                 )- (CAS) $$ TRIMETHYLISILYL ETHER 
+                 OF O-HYDROXYPROPIOPHENONE $$ Trime
+                 thylsilyl ether of o-hydroxypropio
+                 phenone
+ 
+183  37.253  0.00 C:\Database\WILEY275.L
+                 3,3-Diethoxy-1,1,1,5,5,5-hexamethy 174413 000000-00-0 43
+                 ltrisiloxane
+                 1,1,1,3,5,5,5-Heptamethyltrisiloxa 106885 001873-88-7 30
+                 ne $$ Bis(trimethylsiloxy)methylsi
+                 lane $$ Hydromethylsiloxane $$ Tri
+                 siloxane, 1,1,1,3,5,5,5-heptamethy
+                 l-
+                 2-(Acetoxymethyl)-3-(methoxycarbon 163492 093103-70-9 27
+                 yl)biphenylene $$ 2-acetoxymethyl-
+                 3-(methoxycarbonyl)biphenylene $$ 
+                 2-Biphenylenecarboxylic acid, 3-[(
+                 acetyloxy)methyl]-, methyl ester
+ 
+184  37.383  0.63 C:\Database\WILEY275.L
+                 TRIMETHYLSILYL ESTER OF 4-METHYL-2 174610 000000-00-0 50
+                 -TRIMETHYLSILYLOXY-BENZOIC ACID
+                 3-Ethoxy-1,1,1,5,5,5-hexamethyl-3- 205384 000000-00-0 35
+                 (trimethylsilyloxy)trisiloxane
+                 14.alpha.-Morphinan, 7,8-didehydro 162721 017939-34-3 27
+                 -3-methoxy-17-methyl-6-methylene- 
+                 (CAS) $$ 7,8-DIDEHYDRO-3-METHOXY-1
+                 7-METHYL-6-METHYLENE-14.ALPHA.-MOR
+                 PHINAN
+ 
+
+Arwen_WAX_4...AKE METHOD.M Fri Mar 08 12:46:12 2019   

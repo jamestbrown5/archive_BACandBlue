@@ -1,0 +1,17 @@
+C:\MassHunter\GCMS\1\data\JTB-E02\BACandBLUE\JTB-E18-020-07.D\Audit.txt 
+Created Tue Jul 09 13:39:45 2019
+
+
+ Modified : Tue Jul 09 13:39:45 2019
+ Event    : Header Update
+ Message  : Changed sample name from BAC-01    REP-01 to BAC-01    PRO-01
+ QuantFile: DA20190509_BACandSTRAW.RES
+ Severity : 1
+
+
+ Modified : Tue Jul 09 13:39:45 2019
+ Event    : Header Update
+ Message  : Changed misc info from  to 
+ QuantFile: DA20190509_BACandSTRAW.RES
+ Severity : 1
+

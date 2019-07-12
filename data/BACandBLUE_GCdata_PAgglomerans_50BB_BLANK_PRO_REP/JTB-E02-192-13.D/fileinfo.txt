@@ -1,0 +1,22 @@
+
+           Data File Information
+
+     Data File     : Z:\data\JTB-E02\BACandBLUE\JTB-E02-192-13.D\data.ms
+     Operator:     :   
+     Acquired On   :  18 Dec 2018  12:25    
+     Instrument    :  Arwen
+     Method File   :  Arwen_WAX_40_4_230inlet_AWAKE METHOD.M
+     Sample Name   :  BAC-02  CTRL-02
+     Misc Info     :  P10:E5
+     Vial Number   :  1
+     Sample Mult.  :  1.00
+     Sample Amount :  0.00
+     Exp. Barcode  :   
+     Act.  Barcode :   
+
+
+
+     Files in Data Directory
+
+
+     * = File time stamp is before latest quant update

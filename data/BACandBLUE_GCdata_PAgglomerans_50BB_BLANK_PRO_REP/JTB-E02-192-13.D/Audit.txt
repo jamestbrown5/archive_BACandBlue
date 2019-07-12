@@ -1,0 +1,24 @@
+Z:\data\JTB-E02\BACandBLUE\JTB-E02-192-13.D\Audit.txt 
+Created Tue Dec 18 15:50:26 2018
+
+
+ Modified : Tue Dec 18 15:50:26 2018
+ Event    : Header Update
+ Message  : Changed sample name from BAC-02  CTRL-02 to 2H_CTRL_02
+ QuantFile: Arwen_WAX_40_4_230inlet_AWAKE METHOD.RES
+ Severity : 1
+
+
+ Modified : Tue Dec 18 15:50:26 2018
+ Event    : Header Update
+ Message  : Changed misc info from P10:E5 to P10:E5  BAC-02
+ QuantFile: Arwen_WAX_40_4_230inlet_AWAKE METHOD.RES
+ Severity : 1
+
+
+ Modified : Tue Dec 18 15:52:39 2018
+ Event    : Header Update
+ Message  : Changed sample name from 2H_CTRL_02 to 2H_CTRL02
+ QuantFile: Arwen_WAX_40_4_230inlet_AWAKE METHOD.RES
+ Severity : 1
+
