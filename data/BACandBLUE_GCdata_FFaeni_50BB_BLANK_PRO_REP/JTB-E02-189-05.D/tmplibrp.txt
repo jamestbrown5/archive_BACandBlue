@@ -1,6 +1,6 @@
                                         Library Search Report
 
-  Data Path : X:\data\JTB-E02\BACandBLUE\
+  Data Path : D:\Users\jbrown\Documents\GitHub\BACandBlue\data\BACandBLUE_GCdata_FFaeni_50BB_BLANK_PRO_REP\
   Data File : JTB-E02-189-05.D                                    
   Acq On    : 10 Dec 2018  10:01
   Operator  : JTB
@@ -8,85 +8,85 @@
   Misc      :  
   ALS Vial  : 1   Sample Multiplier: 1
 
-  Search Libraries:   C:\Database\NIST14.L              Minimum Quality:   0
-                      C:\Database\PMR1124.L             Minimum Quality:   0
-                      C:\Database\WILEY275.L          
+  Search Libraries:   D:\Users\jbrow...tabase\NIST14.L  Minimum Quality:   0
+                      D:\Users\jbrow...base\WILEY275.L  Minimum Quality:   0
+                      D:\Users\jbrow...tabase\Adams2.L
 
   Unknown Spectrum:   Apex
   Integration Events: ChemStation Integrator - events16.e
 
 Pk#     RT  Area%          Library/ID                 Ref#     CAS#   Qual
 _____________________________________________________________________________
-  1   2.157  0.10 C:\Database\NIST14.L
+  1   2.157  0.10 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Urea, N,N-dimethyl-                  1980 000598-94-7 53
                  Propanamide                           735 000079-05-0 43
                  Guanidine, N,N-dimethyl-             1882 006145-42-2 43
  
-  2   2.290  2.06 C:\Database\NIST14.L
+  2   2.290  2.06 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Carbon dioxide                         81 000124-38-9  4
                  2-Pentanamine                        1931 063493-28-7  4
                  2-Octanamine                        13320 000693-16-3  4
  
-  3   2.435  0.58 C:\Database\NIST14.L
+  3   2.435  0.58 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  n-Hexane                             1842 000110-54-3 50
                  2-Ethyl-oxetane                      1754 1000386-40-2 46
                  DL-Alanine, N-acetyl-               14132 001115-69-1 37
  
-  4   2.573  0.13 C:\Database\NIST14.L
+  4   2.573  0.13 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  N-Formyl-dl-alanine                  8611 005893-10-7 50
                  1,3-Dioxolane, 4-methyl-             2075 001072-47-5 50
                  Acetic acid, [(aminocarbonyl)amino  14446 000585-05-7 33
                  ]oxo-
  
-  5   2.628  0.17 C:\Database\NIST14.L
+  5   2.628  0.17 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  1-Propanamine, N,2-dimethyl-         1957 000625-43-4 64
                  1-Propanamine, N,2-dimethyl-         1954 000625-43-4 59
                  DL-Cystine                         102674 000923-32-0 42
  
-  6   3.127  0.04 C:\Database\NIST14.L
+  6   3.127  0.04 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  1,3-Dioxolane, 4-methyl-             2075 001072-47-5 86
                  2-Methylaminomethyl-1,3-dioxolane    8669 057366-77-5 58
                  1,3-Dioxolane, 4-methyl-             2073 001072-47-5 52
  
-  7   3.328 15.82 C:\Database\NIST14.L
+  7   3.328 15.82 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Cyclotrisiloxane, hexamethyl-       85992 000541-05-9 83
                  Arsenous acid, tris(trimethylsilyl 199618 055429-29-3 78
                  ) ester
                  Cyclotrisiloxane, hexamethyl-       85994 000541-05-9 78
  
-  8   3.707  1.16 C:\Database\NIST14.L
+  8   3.707  1.16 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Cyclotrisiloxane, hexamethyl-       85994 000541-05-9 86
                  Cyclotrisiloxane, hexamethyl-       85992 000541-05-9 64
                  1H-Indole, 1-methyl-2-phenyl-       71663 003558-24-5 58
  
-  9   3.941  0.12 C:\Database\NIST14.L
+  9   3.941  0.12 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Tetrasiloxane, decamethyl-         168283 000141-62-8 78
                  Tetrasiloxane, decamethyl-         168284 000141-62-8 72
                  Cyclotrisiloxane, hexamethyl-       85994 000541-05-9 72
  
- 10   3.978  0.38 C:\Database\NIST14.L
+ 10   3.978  0.38 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Cyclotrisiloxane, hexamethyl-       85994 000541-05-9 83
                  Cyclotrisiloxane, hexamethyl-       85992 000541-05-9 64
                  2,4,6-Cycloheptatrien-1-one, 3,5-b 111265 1000161-21-8 59
                  is-trimethylsilyl-
  
- 11   4.170  0.24 C:\Database\NIST14.L
+ 11   4.170  0.24 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Cyclotrisiloxane, hexamethyl-       85994 000541-05-9 49
                  Arsenous acid, tris(trimethylsilyl 199618 055429-29-3 47
                  ) ester
                  Tetrasiloxane, decamethyl-         168283 000141-62-8 47
  
- 12   4.253  0.29 C:\Database\NIST14.L
+ 12   4.253  0.29 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Benzo[h]quinoline, 2,4-dimethyl-    71668 000605-67-4 56
                  Cyclotrisiloxane, hexamethyl-       85994 000541-05-9 46
                  1H-Indole, 5-methyl-2-phenyl-       71661 013228-36-9 40
  
- 13   4.985  7.29 C:\Database\NIST14.L
+ 13   4.985  7.29 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Cyclotetrasiloxane, octamethyl-    155950 000556-67-2 91
                  Cyclotetrasiloxane, octamethyl-    155951 000556-67-2 91
                  dibenz[b,f]azocine, 6-phenyl-      141098 1000397-18-9 50
  
- 14   5.258  0.83 C:\Database\NIST14.L
+ 14   5.258  0.83 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  4,7,7-Trimethylbicyclo[2.2.1]hepta  71607 1000210-89-8  7
                  n-2-one O-allyloxime
                  3-Cyclopropyl-1,3-benzothiazole-2-  71270 1000410-30-3  5
@@ -94,64 +94,64 @@ _____________________________________________________________________________
                  1,2,3,4-Tetrahydro-9-methyl-6-cycl 141073 1000223-09-4  5
                  ohexyl-1-carbazolone
  
- 15   5.396  0.17 C:\Database\NIST14.L
+ 15   5.396  0.17 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  4-Nitro-4'-chlorodiphenylsulfoxide 140506 024535-53-3 83
                  Cyclotetrasiloxane, octamethyl-    155949 000556-67-2 53
                  4H-1,2,4-Triazole-3-thiol, 4-allyl 140871 031803-13-1 43
                  -5-(1-naphthylmethyl)-
  
- 16   5.714  0.13 C:\Database\NIST14.L
+ 16   5.714  0.13 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  4-Hydroxybenzaldoxime, 2TMS deriva 140603 052629-38-6 42
                  tive
                  2-Methylbenzamide oxime, O-tert.-b 124517 1000395-59-4 38
                  utyldimethylsilyl-
                  Silanol, trimethyl-                  2271 001066-40-6 30
  
- 17   6.197  0.04 C:\Database\NIST14.L
+ 17   6.197  0.04 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Cyclotetrasiloxane, octamethyl-    155949 000556-67-2 59
                  1-Heptene, 1,3-diphenyl-1-(trimeth 195583 1000162-32-0 50
                  ylsilyloxy)-
                  4H-1,2,4-Triazole-3-thiol, 4-allyl 140871 031803-13-1 46
                  -5-(1-naphthylmethyl)-
  
- 18   6.305  0.10 C:\Database\NIST14.L
+ 18   6.305  0.10 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Cyclotetrasiloxane, octamethyl-    155950 000556-67-2 58
                  5-Methylsalicylic acid, 2TMS deriv 155018 1000153-59-4 50
                  ative
                  Cyclotetrasiloxane, octamethyl-    155951 000556-67-2 47
  
- 19   6.387  0.19 C:\Database\NIST14.L
+ 19   6.387  0.19 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Cyclotetrasiloxane, octamethyl-    155950 000556-67-2 47
                  2,6-Dihydroxyacetophenone, 2TMS de 155019 1000352-81-3 43
                  rivative
                  3H-pyrazol-3-one, 2,4-dihydro-5-(3 140733 1000401-91-2 42
                  -nitrophenyl)-2-phenyl-
  
- 20   8.830  2.73 C:\Database\NIST14.L
+ 20   8.830  2.73 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Cyclopentasiloxane, decamethyl-    220035 000541-02-6 91
                  Plumbane, diethyldimethyl-         155927 001762-27-2 90
                  Cyclopentasiloxane, decamethyl-    220037 000541-02-6 80
  
- 21   9.160  0.13 C:\Database\NIST14.L
+ 21   9.160  0.13 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Cyclopentasiloxane, decamethyl-    220037 000541-02-6 90
                  Cyclopentasiloxane, decamethyl-    220035 000541-02-6 87
                  Silane, methylvinyl(oct-4-yloxy)(m 264050 1000416-85-3 47
                  ethylvinyltridecyloxysilyloxy)-
  
- 22   9.209  0.26 C:\Database\NIST14.L
+ 22   9.209  0.26 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Cyclopentasiloxane, decamethyl-    220035 000541-02-6 87
                  Cyclopentasiloxane, decamethyl-    220037 000541-02-6 62
                  2,6-Dihydroxybenzoic acid, 3TMS de 220197 003782-85-2 43
                  rivative
  
- 23   9.319  0.05 C:\Database\NIST14.L
+ 23   9.319  0.05 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Cyclopentasiloxane, decamethyl-    220037 000541-02-6 78
                  Cyclopentasiloxane, decamethyl-    220035 000541-02-6 58
                  Benzeneethanamine, N-[(pentafluoro 271614 055429-13-5 53
                  phenyl)methylene]-.beta.,3,4-tris[
                  (trimethylsilyl)oxy]-
  
- 24  10.063  0.21 C:\Database\NIST14.L
+ 24  10.063  0.21 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  4-(4-Chlorophenyl)-2,6-diphenylpyr 198339 001498-82-4 50
                  idine
                  2-Chloro-4-(4-methoxyphenyl)-6-(4- 197930 063673-76-7 49
@@ -160,14 +160,14 @@ _____________________________________________________________________________
                  eta.-5-1,2-diphenylcyclopentadieny
                  l-
  
- 25  10.138  0.09 C:\Database\NIST14.L
+ 25  10.138  0.09 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  3,3,3-Trifluoro-1-propanol           7183 002240-88-2 52
                  Dihydropyrimidine-2-methyl thiosul  72827 1000256-28-8 50
                  furic acid
                  .alpha.-[9H-Purine-6-thiol-9-yl]-p 179236 019271-00-2 40
                  -toluenesulfonamide
  
- 26  10.262  0.08 C:\Database\NIST14.L
+ 26  10.262  0.08 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Tricyclo[4.3.1.1(3,8)]undecane-3-c  72541 031061-61-7 15
                  arboxylic acid, methyl ester
                  2-(3-Methylbuta-1,3-dienyl)cyclohe  34963 1000191-75-5 15
@@ -175,18 +175,18 @@ _____________________________________________________________________________
                  Benzamide, 4-ethyl-N-butyl-N-hept- 162610 1000415-89-2 11
                  2-yl-
  
- 27  10.343  0.43 C:\Database\NIST14.L
+ 27  10.343  0.43 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  1-Pentanol                           2114 000071-41-0 64
                  1-Pentanol                           2116 000071-41-0 64
                  Cyclopropane, 1,1-dimethyl-           585 001630-94-0 59
  
- 28  10.492  0.04 C:\Database\NIST14.L
+ 28  10.492  0.04 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  4-(4-Methyl-piperazin-1-yl)-1,5,-d  50081 1000287-66-9 18
                  ihydro-imidazol-2-one
                  2-Pentene                             558 000109-68-2 14
                  2-Octenal, (E)-                     11564 002548-87-0 14
  
- 29  11.232  0.14 C:\Database\NIST14.L
+ 29  11.232  0.14 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  6-Methyl-2-phenyl-7-(2,4,5-trimeth 196404 064002-76-2 64
                  ylphenylmethyl) indolizine
                  6-Methyl-2-(4-methylphenyl)-7-(4-e 196405 080193-45-9 53
@@ -194,22 +194,22 @@ _____________________________________________________________________________
                  6-Methyl-2-(4-methylphenyl)-7-(3,4 196406 080193-44-8 53
                  -dimethylphenylmethyl)indolizine
  
- 30  12.219  0.09 C:\Database\NIST14.L
+ 30  12.219  0.09 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Benzene, 1-ethyl-2,3-dimethyl-      15216 000933-98-2 94
                  Benzene, 4-ethyl-1,2-dimethyl-      15223 000934-80-5 91
                  o-Cymene                            15140 000527-84-4 89
  
- 31  12.301  0.06 C:\Database\NIST14.L
+ 31  12.301  0.06 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Benzene, 1,4-diethyl-               15177 000105-05-5 87
                  Benzene, 2-ethyl-1,3-dimethyl-      15215 002870-04-4 83
                  Benzene, 2-ethyl-1,4-dimethyl-      15226 001758-88-9 80
  
- 32  12.779  0.06 C:\Database\NIST14.L
+ 32  12.779  0.06 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Benzene, 1-ethyl-2,3-dimethyl-      15222 000933-98-2 35
                  Benzene, 1,2-diethyl-               15178 000135-01-3 35
                  Benzene, 2-ethyl-1,4-dimethyl-      15212 001758-88-9 35
  
- 33  13.229  0.05 C:\Database\NIST14.L
+ 33  13.229  0.05 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  16-Methyl-heptadecane-1,2-diol, tr 250785 1000336-70-6 47
                  imethylsilyl ether
                  6,8-Difluoro-2,2,4,4,6,7,7,8,9,9-d 240198 1000311-72-2 40
@@ -218,7 +218,7 @@ _____________________________________________________________________________
                  Octadecane-1,2-diol, 2TMS derivati 250783 1000336-52-6 38
                  ve
  
- 34  13.969  0.03 C:\Database\NIST14.L
+ 34  13.969  0.03 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  12,13-Dihydro-12-methyl-13,14-diox 185347 059050-19-0 38
                  o-14H-naphtho(1',2':5,6)pyrano(3,2
                  -c)quinoline
@@ -229,7 +229,7 @@ _____________________________________________________________________________
                  nt-3-yloxy)(methylvinylundecyloxys
                  ilyloxy)-
  
- 35  14.244  0.95 C:\Database\NIST14.L
+ 35  14.244  0.95 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  10-[(4-Methyl phenyl)sulfanyl]-14- 198309 1000411-01-1 53
                  azatetracyclo[7.6.1.0{2,7}.0{13,16
                  }]hexadeca-1(15),2(7),3,5,9(16),10
@@ -238,40 +238,40 @@ _____________________________________________________________________________
                  3-yl)methanone
                  1-Nonadecanol, TMS derivative      210716 1000352-21-4 40
  
- 36  14.877  2.53 C:\Database\NIST14.L
+ 36  14.877  2.53 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Hexyl chloroformate                 35349 006092-54-2 78
                  Formic acid, hexyl ester            13742 000629-33-4 72
                  Hexyl chloroformate                 35348 006092-54-2 72
  
- 37  15.827  0.15 C:\Database\NIST14.L
+ 37  15.827  0.15 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  3-Hexen-1-ol, (Z)-                   3880 000928-96-1 60
                  1,3-Pentadiene, 3-methyl-, (Z)-      1278 002787-45-3 60
                  3-Hexen-1-ol                         3851 000544-12-7 53
  
- 38  16.061  0.16 C:\Database\NIST14.L
+ 38  16.061  0.16 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Nonanal                             20436 000124-19-6 53
                  5-Octadecenal                      126820 056554-88-2 47
                  Cyclohexanol, 2-methyl-, trans-      7742 007443-52-9 38
  
- 39  16.530  0.49 C:\Database\NIST14.L
+ 39  16.530  0.49 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Cyclohexanol                         3856 000108-93-0 89
                  2-Hexen-1-ol, (E)-                   3883 000928-95-0 81
                  Cyclohexanol                         3858 000108-93-0 76
  
- 40  17.405  0.26 C:\Database\NIST14.L
+ 40  17.405  0.26 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Benzene, (2-methyl-1-propenyl)-     14385 000768-49-0 93
                  Benzene, 1-methyl-4-(1-methylethen  14415 001195-32-0 87
                  yl)-
                  Benzene, (2-methyl-1-propenyl)-     14386 000768-49-0 87
  
- 41  17.544  0.05 C:\Database\NIST14.L
+ 41  17.544  0.05 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Benzene, 1-methyl-4-(1-methylethen  14415 001195-32-0 95
                  yl)-
                  o-Isopropenyltoluene                14365 007399-49-7 93
                  Bicyclo[4.2.0]octa-1,3,5-triene, 2  14422 028749-81-7 92
                  ,4-dimethyl-
  
- 42  17.644  0.07 C:\Database\NIST14.L
+ 42  17.644  0.07 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Ethyl 2-(5-methyl-5-vinyltetrahydr 103910 1000373-80-3 52
                  ofuran-2-yl)propan-2-yl carbonate
                  2-Furanmethanol, 5-ethenyltetrahyd  39796 005989-33-3 50
@@ -280,43 +280,43 @@ _____________________________________________________________________________
                  .alpha.-Methyl-.alpha.-[4-methyl-3  39785 1000132-13-0 50
                  -pentenyl]oxiranemethanol
  
- 43  18.139  3.28 C:\Database\NIST14.L
+ 43  18.139  3.28 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  3,5-Dimethylpyrazole                 2780 000067-51-6 86
                  3-Furaldehyde                        2770 000498-60-2 78
                  Furfural                             2769 000098-01-1 78
  
- 44  18.400  0.02 C:\Database\NIST14.L
+ 44  18.400  0.02 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Furfural                             2767 000098-01-1 72
                  Furfural                             2766 000098-01-1 72
                  Furfural                             2768 000098-01-1 64
  
- 45  18.512  0.10 C:\Database\NIST14.L
+ 45  18.512  0.10 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Furfural                             2767 000098-01-1 49
                  1H-Pyrazole, 1,3-dimethyl-           2794 000694-48-4 47
                  Pyrazole, 1,4-dimethyl-              2788 001072-68-0 47
  
- 46  19.139  0.04 C:\Database\NIST14.L
+ 46  19.139  0.04 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  2-Methyl-7-phenylindole             71646 001140-08-5 35
                  Tris(tert-butyldimethylsilyloxy)ar 260810 1000366-57-5 35
                  sane
                  Cyclotrisiloxane, hexamethyl-       85994 000541-05-9 35
  
- 47  19.325  0.14 C:\Database\NIST14.L
+ 47  19.325  0.14 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Decanal                             29131 000112-31-2 76
                  Decanal                             29133 000112-31-2 74
                  Decanal                             29132 000112-31-2 72
  
- 48  19.418  0.13 C:\Database\NIST14.L
+ 48  19.418  0.13 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Ethanone, 1-(2-furanyl)-             5873 001192-62-7 68
                  Ethanone, 1-(1H-pyrazol-4-yl)-       5814 025016-16-4 64
                  Ethanone, 1-(2-furanyl)-             5876 001192-62-7 64
  
- 49  19.479  0.03 C:\Database\NIST14.L
+ 49  19.479  0.03 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Ethanone, 1-(2-furanyl)-             5873 001192-62-7 58
                  4,4-Dimethyl-2-cyclopenten-1-one     5967 022748-16-9 58
                  Ethanone, 1-(2-furanyl)-             5876 001192-62-7 58
  
- 50  19.548  0.40 C:\Database\NIST14.L
+ 50  19.548  0.40 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  2,6-Dihydroxyacetophenone, 2TMS de 155019 1000352-81-3 43
                  rivative
                  5-Methylsalicylic acid, 2TMS deriv 155018 1000153-59-4 38
@@ -324,19 +324,19 @@ _____________________________________________________________________________
                  1-Pentene, 4,4-dimethyl-1,3-diphen 195584 1000162-32-3 32
                  yl-1-(trimethylsilyloxy)-
  
- 51  19.700  1.77 C:\Database\NIST14.L
+ 51  19.700  1.77 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Methyl 2-oxo-1H,5H,6H,7H-cyclopent  58401 125031-46-1 43
                  a[b]pyridine-3-carboxylate
                  Acridine, 9-methyl-                 58761 000611-64-3 43
                  trans-3-Methoxy-b-methyl-b-nirosty  58361 018738-95-9 37
                  rene
  
- 52  19.944  0.72 C:\Database\NIST14.L
+ 52  19.944  0.72 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Benzaldehyde                         5148 000100-52-7 87
                  Benzaldehyde                         5152 000100-52-7 83
                  Benzaldehyde                         5150 000100-52-7 80
  
- 53  20.314  1.58 C:\Database\NIST14.L
+ 53  20.314  1.58 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  N-Phenyl-N'-(4-N,N-diethylaminoben 127619 003101-58-4 47
                  zylidene) hydrazine
                  1H-Trindene, 2,3,4,5,6,7,8,9-octah 142275 055682-87-6 45
@@ -344,7 +344,7 @@ _____________________________________________________________________________
                  3-Hydroxymandelic acid, ethyl este 196671 1000071-88-9 45
                  r, di-TMS
  
- 54  20.476  0.56 C:\Database\NIST14.L
+ 54  20.476  0.56 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  1,2,4-Triazol-4-amine, 5-ethyl-3-( 128118 325728-88-9 52
                  3-methyl-5-phenylpyrazol-1-yl)-
                  3-Hydroxymandelic acid, ethyl este 196671 1000071-88-9 50
@@ -352,13 +352,13 @@ _____________________________________________________________________________
                  1H-Trindene, 2,3,4,5,6,7,8,9-octah 142275 055682-87-6 45
                  ydro-1,1,4,4,9,9-hexamethyl-
  
- 55  20.732  0.10 C:\Database\NIST14.L
+ 55  20.732  0.10 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  2-Ethylacridine                     71643 055751-83-2 30
                  4-Quinolinecarboxylic acid, 2-chlo  71204 005467-57-2 25
                  ro-
                  Acetic acid                           264 000064-19-7 22
  
- 56  20.863  0.28 C:\Database\NIST14.L
+ 56  20.863  0.28 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  1,5-Dimethyl-1-vinyl-4-hexenyl but  87619 000078-36-4 41
                  yrate
                  1,6-Octadien-3-ol, 3,7-dimethyl-,   49412 000115-99-1 30
@@ -366,18 +366,18 @@ _____________________________________________________________________________
                  1,6-Octadien-3-ol, 3,7-dimethyl-,   49411 000115-99-1 30
                  formate
  
- 57  21.205  0.30 C:\Database\NIST14.L
+ 57  21.205  0.30 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Octane, 1-methoxy-                  21678 000929-56-6 52
                  Acetic acid, trichloro-, octyl est 133901 016958-78-4 43
                  er
                  1-Octanol                           13944 000111-87-5 43
  
- 58  21.450  0.20 C:\Database\NIST14.L
+ 58  21.450  0.20 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  2-Furancarboxaldehyde, 5-methyl-     5881 000620-02-0 53
                  2-Furancarboxaldehyde, 5-methyl-     5878 000620-02-0 53
                  Benzene, 1-fluoro-4-methyl-          5989 000352-32-9 49
  
- 59  21.679  0.79 C:\Database\NIST14.L
+ 59  21.679  0.79 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  2-Chloro-4-(4-methoxyphenyl)-6-(4- 197930 063673-76-7 46
                  nitrophenyl)pyrimidine
                  Phosphonoacetic Acid, 3TMS derivat 209743 053044-27-2 42
@@ -385,7 +385,7 @@ _____________________________________________________________________________
                  Fluoren-9-ol, 3,6-dimethoxy-9-(2-p 199541 1000217-31-2 38
                  henylethynyl)-
  
- 60  21.876  0.54 C:\Database\NIST14.L
+ 60  21.876  0.54 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Fluoren-9-ol, 3,6-dimethoxy-9-(2-p 199541 1000217-31-2 42
                  henylethynyl)-
                  5-[4-(Dimethylamino)benzylideneami 198268 299928-54-4 35
@@ -393,7 +393,7 @@ _____________________________________________________________________________
                  1-hexyl-3-(naphthalen-1-ylmethyl)- 198393 1000372-24-4 25
                  1H-indole
  
- 61  22.266  0.15 C:\Database\NIST14.L
+ 61  22.266  0.15 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Phosphonoacetic Acid, 3TMS derivat 209743 053044-27-2 45
                  ive
                  3,7,11,15-tetramethylhexadecan-1,2 270600 1000383-73-3 38
@@ -401,13 +401,13 @@ _____________________________________________________________________________
                  Fluoren-9-ol, 3,6-dimethoxy-9-(2-p 199541 1000217-31-2 37
                  henylethynyl)-
  
- 62  22.471  0.12 C:\Database\NIST14.L
+ 62  22.471  0.12 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Terpinen-4-ol                       27498 000562-74-3 58
                  Terpinen-4-ol                       27507 000562-74-3 52
                  7-Oxabicyclo[2.2.1]heptane, 1-meth  27825 000470-67-7 49
                  yl-4-(1-methylethyl)-
  
- 63  22.762  0.11 C:\Database\NIST14.L
+ 63  22.762  0.11 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  3-Cyclohexene-1-acetaldehyde, .alp  26074 029548-14-9 64
                  ha.,4-dimethyl-
                  1,2-Cyclohexanedicarboxylic acid,  213611 1000339-87-5 53
@@ -415,7 +415,7 @@ _____________________________________________________________________________
                  Fumaric acid, cyclohex-3-enylmethy 193797 1000345-14-5 52
                  l nonyl ester
  
- 64  22.859  0.24 C:\Database\NIST14.L
+ 64  22.859  0.24 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  3-Cyclohexene-1-acetaldehyde, .alp  26078 029548-14-9 64
                  ha.,4-dimethyl-
                  1,2,3,6-Tetrahydrobenzylalcohol, m  11727 1000365-07-7 50
@@ -423,23 +423,23 @@ _____________________________________________________________________________
                  Fumaric acid, cyclohex-3-enylmethy 167168 1000345-14-4 50
                  l heptyl ester
  
- 65  22.966  0.21 C:\Database\NIST14.L
+ 65  22.966  0.21 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Ethanamine, N-(ethoxymethyl)-N-eth  14256 007352-03-6 43
                  yl-
                  Butyrolactone                        1665 000096-48-0 35
                  Butanoic acid, 4-hydroxy-            4775 000591-81-1 35
  
- 66  23.616  0.04 C:\Database\NIST14.L
+ 66  23.616  0.04 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Benzaldehyde, 2-methyl-              9563 000529-20-4 55
                  Benzaldehyde, 4-methyl-              9565 000104-87-0 49
                  Benzaldehyde, 4-methyl-              9558 000104-87-0 49
  
- 67  23.815  8.31 C:\Database\NIST14.L
+ 67  23.815  8.31 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Silanediol, dimethyl-                2426 001066-42-8 49
                  Trimethylphosphine oxide             2456 000676-96-0  4
                  Propane, 2-chloro-2-nitro-          10266 000594-71-8  4
  
- 68  24.183  0.31 C:\Database\NIST14.L
+ 68  24.183  0.31 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  2-Nitro-4-trifluoromethylsulfonyla 198398 1000332-43-6 12
                  niline, TMS derivative
                  6,8-Difluoro-2,2,4,4,6,7,7,8,9,9-d 240198 1000311-72-2 12
@@ -448,7 +448,7 @@ _____________________________________________________________________________
                  1-Cyclohexyldimethylsilyloxyoctade 243136 1000281-96-8 10
                  cane
  
- 69  24.259  0.40 C:\Database\NIST14.L
+ 69  24.259  0.40 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Phosphine oxide, bis(pentamethylph 199524 122085-61-4 38
                  enyl)-
                  Silane, diethyl(cis-4-methylcycloh 210599 1000363-55-5 35
@@ -456,7 +456,7 @@ _____________________________________________________________________________
                  Silane, methylvinyl(oct-4-yloxy)(m 258294 1000416-85-2 25
                  ethylvinylundecyloxysilyloxy)-
  
- 70  24.444  0.32 C:\Database\NIST14.L
+ 70  24.444  0.32 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  3,4-Dihydroxyphenylglycol, 4TMS de 258664 056114-62-6 47
                  rivative
                  5-(Methylthio)salicylic acid, 2TBD 243698 1000364-43-1 43
@@ -464,44 +464,44 @@ _____________________________________________________________________________
                  3,4-Dihydroxyphenylglycol, 4TMS de 258662 056114-62-6 38
                  rivative
  
- 71  24.559  0.48 C:\Database\NIST14.L
+ 71  24.559  0.48 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Bicyclo[4.1.0]hepta-2,4-diene, 2,3 210799 1000158-07-0 35
                  ,4,5-tetraethyl-7,7-diphenyl-
                  1-Propylpentachlorotriphosphazene  208070 075132-80-8 32
                  Silane, methylvinyl(oct-4-yloxy)(m 258294 1000416-85-2 25
                  ethylvinylundecyloxysilyloxy)-
  
- 72  24.693  0.17 C:\Database\NIST14.L
+ 72  24.693  0.17 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  1-Benzenesulfonyl-1H-pyrrole        71222 016851-82-4 43
                  2-Phenylpyrido[3,4-d]-1,3-oxazin-4  87519 022378-50-3 16
                  -one
                  Perfluoropropionic acid, TMS deriv  98811 024930-02-7 16
                  ative
  
- 73  24.923  0.33 C:\Database\NIST14.L
+ 73  24.923  0.33 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Isosativene                         68500 024959-83-9 53
                  1,7-Dimethyl-4-oxa-tricyclo[5.2.1.  72049 091143-65-6 50
                  0(2,6)]decane-3,5,8-trione
                  3-Cyclohexene-1-acetaldehyde, .alp  26078 029548-14-9 47
                  ha.,4-dimethyl-
  
- 74  25.181  2.62 C:\Database\NIST14.L
+ 74  25.181  2.62 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  .alpha.-Terpineol                   27528 000098-55-5 90
                  Terpineol                           27454 1000411-59-6 86
                  (+)-4-Carene                        16052 029050-33-7 62
  
- 75  25.317  0.04 C:\Database\NIST14.L
+ 75  25.317  0.04 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  1-Benzenesulfonyl-1H-pyrrole        71223 016851-82-4 38
                  4,2,8-Ethanylylidene-2H-1-benzopyr  46215 078596-05-1 35
                  an, octahydro-4-methyl-
                  2-Allylphenol                       15626 001745-81-9 35
  
- 76  25.344  0.09 C:\Database\NIST14.L
+ 76  25.344  0.09 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Phenol, 4-(2-propenyl)-             15646 000501-92-8 62
                  Isophthalaldehyde                   15600 000626-19-7 38
                  Phenol, 4-(2-propenyl)-             15645 000501-92-8 35
  
- 77  25.524  0.21 C:\Database\NIST14.L
+ 77  25.524  0.21 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  N-[4-(Acridin-9-ylamino)-phenyl]-a 185354 1000317-35-4 25
                  cetamide
                  Morphinan-6-one, 4,5-epoxy-3,14-di 185246 000465-65-6 22
@@ -511,12 +511,12 @@ _____________________________________________________________________________
                  hydroxy-17-(2-propenyl)-, (5.alpha
                  .)-
  
- 78  26.173  0.14 C:\Database\NIST14.L
+ 78  26.173  0.14 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Benzaldehyde, 4-ethyl-              15644 004748-78-1 89
                  Benzaldehyde, 4-ethyl-              15639 004748-78-1 86
                  Benzaldehyde, 3-ethyl-              15640 034246-54-3 50
  
- 79  26.433  0.39 C:\Database\NIST14.L
+ 79  26.433  0.39 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  1, 1, 5-Trimethyl-1, 2-dihydronaph  41664 1000357-25-8 97
                  thalene
                  Naphthalene, 1,2-dihydro-1,1,6-tri  41676 030364-38-6 96
@@ -524,65 +524,65 @@ _____________________________________________________________________________
                  Naphthalene, 1,2-dihydro-1,1,6-tri  41666 030364-38-6 87
                  methyl-
  
- 80  26.909  0.07 C:\Database\NIST14.L
+ 80  26.909  0.07 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  1H-Indole, 5-methyl-2-phenyl-       71661 013228-36-9 18
                  Acetamide, N-[4-(trimethylsilyl)ph  71414 017983-71-0 15
                  enyl]-
                  5-Acetamido-4,7-dioxo-4,7-dihydrob  71759 153136-27-7 15
                  enzofurazan
  
- 81  27.034 14.69 C:\Database\NIST14.L
+ 81  27.034 14.69 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Oxime-, methoxy-phenyl-_            25568 1000222-86-6 90
                  2-Amino-5-methylbenzoic acid        25588 002941-78-8 64
                  4-Ethylbenzoic acid, cyclohexyl es  95026 1000293-32-1 40
                  ter
  
- 82  27.218  0.84 C:\Database\NIST14.L
+ 82  27.218  0.84 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Oxime-, methoxy-phenyl-_            25568 1000222-86-6 45
                  Phenol, TBDMS derivative            72394 1000331-82-0 35
                  4-(2,4,4-Trimethyl-bicyclo[4.1.0]h  70713 1000194-96-6 32
                  ept-2-en-3-yl)-butan-2-one
  
- 83  27.388  0.19 C:\Database\NIST14.L
+ 83  27.388  0.19 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  4-Ethylbenzoic acid, cyclopentyl e  81533 1000293-32-0 50
                  ster
                  p-Toluthioamide                     25656 002362-62-1 43
                  3-(3-Carboxy-4-hydroxyphenyl)-D-al  88148 004303-95-1 40
                  anine
  
- 84  27.657  0.34 C:\Database\NIST14.L
+ 84  27.657  0.34 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Oxime-, methoxy-phenyl-_            25568 1000222-86-6 90
                  2-Amino-5-methylbenzoic acid        25588 002941-78-8 53
                  1-tert-Butoxy-2-propanol, TBDMS de 107601 1000367-02-9 38
                  rivative
  
- 85  28.086  0.19 C:\Database\NIST14.L
+ 85  28.086  0.19 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Oxime-, methoxy-phenyl-_            25568 1000222-86-6 46
                  4-Ethylbenzoic acid, cyclopentyl e  81533 1000293-32-0 38
                  ster
                  6-Chlorohexanoic acid, 4-cyanophen 112192 1000307-62-3 22
                  yl ester
  
- 86  28.259  0.13 C:\Database\NIST14.L
+ 86  28.259  0.13 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  2'-Hydroxy-4'-methoxyacetophenone,  72308 1000395-37-5 53
                   propyl ether
                  2-Amino-5-methylbenzoic acid        25588 002941-78-8 38
                  3,4-Dimethoxyphenylethylamine, N-p 184808 1000374-33-2 30
                  entafluoropropionyl-
  
- 87  28.386  7.57 C:\Database\NIST14.L
+ 87  28.386  7.57 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Cyclotrisiloxane, hexamethyl-       85992 000541-05-9 83
                  Cyclotrisiloxane, hexamethyl-       85994 000541-05-9 78
                  1,2-Bis(trimethylsilyl)benzene      85160 017151-09-6 64
  
- 88  28.686  0.38 C:\Database\NIST14.L
+ 88  28.686  0.38 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Arsenous acid, tris(trimethylsilyl 199618 055429-29-3 58
                  ) ester
                  1,2-Benzenediol, 3,5-bis(1,1-dimet  85510 001020-31-1 53
                  hylethyl)-
                  Methyltris(trimethylsiloxy)silane  168285 017928-28-8 53
  
- 89  28.819  0.33 C:\Database\NIST14.L
+ 89  28.819  0.33 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Arsenous acid, tris(trimethylsilyl 199618 055429-29-3 43
                  ) ester
                  1,2-Benzenediol, 3,5-bis(1,1-dimet  85510 001020-31-1 38
@@ -590,12 +590,12 @@ _____________________________________________________________________________
                  Propanenitrile, 3-(5-diethylamino-  85392 016454-78-7 38
                  1-methyl-3-pentynyloxy)-
  
- 90  28.937  0.35 C:\Database\NIST14.L
+ 90  28.937  0.35 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Methyltris(trimethylsiloxy)silane  168286 017928-28-8 47
                  4-tert-Butylphenol, TMS derivative  85415 025237-79-0 47
                  Methyltris(trimethylsiloxy)silane  168285 017928-28-8 47
  
- 91  29.248  0.25 C:\Database\NIST14.L
+ 91  29.248  0.25 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  2-Methyl-7-phenylindole             71646 001140-08-5 38
                  4,4'-bi-4H-pyran, 2,2',6,6'-tetrak 245050 1000399-10-0 38
                  is(1,1-dimethylethyl)-4,4'-dimethy
@@ -603,42 +603,42 @@ _____________________________________________________________________________
                  2,4,6-Cycloheptatrien-1-one, 3,5-b 111265 1000161-21-8 38
                  is-trimethylsilyl-
  
- 92  29.534  0.12 C:\Database\NIST14.L
+ 92  29.534  0.12 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  4-tert-Butylphenol, TMS derivative  85414 025237-79-0 43
                  5-Methyl-2-phenylindolizine         71653 036944-99-7 38
                  2'-Hydroxy-5'-methylacetophenone,   85149 097389-69-0 38
                  TMS derivative
  
- 93  30.054  4.39 C:\Database\NIST14.L
+ 93  30.054  4.39 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Cyclotetrasiloxane, octamethyl-    155949 000556-67-2 74
                  2,6-Dihydroxyacetophenone, 2TMS de 155019 1000352-81-3 64
                  rivative
                  Benzene, 1-phenyl-4-(2-cyano-2-phe 141101 027869-56-3 59
                  nylethenyl)
  
- 94  30.375  0.03 C:\Database\NIST14.L
+ 94  30.375  0.03 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Cyclotetrasiloxane, octamethyl-    155949 000556-67-2 58
                  Cyclotetrasiloxane, octamethyl-    155952 000556-67-2 52
                  trans-4-(2-(5-Nitro-2-furyl)vinyl) 140729 000847-10-9 47
                  -2-quinolinamine
  
- 95  30.411  0.02 C:\Database\NIST14.L
+ 95  30.411  0.02 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Cyclotetrasiloxane, octamethyl-    155949 000556-67-2 46
                  Cyclotetrasiloxane, octamethyl-    155950 000556-67-2 43
                  Cyclotetrasiloxane, octamethyl-    155952 000556-67-2 38
  
- 96  30.838  0.15 C:\Database\NIST14.L
+ 96  30.838  0.15 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Phenylethyl Alcohol                 10107 000060-12-8 50
                  Phenylethyl Alcohol                 10108 000060-12-8 43
                  Toluene                              2481 000108-88-3 30
  
- 97  31.134  0.08 C:\Database\NIST14.L
+ 97  31.134  0.08 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  2-Ethylacridine                     71643 055751-83-2 25
                  Benzo[h]quinoline, 2,4-dimethyl-    71668 000605-67-4 22
                  4-[4-Chlorophenyl]-1-methyl-4-[tet 139046 1000214-72-2 14
                  rahydro-2-furyl]piperidine
  
- 98  31.250  0.17 C:\Database\NIST14.L
+ 98  31.250  0.17 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  2,6-Bis(1,1-dimethylethyl)-4-(1-ox 123063 014035-34-8 90
                  opropyl)phenol
                  2,6-Bis(1,1-dimethylethyl)-4-(1-ox 123062 014035-34-8 60
@@ -646,44 +646,44 @@ _____________________________________________________________________________
                  Phenol, 2,6-bis(1,1-dimethylethyl) 123155 017540-75-9 50
                  -4-(1-methylpropyl)-
  
- 99  32.004  2.32 C:\Database\NIST14.L
+ 99  32.004  2.32 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Cyclopentasiloxane, decamethyl-    220035 000541-02-6 62
                  Cyclopentasiloxane, decamethyl-    220037 000541-02-6 49
                  Bamethan, 2TMS derivative          207773 040629-66-1 47
  
-100  32.333  0.02 C:\Database\NIST14.L
+100  32.333  0.02 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Heptasiloxane, 1,1,3,3,5,5,7,7,9,9 266854 019095-23-9 64
                  ,11,11,13,13-tetradecamethyl-
                  (E)-2-bromobutyloxychalcone        211838 1000370-38-6 30
                  2,4,6-Cycloheptatrien-1-one, 3,5-b 111265 1000161-21-8 27
                  is-trimethylsilyl-
  
-101  32.367  0.05 C:\Database\NIST14.L
+101  32.367  0.05 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  2-Ethylacridine                     71643 055751-83-2 30
                  1H-Indole, 5-methyl-2-phenyl-       71661 013228-36-9 22
                  3H-indole, 2-methyl-3-phenyl-       71658 1000400-55-3 18
  
-102  32.716  0.15 C:\Database\NIST14.L
+102  32.716  0.15 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  1-(4-Methyl-dibenzothiophen-2-yl)- 141017 1000294-70-6 38
                  piperidine
                  Rutamarin                          210273 014882-94-1 30
                  Benzoic acid, 4-methyl-2-trimethyl 155036 000035-27-8 27
                  silyloxy-, trimethylsilyl ester
  
-103  33.033  0.09 C:\Database\NIST14.L
+103  33.033  0.09 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  2-Methyl-7-phenylindole             71646 001140-08-5 25
                  Bicyclo[3.2.1]oct-2-ene, 3-methyl-  15269 049826-53-1 25
                  4-methylene-
                  Bicyclo[3.2.1]oct-2-ene, 3-methyl-  15268 049826-53-1 25
                  4-methylene-
  
-104  33.140  0.11 C:\Database\NIST14.L
+104  33.140  0.11 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Phenylphosphoric acid               43186 000701-64-4 64
                  Phenol                               2621 000108-95-2 58
                  1-[(1H-Pyrrol-2-ylcarbonyl)oxy]-2,  73156 090471-24-2 53
                  5-pyrrolidinedione
  
-105  33.262  0.07 C:\Database\NIST14.L
+105  33.262  0.07 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Heptasiloxane, 1,1,3,3,5,5,7,7,9,9 266854 019095-23-9 43
                  ,11,11,13,13-tetradecamethyl-
                  3,6,9,12,15-Pentaoxabicyclo[15.3.1 183912 071128-99-9 38
@@ -693,14 +693,14 @@ _____________________________________________________________________________
                  ethoxyphenyl)-3-methyl-4-oxo-4,5,6
                  ,7-tetrahydro-, isopropyl ester
  
-106  33.560  0.04 C:\Database\NIST14.L
+106  33.560  0.04 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  1H-Pyrrole-2-carboxaldehyde          2702 001003-29-8 22
                  Bicyclo[2.2.2]oct-5-en-2-one, 7-sy  17829 1000153-14-9 18
                  n-hydroxy-
                  4-Quinolinecarboxylic acid, 2-chlo  71204 005467-57-2 15
                  ro-
  
-107  34.600  1.36 C:\Database\NIST14.L
+107  34.600  1.36 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Silane, diethyl(trans-4-methylcycl 220923 1000363-56-8 22
                  ohexyloxy)undecyloxy-
                  Arsenous acid, tris(trimethylsilyl 199618 055429-29-3 10
@@ -708,12 +708,12 @@ _____________________________________________________________________________
                  4-(4-Hydroxyphenyl)-4-methyl-2-pen 124699 1000283-54-9 10
                  tanone, TMS derivative
  
-108  34.935  0.03 C:\Database\NIST14.L
+108  34.935  0.03 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  1H-Indole, 5-methyl-2-phenyl-       71661 013228-36-9 41
                  2-Ethylacridine                     71643 055751-83-2 30
                  7-Methyl -2-phenyl-1H-indole        71654 059541-82-1 30
  
-109  34.997  0.05 C:\Database\NIST14.L
+109  34.997  0.05 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  2-[2-[2-[2-[2-[2-[2-[2-[2-[2-(2-Hy 266598 006809-70-7 35
                  droxyethoxy)ethoxy]ethoxy]ethoxy]e
                  thoxy]ethoxy]ethoxy]ethoxy]ethoxy]
@@ -722,7 +722,7 @@ _____________________________________________________________________________
                  2'-Hydroxypropiophenone, TMS deriv  85144 033342-87-9 25
                  ative
  
-110  35.020  0.04 C:\Database\NIST14.L
+110  35.020  0.04 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Heptasiloxane, 1,1,3,3,5,5,7,7,9,9 266854 019095-23-9 30
                  ,11,11,13,13-tetradecamethyl-
                  1,4,7,10,13,16-Hexaoxacyclooctadec 124222 017455-13-9 27
@@ -730,35 +730,35 @@ _____________________________________________________________________________
                  Heptaethylene glycol monododecyl e 265511 003055-97-8 27
                  ther
  
-111  35.192  0.10 C:\Database\NIST14.L
+111  35.192  0.10 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  DL-Glyceraldehyde, dimethyl ether    8875 1000332-93-3 43
                  Octaethylene glycol, TMS derivativ 254412 1000352-06-4 38
                  2,3-Dimethoxypropan-1-ol             9420 040453-77-8 38
  
-112  35.739  0.07 C:\Database\NIST14.L
+112  35.739  0.07 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Indolizine, 2-(4-methylphenyl)-     71664 007496-81-3 27
                  Octaethylene glycol, TMS derivativ 254412 1000352-06-4 25
                  Benzo[h]quinoline, 2,4-dimethyl-    71668 000605-67-4 25
  
-113  35.799  0.07 C:\Database\NIST14.L
+113  35.799  0.07 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  1-naphthalenamine, 3-methoxy-       42386 1000404-65-6 38
                  Cyclohexyl-15-crown-5              134301 017454-48-7 38
                  4-Phenyl-3-penten-2-one p-toluenes 185963 1000211-12-1 35
                  ulfonylhydrazone
  
-114  36.368  0.11 C:\Database\NIST14.L
+114  36.368  0.11 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  2-Methoxyethanol, TMS derivative    23669 018173-74-5 38
                  Decaethylene glycol, TMS derivativ 269372 1000352-06-6 30
                  Octaethylene glycol, TMS derivativ 254412 1000352-06-4 30
  
-115  36.426  0.05 C:\Database\NIST14.L
+115  36.426  0.05 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  2-(2-Methoxyethyl)-1-hexanol, TMS   94719 1000216-84-0 46
                  derivative
                  Octaethylene glycol, TMS derivativ 254412 1000352-06-4 38
                  Heptaethylene glycol monododecyl e 265511 003055-97-8 38
                  ther
  
-116  36.993  0.04 C:\Database\NIST14.L
+116  36.993  0.04 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  1,4,7,10,13,16-Hexaoxacyclooctadec 124222 017455-13-9 53
                  ane
                  Octaethylene glycol, TMS derivativ 254412 1000352-06-4 50
@@ -766,14 +766,14 @@ _____________________________________________________________________________
                  xy)ethoxy]ethoxy]ethoxy]ethoxy]eth
                  oxy]ethoxy]ethanol
  
-117  37.093  0.01 C:\Database\NIST14.L
+117  37.093  0.01 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  1,4,7,10,13,16-Hexaoxacyclooctadec 124222 017455-13-9 47
                  ane
                  1,4,7,10,13,16-Hexaoxacyclooctadec 124220 017455-13-9 47
                  ane
                  15-Crown-5                          82720 033100-27-5 47
  
-118  37.120  0.02 C:\Database\NIST14.L
+118  37.120  0.02 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Nonaethylene glycol, TBDMS derivat 269251 1000352-11-3 64
                  ive
                  Heptaethylene glycol monododecyl e 265511 003055-97-8 59
@@ -781,14 +781,14 @@ _____________________________________________________________________________
                  Heptaethylene glycol, TBDMS deriva 253697 1000352-10-4 58
                  tive
  
-119  37.287  0.02 C:\Database\NIST14.L
+119  37.287  0.02 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Heptaethylene glycol, TBDMS deriva 253697 1000352-10-4 46
                  tive
                  Cyclohexyl-15-crown-5              134302 017454-48-7 46
                  1,4,7,10,13-Pentaoxacyclopentadeca 155301 068756-67-2 43
                  ne, 2-phenyl-
  
-120  37.408  0.30 C:\Database\NIST14.L
+120  37.408  0.30 D:\Users\jbrown\Documents\Gi...\BACandBlue\Database\NIST14.L
                  Morphinan, 7,8-didehydro-3-methoxy 141076 001816-06-4 35
                  -17-methyl-6-methylene-, (-)-
                  trans-4-(2-(5-Nitro-2-furyl)vinyl) 140729 000847-10-9 27
@@ -796,4 +796,4 @@ _____________________________________________________________________________
                  Cyclotetrasiloxane, octamethyl-    155952 000556-67-2 25
  
 
-Arwen_WAX_4...AKE METHOD.M Thu Dec 13 10:27:23 2018   
+DEFAULT.M Fri Jul 12 16:05:51 2019   
