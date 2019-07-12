@@ -2,14 +2,20 @@
 title: "BACandSTRAW VOC PCoA Visuals"
 author: "Brown, J.T."
 date: "May 22, 2019"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+## Packages and libraries nessary to complete data analysis.
+#### Please consult the appropriate documentation for a comprehensive review of each package's capabilities. 
 
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*.
 
-```{r setup, include=FALSE}
+
+##### *This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*.*
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 # Libraries and Data Frames
 ##what you need to install phyloseq
 #source('http://bioconductor.org/biocLite.R')
@@ -33,7 +39,10 @@ library(ape)
 library(DESeq2)
 ```
 
-```{r}
+
+
+## Organizing the datatables to be compatiable with the phyloseq. These data are exported from MassHunter Quantitate B.07 and the arrangment of the rows and columns have been formatted in excel. 
+```{r }
 # read in data
 meta <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandSTRAW_SUBSET_SWDvsSBERRY_BLANK_PRO_REP/meta.csv") 
 meta$hour=as.factor(meta$hour)
