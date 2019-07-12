@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562934948988.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "CA299758",
+    "lastKnownWriteTime" : 1562934750,
+    "last_content_update" : 1562935409711,
+    "path" : "~/GitHub/BACandBlue/scripts/20190522_BACandSTRAW_VOCs_BLANK_PRO_REP.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "125,34",
+        "scrollLine" : "81"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

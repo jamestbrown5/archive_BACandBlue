@@ -1,0 +1,74 @@
+"0","```r
+NoZero <- subset_samples(VOC, rep!=\"C01\"& rep!=\"C02\"& rep!=\"C03\"& rep!=\"B01\")
+
+plot_richness(NoZero, x = \"hour\", measures = c(\"Observed\", \"Shannon\", \"Simpson\"))
+
+plot_richness(NoZero, x = \"rep\", measures = c(\"Observed\", \"Shannon\", \"Simpson\"))
+
+fit <- lm(estimate_richness(NoZero)$Shannon ~ sample_data(NoZero)$hour)
+anova(fit)
+#############################################################################################
+#Analysis of Variance Table
+#
+#Response: estimate_richness(NoZero)$Shannon
+#                                      Df Sum Sq  Mean Sq F value  Pr(>F)  
+#sample_data(NoZero)$microbe  2 0.4031 0.201558  2.5438 0.08934 .
+#Residuals                             47 3.7241 0.079235                  
+##############################################################################################
+
+
+fit <- lm(estimate_richness(NoZero)$Observed ~ sample_data(NoZero)$hour)
+anova(fit)
+###############################################################################################
+#Analysis of Variance Table
+#
+#Response: estimate_richness(NoZero)$Observed
+#                                      Df Sum Sq Mean Sq F value    Pr(>F)    
+#sample_data(NoZero)$microbe  2 420.01 210.003  26.676 1.813e-08 ***
+#Residuals                             47 369.99   7.872                                        
+################################################################################################
+
+fit <- lm(estimate_richness(NoZero)$Simpson ~ sample_data(NoZero)$hour)
+anova(fit)
+#################################################################################################
+#Analysis of Variance Table
+#Response: estimate_richness(NoZero)$Simpson
+#                                      Df  Sum Sq  Mean Sq F value   Pr(>F)   
+#sample_data(NoZero)$microbe  2 0.14082 0.070409  6.3029 0.003759 **
+#Residuals                             47 0.52504 0.011171                          
+##################################################################################################
+
+###
+##
+# again with nectar conc
+
+fit <- lm(estimate_richness(NoZero)$Shannon ~ sample_data(NoZero)$rep)
+anova(fit)
+#################################################################################################
+#Analysis of Variance Table
+#Response: estimate_richness(NoZero)$Shannon
+#                                Df Sum Sq Mean Sq F value  Pr(>F)  
+#sample_data(NoZero)$rep  1 0.3487 0.34865  4.4291 0.04059 *
+#Residuals                       48 3.7785 0.07872                  
+#################################################################################################
+
+fit <- lm(estimate_richness(NoZero)$Observed ~ sample_data(NoZero)$rep)
+anova(fit)
+#################################################################################################
+#Analysis of Variance Table
+#Response: estimate_richness(NoZero)$Observed
+#                                Df Sum Sq Mean Sq F value    Pr(>F)    
+#sample_data(NoZero)$rep  1 165.83 165.831  12.753 0.0008204 ***
+#Residuals                       48 624.17  13.004                   
+#################################################################################################
+
+fit <- lm(estimate_richness(NoZero)$Simpson ~ sample_data(NoZero)$rep)
+anova(fit)
+#################################################################################################
+#Analysis of Variance Table
+#Response: estimate_richness(NoZero)$Simpson
+#                                Df  Sum Sq  Mean Sq F value   Pr(>F)   
+#sample_data(NoZero)$rep  1 0.10357 0.103566   8.841 0.004596 **
+#Residuals                       48 0.56229 0.011714                    
+#################################################################################################
+```"

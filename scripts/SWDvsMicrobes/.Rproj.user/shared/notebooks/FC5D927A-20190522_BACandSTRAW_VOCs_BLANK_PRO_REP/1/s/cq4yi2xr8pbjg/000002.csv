@@ -1,0 +1,91 @@
+"0","```r
+# Is there a difference in the number of different peaks (alpha-diversity) between treatments? Start with all days
+
+# Force all peak area to round integers. Re-import data
+
+abund <- round(abund[,-c(1:2)], digits = 0)
+OTU <- otu_table(abund, taxa_are_rows=T) 
+
+VOC <- phyloseq(OTU, TAX, SAMP)
+VOC
+
+plot_richness(VOC, x = \"hour\", measures = c(\"Observed\", \"Shannon\", \"Simpson\"))
+
+plot_richness(VOC, x = \"rep\", measures = c(\"Observed\", \"Shannon\", \"Simpson\"))
+
+fit <- lm(estimate_richness(VOC)$Shannon ~ sample_data(VOC)$hour)
+anova(fit)
+####################################################################################
+#Analysis of Variance Table
+#
+#Response: estimate_richness(VOC)$Shannon
+#                                   Df Sum Sq Mean Sq F value Pr(>F)  
+#sample_data(VOC)$microbe  2 0.7583 0.37916  2.8838 0.0624 .
+#Residuals                          72 9.4665 0.13148                              
+####################################################################################
+
+
+fit <- lm(estimate_richness(VOC)$Observed ~ sample_data(VOC)$hour)
+anova(fit)
+#####################################################################################
+#Analysis of Variance Table
+#
+#Response: estimate_richness(VOC)$Observed
+#                                   Df  Sum Sq Mean Sq F value    Pr(>F)    
+#sample_data(VOC)$microbe  2  477.02 238.510  9.2143 0.0002735 ***
+#Residuals                          72 1863.70  25.885                      
+######################################################################################
+
+fit <- lm(estimate_richness(VOC)$Simpson ~ sample_data(VOC)$hour)
+anova(fit)
+#####################################################################################
+#Analysis of Variance Table
+#
+#Response: estimate_richness(VOC)$Simpson
+#                                   Df  Sum Sq  Mean Sq F value  Pr(>F)  
+#sample_data(VOC)$microbe  2 0.16149 0.080744  3.5494 0.03387 *
+#Residuals                          72 1.63791 0.022749                               
+######################################################################################
+
+###
+##
+# just for fun, what differences exist in diversity of chemicals between nectar concentrations?
+
+fit <- lm(estimate_richness(VOC)$Shannon ~ sample_data(VOC)$rep)
+anova(fit)
+#####################################################################################
+#Analysis of Variance Table
+#
+#Response: estimate_richness(VOC)$Shannon
+#                             Df  Sum Sq Mean Sq F value Pr(>F)
+#sample_data(VOC)$rep  1  0.1989 0.19886  1.4479 0.2327
+#Residuals                    73 10.0259 0.13734               
+#####################################################################################
+
+fit <- lm(estimate_richness(VOC)$Observed ~ sample_data(VOC)$rep)
+anova(fit)
+#####################################################################################
+#Analysis of Variance Table
+#
+#Response: estimate_richness(VOC)$Observed
+#                             Df  Sum Sq Mean Sq F value   Pr(>F)   
+#sample_data(VOC)$rep  1  229.75 229.752  7.9451 0.006202 **
+#Residuals                    73 2110.97  28.917                    
+#####################################################################################
+
+fit <- lm(estimate_richness(VOC)$Simpson ~ sample_data(VOC)$rep)
+anova(fit)
+#####################################################################################
+#Analysis of Variance Table
+#
+#Response: estimate_richness(VOC)$Simpson
+#                             Df  Sum Sq  Mean Sq F value Pr(>F)
+#sample_data(VOC)$rep  1 0.01421 0.014206  0.5809 0.4484
+#Residuals                    73 1.78519 0.024455               
+#####################################################################################
+###
+##
+# 
+##
+###
+```"
