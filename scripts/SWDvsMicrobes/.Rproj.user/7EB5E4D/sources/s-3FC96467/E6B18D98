@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562934921200.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E6B18D98",
+    "lastKnownWriteTime" : 1562935043,
+    "last_content_update" : 1562935450893,
+    "path" : "~/GitHub/BACandBlue/scripts/SWD_BBJUICE_PCoA_STATS.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "chunk_output_type" : "inline",
+        "cursorPosition" : "68,14",
+        "last_setup_crc32" : "3FC96467f9437f7",
+        "scrollLine" : "37"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

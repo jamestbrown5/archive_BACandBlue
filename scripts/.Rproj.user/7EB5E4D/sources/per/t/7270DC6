@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562934307959.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3081012135",
+    "id" : "7270DC6",
+    "lastKnownWriteTime" : 1562934749,
+    "last_content_update" : 1562934749926,
+    "path" : "~/GitHub/BACandBlue/scripts/SWD_BBJUICE_PCoA_STATS.Rmd",
+    "project_path" : "SWD_BBJUICE_PCoA_STATS.Rmd",
+    "properties" : {
+        "chunk_output_type" : "inline",
+        "cursorPosition" : "36,0",
+        "last_setup_crc32" : "3FC9646713896bd9",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

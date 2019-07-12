@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562934935362.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "377034096",
+    "id" : "B0609EE6",
+    "lastKnownWriteTime" : 1562865467,
+    "last_content_update" : 1562865467,
+    "path" : "~/GitHub/BACandBlue/scripts/SWD_SBERRY_BLANK_PRO_REP.rmd",
+    "project_path" : null,
+    "properties" : {
+        "chunk_output_type" : "console"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
