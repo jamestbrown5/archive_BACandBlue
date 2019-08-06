@@ -1,0 +1,88 @@
+---
+title: "SWD Behaviroial Response to Microbes when inoculated into Bluberry Juice"
+author: "Brown, JT"
+date: "August 6, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+#install.packages("tidyr")
+library(tidyr)
+library(readxl)
+library(ggplot2)
+data <- read_excel("~/GitHub/BACandBlue/data/bioassay/RAW_swd_vs_inoculated_blueberryjuice.xlsx", 
+    sheet = "data4r")
+#View(data)
+unique(data$microbe)
+
+
+#################################################################################
+###Subsetting data to look at the relationship between isolate and SWD behaviors
+#################################################################################
+data0621=data %>% 
+  dplyr::select(microbe, flies_in_treat, flies_outside, flies_in_control) %>% 
+  dplyr::filter(microbe== "C0621") %>% 
+  tidyr::gather(location, observed, flies_in_treat:flies_in_control) 
+
+data0620=data %>% 
+  dplyr::select(microbe, flies_in_treat, flies_outside, flies_in_control) %>% 
+  dplyr::filter(microbe== "C0620") %>% 
+  tidyr::gather(location, observed, flies_in_treat:flies_in_control)
+
+data0633=data %>% 
+  dplyr::select(microbe, flies_in_treat, flies_outside, flies_in_control) %>% 
+  dplyr::filter(microbe== "C0633") %>% 
+  tidyr::gather(location, observed, flies_in_treat:flies_in_control) 
+
+data0185=data %>% 
+  dplyr::select(microbe, flies_in_treat, flies_outside, flies_in_control) %>% 
+  dplyr::filter(microbe== "C0185") %>% 
+  tidyr::gather(location, observed, flies_in_treat:flies_in_control) 
+
+data0189=data %>% 
+  dplyr::select(microbe, flies_in_treat, flies_outside, flies_in_control) %>% 
+  dplyr::filter(microbe== "C0189") %>% 
+  tidyr::gather(location, observed, flies_in_treat:flies_in_control) 
+
+data0634=data %>% 
+  dplyr::select(microbe, flies_in_treat, flies_outside, flies_in_control) %>% 
+  dplyr::filter(microbe== "C0634") %>% 
+  tidyr::gather(location, observed, flies_in_treat:flies_in_control) 
+
+
+###########################################
+#### Visualizing all the treatment results
+###########################################
+mod=lm(flies_in_treat~microbe,data)
+summary(mod)
+plot(mod)
+ggplot(data, aes(x=microbe, y=flies_in_treat))+geom_boxplot()
+
+data1=data %>% 
+  dplyr::select(microbe, flies_in_treat, flies_outside, flies_in_control) %>% 
+  tidyr::gather(location, observed, flies_in_treat:flies_in_control)
+ggplot(data1, aes(x=location, y=observed))+geom_boxplot()+facet_wrap(~microbe)
+
+##########################################################################################
+#Normality Test and Linear models for the effect of each microbe on the flies in treatment
+##########################################################################################
+mod0621=lm(observed~location,data0621)
+summary(mod0621)
+plot(mod0621)
+mod0620=lm(observed~location,data0620)
+summary(mod0620)
+plot(mod0620)
+mod0633=lm(observed~location,data0633)
+summary(mod0633)
+plot(mod0633)
+mod0185=lm(observed~location,data0185)
+summary(mod0185)
+plot(mod0185)
+mod0189=lm(observed~location,data0189)
+summary(mod0189)
+plot(mod0189)
+mod0634=lm(observed~location,data0634)
+summary(mod0634)
+plot(mod0634)
+```

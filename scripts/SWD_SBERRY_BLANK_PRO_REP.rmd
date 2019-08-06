@@ -3,9 +3,13 @@ title: "BACandSTRAW VOC PCoA Visuals"
 author: "Brown, J.T."
 date: "MAy 22, 2019"
 output: html_document
-editor_options: 
-  chunk_output_type: console
 ---
+
+### ##General Background## 
+### ##Speciic Background##
+### ##Problem/Gap##
+### ##describe Analysis##
+### ##Implications##
 
 ```{r setup, include=FALSE}
 # Libraries and Data Frames
@@ -17,7 +21,7 @@ editor_options:
 #install.packages("gdata")
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
-BiocManager::install()
+#BiocManager::install()
 library(gdata)
 library(devtools)
 library(ggplot2)
