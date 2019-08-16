@@ -1,6 +1,6 @@
                                                    Area Percent Report
 
-  Data Path : Z:\data\JTB-E02\BACandBLUE\
+  Data Path : D:\Users\jbrown\Documents\GitHub\BACandBlue\data\BACandBLUE_GCdata_FFaeni_10BB_BLANK_PRO_REP\
   Data File : JTB-E02-199-15.D                                    
   Acq On    : 27 Feb 2019  15:25
   Operator  : JTB
@@ -11,7 +11,7 @@
   Integration Parameters: events16.e
   Integrator: ChemStation
 
-  Method    : C:\MassHunter\GCMS\1\methods\Arwen Sleep.M
+  Method    : D:\gcms\1\methods\20190812_BACnBLUE_event16_nist14_wiley275_adams2.M
   Title     :  
 
   Signal     : TIC: JTB-E02-199-15.D\data.ms
@@ -217,4 +217,4 @@
  
                         Sum of corrected areas:  7664474346
 
-Arwen Sleep.M Fri Apr 05 10:07:00 2019   
+20190812_BA...275_adams2.M Thu Aug 15 09:35:38 2019   

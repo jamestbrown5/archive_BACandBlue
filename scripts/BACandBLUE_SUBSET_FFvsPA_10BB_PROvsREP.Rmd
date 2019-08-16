@@ -30,18 +30,18 @@ library(readr)
 library(ape)
 
 # read in data
-meta <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandBLUE_SUBSET_FFvsPA_10BB_PROvsREP/meta.csv") 
+meta <- read.csv("~/GitHub/BACandBlue/data/BACandBLUE_SUBSET_FFvsPA_10BB_PROvsREP/meta.csv") 
 meta$hour=as.factor(meta$hour)
 rownames(meta) <- meta$SampleID_merge 
 SAMP <- sample_data(meta)
 sample_names(SAMP)<-meta$SampleID
 
-peaks <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandBLUE_SUBSET_FFvsPA_10BB_PROvsREP/peak.csv")
+peaks <- read.csv("~/GitHub/BACandBlue/data/BACandBLUE_SUBSET_FFvsPA_10BB_PROvsREP/peak.csv")
 TAX <- tax_table(peaks) # gives a warning, don't freak out
 taxa_names(TAX)<-peaks$Peak_ID
 colnames(TAX)<- colnames(peaks)
 
-abund <- read.csv("/Users/jbrown/Documents/GitHub/BACandBlue/data/BACandBLUE_SUBSET_FFvsPA_10BB_PROvsREP/otu.csv", colClasses = c("factor","factor", rep("numeric", times= 24)))
+abund <- read.csv("~/GitHub/BACandBlue/data/BACandBLUE_SUBSET_FFvsPA_10BB_PROvsREP/otu_ff_and_pa.csv", colClasses = c("factor","factor", rep("numeric", times= 58)))
 # read in peak areas, assigning factors of diff classifications based on columns
 rownames(abund) <- abund$Peak_ID #give abund rows names according to "Peak_ID" in peak.csv table
 OTU <- otu_table(abund[,-c(1:2)], taxa_are_rows=T) #create a table with only peak areas, compounds are taxa
@@ -57,8 +57,9 @@ VOC <- phyloseq(OTU, TAX, SAMP) #IF YOU GET A "SAMPLE_NAMES()" ERROR MAKE SURE Y
 
 p=plot_bar(VOC, "hour",fill="Peak_ID", facet_grid = ~microbe)
 p + geom_point(aes(x=microbe, y=Abundance), color="black", size=3)
+```
 
-
+```{r}
 ###############################
 # Analysis and figures
 ##############################
@@ -77,7 +78,7 @@ plot_ordination(VOC, ord, type = "juice", color = "hour", shape = "microbe", lab
 
 PCs <- data.frame(scores(ord$vectors))
 new.dat <- cbind(PCs, sample_data(VOC)$microbe, sample_data(VOC)$rep, sample_data(VOC)$hour) # make a new matrix
-names(new.dat)[15:17] <- c("microbe","juice","hour") #for the "must be the same length as vector" error make sure that the info inside the bracets matches empty columns in the dataframe your creating"
+names(new.dat)[32:34] <- c("microbe","juice","hour") #for the "must be the same length as vector" error make sure that the info inside the bracets matches empty columns in the dataframe your creating"
 library(gdata)
 new.dat$Microbe <- reorder.factor(new.dat$microbe, new.order = c("FF", "PA"))
 new.dat$Hour <- reorder.factor(new.dat$hour, new.order = c("2","24","48"))
@@ -102,7 +103,7 @@ plot_ordination(VOC, ord, type = "samples", color = "hour", shape = "microbe", l
 ###
 PCs <- data.frame(scores(ord$vectors))
 new.dat <- cbind(PCs, sample_data(VOC)$microbe, sample_data(VOC)$hour, sample_data(VOC)$rep) # make a new matrix
-names(new.dat)[18:20] <- c("Microbe", "Hour", "Rep")
+names(new.dat)[39:41] <- c("Microbe", "Hour", "Rep")
 library(gdata)
 new.dat$Microbe <- reorder.factor(new.dat$Microbe, new.order = c("FF", "PA"))
 new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("2","24", "48"))
@@ -115,7 +116,6 @@ ggplot(new.dat, aes(x=Axis.1, y= Axis.2)) +
   xlab("PCoA1 (54.6% Var. Expl.)")+ 
   ylab("PCoA2 (21.5% Var. Expl.)")
 ```
-
 ```{r}
 ######################
 ##  Linear Models   ##
@@ -123,25 +123,67 @@ ggplot(new.dat, aes(x=Axis.1, y= Axis.2)) +
 ###
 ##
 # try co-ercing days as categorical variable so I can use TukeyHSD
-sample_data(VOC)$fhour <- factor(sample_data(VOC)$hour)
+sample_data(VOC)$fday <- factor(sample_data(VOC)$hour)
 sample_data(VOC)$fmicrobe <- factor(sample_data(VOC)$microbe)
-sample_data(VOC)$fpeaks <- factor(sample_data(VOC)$peaks)
+sample_data(VOC)$fnectar <- factor(sample_data(VOC)$rep)
 
-str(sample_data(VOC))
-
-fit <- lm(sample_sums(VOC)~sample_data(VOC)$fhour+sample_data(VOC)$spme)
+fit <- lm(sample_sums(VOC)~ sample_data(VOC)$fnectar+ sample_data(VOC)$fday+ 
+	+ sample_data(VOC)$fmicrobe)
 summary(fit)
 # same results
 
-fit <- lm(sample_sums(VOC)~ sample_data(VOC)$fhour*sample_data(VOC)$fmicrobe)
+fit <- lm(sample_sums(VOC)~ sample_data(VOC)$fnectar * sample_data(VOC)$fday * sample_data(VOC)$fmicrobe)
+summary(fit)
+
+
+
+
+fit <- lm(sample_sums(VOC)~ sample_data(VOC)$rep+ sample_data(VOC)$fday+ 
+	+ sample_data(VOC)$microbe)
 anova(fit)
-fit <- lm(sample_sums(VOC)~ sample_data(VOC)$rep*sample_data(VOC)$hour*sample_data(VOC)$microbe)
-anova(fit)
+
+
 TukeyHSD(aov(fit), which="sample_data(VOC)$microbe")
+################################################################
+#Tukey multiple comparisons of means
+#    95% family-wise confidence level
+#
+#Fit: aov(formula = fit)
+#
+#$`sample_data(VOC)$microbe`
+#            diff      lwr      upr     p adj
+#Mr-Aa   12534704  5425360 19644047 0.0002112
+#MrAa-Aa 16353540 10155758 22551322 0.0000001
+#MrAa-Mr  3818837 -3146869 10784542 0.3927490
+#################################################################
+
 TukeyHSD(aov(fit), which="sample_data(VOC)$rep") 
-TukeyHSD(aov(fit), which="sample_data(VOC)$hour")
-```
-```{r}
+##########################################################
+#  Tukey multiple comparisons of means
+#    95% family-wise confidence level
+#
+#Fit: aov(formula = fit)
+#
+#$`sample_data(VOC)$rep`
+#               diff     lwr      upr p adj
+#normal-low 11543802 7017335 16070269 3e-06
+#
+############################################################
+
+TukeyHSD(aov(fit), which="sample_data(VOC)$fday")
+
+###########################################################
+#  Tukey multiple comparisons of means
+#    95% family-wise confidence level
+#
+#Fit: aov(formula = fit)
+#
+#$`sample_data(VOC)$fday`
+#        diff        lwr      upr     p adj
+#1-0 11374762  4766512.9 17983010 0.0002992
+#2-0 17493356 10885107.4 24101605 0.0000001
+#2-1  6118594  -489654.2 12726843 0.0752366
+#############################################################
 ###
 ##
 #
@@ -150,31 +192,32 @@ TukeyHSD(aov(fit), which="sample_data(VOC)$hour")
 ###
 # Try with interactions in model
 
-fit <- lm(sample_sums(VOC)~ sample_data(VOC)$rep*sample_data(VOC)$fhour*sample_data(VOC)$microbe)
-summary(fit)
+fit <- lm(sample_sums(VOC)~ sample_data(VOC)$rep* sample_data(VOC)$fday 
+	* sample_data(VOC)$microbe)
+aov(fit)
 ######################################################################################################################################
 Analysis of Variance Table
 
 Response: sample_sums(VOC)
                                                                                       Df     Sum Sq    Mean Sq F value    Pr(>F)    
 sample_data(VOC)$rep                                                           1 2.4626e+15 2.4626e+15 138.434 < 2.2e-16 ***
-sample_data(VOC)$fhour                                                                  2 3.9403e+15 1.9702e+15 110.751 < 2.2e-16 ***
+sample_data(VOC)$fday                                                                  2 3.9403e+15 1.9702e+15 110.751 < 2.2e-16 ***
 sample_data(VOC)$microbe                                                     2 4.0738e+15 2.0369e+15 114.502 < 2.2e-16 ***
-sample_data(VOC)$rep:sample_data(VOC)$fhour                                     2 1.6148e+15 8.0739e+14  45.386 1.618e-12 ***
+sample_data(VOC)$rep:sample_data(VOC)$fday                                     2 1.6148e+15 8.0739e+14  45.386 1.618e-12 ***
 sample_data(VOC)$rep:sample_data(VOC)$microbe                        2 1.0694e+15 5.3468e+14  30.056 1.223e-09 ***
-sample_data(VOC)$fhour:sample_data(VOC)$microbe                               4 2.0716e+15 5.1791e+14  29.114 3.385e-13 ***
-sample_data(VOC)$rep:sample_data(VOC)$fhour:sample_data(VOC)$microbe  4 7.9485e+14 1.9871e+14  11.170 9.271e-07 ***
+sample_data(VOC)$fday:sample_data(VOC)$microbe                               4 2.0716e+15 5.1791e+14  29.114 3.385e-13 ***
+sample_data(VOC)$rep:sample_data(VOC)$fday:sample_data(VOC)$microbe  4 7.9485e+14 1.9871e+14  11.170 9.271e-07 ***
 Residuals                                                                             57 1.0140e+15 1.7789e+13                      
 #######################################################################################################################################
 
-TukeyHSD(aov(fit), which="sample_data(VOC)$fhour")
+TukeyHSD(aov(fit), which="sample_data(VOC)$fday")
 #######################################################################################################################################
   Tukey multiple comparisons of means
     95% family-wise confidence level
 
 Fit: aov(formula = fit)
 
-$`sample_data(VOC)$fhour`
+$`sample_data(VOC)$fday`
         diff      lwr      upr    p adj
 1-0 11374762  8504020 14245503 0.00e+00
 2-0 17493356 14622615 20364097 0.00e+00
@@ -193,7 +236,7 @@ $`sample_data(VOC)$rep`
 normal-low 11543802 9579121 13508483     0
 #############################################################
 
-TukeyHSD(aov(fit), which="sample_data(VOC)$microbe.treatmemt")
+TukeyHSD(aov(fit), which="sample_data(VOC)$microbe")
 ###########################
 returns NaNs
 Fit: aov(formula = fit)
@@ -223,21 +266,23 @@ Residuals                                                             19 6.1642e
 
 TukeyHSD(aov(fit), which="sample_data(DayTwo)$microbe.treatmemt")
 ## NaNs again
+```
 
 
+```{r}
 #############
 # PERMANOVA #
 #############
 
 df = as(sample_data(VOC), "data.frame") # coerce to a data frame named df
-d = distance(VOC, "bray") # make a dissimilarity matrix named d
-names(df)[4] <- c("Microbe")
+d = phyloseq::distance(VOC, "bray") # make a dissimilarity matrix named d
+names(df)[2] <- c("Microbe")
 names(df)[6] <- c("Nectar")
-names(df)[8] <- c("Day")
+names(df)[4] <- c("Day")
 library(gdata)
-df$Microbe <- reorder.factor(df$Microbe, new.order = c("MrAa", "Aa", "Mr"))
-df$Nectar <- reorder.factor(df$Nectar, new.order = c("normal", "low"))
-df$Day <- reorder.factor(df$Day, new.order = c("0", "1", "2"))
+df$Microbe <- reorder.factor(df$Microbe, new.order = c("FF", "PA"))
+df$Nectar <- reorder.factor(df$Nectar, new.order = c("B01", "B02", "B03", "P01", "P02", "P03", "R01", "R02", "R03", "R04"))
+df$Day <- reorder.factor(df$Day, new.order = c("2", "24", "48"))
 
 fit = adonis(d ~ Nectar * Day * Microbe, df)
 b_test <-betadisper(d, group=df$Microbe, type="median")
@@ -296,6 +341,7 @@ Total              74   22.8755                 1.00000
 ##############################################################################
 
 fit = adonis(d ~ Nectar + Day + Microbe, df)
+summary(fit)
 ##################################################################################
 Call:
 adonis(formula = d ~ Nectar + Day + Microbe, data = df) 
@@ -316,18 +362,19 @@ Total     74   22.8755                 1.00000
 #
 ##
 ###
- 
-# Now re-do with jaccard distances
+```
 
+```{r}
 df = as(sample_data(VOC), "data.frame") # coerce to a data frame named df
-d = distance(VOC, "jaccard") # make a dissimilarity matrix named d
-names(df)[4] <- c("Microbe")
+d = phyloseq::distance(VOC, "jaccard") # make a dissimilarity matrix named d
+names(df)[2] <- c("Microbe")
 names(df)[6] <- c("Nectar")
-names(df)[8] <- c("Day")
+names(df)[4] <- c("Day")
 library(gdata)
-df$Microbe <- reorder.factor(df$Microbe, new.order = c("MrAa", "Aa", "Mr"))
-df$Nectar <- reorder.factor(df$Nectar, new.order = c("normal", "low"))
-df$Day <- reorder.factor(df$Day, new.order = c("0", "1", "2"))
+df$Microbe <- reorder.factor(df$Microbe, new.order = c("FF", "PA"))
+df$Nectar <- reorder.factor(df$Nectar, new.order = c("B01", "B02", "B03", "P01", "P02", "P03", "R01", "R02", "R03", "R04"))
+df$Day <- reorder.factor(df$Day, new.order = c("2", "24", "48"))
+
 
 fit = adonis(d ~ Nectar * Day * Microbe, df)
 b_test <-betadisper(d, group=df$Microbe, type="median")
@@ -471,17 +518,17 @@ Total     74   26.9165                 1.00000
 ##
 ###
 
-Mrsonly <- subset_samples(VOC, microbe!="Aa") 
+Mrsonly <- subset_samples(VOC, microbe!="FF") 
 
 df = as(sample_data(Mrsonly), "data.frame") # coerce to a data frame named df
-d = distance(Mrsonly, "bray") # make a dissimilarity matrix named d
-names(df)[4] <- c("Microbe")
+d = phyloseq::distance(Mrsonly, "bray") # make a dissimilarity matrix named d
+names(df)[2] <- c("Microbe")
 names(df)[6] <- c("Nectar")
-names(df)[8] <- c("Day")
+names(df)[4] <- c("Day")
 library(gdata)
-df$Microbe <- reorder.factor(df$Microbe, new.order = c("MrAa", "Mr"))
-df$Nectar <- reorder.factor(df$Nectar, new.order = c("normal", "low"))
-df$Day <- reorder.factor(df$Day, new.order = c("0", "1", "2"))
+df$Microbe <- reorder.factor(df$Microbe, new.order = c("FF", "PA"))
+df$Nectar <- reorder.factor(df$Nectar, new.order = c("B01", "B02", "B03", "P01", "P02", "P03", "R01", "R02", "R03", "R04"))
+df$Day <- reorder.factor(df$Day, new.order = c("2", "24", "48"))
 
 fit = adonis(d ~ Nectar * Day * Microbe, df)
 
@@ -532,9 +579,9 @@ Total     47   10.6139                 1.00000
 #
 ##
 ###
+```
 
-
-
+```{r}
 #####################
 # Diversity Indices #
 #####################
@@ -566,6 +613,7 @@ anova(fit)
 
 
 fit <- lm(estimate_richness(VOC)$Observed ~ sample_data(VOC)$microbe)
+fit
 #####################################################################################
 #Analysis of Variance Table
 #
@@ -576,6 +624,7 @@ fit <- lm(estimate_richness(VOC)$Observed ~ sample_data(VOC)$microbe)
 ######################################################################################
 
 fit <- lm(estimate_richness(VOC)$Simpson ~ sample_data(VOC)$microbe)
+fit
 #####################################################################################
 #Analysis of Variance Table
 #
@@ -590,6 +639,7 @@ fit <- lm(estimate_richness(VOC)$Simpson ~ sample_data(VOC)$microbe)
 # just for fun, what differences exist in diversity of chemicals between nectar concentrations?
 
 fit <- lm(estimate_richness(VOC)$Shannon ~ sample_data(VOC)$rep)
+fit
 #####################################################################################
 #Analysis of Variance Table
 #
@@ -600,6 +650,7 @@ fit <- lm(estimate_richness(VOC)$Shannon ~ sample_data(VOC)$rep)
 #####################################################################################
 
 fit <- lm(estimate_richness(VOC)$Observed ~ sample_data(VOC)$rep)
+fit
 #####################################################################################
 #Analysis of Variance Table
 #
@@ -610,6 +661,7 @@ fit <- lm(estimate_richness(VOC)$Observed ~ sample_data(VOC)$rep)
 #####################################################################################
 
 fit <- lm(estimate_richness(VOC)$Simpson ~ sample_data(VOC)$rep)
+fit
 #####################################################################################
 #Analysis of Variance Table
 #
@@ -626,13 +678,14 @@ fit <- lm(estimate_richness(VOC)$Simpson ~ sample_data(VOC)$rep)
 
 # repeat diversity indices calcs with day 0 excluded
 
-NoZero <- subset_samples(VOC, day!="0") 
+NoZero <- subset_samples(VOC, hour!="2") 
 
 plot_richness(NoZero, x = "microbe", measures = c("Observed", "Shannon", "Simpson"))
 
 plot_richness(NoZero, x = "rep", measures = c("Observed", "Shannon", "Simpson"))
 
 fit <- lm(estimate_richness(NoZero)$Shannon ~ sample_data(NoZero)$microbe)
+fit
 #############################################################################################
 #Analysis of Variance Table
 #
@@ -644,6 +697,7 @@ fit <- lm(estimate_richness(NoZero)$Shannon ~ sample_data(NoZero)$microbe)
 
 
 fit <- lm(estimate_richness(NoZero)$Observed ~ sample_data(NoZero)$microbe)
+fit
 ###############################################################################################
 #Analysis of Variance Table
 #
@@ -654,6 +708,7 @@ fit <- lm(estimate_richness(NoZero)$Observed ~ sample_data(NoZero)$microbe)
 ################################################################################################
 
 fit <- lm(estimate_richness(NoZero)$Simpson ~ sample_data(NoZero)$microbe)
+fit
 #################################################################################################
 #Analysis of Variance Table
 #Response: estimate_richness(NoZero)$Simpson
@@ -692,9 +747,9 @@ fit <- lm(estimate_richness(NoZero)$Simpson ~ sample_data(NoZero)$rep)
 #sample_data(NoZero)$rep  1 0.10357 0.103566   8.841 0.004596 **
 #Residuals                       48 0.56229 0.011714                    
 #################################################################################################
+```
 
-
-
+```{r}
 ############################
 # Neg Binomial Permutation #
 ############################
@@ -702,12 +757,12 @@ fit <- lm(estimate_richness(NoZero)$Simpson ~ sample_data(NoZero)$rep)
 # which compounds differentiate our groups? Exclude day 0.
 
 library("DESeq2")
-NoZero <- subset_samples(VOC, day!="0") 
-deobj <- phyloseq_to_deseq2(NoZero, ~ rep + microbe)
+#NoZero <- subset_samples(VOC, hour!="2") 
+deobj <- phyloseq_to_deseq2(VOC, ~ rep + microbe)
 diagdds = DESeq(deobj, test="Wald", fitType="local")
 
 
-res = results(diagdds, contrast = c("microbe", "Aa", "Mr"), cooksCutoff = FALSE)
+res = results(diagdds, contrast = c("microbe", "FF", "PA"), cooksCutoff = FALSE)
 
 res = results(diagdds, contrast = c("microbe", "Aa", "MrAa"), cooksCutoff = FALSE)
 
@@ -1154,10 +1209,10 @@ ggplot(sigtab, aes(y=Compound, x=log2FoldChange)) +
   theme(axis.text.x = element_text(angle = -90, hjust = 0, vjust=0.5))+
   ggtitle("Compounds signficantly differentiating Aa samples in 1.5 vs 15% nectar")+
   theme_bw()
+```
 
 
-
-
+```{r}
 #############################################################################################
 ###
 ##
@@ -1213,8 +1268,9 @@ avg_rare_melt <-  psmelt((VOC_avg_rare))
 ggplot(avg_rare_melt, aes(x=microbe, y=Abundance, fill=Name))+
 	geom_bar(stat = "identity")+
 	theme_bw() 
+```
 
-
+```{r}
 ###
 ##
 #
@@ -1243,7 +1299,7 @@ Stress:     0.1452752
 Stress type 1, weak ties
 Two convergent solutions found after 20 tries
 Scaling: centring, PC rotation, halfchange scaling 
-Species: expanded scores based on 'wisconsin(sqrt(veganifyOTU(physeq)))' 
+Species: expanded scores based on ‘wisconsin(sqrt(veganifyOTU(physeq)))’ 
 ###########################################################################
 
 
@@ -1255,6 +1311,4 @@ plot_ordination(VOC, ord, color = "day", shape = "microbe", type = "samples")+
 
 plot_ordination(VOC, ord, color = "day", shape = "microbe", type = "samples")+
   stat_ellipse(type="t")
-
-
 ```

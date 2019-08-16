@@ -11,7 +11,7 @@
   Integration Parameters: events16.e
   Integrator: ChemStation
 
-  Method    : D:\gcms\1\METHODS\DEFAULT.M
+  Method    : D:\gcms\1\METHODS\20190812_BACnBLUE_event16_nist14_wiley275_adams2.M
   Title     :  
 
   Signal     : TIC: JTB-E02-199-15.D\data.ms
@@ -217,4 +217,4 @@
  
                         Sum of corrected areas:  7664474346
 
-DEFAULT.M Thu Aug 08 15:04:55 2019   
+20190812_BA...275_adams2.M Mon Aug 12 16:04:10 2019   

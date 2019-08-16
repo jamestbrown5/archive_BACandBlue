@@ -1,0 +1,1883 @@
+                                        Library Search Report
+
+  Data Path : Z:\data\JTB-E02\BACandBLUE\
+  Data File : JTB-E02-204-13.D                                    
+  Acq On    : 09 Mar 2019  11:17
+  Operator  : JTB
+  Sample    : PRO03   BAC-01
+  Misc      :  
+  ALS Vial  : 1   Sample Multiplier: 1
+
+  Search Libraries:   C:\Database\WILEY275.L            Minimum Quality:   0
+                      C:\Database\PMR1124.L             Minimum Quality:   0
+                      C:\Database\NIST14.L            
+
+  Unknown Spectrum:   Apex
+  Integration Events: ChemStation Integrator - events16.e
+
+Pk#     RT  Area%          Library/ID                 Ref#     CAS#   Qual
+_____________________________________________________________________________
+  1   2.284  0.53 C:\Database\WILEY275.L
+                 Carbon dioxide (CAS) $$ Dry ice $$    179 000124-38-9  4
+                  R 744 $$ Carbonic acid gas $$ Car
+                 bonic anhydride $$ Carbon oxide (C
+                 O2) $$ Carbonic acid, gas $$ CO2 $
+                 $ Anhydride carbonique $$ Carbonic
+                 e $$ Kohlendioxyd $$ Kohlensaure $
+                 $ UN 1013 $$ UN 1845 $$ UN 2187
+                 Carbon dioxide (CAS) $$ Dry ice $$    180 000124-38-9  4
+                  R 744 $$ Carbonic acid gas $$ Car
+                 bonic anhydride $$ Carbon oxide (C
+                 O2) $$ Carbonic acid, gas $$ CO2 $
+                 $ Anhydride carbonique $$ Carbonic
+                 e $$ Kohlendioxyd $$ Kohlensaure $
+                 $ UN 1013 $$ UN 1845 $$ UN 2187
+                 Carbon dioxide (CAS) $$ Dry ice $$    178 000124-38-9  4
+                  R 744 $$ Carbonic acid gas $$ Car
+                 bonic anhydride $$ Carbon oxide (C
+                 O2) $$ Carbonic acid, gas $$ CO2 $
+                 $ Anhydride carbonique $$ Carbonic
+                 e $$ Kohlendioxyd $$ Kohlensaure $
+                 $ UN 1013 $$ UN 1845 $$ UN 2187
+ 
+  2   2.424  0.06 C:\Database\WILEY275.L
+                 1-Propanamine, N,2-dimethyl- (CAS)   3700 000625-43-4 64
+                  $$ METHYL-ISO-BUTYLAMINE $$ Isobu
+                 tylmethylamine $$ N-Methylisobutyl
+                 amine $$ N,2-Dimethylpropylamine $
+                 $ Propylamine, N,2-dimethyl- $$ 2-
+                 Methyl-1-(methylamino)propane $$ N
+                 -Isobutylmethylamine $$ Methylisob
+                 utylamine $$ N-Is
+                 1-Propanamine, N,2-dimethyl- (CAS)   3699 000625-43-4 64
+                  $$ METHYL-ISO-BUTYLAMINE $$ Isobu
+                 tylmethylamine $$ N-Methylisobutyl
+                 amine $$ N,2-Dimethylpropylamine $
+                 $ Propylamine, N,2-dimethyl- $$ 2-
+                 Methyl-1-(methylamino)propane $$ N
+                 -Isobutylmethylamine $$ Methylisob
+                 utylamine $$ N-Is
+                 2-Aminononadecane                  164511 031604-55-4 59
+ 
+  3   2.569  0.08 C:\Database\WILEY275.L
+                 Methanethiol (CAS) $$ Mercaptometh    299 000074-93-1 90
+                 ane $$ Methyl mercaptan $$ CH3SH $
+                 $ Methyl sulfhydrate $$ Methyl thi
+                 oalcohol $$ Mercaptan methylique $
+                 $ Methaanthiol $$ Methanthiol $$ M
+                 ethvtiolo $$ Methylmercaptaan $$ M
+                 etilmercaptano $$ Rcra waste numbe
+                 r U153 $$ Thiomet
+                 Methanethiol (CAS) $$ Mercaptometh    298 000074-93-1 58
+                 ane $$ Methyl mercaptan $$ CH3SH $
+                 $ Methyl sulfhydrate $$ Methyl thi
+                 oalcohol $$ Mercaptan methylique $
+                 $ Methaanthiol $$ Methanthiol $$ M
+                 ethvtiolo $$ Methylmercaptaan $$ M
+                 etilmercaptano $$ Rcra waste numbe
+                 r U153 $$ Thiomet
+                 Methanethiol (CAS) $$ Mercaptometh    297 000074-93-1 58
+                 ane $$ Methyl mercaptan $$ CH3SH $
+                 $ Methyl sulfhydrate $$ Methyl thi
+                 oalcohol $$ Mercaptan methylique $
+                 $ Methaanthiol $$ Methanthiol $$ M
+                 ethvtiolo $$ Methylmercaptaan $$ M
+                 etilmercaptano $$ Rcra waste numbe
+                 r U153 $$ Thiomet
+ 
+  4   2.619  0.52 C:\Database\WILEY275.L
+                 Acetaldehyde (CAS) $$ Ethanal $$ A    186 000075-07-0 78
+                 cetaldeyde $$ Ethyl aldehyde $$ Ac
+                 etic aldehyde $$ CH3CHO $$ Acetald
+                 ehyd $$ Aldehyde acetique $$ Aldei
+                 de acetica $$ NCI-C56326 $$ Octowy
+                  aldehyd $$ Acetylaldehyde $$ Rcra
+                  waste number U001 $$ UN 1089
+                 Acetaldehyde (CAS) $$ Ethanal $$ A    195 000075-07-0 78
+                 cetaldeyde $$ Ethyl aldehyde $$ Ac
+                 etic aldehyde $$ CH3CHO $$ Acetald
+                 ehyd $$ Aldehyde acetique $$ Aldei
+                 de acetica $$ NCI-C56326 $$ Octowy
+                  aldehyd $$ Acetylaldehyde $$ Rcra
+                  waste number U001 $$ UN 1089
+                 Acetaldehyde (CAS) $$ Ethanal $$ A    185 000075-07-0 64
+                 cetaldeyde $$ Ethyl aldehyde $$ Ac
+                 etic aldehyde $$ CH3CHO $$ Acetald
+                 ehyd $$ Aldehyde acetique $$ Aldei
+                 de acetica $$ NCI-C56326 $$ Octowy
+                  aldehyd $$ Acetylaldehyde $$ Rcra
+                  waste number U001 $$ UN 1089
+ 
+  5   2.794  0.56 C:\Database\WILEY275.L
+                 Methane, thiobis- (CAS) $$ 2-Thiap    830 000075-18-3 91
+                 ropane $$ DMS $$ Methylthiomethane
+                  $$ Methyl sulfide $$ Dimethyl sul
+                 fide $$ Methyl monosulfide $$ Dime
+                 thyl thioether $$ Dimethyl monosul
+                 fide $$ 2-THIAPROPANE(DIMETHYL SUL
+                 FIDE) $$ DIMETHYLSULFIDE $$ (METHY
+                 LTHIO)METHANE $$
+                 Methane, thiobis- (CAS) $$ 2-Thiap    825 000075-18-3 91
+                 ropane $$ DMS $$ Methylthiomethane
+                  $$ Methyl sulfide $$ Dimethyl sul
+                 fide $$ Methyl monosulfide $$ Dime
+                 thyl thioether $$ Dimethyl monosul
+                 fide $$ 2-THIAPROPANE(DIMETHYL SUL
+                 FIDE) $$ DIMETHYLSULFIDE $$ (METHY
+                 LTHIO)METHANE $$
+                 Methane, thiobis- (CAS) $$ 2-Thiap    824 000075-18-3 91
+                 ropane $$ DMS $$ Methylthiomethane
+                  $$ Methyl sulfide $$ Dimethyl sul
+                 fide $$ Methyl monosulfide $$ Dime
+                 thyl thioether $$ Dimethyl monosul
+                 fide $$ 2-THIAPROPANE(DIMETHYL SUL
+                 FIDE) $$ DIMETHYLSULFIDE $$ (METHY
+                 LTHIO)METHANE $$
+ 
+  6   2.973  0.09 C:\Database\WILEY275.L
+                 1,4-dideuterio-2-methylbutane $$ B   1524 094605-03-5 32
+                 utane-1,4-d2, 2-methyl-
+                 1,5-dideuterio-3-methylpentane $$    3600 094605-04-6 25
+                 Pentane-1,5-d2, 3-methyl-
+                 Ethanethiol (CAS) $$ Thioethanol $    822 000075-08-1 25
+                 $ Mercaptoethane $$ Ethyl mercapta
+                 n $$ Ethyl thioalcohol $$ Thioethy
+                 l alcohol $$ Ethyl sulfhydrate $$ 
+                 Ethyl hydrosulfide $$ 1-Mercaptoet
+                 hane $$ ETHANETHIOL (ETHYL MERCAPT
+                 AN) $$ C2H5SH $$ Aethanethiol $$ A
+                 ethylmercaptan $$
+ 
+  7   3.115  3.16 C:\Database\WILEY275.L
+                 2-Propanone (CAS) $$ Acetone $$ pr    504 000067-64-1 80
+                 opan-2-one $$ Propanone $$ Methyl 
+                 ketone $$ Dimethyl ketone $$ Pyroa
+                 cetic ether $$ .beta.-Ketopropane 
+                 $$ Dimethylformaldehyde $$ ACETONE
+                  (2-PROPANONE) $$ (CH3)2CO $$ Ally
+                 lic alcohol $$ Dimethylketal $$ Ke
+                 tone propane $$ K
+                 2-Propanone (CAS) $$ Acetone $$ pr    505 000067-64-1 72
+                 opan-2-one $$ Propanone $$ Methyl 
+                 ketone $$ Dimethyl ketone $$ Pyroa
+                 cetic ether $$ .beta.-Ketopropane 
+                 $$ Dimethylformaldehyde $$ ACETONE
+                  (2-PROPANONE) $$ (CH3)2CO $$ Ally
+                 lic alcohol $$ Dimethylketal $$ Ke
+                 tone propane $$ K
+                 2-Propanone (CAS) $$ Acetone $$ pr    507 000067-64-1 72
+                 opan-2-one $$ Propanone $$ Methyl 
+                 ketone $$ Dimethyl ketone $$ Pyroa
+                 cetic ether $$ .beta.-Ketopropane 
+                 $$ Dimethylformaldehyde $$ ACETONE
+                  (2-PROPANONE) $$ (CH3)2CO $$ Ally
+                 lic alcohol $$ Dimethylketal $$ Ke
+                 tone propane $$ K
+ 
+  8   3.202  1.14 C:\Database\WILEY275.L
+                 Acetic acid, methyl ester (CAS) $$   1688 000079-20-9 64
+                  Methyl acetate $$ Devoton $$ Tere
+                 ton $$ Acetic acid methyl ester $$
+                  Methyl ester of acetic acid $$ me
+                 thyl  acetate $$ CH3COOCH3 $$ Meth
+                 yl ethanoate $$ Acetate de methyle
+                  $$ Methyl acetic ester $$ Methyla
+                 cetaat $$ Methyla
+                 Acetic acid, methyl ester (CAS) $$   1691 000079-20-9 45
+                  Methyl acetate $$ Devoton $$ Tere
+                 ton $$ Acetic acid methyl ester $$
+                  Methyl ester of acetic acid $$ me
+                 thyl  acetate $$ CH3COOCH3 $$ Meth
+                 yl ethanoate $$ Acetate de methyle
+                  $$ Methyl acetic ester $$ Methyla
+                 cetaat $$ Methyla
+                 METHYL ACETATE                       1735 000000-00-0 45
+ 
+  9   3.320  4.66 C:\Database\WILEY275.L
+                 N-ethyl-1,3-dithioisoindoline $$ 1  92199 035373-06-9 83
+                 H-Isoindole-1,3(2H)-dithione, 2-et
+                 hyl-
+                 Cyclotrisiloxane, hexamethyl- (CAS 106848 000541-05-9 83
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 Cyclotrisiloxane, hexamethyl- (CAS 106845 000541-05-9 83
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+ 
+ 10   3.584  0.47 C:\Database\WILEY275.L
+                 N-ethyl-1,3-dithioisoindoline $$ 1  92199 035373-06-9 86
+                 H-Isoindole-1,3(2H)-dithione, 2-et
+                 hyl-
+                 Butanal (CAS) $$ n-Butanal $$ Buty   1331 000123-72-8 49
+                 raldehyde $$ Butal $$ Butyral $$ B
+                 utaldehyde $$ Butanaldehyde $$ But
+                 yl aldehyde $$ n-Butyraldehyde $$ 
+                 Butyrylaldehyde $$ n-Butyl aldehyd
+                 e $$ Butyric aldehyde $$ 1-BUTANAL
+                  (N-BUTYRALDEHYDE) $$ 1-butanal $$
+                  n-C3H7CHO $$ Ald
+                 Butanal (CAS) $$ n-Butanal $$ Buty   1333 000123-72-8 49
+                 raldehyde $$ Butal $$ Butyral $$ B
+                 utaldehyde $$ Butanaldehyde $$ But
+                 yl aldehyde $$ n-Butyraldehyde $$ 
+                 Butyrylaldehyde $$ n-Butyl aldehyd
+                 e $$ Butyric aldehyde $$ 1-BUTANAL
+                  (N-BUTYRALDEHYDE) $$ 1-butanal $$
+                  n-C3H7CHO $$ Ald
+ 
+ 11   3.689  7.12 C:\Database\WILEY275.L
+                 Acetic acid, ethyl ester (CAS) $$    3818 000141-78-6 72
+                 Acetic acid ethyl ester (CAS) $$ E
+                 thyl acetate $$ Acetidin $$ Acetic
+                  ether $$ Acetoxyethane $$ Ethyl e
+                 thanoate $$ Ethyl acetic ester $$ 
+                 Vinegar naphtha her $$ Vinegar nap
+                 htha $$ Ethyl ester of acetic acid
+                  $$ CH3COOC2H5 $$
+                 ETHYL ACETATE                        3931 000141-78-6 64
+                 Acetic acid, ethyl ester (CAS) $$    3822 000141-78-6 58
+                 Acetic acid ethyl ester (CAS) $$ E
+                 thyl acetate $$ Acetidin $$ Acetic
+                  ether $$ Acetoxyethane $$ Ethyl e
+                 thanoate $$ Ethyl acetic ester $$ 
+                 Vinegar naphtha her $$ Vinegar nap
+                 htha $$ Ethyl ester of acetic acid
+                  $$ CH3COOC2H5 $$
+ 
+ 12   3.825  2.59 C:\Database\WILEY275.L
+                 2-Butanone (CAS) $$ Methyl ethyl k   1355 000078-93-3 58
+                 etone $$ MEK $$ MEK al $$ Butanone
+                  $$ Butan-2-one $$ Ethyl methyl ke
+                 tone $$ Ketone, methyl ethyl $$ 3-
+                 Butanone $$ 2-BUTANONE (METHYL ETH
+                 YL KETONE) $$ C2H5COCH3 $$ Acetone
+                 , methyl- $$ Aethylmethylketon $$ 
+                 Butanone 2 $$ Eth
+                 2-Butanone (CAS) $$ Methyl ethyl k   1362 000078-93-3 52
+                 etone $$ MEK $$ MEK al $$ Butanone
+                  $$ Butan-2-one $$ Ethyl methyl ke
+                 tone $$ Ketone, methyl ethyl $$ 3-
+                 Butanone $$ 2-BUTANONE (METHYL ETH
+                 YL KETONE) $$ C2H5COCH3 $$ Acetone
+                 , methyl- $$ Aethylmethylketon $$ 
+                 Butanone 2 $$ Eth
+                 2-Butanone (CAS) $$ Methyl ethyl k   1357 000078-93-3 50
+                 etone $$ MEK $$ MEK al $$ Butanone
+                  $$ Butan-2-one $$ Ethyl methyl ke
+                 tone $$ Ketone, methyl ethyl $$ 3-
+                 Butanone $$ 2-BUTANONE (METHYL ETH
+                 YL KETONE) $$ C2H5COCH3 $$ Acetone
+                 , methyl- $$ Aethylmethylketon $$ 
+                 Butanone 2 $$ Eth
+ 
+ 13   3.976  2.75 C:\Database\WILEY275.L
+                 Butanal, 2-methyl- (CAS) $$ 2-Meth   3296 000096-17-3 80
+                 ylbutanal $$ ISOVALERALDEHYDE (2-M
+                 ETHYL) $$ 2-Methylbutyraldehyde $$
+                  2-Formylbutane $$ .alpha.-Methylb
+                 utanal $$ Methylethylacetaldehyde 
+                 $$ Butyraldehyde, 2-methyl- $$ 2-M
+                 ethylbutyric aldehyde $$ .alpha.-M
+                 ethylbutyraldehyd
+                 Butanal, 2-methyl- (CAS) $$ 2-Meth   3297 000096-17-3 72
+                 ylbutanal $$ ISOVALERALDEHYDE (2-M
+                 ETHYL) $$ 2-Methylbutyraldehyde $$
+                  2-Formylbutane $$ .alpha.-Methylb
+                 utanal $$ Methylethylacetaldehyde 
+                 $$ Butyraldehyde, 2-methyl- $$ 2-M
+                 ethylbutyric aldehyde $$ .alpha.-M
+                 ethylbutyraldehyd
+                 Cyclopropane, (methoxymethyl)- (CA   3458 001003-13-0 53
+                 S) $$ CYCLOPROPYLCARBINYL METHYL E
+                 THER $$ Cyclopropylmethyl methyl e
+                 ther $$ Ether, cyclopropylmethyl m
+                 ethyl
+ 
+ 14   4.024 14.12 C:\Database\WILEY275.L
+                 Butanal, 3-methyl- (CAS) $$ 3-Meth   3302 000590-86-3 93
+                 ylbutanal $$ Isovaleraldehyde $$ I
+                 sovaleral $$ Isopentanal $$ 3-Meth
+                 ylbutan-1-al $$ Isovalerylaldehyde
+                  $$ Isovaleric aldehyde $$ .beta.-
+                 Methylbutanal $$ 3-Methylbutyralde
+                 hyde $$ Isoamylaldehyde $$ iso-Val
+                 eraldehyde $$ 3-M
+                 Butanal, 3-methyl- (CAS) $$ 3-Meth   3312 000590-86-3 91
+                 ylbutanal $$ Isovaleraldehyde $$ I
+                 sovaleral $$ Isopentanal $$ 3-Meth
+                 ylbutan-1-al $$ Isovalerylaldehyde
+                  $$ Isovaleric aldehyde $$ .beta.-
+                 Methylbutanal $$ 3-Methylbutyralde
+                 hyde $$ Isoamylaldehyde $$ iso-Val
+                 eraldehyde $$ 3-M
+                 Butanal, 3-methyl- (CAS) $$ 3-Meth   3311 000590-86-3 90
+                 ylbutanal $$ Isovaleraldehyde $$ I
+                 sovaleral $$ Isopentanal $$ 3-Meth
+                 ylbutan-1-al $$ Isovalerylaldehyde
+                  $$ Isovaleric aldehyde $$ .beta.-
+                 Methylbutanal $$ 3-Methylbutyralde
+                 hyde $$ Isoamylaldehyde $$ iso-Val
+                 eraldehyde $$ 3-M
+ 
+ 15   4.246 10.30 C:\Database\WILEY275.L
+                 Ethanol (CAS) $$ Ethyl alcohol $$     273 000064-17-5 86
+                 EtOH $$ Tecsol $$ Jaysol $$ Alcoho
+                 l $$ Algrain $$ Anhydrol $$ Jaysol
+                  S $$ Ethyl alc $$ Thanol $$ Ethyl
+                  hydrate $$ Methylcarbinol $$ Ethy
+                 l hydroxide $$ Alcohol anhydrous $
+                 $ Denatured ethanol $$ SD Alchol 2
+                 3-hydrogen $$ Tec
+                 Ethanol (CAS) $$ Ethyl alcohol $$     284 000064-17-5 86
+                 EtOH $$ Tecsol $$ Jaysol $$ Alcoho
+                 l $$ Algrain $$ Anhydrol $$ Jaysol
+                  S $$ Ethyl alc $$ Thanol $$ Ethyl
+                  hydrate $$ Methylcarbinol $$ Ethy
+                 l hydroxide $$ Alcohol anhydrous $
+                 $ Denatured ethanol $$ SD Alchol 2
+                 3-hydrogen $$ Tec
+                 Ethanol (CAS) $$ Ethyl alcohol $$     281 000064-17-5 78
+                 EtOH $$ Tecsol $$ Jaysol $$ Alcoho
+                 l $$ Algrain $$ Anhydrol $$ Jaysol
+                  S $$ Ethyl alc $$ Thanol $$ Ethyl
+                  hydrate $$ Methylcarbinol $$ Ethy
+                 l hydroxide $$ Alcohol anhydrous $
+                 $ Denatured ethanol $$ SD Alchol 2
+                 3-hydrogen $$ Tec
+ 
+ 16   4.652  0.75 C:\Database\WILEY275.L
+                 Furan, tetrahydro-2-(methoxymethyl  13248 019354-27-9 59
+                 )- (CAS) $$ 2-(Methoxymethyl)tetra
+                 hydrofuran $$ Methyl tetrahydrofur
+                 furyl ether $$ Tetrahydrofurfuryl 
+                 methyl ether
+                 TETRAHYDROFURFURYLALCOHOL            7620 000000-00-0 50
+                 methyl furfuryloxyacetate           30833 000000-00-0 50
+ 
+ 17   4.817  0.24 C:\Database\WILEY275.L
+                 3(2H)-Furanone, dihydro-2-methyl-    6492 003188-00-9 38
+                 (CAS) $$ 2-METHYL-3-OXO-TETRAHYDRO
+                 FURAN $$ Dihydro-2-methyl-3-furano
+                 ne $$ 2-Methyltetrahydrofuran-3-on
+                 e $$ 2-Methyl-3-ketotetrahydrofura
+                 n $$ 2-methyltetrahydro 3-furanone
+                  $$ Dihydro-2-methyl-3(2H)-furanon
+                 e $$ 2-Methyl-4,5
+                 2-Butanone, 3-methyl- (CAS) $$ 3-M   3350 000563-80-4 38
+                 ethyl-2-butanone $$ Methyl isoprop
+                 yl ketone $$ Methyl butanone-2 $$ 
+                 Methylbutanone $$ Isopropyl methyl
+                  ketone $$ Ketone, isopropyl methy
+                 l $$ 3-Methylbutan-2-one $$ iso-C3
+                 H7COCH3 $$ 2-Acetylpropane $$ Meth
+                 yl propyl ketone
+                 2-METHYLTETRAHYDROFURAN-3-ONE        6543 000000-00-0 38
+ 
+ 18   4.858  0.27 C:\Database\WILEY275.L
+                 3(2H)-Furanone, dihydro-2-methyl-    6492 003188-00-9 27
+                 (CAS) $$ 2-METHYL-3-OXO-TETRAHYDRO
+                 FURAN $$ Dihydro-2-methyl-3-furano
+                 ne $$ 2-Methyltetrahydrofuran-3-on
+                 e $$ 2-Methyl-3-ketotetrahydrofura
+                 n $$ 2-methyltetrahydro 3-furanone
+                  $$ Dihydro-2-methyl-3(2H)-furanon
+                 e $$ 2-Methyl-4,5
+                 2-METHYLTETRAHYDROFURAN-3-ONE        6543 000000-00-0 27
+                 Butanedial (CAS) $$ Succinaldehyde   3184 000638-37-9 17
+                  $$ 1,4-Butanedione $$ Succindiald
+                 ehyde $$ Succinic aldehyde $$ Succ
+                 inic dialdehyde $$ .beta.-Formylpr
+                 opionaldehyde $$ 1,4-Butanedial $$
+                  UN 2346
+ 
+ 19   4.979  1.46 C:\Database\WILEY275.L
+                 Cyclotetrasiloxane, octamethyl- (C 174362 000556-67-2 91
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 Cyclotetrasiloxane, octamethyl- (C 174363 000556-67-2 83
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 Cyclotetrasiloxane, octamethyl- (C 174361 000556-67-2 83
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+ 
+ 20   5.049  0.68 C:\Database\WILEY275.L
+                 2-Methyl-5-(4'-methylphenyl)sulfon 162302 113121-75-8 45
+                 yl-4-nitroimidazole $$ 1H-Imidazol
+                 e, 2-methyl-4-[(4-methylphenyl)sul
+                 fonyl]-5-nitro-
+                 Carbonic acid, dimethyl ester (CAS   4278 000616-38-6 38
+                 ) $$ Methyl carbonate $$ Dimethyl 
+                 ester of carbonic acid $$ Dimethyl
+                  carbonate $$ Methyl carbonate ((M
+                 eO)2CO) $$ Carbonic acid dimethyl 
+                 ester $$ CH3OCOOCH3 $$ UN 1161
+                 Cyclotetrasiloxane, octamethyl- (C 174366 000556-67-2 38
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+ 
+ 21   5.177  0.28 C:\Database\WILEY275.L
+                 2-Methyl-5-(4'-methylphenyl)sulfon 162302 113121-75-8 45
+                 yl-4-nitroimidazole $$ 1H-Imidazol
+                 e, 2-methyl-4-[(4-methylphenyl)sul
+                 fonyl]-5-nitro-
+                 TRIMETHYLSILYL ESTER OF 3-METHYL-2 174609 000000-00-0 25
+                 -TRIMETHYLSILYLOXY-BENZOIC ACID
+                 Cyclotetrasiloxane, octamethyl- (C 174366 000556-67-2 25
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+ 
+ 22   5.220  0.43 C:\Database\WILEY275.L
+                 4,4-DIMETHYL-4-SILACYCLOPENTENE $$  10654 016054-12-9 22
+                  1,1-Dimethyl-1-silacyclo-3-penten
+                 e $$ Silacyclopent-3-ene,1,1-dimet
+                 hyl-
+                 Cyclohexane, 1-bromo-2-methyl- (CA  60200 006294-39-9 14
+                 S) $$ 1-METHYL-2-BROMOCYCLOHEXANE 
+                 $$ o-Methylcyclohexyl bromide
+                 Thiophene, 2-propyl- (CAS) $$ 2-Pr  17817 001551-27-5 14
+                 opylthiophene $$ 2-n-Propylthiophe
+                 ne
+ 
+ 23   5.351  0.20 C:\Database\WILEY275.L
+                 Cyclotetrasiloxane, octamethyl- (C 174361 000556-67-2 43
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 Cyclotetrasiloxane, octamethyl- (C 174364 000556-67-2 38
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 Cyclotetrasiloxane, octamethyl- (C 174363 000556-67-2 35
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+ 
+ 24   5.590  0.48 C:\Database\WILEY275.L
+                 Butanoic acid, 3-methyl-, methyl e  13009 000556-24-1 43
+                 ster (CAS) $$ Methyl isovalerate $
+                 $ Methyl isopentanoate $$ Methyl i
+                 so-valerate $$ Methyl 3-methylbuty
+                 rate $$ Methyl 3-methylbutanoate $
+                 $ Isovaleric acid, methyl ester $$
+                  ISOVALERIC ACID-METHYL ESTER $$ 3
+                 -Methylbutanoic a
+                 METHYL VALERATE                     13263 000624-24-8 35
+                 METHYL VALERATE $$ METHYL PENTANOA  13291 000000-00-0 35
+                 TE
+ 
+ 25   5.706  0.28 C:\Database\WILEY275.L
+                 3-Nitropropionic acid $$ 3-Nitropr  14376 000504-88-1 35
+                 opanoic acid $$ Propanoic acid, 3-
+                 nitro- $$ .beta.-Nitropropionic ac
+                 id $$ Bovinocidin $$ BNP $$ Hiptag
+                 enic acid $$ NCI-C03076 $$ Nitropr
+                 opionic acid, .beta. $$ Propionic 
+                 acid, 3-nitro-
+                 Ethanol, 2-nitro- (CAS) $$ 2-Nitro   4455 000625-48-9 35
+                 ethanol $$ .beta.-Nitroethanol $$ 
+                 .beta.-Nitroalcohol
+                 Butanoic acid, 4-methoxy-, methyl   21823 029006-01-7 35
+                 ester (CAS) $$ Methyl 4-methoxybut
+                 yrate $$ METHYL ESTER OF 4-METHOXY
+                 -BUTANOIC ACID $$ Butyric acid, 4-
+                 methoxy-, methyl ester $$ Methyl 4
+                 -methoxybutanoate
+ 
+ 26   6.001  0.31 C:\Database\WILEY275.L
+                 3-Buten-2-ol, 2-methyl- (CAS) $$ 2   3412 000115-18-4 49
+                 -methyl-3-buten-2-ol $$ Dimethylvi
+                 nylcarbinol $$ Vinyldimethylcarbin
+                 ol $$ Dimethylvinylmethanol $$ 1,1
+                 -Dimethyl-2-propenol $$ 1,1-Dimeth
+                 ylallyl alchol $$ 1,1-Dimethylally
+                 l alcohol $$ .alpha.,.alpha.-Dimet
+                 hylallyl alcohol
+                 3-Buten-2-ol, 2-methyl- (CAS) $$ 2   3411 000115-18-4 49
+                 -methyl-3-buten-2-ol $$ Dimethylvi
+                 nylcarbinol $$ Vinyldimethylcarbin
+                 ol $$ Dimethylvinylmethanol $$ 1,1
+                 -Dimethyl-2-propenol $$ 1,1-Dimeth
+                 ylallyl alchol $$ 1,1-Dimethylally
+                 l alcohol $$ .alpha.,.alpha.-Dimet
+                 hylallyl alcohol
+                 2-METHYL-3-BUTEN-2-OL                3490 000115-18-4 47
+ 
+ 27   6.159  0.30 C:\Database\WILEY275.L
+                 2-Propanol, 1-(1-methylethoxy)- (C  14124 003944-36-3 32
+                 AS) $$ 2-Propanol, 1-isopropoxy- $
+                 $ 1-Isopropoxy-2-propanol
+                 2-Pentanol (CAS) $$ Pentan-2-ol $$   4048 006032-29-7 30
+                  1-Methylbutanol $$ 2-Pentyl alcoh
+                 ol $$ 1-Methyl-1-butanol $$ sec-Pe
+                 ntanol $$ Methylpropylcarbinol $$ 
+                 sec-Amyl alcohol $$ n-C3H7CH(OH)CH
+                 3 $$ Pentanol-2 $$ sec-n-Amyl alco
+                 hol $$ Isoamyl alcohol, secondary 
+                 $$ sec-Pentyl alc
+                 1,3-Butanediol (CAS) $$ 1,3-Butyle   4349 000107-88-0 27
+                 ne glycol $$ 1,3-Dihydroxybutane $
+                 $ .beta.-Butylene glycol $$ 1-Meth
+                 yl-1,3-propanediol $$ Methyltrimet
+                 hylene glycol $$ Butane-1,3-diol $
+                 $ BD $$ 1,3-Butandiol $$ 1,3-Butyl
+                 englykol
+ 
+ 28   6.270  0.10 C:\Database\WILEY275.L
+                 2-Methylthio-4-(p-aminophenyl)-3H- 162573 085741-24-8 35
+                 1,5-benzodiazepine $$ Benzenamine,
+                  4-[4-(methylthio)-3H-1,5-benzodia
+                 zepin-2-yl]- (CAS) $$ 3H-1,5-Benzo
+                 diazepine, benzenamine deriv.
+                 Acetamide, N-(aminocarbonyl)- (CAS   7313 000591-07-1 25
+                 ) $$ Acetylurea $$ N-Acetylurea $$
+                  1-Acetylurea $$ Urea, acetyl- $$ 
+                 Monoacetylurea $$ Acetylcarbamide 
+                 $$ Acetic acid, ureide
+                 Ethanol, 2-(ethenyloxy)- (CAS) $$    3872 000764-48-7 22
+                 Vinyloxyethanol $$ 2-(Vinyloxy)eth
+                 anol $$ Ethanol, 2-(vinyloxy)- $$ 
+                 2-Hydroxyethyl vinyl ether $$ Ethy
+                 lene glycol vinyl ether $$ Ethylen
+                 eglycol monovinyl ester $$ Ethylen
+                 e glycol monovinyl ether $$ Ethyle
+                 nglycol monovinyl
+ 
+ 29   6.594  0.20 C:\Database\WILEY275.L
+                 Butanoic acid, 3-methyl-, ethyl es  20746 000108-64-5 60
+                 ter (CAS) $$ Ethyl isovalerate $$ 
+                 ethyl isopentanoate $$ Ethyl 3-met
+                 hylbutyrate $$ Ethyl 3-methylbutan
+                 oate $$ Isovaleric acid, ethyl est
+                 er $$ 3-Methylbutanoic acid ethyl 
+                 ester $$ (CH3)2CHCH2C(O)OC2H5 $$ E
+                 thyl iso-pentanoa
+                 Butanoic acid, 3-methyl-, ethyl es  20743 000108-64-5 60
+                 ter (CAS) $$ Ethyl isovalerate $$ 
+                 ethyl isopentanoate $$ Ethyl 3-met
+                 hylbutyrate $$ Ethyl 3-methylbutan
+                 oate $$ Isovaleric acid, ethyl est
+                 er $$ 3-Methylbutanoic acid ethyl 
+                 ester $$ (CH3)2CHCH2C(O)OC2H5 $$ E
+                 thyl iso-pentanoa
+                 ETHYLISOVALERATE                    20962 000000-00-0 60
+ 
+ 30   6.683  0.98 C:\Database\WILEY275.L
+                 DIMETHYLDISULFIDE $$ METHYLDISULFI   4738 000624-92-0 95
+                 DE
+                 Disulfide, dimethyl (CAS) $$ 2,3-D   4730 000624-92-0 94
+                 ithiabutane $$ Dimethyl disulfide 
+                 $$ Methyl disulfide $$ (Methyldith
+                 io)methane $$ Dimethyl disulphide 
+                 $$ (CH3S)2 $$ UN 2381
+                 Disulfide, dimethyl (CAS) $$ 2,3-D   4734 000624-92-0 94
+                 ithiabutane $$ Dimethyl disulfide 
+                 $$ Methyl disulfide $$ (Methyldith
+                 io)methane $$ Dimethyl disulphide 
+                 $$ (CH3S)2 $$ UN 2381
+ 
+ 31   6.876  0.13 C:\Database\WILEY275.L
+                 HEXANAL                              6993 000000-00-0 43
+                 Hexanal (CAS) $$ n-Hexanal $$ Hexa   6634 000066-25-1 43
+                 ldehyde $$ Caproaldehyde $$ Capron
+                 aldehyde $$ n-Caproaldehyde $$ Cap
+                 roic aldehyde $$ Hexylaldehyde $$ 
+                 n-Capronaldehyde $$ cyclohexanol $
+                 $ 1-hexanal $$ n-C5H11CHO $$ n-Hex
+                 aldehyde $$ n-Caproylaldehyde $$ A
+                 ldehyde C-6 $$ Ka
+                 Hexanal (CAS) $$ n-Hexanal $$ Hexa   6641 000066-25-1 43
+                 ldehyde $$ Caproaldehyde $$ Capron
+                 aldehyde $$ n-Caproaldehyde $$ Cap
+                 roic aldehyde $$ Hexylaldehyde $$ 
+                 n-Capronaldehyde $$ cyclohexanol $
+                 $ 1-hexanal $$ n-C5H11CHO $$ n-Hex
+                 aldehyde $$ n-Caproylaldehyde $$ A
+                 ldehyde C-6 $$ Ka
+ 
+ 32   6.992  0.07 C:\Database\WILEY275.L
+                 2-Propenoic acid, 1,4-butanediyl e  82449 001070-70-8 40
+                 ster (CAS) $$ Butylene diacrylate 
+                 $$ 1,4-Butylene diacrylate $$ Tetr
+                 amethylene acrylate $$ Tetramethyl
+                 ene diacrylate $$ 1,4-Butanediol d
+                 iacrylate $$ 1,4-Butylene glycol d
+                 iacrylate $$ Tetramethylene glycol
+                  diacrylate $$ Ac
+                 1-Heptyn-4-ol (CAS)                 10769 022127-83-9 10
+                 Ethane, isocyano- (CAS) $$ Ethyl i    383 000624-79-3  9
+                 socyanide $$ Ethylisocyanide $$ Et
+                 hyl isonitrile $$ Ethyl carbylamin
+                 e $$ Ethylisonitrile $$ Isocyanoet
+                 hane $$ C2H5NC $$ Carbylamine, eth
+                 yl- $$ Ethylisokyanid $$ Ethylkarb
+                 ylamin
+ 
+ 33   7.177  0.08 C:\Database\WILEY275.L
+                 2 METHYL 2 BUTENAL $$ TIGLIC ALDEH   2833 001115-11-3 72
+                 YDE
+                 2-Butenal, 2-methyl- (CAS) $$ 2-FO   2708 001115-11-3 72
+                 RMYL-2-BUTENE $$ 2-Methyl-2-butena
+                 l $$ 2,3-Dimethylacrolein $$ 2-Met
+                 hylcrotonaldehyde $$ Crotonaldehyd
+                 e, 2-methyl- $$ 2-methyl 2-butenal
+                 2-Butenal, 2-methyl- (CAS) $$ 2-FO   2706 001115-11-3 72
+                 RMYL-2-BUTENE $$ 2-Methyl-2-butena
+                 l $$ 2,3-Dimethylacrolein $$ 2-Met
+                 hylcrotonaldehyde $$ Crotonaldehyd
+                 e, 2-methyl- $$ 2-methyl 2-butenal
+ 
+ 34   7.249  1.01 C:\Database\WILEY275.L
+                 1-Propanol, 2-methyl- (CAS) $$ Iso   1816 000078-83-1 90
+                 butyl alcohol $$ 2-Methyl-1-propan
+                 ol $$ Isobutanol $$ Isopropylcarbi
+                 nol $$ 2-Methyl1-propanol $$ 2-met
+                 hylpropanol $$ iso-C4H9OH $$ Ferme
+                 ntation butyl alcohol $$ 1-Hydroxy
+                 methylpropane $$ 2-Methylpropan-1-
+                 ol $$ 2-Methylpro
+                 1-Propanol, 2-methyl- (CAS) $$ Iso   1825 000078-83-1 80
+                 butyl alcohol $$ 2-Methyl-1-propan
+                 ol $$ Isobutanol $$ Isopropylcarbi
+                 nol $$ 2-Methyl1-propanol $$ 2-met
+                 hylpropanol $$ iso-C4H9OH $$ Ferme
+                 ntation butyl alcohol $$ 1-Hydroxy
+                 methylpropane $$ 2-Methylpropan-1-
+                 ol $$ 2-Methylpro
+                 1-Propanol, 2-methyl- (CAS) $$ Iso   1815 000078-83-1 78
+                 butyl alcohol $$ 2-Methyl-1-propan
+                 ol $$ Isobutanol $$ Isopropylcarbi
+                 nol $$ 2-Methyl1-propanol $$ 2-met
+                 hylpropanol $$ iso-C4H9OH $$ Ferme
+                 ntation butyl alcohol $$ 1-Hydroxy
+                 methylpropane $$ 2-Methylpropan-1-
+                 ol $$ 2-Methylpro
+ 
+ 35   7.570  0.54 C:\Database\WILEY275.L
+                 Phenol, 2-nitro- (CAS) $$ o-Nitrop  26952 000088-75-5 64
+                 henol $$ 2-Nitrophenol $$ Phenol, 
+                 o-nitro- $$ o-Hydroxynitrobenzene 
+                 $$ 2-Hydroxynitrobenzene $$ o-Nitr
+                 ofenol $$ UN 1663
+                 3-METHYL-2-METHYLAMINO-4-(3H)PYRIM  26980 064359-54-2 43
+                 IDINONE $$ 4(3H)-Pyrimidinone, 3-m
+                 ethyl-2-(methylamino)- (CAS)
+                 2H-Pyran, 2-ethenyltetrahydro-2,6,  40142 007392-19-0 37
+                 6-trimethyl- (CAS) $$ 2,2-DIMETHYL
+                 -6-METHYL-6VINYLTETRAHYDROPYRAN $$
+                  LINALOYL OXIDE $$ 2,6,6-Trimethyl
+                 -2-vinyltetrahydropyran $$ 2,2,6-T
+                 rimethyl-6-vinyltetrahydropyran $$
+                  2H-Pyran, tetrahydro-2,2,6-trimet
+                 hyl-6-vinyl- $$ P
+ 
+ 36   7.960  0.18 C:\Database\WILEY275.L
+                 ISO-BUTANONITRILE                    2569 000000-00-0 38
+                 Butanenitrile, 3-methyl- (CAS) $$    2533 000625-28-5 33
+                 ISOBUTYL CYANIDE $$ Isoamylnitrile
+                  $$ Isovaleronitrile $$ Isopentane
+                  nitrile $$ 3-Methylbutyronitrile 
+                 $$ Butyronitrile, 3-methyl- $$ 2-M
+                 ethylbutane secondary mononitrile
+                 2-ETHYLBUTANAL                       7000 000000-00-0 12
+ 
+ 37   8.565  0.19 C:\Database\WILEY275.L
+                 1-Butanol (CAS) $$ n-Butanol $$ CC   1788 000071-36-3 80
+                 S 203 $$ n-Butyl alcohol $$ Hemost
+                 yp $$ n-Butan-1-ol $$ Butyl alcoho
+                 l $$ Butanol $$ Butyl hydroxide $$
+                  Methylolpropane $$ Propyl carbino
+                 l l $$ Propyl carbinol $$ 1-Butyl 
+                 alcohol $$ Butanol (French $$ Prop
+                 ylcarbinol $$ 1-B
+                 1-Butanol (CAS) $$ n-Butanol $$ CC   1780 000071-36-3 80
+                 S 203 $$ n-Butyl alcohol $$ Hemost
+                 yp $$ n-Butan-1-ol $$ Butyl alcoho
+                 l $$ Butanol $$ Butyl hydroxide $$
+                  Methylolpropane $$ Propyl carbino
+                 l l $$ Propyl carbinol $$ 1-Butyl 
+                 alcohol $$ Butanol (French $$ Prop
+                 ylcarbinol $$ 1-B
+                 1-Butanol (CAS) $$ n-Butanol $$ CC   1790 000071-36-3 80
+                 S 203 $$ n-Butyl alcohol $$ Hemost
+                 yp $$ n-Butan-1-ol $$ Butyl alcoho
+                 l $$ Butanol $$ Butyl hydroxide $$
+                  Methylolpropane $$ Propyl carbino
+                 l l $$ Propyl carbinol $$ 1-Butyl 
+                 alcohol $$ Butanol (French $$ Prop
+                 ylcarbinol $$ 1-B
+ 
+ 38   8.809  0.29 C:\Database\WILEY275.L
+                 EPINEPHRINE-TRITMS                 234322 000000-00-0 38
+                 3,4-Dihydroxymandelic acid, ethyl  244232 000000-00-0 32
+                 ester, tri-TMS
+                 Silane, [[4-[1,2-bis[(trimethylsil 251988 056114-62-6 32
+                 yl)oxy]ethyl]-1,2-phenylene]bis(ox
+                 y)]bis[trimethyl- (CAS) $$ 3,4-DIH
+                 YDROXYPHENYLGLYCOL-TETRATMS $$ DL-
+                 3,4-DIHYDROXYPHENYLGLYCOL (TRIMETH
+                 YLSILYL DERIVATIVE) $$ Silane, [[4
+                 -[1,2-bis[(trimethylsilyl)oxy]ethy
+                 l]-1,2-phenylene]
+ 
+ 39   8.964  0.11 C:\Database\WILEY275.L
+                 Cyclopentasiloxane, decamethyl- (C 221487 000541-02-6 56
+                 AS) $$ Dimethylsiloxane pentamer $
+                 $ DECAMETHYL-CYCLOPENTASILOXANE $$
+                  Decamethylcyclopentasiloxane $$ D
+                 ekamethylcyklopentasiloxan $$ Unio
+                 n Carbide 7158 Silicone Fluid $$ D
+                 ow Corning 345 $$ NUC Silicone VS 
+                 7158 $$ Dow Corni
+                 Silane, [[4-[1,2-bis[(trimethylsil 251988 056114-62-6 43
+                 yl)oxy]ethyl]-1,2-phenylene]bis(ox
+                 y)]bis[trimethyl- (CAS) $$ 3,4-DIH
+                 YDROXYPHENYLGLYCOL-TETRATMS $$ DL-
+                 3,4-DIHYDROXYPHENYLGLYCOL (TRIMETH
+                 YLSILYL DERIVATIVE) $$ Silane, [[4
+                 -[1,2-bis[(trimethylsilyl)oxy]ethy
+                 l]-1,2-phenylene]
+                 Silane, [[4-[1,2-bis[(trimethylsil 251986 056114-62-6 43
+                 yl)oxy]ethyl]-1,2-phenylene]bis(ox
+                 y)]bis[trimethyl- (CAS) $$ 3,4-DIH
+                 YDROXYPHENYLGLYCOL-TETRATMS $$ DL-
+                 3,4-DIHYDROXYPHENYLGLYCOL (TRIMETH
+                 YLSILYL DERIVATIVE) $$ Silane, [[4
+                 -[1,2-bis[(trimethylsilyl)oxy]ethy
+                 l]-1,2-phenylene]
+ 
+ 40   9.132  0.07 C:\Database\WILEY275.L
+                 2-Butenoic acid, 3-methyl-, methyl  11727 000924-50-5 45
+                  ester (CAS) $$ Methyl 3-methyl-2-
+                 butenoate $$ Methyl senecioate $$ 
+                 Methyl 3-methylcrotonate $$ Methyl
+                  3,3-dimethacrylate $$ Methyl 3,3-
+                 dimethylacrylate $$ Methyl .beta.-
+                 methylcrotonate $$ 3-Methylcrotoni
+                 c acid methyl est
+                 2-Butenoic acid, 3-methyl-, methyl  11728 000924-50-5 35
+                  ester (CAS) $$ Methyl 3-methyl-2-
+                 butenoate $$ Methyl senecioate $$ 
+                 Methyl 3-methylcrotonate $$ Methyl
+                  3,3-dimethacrylate $$ Methyl 3,3-
+                 dimethylacrylate $$ Methyl .beta.-
+                 methylcrotonate $$ 3-Methylcrotoni
+                 c acid methyl est
+                 cyclohexanol $$ Stannane, chlorocy 150883 040218-26-6 27
+                 clohexyldimethyl- $$ Chlorocyclohe
+                 xyldimethylstannane
+ 
+ 41   9.447  0.03 C:\Database\WILEY275.L
+                 Isocineole $$ 7-Oxabicyclo[2.2.1]h  40370 000470-67-7 83
+                 eptane, 1-methyl-4-(1-methylethyl)
+                 - (CAS) $$ 7-Oxabicyclo[2.2.1]hept
+                 ane, 1-isopropyl-4-methyl- $$ 1,4-
+                 Cineole $$ 1,4-Cineol $$ p-Menthan
+                 e, 1,4-epoxy- $$ p-Menthane, 1,4-e
+                 poxy $$ 1,4-Epoxy-p-menthane $$ 7-
+                 Oxabicyclo(2.2.1)
+                 Isocineole $$ 7-Oxabicyclo[2.2.1]h  40369 000470-67-7 64
+                 eptane, 1-methyl-4-(1-methylethyl)
+                 - (CAS) $$ 7-Oxabicyclo[2.2.1]hept
+                 ane, 1-isopropyl-4-methyl- $$ 1,4-
+                 Cineole $$ 1,4-Cineol $$ p-Menthan
+                 e, 1,4-epoxy- $$ p-Menthane, 1,4-e
+                 poxy $$ 1,4-Epoxy-p-menthane $$ 7-
+                 Oxabicyclo(2.2.1)
+                 Isocineole $$ 7-Oxabicyclo[2.2.1]h  40373 000470-67-7 60
+                 eptane, 1-methyl-4-(1-methylethyl)
+                 - (CAS) $$ 7-Oxabicyclo[2.2.1]hept
+                 ane, 1-isopropyl-4-methyl- $$ 1,4-
+                 Cineole $$ 1,4-Cineol $$ p-Menthan
+                 e, 1,4-epoxy- $$ p-Menthane, 1,4-e
+                 poxy $$ 1,4-Epoxy-p-menthane $$ 7-
+                 Oxabicyclo(2.2.1)
+ 
+ 42   9.971  0.05 C:\Database\WILEY275.L
+                 2-Butenal, 3-methyl- (CAS) $$ 3-Me   2713 000107-86-8 58
+                 thyl-2-butenal $$ Prenal $$ Seneci
+                 aldehyde $$ Senecioaldehyde $$ 3,3
+                 -Dimethylacrolein $$ 3-Methylcroto
+                 naldehyde $$ Crotonaldehyde, 3-met
+                 hyl- $$ .beta.-Methylcrotonaldehyd
+                 e $$ .beta.,.beta.-Dimethylacrolei
+                 3,4-Dihydropyran $$ 2H-Pyran, 3,4-   2817 000110-87-2 53
+                 dihydro- (CAS) $$ 2,3-Dihydro-4H-p
+                 yran $$ 3,4-Dihydro-2H-pyran $$ 2H
+                 -3,4-Dihydropyran $$ .DELTA.2-Dihy
+                 dropyran $$ 5,6-Dihydro-4H-pyran $
+                 $ Dihydropyran $$ Pyran, dihydro- 
+                 $$ 3,4-DIHYDRO-(2H)-PYRAN $$ 2,3-D
+                 ihydropyran $$ .d
+                 Dihydropyran $$ Pyran, dihydro-      2824 025512-65-6 50
+ 
+ 43  10.350  6.64 C:\Database\WILEY275.L
+                 Pentane, 1-[(3-methylbutyl)thio]-   59082 007352-01-4 83
+                 (CAS) $$ Sulfide, isopentyl pentyl
+                  $$ Isopentyl pentyl sulfide
+                 1-Butanol, 3-methyl- (impure) (CAS   4082 000123-51-3 83
+                 ) $$ 3-Methyl-1-butanol $$ Isopent
+                 anol $$ 3-Methylbutanol $$ Fusel o
+                 il $$ Isoamylol $$ Isoamyl alcohol
+                  $$ Isobutyl carbinol $$ Isopentyl
+                  alcohol $$ 2-Methyl-4-butanol $$ 
+                 Fermentation amyl alcohol $$ iso-A
+                 myl alcohol $$ 1-
+                 1-Butanol, 3-methyl- (impure) (CAS   4086 000123-51-3 83
+                 ) $$ 3-Methyl-1-butanol $$ Isopent
+                 anol $$ 3-Methylbutanol $$ Fusel o
+                 il $$ Isoamylol $$ Isoamyl alcohol
+                  $$ Isobutyl carbinol $$ Isopentyl
+                  alcohol $$ 2-Methyl-4-butanol $$ 
+                 Fermentation amyl alcohol $$ iso-A
+                 myl alcohol $$ 1-
+ 
+ 44  11.357  0.34 C:\Database\WILEY275.L
+                 HERBOXIDE SECOND ISOMER             37956 013679-86-2 98
+                 5-ISOPRENYL-2-2METHYL-2VINYLTETRAH  37955 013679-86-2 87
+                 YDROFURAN $$ HERBOXIDE
+                 3,7-Dimethyl octa-1,4,6-trien-3-ol  37894 000000-00-0 72
+ 
+ 45  11.517  0.10 C:\Database\WILEY275.L
+                 THIAZOLE                             3009 000000-00-0 64
+                 Thiazole (CAS) $$ 1,3-THIAZOLE       3015 000288-47-1 64
+                 Thiazole (CAS) $$ 1,3-THIAZOLE       3017 000288-47-1 59
+ 
+ 46  11.638  0.07 C:\Database\WILEY275.L
+                 1-Pentanol (CAS) $$ Amylol $$ n-Pe   4030 000071-41-0 53
+                 ntanol $$ Amyl alcohol $$ n-Pentan
+                 -1-ol $$ Pentanol $$ n-Amyl alcoho
+                 l $$ Pentyl alcohol $$ n-Butyl car
+                 binol $$ n-Pentyl alcohol $$ 1-Pen
+                 tyl alcoholther $$ n-Butylcarbinol
+                  $$ 1-Pentyl alcohol $$ n-C5H11OH 
+                 $$ Pentan-1-ol $$
+                 1-Pentanol (CAS) $$ Amylol $$ n-Pe   4036 000071-41-0 53
+                 ntanol $$ Amyl alcohol $$ n-Pentan
+                 -1-ol $$ Pentanol $$ n-Amyl alcoho
+                 l $$ Pentyl alcohol $$ n-Butyl car
+                 binol $$ n-Pentyl alcohol $$ 1-Pen
+                 tyl alcoholther $$ n-Butylcarbinol
+                  $$ 1-Pentyl alcohol $$ n-C5H11OH 
+                 $$ Pentan-1-ol $$
+                 Aziridine, 1,2,3-trimethyl-, trans   3068 000693-88-9 53
+                 - (CAS) $$ TRANS-1,2,3-TRIMETHYLAZ
+                 IRIDINE
+ 
+ 47  12.148  0.04 C:\Database\WILEY275.L
+                 Benzene, 1-methyl-2-(1-methylethyl  23291 000527-84-4 95
+                 )- (CAS) $$ 1-Methyl-2-isopropylbe
+                 nzene $$ o-Cymene $$ o-Cymol $$ o-
+                 Isopropyltoluene $$ 2-Isopropyltol
+                 uene $$ 1-Isopropyl-2-methylbenzen
+                 e $$ 1-Methyl-2-(1-methylethyl)-be
+                 nzene $$ Cymene, ortho $$ UN 2046
+                 Benzene, 1-methyl-3-(1-methylethyl  23304 000535-77-3 95
+                 )- (CAS) $$ m-Cymene $$ 1-Methyl-3
+                 -isopropylbenzene $$ m-Cymol $$ .b
+                 eta.-Cymene $$ m-Isopropyltoluene 
+                 $$ m-Methylisopropylbenzene $$ 1-I
+                 sopropyl-3-methylbenzene $$ M CYME
+                 NE $$ 1-Methyl-3-(1-methylethyl)-b
+                 enzene $$ UN 2046
+                 Benzene, 1-methyl-2-(1-methylethyl  23296 000527-84-4 94
+                 )- (CAS) $$ 1-Methyl-2-isopropylbe
+                 nzene $$ o-Cymene $$ o-Cymol $$ o-
+                 Isopropyltoluene $$ 2-Isopropyltol
+                 uene $$ 1-Isopropyl-2-methylbenzen
+                 e $$ 1-Methyl-2-(1-methylethyl)-be
+                 nzene $$ Cymene, ortho $$ UN 2046
+ 
+ 48  12.445  0.04 C:\Database\WILEY275.L
+                 1-Butanone, 1-phenyl- (CAS) $$ But  33970 000495-40-9 43
+                 yrophenone $$ n-Butyrophenone $$ 1
+                 -Phenyl-1-butanone $$ Phenyl propy
+                 l ketone $$ Propyl phenyl ketone $
+                 $ butanophenone $$ 1-Benzoylpropan
+                 1-Butanone, 1-phenyl- (CAS) $$ But  33975 000495-40-9 43
+                 yrophenone $$ n-Butyrophenone $$ 1
+                 -Phenyl-1-butanone $$ Phenyl propy
+                 l ketone $$ Propyl phenyl ketone $
+                 $ butanophenone $$ 1-Benzoylpropan
+                 Benzeneacetic acid, .alpha.-oxo-,   48584 015206-55-0 38
+                 methyl ester (CAS) $$ PHENYLGLYOXY
+                 LIC, METHYLESTER $$ METHYL PHENYL-
+                 GLYOXALATE $$ METHYL ESTER OF PHEN
+                 YL-GLYOXYLIC ACID $$ Methyl phenyl
+                 glyoxylate $$ Methyl benzoylformat
+                 e $$ Methyl phenylglyoxalate $$ Be
+                 nzoylformic acid
+ 
+ 49  13.849  0.21 C:\Database\WILEY275.L
+                 4(5)-acetyl-2-(2-propyl)-1H-imidaz  37305 108512-03-4 58
+                 ole $$ Ethanone, 1-[2-(1-methyleth
+                 yl)-1H-imidazol-4-yl]-
+                 1-METHYL-2-OXASPIRO(3,5)NON-5-ENE,  26449 060210-96-0 43
+                 UNIDENTIFIED STERIOISOMER $$ 2-Oxa
+                 spiro[3.5]non-5-ene, 1-methyl-, ci
+                 s- (CAS)
+                 1,3-Cyclopentadiene, 1,2-dimethyl-   4861 004784-86-5 35
+                  (CAS) $$ 1,2-Dimethylcyclopentadi
+                 ene
+ 
+ 50  14.001  0.09 C:\Database\WILEY275.L
+                 2,5-DIMETHYLPYRAZINE                 9098 000000-00-0 72
+                 Pyrazine, 2,5-dimethyl- (CAS) $$ 2   9019 000123-32-0 72
+                 ,5-Dimethylpyrazine
+                 Pyrazine, 2,6-dimethyl- (CAS) $$ 2   9034 000108-50-9 56
+                 ,6-Dimethylpyrazine $$ 3,5-Dimethy
+                 lpyrazine
+ 
+ 51  14.243  0.16 C:\Database\WILEY275.L
+                 (E)-2-[(N-hydroxy-N-phenyl)-amino] 206467 127744-55-2 56
+                 -3-[N-(phenylimino)]-indole $$ 1H-
+                 Indol-2-amine, N-hydroxy-1-methyl-
+                 N-phenyl-3-[(phenylimino)methyl]-,
+                  (E)-
+                 Acetylcodeine $$ Morphinan-6-ol, 7 206362 006703-27-1 43
+                 ,8-didehydro-4,5-epoxy-3-methoxy-1
+                 7-methyl-, acetate (ester), (5.alp
+                 ha.,6.alpha.)- (CAS) $$ 6-Acetylco
+                 deine $$ Codeine, acetate (ester) 
+                 $$ Codeinone, acetyldihydro- $$ Mo
+                 rphinan-6.alpha.-ol, 7,8-didehydro
+                 -4,5.alpha.-epoxy
+                 2-Chloro-4-(4-methoxyphenyl)-6-(4- 206245 063673-76-7 25
+                 nitrophenyl)pyrimidine
+ 
+ 52  14.851  2.18 C:\Database\WILEY275.L
+                 1-Hexanol (CAS) $$ n-Hexanol $$ Am   7737 000111-27-3 78
+                 ylcarbinol $$ n-Hexan-1-ol $$ Hexy
+                 l alcohol $$ Hexanol $$ Pentylcarb
+                 inol $$ Caproyl alcohol $$ n-Hexyl
+                  alcohol $$ 1-Hexyl alcohol $$ 1-H
+                 ydroxyhexane $$ n-C6H13OH $$ Hexan
+                 -1-ol $$ Hexanol-(1) $$ Epal 6 $$ 
+                 UN 2282
+                 1-HEXANOL                            7890 000000-00-0 78
+                 1-Hexanol (CAS) $$ n-Hexanol $$ Am   7731 000111-27-3 78
+                 ylcarbinol $$ n-Hexan-1-ol $$ Hexy
+                 l alcohol $$ Hexanol $$ Pentylcarb
+                 inol $$ Caproyl alcohol $$ n-Hexyl
+                  alcohol $$ 1-Hexyl alcohol $$ 1-H
+                 ydroxyhexane $$ n-C6H13OH $$ Hexan
+                 -1-ol $$ Hexanol-(1) $$ Epal 6 $$ 
+                 UN 2282
+ 
+ 53  15.156  0.04 C:\Database\WILEY275.L
+                 3-Hexen-1-ol (CAS) $$ 3-Hexen-1-ol   6783 000544-12-7 50
+                  (c,t)
+                 3-Hexen-1-ol, (E)- (CAS) $$ E-3-He   6788 000928-97-2 38
+                 xenol $$ trans-3-Hexen-1-ol $$ tra
+                 ns-3-Hexenol $$ (E)-3-Hexenol $$ (
+                 E)-Hex-3-en-1-ol
+                 4-Hexen-1-ol, (E)- (CAS) $$ TRANS-   6801 000928-92-7 38
+                 HEX-4-EN-1-OL $$ trans-4-Hexen-1-o
+                 l $$ trans-4-Hexenol $$ (E)-4-Hexe
+                 n-1-ol $$ E-4-hexenol $$ 4-Hexen-1
+                 -ol
+ 
+ 54  15.522  0.06 C:\Database\WILEY275.L
+                 Cyclopropane, 1,1-dimethyl-2-(1-me  38512 056701-50-9 38
+                 thylethyl)-3-(1-methylethylidene)-
+                 , (.+-.)- (CAS) $$ D-L 1,4-TETRAME
+                 THYL,3-ISOPROPYL METHYLENYLCYCLOPR
+                 OPANE $$ Cyclopropane, 1,1-dimethy
+                 l-2-(1-methylethyl)-3-(1-methyleth
+                 ylidene)-, (.+/-.)-
+                 Cyclopentane, methylene- (CAS) $$    2473 001528-30-9 30
+                 Methylenecyclopentane $$ METHYLENE
+                 -CYCLOPENTANE $$ METHYLENE CYCLOPE
+                 NTANE
+                 Cyclopentene, 3-methyl- (CAS) $$ 3   2465 001120-62-3 30
+                 -Methylcyclopentene
+ 
+ 55  15.808  0.13 C:\Database\WILEY275.L
+                 3-Hexen-1-ol, (Z)- (CAS) $$ cis-3-   6779 000928-96-1 91
+                 Hexene-1-ol $$ Z-3-Hexenol $$ Leaf
+                  alcohol $$ 3-(Z)-Hexenol $$ cis-3
+                 -Hexenol $$ Blatteralkohol $$ cis-
+                 3-Hexen-1-ol $$ (Z)-Hex-3-en-1-ol 
+                 $$ Blatteralkohol (German) $$ .bet
+                 a.,.gamma.-Hexenol $$ HEXEN-30L-1 
+                 $$ 3-Hexen-1-ol $
+                 3-Hexen-1-ol, (Z)- (CAS) $$ cis-3-   6780 000928-96-1 91
+                 Hexene-1-ol $$ Z-3-Hexenol $$ Leaf
+                  alcohol $$ 3-(Z)-Hexenol $$ cis-3
+                 -Hexenol $$ Blatteralkohol $$ cis-
+                 3-Hexen-1-ol $$ (Z)-Hex-3-en-1-ol 
+                 $$ Blatteralkohol (German) $$ .bet
+                 a.,.gamma.-Hexenol $$ HEXEN-30L-1 
+                 $$ 3-Hexen-1-ol $
+                 3-Hexen-1-ol, (Z)- (CAS) $$ cis-3-   6776 000928-96-1 87
+                 Hexene-1-ol $$ Z-3-Hexenol $$ Leaf
+                  alcohol $$ 3-(Z)-Hexenol $$ cis-3
+                 -Hexenol $$ Blatteralkohol $$ cis-
+                 3-Hexen-1-ol $$ (Z)-Hex-3-en-1-ol 
+                 $$ Blatteralkohol (German) $$ .bet
+                 a.,.gamma.-Hexenol $$ HEXEN-30L-1 
+                 $$ 3-Hexen-1-ol $
+ 
+ 56  16.501  0.42 C:\Database\WILEY275.L
+                 2-Hexen-1-ol, (E)- (CAS) $$ trans-   6766 000928-95-0 90
+                 2-Hexen-1-ol $$ (E)-2-Hexen-1-ol $
+                 $ trans-HEX-2-ENOL $$ trans-2-Hexe
+                 nol $$ 2-Hexenol $$ 2-Hexen-1-ol, 
+                 trans-
+                 TRANS-2-HEXENOL $$ HEXENOL $$ .GAM   6977 000928-95-0 86
+                 MA. PROPYL ALLYL ALCOHOL
+                 2-Hexen-1-ol, (E)- (CAS) $$ trans-   6762 000928-95-0 78
+                 2-Hexen-1-ol $$ (E)-2-Hexen-1-ol $
+                 $ trans-HEX-2-ENOL $$ trans-2-Hexe
+                 nol $$ 2-Hexenol $$ 2-Hexen-1-ol, 
+                 trans-
+ 
+ 57  17.626  0.24 C:\Database\WILEY275.L
+                 LINALOOL OXIDE (2) $$ 2-Furanmetha  55304 005989-33-3 91
+                 nol, 5-ethenyltetrahydro-.alpha.,.
+                 alpha.,5-trimethyl-, cis- (CAS) $$
+                  Linalyl oxide $$ Linalool oxide $
+                 $ Linalool oxide B $$ cis-Linalyl 
+                 oxide $$ cis-Linalool oxide $$ Fur
+                 furyl alcohol, tetrahydro-.alpha.,
+                 .alpha.,5-trimeth
+                 CIS-LINALOOL OXIDE                  55607 000000-00-0 91
+                 TRANS-LINALOOL OXIDE                55510 034995-77-2 91
+ 
+ 58  17.685  0.13 C:\Database\WILEY275.L
+                 2,5-DIMETHYL-3-ETHYLPYRAZINE        24486 000000-00-0 90
+                 Pyrazine, 3-ethyl-2,5-dimethyl- (C  24441 013360-65-1 90
+                 AS) $$ 3-Ethyl-2,5-dimethylpyrazin
+                 e $$ 2,5-Dimethyl-3-ethylpyrazine 
+                 $$ 2-Ethyl-3,6-dimethylpyrazine $$
+                  3,6-Dimethyl-2-ethylpyrazine
+                 Pyrazine, 3-ethyl-2,5-dimethyl- (C  24445 013360-65-1 87
+                 AS) $$ 3-Ethyl-2,5-dimethylpyrazin
+                 e $$ 2,5-Dimethyl-3-ethylpyrazine 
+                 $$ 2-Ethyl-3,6-dimethylpyrazine $$
+                  3,6-Dimethyl-2-ethylpyrazine
+ 
+ 59  17.853  0.08 C:\Database\WILEY275.L
+                 Propanal, 3-(methylthio)- (CAS) $$   8095 003268-49-3 94
+                  Methional $$ 3-(methylthio)propan
+                 al $$ 3-METHYLMERCAPTOPROPANAL $$ 
+                 3-(Methylthio)propionaldehyde $$ P
+                 ropionaldehyde, 3-(methylthio)- $$
+                  3-(Methylmercapto)propionaldehyde
+                  $$ .beta.-(Methylthio)propionalde
+                 hyde $$ .beta.-(M
+                 Propanal, 3-(methylthio)- (CAS) $$   8096 003268-49-3 94
+                  Methional $$ 3-(methylthio)propan
+                 al $$ 3-METHYLMERCAPTOPROPANAL $$ 
+                 3-(Methylthio)propionaldehyde $$ P
+                 ropionaldehyde, 3-(methylthio)- $$
+                  3-(Methylmercapto)propionaldehyde
+                  $$ .beta.-(Methylthio)propionalde
+                 hyde $$ .beta.-(M
+                 METHIONAL $$ 3 METHYL THIO PROPANA   8118 003268-49-3 89
+ 
+ 60  18.114  1.06 C:\Database\WILEY275.L
+                 2-Furancarboxaldehyde (CAS) $$ Fur   5026 000098-01-1 86
+                 fural $$ 2-Furaldehyde $$ Fural $$
+                  Furole $$ Furale $$ Furfurole $$ 
+                 2-Furfural $$ Furaldehyde $$ Furan
+                 carbonal $$ 2-Formylfuran $$ .alph
+                 a.-Furole $$ Furfuraldehyde $$ 2-F
+                 urancarbonal $$ 2-Furanaldehyde $$
+                  Furfurylaldehyde
+                 1H-Pyrazole, 3,5-dimethyl- (CAS) $   5066 000067-51-6 86
+                 $ 3,5-Dimethylpyrazole $$ U 6245 $
+                 $ TH 564 $$ Pyrazole, 3,5-dimethyl
+                 - $$ 3,5-Dimethyl-1H-pyrazole $$ D
+                 MP $$ 3,5 DMP $$ 3,5-Dwumetylopira
+                 zolu
+                 1H-Pyrazole, 3,5-dimethyl- (CAS) $   5067 000067-51-6 86
+                 $ 3,5-Dimethylpyrazole $$ U 6245 $
+                 $ TH 564 $$ Pyrazole, 3,5-dimethyl
+                 - $$ 3,5-Dimethyl-1H-pyrazole $$ D
+                 MP $$ 3,5 DMP $$ 3,5-Dwumetylopira
+                 zolu
+ 
+ 61  18.501  0.08 C:\Database\WILEY275.L
+                 LINALOOL OXIDE TRANS $$ EPOXYLINAL  55523 034995-77-2 87
+                 OOL
+                 CIS-LINALOOL OXIDE                  55514 005989-33-3 80
+                 CIS-LINALOOL OXIDE                  55511 005989-33-3 80
+ 
+ 62  18.954  0.22 C:\Database\WILEY275.L
+                 Acetic acid (CAS) $$ Ethylic acid     656 000064-19-7 80
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     652 000064-19-7 80
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     655 000064-19-7 80
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+ 
+ 63  19.003  0.10 C:\Database\WILEY275.L
+                 Acetic acid (CAS) $$ Ethylic acid     656 000064-19-7 80
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     650 000064-19-7 80
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     657 000064-19-7 80
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+ 
+ 64  19.130  0.17 C:\Database\WILEY275.L
+                 Acetic acid (CAS) $$ Ethylic acid     650 000064-19-7 64
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     658 000064-19-7 64
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     649 000064-19-7 64
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+ 
+ 65  19.173  0.05 C:\Database\WILEY275.L
+                 Acetic acid (CAS) $$ Ethylic acid     656 000064-19-7 72
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 FORMAMIDINIUMACETATE                 8056 000000-00-0 64
+                 Acetic acid (CAS) $$ Ethylic acid     650 000064-19-7 64
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+ 
+ 66  19.206  0.11 C:\Database\WILEY275.L
+                 Acetic acid (CAS) $$ Ethylic acid     660 000064-19-7 59
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     652 000064-19-7 59
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     657 000064-19-7 59
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+ 
+ 67  19.398  0.14 C:\Database\WILEY275.L
+                 Acetic acid (CAS) $$ Ethylic acid     656 000064-19-7 46
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     649 000064-19-7 46
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     657 000064-19-7 46
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+ 
+ 68  19.544  0.15 C:\Database\WILEY275.L
+                 Acetic acid (CAS) $$ Ethylic acid     660 000064-19-7 43
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     653 000064-19-7 38
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+                 Acetic acid (CAS) $$ Ethylic acid     656 000064-19-7 38
+                 $$ Vinegar acid $$ Ethanoic acid $
+                 $ Glacial acetic acid $$ Methaneca
+                 rboxylic acid $$ CH3COOH $$ compon
+                 ent of Aci-Jel $$ Acetasol $$ Acid
+                 e acetique $$ Acido acetico $$ Azi
+                 jnzuur $$ Essigsaeure $$ Octowy kw
+                 as $$ Acetic acid
+ 
+ 69  19.694  0.46 C:\Database\WILEY275.L
+                 2,2-Dimethyl-N-phenylpropanethioam  77230 005260-00-4 46
+                 ide
+                 Acetophenone, 2'-(trimethylsiloxy)  93190 033342-85-7 43
+                 - (CAS) $$ O-HYDROXYACETOPHENONE-T
+                 MS-ETHER $$ TRIMETHYLSILYLETHER OF
+                  O-HYDROXYACETOPHENONE $$ 2-OTMS-a
+                 cetophenone $$ Ethanone, 1-[2-[(tr
+                 imethylsilyl)oxy]phenyl]-
+                 Trisiloxane, 1,1,3,3,5,5-hexamethy  92700 001189-93-1 40
+                 l- (CAS) $$ 1,1,3,3,5,5-HEXAMETHYL
+                 -TRISILOXANE $$ bis(dimethylsilylo
+                 xy)dimethylsilane $$ 1.1.3,3,5,5-h
+                 examethyltrisiloxane $$ 1,1,3,3,5,
+                 5-Hexamethyltrisiloxane $$ Hexamet
+                 hyltrisiloxane
+ 
+ 70  19.920 19.13 C:\Database\WILEY275.L
+                 BENZALDEHYDE                         8616 000000-00-0 94
+                 BENZALDEHYDE                         8614 000100-52-7 94
+                 Benzaldehyde (CAS) $$ Phenylmethan   8600 000100-52-7 91
+                 al $$ Benzenecarbonal $$ Benzaldeh
+                 yde FFC $$ Benzoic aldehyde $$ Art
+                 ificial Almond Oil $$ Benzenecarbo
+                 xaldehyde $$ Almond artificial ess
+                 ential oil $$ Phenylmethanal benze
+                 necarboxaldehyde $$ Benzadehyde $$
+                  NCI-C56133 $$ Oi
+ 
+ 71  20.203  0.22 C:\Database\WILEY275.L
+                 Benzaldehyde (CAS) $$ Phenylmethan   8596 000100-52-7 55
+                 al $$ Benzenecarbonal $$ Benzaldeh
+                 yde FFC $$ Benzoic aldehyde $$ Art
+                 ificial Almond Oil $$ Benzenecarbo
+                 xaldehyde $$ Almond artificial ess
+                 ential oil $$ Phenylmethanal benze
+                 necarboxaldehyde $$ Benzadehyde $$
+                  NCI-C56133 $$ Oi
+                 Benzaldehyde                         8607 000100-52-7 55
+                 Benzaldehyde (CAS) $$ Phenylmethan   8598 000100-52-7 55
+                 al $$ Benzenecarbonal $$ Benzaldeh
+                 yde FFC $$ Benzoic aldehyde $$ Art
+                 ificial Almond Oil $$ Benzenecarbo
+                 xaldehyde $$ Almond artificial ess
+                 ential oil $$ Phenylmethanal benze
+                 necarboxaldehyde $$ Benzadehyde $$
+                  NCI-C56133 $$ Oi
+ 
+ 72  20.305  0.46 C:\Database\WILEY275.L
+                 6-methoxy-1-methyl-5-phenyl-4,7-in 150646 112597-44-1 50
+                 doloquinone
+                 7H-Dibenzo[c,g]carbazole (CAS) $$  150813 000194-59-2 50
+                 3,4,5,6-Dibenzocarbazole $$ 7-Aza-
+                 7H-dibenzo[c,g]fluorene $$ dibenzo
+                 [c,g]carbazole $$ 3,4:5,6-Dibenzoc
+                 arbazole $$ 3,4,5,6-Dibenzcarbazol
+                  $$ 3,4,5,6-Dibenzcarbazole $$ 7H-
+                 Db(c,g)c $$ 3,4,5,6-Dinaphthacarba
+                 zole
+                 1-allyl-2,8-dimethoxy-9H-carbazole 150719 103763-37-7 50
+                  $$ 9H-Carbazole, 2,8-dimethoxy-1-
+                 (2-propenyl)- $$ 1-Allyl-2,8-dimet
+                 hoxycarbazole
+ 
+ 73  20.468  0.06 C:\Database\WILEY275.L
+                 1-allyl-2,8-dimethoxy-9H-carbazole 150719 103763-37-7 50
+                  $$ 9H-Carbazole, 2,8-dimethoxy-1-
+                 (2-propenyl)- $$ 1-Allyl-2,8-dimet
+                 hoxycarbazole
+                 3-Hydroxymandelic acid, ethyl este 205538 000000-00-0 47
+                 r, di-TMS
+                 6-methoxy-1-methyl-5-phenyl-4,7-in 150646 112597-44-1 43
+                 doloquinone
+ 
+ 74  20.838  0.10 C:\Database\WILEY275.L
+                 LINALOOL                            40727 000000-00-0 87
+                 Linalool $$ 1,6-Octadien-3-ol, 3,7  40060 000078-70-6 83
+                 -dimethyl- (CAS) $$ Linalol $$ .be
+                 ta.-Linalool $$ Linalyl alcohol $$
+                  2,6-Dimethyl-2,7-octadien-6-ol $$
+                  allo-Ocimenol $$ p-Linalool $$ LI
+                 NOLOOL (D) $$ 2,6-Dimethyl-2,7-oct
+                 adiene-6-ol $$ 2,6-Dimethylocta-2,
+                 7-dien-6-ol $$ 3,
+                 Linalool $$ 1,6-Octadien-3-ol, 3,7  40063 000078-70-6 83
+                 -dimethyl- (CAS) $$ Linalol $$ .be
+                 ta.-Linalool $$ Linalyl alcohol $$
+                  2,6-Dimethyl-2,7-octadien-6-ol $$
+                  allo-Ocimenol $$ p-Linalool $$ LI
+                 NOLOOL (D) $$ 2,6-Dimethyl-2,7-oct
+                 adiene-6-ol $$ 2,6-Dimethylocta-2,
+                 7-dien-6-ol $$ 3,
+ 
+ 75  21.181  0.04 C:\Database\WILEY275.L
+                 1,2-Cyclopentanediol, trans- (CAS)   7578 005057-99-8 42
+                  $$ trans-1,2-Cyclopentanediol $$ 
+                 TRANS-1,2-DIHYDROXY-CYCLOPENTANE
+                 1-Octanol (CAS) $$ Octilin $$ Alfo  21051 000111-87-5 35
+                 l 8 $$ Sipol L8 $$ n-Octanol $$ n-
+                 Octan-1-ol $$ Octyl alcohol $$ Oct
+                 anol $$ n-Octyl alcohol $$ Heptyl 
+                 carbinol $$ Caprylic alcohol $$ 1-
+                 Hydroxyoctane $$ Octan-1-ol $$ Alc
+                 ohol c-8 $$ Capryl alcohol $$ n-He
+                 ptyl carbinol $$
+                 OCTYL FORMATE                       44056 000000-00-0 35
+ 
+ 76  21.438  0.05 C:\Database\WILEY275.L
+                 Butane, 2,3-dichloro- (CAS) $$ 2,3  17400 007581-97-7 35
+                 -Dichlorobutane
+                 (S)-(+)-2-Chloro-1-propanol $$ (S)   4764 019210-21-0 35
+                 -(+)-2-Chloropropan-1-ol
+                 Butane, 2,3-dichloro- (CAS) $$ 2,3  17399 007581-97-7 35
+                 -Dichlorobutane
+ 
+ 77  21.670  0.07 C:\Database\WILEY275.L
+                 4-(o-Chlorophenyl)-2,6-diphenylpyr 206475 000000-00-0 53
+                 idine
+                 methyl 2-trimethylsiloxy-N-(1-trim 213004 000000-00-0 40
+                 ethylsiloxy-trideuteroethylene)-5-
+                 imino-phenyl-methanoate
+                 2-Chloro-4-(4-methoxyphenyl)-6-(4- 206245 063673-76-7 22
+                 nitrophenyl)pyrimidine
+ 
+ 78  21.864  0.04 C:\Database\WILEY275.L
+                 5-Aminorubicene                    206510 128710-29-2 47
+                 16-oxosalutaridine                 206326 094707-61-6 43
+                 methyl 2-trimethylsiloxy-N-(1-trim 213004 000000-00-0 40
+                 ethylsiloxy-trideuteroethylene)-5-
+                 imino-phenyl-methanoate
+ 
+ 79  22.355  0.06 C:\Database\WILEY275.L
+                 Benzonitrile (CAS) $$ Cyanobenzene   8020 000100-47-0 83
+                  $$ Phenyl cyanide $$ Benzene, cya
+                 no- $$ Benzoic acid nitrile $$ Ben
+                 zonitril $$ Benzenenitrile $$ Feny
+                 lkyanid $$ UN 2224
+                 Benzonitrile (CAS) $$ Cyanobenzene   8013 000100-47-0 80
+                  $$ Phenyl cyanide $$ Benzene, cya
+                 no- $$ Benzoic acid nitrile $$ Ben
+                 zonitril $$ Benzenenitrile $$ Feny
+                 lkyanid $$ UN 2224
+                 Benzene, isocyano- (CAS) $$ Phenyl   8029 000931-54-4 80
+                  isocyanide $$ Benzoisonitrile $$ 
+                 Phenyl isonitrile $$ Isocyanobenze
+                 ne $$ PHENYLISOCYANIDE $$ Phenylis
+                 onitrile
+ 
+ 80  22.439  0.08 C:\Database\WILEY275.L
+                 3-Cyclohexen-1-ol, 4-methyl-1-(1-m  40161 000562-74-3 87
+                 ethylethyl)- (CAS) $$ 4-Terpineol 
+                 $$ Terpinene-4-ol $$ 1-Terpinen-4-
+                 ol $$ 4-Carvomenthenol $$ p-Menth-
+                 1-en-4-ol $$ TERPINEOL-4 $$ Terpin
+                 en-4-ol $$ 1-Methyl-4-isopropyl-1-
+                 cyclohexen-4-ol $$ 4-Terpinenol $$
+                  Terpene-4-ol $$
+                 3-Cyclohexen-1-ol, 4-methyl-1-(1-m  40154 000562-74-3 64
+                 ethylethyl)- (CAS) $$ 4-Terpineol 
+                 $$ Terpinene-4-ol $$ 1-Terpinen-4-
+                 ol $$ 4-Carvomenthenol $$ p-Menth-
+                 1-en-4-ol $$ TERPINEOL-4 $$ Terpin
+                 en-4-ol $$ 1-Methyl-4-isopropyl-1-
+                 cyclohexen-4-ol $$ 4-Terpinenol $$
+                  Terpene-4-ol $$
+                 3-Cyclohexen-1-ol, 4-methyl-1-(1-m  40153 000562-74-3 52
+                 ethylethyl)- (CAS) $$ 4-Terpineol 
+                 $$ Terpinene-4-ol $$ 1-Terpinen-4-
+                 ol $$ 4-Carvomenthenol $$ p-Menth-
+                 1-en-4-ol $$ TERPINEOL-4 $$ Terpin
+                 en-4-ol $$ 1-Methyl-4-isopropyl-1-
+                 cyclohexen-4-ol $$ 4-Terpinenol $$
+                  Terpene-4-ol $$
+ 
+ 81  22.528  0.07 C:\Database\WILEY275.L
+                 PROPIONIC ACID $$ PROPANOIC ACID     1731 000079-09-4 42
+                 Propanoic acid (CAS) $$ Propionic    1673 000079-09-4 41
+                 acid $$ Prozoin $$ Luprosil $$ Lup
+                 risol $$ Carboxyethane $$ Metaceto
+                 nic acid $$ Ethylformic acid $$ Ps
+                 eudoacetic acid $$ Ethanecarboxyli
+                 c acid $$ Methylacetic acid $$ Mon
+                 oProp $$ Antischim B $$ Propkorn $
+                 $ Propcorn $$ C2H
+                 Propanoic acid (CAS) $$ Propionic    1674 000079-09-4 41
+                 acid $$ Prozoin $$ Luprosil $$ Lup
+                 risol $$ Carboxyethane $$ Metaceto
+                 nic acid $$ Ethylformic acid $$ Ps
+                 eudoacetic acid $$ Ethanecarboxyli
+                 c acid $$ Methylacetic acid $$ Mon
+                 oProp $$ Antischim B $$ Propkorn $
+                 $ Propcorn $$ C2H
+ 
+ 82  22.956  0.11 C:\Database\WILEY275.L
+                 2(3H)-Furanone, dihydro- (CAS) $$    3207 000096-48-0 72
+                 Butyrolactone $$ 6480 $$ .gamma.-B
+                 utyrolactone $$ .gamma.-BL $$ 4-Bu
+                 tanolide $$ 1,4-Butanolide $$ 4-Bu
+                 tyrolactone $$ Butyryl lactone $$ 
+                 Butyric acid lactone $$ 4-Deoxytet
+                 ronic acid $$ Tetrahydro-2-furanon
+                 e $$ Dihydro-2(3H
+                 .GAMMA. BUTYROLACTONE $$ 1,2-BUTAN   3219 000096-48-0 64
+                 OLIDE
+                 BUTAN-4-OLIDE                        3223 000000-00-0 64
+ 
+ 83  23.288  0.14 C:\Database\WILEY275.L
+                 Propanoic acid, 2-methyl- (CAS) $$   3803 000079-31-2 18
+                  Isobutyric acid $$ Isobutanoic ac
+                 id $$ iso-Butyric acid $$ Dimethyl
+                 acetic acid $$ Isopropylformic aci
+                 d $$ 2-Methylpropanoic acid $$ 2-M
+                 ethylpropionic acid $$ .alpha.-Met
+                 hylpropionic acid $$ .alpha.-Methy
+                 lpropanoic acid $
+                 Propanedioic acid, dimethyl- $$ Ma  21671 000595-46-0 10
+                 lonic acid, dimethyl- $$ Dimethylm
+                 alonic acid $$ 2,2-Propanedicarbox
+                 ylic acid
+                 1-Propanamine, N-nitro-              8059 000627-07-6  9
+ 
+ 84  23.445  0.73 C:\Database\WILEY275.L
+                 Benzeneacetaldehyde (CAS) $$ Hyaci  14848 000122-78-1 90
+                 nthin $$ Phenylethanal $$ Phenylac
+                 etaldehyde $$ .alpha.-Tolualdehyde
+                  $$ Acetaldehyde, phenyl- $$ Pheny
+                 lacetic aldehyde $$ .alpha.-Toluic
+                  aldehyde $$ 2-phenyl ethanal $$ 2
+                 -Phenylethanal $$ PAA
+                 PHENYLACETALDEHYDE                  14906 000000-00-0 90
+                 Benzeneacetaldehyde (CAS) $$ Hyaci  14849 000122-78-1 86
+                 nthin $$ Phenylethanal $$ Phenylac
+                 etaldehyde $$ .alpha.-Tolualdehyde
+                  $$ Acetaldehyde, phenyl- $$ Pheny
+                 lacetic aldehyde $$ .alpha.-Toluic
+                  aldehyde $$ 2-phenyl ethanal $$ 2
+                 -Phenylethanal $$ PAA
+ 
+ 85  23.618  0.11 C:\Database\WILEY275.L
+                 Benzeneacetaldehyde (CAS) $$ Hyaci  14848 000122-78-1 38
+                 nthin $$ Phenylethanal $$ Phenylac
+                 etaldehyde $$ .alpha.-Tolualdehyde
+                  $$ Acetaldehyde, phenyl- $$ Pheny
+                 lacetic aldehyde $$ .alpha.-Toluic
+                  aldehyde $$ 2-phenyl ethanal $$ 2
+                 -Phenylethanal $$ PAA
+                 2-Acetylthiazole $$ Ethanone, 1-(2  18460 024295-03-2 35
+                 -thiazolyl)- (CAS) $$ Ketone, meth
+                 yl 2-thiazolyl
+                 PHENYLACETALDEHYDE                  14906 000000-00-0 30
+ 
+ 86  23.686  0.38 C:\Database\WILEY275.L
+                 Ethanone, 1-phenyl- (CAS) $$ Aceto  14862 000098-86-2 81
+                 phenone $$ Phenyl methyl ketone $$
+                  Hypnon $$ Hypnone $$ Acetophenon 
+                 $$ Acetylbenzene $$ Benzoyl methid
+                 e $$ 1-Phenylethanone $$ Methyl ph
+                 enyl ketone $$ 1-Phenyl-1-ethanone
+                  $$ METHYL PHENYL KETONE(ACETOPHEN
+                 ONE) $$ METHYL-PH
+                 Ethanone, 1-phenyl- (CAS) $$ Aceto  14860 000098-86-2 81
+                 phenone $$ Phenyl methyl ketone $$
+                  Hypnon $$ Hypnone $$ Acetophenon 
+                 $$ Acetylbenzene $$ Benzoyl methid
+                 e $$ 1-Phenylethanone $$ Methyl ph
+                 enyl ketone $$ 1-Phenyl-1-ethanone
+                  $$ METHYL PHENYL KETONE(ACETOPHEN
+                 ONE) $$ METHYL-PH
+                 Ethanone, 1-phenyl- (CAS) $$ Aceto  14858 000098-86-2 81
+                 phenone $$ Phenyl methyl ketone $$
+                  Hypnon $$ Hypnone $$ Acetophenon 
+                 $$ Acetylbenzene $$ Benzoyl methid
+                 e $$ 1-Phenylethanone $$ Methyl ph
+                 enyl ketone $$ 1-Phenyl-1-ethanone
+                  $$ METHYL PHENYL KETONE(ACETOPHEN
+                 ONE) $$ METHYL-PH
+ 
+ 87  23.814  2.37 C:\Database\WILEY275.L
+                 Methyl-d3 1-Dideuterio-2-propenyl    1498 000000-00-0  5
+                 Ether
+                 Propane, 2-chloro-2-nitro- (CAS) $  16050 000594-71-8  4
+                 $ 2-Chloro-2-nitropropane
+                 2-PENTADECYL-4,4,5,5-TETRADEUTERO- 165522 041563-26-2  4
+                 1,3-DIOXOLANE
+ 
+ 88  24.559  0.16 C:\Database\WILEY275.L
+                 Benzaldehyde, 2-hydroxy- (CAS) $$   15553 000090-02-8 93
+                 Salicylaldehyde $$ Salicylal $$ o-
+                 Formylphenol $$ 2-Formylphenol $$ 
+                 Salicylic aldehyde $$ o-Hydroxyben
+                 zaldehyde $$ 2-Hydroxybenzaldehyde
+                  $$ 2-formyl-phenol $$ Salicylalde
+                 hyde oxime $$ Benzaldehyde, o-hydr
+                 oxy- $$ Salicylad
+                 Benzaldehyde, 2-hydroxy- (CAS) $$   15552 000090-02-8 93
+                 Salicylaldehyde $$ Salicylal $$ o-
+                 Formylphenol $$ 2-Formylphenol $$ 
+                 Salicylic aldehyde $$ o-Hydroxyben
+                 zaldehyde $$ 2-Hydroxybenzaldehyde
+                  $$ 2-formyl-phenol $$ Salicylalde
+                 hyde oxime $$ Benzaldehyde, o-hydr
+                 oxy- $$ Salicylad
+                 Benzaldehyde, 2-hydroxy- (CAS) $$   15547 000090-02-8 93
+                 Salicylaldehyde $$ Salicylal $$ o-
+                 Formylphenol $$ 2-Formylphenol $$ 
+                 Salicylic aldehyde $$ o-Hydroxyben
+                 zaldehyde $$ 2-Hydroxybenzaldehyde
+                  $$ 2-formyl-phenol $$ Salicylalde
+                 hyde oxime $$ Benzaldehyde, o-hydr
+                 oxy- $$ Salicylad
+ 
+ 89  24.911  0.42 C:\Database\WILEY275.L
+                 .beta.-Santalol $$ santalol $$ 2-P 105923 000077-42-9 53
+                 enten-1-ol, 2-methyl-5-(2-methyl-3
+                 -methylenebicyclo[2.2.1]hept-2-yl)
+                 -, [1S-[1.alpha.,2.alpha.(Z),4.alp
+                 ha.]]- $$ 2-Penten-1-ol, 2-methyl-
+                 5-(2-methyl-3-methylene-2-norborny
+                 l)- $$ Santalol b $$ cis-.beta.-Sa
+                 ntalol $$ (-)-.be
+                 SANTENE $$ BICYCLO[2.2.1]HEPT-2-EN  16005 000529-16-8 47
+                 E, 2,3-DIMETHYL
+                 SANTENE                             16007 000529-16-8 43
+ 
+ 90  25.165  1.42 C:\Database\WILEY275.L
+                 .BETA. FENCHYL ALCOHOL              40589 000470-08-6 91
+                 .alpha.-TERPINEOL                   40614 000098-55-5 87
+                 2-.BETA.-PINENE $$ Bicyclo[3.1.1]h  25226 000127-91-3 83
+                 eptane, 6,6-dimethyl-2-methylene- 
+                 (CAS) $$ .beta.-Pinene $$ Nopinen 
+                 $$ Nopinene $$ Pseudopinen $$ Pseu
+                 dopinene $$ 2(10)-Pinene $$ Terebe
+                 nthene $$ BETA-PINENE $$ 6,6-Dimet
+                 hyl-2-methylene-bicyclo[3.1.1]hept
+                 ane $$ Pinene $$
+ 
+ 91  25.286  0.35 C:\Database\WILEY275.L
+                 Butanoic acid (CAS) $$ n-Butyric a   3788 000107-92-6 55
+                 cid $$ Butyric acid $$ 1-Butyric a
+                 cid $$ n-Butanoic acid $$ Ethylace
+                 tic acid $$ Propylformic acid $$ 1
+                 -Propanecarboxylic acid $$ n-C3H7C
+                 OOH $$ Propanecarboxylic acid $$ B
+                 utanic acid $$ Buttersaeure $$ IME
+                 T 3393 $$ Kyselin
+                 Butanoic acid (CAS) $$ n-Butyric a   3790 000107-92-6 43
+                 cid $$ Butyric acid $$ 1-Butyric a
+                 cid $$ n-Butanoic acid $$ Ethylace
+                 tic acid $$ Propylformic acid $$ 1
+                 -Propanecarboxylic acid $$ n-C3H7C
+                 OOH $$ Propanecarboxylic acid $$ B
+                 utanic acid $$ Buttersaeure $$ IME
+                 T 3393 $$ Kyselin
+                 Butanoic acid (CAS) $$ n-Butyric a   3787 000107-92-6 43
+                 cid $$ Butyric acid $$ 1-Butyric a
+                 cid $$ n-Butanoic acid $$ Ethylace
+                 tic acid $$ Propylformic acid $$ 1
+                 -Propanecarboxylic acid $$ n-C3H7C
+                 OOH $$ Propanecarboxylic acid $$ B
+                 utanic acid $$ Buttersaeure $$ IME
+                 T 3393 $$ Kyselin
+ 
+ 92  25.919  0.12 C:\Database\WILEY275.L
+                 Butanoic acid, 3-methyl- (CAS) $$    7427 000503-74-2 50
+                 Isovaleric acid $$ Delphinic acid 
+                 $$ 3-Methylbutyrate $$ Isopentanoi
+                 c acid $$ Isopropylacetic acid $$ 
+                 3-Methylbutyric acid $$ 3-Methylbu
+                 tanoic acid $$ Acetic acid, isopro
+                 pyl- $$ .beta.-Methylbutyric acid 
+                 $$ iso-C4H9COOH $
+                 iso-VALERIC ACID                     7593 000503-74-2 50
+                 Butanoic acid, 3-methyl- (CAS) $$    7431 000503-74-2 43
+                 Isovaleric acid $$ Delphinic acid 
+                 $$ 3-Methylbutyrate $$ Isopentanoi
+                 c acid $$ Isopropylacetic acid $$ 
+                 3-Methylbutyric acid $$ 3-Methylbu
+                 tanoic acid $$ Acetic acid, isopro
+                 pyl- $$ .beta.-Methylbutyric acid 
+                 $$ iso-C4H9COOH $
+ 
+ 93  25.951  0.10 C:\Database\WILEY275.L
+                 Butanoic acid, 3-methyl- (CAS) $$    7431 000503-74-2 52
+                 Isovaleric acid $$ Delphinic acid 
+                 $$ 3-Methylbutyrate $$ Isopentanoi
+                 c acid $$ Isopropylacetic acid $$ 
+                 3-Methylbutyric acid $$ 3-Methylbu
+                 tanoic acid $$ Acetic acid, isopro
+                 pyl- $$ .beta.-Methylbutyric acid 
+                 $$ iso-C4H9COOH $
+                 Pentanoic acid (CAS) $$ Valeric ac   7416 000109-52-4 50
+                 id $$ n-Valeric acid $$ Valerianic
+                  acid $$ n-Pentanoic acid $$ Propy
+                 lacetic acid $$ 1-Butanecarboxylic
+                  acid $$ n-C4H9COOH $$ Butanecarbo
+                 xylic acid $$ Valeric acid, N- $$ 
+                 Kyselina valerova $$ NA 1760
+                 iso-VALERIC ACID                     7593 000503-74-2 50
+ 
+ 94  26.001  0.09 C:\Database\WILEY275.L
+                 Pentanoic acid (CAS) $$ Valeric ac   7416 000109-52-4 68
+                 id $$ n-Valeric acid $$ Valerianic
+                  acid $$ n-Pentanoic acid $$ Propy
+                 lacetic acid $$ 1-Butanecarboxylic
+                  acid $$ n-C4H9COOH $$ Butanecarbo
+                 xylic acid $$ Valeric acid, N- $$ 
+                 Kyselina valerova $$ NA 1760
+                 Butanoic acid, 3-methyl- (CAS) $$    7427 000503-74-2 53
+                 Isovaleric acid $$ Delphinic acid 
+                 $$ 3-Methylbutyrate $$ Isopentanoi
+                 c acid $$ Isopropylacetic acid $$ 
+                 3-Methylbutyric acid $$ 3-Methylbu
+                 tanoic acid $$ Acetic acid, isopro
+                 pyl- $$ .beta.-Methylbutyric acid 
+                 $$ iso-C4H9COOH $
+                 3 METHYL PENTANOIC ACID $$ 3 METHY  13264 000105-43-1 50
+                 L VALERIC ACID
+ 
+ 95  26.055  0.05 C:\Database\WILEY275.L
+                 Pentanoic acid (CAS) $$ Valeric ac   7416 000109-52-4 72
+                 id $$ n-Valeric acid $$ Valerianic
+                  acid $$ n-Pentanoic acid $$ Propy
+                 lacetic acid $$ 1-Butanecarboxylic
+                  acid $$ n-C4H9COOH $$ Butanecarbo
+                 xylic acid $$ Valeric acid, N- $$ 
+                 Kyselina valerova $$ NA 1760
+                 Butanoic acid, 3-methyl- (CAS) $$    7432 000503-74-2 59
+                 Isovaleric acid $$ Delphinic acid 
+                 $$ 3-Methylbutyrate $$ Isopentanoi
+                 c acid $$ Isopropylacetic acid $$ 
+                 3-Methylbutyric acid $$ 3-Methylbu
+                 tanoic acid $$ Acetic acid, isopro
+                 pyl- $$ .beta.-Methylbutyric acid 
+                 $$ iso-C4H9COOH $
+                 3-METHYLVALERIC ACID                13294 000000-00-0 59
+ 
+ 96  26.081  0.14 C:\Database\WILEY275.L
+                 Butanoic acid, 3-methyl- (CAS) $$    7427 000503-74-2 72
+                 Isovaleric acid $$ Delphinic acid 
+                 $$ 3-Methylbutyrate $$ Isopentanoi
+                 c acid $$ Isopropylacetic acid $$ 
+                 3-Methylbutyric acid $$ 3-Methylbu
+                 tanoic acid $$ Acetic acid, isopro
+                 pyl- $$ .beta.-Methylbutyric acid 
+                 $$ iso-C4H9COOH $
+                 iso-VALERIC ACID                     7593 000503-74-2 59
+                 ISOVALERIC ACID                      7618 000000-00-0 59
+ 
+ 97  27.044  1.06 C:\Database\WILEY275.L
+                 Thieno[2,3-b]pyridine 7-oxide $$ T  36404 025557-50-0 43
+                 hieno[2,3-b]pyridine, 7-oxide (CAS
+                 Thieno[3,2-c]pyridine 5-Oxide Hemi  36403 086344-82-3 43
+                 hydrate $$ Thieno[3,2-c]pyridine, 
+                 5-oxide (CAS)
+                 9-Borabicyclo[3.3.1]nonan-9-amine,  36783 063366-66-5 42
+                  N-methyl- (CAS) $$ 9-BORABICYCLO[
+                 3.3.1]NONANE, B-METHYLAMINO-
+ 
+ 98  28.408  0.21 C:\Database\WILEY275.L
+                 1-METHYLALLYL(CYCLOOCTATETRAENE)TI  92376 000000-00-0 72
+                 TANIUM
+                 Cyclotrisiloxane, hexamethyl- (CAS 106845 000541-05-9 64
+                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
+                 EXASILOXANE $$ Hexamethylcyclotris
+                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
+                 XANE $$ Dimethylsiloxane cyclic tr
+                 imer
+                 4' METHYL-2 PHENYLINDOLE            92601 000000-00-0 59
+ 
+ 99  29.919  0.04 C:\Database\WILEY275.L
+                 BENZYL ALCOHOL                       9179 000100-51-6 95
+                 Benzenemethanol (CAS) $$ Benzyl al   9160 000100-51-6 93
+                 cohol $$ Benzal alcohol $$ Phenylm
+                 ethanol $$ Phenylcarbinol $$ Benze
+                 necarbinol $$ .alpha.-Toluenol $$ 
+                 .alpha.-Hydroxytoluene $$ (Hydroxy
+                 methyl)benzene $$ Phenylmethyl alc
+                 oholine $$ Phenylmethyl alcohol $$
+                  Benzoyl alcohol
+                 Benzenemethanol (CAS) $$ Benzyl al   9165 000100-51-6 91
+                 cohol $$ Benzal alcohol $$ Phenylm
+                 ethanol $$ Phenylcarbinol $$ Benze
+                 necarbinol $$ .alpha.-Toluenol $$ 
+                 .alpha.-Hydroxytoluene $$ (Hydroxy
+                 methyl)benzene $$ Phenylmethyl alc
+                 oholine $$ Phenylmethyl alcohol $$
+                  Benzoyl alcohol
+ 
+100  30.069  0.04 C:\Database\WILEY275.L
+                 6-methylthio[1]benzothieno[2,3-c]q 162555 115172-84-4 72
+                 uinoline $$ 5-methyl[1]benzothieno
+                 [2,3-c]quinolin-6(5H)thione $$ [1]
+                 Benzothieno[2,3-c]quinoline, 6-(me
+                 thylthio)-
+                 Cyclotetrasiloxane, octamethyl- (C 174363 000556-67-2 53
+                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
+                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
+                 YCLIC TETRAMER) CYCLOTETRASILOXANE
+                  $$ Octamethylcyclotetrasiloxane $
+                 $ NUC Silicone VS 7207 $$ Octameth
+                 yl-cyclotetrasiloxane $$ Oktamethy
+                 lcyklotetrasiloxa
+                 TRIMETHYLSILYL ESTER OF 4-METHYL-2 174610 000000-00-0 50
+                 -TRIMETHYLSILYLOXY-BENZOIC ACID
+ 
+101  31.128  0.06 C:\Database\WILEY275.L
+                 Benzeneacetonitrile (CAS) $$ Benzy  13721 000140-29-4 93
+                 l cyanide $$ Phenylacetonitrile $$
+                  Benzyl nitrile $$ .alpha.-Tolunit
+                 rile $$ 2-Phenylacetonitrile $$ .o
+                 mega.-Cyanotoluene $$ .alpha.-Cyan
+                 otoluene $$ Acetonitrile, phenyl- 
+                 $$ (Cyanomethyl)benzene $$ Phenace
+                 tonitrile $$ Benz
+                 Benzeneacetonitrile (CAS) $$ Benzy  13717 000140-29-4 93
+                 l cyanide $$ Phenylacetonitrile $$
+                  Benzyl nitrile $$ .alpha.-Tolunit
+                 rile $$ 2-Phenylacetonitrile $$ .o
+                 mega.-Cyanotoluene $$ .alpha.-Cyan
+                 otoluene $$ Acetonitrile, phenyl- 
+                 $$ (Cyanomethyl)benzene $$ Phenace
+                 tonitrile $$ Benz
+                 Benzeneacetonitrile (CAS) $$ Benzy  13719 000140-29-4 90
+                 l cyanide $$ Phenylacetonitrile $$
+                  Benzyl nitrile $$ .alpha.-Tolunit
+                 rile $$ 2-Phenylacetonitrile $$ .o
+                 mega.-Cyanotoluene $$ .alpha.-Cyan
+                 otoluene $$ Acetonitrile, phenyl- 
+                 $$ (Cyanomethyl)benzene $$ Phenace
+                 tonitrile $$ Benz
+ 
+102  34.997  0.13 C:\Database\WILEY275.L
+                 Phenol, 4-methyl- (CAS) $$ p-Creso   9139 000106-44-5 91
+                 l $$ p-Toluol $$ 4-Cresol $$ p-Kre
+                 sol $$ p-Oxytoluene $$ p-Methylphe
+                 nol $$ p-Cresylic acid $$ p-Tolyl 
+                 alcohol $$ 4-Hydroxytoluene $$ p-H
+                 ydroxytoluene $$ 4-Methylphenol $$
+                  p-Methylhydroxybenzene $$ 1-Hydro
+                 xy-4-methylbenzen
+                 Phenol, 4-methyl- (CAS) $$ p-Creso   9137 000106-44-5 91
+                 l $$ p-Toluol $$ 4-Cresol $$ p-Kre
+                 sol $$ p-Oxytoluene $$ p-Methylphe
+                 nol $$ p-Cresylic acid $$ p-Tolyl 
+                 alcohol $$ 4-Hydroxytoluene $$ p-H
+                 ydroxytoluene $$ 4-Methylphenol $$
+                  p-Methylhydroxybenzene $$ 1-Hydro
+                 xy-4-methylbenzen
+                 Phenol, 4-methyl- (CAS) $$ p-Creso   9132 000106-44-5 91
+                 l $$ p-Toluol $$ 4-Cresol $$ p-Kre
+                 sol $$ p-Oxytoluene $$ p-Methylphe
+                 nol $$ p-Cresylic acid $$ p-Tolyl 
+                 alcohol $$ 4-Hydroxytoluene $$ p-H
+                 ydroxytoluene $$ 4-Methylphenol $$
+                  p-Methylhydroxybenzene $$ 1-Hydro
+                 xy-4-methylbenzen
+ 
+
+Arwen_WAX_4...AKE METHOD.M Thu Apr 04 10:15:29 2019   

@@ -1,6 +1,6 @@
                                                    Area Percent Report
 
-  Data Path : Z:\data\JTB-E02\BACandBLUE\
+  Data Path : D:\Users\jbrown\Documents\GitHub\BACandBlue\data\BACandBLUE_GCdata_FFaeni_10BB_BLANK_PRO_REP\
   Data File : JTB-E02-200-16.D                                    
   Acq On    : 28 Feb 2019  14:19
   Operator  : JTB
@@ -8,10 +8,10 @@
   Misc      :  
   ALS Vial  : 1   Sample Multiplier: 1
 
-  Integration Parameters: events17.e
+  Integration Parameters: events16.e
   Integrator: ChemStation
 
-  Method    : C:\MassHunter\GCMS\1\methods\DB-WAX METHODS\Arwen_WAX_40_4_230inlet_AWAKE METHOD.M
+  Method    : D:\gcms\1\methods\20190812_BACnBLUE_event16_nist14_wiley275_adams2.M
   Title     :  
 
   Signal     : TIC: JTB-E02-200-16.D\data.ms
@@ -83,7 +83,7 @@
  52   9.449   895  906  912 VV 4  123021   5720978   0.86%   0.105%
  53   9.538   912  917  929 VV 6  127718   4812419   0.72%   0.088%
  54   9.970   964  970  983 VV 5  110082   4418289   0.66%   0.081%
- 55  10.358   994 1018 1056 VV 2 21318517 667893508 100.00%  12.231%
+ 55  10.358   994 1018 1056 VV 2 21318517 667893508 100.00%  12.232%
  
  56  10.686  1056 1059 1063 VV 5   88596   2751266   0.41%   0.050%
  57  10.734  1063 1064 1073 VV 8   81829   2979759   0.45%   0.055%
@@ -103,7 +103,7 @@
  69  14.854  1561 1572 1604 PV   5153798 160985356  24.10%   2.948%
  70  15.166  1604 1610 1625 VV 6   84172   3512484   0.53%   0.064%
  
- 71  15.555  1635 1658 1673 BV 4  110853   5879625   0.88%   0.108%
+ 71  15.555  1633 1658 1673 BV 4  110612   5820771   0.87%   0.107%
  72  15.810  1680 1689 1697 BV 2  433832  12775799   1.91%   0.234%
  73  15.914  1697 1702 1708 VV 4   71039   2822915   0.42%   0.052%
  74  16.010  1708 1714 1724 VV 7   43258   2301707   0.34%   0.042%
@@ -201,6 +201,6 @@
  
  
  
-                        Sum of corrected areas:  5460439340
+                        Sum of corrected areas:  5460380486
 
-Arwen_WAX_4...AKE METHOD.M Thu Apr 04 11:44:50 2019   
+20190812_BA...275_adams2.M Wed Aug 14 14:32:39 2019   
