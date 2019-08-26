@@ -1,6 +1,6 @@
                                         Library Search Report
 
-  Data Path : Z:\data\JTB-E02\BACandBLUE\
+  Data Path : D:\Users\jbrown\Documents\GitHub\BACandBlue\data\BACandBLUE_GCdata_PAgglomerans_10BB_BLANK_PRO_REP\
   Data File : JTB-E02-203-13.D                                    
   Acq On    : 08 Mar 2019  13:22
   Operator  : JTB
@@ -8,2062 +8,953 @@
   Misc      :  
   ALS Vial  : 1   Sample Multiplier: 1
 
-  Search Libraries:   C:\Database\WILEY275.L            Minimum Quality:   0
-                      C:\Database\PMR1124.L             Minimum Quality:   0
-                      C:\Database\NIST14.L            
+  Search Libraries:   D:\Users\jbrow...tabase\NIST14.L  Minimum Quality:   0
+                      D:\Users\jbrow...base\WILEY275.L  Minimum Quality:   0
+                      D:\Users\jbrow...tabase\Adams2.L
 
   Unknown Spectrum:   Apex
   Integration Events: ChemStation Integrator - events16.e
 
 Pk#     RT  Area%          Library/ID                 Ref#     CAS#   Qual
 _____________________________________________________________________________
-  1   2.285  0.46 C:\Database\WILEY275.L
-                 Carbon dioxide (CAS) $$ Dry ice $$    179 000124-38-9  4
-                  R 744 $$ Carbonic acid gas $$ Car
-                 bonic anhydride $$ Carbon oxide (C
-                 O2) $$ Carbonic acid, gas $$ CO2 $
-                 $ Anhydride carbonique $$ Carbonic
-                 e $$ Kohlendioxyd $$ Kohlensaure $
-                 $ UN 1013 $$ UN 1845 $$ UN 2187
-                 Carbon dioxide (CAS) $$ Dry ice $$    180 000124-38-9  4
-                  R 744 $$ Carbonic acid gas $$ Car
-                 bonic anhydride $$ Carbon oxide (C
-                 O2) $$ Carbonic acid, gas $$ CO2 $
-                 $ Anhydride carbonique $$ Carbonic
-                 e $$ Kohlendioxyd $$ Kohlensaure $
-                 $ UN 1013 $$ UN 1845 $$ UN 2187
-                 Carbon dioxide (CAS) $$ Dry ice $$    178 000124-38-9  4
-                  R 744 $$ Carbonic acid gas $$ Car
-                 bonic anhydride $$ Carbon oxide (C
-                 O2) $$ Carbonic acid, gas $$ CO2 $
-                 $ Anhydride carbonique $$ Carbonic
-                 e $$ Kohlendioxyd $$ Kohlensaure $
-                 $ UN 1013 $$ UN 1845 $$ UN 2187
+  1   2.285  0.45 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Carbon dioxide                         81 000124-38-9  4
+                 Ethylene oxide                         75 000075-21-8  3
+                 Ethyne, fluoro-                        77 002713-09-9  3
  
-  2   2.499  0.04 C:\Database\WILEY275.L
-                 3-hydroxycarbonyl-2,5-dimethylpyrr  30309 000000-00-0 64
-                 olidine
-                 2-Butanamine (CAS) $$ sec-Butylami   1593 013952-84-6 59
-                 ne $$ 2-AB $$ Tutane $$ Butafume $
-                 $ 2-Butylamine $$ 2-Aminobutane $$
-                  1-Methylpropylamine $$ 1-Methylpr
-                 opanamine $$ Secondary butylamine 
-                 $$ Propylamine, 1-methyl- $$ Sec-C
-                 4H9NH2 $$ sec-Butanamine $$ Deccot
-                 ane $$ Frucote $$
-                 Benzeneethanamine, .alpha.-methyl-  23796 000051-64-9 59
-                 , (S)- (CAS) $$ Dextroamphetamine 
-                 $$ d-Amphetamine $$ Dexedrine $$ D
-                 examphetamine $$ (S)-Amphetamine $
-                 $ (+)-Amphetamine $$ S(+)-Amphetam
-                 ine $$ d-(S)-Amphetamine $$ (S)-(+
-                 )-Amphetamine $$ (S)-.alpha.-Pheny
-                 lethylamine $$ d-
+  2   2.499  0.04 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 2-Pentanamine, 4-methyl-             4227 000108-09-8 59
+                 Butanoic acid, 3-amino-              4631 000541-48-0 59
+                 Cyclobutanol                          663 002919-23-5 59
  
-  3   2.571  0.14 C:\Database\WILEY275.L
-                 Methanethiol (CAS) $$ Mercaptometh    299 000074-93-1 90
-                 ane $$ Methyl mercaptan $$ CH3SH $
-                 $ Methyl sulfhydrate $$ Methyl thi
-                 oalcohol $$ Mercaptan methylique $
-                 $ Methaanthiol $$ Methanthiol $$ M
-                 ethvtiolo $$ Methylmercaptaan $$ M
-                 etilmercaptano $$ Rcra waste numbe
-                 r U153 $$ Thiomet
-                 Methanethiol (CAS) $$ Mercaptometh    297 000074-93-1 80
-                 ane $$ Methyl mercaptan $$ CH3SH $
-                 $ Methyl sulfhydrate $$ Methyl thi
-                 oalcohol $$ Mercaptan methylique $
-                 $ Methaanthiol $$ Methanthiol $$ M
-                 ethvtiolo $$ Methylmercaptaan $$ M
-                 etilmercaptano $$ Rcra waste numbe
-                 r U153 $$ Thiomet
-                 Methanethiol (CAS) $$ Mercaptometh    298 000074-93-1 80
-                 ane $$ Methyl mercaptan $$ CH3SH $
-                 $ Methyl sulfhydrate $$ Methyl thi
-                 oalcohol $$ Mercaptan methylique $
-                 $ Methaanthiol $$ Methanthiol $$ M
-                 ethvtiolo $$ Methylmercaptaan $$ M
-                 etilmercaptano $$ Rcra waste numbe
-                 r U153 $$ Thiomet
+  3   2.571  0.14 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Methanethiol                          114 000074-93-1 80
+                 Methanethiol                          113 000074-93-1 72
+                 Propanamide, 2-hydroxy-              2199 002043-43-8  9
  
-  4   2.621  0.38 C:\Database\WILEY275.L
-                 2-DEUTEROBUTANE                       561 053716-55-5 53
-                 L-Alanine (CAS) $$ Alanine, L- $$    4186 000056-41-7 50
-                 L-(+)-.ALPHA.-ALANINE $$ (S)-Alani
-                 ne $$ Alanine $$ L-(+)-Alanine $$ 
-                 .alpha.-Alanine $$ L-.alpha.-Alani
-                 ne $$ L-2-Aminopropionicacid $$ L-
-                 2-Aminopropanoic acid $$ Propanoic
-                  acid, 2-amino- $$ .alpha.-Aminopr
-                 opionic acid $$ L
-                 1-Butanamine, N-methyl- (CAS) $$ M   3696 000110-68-9 40
-                 ethyl-n-butylamine $$ Methylbutyla
-                 mine $$ Butylmethylamine $$ N-Meth
-                 ylbutylamine $$ N-Butylmethylamine
-                  $$ N-Methylbutanamine $$ Butylami
-                 ne, N-methyl- $$ N-Methyl-n-butyla
-                 mine $$ N-Butyl-N-methylamine $$ N
-                 -n-butyl-N-methyl
+  4   2.621  0.37 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 dl-Alanine                           2180 000302-72-7 50
+                 Propanamide, 2-methyl-               1913 000563-83-7 36
+                 Cyclopropyl carbinol                  700 002516-33-8 36
  
-  5   2.795  1.10 C:\Database\WILEY275.L
-                 Methane, thiobis- (CAS) $$ 2-Thiap    823 000075-18-3 94
-                 ropane $$ DMS $$ Methylthiomethane
-                  $$ Methyl sulfide $$ Dimethyl sul
-                 fide $$ Methyl monosulfide $$ Dime
-                 thyl thioether $$ Dimethyl monosul
-                 fide $$ 2-THIAPROPANE(DIMETHYL SUL
-                 FIDE) $$ DIMETHYLSULFIDE $$ (METHY
-                 LTHIO)METHANE $$
-                 Methane, thiobis- (CAS) $$ 2-Thiap    829 000075-18-3 91
-                 ropane $$ DMS $$ Methylthiomethane
-                  $$ Methyl sulfide $$ Dimethyl sul
-                 fide $$ Methyl monosulfide $$ Dime
-                 thyl thioether $$ Dimethyl monosul
-                 fide $$ 2-THIAPROPANE(DIMETHYL SUL
-                 FIDE) $$ DIMETHYLSULFIDE $$ (METHY
-                 LTHIO)METHANE $$
-                 Methane, thiobis- (CAS) $$ 2-Thiap    828 000075-18-3 91
-                 ropane $$ DMS $$ Methylthiomethane
-                  $$ Methyl sulfide $$ Dimethyl sul
-                 fide $$ Methyl monosulfide $$ Dime
-                 thyl thioether $$ Dimethyl monosul
-                 fide $$ 2-THIAPROPANE(DIMETHYL SUL
-                 FIDE) $$ DIMETHYLSULFIDE $$ (METHY
-                 LTHIO)METHANE $$
+  5   2.795  1.07 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Dimethyl sulfide                      339 000075-18-3 91
+                 Dimethyl sulfide                      337 000075-18-3 91
+                 Dimethyl sulfide                      340 000075-18-3 91
  
-  6   3.116  1.96 C:\Database\WILEY275.L
-                 2-Propanone (CAS) $$ Acetone $$ pr    504 000067-64-1 80
-                 opan-2-one $$ Propanone $$ Methyl 
-                 ketone $$ Dimethyl ketone $$ Pyroa
-                 cetic ether $$ .beta.-Ketopropane 
-                 $$ Dimethylformaldehyde $$ ACETONE
-                  (2-PROPANONE) $$ (CH3)2CO $$ Ally
-                 lic alcohol $$ Dimethylketal $$ Ke
-                 tone propane $$ K
-                 2-Propanone (CAS) $$ Acetone $$ pr    502 000067-64-1 72
-                 opan-2-one $$ Propanone $$ Methyl 
-                 ketone $$ Dimethyl ketone $$ Pyroa
-                 cetic ether $$ .beta.-Ketopropane 
-                 $$ Dimethylformaldehyde $$ ACETONE
-                  (2-PROPANONE) $$ (CH3)2CO $$ Ally
-                 lic alcohol $$ Dimethylketal $$ Ke
-                 tone propane $$ K
-                 2-Propanone (CAS) $$ Acetone $$ pr    507 000067-64-1 72
-                 opan-2-one $$ Propanone $$ Methyl 
-                 ketone $$ Dimethyl ketone $$ Pyroa
-                 cetic ether $$ .beta.-Ketopropane 
-                 $$ Dimethylformaldehyde $$ ACETONE
-                  (2-PROPANONE) $$ (CH3)2CO $$ Ally
-                 lic alcohol $$ Dimethylketal $$ Ke
-                 tone propane $$ K
+  6   2.972  0.04 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Dimethyl sulfide                      338 000075-18-3 58
+                 Dimethyl sulfide                      337 000075-18-3 52
+                 Dimethyl sulfide                      339 000075-18-3 52
  
-  7   3.203  0.89 C:\Database\WILEY275.L
-                 Acetic acid, methyl ester (CAS) $$   1688 000079-20-9 72
-                  Methyl acetate $$ Devoton $$ Tere
-                 ton $$ Acetic acid methyl ester $$
-                  Methyl ester of acetic acid $$ me
-                 thyl  acetate $$ CH3COOCH3 $$ Meth
-                 yl ethanoate $$ Acetate de methyle
-                  $$ Methyl acetic ester $$ Methyla
-                 cetaat $$ Methyla
-                 METHYL ACETATE                       1735 000000-00-0 59
-                 Acetic acid, methyl ester (CAS) $$   1691 000079-20-9 59
-                  Methyl acetate $$ Devoton $$ Tere
-                 ton $$ Acetic acid methyl ester $$
-                  Methyl ester of acetic acid $$ me
-                 thyl  acetate $$ CH3COOCH3 $$ Meth
-                 yl ethanoate $$ Acetate de methyle
-                  $$ Methyl acetic ester $$ Methyla
-                 cetaat $$ Methyla
+  7   3.007  0.06 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Ethanethiol                           333 000075-08-1 43
+                 N,N'-Dicarbethoxy-N-[2,4-diamino-6 158901 049810-02-8 33
+                 -hydroxy-5-pyrimidinyl]hydrazine
+                 2-Methylaminomethyl-1,3-dioxolane    8669 057366-77-5 11
  
-  8   3.320  3.08 C:\Database\WILEY275.L
-                 Cyclotrisiloxane, hexamethyl- (CAS 106848 000541-05-9 83
-                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
-                 EXASILOXANE $$ Hexamethylcyclotris
-                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
-                 XANE $$ Dimethylsiloxane cyclic tr
-                 imer
-                 N-ethyl-1,3-dithioisoindoline $$ 1  92199 035373-06-9 83
-                 H-Isoindole-1,3(2H)-dithione, 2-et
+  8   3.116  1.91 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Acetone                               216 000067-64-1 72
+                 Acetone                               217 000067-64-1 56
+                 Formic acid, ethenyl ester            639 000692-45-5  7
+ 
+  9   3.203  0.86 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Acetic acid, methyl ester             828 000079-20-9 28
+                 Acetic acid, methyl ester             829 000079-20-9  9
+                 Urea, methyl-                         779 000598-50-5  7
+ 
+ 10   3.320  3.00 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Cyclotrisiloxane, hexamethyl-       85992 000541-05-9 90
+                 Cyclotrisiloxane, hexamethyl-       85994 000541-05-9 83
+                 Arsenous acid, tris(trimethylsilyl 199618 055429-29-3 78
+                 ) ester
+ 
+ 11   3.475  0.21 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Cyclotrisiloxane, hexamethyl-       85992 000541-05-9 78
+                 1,2-Bis(trimethylsilyl)benzene      85160 017151-09-6 50
+                 Cyclotrisiloxane, hexamethyl-       85994 000541-05-9 49
+ 
+ 12   3.585  0.22 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 o-(p-Tolyl) 1-azetidinecarbothioat  71383 010560-24-4 47
+                 Cyclotrisiloxane, hexamethyl-       85994 000541-05-9 46
+                 Butanal                               653 000123-72-8 46
+ 
+ 13   3.689  7.38 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 CH3C(O)CH2CH2OH                      2045 000590-90-9 53
+                 Ethyl Acetate                        2042 000141-78-6 53
+                 Pentanoic acid, 3-methyl-4-oxo-     13565 006628-79-1 50
+ 
+ 14   3.825  2.14 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 2-Butanone                            659 000078-93-3 53
+                 2-Hexanone, 3-methyl-                7656 002550-21-2 45
+                 2-Butanone                            658 000078-93-3 40
+ 
+ 15   3.976  1.83 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Butanal, 2-methyl-                   1768 000096-17-3 87
+                 Butanal, 2-methyl-                   1764 000096-17-3 56
+                 Cyclopropane, (methoxymethyl)-       1835 001003-13-0 53
+ 
+ 16   4.024  7.99 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Butanal, 3-methyl-                   1767 000590-86-3 90
+                 Butanal, 3-methyl-                   1762 000590-86-3 90
+                 Butanal, 3-methyl-                   1766 000590-86-3 64
+ 
+ 17   4.246  6.00 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Ethanol                                94 000064-17-5 86
+                 Ethanol                                96 000064-17-5 78
+                 Ethanol                                95 000064-17-5 78
+ 
+ 18   4.374  0.89 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Pentane, 1-methoxy-                  4512 000628-80-8 35
+                 Butane, 1-methoxy-3-methyl-          4554 000626-91-5 27
+                 DL-3-Aminoisobutyric acid, N-dimet  53568 1000375-50-2 22
+                 hylaminomethylene-, ethyl ester
+ 
+ 19   4.652  0.64 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 4-Hexen-3-ol                         3850 004798-58-7 53
+                 2,2'-Bifuran, octahydro-            20171 001592-33-2 50
+                 Butanoic acid, 2-butoxy-1-methyl-2  79406 007492-70-8 50
+                 -oxoethyl ester
+ 
+ 20   4.816  0.17 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 2,3-Butanedione                      1680 000431-03-8 38
+                 2,3-Butanedione                      1677 000431-03-8 38
+                 Acetamide, N-(aminoiminomethyl)-     4080 005699-40-1 33
+ 
+ 21   4.855  0.21 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Digitoxose                          23610 000527-52-6 38
+                 Propane, 2-(ethenyloxy)-             1815 000926-65-8 35
+                 2-Butenedioic acid, 2-methyl-, (Z)  13504 000498-23-7 23
+ 
+ 22   4.978  0.76 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Cyclotetrasiloxane, octamethyl-    155951 000556-67-2 90
+                 5H-Naphtho[2,3-c]carbazole, 5-meth 141100 100025-44-3 50
+                 yl-
+                 7H-Dibenzo[b,g]carbazole, 7-methyl 141099 003557-49-1 45
+ 
+ 23   5.050  0.49 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Carbonic acid, dimethyl ester        2295 000616-38-6 50
+                 Carbonic acid, dimethyl ester        2294 000616-38-6 50
+                 Carbonic acid, dimethyl ester        2296 000616-38-6 43
+ 
+ 24   5.179  0.23 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 1H-Pyrazole, 3-ethyl-4,5-dihydro-    3105 005920-29-6 35
+                 Cyclohexane, 1,1'-(2-propyl-1,3-pr 111840 055030-21-2 27
+                 opanediyl)bis-
+                 1-Propyne, 1-(ethenylthio)-          3174 058547-36-7 25
+ 
+ 25   5.220  0.36 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Divinyldimethylsilane                6450 010519-87-6 47
+                 Sulfurous acid, cyclohexylmethyl n 163274 1000309-21-8 47
+                 onyl ester
+                 Isoxazole, 3,5-dimethyl-             3004 000300-87-8 43
+ 
+ 26   5.351  0.14 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Methyl Isobutyl Ketone               3930 000108-10-1 35
+                 2-Hexanone                           3835 000591-78-6 27
+                 1,3-Dioxane-2-propanol, 2-methyl-   32386 036651-31-7 22
+ 
+ 27   5.407  0.17 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Butanoic acid, 2-methyl-, methyl e   8364 000868-57-5 38
+                 ster
+                 Butanoic acid, 2-methyl-, methyl e   8370 000868-57-5 30
+                 ster
+                 Butanoic acid, 2-methyl-, methyl e   8371 000868-57-5 25
+                 ster
+ 
+ 28   5.469  0.14 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Isobutyl acetate                     8226 000110-19-0 22
+                 Isobutyl acetate                     8231 000110-19-0 22
+                 Isobutyl acetate                     8229 000110-19-0 12
+ 
+ 29   5.588  0.57 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Methyl isovalerate                   8239 000556-24-1 60
+                 Methyl isovalerate                   8237 000556-24-1 52
+                 Methyl isovalerate                   8240 000556-24-1 38
+ 
+ 30   5.709  0.23 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 2-Propanol, 1,3-dimethoxy-           9427 000623-69-8 38
+                 2-Propanol, 1,3-dimethoxy-           9429 000623-69-8 38
+                 2-Hexanol, 5-methyl-                 8498 000627-59-8 35
+ 
+ 31   5.851  0.09 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 7,7,9,9,11,11-Hexamethyl-3,6,8,10, 229185 1000375-89-1 43
+                 12,15-hexaoxa-7,9,11-trisilaheptad
+                 ecane
+                 Cyclotetrasiloxane, octamethyl-    155949 000556-67-2 35
+                 Arsenous acid, tris(trimethylsilyl 199618 055429-29-3 27
+                 ) ester
+ 
+ 32   5.931  0.06 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Butanoic acid, ethyl ester           8300 000105-54-4 43
+                 2-Hydroperoxytetrahydrofuran, TMS   44820 1000368-50-8 27
+                 derivative
+                 Butanoic acid, ethyl ester           8296 000105-54-4 18
+ 
+ 33   5.997  0.41 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Toluene                              2482 000108-88-3 60
+                 Toluene                              2481 000108-88-3 60
+                 Toluene                              2478 000108-88-3 60
+ 
+ 34   6.158  0.30 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 2-Propanol, 1-(1-methylethoxy)-      9029 003944-36-3 32
+                 2-Butanol, 3-methyl-                 2144 000598-75-4 27
+                 2-Butanol, 3-methyl-                 2138 000598-75-4 27
+ 
+ 35   6.273  0.16 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Butanoic acid, 2-methyl-, ethyl es  13837 007452-79-1 55
+                 ter
+                 Butanoic acid, 2-methyl-, ethyl es  13847 007452-79-1 43
+                 ter
+                 Butanoic acid, 2-methyl-, ethyl es  13845 007452-79-1 43
+                 ter
+ 
+ 36   6.349  0.05 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 N-Methoxymethyl-N-methylformamide    4653 005129-79-3 35
+                 dl-Allo-cystathionine               86038 000056-88-2 30
+                 Imidodicarbonic acid, diethyl este  32840 019617-44-8 27
+ 
+ 37   6.594  0.42 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Butanoic acid, 3-methyl-, ethyl es  13841 000108-64-5 90
+                 ter
+                 Pentanoic acid, ethyl ester         13774 000539-82-2 59
+                 Butanoic acid, 3-methyl-, ethyl es  13842 000108-64-5 52
+                 ter
+ 
+ 38   6.683  3.92 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Disulfide, dimethyl                  2561 000624-92-0 95
+                 Disulfide, dimethyl                  2564 000624-92-0 94
+                 Disulfide, dimethyl                  2565 000624-92-0 91
+ 
+ 39   6.872  0.19 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Disulfide, dimethyl                  2561 000624-92-0 83
+                 Disulfide, dimethyl                  2564 000624-92-0 60
+                 Fumaric acid, cyclohex-3-enylmethy 193797 1000345-14-5 38
+                 l nonyl ester
+ 
+ 40   7.001  0.10 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Disulfide, dimethyl                  2561 000624-92-0 50
+                 Disulfide, dimethyl                  2563 000624-92-0 50
+                 Disulfide, dimethyl                  2565 000624-92-0 50
+ 
+ 41   7.081  0.19 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Disulfide, dimethyl                  2561 000624-92-0 42
+                 Disulfide, dimethyl                  2565 000624-92-0 38
+                 Disulfide, dimethyl                  2562 000624-92-0 38
+ 
+ 42   7.176  0.11 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 2-Butenal, 2-methyl-                 1433 001115-11-3 53
+                 2-Butenal, 2-methyl-                 1436 001115-11-3 53
+                 2-Butenal, 2-methyl-, (E)-           1459 000497-03-0 53
+ 
+ 43   7.241  0.78 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 1-Propanol, 2-methyl-                 861 000078-83-1 72
+                 1-Propanol, 2-methyl-                 865 000078-83-1 72
+                 1-Propanol, 2-methyl-                 864 000078-83-1 72
+ 
+ 44   7.341  0.09 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 1H-Pyrrole, 2-ethyl-4-methyl-        5711 069687-77-0 50
+                 2-Hexen-4-yne, 2-methyl-             2642 058275-93-7 38
+                 Pyrrole, 4-ethyl-2-methyl-           5708 005690-96-0 35
+ 
+ 45   7.575  2.37 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 4-Chlorobenzoic acid, dodec-9-ynyl 178703 1000282-81-9 50
+                  ester
+                 2-Fluoro-.alpha.-methylbenzyl alco  28510 1000365-11-2 38
+                 hol, methyl ether
+                 2(1H)Pyrimidinone,4-amino-1,N-dime  18175 006220-49-1 38
+                 thyl-
+ 
+ 46   7.818  0.12 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 3-Butenoic acid, 3-methyl-, methyl   7441 025859-52-3 42
+                  ester
+                 Piperazine, 1,4-dimethyl-            7490 000106-58-1 38
+                 2-Thiazolamine, 4-methyl-            7223 001603-91-4 27
+ 
+ 47   7.901  0.09 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 1-Butanol, 3-methyl-, acetate       13786 000123-92-2 80
+                 1-Butanol, 3-methyl-, acetate       13793 000123-92-2 76
+                 1-Butanol, 3-methyl-, acetate       13792 000123-92-2 72
+ 
+ 48   7.959  0.19 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Butanenitrile, 3-methyl-             1311 000625-28-5 28
+                 1-Propanesulfonyl chloride          19772 010147-36-1 17
+                 Pentanenitrile                       1306 000110-59-8 12
+ 
+ 49   8.167  0.05 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 2-Pentene, 3,4-dimethyl-, (Z)-       3444 004914-91-4 49
+                 2-Pentene, 3,4-dimethyl-, (E)-       3447 004914-92-5 49
+                 1H-Pyrazole, 4,5-dihydro-5,5-dimet   3113 004320-85-8 49
                  hyl-
-                 Cyclotrisiloxane, hexamethyl- (CAS 106845 000541-05-9 83
-                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
-                 EXASILOXANE $$ Hexamethylcyclotris
-                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
-                 XANE $$ Dimethylsiloxane cyclic tr
-                 imer
- 
-  9   3.475  0.21 C:\Database\WILEY275.L
-                 Cyclotrisiloxane, hexamethyl- (CAS 106848 000541-05-9 83
-                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
-                 EXASILOXANE $$ Hexamethylcyclotris
-                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
-                 XANE $$ Dimethylsiloxane cyclic tr
-                 imer
-                 N-ethyl-1,3-dithioisoindoline $$ 1  92199 035373-06-9 83
-                 H-Isoindole-1,3(2H)-dithione, 2-et
-                 hyl-
-                 Cyclotrisiloxane, hexamethyl- (CAS 106845 000541-05-9 78
-                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
-                 EXASILOXANE $$ Hexamethylcyclotris
-                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
-                 XANE $$ Dimethylsiloxane cyclic tr
-                 imer
- 
- 10   3.585  0.22 C:\Database\WILEY275.L
-                 N-ethyl-1,3-dithioisoindoline $$ 1  92199 035373-06-9 86
-                 H-Isoindole-1,3(2H)-dithione, 2-et
-                 hyl-
-                 Butanal (CAS) $$ n-Butanal $$ Buty   1333 000123-72-8 49
-                 raldehyde $$ Butal $$ Butyral $$ B
-                 utaldehyde $$ Butanaldehyde $$ But
-                 yl aldehyde $$ n-Butyraldehyde $$ 
-                 Butyrylaldehyde $$ n-Butyl aldehyd
-                 e $$ Butyric aldehyde $$ 1-BUTANAL
-                  (N-BUTYRALDEHYDE) $$ 1-butanal $$
-                  n-C3H7CHO $$ Ald
-                 Butanal (CAS) $$ n-Butanal $$ Buty   1331 000123-72-8 49
-                 raldehyde $$ Butal $$ Butyral $$ B
-                 utaldehyde $$ Butanaldehyde $$ But
-                 yl aldehyde $$ n-Butyraldehyde $$ 
-                 Butyrylaldehyde $$ n-Butyl aldehyd
-                 e $$ Butyric aldehyde $$ 1-BUTANAL
-                  (N-BUTYRALDEHYDE) $$ 1-butanal $$
-                  n-C3H7CHO $$ Ald
- 
- 11   3.689  7.59 C:\Database\WILEY275.L
-                 ETHYL ACETATE                        3931 000141-78-6 78
-                 ETHYL ACETATE $$ ACETIC ETHER        3928 000141-78-6 53
-                 Acetic acid, ethyl ester (CAS) $$    3818 000141-78-6 53
-                 Acetic acid ethyl ester (CAS) $$ E
-                 thyl acetate $$ Acetidin $$ Acetic
-                  ether $$ Acetoxyethane $$ Ethyl e
-                 thanoate $$ Ethyl acetic ester $$ 
-                 Vinegar naphtha her $$ Vinegar nap
-                 htha $$ Ethyl ester of acetic acid
-                  $$ CH3COOC2H5 $$
- 
- 12   3.825  2.20 C:\Database\WILEY275.L
-                 2-Butanone (CAS) $$ Methyl ethyl k   1355 000078-93-3 58
-                 etone $$ MEK $$ MEK al $$ Butanone
-                  $$ Butan-2-one $$ Ethyl methyl ke
-                 tone $$ Ketone, methyl ethyl $$ 3-
-                 Butanone $$ 2-BUTANONE (METHYL ETH
-                 YL KETONE) $$ C2H5COCH3 $$ Acetone
-                 , methyl- $$ Aethylmethylketon $$ 
-                 Butanone 2 $$ Eth
-                 2-Butanone (CAS) $$ Methyl ethyl k   1359 000078-93-3 52
-                 etone $$ MEK $$ MEK al $$ Butanone
-                  $$ Butan-2-one $$ Ethyl methyl ke
-                 tone $$ Ketone, methyl ethyl $$ 3-
-                 Butanone $$ 2-BUTANONE (METHYL ETH
-                 YL KETONE) $$ C2H5COCH3 $$ Acetone
-                 , methyl- $$ Aethylmethylketon $$ 
-                 Butanone 2 $$ Eth
-                 2-BUTANONE                           1479 000000-00-0 50
- 
- 13   3.976  1.89 C:\Database\WILEY275.L
-                 Butanal, 2-methyl- (CAS) $$ 2-Meth   3295 000096-17-3 87
-                 ylbutanal $$ ISOVALERALDEHYDE (2-M
-                 ETHYL) $$ 2-Methylbutyraldehyde $$
-                  2-Formylbutane $$ .alpha.-Methylb
-                 utanal $$ Methylethylacetaldehyde 
-                 $$ Butyraldehyde, 2-methyl- $$ 2-M
-                 ethylbutyric aldehyde $$ .alpha.-M
-                 ethylbutyraldehyd
-                 Butanal, 2-methyl- (CAS) $$ 2-Meth   3297 000096-17-3 86
-                 ylbutanal $$ ISOVALERALDEHYDE (2-M
-                 ETHYL) $$ 2-Methylbutyraldehyde $$
-                  2-Formylbutane $$ .alpha.-Methylb
-                 utanal $$ Methylethylacetaldehyde 
-                 $$ Butyraldehyde, 2-methyl- $$ 2-M
-                 ethylbutyric aldehyde $$ .alpha.-M
-                 ethylbutyraldehyd
-                 Butanal, 2-methyl- (CAS) $$ 2-Meth   3296 000096-17-3 80
-                 ylbutanal $$ ISOVALERALDEHYDE (2-M
-                 ETHYL) $$ 2-Methylbutyraldehyde $$
-                  2-Formylbutane $$ .alpha.-Methylb
-                 utanal $$ Methylethylacetaldehyde 
-                 $$ Butyraldehyde, 2-methyl- $$ 2-M
-                 ethylbutyric aldehyde $$ .alpha.-M
-                 ethylbutyraldehyd
- 
- 14   4.024  8.21 C:\Database\WILEY275.L
-                 Butanal, 3-methyl- (CAS) $$ 3-Meth   3302 000590-86-3 93
-                 ylbutanal $$ Isovaleraldehyde $$ I
-                 sovaleral $$ Isopentanal $$ 3-Meth
-                 ylbutan-1-al $$ Isovalerylaldehyde
-                  $$ Isovaleric aldehyde $$ .beta.-
-                 Methylbutanal $$ 3-Methylbutyralde
-                 hyde $$ Isoamylaldehyde $$ iso-Val
-                 eraldehyde $$ 3-M
-                 Butanal, 3-methyl- (CAS) $$ 3-Meth   3305 000590-86-3 86
-                 ylbutanal $$ Isovaleraldehyde $$ I
-                 sovaleral $$ Isopentanal $$ 3-Meth
-                 ylbutan-1-al $$ Isovalerylaldehyde
-                  $$ Isovaleric aldehyde $$ .beta.-
-                 Methylbutanal $$ 3-Methylbutyralde
-                 hyde $$ Isoamylaldehyde $$ iso-Val
-                 eraldehyde $$ 3-M
-                 Butanal, 3-methyl- (CAS) $$ 3-Meth   3314 000590-86-3 86
-                 ylbutanal $$ Isovaleraldehyde $$ I
-                 sovaleral $$ Isopentanal $$ 3-Meth
-                 ylbutan-1-al $$ Isovalerylaldehyde
-                  $$ Isovaleric aldehyde $$ .beta.-
-                 Methylbutanal $$ 3-Methylbutyralde
-                 hyde $$ Isoamylaldehyde $$ iso-Val
-                 eraldehyde $$ 3-M
- 
- 15   4.246  6.17 C:\Database\WILEY275.L
-                 Ethanol (CAS) $$ Ethyl alcohol $$     284 000064-17-5 86
-                 EtOH $$ Tecsol $$ Jaysol $$ Alcoho
-                 l $$ Algrain $$ Anhydrol $$ Jaysol
-                  S $$ Ethyl alc $$ Thanol $$ Ethyl
-                  hydrate $$ Methylcarbinol $$ Ethy
-                 l hydroxide $$ Alcohol anhydrous $
-                 $ Denatured ethanol $$ SD Alchol 2
-                 3-hydrogen $$ Tec
-                 Ethanol (CAS) $$ Ethyl alcohol $$     273 000064-17-5 86
-                 EtOH $$ Tecsol $$ Jaysol $$ Alcoho
-                 l $$ Algrain $$ Anhydrol $$ Jaysol
-                  S $$ Ethyl alc $$ Thanol $$ Ethyl
-                  hydrate $$ Methylcarbinol $$ Ethy
-                 l hydroxide $$ Alcohol anhydrous $
-                 $ Denatured ethanol $$ SD Alchol 2
-                 3-hydrogen $$ Tec
-                 Ethanol (CAS) $$ Ethyl alcohol $$     281 000064-17-5 78
-                 EtOH $$ Tecsol $$ Jaysol $$ Alcoho
-                 l $$ Algrain $$ Anhydrol $$ Jaysol
-                  S $$ Ethyl alc $$ Thanol $$ Ethyl
-                  hydrate $$ Methylcarbinol $$ Ethy
-                 l hydroxide $$ Alcohol anhydrous $
-                 $ Denatured ethanol $$ SD Alchol 2
-                 3-hydrogen $$ Tec
- 
- 16   4.374  0.91 C:\Database\WILEY275.L
-                 THIAZOLE                             3009 000000-00-0 45
-                 2-Hexanol, 3-methyl- (CAS) $$ 3-Me  13496 002313-65-7 35
-                 thyl-2-hexanol
-                 Ethanol (CAS) $$ Ethyl alcohol $$     281 000064-17-5 32
-                 EtOH $$ Tecsol $$ Jaysol $$ Alcoho
-                 l $$ Algrain $$ Anhydrol $$ Jaysol
-                  S $$ Ethyl alc $$ Thanol $$ Ethyl
-                  hydrate $$ Methylcarbinol $$ Ethy
-                 l hydroxide $$ Alcohol anhydrous $
-                 $ Denatured ethanol $$ SD Alchol 2
-                 3-hydrogen $$ Tec
- 
- 17   4.652  0.66 C:\Database\WILEY275.L
-                 2-Furanmethanol, tetrahydro- (CAS)   7572 000097-99-4 64
-                  $$ Tetrahydrofurfuryl alcohol $$ 
-                 ALFA-TETRAHYDROFURFURYL ALCOHOL $$
-                  Qo thfa $$ THFA $$ Tetrahydro-2-f
-                 urylmethanol $$ Tetrahydro-2-furan
-                 methanol $$ Tetrahydro-2-furancarb
-                 inol $$ Tetrahydro-2-furanylmethan
-                 ol $$ Tetrahydro-
-                 BUTYL BUTYRYL LACTATE              101150 007492-70-8 59
-                 1-Penten-3-ol, 4-methyl- (CAS) $$    6847 004798-45-2 53
-                 4-PENTEN-3-OL, 2-METHYL- $$ 4-Hexe
-                 n-3-ol
- 
- 18   4.816  0.17 C:\Database\WILEY275.L
-                 Acetic acid, ethyl ester (CAS) $$    3821 000141-78-6 38
-                 Acetic acid ethyl ester (CAS) $$ E
-                 thyl acetate $$ Acetidin $$ Acetic
-                  ether $$ Acetoxyethane $$ Ethyl e
-                 thanoate $$ Ethyl acetic ester $$ 
-                 Vinegar naphtha her $$ Vinegar nap
-                 htha $$ Ethyl ester of acetic acid
-                  $$ CH3COOC2H5 $$
-                 Acetic acid, ethyl ester (CAS) $$    3823 000141-78-6 27
-                 Acetic acid ethyl ester (CAS) $$ E
-                 thyl acetate $$ Acetidin $$ Acetic
-                  ether $$ Acetoxyethane $$ Ethyl e
-                 thanoate $$ Ethyl acetic ester $$ 
-                 Vinegar naphtha her $$ Vinegar nap
-                 htha $$ Ethyl ester of acetic acid
-                  $$ CH3COOC2H5 $$
-                 ETHYL ACETATE                        3931 000141-78-6 23
- 
- 19   4.855  0.22 C:\Database\WILEY275.L
-                 2-Butenoic acid, (Z)- (CAS) $$ Iso   3141 000503-64-0 43
-                 crotonic acid $$ cis-Crotonic acid
-                  $$ (Z)-Crotonic acid $$ (Z)-2-But
-                 enoic acid $$ Crotonic acid, (Z)- 
-                 $$ cis-2-Butenoic acid $$ (Z)-CH3C
-                 H=CHCOOH
-                 2-Butenoic acid, (Z)- (CAS) $$ Iso   3140 000503-64-0 43
-                 crotonic acid $$ cis-Crotonic acid
-                  $$ (Z)-Crotonic acid $$ (Z)-2-But
-                 enoic acid $$ Crotonic acid, (Z)- 
-                 $$ cis-2-Butenoic acid $$ (Z)-CH3C
-                 H=CHCOOH
-                 Cyclopentanol (CAS) $$ Hydroxycycl   3426 000096-41-3 38
-                 opentane $$ Cyclopentyl alcohol $$
-                  UN 2244
- 
- 20   4.978  0.78 C:\Database\WILEY275.L
-                 Cyclotetrasiloxane, octamethyl- (C 174363 000556-67-2 78
-                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
-                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
-                 YCLIC TETRAMER) CYCLOTETRASILOXANE
-                  $$ Octamethylcyclotetrasiloxane $
-                 $ NUC Silicone VS 7207 $$ Octameth
-                 yl-cyclotetrasiloxane $$ Oktamethy
-                 lcyklotetrasiloxa
-                 Cyclotetrasiloxane, octamethyl- (C 174364 000556-67-2 78
-                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
-                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
-                 YCLIC TETRAMER) CYCLOTETRASILOXANE
-                  $$ Octamethylcyclotetrasiloxane $
-                 $ NUC Silicone VS 7207 $$ Octameth
-                 yl-cyclotetrasiloxane $$ Oktamethy
-                 lcyklotetrasiloxa
-                 Cyclotetrasiloxane, octamethyl- (C 174360 000556-67-2 74
-                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
-                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
-                 YCLIC TETRAMER) CYCLOTETRASILOXANE
-                  $$ Octamethylcyclotetrasiloxane $
-                 $ NUC Silicone VS 7207 $$ Octameth
-                 yl-cyclotetrasiloxane $$ Oktamethy
-                 lcyklotetrasiloxa
- 
- 21   5.050  0.51 C:\Database\WILEY275.L
-                 Cyclotetrasiloxane, octamethyl- (C 174366 000556-67-2 56
-                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
-                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
-                 YCLIC TETRAMER) CYCLOTETRASILOXANE
-                  $$ Octamethylcyclotetrasiloxane $
-                 $ NUC Silicone VS 7207 $$ Octameth
-                 yl-cyclotetrasiloxane $$ Oktamethy
-                 lcyklotetrasiloxa
-                 Carbonic acid, dimethyl ester (CAS   4278 000616-38-6 52
-                 ) $$ Methyl carbonate $$ Dimethyl 
-                 ester of carbonic acid $$ Dimethyl
-                  carbonate $$ Methyl carbonate ((M
-                 eO)2CO) $$ Carbonic acid dimethyl 
-                 ester $$ CH3OCOOCH3 $$ UN 1161
-                 Carbonic acid, dimethyl ester (CAS   4279 000616-38-6 52
-                 ) $$ Methyl carbonate $$ Dimethyl 
-                 ester of carbonic acid $$ Dimethyl
-                  carbonate $$ Methyl carbonate ((M
-                 eO)2CO) $$ Carbonic acid dimethyl 
-                 ester $$ CH3OCOOCH3 $$ UN 1161
- 
- 22   5.179  0.24 C:\Database\WILEY275.L
-                 (2R,5R,6R)-2-t-butyl-5-isopropyl-5 114243 134528-91-9 43
-                 ,6-dimethyl-1,3-dioxan-4-one
-                 6-Azaestra-1,3,5(10),6,8-pentaen-1 162651 005144-20-7 38
-                 7-one, 3-methoxy- (CAS) $$ 3-METHO
-                 XY-6-AZA-1,3,5(10),6,8(9)-ESTRAPEN
-                 TAEN-17-ONE
-                 Cyclotetrasiloxane, octamethyl- (C 174361 000556-67-2 30
-                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
-                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
-                 YCLIC TETRAMER) CYCLOTETRASILOXANE
-                  $$ Octamethylcyclotetrasiloxane $
-                 $ NUC Silicone VS 7207 $$ Octameth
-                 yl-cyclotetrasiloxane $$ Oktamethy
-                 lcyklotetrasiloxa
- 
- 23   5.220  0.37 C:\Database\WILEY275.L
-                 Cyclohexane, 1,3-dimethyl-, cis- (  11154 000638-04-0 43
-                 CAS) $$ cis-1,3-Dimethylcyclohexan
-                 e $$ CYCLOHEXANE, 1,3-DIMETHYL-, (
-                 Z)- $$ 1,cis-3-Dimethylcyclohexane
-                 5-Nonen-4-one (CAS) $$ NONA-5-ENE-  28002 032064-77-0 43
-                 4-ONE
-                 Thiophene, 2-propyl- (CAS) $$ 2-Pr  17814 001551-27-5 43
-                 opylthiophene $$ 2-n-Propylthiophe
-                 ne
- 
- 24   5.351  0.14 C:\Database\WILEY275.L
-                 4-METHYL-2-PENTANONE                 6992 000000-00-0 35
-                 2-Pentanone, 3-methyl- (CAS) $$ 3-   6716 000565-61-7 35
-                 Methyl-2-pentanone $$ Methyl sec-b
-                 utyl ketone $$ sec-Butyl methyl ke
-                 tone $$ Methyl 1-methylpropyl keto
-                 ne $$ 3-Methylpentan-2-one $$ METH
-                 YL ISO-BUTYL KETONE $$ sec-C4H9COC
-                 H3
-                 2-Pentanone, 4-methyl- (CAS) $$ 4-   6722 000108-10-1 35
-                 Methyl-2-pentanone $$ MIK $$ MIBK 
-                 $$ Methyl isobutyl ketone $$ Hexon
-                 e $$ Isopropylacetone $$ 4,Methyl-
-                 2,pentanone $$ 2-Methyl-4-pentanon
-                 e $$ 4-Methyl-2-oxopentane $$ Isob
-                 utyl methyl ketone $$ 2-Methylprop
-                 yl methyl ketone
- 
- 25   5.407  0.17 C:\Database\WILEY275.L
-                 5-Methylthio-7,8-dihydro-6H-benzoc 162576 128039-58-7 83
-                 yclohepta[2,1-e]pyrazolo[1,5-a]pyr
-                 imidine $$ 6H-Benzo[3,4]cyclohepta
-                 [1,2-e]pyrazolo[1,5-a]pyrimidine, 
-                 7,8-dihydro-5-(methylthio)-
-                 Butanoic acid, 2-methyl-, methyl e  13002 000868-57-5 42
-                 ster (CAS) $$ Methyl 2-methylbutyr
-                 ate $$ Methyl ester of 2-methyl-bu
-                 tanoic acid $$ Methyl 2-methylbuta
-                 noate $$ Methyl .alpha.-methylbuty
-                 rate $$ Methyl .alpha.-methylbutan
-                 oate $$ 2-Methylbutanoic acid meth
-                 yl ester $$ Butyr
-                 Butanoic acid, 2-methyl-, methyl e  13005 000868-57-5 30
-                 ster (CAS) $$ Methyl 2-methylbutyr
-                 ate $$ Methyl ester of 2-methyl-bu
-                 tanoic acid $$ Methyl 2-methylbuta
-                 noate $$ Methyl .alpha.-methylbuty
-                 rate $$ Methyl .alpha.-methylbutan
-                 oate $$ 2-Methylbutanoic acid meth
-                 yl ester $$ Butyr
- 
- 26   5.469  0.15 C:\Database\WILEY275.L
-                 Acetic acid, 2-methylpropyl ester   13086 000110-19-0 25
-                 (CAS) $$ Isobutyl acetate $$ 2-Met
-                 hylpropyl acetate $$ Acetic acid i
-                 sobutyl ester $$ Acetic acid, isob
-                 utyl ester $$ .beta.-Methylpropyl 
-                 ethanoate $$ 2-Methyl-1-propyl ace
-                 tate $$ Isobutyl acetate fcc $$ Ac
-                 etate d'isobutyle
-                 ISOBUTYLACETATE                     13288 000000-00-0 22
-                 Acetic acid, 2-methylpropyl ester   13084 000110-19-0 22
-                 (CAS) $$ Isobutyl acetate $$ 2-Met
-                 hylpropyl acetate $$ Acetic acid i
-                 sobutyl ester $$ Acetic acid, isob
-                 utyl ester $$ .beta.-Methylpropyl 
-                 ethanoate $$ 2-Methyl-1-propyl ace
-                 tate $$ Isobutyl acetate fcc $$ Ac
-                 etate d'isobutyle
- 
- 27   5.588  0.59 C:\Database\WILEY275.L
-                 Butanoic acid, 3-methyl-, methyl e  13013 000556-24-1 62
-                 ster (CAS) $$ Methyl isovalerate $
-                 $ Methyl isopentanoate $$ Methyl i
-                 so-valerate $$ Methyl 3-methylbuty
-                 rate $$ Methyl 3-methylbutanoate $
-                 $ Isovaleric acid, methyl ester $$
-                  ISOVALERIC ACID-METHYL ESTER $$ 3
-                 -Methylbutanoic a
-                 Butanoic acid, 3-methyl-, methyl e  13014 000556-24-1 62
-                 ster (CAS) $$ Methyl isovalerate $
-                 $ Methyl isopentanoate $$ Methyl i
-                 so-valerate $$ Methyl 3-methylbuty
-                 rate $$ Methyl 3-methylbutanoate $
-                 $ Isovaleric acid, methyl ester $$
-                  ISOVALERIC ACID-METHYL ESTER $$ 3
-                 -Methylbutanoic a
-                 Butanoic acid, 3-methyl-, methyl e  13009 000556-24-1 53
-                 ster (CAS) $$ Methyl isovalerate $
-                 $ Methyl isopentanoate $$ Methyl i
-                 so-valerate $$ Methyl 3-methylbuty
-                 rate $$ Methyl 3-methylbutanoate $
-                 $ Isovaleric acid, methyl ester $$
-                  ISOVALERIC ACID-METHYL ESTER $$ 3
-                 -Methylbutanoic a
- 
- 28   5.709  0.23 C:\Database\WILEY275.L
-                 Ethanol, 2,2'-oxybis- (CAS) $$ Die   8503 000111-46-6 43
-                 thylene glycol $$ DEG $$ TL4N $$ D
-                 igol $$ Dicol $$ Digenos $$ Diglyc
-                 ol $$ Deactivator H $$ Brecolane N
-                 DG $$ Deactivator E $$ Dissolvant 
-                 APV $$ 2,2'-Oxyethanol $$ 2,2'-Oxy
-                 diethanol $$ Ethylene diglycol $$ 
-                 2,2'-Oxybis[ethan
-                 2-Propanol, 1,3-dimethoxy- (CAS) $  14731 000623-69-8 38
-                 $ 1,3-Dimethoxy-2-propanol $$ Glyc
-                 erol 1,3-dimethyl ether
-                 Oxirane, (methoxymethyl)- (CAS) $$   3882 000930-37-0 35
-                  1,2-Epoxy-3-methoxypropane $$ Met
-                 hylglycidyl ether $$ Glycidyl meth
-                 yl ether $$ Methyl glycidyl ether 
-                 $$ Glycidol methyl ether $$ (Metho
-                 xymethyl)oxirane $$ 3-Methoxypropy
-                 lene oxide $$ 3-Methoxy-1,2-epoxyp
-                 ropane $$ Propane
- 
- 29   5.997  0.42 C:\Database\WILEY275.L
-                 Toluene                              4599 000108-88-3 60
-                 Benzene, methyl- (CAS) $$ Toluene    4560 000108-88-3 60
-                 $$ CP 25 $$ Methylbenzene $$ Toluo
-                 l $$ Methacide $$ Antisal 1a $$ Me
-                 thylbenzol $$ Phenylmethane $$ MET
-                 HYLBENZENE(TOLUENE) $$ Benzene, me
-                 thyl $$ Methane, phenyl- $$ NCI-C0
-                 7272 $$ Tolueen $$ Toluen $$ Toluo
-                 lo $$ Rcra waste
-                 Benzene, methyl- (CAS) $$ Toluene    4563 000108-88-3 60
-                 $$ CP 25 $$ Methylbenzene $$ Toluo
-                 l $$ Methacide $$ Antisal 1a $$ Me
-                 thylbenzol $$ Phenylmethane $$ MET
-                 HYLBENZENE(TOLUENE) $$ Benzene, me
-                 thyl $$ Methane, phenyl- $$ NCI-C0
-                 7272 $$ Tolueen $$ Toluen $$ Toluo
-                 lo $$ Rcra waste
- 
- 30   6.158  0.31 C:\Database\WILEY275.L
-                 2-Propanol, 1-(1-methylethoxy)- (C  14124 003944-36-3 32
-                 AS) $$ 2-Propanol, 1-isopropoxy- $
-                 $ 1-Isopropoxy-2-propanol
-                 Ethanol, 2-(2-methoxyethoxy)- (CAS  14737 000111-77-3 32
-                 ) $$ Dowanol DM $$ 2-(2-Methoxyeth
-                 oxy)ethanol $$ Diethylene glycol m
-                 ethyl ether $$ Methyl digol $$ Pol
-                 y-Solv DM $$ Methyl Dioxitol $$ Me
-                 thyl Carbitol $$ Diglycol monometh
-                 yl ether $$ Diethylene glycol mono
-                 methyl ether $$ E
-                 1,3-Butanediol (CAS) $$ 1,3-Butyle   4349 000107-88-0 27
-                 ne glycol $$ 1,3-Dihydroxybutane $
-                 $ .beta.-Butylene glycol $$ 1-Meth
-                 yl-1,3-propanediol $$ Methyltrimet
-                 hylene glycol $$ Butane-1,3-diol $
-                 $ BD $$ 1,3-Butandiol $$ 1,3-Butyl
-                 englykol
- 
- 31   6.273  0.16 C:\Database\WILEY275.L
-                 Butanoic acid, 2-methyl-, ethyl es  20737 007452-79-1 55
-                 ter (CAS) $$ Ethyl 2-methylbutyrat
-                 e $$ Ethyl 2-methylbutanoate $$ Et
-                 hyl .alpha.-methylbutyrate $$ Buty
-                 ric acid, 2-methyl-, ethyl ester $
-                 $ 2-Methylbutanoic acid ethyl este
-                 Butanoic acid, 2-methyl-, ethyl es  20739 007452-79-1 50
-                 ter (CAS) $$ Ethyl 2-methylbutyrat
-                 e $$ Ethyl 2-methylbutanoate $$ Et
-                 hyl .alpha.-methylbutyrate $$ Buty
-                 ric acid, 2-methyl-, ethyl ester $
-                 $ 2-Methylbutanoic acid ethyl este
-                 Butanoic acid, 2-methyl-, ethyl es  20736 007452-79-1 50
-                 ter (CAS) $$ Ethyl 2-methylbutyrat
-                 e $$ Ethyl 2-methylbutanoate $$ Et
-                 hyl .alpha.-methylbutyrate $$ Buty
-                 ric acid, 2-methyl-, ethyl ester $
-                 $ 2-Methylbutanoic acid ethyl este
- 
- 32   6.594  0.43 C:\Database\WILEY275.L
-                 Butanoic acid, 3-methyl-, ethyl es  20743 000108-64-5 93
-                 ter (CAS) $$ Ethyl isovalerate $$ 
-                 ethyl isopentanoate $$ Ethyl 3-met
-                 hylbutyrate $$ Ethyl 3-methylbutan
-                 oate $$ Isovaleric acid, ethyl est
-                 er $$ 3-Methylbutanoic acid ethyl 
-                 ester $$ (CH3)2CHCH2C(O)OC2H5 $$ E
-                 thyl iso-pentanoa
-                 Butanoic acid, 3-methyl-, ethyl es  20750 000108-64-5 83
-                 ter (CAS) $$ Ethyl isovalerate $$ 
-                 ethyl isopentanoate $$ Ethyl 3-met
-                 hylbutyrate $$ Ethyl 3-methylbutan
-                 oate $$ Isovaleric acid, ethyl est
-                 er $$ 3-Methylbutanoic acid ethyl 
-                 ester $$ (CH3)2CHCH2C(O)OC2H5 $$ E
-                 thyl iso-pentanoa
-                 Butanoic acid, 3-methyl-, ethyl es  20749 000108-64-5 83
-                 ter (CAS) $$ Ethyl isovalerate $$ 
-                 ethyl isopentanoate $$ Ethyl 3-met
-                 hylbutyrate $$ Ethyl 3-methylbutan
-                 oate $$ Isovaleric acid, ethyl est
-                 er $$ 3-Methylbutanoic acid ethyl 
-                 ester $$ (CH3)2CHCH2C(O)OC2H5 $$ E
-                 thyl iso-pentanoa
- 
- 33   6.683  4.03 C:\Database\WILEY275.L
-                 DIMETHYLDISULFIDE $$ METHYLDISULFI   4738 000624-92-0 95
-                 DE
-                 Disulfide, dimethyl (CAS) $$ 2,3-D   4730 000624-92-0 94
-                 ithiabutane $$ Dimethyl disulfide 
-                 $$ Methyl disulfide $$ (Methyldith
-                 io)methane $$ Dimethyl disulphide 
-                 $$ (CH3S)2 $$ UN 2381
-                 Disulfide, dimethyl (CAS) $$ 2,3-D   4731 000624-92-0 91
-                 ithiabutane $$ Dimethyl disulfide 
-                 $$ Methyl disulfide $$ (Methyldith
-                 io)methane $$ Dimethyl disulphide 
-                 $$ (CH3S)2 $$ UN 2381
- 
- 34   6.872  0.20 C:\Database\WILEY275.L
-                 Disulfide, dimethyl (CAS) $$ 2,3-D   4730 000624-92-0 60
-                 ithiabutane $$ Dimethyl disulfide 
-                 $$ Methyl disulfide $$ (Methyldith
-                 io)methane $$ Dimethyl disulphide 
-                 $$ (CH3S)2 $$ UN 2381
-                 Disulfide, dimethyl (CAS) $$ 2,3-D   4734 000624-92-0 60
-                 ithiabutane $$ Dimethyl disulfide 
-                 $$ Methyl disulfide $$ (Methyldith
-                 io)methane $$ Dimethyl disulphide 
-                 $$ (CH3S)2 $$ UN 2381
-                 Disulfide, dimethyl (CAS) $$ 2,3-D   4733 000624-92-0 49
-                 ithiabutane $$ Dimethyl disulfide 
-                 $$ Methyl disulfide $$ (Methyldith
-                 io)methane $$ Dimethyl disulphide 
-                 $$ (CH3S)2 $$ UN 2381
- 
- 35   7.001  0.11 C:\Database\WILEY275.L
-                 Disulfide, dimethyl (CAS) $$ 2,3-D   4728 000624-92-0 50
-                 ithiabutane $$ Dimethyl disulfide 
-                 $$ Methyl disulfide $$ (Methyldith
-                 io)methane $$ Dimethyl disulphide 
-                 $$ (CH3S)2 $$ UN 2381
-                 Disulfide, dimethyl (CAS) $$ 2,3-D   4731 000624-92-0 50
-                 ithiabutane $$ Dimethyl disulfide 
-                 $$ Methyl disulfide $$ (Methyldith
-                 io)methane $$ Dimethyl disulphide 
-                 $$ (CH3S)2 $$ UN 2381
-                 Disulfide, dimethyl (CAS) $$ 2,3-D   4730 000624-92-0 50
-                 ithiabutane $$ Dimethyl disulfide 
-                 $$ Methyl disulfide $$ (Methyldith
-                 io)methane $$ Dimethyl disulphide 
-                 $$ (CH3S)2 $$ UN 2381
- 
- 36   7.081  0.20 C:\Database\WILEY275.L
-                 Disulfide, dimethyl (CAS) $$ 2,3-D   4731 000624-92-0 38
-                 ithiabutane $$ Dimethyl disulfide 
-                 $$ Methyl disulfide $$ (Methyldith
-                 io)methane $$ Dimethyl disulphide 
-                 $$ (CH3S)2 $$ UN 2381
-                 Disulfide, dimethyl (CAS) $$ 2,3-D   4732 000624-92-0 38
-                 ithiabutane $$ Dimethyl disulfide 
-                 $$ Methyl disulfide $$ (Methyldith
-                 io)methane $$ Dimethyl disulphide 
-                 $$ (CH3S)2 $$ UN 2381
-                 DIMETHYLDISULFIDE $$ METHYLDISULFI   4738 000624-92-0 38
-                 DE
- 
- 37   7.176  0.11 C:\Database\WILEY275.L
-                 2-Butenal, 2-methyl- (CAS) $$ 2-FO   2709 001115-11-3 53
-                 RMYL-2-BUTENE $$ 2-Methyl-2-butena
-                 l $$ 2,3-Dimethylacrolein $$ 2-Met
-                 hylcrotonaldehyde $$ Crotonaldehyd
-                 e, 2-methyl- $$ 2-methyl 2-butenal
-                 2-Butenal, 2-methyl- (CAS) $$ 2-FO   2706 001115-11-3 53
-                 RMYL-2-BUTENE $$ 2-Methyl-2-butena
-                 l $$ 2,3-Dimethylacrolein $$ 2-Met
-                 hylcrotonaldehyde $$ Crotonaldehyd
-                 e, 2-methyl- $$ 2-methyl 2-butenal
-                 2-Butenal, 2-methyl- (CAS) $$ 2-FO   2708 001115-11-3 53
-                 RMYL-2-BUTENE $$ 2-Methyl-2-butena
-                 l $$ 2,3-Dimethylacrolein $$ 2-Met
-                 hylcrotonaldehyde $$ Crotonaldehyd
-                 e, 2-methyl- $$ 2-methyl 2-butenal
- 
- 38   7.241  0.80 C:\Database\WILEY275.L
-                 ISOBUTYL ALCOHOL                     1871 000000-00-0 80
-                 1-Propanol, 2-methyl- (CAS) $$ Iso   1815 000078-83-1 72
-                 butyl alcohol $$ 2-Methyl-1-propan
-                 ol $$ Isobutanol $$ Isopropylcarbi
-                 nol $$ 2-Methyl1-propanol $$ 2-met
-                 hylpropanol $$ iso-C4H9OH $$ Ferme
-                 ntation butyl alcohol $$ 1-Hydroxy
-                 methylpropane $$ 2-Methylpropan-1-
-                 ol $$ 2-Methylpro
-                 1-Propanol, 2-methyl- (CAS) $$ Iso   1822 000078-83-1 72
-                 butyl alcohol $$ 2-Methyl-1-propan
-                 ol $$ Isobutanol $$ Isopropylcarbi
-                 nol $$ 2-Methyl1-propanol $$ 2-met
-                 hylpropanol $$ iso-C4H9OH $$ Ferme
-                 ntation butyl alcohol $$ 1-Hydroxy
-                 methylpropane $$ 2-Methylpropan-1-
-                 ol $$ 2-Methylpro
- 
- 39   7.575  2.44 C:\Database\WILEY275.L
-                 Phenol, 2-nitro- (CAS) $$ o-Nitrop  26952 000088-75-5 56
-                 henol $$ 2-Nitrophenol $$ Phenol, 
-                 o-nitro- $$ o-Hydroxynitrobenzene 
-                 $$ 2-Hydroxynitrobenzene $$ o-Nitr
-                 ofenol $$ UN 1663
-                 3-METHYL-2-METHYLAMINO-4-(3H)PYRIM  26980 064359-54-2 49
-                 IDINONE $$ 4(3H)-Pyrimidinone, 3-m
-                 ethyl-2-(methylamino)- (CAS)
-                 2H-Pyran, 2-ethenyltetrahydro-2,6,  40142 007392-19-0 38
-                 6-trimethyl- (CAS) $$ 2,2-DIMETHYL
-                 -6-METHYL-6VINYLTETRAHYDROPYRAN $$
-                  LINALOYL OXIDE $$ 2,6,6-Trimethyl
-                 -2-vinyltetrahydropyran $$ 2,2,6-T
-                 rimethyl-6-vinyltetrahydropyran $$
-                  2H-Pyran, tetrahydro-2,2,6-trimet
-                 hyl-6-vinyl- $$ P
- 
- 40   7.818  0.12 C:\Database\WILEY275.L
-                 3-Pentanone, 2,4-dimethyl- (CAS) $  12186 000565-80-0 30
-                 $ 2,4-Dimethylpentan-3-one $$ Isob
-                 utyrone $$ Isopropyl ketone $$ Dii
-                 sopropyl ketone $$ 2,4-Dimethyl-3-
-                 pentanone $$ (iso-C3H7)2CO
-                 methyl n-tridecylsuccinate         198265 000000-00-0 27
-                 N,N'-Dimethylpiperazine $$ Piperaz  12005 000106-58-1 27
-                 ine, 1,4-dimethyl- $$ Lupetazine $
-                 $ 1,4-Dimethylpiperazine
- 
- 41   7.901  0.09 C:\Database\WILEY275.L
-                 1-Butanol, 3-methyl-, acetate (CAS  20840 000123-92-2 76
-                 ) $$ Isoamyl acetate $$ 3-METHYL B
-                 UTYL ACETATE $$ ETHANOIC ACID, 3-M
-                 ETHYL BUTANOL ESTER $$ Pear oil $$
-                  Banana oil $$ i-Amyl acetate $$ I
-                 soamyl ethanoate $$ Isopentyl acet
-                 ate $$ 3-Methylbutyl acetate $$ 3-
-                 Methyl-1-butyl ac
-                 1-Butanol, 3-methyl-, acetate (CAS  20831 000123-92-2 72
-                 ) $$ Isoamyl acetate $$ 3-METHYL B
-                 UTYL ACETATE $$ ETHANOIC ACID, 3-M
-                 ETHYL BUTANOL ESTER $$ Pear oil $$
-                  Banana oil $$ i-Amyl acetate $$ I
-                 soamyl ethanoate $$ Isopentyl acet
-                 ate $$ 3-Methylbutyl acetate $$ 3-
-                 Methyl-1-butyl ac
-                 ISOAMYL ACETATE                     20927 000123-92-2 72
- 
- 42   7.959  0.19 C:\Database\WILEY275.L
-                 ISO-BUTANONITRILE                    2569 000000-00-0 43
-                 Butanenitrile, 3-methyl- (CAS) $$    2533 000625-28-5 37
-                 ISOBUTYL CYANIDE $$ Isoamylnitrile
-                  $$ Isovaleronitrile $$ Isopentane
-                  nitrile $$ 3-Methylbutyronitrile 
-                 $$ Butyronitrile, 3-methyl- $$ 2-M
-                 ethylbutane secondary mononitrile
-                 2-ETHYLBUTANAL                       7000 000000-00-0 10
- 
- 43   8.167  0.05 C:\Database\WILEY275.L
-                 4-METHYL-3-PENTEN-2-ONE              5904 000000-00-0 60
-                 3-Penten-2-one, 4-methyl- (CAS) $$   5693 000141-79-7 60
-                  Mesityl oxide $$ 2-METHYLPENT-2-E
-                 N-4-ONE $$ Isopropylideneacetone $
-                 $ Methyl isobutenyl ketone $$ Acet
-                 one, isopropylidene- $$ Isobutenyl
-                  methyl ketone $$ 4-Methyl-3-pente
-                 n-2-one $$ Methyl 2-methyl-1-prope
-                 nyl ketone $$ Met
-                 2-Pentene, 2,3-dimethyl- (CAS) $$    6041 010574-37-5 53
-                 2,3-Dimethyl-2-pentene $$ Ethyltri
-                 methylethylene $$ C2H5C(CH3)=C(CH3
-                 )2
- 
- 44   8.559  0.15 C:\Database\WILEY275.L
-                 1-Butanol (CAS) $$ n-Butanol $$ CC   1788 000071-36-3 80
-                 S 203 $$ n-Butyl alcohol $$ Hemost
-                 yp $$ n-Butan-1-ol $$ Butyl alcoho
-                 l $$ Butanol $$ Butyl hydroxide $$
-                  Methylolpropane $$ Propyl carbino
-                 l l $$ Propyl carbinol $$ 1-Butyl 
-                 alcohol $$ Butanol (French $$ Prop
-                 ylcarbinol $$ 1-B
-                 1-Butanol (CAS) $$ n-Butanol $$ CC   1790 000071-36-3 80
-                 S 203 $$ n-Butyl alcohol $$ Hemost
-                 yp $$ n-Butan-1-ol $$ Butyl alcoho
-                 l $$ Butanol $$ Butyl hydroxide $$
-                  Methylolpropane $$ Propyl carbino
-                 l l $$ Propyl carbinol $$ 1-Butyl 
-                 alcohol $$ Butanol (French $$ Prop
-                 ylcarbinol $$ 1-B
-                 1-Butanol (CAS) $$ n-Butanol $$ CC   1780 000071-36-3 72
-                 S 203 $$ n-Butyl alcohol $$ Hemost
-                 yp $$ n-Butan-1-ol $$ Butyl alcoho
-                 l $$ Butanol $$ Butyl hydroxide $$
-                  Methylolpropane $$ Propyl carbino
-                 l l $$ Propyl carbinol $$ 1-Butyl 
-                 alcohol $$ Butanol (French $$ Prop
-                 ylcarbinol $$ 1-B
- 
- 45   8.808  0.15 C:\Database\WILEY275.L
-                 Cyclopentasiloxane, decamethyl- (C 221487 000541-02-6 56
-                 AS) $$ Dimethylsiloxane pentamer $
-                 $ DECAMETHYL-CYCLOPENTASILOXANE $$
-                  Decamethylcyclopentasiloxane $$ D
-                 ekamethylcyklopentasiloxan $$ Unio
-                 n Carbide 7158 Silicone Fluid $$ D
-                 ow Corning 345 $$ NUC Silicone VS 
-                 7158 $$ Dow Corni
-                 3,4-Dihydroxymandelic acid, ethyl  244232 000000-00-0 47
-                 ester, tri-TMS
-                 EPINEPHRINE-TRITMS                 234322 000000-00-0 38
- 
- 46   8.868  0.04 C:\Database\WILEY275.L
-                 Cyclopentasiloxane, decamethyl- (C 221487 000541-02-6 42
-                 AS) $$ Dimethylsiloxane pentamer $
-                 $ DECAMETHYL-CYCLOPENTASILOXANE $$
-                  Decamethylcyclopentasiloxane $$ D
-                 ekamethylcyklopentasiloxan $$ Unio
-                 n Carbide 7158 Silicone Fluid $$ D
-                 ow Corning 345 $$ NUC Silicone VS 
-                 7158 $$ Dow Corni
-                 Silane, [[4-[1,2-bis[(trimethylsil 251987 056114-62-6 38
-                 yl)oxy]ethyl]-1,2-phenylene]bis(ox
-                 y)]bis[trimethyl- (CAS) $$ 3,4-DIH
-                 YDROXYPHENYLGLYCOL-TETRATMS $$ DL-
-                 3,4-DIHYDROXYPHENYLGLYCOL (TRIMETH
-                 YLSILYL DERIVATIVE) $$ Silane, [[4
-                 -[1,2-bis[(trimethylsilyl)oxy]ethy
-                 l]-1,2-phenylene]
-                 3,4-Dihydroxymandelic acid, ethyl  244232 000000-00-0 38
-                 ester, tri-TMS
- 
- 47   9.001  0.09 C:\Database\WILEY275.L
-                 ethyl E-2-butenoate                 11896 000000-00-0 43
-                 2-Butenoic acid, ethyl ester, (E)-  11734 000623-70-1 32
-                  (CAS) $$ Ethyl (E)-crotonate $$ E
-                 thyl trans-crotonate $$ Crotonic a
-                 cid, ethyl ester, (E)- $$ trans-2-
-                 Butenoic acid ethyl ester $$ (E)-2
-                 -Butenoic acid ethyl ester $$ Ethy
-                 l crotonate $$ (E)-CH3CH=CHCOOC2H5
-                  $$ Crotonic acid
-                 ETHYL CROTANOATE                    11932 000000-00-0 30
- 
- 48   9.129  0.08 C:\Database\WILEY275.L
-                 2-Butenoic acid, 3-methyl-, methyl  11728 000924-50-5 64
-                  ester (CAS) $$ Methyl 3-methyl-2-
-                 butenoate $$ Methyl senecioate $$ 
-                 Methyl 3-methylcrotonate $$ Methyl
-                  3,3-dimethacrylate $$ Methyl 3,3-
-                 dimethylacrylate $$ Methyl .beta.-
-                 methylcrotonate $$ 3-Methylcrotoni
-                 c acid methyl est
-                 2-Butenoic acid, 3-methyl-, methyl  11727 000924-50-5 64
-                  ester (CAS) $$ Methyl 3-methyl-2-
-                 butenoate $$ Methyl senecioate $$ 
-                 Methyl 3-methylcrotonate $$ Methyl
-                  3,3-dimethacrylate $$ Methyl 3,3-
-                 dimethylacrylate $$ Methyl .beta.-
-                 methylcrotonate $$ 3-Methylcrotoni
-                 c acid methyl est
-                 2-Pentenoic acid, methyl ester (CA  11709 000818-59-7 59
-                 S) $$ Methyl 2-pentenoate $$ METHY
-                 L-2-PENTENOATE
- 
- 49   9.453  0.13 C:\Database\WILEY275.L
-                 1,8-Cineole $$ 2-Oxabicyclo[2.2.2]  40424 000470-82-6 59
-                 octane, 1,3,3-trimethyl- (CAS) $$ 
-                 Terpan $$ Zineol $$ Eucapur $$ p-C
-                 ineole $$ Cajeputol $$ Eucalyptol 
-                 $$ Cucalyptol $$ Zedoary oil $$ 1,
-                 8-Epoxy-p-menthane $$ 2-Oxa-1,3,3-
-                 trimethylbicyclo[2.2.2]octane $$ 1
-                 ,3,3-Trimethyl-2-
-                 Carvomenthone $$ Cyclohexanone, 2-  40256 000499-70-7 38
-                 methyl-5-(1-methylethyl)-, trans- 
-                 (CAS) $$ p-Menthan-2-one $$ Tetrah
-                 ydrocarvone $$ trans-p-Menthan-2-o
-                 ne $$ p-Menthan-2-one, (4R)- $$ p-
-                 Menthan-2-one, trans- $$ trans-5-I
-                 sopropyl-2-methylcyclohexanone $$ 
-                 Cyclohexanone, 2-
-                 (E)-9-decalol $$ trans-bicyclo[4.4  40634 001654-87-1 35
-                 .0]decan-1-ol $$ 4a(2H)-Naphthalen
-                 ol, octahydro-, trans- $$ 4a(2H)-N
-                 aphthol, octahydro-, trans- $$ tra
-                 ns-Octahydro-4a(2H)-naphthol $$ tr
-                 ans-9-Decalol
- 
- 50   9.540  0.03 C:\Database\WILEY275.L
-                 o-Xylene                             8704 000095-47-6 56
-                 Benzene, 1,3-dimethyl- (CAS) $$ m-   8658 000108-38-3 56
-                 Xylene $$ m-Xylol $$ 1,3-Xylene $$
-                  2,4-Xylene $$ m-Dimethylbenzene $
-                 $ 1,3-Dimethylbenzene $$ m-Methylt
-                 oluene $$ 1,3-Dimethyl-benzene $$ 
-                 1,3-DIMETHYLBENZENE(M-XYLENE) $$ 1
-                 ,3-DIMETHYLBENZENE (M-XYLENE) $$ m
-                 eta-Xylene $$ UN
-                 Benzene, 1,3-dimethyl- (CAS) $$ m-   8667 000108-38-3 55
-                 Xylene $$ m-Xylol $$ 1,3-Xylene $$
-                  2,4-Xylene $$ m-Dimethylbenzene $
-                 $ 1,3-Dimethylbenzene $$ m-Methylt
-                 oluene $$ 1,3-Dimethyl-benzene $$ 
-                 1,3-DIMETHYLBENZENE(M-XYLENE) $$ 1
-                 ,3-DIMETHYLBENZENE (M-XYLENE) $$ m
-                 eta-Xylene $$ UN
- 
- 51   9.971  0.14 C:\Database\WILEY275.L
-                 Cyclohexene, 1-methyl-4-(1-methyle  25046 005989-27-5 97
-                 thenyl)-, (R)- (CAS) $$ D-1,8(9)-P
-                 -MENTHADIENE,(D-1-METHYL-4-ISOPROP
-                 ENYLCYCLOHEXENE $$ d-Limonene $$ (
-                 +)-Limonene $$ D-(+)-Limonene $$ L
-                 imonene, (+)- $$ (+)-(R)-Limonene 
-                 $$ (R)-(+)-Limonene $$ (+)-(4R)-Li
-                 monene $$ (+)-p-M
-                 l-LIMONENE                          25371 005989-54-8 97
-                 LIMONENE                            25367 000138-86-3 97
- 
- 52  10.348  7.29 C:\Database\WILEY275.L
-                 1-Butanol, 3-methyl- (impure) (CAS   4082 000123-51-3 83
-                 ) $$ 3-Methyl-1-butanol $$ Isopent
-                 anol $$ 3-Methylbutanol $$ Fusel o
-                 il $$ Isoamylol $$ Isoamyl alcohol
-                  $$ Isobutyl carbinol $$ Isopentyl
-                  alcohol $$ 2-Methyl-4-butanol $$ 
-                 Fermentation amyl alcohol $$ iso-A
-                 myl alcohol $$ 1-
-                 1-Butanol, 3-methyl- (impure) (CAS   4093 000123-51-3 83
-                 ) $$ 3-Methyl-1-butanol $$ Isopent
-                 anol $$ 3-Methylbutanol $$ Fusel o
-                 il $$ Isoamylol $$ Isoamyl alcohol
-                  $$ Isobutyl carbinol $$ Isopentyl
-                  alcohol $$ 2-Methyl-4-butanol $$ 
-                 Fermentation amyl alcohol $$ iso-A
-                 myl alcohol $$ 1-
-                 1-Butanol, 3-methyl- (impure) (CAS   4086 000123-51-3 83
-                 ) $$ 3-Methyl-1-butanol $$ Isopent
-                 anol $$ 3-Methylbutanol $$ Fusel o
-                 il $$ Isoamylol $$ Isoamyl alcohol
-                  $$ Isobutyl carbinol $$ Isopentyl
-                  alcohol $$ 2-Methyl-4-butanol $$ 
-                 Fermentation amyl alcohol $$ iso-A
-                 myl alcohol $$ 1-
- 
- 53  10.459  0.45 C:\Database\WILEY275.L
-                 5-ISOPRENYL-2-2METHYL-2VINYLTETRAH  37955 013679-86-2 96
-                 YDROFURAN $$ HERBOXIDE
-                 trans,trans-2,8-Decadiene $$ 2,8-D  26896 019398-85-7 60
-                 ecadiene, (E,E)-
-                 cis-Isopropenyl-5-methyl-2-vinyl-2  37892 000000-00-0 46
-                 -oxolane
- 
- 54  11.107  0.05 C:\Database\WILEY275.L
-                 1-TERPINEOL $$ TERPENENE-1-OL       40596 000586-82-3 56
-                 CIS-SABINENE HYDRATE                40612 015826-82-1 50
-                 TRANS-SABINENE HYDRATE              40611 017699-16-0 46
- 
- 55  11.357  1.94 C:\Database\WILEY275.L
-                 HERBOXIDE SECOND ISOMER             37956 013679-86-2 96
-                 5-ISOPRENYL-2-2METHYL-2VINYLTETRAH  37955 013679-86-2 87
-                 YDROFURAN $$ HERBOXIDE
-                 trans-Isopropenyl-5-methyl-2-vinyl  37891 000000-00-0 58
-                 -2-oxolane $$ anhydrolinalol oxide
- 
- 56  11.516  0.19 C:\Database\WILEY275.L
-                 Thiazole (CAS) $$ 1,3-THIAZOLE       3015 000288-47-1 38
-                 Thiazole (CAS) $$ 1,3-THIAZOLE       3017 000288-47-1 38
-                 Thiazole (CAS) $$ 1,3-THIAZOLE       3013 000288-47-1 38
- 
- 57  11.633  0.09 C:\Database\WILEY275.L
-                 3-METHYLBUTAN-1-OL                   4126 000000-00-0 53
-                 1-Pentanol (CAS) $$ Amylol $$ n-Pe   4036 000071-41-0 53
-                 ntanol $$ Amyl alcohol $$ n-Pentan
-                 -1-ol $$ Pentanol $$ n-Amyl alcoho
-                 l $$ Pentyl alcohol $$ n-Butyl car
-                 binol $$ n-Pentyl alcohol $$ 1-Pen
-                 tyl alcoholther $$ n-Butylcarbinol
-                  $$ 1-Pentyl alcohol $$ n-C5H11OH 
-                 $$ Pentan-1-ol $$
-                 1-PENTANOL                           4136 000000-00-0 53
- 
- 58  12.150  0.91 C:\Database\WILEY275.L
-                 Benzene, 1-methyl-4-(1-methylethyl  23310 000099-87-6 97
-                 )- (CAS) $$ p-Cymene $$ 1-Methyl-4
-                 -isopropylbenzene $$ p-Cymol $$ p-
-                 Cimene $$ Camphogen $$ Dolcymene $
-                 $ 2-p-Tolylpropane $$ p-Isopropylt
-                 oluene $$ p-Methylisopropylbenzene
-                  $$ 1-Isopropyl-4-methylbenzene $$
-                  4-Isopropyl-1-me
-                 PARA CYMENE                         23459 000099-87-6 95
-                 Benzene, 1-methyl-4-(1-methylethyl  23306 000099-87-6 94
-                 )- (CAS) $$ p-Cymene $$ 1-Methyl-4
-                 -isopropylbenzene $$ p-Cymol $$ p-
-                 Cimene $$ Camphogen $$ Dolcymene $
-                 $ 2-p-Tolylpropane $$ p-Isopropylt
-                 oluene $$ p-Methylisopropylbenzene
-                  $$ 1-Isopropyl-4-methylbenzene $$
-                  4-Isopropyl-1-me
- 
- 59  12.444  0.08 C:\Database\WILEY275.L
-                 1-Propanone, 1-phenyl- (CAS) $$ Pr  23126 000093-55-0 38
-                 opiophenone $$ PROPANOYLBENZENE $$
-                  Phenetol $$ Propionylbenzene $$ P
-                 henyl ethyl ketone $$ Ethyl phenyl
-                  ketone $$ 1-Phenyl-1-propanone $$
-                  Propionphenone $$ Ketone, ethyl p
-                 henyl $$ USAF ek-1235
-                 1-Propanone, 1-phenyl- (CAS) $$ Pr  23123 000093-55-0 38
-                 opiophenone $$ PROPANOYLBENZENE $$
-                  Phenetol $$ Propionylbenzene $$ P
-                 henyl ethyl ketone $$ Ethyl phenyl
-                  ketone $$ 1-Phenyl-1-propanone $$
-                  Propionphenone $$ Ketone, ethyl p
-                 henyl $$ USAF ek-1235
-                 propanophenone                      23048 000000-00-0 35
- 
- 60  12.577  0.08 C:\Database\WILEY275.L
-                 PARA-CYMENE $$ 4-ISOPROPYLTOLUENE   23457 000099-87-6 55
-                 Benzene, 1-methyl-4-(1-methylethyl  23307 000099-87-6 51
-                 )- (CAS) $$ p-Cymene $$ 1-Methyl-4
-                 -isopropylbenzene $$ p-Cymol $$ p-
-                 Cimene $$ Camphogen $$ Dolcymene $
-                 $ 2-p-Tolylpropane $$ p-Isopropylt
-                 oluene $$ p-Methylisopropylbenzene
-                  $$ 1-Isopropyl-4-methylbenzene $$
-                  4-Isopropyl-1-me
-                 2-Propanol, 1-(propylthio)- (CAS)   22819 053957-22-5 38
-                 $$ (2-HYDROXYPROPYL) N-PROPYL SULP
-                 HIDE
- 
- 61  13.850  0.36 C:\Database\WILEY275.L
-                 1-tert-Butyl-3,4-dimethylpyrazole   37618 063989-68-4 86
-                 1-Methoxy-4-(1'-methylethyl)cycloh  38068 000000-00-0 83
-                 exa-1,4-diene
-                 4-isopropenyl-5-methyl-4-hexen-1-a  39788 122760-95-6 43
- 
- 62  13.999  0.09 C:\Database\WILEY275.L
-                 Pyrazine, 2,3-dimethyl- (CAS) $$ 2   9013 005910-89-4 72
-                 ,3-Dimethylpyrazine $$ 2,3-dimethy
-                 l pyrazine
-                 2,5-DIMETHYLPYRAZINE                 9098 000000-00-0 72
-                 Pyrazine, 2,6-dimethyl- (CAS) $$ 2   9034 000108-50-9 50
-                 ,6-Dimethylpyrazine $$ 3,5-Dimethy
-                 lpyrazine
- 
- 63  14.266  0.17 C:\Database\WILEY275.L
-                 (E)-2-[(N-hydroxy-N-phenyl)-amino] 206467 127744-55-2 50
-                 -3-[N-(phenylimino)]-indole $$ 1H-
-                 Indol-2-amine, N-hydroxy-1-methyl-
-                 N-phenyl-3-[(phenylimino)methyl]-,
-                  (E)-
-                 methyl 2-trimethylsiloxy-N-(1-trim 213004 000000-00-0 50
-                 ethylsiloxy-trideuteroethylene)-5-
-                 imino-phenyl-methanoate
-                 16-oxosalutaridine                 206326 094707-61-6 37
- 
- 64  14.850  2.32 C:\Database\WILEY275.L
-                 1-Hexanol (CAS) $$ n-Hexanol $$ Am   7737 000111-27-3 83
-                 ylcarbinol $$ n-Hexan-1-ol $$ Hexy
-                 l alcohol $$ Hexanol $$ Pentylcarb
-                 inol $$ Caproyl alcohol $$ n-Hexyl
-                  alcohol $$ 1-Hexyl alcohol $$ 1-H
-                 ydroxyhexane $$ n-C6H13OH $$ Hexan
-                 -1-ol $$ Hexanol-(1) $$ Epal 6 $$ 
-                 UN 2282
-                 1-HEXANOL                            7890 000000-00-0 78
-                 1-Hexanol (CAS) $$ n-Hexanol $$ Am   7731 000111-27-3 78
-                 ylcarbinol $$ n-Hexan-1-ol $$ Hexy
-                 l alcohol $$ Hexanol $$ Pentylcarb
-                 inol $$ Caproyl alcohol $$ n-Hexyl
-                  alcohol $$ 1-Hexyl alcohol $$ 1-H
-                 ydroxyhexane $$ n-C6H13OH $$ Hexan
-                 -1-ol $$ Hexanol-(1) $$ Epal 6 $$ 
-                 UN 2282
- 
- 65  15.155  0.06 C:\Database\WILEY275.L
-                 3-Hexen-1-ol (CAS) $$ 3-Hexen-1-ol   6783 000544-12-7 42
-                  (c,t)
-                 3-Hexen-1-ol, (E)- (CAS) $$ E-3-He   6788 000928-97-2 38
-                 xenol $$ trans-3-Hexen-1-ol $$ tra
-                 ns-3-Hexenol $$ (E)-3-Hexenol $$ (
-                 E)-Hex-3-en-1-ol
-                 3-Hexen-1-ol, (E)- (CAS) $$ E-3-He   6787 000928-97-2 38
-                 xenol $$ trans-3-Hexen-1-ol $$ tra
-                 ns-3-Hexenol $$ (E)-3-Hexenol $$ (
-                 E)-Hex-3-en-1-ol
- 
- 66  15.522  0.39 C:\Database\WILEY275.L
-                 Cyclopropane, 1,1-dimethyl-2-(1-me  38512 056701-50-9 47
-                 thylethyl)-3-(1-methylethylidene)-
-                 , (.+-.)- (CAS) $$ D-L 1,4-TETRAME
-                 THYL,3-ISOPROPYL METHYLENYLCYCLOPR
-                 OPANE $$ Cyclopropane, 1,1-dimethy
-                 l-2-(1-methylethyl)-3-(1-methyleth
-                 ylidene)-, (.+/-.)-
-                 Cyclopentane, (2-methylpropylidene  16968 053366-58-8 43
-                 )- (CAS)
-                 5,7-Dodecadiene, (Z,Z)- (CAS) $$ C  51710 006108-62-9 40
-                 IS,CIS-DODECA-5,7-DIENE
- 
- 67  15.807  0.14 C:\Database\WILEY275.L
-                 3-Hexen-1-ol, (Z)- (CAS) $$ cis-3-   6780 000928-96-1 93
-                 Hexene-1-ol $$ Z-3-Hexenol $$ Leaf
-                  alcohol $$ 3-(Z)-Hexenol $$ cis-3
-                 -Hexenol $$ Blatteralkohol $$ cis-
-                 3-Hexen-1-ol $$ (Z)-Hex-3-en-1-ol 
-                 $$ Blatteralkohol (German) $$ .bet
-                 a.,.gamma.-Hexenol $$ HEXEN-30L-1 
-                 $$ 3-Hexen-1-ol $
-                 3-Hexen-1-ol, (Z)- (CAS) $$ cis-3-   6779 000928-96-1 93
-                 Hexene-1-ol $$ Z-3-Hexenol $$ Leaf
-                  alcohol $$ 3-(Z)-Hexenol $$ cis-3
-                 -Hexenol $$ Blatteralkohol $$ cis-
-                 3-Hexen-1-ol $$ (Z)-Hex-3-en-1-ol 
-                 $$ Blatteralkohol (German) $$ .bet
-                 a.,.gamma.-Hexenol $$ HEXEN-30L-1 
-                 $$ 3-Hexen-1-ol $
-                 CIS-3-HEXENOL                        6975 000928-96-1 91
- 
- 68  16.034  0.04 C:\Database\WILEY275.L
-                 2-OXO-3-(O-HYDROXYPHENYLCARBONYLME 162549 060943-31-9 25
-                 THYL)-1,4,2-BENZOXAZINE $$ 2H-1,4-
-                 Benzoxazin-2-one, 3-[2-(2-hydroxyp
-                 henyl)-2-oxoethyl]- (CAS)
-                 4-(Phenylthioxomethyl)morpholine $  92247 002032-36-2 22
-                 $ N-((phenyl(thioxo)methyl)morphol
-                 ine $$ Morpholine, 4-(thiobenzoyl)
-                 - $$ Morpholinylthiobenzamide $$ 4
-                 -(Thiobenzoyl)morpholine $$ Morpho
-                 line, 4-(phenylthioxomethyl)- $$ T
-                 hiobenzomorpholide $$ 4-Thiobenzoy
-                 lmorpholine $$ N-
-                 Benzenamine, 2,4-dimethyl- (CAS) $  15293 000095-68-1 15
-                 $ m-Xylidine $$ 2,4-Dimethylanilin
-                 e $$ 2,4-Xylidine $$ 4-Amino-1,3-x
-                 ylene $$ 4-Amino-1,3-dimethylbenze
-                 ne $$ 1-Amino-2,4-dimethylbenzene 
-                 $$ 2,4-Dimethylphenylamine $$ 2,4-
-                 Xylylamine $$ 2,4-Dimethylbenzenam
-                 ine $$ 2,4-dimeth
- 
- 69  16.395  0.02 C:\Database\WILEY275.L
-                 Pyrazine, 2-butyl-3,5-dimethyl- (C  49114 050888-63-6 59
-                 AS) $$ 2,6-Dimethyl-3-butylpyrazin
-                 e $$ 2-Butyl-3,5-dimethylpyrazine
-                 2-(3-Methylbutyl)-3,5-dimethylpyra  62674 000000-00-0 59
-                 zine
-                 2,6-DIMETHYL-3-BUTYLPYRAZINE        49182 000000-00-0 59
- 
- 70  16.501  0.37 C:\Database\WILEY275.L
-                 2-Hexen-1-ol, (E)- (CAS) $$ trans-   6758 000928-95-0 87
-                 2-Hexen-1-ol $$ (E)-2-Hexen-1-ol $
-                 $ trans-HEX-2-ENOL $$ trans-2-Hexe
-                 nol $$ 2-Hexenol $$ 2-Hexen-1-ol, 
-                 trans-
-                 2-Hexen-1-ol, (E)- (CAS) $$ trans-   6769 000928-95-0 83
-                 2-Hexen-1-ol $$ (E)-2-Hexen-1-ol $
-                 $ trans-HEX-2-ENOL $$ trans-2-Hexe
-                 nol $$ 2-Hexenol $$ 2-Hexen-1-ol, 
-                 trans-
-                 2-Hexen-1-ol, (E)- (CAS) $$ trans-   6768 000928-95-0 83
-                 2-Hexen-1-ol $$ (E)-2-Hexen-1-ol $
-                 $ trans-HEX-2-ENOL $$ trans-2-Hexe
-                 nol $$ 2-Hexenol $$ 2-Hexen-1-ol, 
-                 trans-
- 
- 71  17.624  0.23 C:\Database\WILEY275.L
-                 CIS-LINALOOL OXIDE                  55514 005989-33-3 91
-                 TRANS-LINALOOL OXIDE                55510 034995-77-2 91
-                 LINALOOL OXIDE (2) $$ 2-Furanmetha  55303 005989-33-3 90
-                 nol, 5-ethenyltetrahydro-.alpha.,.
-                 alpha.,5-trimethyl-, cis- (CAS) $$
-                  Linalyl oxide $$ Linalool oxide $
-                 $ Linalool oxide B $$ cis-Linalyl 
-                 oxide $$ cis-Linalool oxide $$ Fur
-                 furyl alcohol, tetrahydro-.alpha.,
-                 .alpha.,5-trimeth
- 
- 72  17.684  0.13 C:\Database\WILEY275.L
-                 Pyrazine, 3-ethyl-2,5-dimethyl- (C  24441 013360-65-1 91
-                 AS) $$ 3-Ethyl-2,5-dimethylpyrazin
-                 e $$ 2,5-Dimethyl-3-ethylpyrazine 
-                 $$ 2-Ethyl-3,6-dimethylpyrazine $$
-                  3,6-Dimethyl-2-ethylpyrazine
-                 2,5-DIMETHYL-3-ETHYLPYRAZINE        24486 000000-00-0 91
-                 Pyrazine, 3-ethyl-2,5-dimethyl- (C  24440 013360-65-1 90
-                 AS) $$ 3-Ethyl-2,5-dimethylpyrazin
-                 e $$ 2,5-Dimethyl-3-ethylpyrazine 
-                 $$ 2-Ethyl-3,6-dimethylpyrazine $$
-                  3,6-Dimethyl-2-ethylpyrazine
- 
- 73  18.112  0.94 C:\Database\WILEY275.L
-                 2-Furancarboxaldehyde (CAS) $$ Fur   5026 000098-01-1 86
-                 fural $$ 2-Furaldehyde $$ Fural $$
-                  Furole $$ Furale $$ Furfurole $$ 
-                 2-Furfural $$ Furaldehyde $$ Furan
-                 carbonal $$ 2-Formylfuran $$ .alph
-                 a.-Furole $$ Furfuraldehyde $$ 2-F
-                 urancarbonal $$ 2-Furanaldehyde $$
-                  Furfurylaldehyde
-                 2-Furancarboxaldehyde (CAS) $$ Fur   5037 000098-01-1 86
-                 fural $$ 2-Furaldehyde $$ Fural $$
-                  Furole $$ Furale $$ Furfurole $$ 
-                 2-Furfural $$ Furaldehyde $$ Furan
-                 carbonal $$ 2-Formylfuran $$ .alph
-                 a.-Furole $$ Furfuraldehyde $$ 2-F
-                 urancarbonal $$ 2-Furanaldehyde $$
-                  Furfurylaldehyde
-                 2-Furancarboxaldehyde (CAS) $$ Fur   5027 000098-01-1 78
-                 fural $$ 2-Furaldehyde $$ Fural $$
-                  Furole $$ Furale $$ Furfurole $$ 
-                 2-Furfural $$ Furaldehyde $$ Furan
-                 carbonal $$ 2-Formylfuran $$ .alph
-                 a.-Furole $$ Furfuraldehyde $$ 2-F
-                 urancarbonal $$ 2-Furanaldehyde $$
-                  Furfurylaldehyde
- 
- 74  18.496  0.12 C:\Database\WILEY275.L
-                 LINALOOL OXIDE (2) $$ 2-Furanmetha  55305 005989-33-3 80
-                 nol, 5-ethenyltetrahydro-.alpha.,.
-                 alpha.,5-trimethyl-, cis- (CAS) $$
-                  Linalyl oxide $$ Linalool oxide $
-                 $ Linalool oxide B $$ cis-Linalyl 
-                 oxide $$ cis-Linalool oxide $$ Fur
-                 furyl alcohol, tetrahydro-.alpha.,
-                 .alpha.,5-trimeth
-                 TRANS-LINALOLOXIDE $$ TRANS-LINALO  55310 005989-33-3 64
-                 OL MONOXIDE
-                 TRANS-LINALOLOXIDE $$ TRANS-LINALO  55309 005989-33-3 64
-                 OL MONOXIDE
- 
- 75  19.128  0.03 C:\Database\WILEY275.L
-                 1-Hexanol, 2-ethyl- (CAS) $$ 2-Eth  21137 000104-76-7 58
-                 ylhexanol $$ 2-Ethyl-1-hexanol $$ 
-                 Ethylhexanol $$ 2-Ethylhexan-1-ol 
-                 $$ 2-Ethylhexyl alcohol $$ 2-Ethyl
-                 -hexanol-1 $$ Ethylhexyl alcohol $
-                 $ Octyl alcohol $$ 2-Ethylhexanol-
-                 2 ETHYL HEXANOL                     21216 000104-76-7 58
-                 1-Hexanol, 2-ethyl- (CAS) $$ 2-Eth  21133 000104-76-7 53
-                 ylhexanol $$ 2-Ethyl-1-hexanol $$ 
-                 Ethylhexanol $$ 2-Ethylhexan-1-ol 
-                 $$ 2-Ethylhexyl alcohol $$ 2-Ethyl
-                 -hexanol-1 $$ Ethylhexyl alcohol $
-                 $ Octyl alcohol $$ 2-Ethylhexanol-
- 
- 76  19.392  0.13 C:\Database\WILEY275.L
-                 Ethanone, 1-(2-furanyl)- (CAS) $$    9650 001192-62-7 46
-                 2-Acetylfuran $$ 2-Furyl methyl ke
-                 tone $$ Acetylfuran $$ Methyl 2-fu
-                 ryl ketone $$ Ketone, 2-furyl meth
-                 yl $$ Furyl methyl ketone $$ Furan
-                 , 2-acetyl- $$ 1-(2-Furanyl)ethano
-                 ne
-                 Ethanone, 1-(2-furanyl)- (CAS) $$    9648 001192-62-7 46
-                 2-Acetylfuran $$ 2-Furyl methyl ke
-                 tone $$ Acetylfuran $$ Methyl 2-fu
-                 ryl ketone $$ Ketone, 2-furyl meth
-                 yl $$ Furyl methyl ketone $$ Furan
-                 , 2-acetyl- $$ 1-(2-Furanyl)ethano
-                 ne
-                 Ethanone, 1-(2-furanyl)- (CAS) $$    9647 001192-62-7 46
-                 2-Acetylfuran $$ 2-Furyl methyl ke
-                 tone $$ Acetylfuran $$ Methyl 2-fu
-                 ryl ketone $$ Ketone, 2-furyl meth
-                 yl $$ Furyl methyl ketone $$ Furan
-                 , 2-acetyl- $$ 1-(2-Furanyl)ethano
-                 ne
- 
- 77  19.468  0.02 C:\Database\WILEY275.L
-                 Acetic acid (CAS) $$ Ethylic acid     659 000064-19-7 72
-                 $$ Vinegar acid $$ Ethanoic acid $
-                 $ Glacial acetic acid $$ Methaneca
-                 rboxylic acid $$ CH3COOH $$ compon
-                 ent of Aci-Jel $$ Acetasol $$ Acid
-                 e acetique $$ Acido acetico $$ Azi
-                 jnzuur $$ Essigsaeure $$ Octowy kw
-                 as $$ Acetic acid
-                 Acetic acid (CAS) $$ Ethylic acid     656 000064-19-7 64
-                 $$ Vinegar acid $$ Ethanoic acid $
-                 $ Glacial acetic acid $$ Methaneca
-                 rboxylic acid $$ CH3COOH $$ compon
-                 ent of Aci-Jel $$ Acetasol $$ Acid
-                 e acetique $$ Acido acetico $$ Azi
-                 jnzuur $$ Essigsaeure $$ Octowy kw
-                 as $$ Acetic acid
-                 Acetic acid (CAS) $$ Ethylic acid     660 000064-19-7 64
-                 $$ Vinegar acid $$ Ethanoic acid $
-                 $ Glacial acetic acid $$ Methaneca
-                 rboxylic acid $$ CH3COOH $$ compon
-                 ent of Aci-Jel $$ Acetasol $$ Acid
-                 e acetique $$ Acido acetico $$ Azi
-                 jnzuur $$ Essigsaeure $$ Octowy kw
-                 as $$ Acetic acid
- 
- 78  19.542  0.15 C:\Database\WILEY275.L
-                 Hydrazine, 1,2-dimethyl- (CAS) $$     697 000540-73-8 38
-                 sym-Dimethylhydrazine $$ DMH $$ SD
-                 MH $$ Hydrazomethane $$ 1,2-Dimeth
-                 ylhydrazine $$ N,N'-Dimethylhydraz
-                 ine $$ s-Dimethylhydrazine $$ (CH3
-                 NH)2 $$ 1,2-Dimethylhydrazin $$ Di
-                 methylhydrazine, symmetrical $$ Rc
-                 ra waste number U
-                 1-((trimethylsilyl)ethyl)-8-(trime 175086 124153-84-0 38
-                 thylsilyl)naphthalene
-                 Hydrazine, 1,2-dimethyl-, dihydroc    698 000306-37-6 38
-                 hloride (CAS) $$ Dimethylhydrazini
-                 um dichloride $$ Dimethylhydrazine
-                  dihydrochloride $$ sym-Dimethylhy
-                 drazinedihydrochloride $$ 1,2-Dime
-                 thylhydrazine dihydrochloride $$ N
-                 ,N'-Dimethylhydrazine dihydrochlor
+ 
+ 50   8.338  0.02 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 p-Xylene                             5165 000106-42-3 60
+                 o-Xylene                             5168 000095-47-6 60
+                 p-Xylene                             5166 000106-42-3 60
+ 
+ 51   8.559  0.14 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 1-Butanol                             840 000071-36-3 80
+                 1-Butanol                             846 000071-36-3 64
+                 1-Butanol                             847 000071-36-3 50
+ 
+ 52   8.808  0.15 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Cyclopentasiloxane, decamethyl-    220035 000541-02-6 94
+                 Cyclopentasiloxane, decamethyl-    220037 000541-02-6 49
+                 Terbutaline, N-trifluoroacetyl-O,O 269911 325836-92-8 49
+                 ,o-tris(trimethylsilyl)deriv.
+ 
+ 53   8.868  0.04 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Cyclopentasiloxane, decamethyl-    220035 000541-02-6 90
+                 Cyclopentasiloxane, decamethyl-    220037 000541-02-6 68
+                 (-)-Epinephrine, 3TMS derivative   238025 1000333-51-3 43
+ 
+ 54   9.001  0.09 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Methacrylic acid, ethyl ester        7373 000097-63-2 38
+                 2-Butenoic acid, ethyl ester, (Z)-   7413 006776-19-8 32
+                 2-Butenoic acid, ethyl ester, (E)-   7414 000623-70-1 27
+ 
+ 55   9.129  0.08 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 2-Butenoic acid, 3-methyl-, methyl   7447 000924-50-5 68
+                  ester
+                 2-Butenoic acid, 3-methyl-, methyl   7448 000924-50-5 64
+                  ester
+                 2-Butenoic acid, 3-methyl-, methyl   7444 000924-50-5 59
+                  ester
+ 
+ 56   9.453  0.13 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 7-Oxabicyclo[2.2.1]heptane, 1-meth  27825 000470-67-7 86
+                 yl-4-(1-methylethyl)-
+                 cis-1-Hydroxybicyclo[4.4.0]decane   27637 003574-58-1 50
+                 4a(2H)-Naphthalenol, octahydro-, t  27687 001654-87-1 43
+                 rans-
+ 
+ 57   9.540  0.03 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 3-[2-Hydroxy-3-(3-hydroxy-phenylam 209503 1000296-19-0 43
+                 ino)-propyl]-1,2,3,4,5,6-hexahydro
+                 -1,5-methano-pyrido[1,2-a][1,5]dia
+                 zocin-8-one
+                 Benzene, 1,3-dimethyl-               5186 000108-38-3 25
+                 Ethanamine, N-ethyl-                  766 000109-89-7 25
+ 
+ 58   9.971  0.14 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 D-Limonene                          16045 005989-27-5 97
+                 D-Limonene                          16046 005989-27-5 96
+                 D-Limonene                          16042 005989-27-5 95
+ 
+ 59  10.115  0.03 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Methyl cis-2-trimethylsilyl-cyclop  42049 1000144-79-0 59
+                 ropane-1-carboxylate
+                 2-Methoxyethanol, TBDMS derivative  56567 1000352-09-4 53
+                 Methanethioamide, N,N-dimethyl-      2208 000758-16-7 52
+ 
+ 60  10.348  7.09 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 1-Butanol, 3-methyl-                 2139 000123-51-3 83
+                 1-Butanol, 3-methyl-                 2146 000123-51-3 83
+                 Cyclopropane, 1,1-dimethyl-           585 001630-94-0 80
+ 
+ 61  10.459  0.44 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 (2R,5S)-2-Methyl-5-(prop-1-en-2-yl  26137 054750-69-5 70
+                 )-2-vinyltetrahydrofuran
+                 trans,trans-2,8-Decadiene           17304 019398-85-7 60
+                 1-Methylcycloheptene                 6032 055308-20-8 46
+ 
+ 62  10.828  0.06 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 2-Butenoic acid, 3-methyl-, ethyl   12575 000638-10-8 64
+                 ester
+                 2(5H)-Furanone, 3-hydroxy-4,5-dime  12404 028664-35-9 58
+                 thyl-
+                 3-Pentenoic acid, 2,2-dimethyl-     12534 016642-52-7 46
+ 
+ 63  11.022  0.05 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Benzenamine, N-sulfinyl-            18158 001122-83-4 38
+                 Cyclohexanol, 1-methyl-4-(1-methyl  27761 007299-41-4 25
+                 ethenyl)-, cis-
+                 (E)2,3-Dimethylcyclohex-2-en,oxime  18304 1000311-90-7 22
+ 
+ 64  11.107  0.05 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 p-Menth-8-en-1-ol, stereoisomer     27617 007299-40-3 46
+                 Cyclohexanol, 1-methyl-4-(1-methyl  27761 007299-41-4 45
+                 ethenyl)-, cis-
+                 5-Isopropyl-2-methylbicyclo[3.1.0]  27753 000546-79-2 38
+                 hexan-2-ol
+ 
+ 65  11.357  1.89 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 (2R,5S)-2-Methyl-5-(prop-1-en-2-yl  26137 054750-69-5 96
+                 )-2-vinyltetrahydrofuran
+                 1,1'-Bicyclopentyl                  17275 001636-39-1 46
+                 2,6-Dimethyl-1,6-heptadiene         10875 051708-83-9 38
+ 
+ 66  11.516  0.19 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Thiazole                             1551 000288-47-1 38
+                 1,4-Benzodioxin, octahydro-2-methy  28637 038653-34-8 35
+                 lene-, trans-
+                 Isothiazole                          1554 000288-16-4 35
+ 
+ 67  11.633  0.09 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Diaziridine,1,3,3-trimethyl-         1646 040711-15-7 64
+                 1-Pentanol                           2114 000071-41-0 53
+                 3-Hydroxy-2,2,4-trimethyl-3-penten  19005 003173-79-3 50
+                 oic acid .beta.-lactone
+ 
+ 68  11.872  0.03 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 2-Hexene, 1-(1-ethoxyethoxy)-, (E)  41325 054484-66-1 25
+                 1-Heptene, 5-methoxy-4-methyl-      20542 054004-21-6 22
+                 meso-2,5-Dimethyl-3,4-hexanediol    22721 032388-93-5 14
+ 
+ 69  12.024  0.03 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 N-Vinylimidazole                     2599 001072-63-5 72
+                 1H-Imidazole, 2-ethenyl-             2615 043129-93-7 64
+                 Pyrimidine, 4-methyl-                2612 003438-46-8 64
+ 
+ 70  12.150  0.88 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Benzene, 1-methyl-3-(1-methylethyl  15244 000535-77-3 94
+                 )-
+                 o-Cymene                            15146 000527-84-4 94
+                 p-Cymene                            15142 000099-87-6 93
+ 
+ 71  12.373  0.02 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Benzene, 2-ethyl-1,3-dimethyl-      15209 002870-04-4 60
+                 p-Cymene                            15143 000099-87-6 60
+                 o-Cymene                            15140 000527-84-4 58
+ 
+ 72  12.444  0.08 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Benzenepentanoic acid, .delta.-oxo  57346 001501-05-9 35
+                 Benzene, 1,2-diethyl-               15173 000135-01-3 30
+                 Benzoyl bromide                     51665 000618-32-6 27
+ 
+ 73  12.577  0.08 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Benzene, 2-ethyl-1,4-dimethyl-      15212 001758-88-9 35
+                 o-Cymene                            15145 000527-84-4 35
+                 Benzene, 4-ethyl-1,2-dimethyl-      15224 000934-80-5 35
+ 
+ 74  13.627  0.03 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Ethanamine, 2-propoxy-               4677 042185-03-5 38
+                 1-Pentanol, 5-methoxy-               9001 004799-62-6 22
+                 Ethane, 1-bromo-2-methoxy-          17465 006482-24-2 22
+ 
+ 75  13.850  0.35 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 1,2,3,6-Tetrahydrobenzylalcohol, a  28605 1000365-58-6 38
+                 cetate
+                 1,5-Cyclohexadiene-1-methanol, 4-(  26071 019876-45-0 38
+                 1-methylethyl)-
+                 Benzenethiol, o-isopropyl-,         26910 006262-87-9 27
+ 
+ 76  13.999  0.09 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Pyrazine, 2,6-dimethyl-              5417 000108-50-9 50
+                 Pyrazine, 2,6-dimethyl-              5416 000108-50-9 50
+                 6-Chlorohexanoic acid, 3-methylphe 101895 1000307-62-1 33
+                 nyl ester
+ 
+ 77  14.266  0.17 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 2-Chloro-4-(4-methoxyphenyl)-6-(4- 197930 063673-76-7 35
+                 nitrophenyl)pyrimidine
+                 Quinoline, 4-(4-chlorophenoxy)-8-f 197920 1000266-59-1 35
+                 luoro-2-trifluoromethyl-
+                 Silane, diethyl(trans-4-methylcycl 220923 1000363-56-8 32
+                 ohexyloxy)undecyloxy-
+ 
+ 78  14.434  0.02 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Hexane, 3-methoxy-                   8487 054658-01-4 49
+                 2-Heptanol                           8468 000543-49-7 47
+                 2-Nonanol                           21659 000628-99-9 47
+ 
+ 79  14.850  2.26 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Hexyl chloroformate                 35348 006092-54-2 78
+                 1-Hexanol                            4487 000111-27-3 74
+                 1-Hexanol                            4486 000111-27-3 64
+ 
+ 80  15.155  0.06 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 trans-7-Methyl-3-octene             11785 1000113-52-8 27
+                 3-Hexen-1-ol, (E)-                   3878 000928-97-2 27
+                 3-Methyl-4-propenyl-oxetan-2-one    11407 1000194-65-2 27
+ 
+ 81  15.522  0.39 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Isoneral                            25795 1000414-18-0 53
+                 (2R,5R)-2-Methyl-5-(prop-1-en-2-yl  26138 054750-70-8 46
+                 )-2-vinyltetrahydrofuran
+                 Cyclopentane, (2-methylpropylidene  10923 053366-58-8 43
+                 )-
+ 
+ 82  15.807  0.16 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 3-Hexen-1-ol, (Z)-                   3876 000928-96-1 87
+                 4-Penten-1-ol, 2-methyl-             3936 005673-98-3 72
+                 4-Hexen-1-ol, (Z)-                   3888 000928-91-6 72
+ 
+ 83  16.034  0.06 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 2-Buten-1-ol, 2-ethyl-4-(2,2,3-tri  72655 028219-61-6 30
+                 methyl-3-cyclopenten-1-yl)-
+                 p-Methoxybenzylazidoformate         71811 025474-85-5 18
+                 4-Dimethyl(ethenyl)silylbut-1-en-3  16658 018292-17-6 18
+                 -yne
+ 
+ 84  16.175  0.03 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Benzene, [(methoxymethoxy)methyl]-  26829 031600-55-2 46
+                 Isoxazole, 5-chloro-4-(2-phenyleth  71278 1000362-09-0 43
+                 yl)-
+                 Toluene                              2477 000108-88-3 38
+ 
+ 85  16.318  0.02 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 1H-Pyrazole, 4,5-dihydro-5,5-dimet  17901 106251-09-6 58
+                 hyl-4-isopropylidene-
+                 Isophorone                          17941 000078-59-1 52
+                 Isophorone                          17942 000078-59-1 52
+ 
+ 86  16.395  0.03 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Pyrazine, 2,5-dimethyl-3-(3-methyl  46058 018433-98-2 64
+                 butyl)-
+                 Pyrazine, 2,5-dimethyl-3-(3-methyl  46060 018433-98-2 59
+                 butyl)-
+                 Carbamic acid, 4-methoxyphenyl-, a  71348 1000314-77-5 53
+                 llyl ester
+ 
+ 87  16.501  0.41 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 2-Hexen-1-ol, (E)-                   3881 000928-95-0 90
+                 2-Hexen-1-ol, (E)-                   3882 000928-95-0 74
+                 Cyclohexanol                         3857 000108-93-0 72
+ 
+ 88  16.627  0.05 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Pyrazine, 2-methyl-5-(1-methylethy  16641 013925-05-8 72
+                 l)-
+                 Phenol, 2,4,6-trimethyl-            16808 000527-60-6 64
+                 Silane, dimethylphenyl-             16654 000766-77-8 64
+ 
+ 89  17.387  0.02 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Benzene, (2-methyl-1-propenyl)-     14385 000768-49-0 95
+                 Benzene, 4-ethenyl-1,2-dimethyl-    14394 027831-13-6 93
+                 Benzene, 2-ethenyl-1,3-dimethyl-    14391 002039-90-9 93
+ 
+ 90  17.429  0.03 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 5-Methoxypyrrolidin-2-one            7892 063853-74-7 18
+                 Piperidine, 2-(phenylmethyl)-       43882 1000351-63-4 14
+                 [1,1'-Bicyclopentyl]-2-one          25902 004884-24-6 14
+ 
+ 91  17.624  0.24 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Ethyl 2-(5-methyl-5-vinyltetrahydr 103910 1000373-80-3 91
+                 ofuran-2-yl)propan-2-yl carbonate
+                 2-Furanmethanol, 5-ethenyltetrahyd  39796 005989-33-3 91
+                 ro-.alpha.,.alpha.,5-trimethyl-, c
+                 is-
+                 .alpha.-Methyl-.alpha.-[4-methyl-3  39785 1000132-13-0 90
+                 -pentenyl]oxiranemethanol
+ 
+ 92  17.684  0.16 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Pyrazine, 3-ethyl-2,5-dimethyl-     16624 013360-65-1 90
+                 Pyrazine, 3-ethyl-2,5-dimethyl-     16619 013360-65-1 90
+                 Pyrazine, 2-ethyl-3,5-dimethyl-     16626 013925-07-0 90
+ 
+ 93  17.875  0.07 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 1-Octen-3-ol                        12716 003391-86-4 27
+                 1-Nonen-3-ol                        20457 021964-44-3 27
+                 1-Octen-3-ol                        12719 003391-86-4 27
+ 
+ 94  18.112  0.95 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Furfural                             2769 000098-01-1 78
+                 Furfural                             2768 000098-01-1 78
+                 3-Furaldehyde                        2770 000498-60-2 78
+ 
+ 95  18.496  0.14 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 trans-Linalool oxide (furanoid)     39629 034995-77-2 64
+                 2-Furanmethanol, 5-ethenyltetrahyd  39800 005989-33-3 59
+                 ro-.alpha.,.alpha.,5-trimethyl-, c
+                 is-
+                 2-Furanmethanol, 5-ethenyltetrahyd  39796 005989-33-3 59
+                 ro-.alpha.,.alpha.,5-trimethyl-, c
+                 is-
+ 
+ 96  18.643  0.04 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 1,5-Cyclodecadiene, (E,Z)-          16110 001124-78-3 50
+                 (5-Amino-3H-imidazol-4-yl)acetonit   9957 1000191-16-3 38
+                 rile
+                 Bicyclo[4.3.0]nonane, 2-methylene-  16187 040954-37-8 38
+                 , cis-
+ 
+ 97  18.897  0.02 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Benzene, 1,2,4,5-tetramethyl-       15202 000095-93-2 76
+                 o-Cymene                            15146 000527-84-4 76
+                 Benzene, 1,2,3,4-tetramethyl-       15205 000488-23-3 76
+ 
+ 98  19.128  0.03 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 1-Hexanol, 2-ethyl-                 13977 000104-76-7 59
+                 1-Hexanol, 2-ethyl-                 13975 000104-76-7 53
+                 1-Hexanol, 2-ethyl-                 13978 000104-76-7 50
+ 
+ 99  19.201  0.02 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Pyrazine, 3,5-diethyl-2-methyl-     25296 018138-05-1 70
+                 Pyrazine, 3,5-diethyl-2-methyl-     25291 018138-05-1 62
+                 5-Formylsalicylaldehyde             25073 003328-70-9 52
+ 
+100  19.392  0.13 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Ethanone, 1-(2-furanyl)-             5876 001192-62-7 46
+                 Ethanone, 1-(2-furanyl)-             5873 001192-62-7 46
+                 trans,trans-3,5-Heptadien-2-one      5966 018402-90-9 43
+ 
+101  19.468  0.02 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Acetic acid                           264 000064-19-7 59
+                 Hydrazine, 1,2-dimethyl-              279 000540-73-8 58
+                 Hydrazine, 1,2-dimethyl-              277 000540-73-8 53
+ 
+102  19.542  0.15 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Acetic acid                           263 000064-19-7 38
+                 Acetic acid                           265 000064-19-7 38
+                 Hydrazine, 1,2-dimethyl-              277 000540-73-8 38
+ 
+103  19.693  0.35 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 9-Phenanthrenamine                  58752 000947-73-9 43
+                 2,1-benzisoxazole-6-carboxylic aci  58959 1000395-98-6 37
+                 d, 1,3-dihydro-1-methyl-3-oxo-
+                 3aH-isoindole, 3-phenyl-            58770 1000395-99-1 37
+ 
+104  19.820  0.10 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Dill ether                          25815 074410-10-9 70
+                 Benzaldehyde, 3-hydroxy-, oxime     17086 022241-18-5 47
+                 Propenoic acid, 3-(2-thienyl)-, 1- 139938 284665-47-0 43
+                 naphthyl ester
+ 
+105  19.920 20.06 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Benzaldehyde                         5151 000100-52-7 94
+                 Benzaldehyde                         5150 000100-52-7 91
+                 Benzaldehyde                         5149 000100-52-7 91
+ 
+106  20.210  1.70 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Phenol, 2-(1-methyl-2-buthenyl)-4-  57609 095414-66-7 58
+                 methoxy-
+                 1,3-Butanedione, 1-(4-methoxypheny  57354 004023-80-7 58
+                 l)-
+                 5,6-Dimethoxy-1-indanone            57319 002107-69-9 50
+ 
+107  20.291  1.38 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 5-Ethynyl-1,2,3-trimethoxybenzene   57336 053560-33-1 46
+                 1,4-Dimethoxy-2-methyl-5-(prop-1-e  57642 039701-09-2 46
+                 n-2-yl)benzene
+                 1,3-Butanedione, 1-(4-methoxypheny  57354 004023-80-7 45
+                 l)-
+ 
+108  20.472  0.13 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Ethyl 4-hydroxymandelate, 2TMS der 196670 1000071-53-3 38
+                 ivative
+                 2,5-Dihydroxybenzaldehyde, 2TMS de 141387 056114-69-3 37
+                 rivative
+                 13H-Dibenzo[a,i]carbazole          127688 000239-64-5 37
+ 
+109  20.837  0.27 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Linalool                            27447 000078-70-6 94
+                 Linalyl isobutyrate                 87574 000078-35-3 58
+                 .gamma.-Terpinene                   16074 000099-85-4 55
+ 
+110  20.948  0.10 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 4-(Phenylthioxomethyl)morpholine    71380 002032-36-2 30
+                 Cyclopropylpyrrol4-[3-(1H-imidazol 145009 1000311-87-8 25
+                 -4-yl)propoxy] phenylmorphomethano
+                 ne oxime
+                 Benzenamine, 3,4-dimethyl-           9800 000095-64-7 18
+ 
+111  21.181  0.13 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Pentafluoropropionic acid, octyl e 135761 001867-95-4 72
+                 ster
+                 1-Octanol                           13944 000111-87-5 72
+                 Cyclopropane, octyl-                27927 001472-09-9 64
+ 
+112  21.439  0.09 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Dimethyl Sulfoxide                   1008 000067-68-5 47
+                 Dimethyl Sulfoxide                   1007 000067-68-5 47
+                 Dimethyl Sulfoxide                   1006 000067-68-5 47
+ 
+113  21.676  0.09 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 10-[(4-Methyl phenyl)sulfanyl]-14- 198309 1000411-01-1 43
+                 azatetracyclo[7.6.1.0{2,7}.0{13,16
+                 }]hexadeca-1(15),2(7),3,5,9(16),10
+                 ,12-heptaen-8-one
+                 (3-Methoxy-phenyl)-(6-methyl-4-phe 198318 1000317-62-7 35
+                 nyl-quinazolin-2-yl)-amine
+                 4H-3,1-Benzoxazine, 6,7-dimethoxy- 198206 1000327-27-7 35
+                 2-(4-methoxyphenyl)-4-propyl-
+ 
+114  21.865  0.07 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Phosphonoacetic Acid, 3TMS derivat 209743 053044-27-2 38
+                 ive
+                 3,7,11,15-tetramethylhexadecan-1,2 270600 1000383-73-3 32
+                 ,3-triol silylated
+                 Silane, trimethyl-[[(17.alpha.)-19 210759 056771-62-1 32
+                 -norpregn-4-en-20-yn-17-yl]oxy]-
+ 
+115  22.355  0.09 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Benzonitrile                         4707 000100-47-0 87
+                 Benzonitrile                         4705 000100-47-0 83
+                 Benzonitrile                         4704 000100-47-0 83
+ 
+116  22.440  0.07 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Terpinen-4-ol                       27506 000562-74-3 89
+                 Terpinen-4-ol                       27505 000562-74-3 70
+                 .gamma.-Terpinene                   16078 000099-85-4 60
+ 
+117  22.530  0.06 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 3,6-Octadienal, 3,7-dimethyl-       25922 055722-59-3 41
+                 1H-Pyrrole, 3-ethyl-2,4-dimethyl-   10422 000517-22-6 41
+                 Cyclohexanone, 2-methyl-5-(1-methy  26108 005948-04-9 38
+                 lethenyl)-, trans-
+ 
+118  22.728  0.06 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Pyrrolidin-2-one, N-(2,4-dimethylc  71552 1000156-45-6 60
+                 yclopent-3-enoyl)-, cis-
+                 Bicyclo[2.2.1]heptane, 2-methyl-3-  68808 000511-59-1 38
+                 methylene-2-(4-methyl-3-pentenyl)-
+                 , (1S-exo)-
+                 2-Pyridinamine, 4,6-dimethyl-       10033 005407-87-4 27
+ 
+119  22.829  0.05 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Pyrrole, 4-ethyl-2-methyl-           5708 005690-96-0 27
+                 Bicyclo[4.2.0]oct-4-ene-7,7-dicarb  65216 1000163-03-5 22
+                 onitrile, 4,8,8-trimethyl-, (cis)-
+                 Propanoic acid                        820 000079-09-4 18
+ 
+120  22.918  0.17 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 1-Cyclohexene-1-carboxaldehyde, 2,  26068 000432-25-7 90
+                 6,6-trimethyl-
+                 1-Cyclohexene-1-carboxaldehyde, 2,  26069 000432-25-7 83
+                 6,6-trimethyl-
+                 2,5-Dimethylbenzenethiol, S-methyl  26921 1000353-01-7 46
+ 
+121  23.277  0.03 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 DL-.beta.-Homophenylalanine, N-dim 109593 1000375-78-7 27
+                 ethylaminomethylene-, methyl ester
+                 Cyclohexanol, 1-methyl-4-(1-methyl  27716 000138-87-4 22
+                 ethenyl)-
+                 Propane, 2-(ethenyloxy)-             1815 000926-65-8 18
+ 
+122  23.399  0.19 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Benzeneacetaldehyde                  9554 000122-78-1 25
+                 Benzyl methyl sulfide               17851 000766-92-7 14
+                 S-Benzyl-L-cysteine                 75034 003054-01-1 12
+ 
+123  23.621  0.16 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 1,3-Cyclohexadiene-1-carboxaldehyd  24591 000116-26-7 64
+                 e, 2,6,6-trimethyl-
+                 1,3-Cyclohexadiene-1-carboxaldehyd  24592 000116-26-7 46
+                 e, 2,6,6-trimethyl-
+                 Phenol, 4-(2-methylpropyl)-         24413 004167-74-2 38
+ 
+124  23.684  0.40 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Acetophenone                         9544 000098-86-2 90
+                 Acetophenone                         9543 000098-86-2 90
+                 Acetophenone                         9542 000098-86-2 87
+ 
+125  23.812  2.01 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Silanediol, dimethyl-                2426 001066-42-8 49
+                 Trimethylphosphine oxide             2456 000676-96-0  9
+                 Propane, 2-chloro-2-nitro-          10266 000594-71-8  9
+ 
+126  24.070  0.14 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Silanediol, dimethyl-                2426 001066-42-8 45
+                 Trifluoroacetic Acid, TMS derivati  53194 000400-53-3 32
+                 ve
+                 Trifluoroacetic Acid, TMS derivati  53195 000400-53-3 23
+                 ve
+ 
+127  24.170  0.06 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Silanediol, dimethyl-                2426 001066-42-8 53
+                 Perfluoropropionic acid, TBDMS der 138622 1000376-29-3 45
+                 ivative
+                 Isopropoxycarbamic acid, ethyl est  23007 1000305-90-0 42
+                 er
+ 
+128  24.206  0.10 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 tert-Butyldimethylsilyl trifluorom 125070 069739-34-0 42
+                 ethanesulfonate
+                 N,N'-(4-Chlorobenzylidene)dibenzam 216244 015563-56-1 40
                  ide
+                 Trifluoroacetic Acid, TMS derivati  53194 000400-53-3 40
+                 ve
  
- 79  19.693  0.35 C:\Database\WILEY275.L
-                 2-Methoxycarbonyl-2-(cis-2'penteny 163296 055254-73-4 46
-                 l)-3-methoxycarbonylcethylcyclopen
-                 tane
-                 2,2-Dimethyl-N-phenylpropanethioam  77230 005260-00-4 46
-                 ide
-                 Acetophenone, 2'-(trimethylsiloxy)  93190 033342-85-7 43
-                 - (CAS) $$ O-HYDROXYACETOPHENONE-T
-                 MS-ETHER $$ TRIMETHYLSILYLETHER OF
-                  O-HYDROXYACETOPHENONE $$ 2-OTMS-a
-                 cetophenone $$ Ethanone, 1-[2-[(tr
-                 imethylsilyl)oxy]phenyl]-
+129  24.429  0.06 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 1-Hexene, 3,3,4,4-tetrafluoro-6-io 142331 040723-84-0 27
+                 do-
+                 Mercury, diphenyl-                 209750 000587-85-9  9
+                 Cyclohexa-1,5-dienol, 5-furan-2-yl 209694 1000303-33-7  9
+                 -3-phenyl-2-(1-phenyliminoethyl)-
  
- 80  19.820  0.10 C:\Database\WILEY275.L
-                 2-oxo-2,3,5,6,7,8-hexahydroindoliz  25697 097202-63-6 59
-                 ine
-                 Benzaldehyde, 3-hydroxy-, oxime (C  25596 022241-18-5 49
-                 AS) $$ m-Hydroxybenzaldoxime $$ 3-
-                 Hydroxybenzaldoxime $$ Benzaldehyd
-                 e, m-hydroxy-, oxime
-                 Benzaldehyde, 3-hydroxy-, oxime (C  25595 022241-18-5 47
-                 AS) $$ m-Hydroxybenzaldoxime $$ 3-
-                 Hydroxybenzaldoxime $$ Benzaldehyd
-                 e, m-hydroxy-, oxime
+130  24.569  0.25 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Benzaldehyde, 2-hydroxy-            10083 000090-02-8 70
+                 Benzaldehyde, 2-hydroxy-            10079 000090-02-8 70
+                 Benzaldehyde, 4-hydroxy-            10081 000123-08-0 64
  
- 81  19.920 20.61 C:\Database\WILEY275.L
-                 Benzaldehyde (CAS) $$ Phenylmethan   8600 000100-52-7 94
-                 al $$ Benzenecarbonal $$ Benzaldeh
-                 yde FFC $$ Benzoic aldehyde $$ Art
-                 ificial Almond Oil $$ Benzenecarbo
-                 xaldehyde $$ Almond artificial ess
-                 ential oil $$ Phenylmethanal benze
-                 necarboxaldehyde $$ Benzadehyde $$
-                  NCI-C56133 $$ Oi
-                 Benzaldehyde (CAS) $$ Phenylmethan   8602 000100-52-7 91
-                 al $$ Benzenecarbonal $$ Benzaldeh
-                 yde FFC $$ Benzoic aldehyde $$ Art
-                 ificial Almond Oil $$ Benzenecarbo
-                 xaldehyde $$ Almond artificial ess
-                 ential oil $$ Phenylmethanal benze
-                 necarboxaldehyde $$ Benzadehyde $$
-                  NCI-C56133 $$ Oi
-                 benzaldehyde                         8610 000100-52-7 91
+131  24.909  0.26 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 1,7-Dimethyl-4-oxa-tricyclo[5.2.1.  72049 091143-65-6 72
+                 0(2,6)]decane-3,5,8-trione
+                 3-(.alpha.-Hydroxyethyl)-aniline    17180 002454-37-7 53
+                 Bicyclo[2.2.1]hept-2-ene, 2,3-dime  10248 000529-16-8 52
+                 thyl-
  
- 82  20.210  1.75 C:\Database\WILEY275.L
-                 4a.beta.,8-dimethyl-3,4,4a,5-tetra  76207 087262-27-9 91
-                 hydronaphthalene-1(2H),7(6H)-dione
-                  $$ 1,7-Naphthalenedione, 2,3,4,4a
-                 ,5,6-hexahydro-4a,8-dimethyl-, (.+
-                 -.)-
-                 1-isopropyl-5-methylbicyclo[3.2.2]  76637 101968-43-8 83
-                 non-3-en-2-one $$ Bicyclo[3.2.2]no
-                 n-3-en-2-one, 5-methyl-1-(1-methyl
-                 ethyl)-
-                 6,8-dihydroxy-3-methylisocoumarin   75745 001204-37-1 58
-                 $$ 1H-2-Benzopyran-1-one, 6,8-dihy
-                 droxy-3-methyl- $$ Isocoumarin, 6,
-                 8-dihydroxy-3-methyl-
+132  25.165  1.37 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Terpineol                           27454 1000411-59-6 91
+                 Cyclopentane, 2-methyl-1-methylene  16286 056710-83-9 86
+                 -3-(1-methylethenyl)-
+                 Tricyclo[2.2.1.0(2,6)]heptane, 1,3  16250 000488-97-1 86
+                 ,3-trimethyl-
  
- 83  20.291  1.41 C:\Database\WILEY275.L
-                 4a.beta.,8-dimethyl-3,4,4a,5-tetra  76207 087262-27-9 80
-                 hydronaphthalene-1(2H),7(6H)-dione
-                  $$ 1,7-Naphthalenedione, 2,3,4,4a
-                 ,5,6-hexahydro-4a,8-dimethyl-, (.+
-                 -.)-
-                 (+,-)-(2R,5R)-2,10,10-Trimethyl-6-  76534 066965-94-4 70
-                 methylidene-1-oxaspiro(4.5)dec-7-e
-                 ne $$ 1-Oxaspiro[4.5]dec-7-ene, 2,
-                 10,10-trimethyl-6-methylene-, tran
-                 s-(.+-.)- (CAS)
-                 3-amino-2-cyano-6-methyl-6,7-dihyd  75541 116749-51-0 64
-                 rothieno[2,3-b]pyrazine
+133  25.286  0.22 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Isoborneol                          27471 000124-76-5 38
+                 Isobornyl acetate                   61531 000125-12-2 35
+                 Isoborneol                          27459 000124-76-5 30
  
- 84  20.837  0.27 C:\Database\WILEY275.L
-                 LINALOOL L                          40593 000078-70-6 97
-                 Linalool $$ 1,6-Octadien-3-ol, 3,7  40045 000078-70-6 97
-                 -dimethyl- (CAS) $$ Linalol $$ .be
-                 ta.-Linalool $$ Linalyl alcohol $$
-                  2,6-Dimethyl-2,7-octadien-6-ol $$
-                  allo-Ocimenol $$ p-Linalool $$ LI
-                 NOLOOL (D) $$ 2,6-Dimethyl-2,7-oct
-                 adiene-6-ol $$ 2,6-Dimethylocta-2,
-                 7-dien-6-ol $$ 3,
-                 LINALOOL                            40727 000000-00-0 95
+134  25.404  0.03 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Butanoic acid                        2043 000107-92-6 58
+                 Butanoic acid                        2039 000107-92-6 58
+                 2-Amino-1,3-propanediol              2414 000534-03-2 43
  
- 85  20.948  0.10 C:\Database\WILEY275.L
-                 CARYOPHYLL-4-EN-2,6-.BETA.-OXIDE $ 105964 060247-45-2 50
-                 $ 12-Oxatricyclo[6.3.1.0(2,5)]dode
-                 c-9-ene, 1,4,4,8-tetramethyl-, (1.
-                 alpha.,2.beta.,5.alpha.,8.alpha.,9
-                 Z)- (CAS) $$ Caryophyll-4-en 2,6-.
-                 beta.-oxide $$ 12-Oxatricyclo[6.3.
-                 1.02,5]dodec-9-ene, 1,4,4,8-tetram
-                 ethyl-, (1.alpha.
-                 Benzenamine, 2,4-dimethyl- (CAS) $  15296 000095-68-1 18
-                 $ m-Xylidine $$ 2,4-Dimethylanilin
-                 e $$ 2,4-Xylidine $$ 4-Amino-1,3-x
-                 ylene $$ 4-Amino-1,3-dimethylbenze
-                 ne $$ 1-Amino-2,4-dimethylbenzene 
-                 $$ 2,4-Dimethylphenylamine $$ 2,4-
-                 Xylylamine $$ 2,4-Dimethylbenzenam
-                 ine $$ 2,4-dimeth
-                 Benzenamine, 2,4-dimethyl- (CAS) $  15295 000095-68-1 18
-                 $ m-Xylidine $$ 2,4-Dimethylanilin
-                 e $$ 2,4-Xylidine $$ 4-Amino-1,3-x
-                 ylene $$ 4-Amino-1,3-dimethylbenze
-                 ne $$ 1-Amino-2,4-dimethylbenzene 
-                 $$ 2,4-Dimethylphenylamine $$ 2,4-
-                 Xylylamine $$ 2,4-Dimethylbenzenam
-                 ine $$ 2,4-dimeth
+135  25.493  0.14 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Butanoic acid                        2039 000107-92-6 58
+                 Butanoic acid                        2043 000107-92-6 58
+                 Octanoic acid                       21383 000124-07-2 53
  
- 86  21.181  0.12 C:\Database\WILEY275.L
-                 1-Octanol (CAS) $$ Octilin $$ Alfo  21054 000111-87-5 72
-                 l 8 $$ Sipol L8 $$ n-Octanol $$ n-
-                 Octan-1-ol $$ Octyl alcohol $$ Oct
-                 anol $$ n-Octyl alcohol $$ Heptyl 
-                 carbinol $$ Caprylic alcohol $$ 1-
-                 Hydroxyoctane $$ Octan-1-ol $$ Alc
-                 ohol c-8 $$ Capryl alcohol $$ n-He
-                 ptyl carbinol $$
-                 1-OCTANOL                           21223 000000-00-0 72
-                 Cyclopropane, octyl- (CAS) $$ Octy  40894 001472-09-9 64
-                 lcyclopropane $$ Octane, 1-cyclopr
-                 opyl- $$ n-Octylcyclopropane $$ cy
-                 clopropyloctane
+136  26.167  0.11 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Butanoic acid, 3-methyl-             4349 000503-74-2 43
+                 Butanoic acid, 3-methyl-             4360 000503-74-2 38
+                 Butanoic acid, 3-methyl-             4361 000503-74-2 38
  
- 87  21.439  0.09 C:\Database\WILEY275.L
-                 1-methoxy-1,3-cyclohexadiene $$ 1,   9880 002161-90-2 72
-                 3-Cyclohexadiene, 1-methoxy-
-                 Methane, sulfinylbis- (CAS) $$ Dim   2094 000067-68-5 52
-                 ethyl sulfoxide $$ DMSO $$ DMS 70 
-                 $$ DMS 90 $$ (DMSO) $$ SQ 9453 $$ 
-                 Dimethyl sulphoxide $$ Hyadur $$ D
-                 olicur $$ Dromisol $$ Durasorb $$ 
-                 Dimexide $$ Somipront $$ Demsodrox
-                  $$ Infiltrina $$ Methyl sulfoxide
-                  $$ SQ 9453 roxye
-                 Dimethyl sulfoxide                   2104 000067-68-5 47
+137  26.189  0.10 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Butanoic acid, 3-methyl-             4349 000503-74-2 38
+                 3-Methyl-hexanoic acid              13735 1000365-65-4 37
+                 Butanoic acid, 3-methyl-             4360 000503-74-2 30
  
- 88  21.676  0.08 C:\Database\WILEY275.L
-                 5-oxoisoboldine                    206324 094707-59-2 38
-                 3,5-Diphenyl-1-(2'-nitrophenyl)pyr 206440 000000-00-0 35
-                 azole
-                 Morphinan-6-ol, 6,7-didehydro-4,5- 206388 000466-90-0 27
-                 epoxy-3-methoxy-17-methyl-, acetat
-                 e (ester), (5.alpha.)- (CAS) $$ Mo
-                 rphinan-6-ol, 6,7-didehydro-4,5.al
-                 pha.-epoxy-3-methoxy-17-methyl-, a
-                 cetate (ester) $$ Acetyldihydrocod
-                 einone $$ Dihydrocodeinone enol ac
-                 etate $$ Tebacon
+138  26.272  0.09 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Butanoic acid, 3-methyl-             4361 000503-74-2 53
+                 Butanoic acid, 3-methyl-             4360 000503-74-2 53
+                 Pentanoic acid, 3-methyl-            8277 000105-43-1 53
  
- 89  21.865  0.06 C:\Database\WILEY275.L
-                 9S-Sebiferine $$ Morphinan-7-one,  206386 023979-25-1 42
-                 5,6,8,14-tetradehydro-2,3,6-trimet
-                 hoxy-17-methyl- (CAS) $$ O-Methylf
-                 lavinantine $$ Sebiferine $$ (9R)-
-                 Sebiferine $$ (+)-O-Methylflavinan
-                 tine
-                 methyl 2-trimethylsiloxy-N-(1-trim 213004 000000-00-0 38
-                 ethylsiloxy-trideuteroethylene)-5-
-                 imino-phenyl-methanoate
-                 5-Aminorubicene                    206510 128710-29-2 38
+139  26.414  0.87 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 1, 1, 5-Trimethyl-1, 2-dihydronaph  41664 1000357-25-8 96
+                 thalene
+                 Naphthalene, 1,2-dihydro-1,1,6-tri  41676 030364-38-6 96
+                 methyl-
+                 Naphthalene, 1,2-dihydro-1,1,6-tri  41666 030364-38-6 94
+                 methyl-
  
- 90  22.355  0.08 C:\Database\WILEY275.L
-                 Benzene, isocyano- (CAS) $$ Phenyl   8027 000931-54-4 87
-                  isocyanide $$ Benzoisonitrile $$ 
-                 Phenyl isonitrile $$ Isocyanobenze
-                 ne $$ PHENYLISOCYANIDE $$ Phenylis
-                 onitrile
-                 Benzonitrile (CAS) $$ Cyanobenzene   8015 000100-47-0 83
-                  $$ Phenyl cyanide $$ Benzene, cya
-                 no- $$ Benzoic acid nitrile $$ Ben
-                 zonitril $$ Benzenenitrile $$ Feny
-                 lkyanid $$ UN 2224
-                 Benzonitrile (CAS) $$ Cyanobenzene   8014 000100-47-0 83
-                  $$ Phenyl cyanide $$ Benzene, cya
-                 no- $$ Benzoic acid nitrile $$ Ben
-                 zonitril $$ Benzenenitrile $$ Feny
-                 lkyanid $$ UN 2224
+140  27.040  0.83 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Oxime-, methoxy-phenyl-_            25568 1000222-86-6 90
+                 4-Ethylbenzoic acid, 2-butyl ester  70466 1000293-31-8 64
+                 2-Amino-5-methylbenzoic acid        25588 002941-78-8 64
  
- 91  22.440  0.07 C:\Database\WILEY275.L
-                 3-Cyclohexen-1-ol, 4-methyl-1-(1-m  40158 000562-74-3 96
-                 ethylethyl)- (CAS) $$ 4-Terpineol 
-                 $$ Terpinene-4-ol $$ 1-Terpinen-4-
-                 ol $$ 4-Carvomenthenol $$ p-Menth-
-                 1-en-4-ol $$ TERPINEOL-4 $$ Terpin
-                 en-4-ol $$ 1-Methyl-4-isopropyl-1-
-                 cyclohexen-4-ol $$ 4-Terpinenol $$
-                  Terpene-4-ol $$
-                 3-Cyclohexen-1-ol, 4-methyl-1-(1-m  40159 000562-74-3 96
-                 ethylethyl)- (CAS) $$ 4-Terpineol 
-                 $$ Terpinene-4-ol $$ 1-Terpinen-4-
-                 ol $$ 4-Carvomenthenol $$ p-Menth-
-                 1-en-4-ol $$ TERPINEOL-4 $$ Terpin
-                 en-4-ol $$ 1-Methyl-4-isopropyl-1-
-                 cyclohexen-4-ol $$ 4-Terpinenol $$
-                  Terpene-4-ol $$
-                 TERPINEOL-4                         40615 000562-74-3 93
+141  27.200  0.17 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Aspirin methyl ester                59005 000580-02-9 46
+                 Aspirin methyl ester                59008 000580-02-9 46
+                 Methyl salicylate                   26602 000119-36-8 45
  
- 92  22.530  0.05 C:\Database\WILEY275.L
-                 TRANS-ISOPULEGONE                   37937 029606-79-9 49
-                 CIS-DIHYDROCARVONE                  37954 007764-50-3 46
-                 TRANS-DIHYDROCARVONE                37914 005948-04-9 43
+142  27.625  0.09 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 2-Hexen-4-yne, 2-methyl-             2642 058275-93-7 27
+                 1-Hexen-3-yne, 2-methyl-             2643 023056-94-2 27
+                 Bicyclo[2.2.1]hept-2-ene, 2,3-dime  10247 000529-16-8 18
+                 thyl-
  
- 93  22.728  0.06 C:\Database\WILEY275.L
-                 1H-Indazole, 4,5,6,7-tetrahydro- (  15669 002305-79-5 43
-                 CAS) $$ PYRAZOLO(3-4)CYCLOHEXANE $
-                 $ 4,5,6,7-Tetrahydroindazole $$ 4 
-                 5 6 7 Tetrahydroindazole $$ 4,5,6,
-                 7-Tetrahydro-1H-indazole $$ 3,4-Te
-                 tramethylenepyrazole
-                 2,5-DIMETHYL-3-N-PENTYLPYRAZINE     62665 000000-00-0 25
-                 6-Amino-2,4-lutidine $$ 2-Pyridina  15629 005407-87-4 25
-                 mine, 4,6-dimethyl- (CAS) $$ 2-Ami
-                 no-4,6-dimethylpyridine $$ 4,6-Dim
-                 ethyl-2-aminopyridine $$ 4,6-Dimet
-                 hyl-2-pyridinamine $$ 2,4-Lutidine
-                 , 6-amino- $$ 2-Amino-4,6-lutidine
-                  $$ Pyridine, 2-amino-4,6-dimethyl
+143  28.064  0.06 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 2'-Ethoxyformanilide                35981 086796-85-2 50
+                 Nicotinyl alcohol                    5653 000100-55-0 30
+                 (4-Ethoxyphenyl)ethylamine          35678 065570-13-0 27
  
- 94  22.829  0.05 C:\Database\WILEY275.L
-                 Pyrrole, 4-ethyl-2-methyl- (CAS)     9515 005690-96-0 30
-                 2-(N-DEUTERO-N-METHYLAMINO)PYRIDIN   9051 056248-04-5 30
-                 1-Methyl-4-methylenebicyclo[3.2.0]  24874 000000-00-0 22
-                 heptan-6-one
+144  28.239  0.03 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 1,4-Cyclohexadiene, 1-methyl-        2652 004313-57-9 30
+                 1-Methylcyclohexa-1,3-diene          2647 1000298-96-0 27
+                 1,3,5-Hexatriene, 2-methyl-          2649 019264-50-7 27
  
- 95  22.918  0.17 C:\Database\WILEY275.L
-                 .BETA.-CYCLOCITRAL                  38103 000000-00-0 90
-                 .beta.-Cyclocitral $$ 1-Cyclohexen  37791 000432-25-7 78
-                 e-1-carboxaldehyde, 2,6,6-trimethy
-                 l- (CAS) $$ 1-Formyl-2,6,6-trimeth
-                 yl-1-cyclohexene
-                 .beta.-Cyclocitral $$ 1-Cyclohexen  37793 000432-25-7 46
-                 e-1-carboxaldehyde, 2,6,6-trimethy
-                 l- (CAS) $$ 1-Formyl-2,6,6-trimeth
-                 yl-1-cyclohexene
+145  28.404  0.23 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 1,2-Bis(trimethylsilyl)benzene      85160 017151-09-6 72
+                 1,2-Benzisothiazol-3-amine, TBDMS  124363 1000332-57-2 64
+                 derivative
+                 Tris(tert-butyldimethylsilyloxy)ar 260810 1000366-57-5 64
+                 sane
  
- 96  23.277  0.03 C:\Database\WILEY275.L
-                 Cyclohexanol, 1-methyl-4-(1-methyl  40306 000138-87-4 22
-                 ethenyl)- (CAS) $$ .beta.-Terpineo
-                 l $$ TRANS .BETA.-TERPINEOL $$ CYC
-                 LOHEXANOL, 4-ISOPROPENYL-1-METHYL-
-                  $$ p-Menth-8-en-1-ol $$ BETA-TERP
-                 INEOL $$ t-Menth-1-en-8-ol
-                 .BETA.-TERPINEOL                    40609 000138-87-4 18
-                 2-Buten-1-ol, 2-methyl- (CAS) $$ 2   3397 004675-87-0 14
-                 -Methyl-but-2-ene-1-ol $$ 2-METHYL
-                 BUT-2-EN-1-OL $$ 2-Methyl-2-buten-
-                 1-ol
+146  28.669  0.03 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 1,1,1,3,5,5,5-Heptamethyltrisiloxa  86044 001873-88-7 43
+                 ne
+                 Methyltris(trimethylsiloxy)silane  168285 017928-28-8 35
+                 Tris(tert-butyldimethylsilyloxy)ar 260810 1000366-57-5 35
+                 sane
  
- 97  23.399  0.18 C:\Database\WILEY275.L
-                 Benzene, 1,1'-[thiobis(methylene)]  99997 000538-74-9 27
-                 bis- (CAS) $$ Dibenzyl sulfide $$ 
-                 Benzyl sulfide $$ Benzyl thioether
-                  $$ Benzyl monosulfide $$ Dibenzyl
-                  monosulfide $$ 1,3-Diphenyl-2-thi
-                 apropane
-                 Benzeneacetaldehyde (CAS) $$ Hyaci  14848 000122-78-1 15
-                 nthin $$ Phenylethanal $$ Phenylac
-                 etaldehyde $$ .alpha.-Tolualdehyde
-                  $$ Acetaldehyde, phenyl- $$ Pheny
-                 lacetic aldehyde $$ .alpha.-Toluic
-                  aldehyde $$ 2-phenyl ethanal $$ 2
-                 -Phenylethanal $$ PAA
-                 PHENYLACETALDEHYDE                  14906 000000-00-0 15
+147  29.242  0.06 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Benzenemethanol, .alpha.,.alpha.,4  24553 001197-01-9 41
+                 -trimethyl-
+                 1-Isobutyladamantane                57838 027364-16-5 25
+                 3-[3,4-Methylenedioxyphenyl]alanin  73221 033522-63-3 18
  
- 98  23.621  0.16 C:\Database\WILEY275.L
-                 SAFRANAL                            36065 000116-26-7 64
-                 1,3-Cyclohexadiene-1-carboxaldehyd  35832 000116-26-7 64
-                 e, 2,6,6-trimethyl- (CAS) $$ Safra
-                 nal
-                 Phenol, 2-(1-methylpropyl)- (CAS)   35686 000089-72-5 38
-                 $$ o-sec-Butylphenol $$ 2-sec-Buty
-                 lphenol $$ Phenol, o-sec-butyl- $$
-                  2-(1-Methylpropyl)phenol $$ 2-sec
-                 .Butylfenol $$ 2-(2-Butyl)phenol
+148  29.917  0.05 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Benzyl alcohol                       5467 000100-51-6 93
+                 Benzyl alcohol                       5466 000100-51-6 87
+                 Glycine, N-[(phenylmethoxy)carbony  73225 001138-80-3 86
+                 l]-
  
- 99  23.684  0.41 C:\Database\WILEY275.L
-                 Ethanone, 1-phenyl- (CAS) $$ Aceto  14871 000098-86-2 90
-                 phenone $$ Phenyl methyl ketone $$
-                  Hypnon $$ Hypnone $$ Acetophenon 
-                 $$ Acetylbenzene $$ Benzoyl methid
-                 e $$ 1-Phenylethanone $$ Methyl ph
-                 enyl ketone $$ 1-Phenyl-1-ethanone
-                  $$ METHYL PHENYL KETONE(ACETOPHEN
-                 ONE) $$ METHYL-PH
-                 Ethanone, 1-phenyl- (CAS) $$ Aceto  14860 000098-86-2 90
-                 phenone $$ Phenyl methyl ketone $$
-                  Hypnon $$ Hypnone $$ Acetophenon 
-                 $$ Acetylbenzene $$ Benzoyl methid
-                 e $$ 1-Phenylethanone $$ Methyl ph
-                 enyl ketone $$ 1-Phenyl-1-ethanone
-                  $$ METHYL PHENYL KETONE(ACETOPHEN
-                 ONE) $$ METHYL-PH
-                 Ethanone, 1-phenyl- (CAS) $$ Aceto  14858 000098-86-2 90
-                 phenone $$ Phenyl methyl ketone $$
-                  Hypnon $$ Hypnone $$ Acetophenon 
-                 $$ Acetylbenzene $$ Benzoyl methid
-                 e $$ 1-Phenylethanone $$ Methyl ph
-                 enyl ketone $$ 1-Phenyl-1-ethanone
-                  $$ METHYL PHENYL KETONE(ACETOPHEN
-                 ONE) $$ METHYL-PH
+149  30.046  0.09 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Cyclotetrasiloxane, octamethyl-    155949 000556-67-2 53
+                 Cyclotetrasiloxane, octamethyl-    155952 000556-67-2 52
+                 trans-4-Dimethylamino-4'-methoxych 140984 052119-37-6 43
+                 alcone
  
-100  23.812  2.06 C:\Database\WILEY275.L
-                 Propane, 2-chloro-2-nitro- (CAS) $  16050 000594-71-8  9
-                 $ 2-Chloro-2-nitropropane
-                 PHOSPHANOXYD, TRIMETHYL-             4515 000000-00-0  9
-                 Methyl-d3 1-Dideuterio-2-propenyl    1498 000000-00-0  5
-                 Ether
+150  30.215  0.02 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 4H-Pyrrolo[3,2,1-ij]quinoline, 1,2  42466 040135-93-1 25
+                 ,5,6-tetrahydro-6-methyl-
+                 5-Chloro-6-hydroxynicotinic acid    42530 054127-63-8 25
+                 trans-4-Dimethylamino-4'-methoxych 140984 052119-37-6 18
+                 alcone
  
-101  24.070  0.13 C:\Database\WILEY275.L
-                 TRIMETHYLSILYL ESTER OF TRIFLUORO-  70194 000000-00-0 23
-                 ACETIC ACID
-                 1,5-Hexadiene, 3,3,4,4-tetrafluoro  39204 001763-21-9  9
-                 - (CAS) $$ 3,3,4,4-TETRAFLUOROHEXA
-                 -1,5-DIENE $$ 3,3,4,4-Tetrafluoro-
-                 1,5-hexadiene
-                 2-OCTADEC-1''-ENYLOXY-1,1,2,2-TETR 187512 056599-38-3  9
-                 ADEUTERO ETHANOL
+151  30.830  0.03 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Phenylethyl Alcohol                 10109 000060-12-8 60
+                 Phenylethyl Alcohol                 10107 000060-12-8 60
+                 Benzeneacetamide                    15847 000103-81-1 43
  
-102  24.569  0.24 C:\Database\WILEY275.L
-                 Benzaldehyde, 2-hydroxy- (CAS) $$   15547 000090-02-8 86
-                 Salicylaldehyde $$ Salicylal $$ o-
-                 Formylphenol $$ 2-Formylphenol $$ 
-                 Salicylic aldehyde $$ o-Hydroxyben
-                 zaldehyde $$ 2-Hydroxybenzaldehyde
-                  $$ 2-formyl-phenol $$ Salicylalde
-                 hyde oxime $$ Benzaldehyde, o-hydr
-                 oxy- $$ Salicylad
-                 SALICYLIC ALDHYDE                   15579 000090-02-8 86
-                 Benzaldehyde, 2-hydroxy- (CAS) $$   15553 000090-02-8 86
-                 Salicylaldehyde $$ Salicylal $$ o-
-                 Formylphenol $$ 2-Formylphenol $$ 
-                 Salicylic aldehyde $$ o-Hydroxyben
-                 zaldehyde $$ 2-Hydroxybenzaldehyde
-                  $$ 2-formyl-phenol $$ Salicylalde
-                 hyde oxime $$ Benzaldehyde, o-hydr
-                 oxy- $$ Salicylad
+152  31.063  0.01 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Cinnamic acid, .alpha.-[N-benzoyla 142821 1000301-68-3 46
+                 mino]-4-hydroxy-
+                 1-Benzoyl-2-trichloroacetylhydrazi 140360 090273-66-8 43
+                 ne
+                 1,2,4-Triazine-3,5(2H,4H)-dione, 6 110140 024168-34-1 43
+                 -benzoylthio-
  
-103  24.909  0.26 C:\Database\WILEY275.L
-                 .beta.-Santalol $$ santalol $$ 2-P 105923 000077-42-9 56
-                 enten-1-ol, 2-methyl-5-(2-methyl-3
-                 -methylenebicyclo[2.2.1]hept-2-yl)
-                 -, [1S-[1.alpha.,2.alpha.(Z),4.alp
-                 ha.]]- $$ 2-Penten-1-ol, 2-methyl-
-                 5-(2-methyl-3-methylene-2-norborny
-                 l)- $$ Santalol b $$ cis-.beta.-Sa
-                 ntalol $$ (-)-.be
-                 Bicyclo[2.2.1]hept-2-ene, 2,3-dime  15981 000529-16-8 52
-                 thyl- (CAS) $$ Santene $$ Santen $
-                 $ 2-Norbornene, 2,3-dimethyl-
-                 Bicyclo[2.2.1]hept-2-ene, 2,3-dime  15980 000529-16-8 52
-                 thyl- (CAS) $$ Santene $$ Santen $
-                 $ 2-Norbornene, 2,3-dimethyl-
+153  31.126  0.08 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Benzyl nitrile                       8741 000140-29-4 93
+                 Benzyl nitrile                       8743 000140-29-4 93
+                 Benzyl nitrile                       8738 000140-29-4 93
  
-104  25.165  1.40 C:\Database\WILEY275.L
-                 .BETA. FENCHYL ALCOHOL              40589 000470-08-6 91
-                 .alpha.-TERPINEOL                   40614 000098-55-5 91
-                 Cyclopentane, 2-methyl-1-methylene  24975 056710-83-9 86
-                 -3-(1-methylethenyl)- (CAS) $$ IRI
-                 DA-1,8-DIENE $$ 2-Methyl-1-methyle
-                 ne-3-isopropenylcyclopentane $$ .d
-                 elta.-1,8-Iridadiene
+154  31.239  0.05 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 2,6-Bis(1,1-dimethylethyl)-4-(1-ox 123063 014035-34-8 87
+                 opropyl)phenol
+                 2,6-Bis(1,1-dimethylethyl)-4-(1-ox 123062 014035-34-8 83
+                 opropyl)phenol
+                 Phenol, 2,6-bis(1,1-dimethylethyl) 123155 017540-75-9 64
+                 -4-(1-methylpropyl)-
  
-105  25.286  0.22 C:\Database\WILEY275.L
-                 ISOBORNYL ACETATE                   80883 000125-12-2 38
-                 Bicyclo[2.2.1]heptan-2-ol, 1,7,7-t  40417 000124-76-5 38
-                 rimethyl-, exo- (CAS) $$ Isoborneo
-                 l $$ Isobornyl alcohol $$ exo-2-Hy
-                 droxy-1,7,7-trimethylnorbornane $$
-                  ISO-BORNEOL $$ BORNEOL ISO $$ exo
-                 -1,7,7-Trimethylbicyclo(2.2.1)hept
-                 an-2-ol $$ exo-2-Bornanol $$ exo-2
-                 -Camphanol $$ DL-
-                 endo-Borneol $$ Bicyclo[2.2.1]hept  40403 000507-70-0 38
-                 an-2-ol, 1,7,7-trimethyl-, endo- (
-                 CAS) $$ Borneol (CAS) $$ Camphol $
-                 $ endo-2-Hydroxy-1,7,7-trimethylno
-                 rbornane $$ Bicyclo[2.2.1]heptan-2
-                 -ol, 1,7,7-trimethyl- $$ 2-Bornano
-                 l, endo- $$ Baros camphor $$ Bhims
-                 aim camphor $$ Bo
+155  31.998  0.05 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 Cyclopentasiloxane, decamethyl-    220036 000541-02-6 22
+                 Pentasiloxane, 1,1,3,3,5,5,7,7,9,9 209739 000995-83-5 22
+                 -decamethyl-
+                 2-(Acetoxymethyl)-3-(methoxycarbon 141906 093103-70-9 22
+                 yl)biphenylene
  
-106  26.167  0.09 C:\Database\WILEY275.L
-                 Pentanoic acid (CAS) $$ Valeric ac   7416 000109-52-4 43
-                 id $$ n-Valeric acid $$ Valerianic
-                  acid $$ n-Pentanoic acid $$ Propy
-                 lacetic acid $$ 1-Butanecarboxylic
-                  acid $$ n-C4H9COOH $$ Butanecarbo
-                 xylic acid $$ Valeric acid, N- $$ 
-                 Kyselina valerova $$ NA 1760
-                 iso-VALERIC ACID                     7593 000503-74-2 43
-                 Butanoic acid, 3-methyl- (CAS) $$    7427 000503-74-2 38
-                 Isovaleric acid $$ Delphinic acid 
-                 $$ 3-Methylbutyrate $$ Isopentanoi
-                 c acid $$ Isopropylacetic acid $$ 
-                 3-Methylbutyric acid $$ 3-Methylbu
-                 tanoic acid $$ Acetic acid, isopro
-                 pyl- $$ .beta.-Methylbutyric acid 
-                 $$ iso-C4H9COOH $
+156  33.017  0.01 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 o-Anisaldehyde, semicarbazone       58889 005346-30-5 38
+                 Hydrazinecarboximidothioic acid, e   9186 031424-47-2 27
+                 thyl ester
+                 .beta.-Chloroethylurea               9858 006296-42-0 22
  
-107  26.189  0.08 C:\Database\WILEY275.L
-                 heptanoic acid                      20921 000111-14-8 38
-                 Butanoic acid, 3-methyl- (CAS) $$    7427 000503-74-2 38
-                 Isovaleric acid $$ Delphinic acid 
-                 $$ 3-Methylbutyrate $$ Isopentanoi
-                 c acid $$ Isopropylacetic acid $$ 
-                 3-Methylbutyric acid $$ 3-Methylbu
-                 tanoic acid $$ Acetic acid, isopro
-                 pyl- $$ .beta.-Methylbutyric acid 
-                 $$ iso-C4H9COOH $
-                 Pentanoic acid (CAS) $$ Valeric ac   7420 000109-52-4 35
-                 id $$ n-Valeric acid $$ Valerianic
-                  acid $$ n-Pentanoic acid $$ Propy
-                 lacetic acid $$ 1-Butanecarboxylic
-                  acid $$ n-C4H9COOH $$ Butanecarbo
-                 xylic acid $$ Valeric acid, N- $$ 
-                 Kyselina valerova $$ NA 1760
+157  33.134  0.04 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 3-Phenoxypropionic acid             37072 007170-38-9 64
+                 Phenol                               2621 000108-95-2 52
+                 3-Aminopyridine                      2589 000462-08-8 52
  
-108  26.272  0.06 C:\Database\WILEY275.L
-                 Pentanoic acid (CAS) $$ Valeric ac   7416 000109-52-4 64
-                 id $$ n-Valeric acid $$ Valerianic
-                  acid $$ n-Pentanoic acid $$ Propy
-                 lacetic acid $$ 1-Butanecarboxylic
-                  acid $$ n-C4H9COOH $$ Butanecarbo
-                 xylic acid $$ Valeric acid, N- $$ 
-                 Kyselina valerova $$ NA 1760
-                 Butanoic acid, 3-methyl- (CAS) $$    7432 000503-74-2 59
-                 Isovaleric acid $$ Delphinic acid 
-                 $$ 3-Methylbutyrate $$ Isopentanoi
-                 c acid $$ Isopropylacetic acid $$ 
-                 3-Methylbutyric acid $$ 3-Methylbu
-                 tanoic acid $$ Acetic acid, isopro
-                 pyl- $$ .beta.-Methylbutyric acid 
-                 $$ iso-C4H9COOH $
-                 Butanoic acid, 3-methyl- (CAS) $$    7431 000503-74-2 58
-                 Isovaleric acid $$ Delphinic acid 
-                 $$ 3-Methylbutyrate $$ Isopentanoi
-                 c acid $$ Isopropylacetic acid $$ 
-                 3-Methylbutyric acid $$ 3-Methylbu
-                 tanoic acid $$ Acetic acid, isopro
-                 pyl- $$ .beta.-Methylbutyric acid 
-                 $$ iso-C4H9COOH $
+158  34.582  0.03 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 2-Ethylacridine                     71643 055751-83-2 25
+                 1H-Indole, 5-methyl-2-phenyl-       71661 013228-36-9 25
+                 Anthracene, 9,10-dihydro-9,9,10-tr  85956 014923-29-6 25
+                 imethyl-
  
-109  26.414  0.73 C:\Database\WILEY275.L
-                 Naphthalene, 1,2-dihydro-1,1,6-tri  57820 030364-38-6 96
-                 methyl- (CAS) $$ 1,1,6-trimethyl-1
-                 ,2-dihydronaphthalene $$ 3,8,8-Tri
-                 methildihydronaphthalene
-                 Naphthalene, 1,2-dihydro-1,1,6-tri  57821 030364-38-6 94
-                 methyl- (CAS) $$ 1,1,6-trimethyl-1
-                 ,2-dihydronaphthalene $$ 3,8,8-Tri
-                 methildihydronaphthalene
-                 Naphthalene, 1,2-dihydro-4,5,7-tri  57825 053156-11-9 90
-                 methyl- (CAS) $$ 4,5,7-TRIMETHYL-1
-                 ,2-DIHYDRONAPHTHALENE $$ 1,2-Dihyd
-                 ro-4,5,7-Trimethylnaphthalene
+159  34.997  0.14 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 p-Cresol                             5464 000106-44-5 95
+                 p-Cresol                             5461 000106-44-5 94
+                 p-Cresol                             5462 000106-44-5 94
  
-110  27.040  0.77 C:\Database\WILEY275.L
-                 Thieno[2,3-b]pyridine 7-oxide $$ T  36404 025557-50-0 43
-                 hieno[2,3-b]pyridine, 7-oxide (CAS
-                 Thieno[3,2-c]pyridine 5-Oxide Hemi  36403 086344-82-3 43
-                 hydrate $$ Thieno[3,2-c]pyridine, 
-                 5-oxide (CAS)
-                 9-Borabicyclo[3.3.1]nonan-9-amine,  36783 063366-66-5 42
-                  N-methyl- (CAS) $$ 9-BORABICYCLO[
-                 3.3.1]NONANE, B-METHYLAMINO-
- 
-111  27.200  0.12 C:\Database\WILEY275.L
-                 anti-tricyclo[4.2.1.1(2,5)]decan-9  38022 067252-91-9 64
-                 -exo-ol
-                 Benzoic acid, 2-(acetyloxy)-, meth  77838 000580-02-9 46
-                 yl ester (CAS) $$ ACETYL METHYL SA
-                 LICYLATE $$ O-Acetyl methyl salicy
-                 late $$ ACETYLSALICYLIC ACID-METHY
-                 L ESTER $$ Methyl O-acetylsalicyla
-                 te $$ Methyl rhodin $$ Methylrhodi
-                 ne $$ Methyl aspirin $$ Aspirin me
-                 thyl ester $$ Met
-                 Benzoic acid, 2-hydroxy-, methyl e  37103 000119-36-8 38
-                 ster (CAS) $$ Methyl salicylate $$
-                  Salicylic acid methyl ester $$ Be
-                 tula $$ Exagien $$ Analgit $$ Fluc
-                 armit $$ Betula oil $$ Betula lent
-                 a $$ Teaberry oil $$ Spicewood oil
-                  $$ Gaultheriaoel $$ Gaultheria oi
-                 l $$ Wintergrueno
- 
-112  28.064  0.04 C:\Database\WILEY275.L
-                 5,8a-trans-dimethyl-5,6,7,8-tetrah  50184 118699-84-6 64
-                 ydroindolizin-1(8aH)-one $$ 1(5H)-
-                 Indolizinone, 6,7,8,8a-tetrahydro-
-                 5,8a-dimethyl-, trans-
-                 1-Isoamyl-2-formyl pyrrole          50152 000000-00-0 60
-                 PIPERINOCYCLOHEXENE $$ Cyclohexeny  50221 000000-00-0 38
-                 lpiperidine $$ 1-cyclohexenylpiper
-                 idine
- 
-113  28.404  0.16 C:\Database\WILEY275.L
-                 Cyclotrisiloxane, hexamethyl- (CAS 106849 000541-05-9 64
-                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
-                 EXASILOXANE $$ Hexamethylcyclotris
-                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
-                 XANE $$ Dimethylsiloxane cyclic tr
-                 imer
-                 Cyclotrisiloxane, hexamethyl- (CAS 106845 000541-05-9 64
-                 ) $$ 1,1,3,3,5,5-HEXAMETHYL-CYCLOH
-                 EXASILOXANE $$ Hexamethylcyclotris
-                 iloxane $$ HEXAMETHYL-CYCLOTRISILO
-                 XANE $$ Dimethylsiloxane cyclic tr
-                 imer
-                 Merochlorophaeic Acid $$ Benzoic a 249284 002879-80-3 53
-                 cid, 3-[(2,4-dimethoxy-6-propylben
-                 zoyl)oxy]-2,4-dihydroxy-6-pentyl- 
-                 (CAS) $$ Benzoic acid, 2,3,4-trihy
-                 droxy-6-pentyl-, 3-(2,4-dimethoxy-
-                 6-propylbenzoate) $$ Benzoic acid,
-                  2,4-dimethoxy-6-propyl-, 3-ester 
-                 with 2,3,4-trihyd
- 
-114  29.242  0.04 C:\Database\WILEY275.L
-                 Benzenemethanol, .alpha.,.alpha.,4  35775 001197-01-9 41
-                 -trimethyl- (CAS) $$ p-Cymen-8-ol 
-                 $$ P-CYMENE-8-OL $$ 8-Hydroxy-p-cy
-                 mene $$ 2-(4-Methylphenyl)-2-propa
-                 nol $$ 1-Methyl-4-(1-hydroxy-1-met
-                 hylethyl)benzene $$ 1-Methyl-4-(.a
-                 lpha.-hydroxyisopropyl)benzene $$ 
-                 P-CYMENE-8-0L $$
-                 1,2-Benzisothiazole-3-carboxylic a  63161 040991-34-2 30
-                 cid (CAS) $$ 1,2-BENZISOTHIAZOLE-3
-                 -COOH $$ 3-Carboxy-1,2-benzoisothi
-                 azole $$ 3-Benzisothiazolecarboxyl
-                 ic acid
-                 3-Hydroxy-4-methylbenzaldehyde      24366 057295-30-4 22
- 
-115  29.917  0.04 C:\Database\WILEY275.L
-                 Benzenemethanol (CAS) $$ Benzyl al   9165 000100-51-6 93
-                 cohol $$ Benzal alcohol $$ Phenylm
-                 ethanol $$ Phenylcarbinol $$ Benze
-                 necarbinol $$ .alpha.-Toluenol $$ 
-                 .alpha.-Hydroxytoluene $$ (Hydroxy
-                 methyl)benzene $$ Phenylmethyl alc
-                 oholine $$ Phenylmethyl alcohol $$
-                  Benzoyl alcohol
-                 Benzenemethanol (CAS) $$ Benzyl al   9163 000100-51-6 93
-                 cohol $$ Benzal alcohol $$ Phenylm
-                 ethanol $$ Phenylcarbinol $$ Benze
-                 necarbinol $$ .alpha.-Toluenol $$ 
-                 .alpha.-Hydroxytoluene $$ (Hydroxy
-                 methyl)benzene $$ Phenylmethyl alc
-                 oholine $$ Phenylmethyl alcohol $$
-                  Benzoyl alcohol
-                 BENZYL ALCOHOL                       9179 000100-51-6 93
- 
-116  30.046  0.06 C:\Database\WILEY275.L
-                 Cyclotetrasiloxane, octamethyl- (C 174361 000556-67-2 53
-                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
-                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
-                 YCLIC TETRAMER) CYCLOTETRASILOXANE
-                  $$ Octamethylcyclotetrasiloxane $
-                 $ NUC Silicone VS 7207 $$ Octameth
-                 yl-cyclotetrasiloxane $$ Oktamethy
-                 lcyklotetrasiloxa
-                 Cyclotetrasiloxane, octamethyl- (C 174360 000556-67-2 49
-                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
-                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
-                 YCLIC TETRAMER) CYCLOTETRASILOXANE
-                  $$ Octamethylcyclotetrasiloxane $
-                 $ NUC Silicone VS 7207 $$ Octameth
-                 yl-cyclotetrasiloxane $$ Oktamethy
-                 lcyklotetrasiloxa
-                 Cyclotetrasiloxane, octamethyl- (C 174363 000556-67-2 47
-                 AS) $$ 1,1,3,3,5,5,7,7-OCTAMETHYL-
-                 CYCLOOCTASILOXANE $$ OCTAMETHYL-(C
-                 YCLIC TETRAMER) CYCLOTETRASILOXANE
-                  $$ Octamethylcyclotetrasiloxane $
-                 $ NUC Silicone VS 7207 $$ Octameth
-                 yl-cyclotetrasiloxane $$ Oktamethy
-                 lcyklotetrasiloxa
- 
-117  30.830  0.02 C:\Database\WILEY275.L
-                 PHENYLETHYL ALCOHOL                 15799 000060-12-8 68
-                 Benzeneethanol (CAS) $$ Phenethyl   15781 000060-12-8 60
-                 alcohol $$ PEA $$ PHENETHYL ALCOLH
-                 OL $$ Phenethanol $$ .beta.-PEA $$
-                  Benzyl carbinol $$ 2-Phenylethano
-                 l $$ Ethanol, 2-phenyl- $$ 2-Phene
-                 thyl alcohol $$ .beta.-Phenylethan
-                 ol $$ .beta.-Phenethyl alcohol $$ 
-                 .beta.-Hydroxyeth
-                 PHENYLETHYL ALCOHOL                 15822 000000-00-0 60
- 
-118  31.126  0.10 C:\Database\WILEY275.L
-                 Benzeneacetonitrile (CAS) $$ Benzy  13721 000140-29-4 93
-                 l cyanide $$ Phenylacetonitrile $$
-                  Benzyl nitrile $$ .alpha.-Tolunit
-                 rile $$ 2-Phenylacetonitrile $$ .o
-                 mega.-Cyanotoluene $$ .alpha.-Cyan
-                 otoluene $$ Acetonitrile, phenyl- 
-                 $$ (Cyanomethyl)benzene $$ Phenace
-                 tonitrile $$ Benz
-                 Benzene, 1-isocyano-2-methyl- (CAS  13727 010468-64-1 90
-                 ) $$ 2-METHYL-PHENYLISOCYANIDE $$ 
-                 o-Tolyl isocyanide
-                 Benzeneacetonitrile (CAS) $$ Benzy  13717 000140-29-4 90
-                 l cyanide $$ Phenylacetonitrile $$
-                  Benzyl nitrile $$ .alpha.-Tolunit
-                 rile $$ 2-Phenylacetonitrile $$ .o
-                 mega.-Cyanotoluene $$ .alpha.-Cyan
-                 otoluene $$ Acetonitrile, phenyl- 
-                 $$ (Cyanomethyl)benzene $$ Phenace
-                 tonitrile $$ Benz
- 
-119  31.239  0.06 C:\Database\WILEY275.L
-                 1,8-Napthalindiylbis(dimethylphosp 133004 082404-46-4 53
-                 hane) $$ Phosphine, 1,8-naphthalen
-                 ediylbis[dimethyl- (CAS) $$ 1,8-Na
-                 phthalenediylbis(dimethylphosphine
-                 2-phenyl-imidazo[1,2-a]benzimidazo 118873 000000-00-0 50
-                 le
-                 1H-Phenanthro[9,10-d]imidazol-2-am 118869 037052-13-4 50
-                 ine (CAS) $$ 2-AMINO-1H-PHENANTHRO
-                 (9,10-D)IMIDAZOLE $$ 2-Amino-1H-ph
-                 enanthro[9,10-d]imidazole
- 
-120  33.134  0.04 C:\Database\WILEY275.L
-                 Phenol (CAS) $$ Izal $$ ENT 1814 $   4814 000108-95-2 52
-                 $ PhOH $$ Benzenol $$ Oxybenzene $
-                 $ Monophenol $$ Phenic acid $$ Car
-                 bolic acid $$ Phenylic acid $$ Hyd
-                 roxybenzene $$ Phenyl hydrate $$ P
-                 henyl alcohol $$ Phenylic alcohol 
-                 $$ Phenyl hydroxide $$ Monohydroxy
-                 benzene $$ Baker'
-                 Phenol (CAS) $$ Izal $$ ENT 1814 $   4824 000108-95-2 52
-                 $ PhOH $$ Benzenol $$ Oxybenzene $
-                 $ Monophenol $$ Phenic acid $$ Car
-                 bolic acid $$ Phenylic acid $$ Hyd
-                 roxybenzene $$ Phenyl hydrate $$ P
-                 henyl alcohol $$ Phenylic alcohol 
-                 $$ Phenyl hydroxide $$ Monohydroxy
-                 benzene $$ Baker'
-                 Phenol (CAS) $$ Izal $$ ENT 1814 $   4816 000108-95-2 52
-                 $ PhOH $$ Benzenol $$ Oxybenzene $
-                 $ Monophenol $$ Phenic acid $$ Car
-                 bolic acid $$ Phenylic acid $$ Hyd
-                 roxybenzene $$ Phenyl hydrate $$ P
-                 henyl alcohol $$ Phenylic alcohol 
-                 $$ Phenyl hydroxide $$ Monohydroxy
-                 benzene $$ Baker'
- 
-121  34.997  0.13 C:\Database\WILEY275.L
-                 Phenol, 4-methyl- (CAS) $$ p-Creso   9137 000106-44-5 94
-                 l $$ p-Toluol $$ 4-Cresol $$ p-Kre
-                 sol $$ p-Oxytoluene $$ p-Methylphe
-                 nol $$ p-Cresylic acid $$ p-Tolyl 
-                 alcohol $$ 4-Hydroxytoluene $$ p-H
-                 ydroxytoluene $$ 4-Methylphenol $$
-                  p-Methylhydroxybenzene $$ 1-Hydro
-                 xy-4-methylbenzen
-                 Phenol, 3-methyl- (CAS) $$ m-Creso   9126 000108-39-4 91
-                 l $$ Cresol $$ m-Kresol $$ 3-Creso
-                 l $$ m-Toluol $$ m-Cresole $$ m-Ox
-                 ytoluene $$ m-Methylphenol $$ 3-Me
-                 thylphenol $$ m-Cresylic acid $$ m
-                 -Hydroxytoluene $$ 3-Hydroxytoluen
-                 e $$ 1-Hydroxy-3-methylbenzene $$ 
-                 meta-Cresol $$ CR
-                 Phenol, 4-methyl- (CAS) $$ p-Creso   9135 000106-44-5 91
-                 l $$ p-Toluol $$ 4-Cresol $$ p-Kre
-                 sol $$ p-Oxytoluene $$ p-Methylphe
-                 nol $$ p-Cresylic acid $$ p-Tolyl 
-                 alcohol $$ 4-Hydroxytoluene $$ p-H
-                 ydroxytoluene $$ 4-Methylphenol $$
-                  p-Methylhydroxybenzene $$ 1-Hydro
-                 xy-4-methylbenzen
+160  35.448  0.01 D:\Users\jbrown\Documents\GitHub\Database\NIST14.L
+                 1-Acetyl-2,6-naphthalenediol        66568 108804-50-8 25
+                 Benzaldehyde, 2-nitro-, diaminomet  71767 102632-31-5 25
+                 hylidenhydrazone
+                 Benzene, 1-methoxy-2-(1-methyl-2-m  66826 039877-94-6 20
+                 ethylenecyclopentyl)-
  
 
-Arwen_WAX_4...AKE METHOD.M Mon Mar 18 14:10:07 2019   
+20190812_BA...275_adams2.M Mon Aug 26 12:57:23 2019   
