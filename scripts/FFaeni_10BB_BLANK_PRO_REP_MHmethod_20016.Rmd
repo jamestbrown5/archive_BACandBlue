@@ -54,14 +54,14 @@ rownames(meta) <- meta$SampleID_merge
 SAMP <- sample_data(meta)
 sample_names(SAMP)<-meta$SampleID
 
-peaks <- read.csv("~/GitHub/BACandBlue/data/BACandBLUE_GCdata_FFaeni_10BB_BLANK_PRO_REP/peak.csv")
+peaks <- read.csv("~/GitHub/BACandBlue/data/BACandBLUE_GCdata_FFaeni_10BB_BLANK_PRO_REP/peak2.csv")
 TAX <- tax_table(peaks) # gives a warning, don't freak out
 taxa_names(TAX)<-peaks$Peak_ID
 colnames(TAX)<- colnames(peaks)
 
 abund <- read.csv("~/GitHub/BACandBlue/data/BACandBLUE_GCdata_FFaeni_10BB_BLANK_PRO_REP/otu4.csv", colClasses = c("factor","factor", rep("numeric", times= 30)))# read in peak areas, assigning factors of diff classifications based on columns
 
-rownames(abund) <- abund$Peak_ID #give abund rows names according to "Peak_ID" in peak.csv table
+rownames(abund) <- abund$Peak_ID #give abund rows names according to "Peak_ID" in peak2.csv table
 OTU <- otu_table(abund[,-c(1:2)], taxa_are_rows=T) #create a table with only peak areas, compounds are taxa
 
 
@@ -137,14 +137,14 @@ rownames(meta) <- meta$SampleID_merge
 SAMP <- sample_data(meta)
 sample_names(SAMP)<-meta$SampleID
 
-peaks <- read.csv("~/GitHub/BACandBlue/data/BACandBLUE_GCdata_FFaeni_10BB_BLANK_PRO_REP/peak.csv")
+peaks <- read.csv("~/GitHub/BACandBlue/data/BACandBLUE_GCdata_FFaeni_10BB_BLANK_PRO_REP/peak2.csv")
 TAX <- tax_table(peaks) # gives a warning, don't freak out
 taxa_names(TAX)<-peaks$Peak_ID
 colnames(TAX)<- colnames(peaks)
 
 abund <- read.csv("~/GitHub/BACandBlue/data/BACandBLUE_GCdata_FFaeni_10BB_BLANK_PRO_REP/otu5.csv", colClasses = c("factor","factor", rep("numeric", times= 30)))# read in peak areas, assigning factors of diff classifications based on columns
 
-rownames(abund) <- abund$Peak_ID #give abund rows names according to "Peak_ID" in peak.csv table
+rownames(abund) <- abund$Peak_ID #give abund rows names according to "Peak_ID" in peak2.csv table
 OTU <- otu_table(abund[,-c(1:2)], taxa_are_rows=T) #create a table with only peak areas, compounds are taxa
 
 
@@ -219,14 +219,14 @@ rownames(meta) <- meta$SampleID_merge
 SAMP <- sample_data(meta)
 sample_names(SAMP)<-meta$SampleID
 
-peaks <- read.csv("~/GitHub/BACandBlue/data/BACandBLUE_GCdata_FFaeni_10BB_BLANK_PRO_REP/peak.csv")
+peaks <- read.csv("~/GitHub/BACandBlue/data/BACandBLUE_GCdata_FFaeni_10BB_BLANK_PRO_REP/peak2.csv")
 TAX <- tax_table(peaks) # gives a warning, don't freak out
 taxa_names(TAX)<-peaks$Peak_ID
 colnames(TAX)<- colnames(peaks)
 
 abund <- read.csv("~/GitHub/BACandBlue/data/BACandBLUE_GCdata_FFaeni_10BB_BLANK_PRO_REP/otu6.csv", colClasses = c("factor","factor", rep("numeric", times= 30)))# read in peak areas, assigning factors of diff classifications based on columns
 
-rownames(abund) <- abund$Peak_ID #give abund rows names according to "Peak_ID" in peak.csv table
+rownames(abund) <- abund$Peak_ID #give abund rows names according to "Peak_ID" in peak2.csv table
 OTU <- otu_table(abund[,-c(1:2)], taxa_are_rows=T) #create a table with only peak areas, compounds are taxa
 
 
