@@ -87,7 +87,7 @@ new.dat <- cbind(PCs, sample_data(VOC)$microbe, sample_data(VOC)$rep, sample_dat
 names(new.dat)[20:22] <- c("Microbe","Rep","Hour") #for the "must be the same length as vector" error make sure that the info inside the bracets matches empty columns in the dataframe your creating"
 library(gdata)
 new.dat$Microbe <- reorder.factor(new.dat$Microbe, new.order = c("FF"))
-new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("02","24","48"))
+new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("2","24","48"))
 summary(new.dat)
 
 ggplot(new.dat, aes(x=Axis.1, y= Axis.2)) +
@@ -113,7 +113,7 @@ new.dat <- cbind(PCs, sample_data(VOC)$microbe, sample_data(VOC)$hour, sample_da
 names(new.dat)[23:25] <- c("Microbe", "Hour", "Rep")
 library(gdata)
 new.dat$Microbe <- reorder.factor(new.dat$Microbe, new.order = c("SWD"))
-new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("02","24","48"))
+new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("2","24","48"))
 ###
 ###
 ggplot(new.dat, aes(x=Axis.1, y= Axis.2)) +
@@ -142,7 +142,7 @@ TAX <- tax_table(peaks) # gives a warning, don't freak out
 taxa_names(TAX)<-peaks$Peak_ID
 colnames(TAX)<- colnames(peaks)
 
-abund <- read.csv("~/GitHub/BACandBlue/data/BACandBLUE_GCdata_FFaeni_10BB_BLANK_PRO_REP/otu5.csv", colClasses = c("factor","factor", rep("numeric", times= 30)))# read in peak areas, assigning factors of diff classifications based on columns
+abund <- read.csv("~/GitHub/BACandBlue/data/BACandBLUE_GCdata_FFaeni_10BB_BLANK_PRO_REP/otu5.csv", colClasses = c("factor","factor", rep("numeric", times= 21)))# read in peak areas, assigning factors of diff classifications based on columns
 
 rownames(abund) <- abund$Peak_ID #give abund rows names according to "Peak_ID" in peak2.csv table
 OTU <- otu_table(abund[,-c(1:2)], taxa_are_rows=T) #create a table with only peak areas, compounds are taxa
@@ -170,7 +170,7 @@ new.dat <- cbind(PCs, sample_data(VOC)$microbe, sample_data(VOC)$rep, sample_dat
 names(new.dat)[14:16] <- c("Microbe","Rep","Hour") #for the "must be the same length as vector" error make sure that the info inside the bracets matches empty columns in the dataframe your creating"
 library(gdata)
 new.dat$Microbe <- reorder.factor(new.dat$Microbe, new.order = c("FF"))
-new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("02","24","48"))
+new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("2","24","48"))
 summary(new.dat)
 
 ggplot(new.dat, aes(x=Axis.1, y= Axis.2)) +
@@ -196,7 +196,7 @@ new.dat <- cbind(PCs, sample_data(VOC)$microbe, sample_data(VOC)$hour, sample_da
 names(new.dat)[15:17] <- c("Microbe", "Hour", "Rep")
 library(gdata)
 new.dat$Microbe <- reorder.factor(new.dat$Microbe, new.order = c("SWD"))
-new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("02", "24", "48"))
+new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("2", "24", "48"))
 ###
 ###
 ggplot(new.dat, aes(x=Axis.1, y= Axis.2)) +
@@ -224,7 +224,7 @@ TAX <- tax_table(peaks) # gives a warning, don't freak out
 taxa_names(TAX)<-peaks$Peak_ID
 colnames(TAX)<- colnames(peaks)
 
-abund <- read.csv("~/GitHub/BACandBlue/data/BACandBLUE_GCdata_FFaeni_10BB_BLANK_PRO_REP/otu6.csv", colClasses = c("factor","factor", rep("numeric", times= 30)))# read in peak areas, assigning factors of diff classifications based on columns
+abund <- read.csv("~/GitHub/BACandBlue/data/BACandBLUE_GCdata_FFaeni_10BB_BLANK_PRO_REP/otu6.csv", colClasses = c("factor","factor", rep("numeric", times= 12)))# read in peak areas, assigning factors of diff classifications based on columns
 
 rownames(abund) <- abund$Peak_ID #give abund rows names according to "Peak_ID" in peak2.csv table
 OTU <- otu_table(abund[,-c(1:2)], taxa_are_rows=T) #create a table with only peak areas, compounds are taxa
@@ -252,7 +252,7 @@ new.dat <- cbind(PCs, sample_data(VOC)$microbe, sample_data(VOC)$rep, sample_dat
 names(new.dat)[9:11] <- c("Microbe","Rep","Hour") #for the "must be the same length as vector" error make sure that the info inside the bracets matches empty columns in the dataframe your creating"
 library(gdata)
 new.dat$Microbe <- reorder.factor(new.dat$Microbe, new.order = c("FF"))
-new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("02","24","48"))
+new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("2","24","48"))
 summary(new.dat)
 
 ggplot(new.dat, aes(x=Axis.1, y= Axis.2)) +
@@ -275,10 +275,10 @@ plot_ordination(VOC, ord, type = "samples", color = "hour", shape = "microbe", l
 ###
 PCs <- data.frame(scores(ord$vectors))
 new.dat <- cbind(PCs, sample_data(VOC)$microbe, sample_data(VOC)$hour, sample_data(VOC)$rep) # make a new matrix
-names(new.dat)[9:11] <- c("Microbe", "Hour", "Rep")
+names(new.dat)[11:13] <- c("Microbe", "Hour", "Rep")
 library(gdata)
 new.dat$Microbe <- reorder.factor(new.dat$Microbe, new.order = c("SWD"))
-new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("02","24", "48"))
+new.dat$Hour <- reorder.factor(new.dat$Hour, new.order = c("2","24", "48"))
 ###
 ###
 ggplot(new.dat, aes(x=Axis.1, y= Axis.2)) +
