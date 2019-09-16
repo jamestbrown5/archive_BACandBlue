@@ -1,0 +1,6 @@
+﻿Name LastDataFile
+  LastDataPath$ = "C:\Users\chembug\Documents\Old Faithful\D Drive\msdata\CStuhl\Francis\FAME\" 
+  LastDataFile$ = "single bee FAME 032019.D" 
+  LastDataSize  = 22086835
+  remove LastDataFile
+  return

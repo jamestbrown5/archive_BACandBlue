@@ -1,0 +1,2435 @@
+﻿C:\MassHunter\GCMS\1\methods\checkout\ofn_sn.m\Audit.txt 
+Created Wed Jun 26 14:59:54 2013
+
+
+ Modified : Wed Jun 26 14:59:54 2013
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jun 26 15:03:05 2013
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jun 26 15:06:52 2013
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Jun 27 13:35:25 2013
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Jun 28 13:31:42 2013
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Jul 09 14:22:30 2013
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Jul 09 14:53:27 2013
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Jul 09 14:58:08 2013
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Jul 09 15:00:20 2013
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jul 10 11:00:09 2013
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jul 10 11:05:25 2013
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Aug 19 16:54:37 2013
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\OFN_1pg_Scan_N=7.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 25 14:35:49 2013
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 25 14:37:52 2013
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 25 14:38:01 2013
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 25 14:38:12 2013
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 25 14:47:06 2013
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 25 15:17:32 2013
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 25 15:17:50 2013
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 25 15:18:27 2013
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn_TID.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 25 15:59:49 2013
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Nov 25 16:22:57 2013
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Nov 25 16:23:11 2013
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Nov 25 16:24:05 2013
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Nov 25 16:24:12 2013
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jan 08 11:32:17 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jan 08 14:31:38 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\FEN_PulsedSplitless.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Jan 23 11:14:27 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Jan 23 11:18:20 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Jan 23 14:26:06 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Jan 23 14:26:21 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Jan 23 14:52:10 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Jan 23 16:16:31 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Jan 23 16:35:51 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Jan 23 16:36:05 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Jan 23 16:56:43 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Jan 24 09:54:20 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Jan 24 09:54:33 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\3\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 02 13:59:15 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 02 13:59:55 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 02 14:07:36 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 02 14:07:45 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 02 14:08:26 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 02 14:40:49 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 02 14:43:06 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 02 15:18:41 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 02 15:35:44 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon May 05 10:00:58 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon May 05 16:16:00 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon May 05 16:47:29 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue May 06 17:10:29 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue May 06 17:10:53 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed May 07 16:19:44 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu May 08 11:30:09 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu May 08 11:31:32 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu May 08 11:31:36 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu May 08 11:33:26 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu May 08 14:19:18 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu May 08 16:40:39 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu May 08 16:43:08 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu May 08 17:09:57 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu May 08 17:23:47 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu May 08 17:43:29 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 09 09:04:35 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 09 09:05:18 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 09 09:05:26 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 09 13:53:02 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 09 13:55:10 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 09 13:59:42 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 09 17:15:43 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon May 12 13:59:41 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue May 13 10:16:50 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue May 13 10:28:31 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue May 13 10:29:16 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue May 13 14:51:12 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue May 13 14:52:41 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 16 10:49:43 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 16 10:51:22 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 16 10:52:27 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 16 10:52:58 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 16 10:53:48 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 16 10:54:22 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 16 14:17:44 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 16 14:18:21 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 16 14:20:07 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed May 28 15:48:50 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed May 28 15:49:04 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed May 28 15:59:49 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed May 28 16:22:20 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Jun 02 10:30:42 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Jun 02 10:30:51 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Jun 17 11:59:31 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Jun 17 12:04:41 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Jun 17 15:38:20 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Jun 17 15:51:01 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Jun 17 16:02:23 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Jun 17 16:17:08 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Jun 17 16:41:27 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Jun 17 16:41:42 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Jun 17 16:51:37 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Jun 17 17:03:50 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jun 18 13:35:10 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jun 18 13:45:53 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jun 18 14:52:28 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jun 18 16:14:31 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jun 18 16:14:41 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jun 18 16:15:40 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jun 18 16:17:51 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jun 18 16:18:03 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Jun 23 09:21:41 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Jul 03 11:35:25 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Jul 03 11:41:12 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Jul 03 11:41:28 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Jul 07 10:09:14 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Jul 07 10:09:32 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Jul 07 10:47:43 2014
+ Event    :  
+ Severity : 2
+
+
+ Modified : Mon Jul 07 10:53:45 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor_IF90.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Jul 07 10:55:21 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Jul 07 10:57:49 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Jul 10 10:11:43 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor_IF150_100uA.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Jul 17 14:39:45 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Jul 17 14:40:24 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Jul 17 14:55:59 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Jul 17 14:56:11 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Jul 17 17:01:05 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Jul 18 10:37:51 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Jul 18 13:05:22 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Jul 18 13:06:14 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Jul 18 13:06:58 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Jul 18 13:19:59 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Jul 18 15:44:16 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Aug 05 11:01:59 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Aug 05 11:04:04 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Aug 05 11:38:00 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Aug 05 11:38:19 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Aug 11 17:16:49 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Aug 12 09:09:20 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Aug 19 17:40:53 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Aug 22 10:25:31 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Aug 22 10:45:00 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Aug 22 10:46:10 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Aug 22 10:46:22 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Aug 22 17:28:34 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Aug 27 08:48:45 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Aug 27 09:21:32 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Aug 29 12:03:45 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Aug 29 13:51:53 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Aug 29 16:23:03 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_IDL_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Sep 30 13:19:12 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Sep 30 15:30:26 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Sep 30 15:31:41 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Oct 01 08:58:45 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Oct 02 09:45:14 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Oct 02 09:45:35 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Oct 02 10:04:31 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Oct 02 10:04:44 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Oct 02 11:10:25 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Oct 02 11:18:48 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Oct 02 12:00:04 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Oct 02 13:11:40 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Oct 02 13:32:56 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Oct 02 15:22:39 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Oct 02 15:52:36 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 03 08:35:18 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 03 08:35:49 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Oct 07 16:19:27 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Oct 07 16:19:43 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Oct 07 16:20:54 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Oct 07 16:21:14 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Oct 07 16:21:25 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Oct 07 16:39:53 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Oct 08 13:51:38 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Oct 08 13:51:51 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Oct 08 15:31:53 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Oct 08 15:35:05 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Oct 09 15:32:51 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Oct 09 15:33:36 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Oct 09 15:40:44 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 10 09:43:17 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Oct 14 10:59:20 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Oct 14 11:38:29 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Oct 14 11:38:46 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Oct 14 11:41:13 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 24 13:43:22 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 24 15:03:07 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 24 15:38:39 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 24 15:39:27 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 24 15:40:39 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 24 15:40:49 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 24 16:38:03 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Oct 27 09:17:35 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Oct 27 09:17:53 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Oct 27 09:18:06 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Oct 27 09:18:31 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Oct 27 09:18:40 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Oct 27 09:19:36 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Oct 27 14:42:35 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Oct 27 14:43:12 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Oct 27 14:49:07 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Oct 28 08:24:46 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Oct 29 16:33:31 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Oct 29 16:34:09 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Oct 29 16:34:24 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Oct 29 17:25:04 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Oct 29 17:31:06 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Oct 29 17:31:12 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Oct 29 17:31:24 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 31 14:37:21 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 31 14:39:45 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 31 15:49:07 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 31 17:05:41 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Nov 03 17:03:27 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Nov 03 17:04:18 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ofn_sn_Thor.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Nov 07 15:58:27 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Nov 07 16:02:50 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Nov 07 16:04:05 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Nov 07 16:19:50 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Nov 13 16:40:08 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Dec 04 13:39:53 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Dec 10 16:31:03 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Dec 11 16:54:07 2014
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Jan 05 11:16:44 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Jan 05 11:20:01 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Jan 05 14:24:15 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Jan 05 14:52:37 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Jan 05 14:52:40 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Jan 16 09:46:46 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Jan 16 09:47:15 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Jan 16 09:50:39 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Jan 16 11:36:33 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\PesticideCheckoutStd_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Feb 04 15:20:04 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Feb 04 15:20:28 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Feb 04 15:20:41 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Feb 04 15:46:55 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Feb 04 16:02:06 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Feb 04 16:02:16 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Feb 04 16:02:39 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Feb 04 16:19:56 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Feb 04 16:38:04 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Feb 04 16:57:52 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Feb 04 22:45:47 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Feb 04 23:03:14 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Feb 04 23:26:07 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Feb 05 09:45:44 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Feb 05 10:20:59 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Feb 05 15:23:13 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Feb 05 17:10:06 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Feb 24 10:25:30 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Feb 24 13:48:02 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Feb 24 14:03:54 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Mar 12 16:32:51 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Mar 12 16:33:18 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Mar 12 16:33:33 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Mar 12 16:33:47 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Mar 12 16:34:04 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Mar 12 16:34:53 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Mar 13 13:18:39 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Mar 13 14:12:22 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Mar 13 14:27:59 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Mar 13 14:51:08 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Mar 13 14:51:42 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Mar 13 15:39:26 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Mar 13 15:39:43 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Mar 13 16:03:31 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Mar 13 16:19:51 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Mar 13 16:20:02 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Mar 18 13:45:41 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Mar 18 16:17:33 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES_ForNoiseThresholdExpts.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Mar 20 11:18:52 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Mar 25 14:46:46 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Mar 26 10:16:14 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Mar 26 10:16:45 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Mar 26 11:23:36 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Mar 26 11:23:54 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Mar 26 11:25:41 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES_CleanUp.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Mar 26 11:40:26 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Mar 26 13:32:11 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Mar 26 13:51:35 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Mar 26 14:21:09 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Mar 26 14:43:58 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Mar 26 14:55:45 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Mar 26 14:55:55 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Mar 26 15:30:56 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Mar 26 15:31:50 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Mar 30 15:02:00 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\FEN_Reactivity_Split50_SIM_GF1.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon May 04 09:39:46 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ForFiji_PP-build\OFN_SNR_HES_GF2_fil1.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon May 04 09:40:00 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ForFiji_PP-build\OFN_SNR_HES_GF2_fil1.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon May 04 09:42:01 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ForFiji_PP-build\OFN_SNR_HES_GF2_fil1.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon May 04 09:45:20 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ForFiji_PP-build\OFN_SNR_HES_GF2_fil1.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon May 04 09:45:43 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ForFiji_PP-build\OFN_SNR_HES_GF2_fil1.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon May 04 09:45:53 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ForFiji_PP-build\OFN_SNR_HES_GF2_fil1.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon May 04 09:46:06 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ForFiji_PP-build\OFN_SNR_HES_GF2_fil2.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon May 04 09:49:55 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ForFiji_PP-build\OFN_SNR_HES_GF3_fil1.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Aug 10 17:51:13 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ForFiji_PR_Build\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Aug 10 17:51:35 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ForFiji_PR_Build\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Aug 25 10:17:05 2015
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\OFN_SNR_HES.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Jun 28 11:10:12 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\InstallationCheckout\IC_OFN_SN.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Jun 28 11:11:18 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\InstallationCheckout\IC_OFN_SN.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Jun 28 11:12:02 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\InstallationCheckout\IC_OFN_SN.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Jun 28 11:12:17 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\InstallationCheckout\IC_OFN_SN.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Jun 28 11:12:31 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\InstallationCheckout\IC_OFN_SN.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Jun 28 11:12:59 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\InstallationCheckout\IC_OFN_SN.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Jun 28 16:34:43 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\InstallationCheckout\IC_OFN_SN.m
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jun 29 09:21:51 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\InstallationCheckout\IC_OFN_SN.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jun 29 09:33:04 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\InstallationCheckout\IC_OFN_SN.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jun 29 09:34:27 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\InstallationCheckout\IC_OFN_SN_SIM.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jun 29 09:35:09 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\InstallationCheckout\IC_OFN_SN_SIM.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jun 29 10:04:04 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\InstallationCheckout\IC_OFN_SN_.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jul 13 15:12:06 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\data\JJB-B01\Quick check of new method.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jul 13 15:57:36 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\data\JJB-B01\Quick check of new method.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jul 13 15:59:04 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\Sleep.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Aug 09 15:41:42 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\Arwen_30m_35o_10omin.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Aug 09 16:50:48 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\Arwen_30m_35o_10omin.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Aug 15 15:28:09 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\Arwen_30m_35o_10omin_25min.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Aug 26 10:28:26 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\Arwen_60m_40o_4omin_draft01.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Sep 19 10:59:08 2016
+ Event    : Save Method
+ Message  : Save Method D:\MassHunter\GCMS\1\methods\RB-dataanalysis-01.M from DA menu.
+ Severity : 1
+
+
+ Modified : Wed Oct 05 07:56:59 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\Arwen_60m_40o_4omin_draft01.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Oct 05 08:00:27 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\Arwen_60m_40o_4omin_draft01.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Oct 14 09:45:36 2016
+ Event    : Save Method
+ Message  : Save Method D:\MassHunter\GCMS\1\methods\Arwen_60m_40o_4omin_draft01.M from DA menu.
+ Severity : 1
+
+
+ Modified : Mon Oct 17 14:28:49 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\Arwen_40_4.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Oct 17 14:29:26 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\Arwen_40_4_split.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Oct 18 11:00:14 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\Arwen_40_4.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Nov 08 08:52:58 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\Arwen_40_4.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Nov 08 15:18:38 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\Arwen_40_4.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Nov 08 15:19:28 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\Arwen_40_4.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Nov 08 16:39:26 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\Arwen_40_4.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Nov 09 15:37:37 2016
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\Arwen_40_4.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Feb 21 09:26:55 2017
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\Arwen_40_4.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri May 12 13:23:40 2017
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\Arwen_40_4_5min delay.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Jun 16 19:00:41 2017
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\Arwen_40_4_ALS_5mindelay.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jul 12 16:33:51 2017
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\ALS_Arwen_40_4.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Aug 07 09:39:32 2017
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\Arwen_40_4_tripolymer.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Aug 08 06:30:39 2017
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\Arwen_40_4.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Sep 14 07:17:55 2017
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\DB-WAX METHODS\Arwen_WAX_40_4_column flow4.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Sep 15 08:32:03 2017
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\DB-WAX METHODS\Arwen_WAX_40_4_column flow3.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Fri Sep 15 08:35:28 2017
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\DB-WAX METHODS\Arwen_WAX_40_4_column flow3.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Sep 18 08:22:27 2017
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\DB-WAX METHODS\Arwen_WAX_40_4.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Oct 03 14:32:44 2017
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\DB-WAX METHODS\Arwen_WAX_40_4_230inlet.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Oct 03 14:33:10 2017
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\DB-WAX METHODS\Arwen_WAX_40_4_230inlet.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Oct 05 09:39:58 2017
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\DB-WAX METHODS\Arwen_WAX_40_4_230inlet.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Nov 30 07:47:41 2017
+ Event    : Save Method
+ Message  : Save Method to D:\MassHunter\GCMS\1\methods\DB-WAX METHODS\Arwen_WAX_40_4_230inlet.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed May 09 09:14:26 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\DB-WAX METHODS\Arwen_WAX_40_4_230inlet.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Nov 08 16:51:26 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\DB-WAX METHODS\Arwen_WAX_40_4_230inlet.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Dec 10 12:52:02 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\DB-WAX METHODS\Arwen_WAX_40_4_230inlet_AWAKE METHOD.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Mon Dec 10 19:45:58 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\DB-WAX METHODS\Arwen_WAX_40_4_230inlet_AWAKE METHOD.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Dec 11 16:20:56 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\DB-WAX METHODS\Arwen_WAX_40_4_230inlet_AWAKE METHOD.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Dec 11 16:26:53 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\DB-WAX METHODS\Arwen_WAX_40_4_230inlet_AWAKE METHOD.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Dec 11 17:22:02 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\DB-WAX METHODS\Arwen_WAX_40_4_230inlet_AWAKE METHOD.M
+ Why      : Instrument Control method save
+ Severity : 1
+

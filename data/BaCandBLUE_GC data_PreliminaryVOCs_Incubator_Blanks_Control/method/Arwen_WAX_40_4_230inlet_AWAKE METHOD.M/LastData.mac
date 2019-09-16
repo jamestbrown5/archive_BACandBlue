@@ -1,0 +1,6 @@
+﻿Name LastDataFile
+  LastDataPath$ = "Z:\data\JTB-E02\CS_Samples\" 
+  LastDataFile$ = "JTB-E18-003-10.D" 
+  LastDataSize  = 11119741
+  remove LastDataFile
+  return

@@ -1,7 +1,6 @@
                                                    Area Percent Report
 
-  Data Path : D:\Users\jbrown\Documents\GitHub\BACandBlue\data\BaCandBLUE_GC data_PreliminaryVOCs_Incubator_Blank
-...           s_Control\
+  Data Path : C:\MassHunter\GCMS\1\data\JTB-E18\
   Data File : JTB-E18-023-08.D                                    
   Acq On    : 10 Sep 2019  13:41
   Operator  : JTB
@@ -12,7 +11,7 @@
   Integration Parameters: events16.e
   Integrator: ChemStation
 
-  Method    : D:\gcms\1\methods\20190812_BACnBLUE_event16_nist14_wiley275_adams2.M
+  Method    : C:\MassHunter\GCMS\1\methods\DB-WAX METHODS\Arwen_WAX_40_4_230inlet_AWAKE METHOD.M
   Title     :  
 
   Signal     : TIC: JTB-E18-023-08.D\data.ms
@@ -132,4 +131,4 @@
  
                         Sum of corrected areas:  1524343829
 
-20190812_BA...275_adams2.M Wed Sep 11 11:31:20 2019   
+Arwen_WAX_4...AKE METHOD.M Wed Sep 11 11:23:21 2019   

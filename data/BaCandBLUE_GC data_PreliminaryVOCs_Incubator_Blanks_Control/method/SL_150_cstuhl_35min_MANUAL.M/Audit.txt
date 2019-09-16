@@ -1,0 +1,150 @@
+﻿C:\MassHunter\GCMS\1\METHODS\DEFAULT.M\Audit.txt 
+Created Tue Sep 11 11:59:18 2018
+
+
+ Modified : Tue Sep 11 11:59:18 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\METHODS\DEFAULT.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Sep 11 12:40:57 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\METHODS\CT_150.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Sep 11 14:48:43 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\METHODS\CT_150.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Sep 11 14:50:26 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\METHODS\CT_150.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Sep 11 15:01:32 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\METHODS\CT_150.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Sep 11 15:22:39 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\METHODS\CT_150.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Sep 11 16:32:10 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\METHODS\CT_150.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Sep 11 16:41:42 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\METHODS\CT_150.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Sep 11 16:57:14 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\METHODS\CT_150.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Sep 11 17:29:49 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\METHODS\CT_150.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Sep 12 11:00:52 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\CT_150.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Sep 12 13:31:44 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\CT_150.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Oct 16 12:58:07 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\CT_150.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Tue Oct 16 12:58:42 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\CT_150.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Oct 17 10:12:23 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\CT_150.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Oct 24 13:26:42 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\SL_150.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Oct 24 14:29:55 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\SL_150_ALS.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Thu Oct 25 09:10:52 2018
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\SL_150_ALS.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Jan 30 13:35:39 2019
+ Event    : Save Method
+ Message  : Save Method to C:\MassHunter\GCMS\1\methods\SL_150_ALS.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Apr 03 10:28:02 2019
+ Event    : Save Method
+ Message  : Save Method to Z:\data\JTB-E18\method\SL_150_cstuhl_35min.M
+ Why      : Instrument Control method save
+ Severity : 1
+
+
+ Modified : Wed Apr 03 11:13:54 2019
+ Event    : Save Method
+ Message  : Save Method to Z:\data\JTB-E18\method\SL_150_cstuhl_35min_MANUAL.M
+ Why      : Instrument Control method save
+ Severity : 1
+
