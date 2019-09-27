@@ -17,8 +17,7 @@ library(readxl)
 library(ggplot2)
 library(boot)
 
-data = read_excel("~/GitHub/BACandBlue/data/BaCandBLUE_Bioassay/RAW_swd_vs_inoculated_blueberryjuice.xlsx", 
-    sheet = "data4r")
+data = read_excel("~/GitHub/BACandBlue/data/BaCandBLUE_Bioassay/data.xlsx")
 #View(data)
 ```
 
@@ -27,51 +26,52 @@ data = read_excel("~/GitHub/BACandBlue/data/BaCandBLUE_Bioassay/RAW_swd_vs_inocu
 ###Subsetting data to look at the relationship between isolate and SWD behaviors
 #################################################################################
 data0621=data %>% 
-  dplyr::select(microbe, flies_in_treat, flies_outside, flies_in_control) %>% 
-  dplyr::filter(microbe== "C0621") %>% 
-  tidyr::gather(location, observed, flies_in_treat:flies_in_control) 
+  dplyr::select(trap1_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
+  dplyr::filter(trap1_microbe== "C0621") %>% 
+  tidyr::gather(location, observed, trap1_catch:legs_up) 
 
 data0620=data %>% 
-  dplyr::select(microbe, flies_in_treat, flies_outside, flies_in_control) %>% 
-  dplyr::filter(microbe== "C0620") %>% 
-  tidyr::gather(location, observed, flies_in_treat:flies_in_control)
+  dplyr::select(trap1_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
+  dplyr::filter(trap1_microbe== "C0620") %>% 
+  tidyr::gather(location, observed, trap1_catch:legs_up)
 
 data0633=data %>% 
-  dplyr::select(microbe, flies_in_treat, flies_outside, flies_in_control) %>% 
-  dplyr::filter(microbe== "C0633") %>% 
-  tidyr::gather(location, observed, flies_in_treat:flies_in_control) 
+  dplyr::select(trap1_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
+  dplyr::filter(trap1_microbe== "C0633") %>% 
+  tidyr::gather(location, observed, trap1_catch:legs_up) 
 
 data0185=data %>% 
-  dplyr::select(microbe, flies_in_treat, flies_outside, flies_in_control) %>% 
-  dplyr::filter(microbe== "C0185") %>% 
-  tidyr::gather(location, observed, flies_in_treat:flies_in_control) 
+  dplyr::select(trap1_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
+  dplyr::filter(trap1_microbe== "C0185") %>% 
+  tidyr::gather(location, observed, trap1_catch:legs_up) 
 
 data0189=data %>% 
-  dplyr::select(microbe, flies_in_treat, flies_outside, flies_in_control) %>% 
-  dplyr::filter(microbe== "C0189") %>% 
-  tidyr::gather(location, observed, flies_in_treat:flies_in_control) 
+  dplyr::select(trap1_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
+  dplyr::filter(trap1_microbe== "C0189") %>% 
+  tidyr::gather(location, observed, trap1_catch:legs_up) 
 
 data0634=data %>% 
-  dplyr::select(microbe, flies_in_treat, flies_outside, flies_in_control) %>% 
-  dplyr::filter(microbe== "C0634") %>% 
-  tidyr::gather(location, observed, flies_in_treat:flies_in_control) 
+  dplyr::select(trap1_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
+  dplyr::filter(trap1_microbe== "C0634") %>% 
+  tidyr::gather(location, observed, trap1_catch:legs_up) 
 
 
 ###########################################
 #### Visualizing all the treatment results
 ###########################################
-ggplot(data, aes(x=microbe, y=flies_in_treat))+geom_boxplot()+labs(x = "Microbe ID", y="# of Flies")
+ggplot(data, aes(x=trap1_microbe, y=trap1_catch))+geom_boxplot()+labs(x = "Microbe ID", y="# of Flies")
 
 data1=data %>% 
-  dplyr::select(microbe, flies_in_treat, flies_outside, flies_in_control) %>% 
-  tidyr::gather(location, observed, flies_in_treat:flies_in_control)
-ggplot(data1, aes(x=location, y=observed))+geom_boxplot()+facet_wrap(~microbe)+labs(x = "Treatment", y="# of Flies")+scale_x_discrete(labels=c("flies_in_treat"="Treatment", "flies_in_control"="Control", "flies_outside"="No Choice"))
+  dplyr::select(trap1_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
+  tidyr::gather(location, observed, trap1_catch:legs_up)
+
+ggplot(data1, aes(x=location, y=observed))+geom_boxplot()+facet_wrap(~trap1_microbe)+labs(x = "Treatment", y="# of Flies")+scale_x_discrete(labels=c("flies_in_treat"="Treatment", "flies_in_control"="Control", "flies_outside"="No Choice"))
 
 
 ##########################################################################################
 #Normality Test and Linear models for the effect of each microbe on the flies in treatment
 ##########################################################################################
-mod=lm(flies_in_treat~microbe,data)
+mod=lm(trap1_catch~trap1_microbe,data)
 summary(mod)
 plot(mod)
 mod0621=lm(observed~location,data0621)
@@ -102,18 +102,18 @@ data = read_excel("~/GitHub/BACandBlue/data/BaCandBLUE_Bioassay/RAW_swd_vs_inocu
     sheet = "data4r")
 
 data2=data %>% 
-  mutate(data2,escaped=total_flies-(flies_in_treat+flies_in_control+flies_outside)) %>% 
-  dplyr::select(microbe, flies_in_treat, flies_outside, flies_in_control, escaped) %>% 
-  tidyr::gather(location, observed, flies_in_treat:escaped)
+  mutate(data2,escaped=total_flies-(trap1_catch, flies_outside, trap2_catch, legs_up)) %>% 
+  dplyr::select(trap1_catch, flies_outside, trap2_catch, escaped) %>% 
+  tidyr::gather(location, observed, trap1_catch:escaped)
   
 
 data2=cbind(data2,CI=(CI(data2$observed,ci=0.95))) #CI(x=vector in question, ci=interval to be calculated)
 
 # This creates the plot
-ggplot(data=data2,aes(x=location,y=observed),group=microbe) + 
+ggplot(data=data2,aes(x=location,y=observed),group=trap1_microbe) + 
   ggtitle("Preference Index")+
   theme_classic()+
-  facet_wrap(~microbe)+
+  facet_wrap(~trap1_microbe)+
   #theme(plot.title = element_text(hjust = 0.4),text = element_text(size=20), axis.text.y = element_text(angle=90, hjust=1,color="black"), axis.text.x = element_text(angle=0, hjust=1,color="black"))+ 
   geom_boxplot(fill="grey") + 
   labs(y="Index",y="Observed")+
