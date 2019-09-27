@@ -4,7 +4,7 @@ Name=,D:\Users\jbrown\Documents\GitHub\BACandBlue\data\BACandBLUE_GCdata_FFaeni_
 1=,INT TIC: JTB-E02-199-15.D\data.ms
 2=,PBM Apex
 [INT TIC: JTB-E02-199-15.D\data.ms]
-Time=,Thu Aug 15 09:35:37 2019
+Time=,Fri Sep 20 13:29:18 2019
 Header=,"Peak","R.T.","First","Max","Last","PK  TY","Height","Area","Pct Max","Pct Total"
 1=,  1,  2.288,   18,  25,  39,"PV  ",1109083, 23193431,  1.89,  0.303
 2=,  2,  2.420,   39,  41,  49,"VV  ",  79157,  3310381,  0.27,  0.043
@@ -169,7 +169,7 @@ Header=,"Peak","R.T.","First","Max","Last","PK  TY","Height","Area","Pct Max","P
 161=,161, 35.000, 4041,4052,4063,"PV  ", 283137,  8000924,  0.65,  0.104
 162=,162, 36.994, 4276,4297,4304,"PV 4",  41481,  1377619,  0.11,  0.018
 [PBM Apex]
-Time=,Thu Aug 15 09:35:38 2019
+Time=,Fri Sep 20 13:29:20 2019
 Header=,"PK","RT","Area Pct","Library/ID","Ref","CAS","Qual"
 1=,  1,  2.2879, 0.3026,"Carbon dioxide",    81,"000124-38-9", 4
 2=,  2,  2.4199, 0.0432,"1-Propanamine, N,2-dimethyl-",  1957,"000625-43-4",59

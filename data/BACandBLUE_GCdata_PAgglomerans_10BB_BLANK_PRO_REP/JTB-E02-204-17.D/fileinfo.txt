@@ -1,0 +1,23 @@
+
+           Data File Information
+
+     Data File     : D:\Users\jbrown\Documents\GitHub\BACandBlue\data\BACandBLUE_GCdata_PAgglomerans_10BB_BLANK_P
+...                  RO_REP\JTB-E02-204-17.D\data.ms
+     Operator:     :  JTB
+     Acquired On   :  09 Mar 19  03:19 pm
+     Instrument    :  Arwen
+     Method File   :  Arwen_WAX_40_4_230inlet_AWAKE METHOD.M
+     Sample Name   :  REP01   BAC-01
+     Misc Info     :   
+     Vial Number   :  1
+     Sample Mult.  :  1.00
+     Sample Amount :  0.00
+     Exp. Barcode  :   
+     Act.  Barcode :   
+
+
+
+     Files in Data Directory
+
+
+     * = File time stamp is before latest quant update

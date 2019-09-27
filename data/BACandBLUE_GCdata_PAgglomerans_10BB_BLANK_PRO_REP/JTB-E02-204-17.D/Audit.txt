@@ -1,0 +1,17 @@
+D:\Users\jbrown\Documents\GitHub\BACandBlue\data\BACandBLUE_GCdata_PAgglomerans_10BB_BLANK_PRO_REP\JTB-E02-204-17.D\Audit.txt 
+Created Thu Sep 19 12:49:05 2019
+
+
+ Modified : Thu Sep 19 12:49:05 2019
+ Event    : Header Update
+ Message  : Changed sample name from REP01   BAC-01 to REP04   BAC-01
+ QuantFile: 20190812_BACnBLUE_event16_nist14_wiley275_adams2.RES
+ Severity : 1
+
+
+ Modified : Thu Sep 19 12:49:05 2019
+ Event    : Header Update
+ Message  : Changed misc info from  to 
+ QuantFile: 20190812_BACnBLUE_event16_nist14_wiley275_adams2.RES
+ Severity : 1
+

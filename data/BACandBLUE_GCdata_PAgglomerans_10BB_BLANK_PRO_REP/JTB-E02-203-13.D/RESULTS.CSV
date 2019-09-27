@@ -4,7 +4,7 @@ Name=,D:\Users\jbrown\Documents\GitHub\BACandBlue\data\BACandBLUE_GCdata_PAgglom
 1=,INT TIC: JTB-E02-203-13.D\data.ms
 2=,PBM Apex
 [INT TIC: JTB-E02-203-13.D\data.ms]
-Time=,Thu Sep 05 12:58:34 2019
+Time=,Wed Sep 18 10:52:15 2019
 Header=,"Peak","R.T.","First","Max","Last","PK  TY","Height","Area","Pct Max","Pct Total"
 1=,  1,  2.285,   17,  24,  47,"PV  ",1365410, 33579203,  2.24,  0.450
 2=,  2,  2.499,   47,  51,  55,"VV  ",  80663,  2777266,  0.19,  0.037
@@ -167,7 +167,7 @@ Header=,"Peak","R.T.","First","Max","Last","PK  TY","Height","Area","Pct Max","P
 159=,159, 34.997, 4044,4051,4071,"VV 2", 333511, 10308683,  0.69,  0.138
 160=,160, 35.448, 4100,4107,4114,"PV 2",  21926,   886276,  0.06,  0.012
 [PBM Apex]
-Time=,Thu Sep 05 12:58:36 2019
+Time=,Wed Sep 18 10:52:16 2019
 Header=,"PK","RT","Area Pct","Library/ID","Ref","CAS","Qual"
 1=,  1,  2.2846, 0.4499,"Carbon dioxide",    81,"000124-38-9", 4
 2=,  2,  2.4989, 0.0372,"2-Pentanamine, 4-methyl-",  4227,"000108-09-8",59

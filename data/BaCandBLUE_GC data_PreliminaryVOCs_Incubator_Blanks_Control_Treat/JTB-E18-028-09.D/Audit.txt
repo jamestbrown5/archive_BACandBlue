@@ -1,0 +1,17 @@
+C:\MassHunter\GCMS\1\data\JTB-E18\JTB-E18-028-09.D\Audit.txt 
+Created Thu Sep 19 15:31:00 2019
+
+
+ Modified : Thu Sep 19 15:31:00 2019
+ Event    : Header Update
+ Message  : Changed sample name from  TREAT  V  BLANK   BAC-01 to BLANK  V  BLANK   BAC-01
+ QuantFile: Arwen_WAX_40_4_230inlet_AWAKE METHOD.RES
+ Severity : 1
+
+
+ Modified : Thu Sep 19 15:31:00 2019
+ Event    : Header Update
+ Message  : Changed misc info from  to 
+ QuantFile: Arwen_WAX_40_4_230inlet_AWAKE METHOD.RES
+ Severity : 1
+
