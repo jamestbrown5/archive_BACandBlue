@@ -62,6 +62,7 @@ data0633_0621=data %>%
   dplyr::filter(trap1_microbe== "C0633" & trap2_microbe== "C0621") %>% 
   tidyr::gather(location, observed, trap1_catch:legs_up) 
 
+
 ###########################################
 #### Visualizing all the treatment results#
 ###########################################
