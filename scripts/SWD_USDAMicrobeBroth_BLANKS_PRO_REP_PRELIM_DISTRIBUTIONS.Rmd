@@ -1,0 +1,239 @@
+---
+title: "SWD Choice Assay 10/15/2019 - 11/1/2019"
+author: "Brown, JT"
+date: "October 28, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+#install.packages("tidyr")
+#install.packages("Rmisc")
+library(Rmisc)
+library(tidyr)
+library(readxl)
+library(ggplot2)
+library(boot)
+
+data = read_excel("~/GitHub/BACandBlue/data/BaCandBLUE_Bioassay/SWD_ChoiceAssay_USDA_prelim.xlsx")
+#View(data)
+```
+
+##Subsetting data to look at the relationship between isolate and SWD behaviors
+```{r}
+#####################################################################################
+##Intermittent Fly Behavior | 2H-48H Microbe Incubation | Flies Starved for 24H    ##
+#####################################################################################
+data_starveFAENI=data %>% 
+  dplyr::select(arena,start,trap1_microbe, trap1_catch_02H,trap1_catch_24H, trap1_catch_48H,trap2_catch_02H,trap2_catch_24H,trap2_catch_48H) %>% 
+  dplyr::filter(trap1_microbe=="C0621") %>% 
+  dplyr::filter(start=="20191015") %>% 
+  tidyr::gather(location, observed, trap1_catch_02H:trap2_catch_48H) 
+`
+ggplot(data_starveFAENI, aes(x=location,y=observed))+
+  geom_boxplot()+
+  labs(x = "TIME", y="# of Flies")+
+  scale_x_discrete(limits=c("trap1_catch02H","trap2_catch02H", "trap1_catch_24H", "trap2_catch_24H", "trap1_catch_48H","trap2_catch_48H"),
+                      labels=c("2", "C2","24", "C24","48", "C48"))
+
+
+#####################################################################################
+##Intermittent Fly Behavior | 2H-48H Microbe Incubation | Flies NOT Starved        ##
+#####################################################################################
+data_no_starveFAENI=data %>% 
+  dplyr::select(arena,start,trap1_microbe, trap1_catch_02H,trap1_catch_24H, trap1_catch_48H,trap2_catch_02H,trap2_catch_24H,trap2_catch_48H) %>% 
+  dplyr::filter(trap1_microbe=="C0621") %>% 
+  dplyr::filter(start!="20191015") %>% 
+  dplyr::filter(start!="20191029") %>% 
+  tidyr::gather(location, observed, trap1_catch_02H:trap2_catch_48H) 
+
+ggplot(data_no_starveFAENI, aes(x=location,y=observed))+
+  geom_boxplot()+
+  labs(x = "TIME", y="# of Flies")+
+  scale_x_discrete(limits=c("trap1_catch02H","trap2_catch02H", "trap1_catch_24H", "trap2_catch_24H", "trap1_catch_48H","trap2_catch_48H"),
+                      labels=c("2", "C2","24", "C24","48", "C48"))
+
+data_no_starveAGGLORMERANS=data %>% 
+  dplyr::select(arena,start,trap1_microbe, trap1_catch_02H,trap1_catch_24H, trap1_catch_48H,trap2_catch_02H,trap2_catch_24H,trap2_catch_48H) %>% 
+  dplyr::filter(trap1_microbe=="C0633") %>% 
+  dplyr::filter(start!="20191015") %>% 
+  dplyr::filter(start!="20191029") %>% 
+  tidyr::gather(location, observed, trap1_catch_02H:trap2_catch_48H) 
+
+ggplot(data_no_starveAGGLORMERANS, aes(x=location,y=observed))+
+  geom_boxplot()+
+  labs(x = "TIME", y="# of Flies")+
+  scale_x_discrete(limits=c("trap1_catch02H","trap2_catch02H", "trap1_catch_24H", "trap2_catch_24H", "trap1_catch_48H","trap2_catch_48H"),
+                      labels=c("2", "C2","24", "C24","48", "C48"))
+
+
+
+#################################################################################
+##Testing Fly Behavior after 24H Expoure to Microbe | Flies Starved Before Assay#
+#################################################################################
+
+data0633=data %>% 
+  dplyr::select(start,arena,trap1_microbe, trap2_microbe,trap1_catch_24H, trap2_catch_24H,flies_outside) %>% 
+  dplyr::filter(trap1_microbe== "C0633") %>% 
+  dplyr::filter(start!="20191022") %>% 
+  dplyr::filter(start!="20191023") %>% 
+  tidyr::gather(location, observed, trap1_catch_24H:flies_outside) 
+
+ggplot(data0633, aes(x=location, y=observed))+geom_boxplot()+labs(x = "Microbe ID", y="# of Flies")+
+  scale_x_discrete(breaks=c("flies_outside","trap1_catch_24H","trap2_catch_24H"),
+                      labels=c("No Choice", "F. faeni 24H","Control 24H"))
+
+data0621=data %>% 
+  dplyr::select(start,arena,trap1_microbe, trap2_microbe,trap1_catch_24H, trap2_catch_24H, flies_outside) %>% 
+  dplyr::filter(trap1_microbe== "C0621") %>% 
+  tidyr::gather(location, observed, trap1_catch_24H:flies_outside) 
+
+ggplot(data0621, aes(x=location, y=observed))+geom_boxplot()+labs(x = "Microbe ID", y="# of Flies")+
+  scale_x_discrete(breaks=c("flies_outside","trap1_catch_24H","trap2_catch_24H"),
+                      labels=c("No Choice", "P. agglomerans 24H","Control 24H"))
+
+  
+```
+
+```{r}
+data0633_0621=data %>% 
+  dplyr::select(start_date,trap1_microbe, trap2_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
+  dplyr::filter(trap1_microbe== "C0633" & trap2_microbe== "C0621") %>% 
+  tidyr::gather(location, observed, trap1_catch:legs_up) 
+
+ggplot(data0633_0621, aes(x=location, y=observed))+geom_boxplot()+labs(x = "Microbe ID", y="# of Flies")+
+  scale_x_discrete(breaks=c("flies_outside", "legs_up", "trap1_catch", "trap2_catch"),
+                      labels=c("No Choice", "Dead", "P. agglomerans", "F. faeni"))
+
+data0633and0621_0621=data %>% 
+  dplyr::select(start_date,trap1_microbe, trap2_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
+  dplyr::filter(trap1_microbe== "C0633+C0621" & trap2_microbe== "C0621") %>% 
+  tidyr::gather(location, observed, trap1_catch:legs_up) 
+
+ggplot(data0633and0621_0621, aes(x=location, y=observed))+geom_boxplot()+labs(x = "Microbe ID", y="# of Flies")+
+  scale_x_discrete(breaks=c("flies_outside", "legs_up", "trap1_catch", "trap2_catch"),
+                      labels=c("No Choice", "Dead", "P. agglomerans and F. Faeni", "F. faeni"))
+
+data0633and0621_0633=data %>% 
+  dplyr::select(start_date,trap1_microbe, trap2_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
+  dplyr::filter(trap1_microbe== "C0633+C0621" & trap2_microbe== "C0633") %>% 
+  tidyr::gather(location, observed, trap1_catch:legs_up) 
+
+ggplot(data0633and0621_0633, aes(x=location, y=observed))+geom_boxplot()+labs(x = "Microbe ID", y="# of Flies")+
+  scale_x_discrete(breaks=c("flies_outside", "legs_up", "trap1_catch", "trap2_catch"),
+                      labels=c("No Choice", "Dead", "P. agglomerans and F. Faeni", "P. agglomerans"))
+
+data0620=data %>% 
+  dplyr::select(start_date,trap1_microbe, trap2_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
+  dplyr::filter(trap1_microbe== "C0620") %>% 
+  tidyr::gather(location, observed, trap1_catch:legs_up)
+
+
+data0185=data %>% 
+  dplyr::select(start_date,trap1_microbe, trap2_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
+  dplyr::filter(trap1_microbe== "C0185") %>% 
+  tidyr::gather(location, observed, trap1_catch:legs_up) 
+
+data0189=data %>% 
+  dplyr::select(start_date,trap1_microbe, trap2_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
+  dplyr::filter(trap1_microbe== "C0189") %>% 
+  tidyr::gather(location, observed, trap1_catch:legs_up) 
+
+data0634=data %>% 
+  dplyr::select(start_date,trap1_microbe, trap2_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
+  dplyr::filter(trap1_microbe== "C0634") %>% 
+  tidyr::gather(location, observed, trap1_catch:legs_up) 
+
+###########################################
+#### Visualizing all the treatment results#
+###########################################
+labels <- c(C0620="Pseudomonas psychotrans (R)",C0621="Frigoribacterium faeni (R)",C0633="Pantoe agglomerans (A)",C0185="Bacillus subtillis (A)",C0189="Bacillus siamensis (R)",C0634="Enterobacteriaceae spp. (R)")
+
+data1=data %>% 
+  dplyr::select(start_date,trap1_microbe, trap2_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
+  tidyr::gather(location, observed, trap1_catch:legs_up)
+
+ggplot(data1, aes(x=location, y=observed))+geom_boxplot()+
+  facet_wrap(start_date~trap1_microbe, labeller=labeller(trap1_microbe=labels))+
+  labs(x = "Treatment", y="# of Flies")+
+  scale_x_discrete(labels=c("flies_in_treat"="Treatment", "flies_in_control"="Control", "flies_outside"="No Choice"))
+
+
+##########################################################################################
+#Normality Test and Linear models for the effect of each microbe on the flies in treatment
+##########################################################################################
+mod=lm(trap1_catch~trap1_microbe,data)
+summary(mod)
+plot(mod)
+mod0621=lm(observed~location,data0621)
+summary(mod0621)
+plot(mod0621)
+mod0620=lm(observed~location,data0620)
+summary(mod0620)
+plot(mod0620)
+mod0633=lm(observed~location,data0633)
+summary(mod0633)
+plot(mod0633)
+mod0185=lm(observed~location,data0185)
+summary(mod0185)
+plot(mod0185)
+mod0189=lm(observed~location,data0189)
+summary(mod0189)
+plot(mod0189)
+mod0634=lm(observed~location,data0634)
+summary(mod0634)
+plot(mod0634)
+```
+
+```{r}
+##########################################
+#Index Plots with 95% confidence itervals
+##########################################
+
+data = read_excel("~/GitHub/BACandBlue/data/BaCandBLUE_Bioassay/data.xlsx")
+
+data2=data %>% 
+  mutate(data2,escaped=total_flies-(trap1_catch+flies_outside+trap2_catch+legs_up)) %>% 
+  dplyr::select(trap1_microbe, trap2_microbe, trap1_catch, flies_outside, trap2_catch, escaped) %>% 
+  tidyr::gather(location, observed, trap1_catch:escaped)
+  
+
+data2=cbind(data2,CI=(CI(data2$observed,ci=0.95))) #CI(x=vector in question, ci=interval to be calculated)
+
+# This creates the plot
+ggplot(data=data2,aes(x=location,y=observed),group=trap1_microbe) + 
+  ggtitle("Preference Index")+
+  theme_classic()+
+  facet_wrap(~trap1_microbe)+
+  #theme(plot.title = element_text(hjust = 0.4),text = element_text(size=20), axis.text.y = element_text(angle=90, hjust=1,color="black"), axis.text.x = element_text(angle=0, hjust=1,color="black"))+ 
+  geom_boxplot(fill="grey") + 
+  labs(y="Index",y="Observed")+
+  ylim(-1.0,1.0)+
+  stat_summary(fun.data = mean_cl_boot, geom = "errorbar", colour = "Red",width=.1, show.legend=TRUE)+
+  stat_summary(fun.y = mean, geom = "point", colour = "Red", show.legend=TRUE)+
+  coord_flip() #Flips the graph on the side
+  #geom_point(data=Infect_means,aes(x=Infect_means[,], colour = "Mean"),shape=21, size=2) +
+  #geom_linerange(data=Infect_mean_ci,aes(xmin=mean-ci,xmax=mean+ci,x=mean,color="95% CI")) +
+  #scale_color_manual(name = "", values = c("red", "red")) +
+  #guides(shape=guide_legend(label.position = "topleft",override.aes = list()))+
+  #guides(shape = guide_legend(override.aes = list(size = 5))) +
+  #scale_color_manual(labels = c(values = c('lightskyblue1', 'lightpink'),'95% CI', 'Mean')) +
+  #Adds boxplot elements
+    #Adds title using the variable title
+  #Centers the title; Adjust the hjust to modify the location
+  #geom_errorbarh(aes(xmin = lower, xmax = upper), width=0.2)
+  #coord_flip()+ #Flips the graph on the side
+  #annotate("text",x=1.35,y=-0.5,label="Mean")+
+  #annotate("text",x=1.3,y=-0.5,label="Median")+
+  #annotate("text",x=1.25,y=-0.5,label="95% CI")+
+  #annotate("pointrange",x=1.35,y=-0.65,ymin = 0.1, ymax = 0.1, colour = "red", size = 0.1)+
+  #annotate("pointrange",x=1.3,y=-0.65,y=-0.65,ymin = -0.4, ymax = -0.6,
+  #         colour = "black", size = 0.4,width=0.05)+
+  #annotate("rect", xmin = 1.3, xmax = 1.3, ymin = -0.6, ymax =-0.7,
+   #        alpha = .2, colour="black",size=0.8)+
+  #annotate("errorbar",x=1.25,y=-0.65,ymin = -0.63, ymax = -0.67,
+    #       colour = "red", size = 0.4,width=0.05)
+
+rm(list=ls())
+
+```

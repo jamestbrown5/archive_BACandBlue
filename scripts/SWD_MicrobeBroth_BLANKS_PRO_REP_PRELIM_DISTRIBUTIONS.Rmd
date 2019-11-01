@@ -31,15 +31,51 @@ data0621=data %>%
   dplyr::filter(trap1_microbe== "C0621") %>% 
   tidyr::gather(location, observed, trap1_catch:legs_up) 
 
-data0620=data %>% 
-  dplyr::select(start_date,trap1_microbe, trap2_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
-  dplyr::filter(trap1_microbe== "C0620") %>% 
-  tidyr::gather(location, observed, trap1_catch:legs_up)
+ggplot(data0621, aes(x=location, y=observed))+geom_boxplot()+labs(x = "Microbe ID", y="# of Flies")+
+  scale_x_discrete(breaks=c("flies_outside", "legs_up", "trap1_catch", "trap2_catch"),
+                      labels=c("No Choice", "Dead", "F. faeni", "Control"))
 
 data0633=data %>% 
   dplyr::select(start_date,trap1_microbe, trap2_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
   dplyr::filter(trap1_microbe== "C0633") %>% 
   tidyr::gather(location, observed, trap1_catch:legs_up) 
+
+ggplot(data0633, aes(x=location, y=observed))+geom_boxplot()+labs(x = "Microbe ID", y="# of Flies")+
+  scale_x_discrete(breaks=c("flies_outside", "legs_up", "trap1_catch", "trap2_catch"),
+                      labels=c("No Choice", "Dead", "P. agglomerans", "Control"))
+
+data0633_0621=data %>% 
+  dplyr::select(start_date,trap1_microbe, trap2_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
+  dplyr::filter(trap1_microbe== "C0633" & trap2_microbe== "C0621") %>% 
+  tidyr::gather(location, observed, trap1_catch:legs_up) 
+
+ggplot(data0633_0621, aes(x=location, y=observed))+geom_boxplot()+labs(x = "Microbe ID", y="# of Flies")+
+  scale_x_discrete(breaks=c("flies_outside", "legs_up", "trap1_catch", "trap2_catch"),
+                      labels=c("No Choice", "Dead", "P. agglomerans", "F. faeni"))
+
+data0633and0621_0621=data %>% 
+  dplyr::select(start_date,trap1_microbe, trap2_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
+  dplyr::filter(trap1_microbe== "C0633+C0621" & trap2_microbe== "C0621") %>% 
+  tidyr::gather(location, observed, trap1_catch:legs_up) 
+
+ggplot(data0633and0621_0621, aes(x=location, y=observed))+geom_boxplot()+labs(x = "Microbe ID", y="# of Flies")+
+  scale_x_discrete(breaks=c("flies_outside", "legs_up", "trap1_catch", "trap2_catch"),
+                      labels=c("No Choice", "Dead", "P. agglomerans and F. Faeni", "F. faeni"))
+
+data0633and0621_0633=data %>% 
+  dplyr::select(start_date,trap1_microbe, trap2_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
+  dplyr::filter(trap1_microbe== "C0633+C0621" & trap2_microbe== "C0633") %>% 
+  tidyr::gather(location, observed, trap1_catch:legs_up) 
+
+ggplot(data0633and0621_0633, aes(x=location, y=observed))+geom_boxplot()+labs(x = "Microbe ID", y="# of Flies")+
+  scale_x_discrete(breaks=c("flies_outside", "legs_up", "trap1_catch", "trap2_catch"),
+                      labels=c("No Choice", "Dead", "P. agglomerans and F. Faeni", "P. agglomerans"))
+
+data0620=data %>% 
+  dplyr::select(start_date,trap1_microbe, trap2_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
+  dplyr::filter(trap1_microbe== "C0620") %>% 
+  tidyr::gather(location, observed, trap1_catch:legs_up)
+
 
 data0185=data %>% 
   dplyr::select(start_date,trap1_microbe, trap2_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
@@ -56,19 +92,10 @@ data0634=data %>%
   dplyr::filter(trap1_microbe== "C0634") %>% 
   tidyr::gather(location, observed, trap1_catch:legs_up) 
 
-
-data0633_0621=data %>% 
-  dplyr::select(start_date,trap1_microbe, trap2_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
-  dplyr::filter(trap1_microbe== "C0633" & trap2_microbe== "C0621") %>% 
-  tidyr::gather(location, observed, trap1_catch:legs_up) 
-
-
 ###########################################
 #### Visualizing all the treatment results#
 ###########################################
 labels <- c(C0620="Pseudomonas psychotrans (R)",C0621="Frigoribacterium faeni (R)",C0633="Pantoe agglomerans (A)",C0185="Bacillus subtillis (A)",C0189="Bacillus siamensis (R)",C0634="Enterobacteriaceae spp. (R)")
-
-ggplot(data, aes(x=trap1_microbe, y=trap1_catch))+geom_boxplot()+labs(x = "Microbe ID", y="# of Flies")
 
 data1=data %>% 
   dplyr::select(start_date,trap1_microbe, trap2_microbe, trap1_catch, flies_outside, trap2_catch,legs_up) %>% 
@@ -110,12 +137,12 @@ plot(mod0634)
 ##########################################
 #Index Plots with 95% confidence itervals
 ##########################################
-data = read_excel("~/GitHub/BACandBlue/data/BaCandBLUE_Bioassay/RAW_swd_vs_inoculated_blueberryjuice.xlsx", 
-    sheet = "data4r")
+
+data = read_excel("~/GitHub/BACandBlue/data/BaCandBLUE_Bioassay/data.xlsx")
 
 data2=data %>% 
-  mutate(data2,escaped=total_flies-(trap1_catch, flies_outside, trap2_catch, legs_up)) %>% 
-  dplyr::select(trap1_catch, flies_outside, trap2_catch, escaped) %>% 
+  mutate(data2,escaped=total_flies-(trap1_catch+flies_outside+trap2_catch+legs_up)) %>% 
+  dplyr::select(trap1_microbe, trap2_microbe, trap1_catch, flies_outside, trap2_catch, escaped) %>% 
   tidyr::gather(location, observed, trap1_catch:escaped)
   
 
