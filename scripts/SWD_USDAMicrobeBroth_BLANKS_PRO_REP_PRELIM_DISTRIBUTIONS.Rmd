@@ -29,7 +29,7 @@ data_starveFAENI=data %>%
   dplyr::filter(trap1_microbe=="C0621") %>% 
   dplyr::filter(start=="20191015") %>% 
   tidyr::gather(location, observed, trap1_catch_02H:trap2_catch_48H) 
-`
+
 ggplot(data_starveFAENI, aes(x=location,y=observed))+
   geom_boxplot()+
   labs(x = "TIME", y="# of Flies")+

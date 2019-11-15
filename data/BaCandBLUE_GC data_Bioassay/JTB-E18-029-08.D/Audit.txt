@@ -1,0 +1,17 @@
+C:\MassHunter\GCMS\1\data\JTB-E18\JTB-E18-029-08.D\Audit.txt 
+Created Tue Oct 01 15:34:27 2019
+
+
+ Modified : Tue Oct 01 15:34:27 2019
+ Event    : Header Update
+ Message  : Changed sample name from BAC-03     TREAT  V  CONTROL   to BAC-01     TREAT  V  CONTROL  
+ QuantFile: Arwen_WAX_40_4_230inlet_AWAKE METHOD.RES
+ Severity : 1
+
+
+ Modified : Tue Oct 01 15:34:27 2019
+ Event    : Header Update
+ Message  : Changed misc info from  to 
+ QuantFile: Arwen_WAX_40_4_230inlet_AWAKE METHOD.RES
+ Severity : 1
+
