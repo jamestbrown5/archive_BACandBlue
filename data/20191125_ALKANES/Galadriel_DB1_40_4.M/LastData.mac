@@ -1,0 +1,6 @@
+﻿Name LastDataFile
+  LastDataPath$ = "C:\MassHunter\GCMS\1\data\CCR-E17\Pollen Addition\" 
+  LastDataFile$ = "DB1_MR_HUN_d2_r3.D" 
+  LastDataSize  = 5565582
+  remove LastDataFile
+  return

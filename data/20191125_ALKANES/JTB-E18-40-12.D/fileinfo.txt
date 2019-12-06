@@ -1,0 +1,22 @@
+
+           Data File Information
+
+     Data File     : C:\MassHunter\GCMS\1\data\20191125_ALKANES\JTB-E18-40-12.D\data.ms
+     Operator:     :  JTB
+     Acquired On   :  26 Nov 2019  07:03    
+     Instrument    :  Arwen
+     Method File   :  Arwen_WAX_40_4_230inlet_AWAKE METHOD.M
+     Sample Name   :  n-alkane std C7-C30
+     Misc Info     :  0.3 uL injection
+     Vial Number   :  1
+     Sample Mult.  :  1.00
+     Sample Amount :  0.00
+     Exp. Barcode  :   
+     Act.  Barcode :   
+
+
+
+     Files in Data Directory
+
+
+     * = File time stamp is before latest quant update

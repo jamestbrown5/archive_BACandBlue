@@ -1,0 +1,17 @@
+!*************************************************************************
+! File   : DEUSER.MAC for OFN_SN.M method
+! Macros : CustomAnalysis
+!*************************************************************************
+
+NAME CustomAnalysis
+
+    FILE _datapath$+_datafile$
+    TIC
+    R0 = X
+!    Macro _methpath$+_methfile$+"\HCB_SN.MAC"
+!    SN 272.0,-1,   4.9, 0.3, 0,1,"OFN"  ! Auto search for OFN ~5.0 min
+    Macro _exepath$+"yanosn.mac"	 ! dwp 8/20/03 to use Bimini SN Calculations
+    SN_OFN
+    REMOVE CustomAnalysis
+RETURN
+

@@ -1,0 +1,39 @@
+name msacq2	! for phft.m
+
+local inifile$,inisect$,i,pw
+inifile$=_methpath$+_methfile$+"\method.ini"
+inisect$="PHFT"
+
+if check("variable","dynamuoff")=0
+	return
+endif
+
+print dynamuoff[1],dynamuoff[2],dynamuoff[3],dynamuoff[4],dynamuoff[5],dynamuoff[6],dynamuoff[7],dynamuoff[8]
+i=1
+while i<=dynlen
+	setinistring(inifile$,inisect$,"AMUOFFSET_"+val$(dynmass[i]),val$(dynamuoff[i]))
+	i=i+1
+endwhile
+
+inifile$=_datapath$+_datafile$+"\pre_post.ini"
+inisect$="PFHT"
+i=1
+while i<=dynlen
+	setinistring(inifile$,inisect$,"AMUOFFSET_"+val$(dynmass[i]),val$(dynamuoff[i]))
+	i=i+1
+endwhile
+inifile$=_datapath$+_datafile$+"\pre_post.ini"
+inisect$="PFHT"
+setuser 0,pw
+setinistring(inifile$,inisect$,"PW_target",val$(pw))
+setinistring(inifile$,inisect$,"DynMass[8]",val$(dynmass[8]))
+setinistring(inifile$,inisect$,"AMUOFFSET[8]",val$(dynamuoff[8]))
+
+
+return
+
+name auto_msacq2
+if _cfrmode=0
+	msacq2
+endif
+return

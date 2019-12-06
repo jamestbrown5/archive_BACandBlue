@@ -1,0 +1,14 @@
+!*************************************************************************
+! File   : DEUSER.MAC for HCB_SN.M method
+! Macros : CustomAnalysis
+!*************************************************************************
+
+NAME CustomAnalysis
+
+    FILE _datapath$+_datafile$
+    TIC
+    R0 = X
+    macro _exepath$+"pfhtrpt.mac",go
+    REMOVE CustomAnalysis
+RETURN
+

@@ -1,0 +1,11 @@
+NAME METHINFO
+  EditMethPanel 1,1,1
+  MethInfoPanel 0,0,1,0,0,,,,,,
+  METHCOMMENT0$ = ""
+  METHCOMMENT1$ = ""
+  METHCOMMENT2$ = ""
+  METHCOMMENT3$ = ""
+  IF CHECK("Command", "LOADTOPMETHOD") = 1
+    LOADTOPMETHOD
+  ENDIF
+  REMOVE METHINFO

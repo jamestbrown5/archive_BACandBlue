@@ -1,0 +1,17 @@
+C:\MassHunter\GCMS\1\data\20191125_ALKANES\JTB-E18-40-12.D\Audit.txt 
+Created Tue Nov 26 08:12:18 2019
+
+
+ Modified : Tue Nov 26 08:12:18 2019
+ Event    : Header Update
+ Message  : Changed sample name from n-alkane std C7-C30 to n-alkane std C7-C30
+ QuantFile: Arwen_WAX_40_4_230inlet_AWAKE METHOD.RES
+ Severity : 1
+
+
+ Modified : Tue Nov 26 08:12:18 2019
+ Event    : Header Update
+ Message  : Changed misc info from 0.3 uL injection to 0.4 uL injection
+ QuantFile: Arwen_WAX_40_4_230inlet_AWAKE METHOD.RES
+ Severity : 1
+

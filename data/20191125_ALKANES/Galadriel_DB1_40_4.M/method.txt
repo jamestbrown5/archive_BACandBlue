@@ -1,0 +1,12 @@
+﻿Additional Information for EI30MSSMan.M
+File created Fri May 27 09:58:48 2016
+
+Method : C:\MassHunter\GCMS\1\methods\RGB_corn_wax_01.M
+Renamed: C:\MassHunter\GCMS\1\methods\Wax_60m_4oCmin_200 generic.M
+Tue Oct 04 08:18:37 2016
+-----------------------------------------
+
+Method : C:\MassHunter\GCMS\1\methods\Wax_60m_4oCmin_200 generic.M
+Renamed: C:\MassHunter\GCMS\1\methods\Galadriel_40_4.M
+Mon Oct 17 15:15:45 2016
+-----------------------------------------

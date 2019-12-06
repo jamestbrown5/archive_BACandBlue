@@ -1,0 +1,17 @@
+C:\MassHunter\GCMS\1\data\20191125_ALKANES\JTB-E18-40-07.D\Audit.txt 
+Created Mon Nov 25 14:52:57 2019
+
+
+ Modified : Mon Nov 25 14:52:58 2019
+ Event    : Header Update
+ Message  : Changed sample name from 1:1:1   PENTANE  HEXANE  HEPTANE  0.2UL to 1:1:1   PENTANE  HEXANE  HEPTANE  0.2UL
+ QuantFile: Arwen_WAX_40_4_230inlet_AWAKE METHOD.RES
+ Severity : 1
+
+
+ Modified : Mon Nov 25 14:52:58 2019
+ Event    : Header Update
+ Message  : Changed misc info from  to 
+ QuantFile: Arwen_WAX_40_4_230inlet_AWAKE METHOD.RES
+ Severity : 1
+

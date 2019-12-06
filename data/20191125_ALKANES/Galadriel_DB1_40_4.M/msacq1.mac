@@ -1,0 +1,78 @@
+name msacq1	! for phft.m
+
+if instrparm("maxmass") <801
+	generate_error 0,"This method intended for High Mass Instruments only."
+endif
+
+local inifile$,inisect$,timeout,thistime,lasttime,corr,path$,file$,pw
+timeout=10
+inifile$=_methpath$+_methfile$+"\method.ini"
+inisect$="PHFT"
+
+lasttime=val(getinistring$(inifile$,inisect$,"Time"))
+
+thistime=time()
+print using "########## ########## ##########",thistime,lasttime,thistime-lasttime
+if abs(thistime-lasttime)>3600	! ignore this if it is more than an hour old.
+	corr=0
+else
+	corr=val(getinistring$(inifile$,inisect$,"Correction"))
+endif
+
+
+
+!!if corr=0		! no correction or never run
+!!	return
+!!endif
+
+path$=getinistring$(inifile$,inisect$,"Datapath")
+file$=getinistring$(inifile$,inisect$,"DataFile")
+
+OK=0
+isLENSramped "AMUOFFSET",ok
+
+
+macro _exepath$+"dynatune.mac"
+dynarray
+dynsetmass
+if OK=1
+  dynamuoffread
+  print dynamuoff[1],dynamuoff[2],dynamuoff[3],dynamuoff[4],dynamuoff[5],dynamuoff[6],dynamuoff[7],dynamuoff[8]
+else
+  local i,j
+  msparm AMUOFFSET,j
+
+  i=1
+  while i<=dynlen
+	dynamuoff[i]=j
+	i=i+1
+  endwhile
+endif
+
+print "Correction determined from ",_datapath$+_datafile$
+lastprint$=""
+print using "Change AMUOFFSET from ### to ###?",dynamuoff[8],dynamuoff[8]+corr
+if corr<>0
+  alert lastprint$,4,,timeout		! if it times out; answer is NO.
+  if _button=0
+	return
+  endif
+endif
+setinistring(inifile$,inisect$,"Correction","0")	! done, don't do it again.
+dynamuoff[8]=dynamuoff[8]+corr
+dynAMUOFFSET
+saveconfig tunefilename$
+loadmethod _methpath$+_methfile$
+print "Tune file updated: ",tunefilename$
+inifile$=_datapath$+_datafile$+"\pre_post.ini"
+inisect$="PFHT"
+setuser 0,pw
+setinistring(inifile$,inisect$,"PW_target",val$(pw))
+setinistring(inifile$,inisect$,"AMUOFFSET[8]",val$(dynamuoff[8]))
+return
+
+name auto_msacq1
+if _cfrmode=0
+	msacq1
+endif
+return
